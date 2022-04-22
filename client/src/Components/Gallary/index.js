@@ -1,20 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from '../Navbar';
 import EventsCard from './EventsCard'
-import Search from './Search';
 import TabsSimple from './TabsSimple';
+import Footer from '../Footer'
 import { data } from './data'
-import src from '../../Images/navrasa.png'
-import FilterBar from './FilterBar';
-import { queryByRole } from '@testing-library/react';
-// [
-//     {
-//         name : 
-//         avatar : 
-//         id :
-//         branch : ""
-//     }
-// ]
 
 
 
@@ -48,7 +37,7 @@ function Gallery() {
                 {/* <Navbar/> */}
                 {/* <FilterBar day={day} setDay={setDay} query={query} setQuery={setQuery} /> */}
                 <div className='flex justify-center flex-col items-center gap-8 lg:gap-14 pt-10 lg:pt-20'>
-                    <h1 className='text-6xl md:text-6xl tracking-widest  font-bold text-[#EDEDED]'>The Wall of Incridea</h1>
+                    <h1 className='text-6xl md:text-6xl tracking-widest  font-bold text-center text-[#EDEDED]'>The Wall of Incridea</h1>
                     {/* <FilterBar {...{ day, setDay, query, setQuery }} /> */}
                     <TabsSimple  {...{ branch, setBranch }} />
 
@@ -67,6 +56,7 @@ function Gallery() {
 
             </div >
 
+            <Footer/>
         </>
 
     )
