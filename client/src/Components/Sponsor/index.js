@@ -28,7 +28,7 @@ function Sponsor() {
     return (
 
         <div className='bg-gradient-to-r from-rose-100 to-teal-100 '>
-            <Navbar />
+            <Navbar tab="sponsor" />
             <div className='bg-gradient-to-r from-rose-100 to-teal-100 p-5 sm:p-10'>
                 <div className='flex justify-center flex-col items-center gap-8 lg:gap-14 pt-10 lg:pt-20'>
                     <h1 className='text-6xl md:text-6xl tracking-widest  font-bold text-gray-700'>Our Sponsors</h1>
