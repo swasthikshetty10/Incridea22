@@ -8,6 +8,10 @@ function Home() {
         <>
         <Navbar tab="home" />
         {/* <Footer/> */}
+        <div className='bg-[#171717]' > 
+        
+        
+        </div>
 
         </>
     )

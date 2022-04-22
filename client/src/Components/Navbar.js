@@ -8,14 +8,14 @@ function Navbar({tab}) {
     return (
         <>
 
-            <nav className="bg-none border-gray-200 px-2 sm:px-4 py-2.5 rounded ">
+            <nav className="bg-[#171717] px-2 sm:px-4 py-2.5 ">
                 <div className="container flex flex-wrap justify-between items-center mx-auto">
                     <Link to="/" className="flex items-center">
                         <img src={logo} className="mx-3 h-6 sm:h-9" alt="Incridea Logo"/>
                             {/* <span className="self-center text-xl font-semibold whitespace-nowrap ">Incridea</span> */}
                     </Link>
                     <div className="flex md:order-2">
-                    <button type="button" class="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"> <Link to="/login" >Sign in</Link> </button>
+                    <button type="button" class="text-white bg-[#DA0037] focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-none text-sm px-5 py-2.5 text-center mr-2 mb-2"> <Link to="/login" >Sign in</Link> </button>
 
                         <button data-collapse-toggle="mobile-menu-4" type="button" className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 " aria-controls="mobile-menu-4" aria-expanded="false">
                             <span className="sr-only">Open main menu</span>
@@ -26,20 +26,20 @@ function Navbar({tab}) {
                     <div className="hidden justify-between items-center w-full md:flex md:w-auto md:order-1" id="mobile-menu-4">
                         <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
                             <li>
-                                <Link to="/" className={`block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ${tab ==='home' ? 'text-blue-700' :'text-gray-700' } ` } aria-current="page">Home</Link>
+                                <Link to="/" className={`block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#DA0037] md:p-0 ${tab ==='home' ? 'text-[#DA0037]' :'text-[#EDEDED]' } ` } aria-current="page">Home</Link>
                             </li>
                             <li>
-                                <Link to="/events" className={`block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ${tab ==='events' ? 'text-blue-700' :'text-gray-700' } ` }>Events</Link>
+                                <Link to="/events" className={`block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#DA0037] md:p-0 ${tab ==='events'? 'text-[#DA0037]' :'text-[#EDEDED]' } ` }>Events</Link>
                             </li>
                             <li>
-                                <Link to="/gallery" className={`block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ${tab ==='gallery' ? 'text-blue-700' :'text-gray-700' } ` }>Gallery</Link>
+                                <Link to="/gallery" className={`block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#DA0037] md:p-0 ${tab ==='gallery'? 'text-[#DA0037]' :'text-[#EDEDED]' } ` }>Gallery</Link>
                             </li>
                             <li>
-                                <Link to="/sponsors" className={`block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ${tab ==='sponsor' ? 'text-blue-700' :'text-gray-700' } ` }>Sponsors</Link>
+                                <Link to="/sponsors" className={`block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#DA0037] md:p-0 ${tab ==='sponsor'? 'text-[#DA0037]' :'text-[#EDEDED]' } ` }>Sponsors</Link>
                             </li>
                             
                             <li>
-                                <Link to="/events" className={`block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ${tab ==='about' ? 'text-blue-700' :'text-gray-700' } ` }>About us</Link>
+                                <Link to="/events" className={`block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#DA0037] md:p-0 ${tab ==='about'? 'text-[#DA0037]' :'text-[#EDEDED]' } ` }>About us</Link>
                             </li>
                             
                         </ul>

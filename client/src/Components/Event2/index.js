@@ -37,16 +37,14 @@ function Event2() {
     return (
 
         <>
-            <div className='bg-gradient-to-r from-rose-100 to-teal-100 '>
                 <Navbar tab="events" />
-                <div className='bg-gradient-to-r from-rose-100 to-teal-100 p-5 sm:p-10'>
+                <div className='bg-[#171717] p-5 sm:p-10'>
                     {/* <Navbar/> */}
                     <FilterBar day={day} setDay={setDay} query={query} setQuery={setQuery} />
                     <div className='flex justify-center flex-col items-center gap-8 lg:gap-14 pt-10 lg:pt-20'>
-                        <h1 className='text-6xl md:text-6xl tracking-widest  font-bold text-gray-700'>EVENTS</h1>
+                        <h1 className='text-6xl md:text-6xl tracking-widest  font-bold text-[#EDEDED]'>EVENTS</h1>
                         {/* <FilterBar {...{ day, setDay, query, setQuery }} /> */}
                         <TabsSimple  {...{ branch, setBranch }} />
-
 
                         <div className='max-w-screen-xl flex flex-wrap justify-center gap-x-10 gap-y-10 '>
 
@@ -61,7 +59,6 @@ function Event2() {
 
 
                 </div >
-            </div >
             {/* <Footer /> */}
         </>
 

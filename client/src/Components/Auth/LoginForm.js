@@ -57,6 +57,7 @@ const LoginForm = () => {
 						</Div>
 						<Input type='tel' placeholder='USN' />
 						<Input type='password' placeholder='Password' />
+						<Input type='password' placeholder='Confirm Password' />
 						<Payment amount={amt} />
 					</FormCustom>
 				</SignUpContainer>
