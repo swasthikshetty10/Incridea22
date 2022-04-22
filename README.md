@@ -1,2 +1,2 @@
-# Incridea22
-The official Website for Incridea 2022, NMAMIT - Nitte
+# Incridea-Website-22
+A Website using React and Firebase for Incridea 2022
