@@ -20,7 +20,8 @@ export default function TabsSimple({ branch, setBranch }) {
       <div className="text-sm font-medium text-center text-gray-500  dark:border-gray-700">
         <ul className="flex flex-wrap justify-center -mb-px">
           {
-            ["CORE","BT","CV", "CSE","EEE","ECE","ME","ISE" ].map((ele , i) =>
+            // ["CORE","BT","CV", "CSE","EEE","ECE","ME","ISE" ].map((ele , i) =>
+            ["2020","2019","2018" ].map((ele , i) =>
             
             
             <li className="mr-2" key={i}>

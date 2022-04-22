@@ -1,8 +1,12 @@
 import React from 'react'
+import Navbar from '../Navbar'
 
 function Home() {
     return (
-        <div className='text-blue-500'>Home page</div>
+
+        <>
+        <Navbar/>
+        </>
     )
 }
 
