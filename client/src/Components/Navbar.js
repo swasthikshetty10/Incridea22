@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import {GiHamburgerMenu} from "react-icons/gi";
 
 import logo from '../Images/logo.png';
 
@@ -8,7 +9,7 @@ function Navbar({tab}) {
     return (
         <>
 
-            <nav className="bg-[#171717] px-2 sm:px-4 py-2.5 ">
+            <nav className="bg-[#171717] px-2 sm:px-4 py-6 ">
                 <div className="container flex flex-wrap justify-between items-center mx-auto">
                     <Link to="/" className="flex items-center">
                         <img src={logo} className="mx-3 h-6 sm:h-9" alt="Incridea Logo"/>
