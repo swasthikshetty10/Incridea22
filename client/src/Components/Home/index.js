@@ -8,7 +8,9 @@ function Home() {
   };
   return (
     <>
-      <Navbar />
+      <Navbar tab="home" />
+      {/* <Footer/> */}
+      <div className="bg-[#171717]"></div>
       <div className="bg-black">
         <button
           className="text-white"

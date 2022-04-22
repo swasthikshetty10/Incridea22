@@ -7,6 +7,10 @@ import Sponser from "./Components/Sponser";
 import Profile from "./Components/Profile";
 import Team from "./Components/Team";
 
+import Sponsor from "./Components/Sponsor";
+import PaymentStatus from "./Components/Payments/PaymentStatus";
+import FormVaidation from "./Components/Auth/FormValidation";
+
 import "./index.css";
 import Navbar from "./Components/Navbar";
 
@@ -21,6 +25,9 @@ function App() {
         <Route exact path="/Sponsers" element={<Sponser />} />
         <Route exact path="/profile" element={<Profile />} />
         <Route exact path="/team" element={<Team />} />
+
+        <Route path="/login" element={<FormVaidation />} />
+        <Route exact path="/status/:orderId" element={<PaymentStatus />} />
       </Routes>
     </div>
   );

@@ -20,11 +20,11 @@ export default function TabsSimple({ branch, setBranch }) {
       <div className="text-sm font-medium text-center text-gray-500  dark:border-gray-700">
         <ul className="flex flex-wrap justify-center -mb-px">
           {
-            ["CORE","BT","CV", "CSE","EEE","ECE","ME","ISE" ].map((ele , i) =>
+            ["CORE","BT","CV", "CSE","ECE","EEE","ME","ISE" ].map((ele , i) =>
             
             
             <li className="mr-2" key={i}>
-            <a href="#" onClick={(e)=>{setBranch(ele)} } className={"inline-block p-4 rounded-t-lg border-b-2 border-gray-600 border-transparent hover:text-blue-600 hover:border-blue-600  dark:hover:text-blue-500 " }>{ele}</a>
+            <a href="#" onClick={(e)=>{setBranch(ele)} } className={"inline-block p-4 rounded-t-lg border-b-2 border-gray-600 border-transparent hover:border-[#DA0037]  hover:text-[#EDEDED] " }>{ele}</a>
           </li>) 
           }
          

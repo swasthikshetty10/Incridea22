@@ -1,4 +1,4 @@
-import src from '../../Images/navrasa.png'
+import src from '../../Images/Sponsor/codingninja.png'
 export const data = [{
   name: "Navarasa",
   img: src,

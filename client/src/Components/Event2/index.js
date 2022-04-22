@@ -7,14 +7,7 @@ import { data } from "./data";
 import src from "../../Images/navrasa.png";
 import FilterBar from "./FilterBar";
 import { queryByRole } from "@testing-library/react";
-// [
-//     {
-//         name :
-//         avatar :
-//         id :
-//         branch : ""
-//     }
-// ]
+import Footer from "../Footer";
 
 function Event2() {
   const [branch, setBranch] = useState("CORE");
@@ -38,8 +31,9 @@ function Event2() {
   const Cell = ({ toggle, name, height, description, css, maximized }) => <></>;
 
   return (
-    <div className="bg-gradient-to-r from-rose-100 to-teal-100 ">
-      <div className="bg-gradient-to-r from-rose-100 to-teal-100 p-5 sm:p-10">
+    <>
+      <Navbar tab="events" />
+      <div className="bg-[#171717] p-5 sm:p-10">
         {/* <Navbar/> */}
         <FilterBar
           day={day}
@@ -48,7 +42,7 @@ function Event2() {
           setQuery={setQuery}
         />
         <div className="flex justify-center flex-col items-center gap-8 lg:gap-14 pt-10 lg:pt-20">
-          <h1 className="text-6xl md:text-6xl tracking-widest  font-bold text-gray-700">
+          <h1 className="text-6xl md:text-6xl tracking-widest  font-bold text-[#EDEDED]">
             EVENTS
           </h1>
           {/* <FilterBar {...{ day, setDay, query, setQuery }} /> */}
@@ -68,7 +62,8 @@ function Event2() {
           </div>
         </div>
       </div>
-    </div>
+      {/* <Footer /> */}
+    </>
   );
 }
 
