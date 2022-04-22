@@ -1,17 +1,17 @@
 import React from 'react'
-import { Routes, Route } from "react-router-dom";
 import { Link } from 'react-router-dom';
-import Event2 from './Event2';
-import Home from './Home';
 
-function Navbar() {
+import logo from '../Images/logo.png';
+
+
+function Navbar({tab}) {
     return (
         <>
 
             <nav className="bg-none border-gray-200 px-2 sm:px-4 py-2.5 rounded ">
                 <div className="container flex flex-wrap justify-between items-center mx-auto">
                     <Link to="/" className="flex items-center">
-                        <img src="/docs/images/logo.svg" className="mr-3 h-6 sm:h-9" alt="Incridea Logo"/>
+                        <img src={logo} className="mx-3 h-6 sm:h-9" alt="Incridea Logo"/>
                             {/* <span className="self-center text-xl font-semibold whitespace-nowrap ">Incridea</span> */}
                     </Link>
                     <div className="flex md:order-2">
@@ -26,20 +26,20 @@ function Navbar() {
                     <div className="hidden justify-between items-center w-full md:flex md:w-auto md:order-1" id="mobile-menu-4">
                         <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
                             <li>
-                                <Link to="/" className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 " aria-current="page">Home</Link>
+                                <Link to="/" className={`block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ${tab ==='home' ? 'text-blue-700' :'text-gray-700' } ` } aria-current="page">Home</Link>
                             </li>
                             <li>
-                                <Link to="/events" className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Events</Link>
+                                <Link to="/events" className={`block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ${tab ==='events' ? 'text-blue-700' :'text-gray-700' } ` }>Events</Link>
                             </li>
                             <li>
-                                <Link to="/gallery" className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Gallery</Link>
+                                <Link to="/gallery" className={`block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ${tab ==='gallery' ? 'text-blue-700' :'text-gray-700' } ` }>Gallery</Link>
                             </li>
                             <li>
-                                <Link to="/sponsors" className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Sponsors</Link>
+                                <Link to="/sponsors" className={`block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ${tab ==='sponsor' ? 'text-blue-700' :'text-gray-700' } ` }>Sponsors</Link>
                             </li>
                             
                             <li>
-                                <Link to="/events" className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">About us</Link>
+                                <Link to="/events" className={`block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ${tab ==='about' ? 'text-blue-700' :'text-gray-700' } ` }>About us</Link>
                             </li>
                             
                         </ul>

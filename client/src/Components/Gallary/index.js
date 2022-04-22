@@ -43,7 +43,7 @@ function Gallery() {
     return (
 
         <div className='bg-gradient-to-r from-rose-100 to-teal-100 '>
-                <Navbar/>
+                <Navbar tab="gallery" />
             <div className='bg-gradient-to-r from-rose-100 to-teal-100 p-5 sm:p-10'>
                 {/* <Navbar/> */}
                 {/* <FilterBar day={day} setDay={setDay} query={query} setQuery={setQuery} /> */}
