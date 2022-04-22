@@ -1,0 +1,32 @@
+export const persons = [
+  {
+    name: "John Kennedy",
+    role: "CTO, LA",
+    img: "",
+  },
+  {
+    name: "Kane Kennedy",
+    role: "Executive, CA",
+    img: "",
+  },
+  { name: "John Kennedy", role: "CTO, LA", img: "" },
+  {
+    name: "John Kennedy",
+    role: "CTO, LA",
+    img: "",
+  },
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+  {},
+];

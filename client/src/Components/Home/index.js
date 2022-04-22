@@ -1,13 +1,30 @@
-import React from 'react'
-import Navbar from '../Navbar'
+import React from "react";
+import Navbar from "../Navbar";
+import { loginDummyUser } from "../../firebaseConfig";
 
 function Home() {
-    return (
-
-        <>
-        <Navbar/>
-        </>
-    )
+  const func = (email, pass) => {
+    loginDummyUser(email, pass);
+  };
+  return (
+    <>
+      <Navbar />
+      <div className="bg-black">
+        <button
+          className="text-white"
+          onClick={() => func("dummyprayag@gmail.com", "dummyprg")}
+        >
+          Prg dummy
+        </button>
+        <button
+          className="text-white ml-4"
+          onClick={() => func("dummythanmay@gmail.com", "dummytan")}
+        >
+          tanboy
+        </button>
+      </div>
+    </>
+  );
 }
 
-export default Home
+export default Home;
