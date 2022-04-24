@@ -24,8 +24,6 @@ function Navbar({ tab }) {
     }
   return (
     <>
-    
-
             {/* {... click===0? onClick()=>setClick(1):onClick()=>setClick(0)}  */}
 
             <nav className="bg-[#171717] px-2 sm:px-4 pt-6 ">
@@ -59,7 +57,7 @@ function Navbar({ tab }) {
                             </li>
                             
                             <li>
-                                <Link to="/events" className={`block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#DA0037] md:p-0 ${tab ==='about'? 'text-[#DA0037]' :'text-[#EDEDED]' } ` }>About us</Link>
+                                <Link to="/team" className={`block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#DA0037] md:p-0 ${tab ==='about'? 'text-[#DA0037]' :'text-[#EDEDED]' } ` }>About us</Link>
                             </li>
                             
                         </ul>
@@ -69,7 +67,7 @@ function Navbar({ tab }) {
 
         
           <div>
-            <button
+            {/* <button
               data-collapse-toggle="mobile-menu-4"
               type="button"
               className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
@@ -101,14 +99,14 @@ function Navbar({ tab }) {
                   clip-rule="evenodd"
                 ></path>
               </svg>
-            </button>
+            </button> */}
           </div>
           <nav>
           <div
             className="hidden justify-between items-center w-full md:flex md:w-auto md:order-1"
             id="mobile-menu-4"
           >
-            <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+            {/* <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
               <li>
                 <Link
                   to="/"
@@ -161,7 +159,7 @@ function Navbar({ tab }) {
                   About us
                 </Link>
               </li>
-            </ul>
+            </ul> */}
           </div>
       </nav>
     </>
