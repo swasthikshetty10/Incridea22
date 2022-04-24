@@ -69,7 +69,21 @@ export const SignInContainer = styled.div`
 	}
 `;
 
-export const FormCustom = styled.div`
+export const SignUpFormCustom = styled.div`
+	background-color: #ffffff;
+	padding: 20px 50px;
+	height: 100%;
+	text-align: center;
+	overflow: auto;
+
+	@media ${device.tablet} {
+		overflow-y: scroll;
+		padding: 20px 20px;
+		justify-content: space-between;
+	}
+`;
+
+export const SignInFormCustom = styled.div`
 	background-color: #ffffff;
 	display: flex;
 	align-items: center;
@@ -89,6 +103,7 @@ export const FormCustom = styled.div`
 
 export const Title = styled.h1`
 	font-weight: bold;
+	padding-bottom: 20px;
 	margin: 0;
 `;
 

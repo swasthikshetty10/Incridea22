@@ -6,7 +6,6 @@ import {
 	Button,
 	Container,
 	Div,
-	FormCustom,
 	GhostButton,
 	LeftOverlayPanel,
 	Overlay,
@@ -15,7 +14,9 @@ import {
 	RightOverlayPanel,
 	Select,
 	SignInContainer,
+	SignInFormCustom,
 	SignUpContainer,
+	SignUpFormCustom,
 	Title,
 } from './StyledComponentsLogin';
 import './styles.css';
@@ -74,7 +75,7 @@ const LoginForm = () => {
 							<div className='loginForm'>
 								<Container className='loginForm'>
 									<SignUpContainer signingIn={signIn}>
-										<FormCustom>
+										<SignUpFormCustom>
 											<Title>Create Account</Title>
 											<InputField placeholder='Name' name='name' type='text' />
 											<InputField
@@ -128,10 +129,10 @@ const LoginForm = () => {
 											/>
 											<Payment amount={amt} />
 											{/* <Button type='submit'>Register and Pay</Button> */}
-										</FormCustom>
+										</SignUpFormCustom>
 									</SignUpContainer>
 									<SignInContainer signingIn={signIn}>
-										<FormCustom>
+										<SignInFormCustom>
 											<Title>Sign in</Title>
 											<InputField
 												name='email'
@@ -145,7 +146,7 @@ const LoginForm = () => {
 											/>
 											<Anchor href='/forgot'>Forgot your password?</Anchor>
 											<Button>Sign In</Button>
-										</FormCustom>
+										</SignInFormCustom>
 									</SignInContainer>
 									<OverlayContainer signingIn={signIn}>
 										<Overlay signingIn={signIn}>
