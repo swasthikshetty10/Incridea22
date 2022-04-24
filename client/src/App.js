@@ -10,9 +10,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import LoginForm from './Components/Auth/LoginForm';
 import ForgotPass from './Components/Auth/ForgotPass';
+import Register from './Components/Auth/Register';
 
 function App() {
-return (
+	return (
 		<div className='App'>
 			<Routes>
 				<Route exact path='/' element={<Home />} />
@@ -21,12 +22,12 @@ return (
 
 				<Route exact path='/Sponsors' element={<Sponsor />} />
 				<Route path='/login' element={<LoginForm />} />
+				<Route path='/register' element={<Register />} />
 				<Route path='/forgot' element={<ForgotPass />} />
 				<Route exact path='/status/:orderId' element={<PaymentStatus />} />
 			</Routes>
 		</div>
 	);
-
 }
 
 export default App;

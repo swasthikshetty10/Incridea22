@@ -26,7 +26,6 @@ import Payment from '../Payments/Payment';
 const LoginForm = () => {
 	const [signIn, toggle] = useState(true);
 	const [amt, SetAmt] = useState(150);
-	const [valid, SetValid] = useState(false);
 
 	const initialValues = {
 		name: '',
