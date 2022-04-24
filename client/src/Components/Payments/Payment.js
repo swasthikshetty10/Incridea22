@@ -1,12 +1,10 @@
 import React from 'react';
-import { Button } from './StyledComponentsLogin';
+import { Button } from '../Auth/StyledComponentsLogin';
 
 const Payment = ({ amount }) => {
 	const isDate = (val) => {
 		return Object.prototype.toString.call(val) === '[object Date]';
 	};
-
-	console.log(amount);
 
 	const isObj = (val) => {
 		return typeof val === 'object';
