@@ -38,9 +38,9 @@ function Profile() {
 
   return (
     <>
-      <div className="text-lg border-x-8 lg:w-screen md:h-screen h-screen w-screen border-x-sky-400 bg-slate-900 m-auto flex flex-col items-center justify-center">
+      <div className="text-lg border-x-8 lg:w-screen h-full sm:h-screen w-screen border-x-sky-400 bg-[#171717] m-auto flex flex-col items-center justify-center">
         <Zero />
-        <div className="w-fit border sm:h-fit max-h-fit md:w-fit border-gray-400 mt-4 backdrop-blur-sm bg-white/1 pt-10 pb-10 px-16 rounded-lg shadow-2xl">
+        <div className="w-full border md:w-fit border-gray-400 mt-4 backdrop-blur-sm bg-white/1 py-2 lg:py-10 px-16 rounded-lg shadow-2xl">
           <First participant={participant} />
           <Second />
           <Third />
