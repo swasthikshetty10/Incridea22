@@ -12,7 +12,7 @@ function EventsCard({ src, SponsorTitle, SponsorDesc, SponsorWebsiteLink }) {
 
                 <img className="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-1/2 md:rounded-none md:rounded-l-lg" src={src} alt="" />
 
-                <div className="flex flex-col justify-center p-4 overflow-visible leading-normal">
+                <div className="flex flex-col justify-left p-10 overflow-hidden leading-normal">
                     <h5 className="mb-2 text-5xl font-bold tracking-tight text-[#EDEDED] text-left py-5">{SponsorTitle}</h5>
                     <p className="mb-3 font-normal text-gray-300 ">{SponsorDesc}</p>
                     <a href={SponsorWebsiteLink}>
