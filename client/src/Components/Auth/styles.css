@@ -16,3 +16,14 @@
   height: 100vh;
   /* margin: -20px 0 50px; */
 }
+
+.formBox{
+  width: 600px;
+  text-align: center;
+}
+
+@media screen and (max-width:620px) {
+  .formBox{
+    width: 300px;
+    }
+}
