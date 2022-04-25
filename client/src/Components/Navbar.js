@@ -7,25 +7,25 @@ import logo from "../Images/logo.png";
 function Navbar({ tab }) {
   return (
     <>
-      <nav className="bg-[#171717] px-2 sm:px-4 py-6 ">
-        <div className="container flex flex-wrap justify-between items-center mx-auto">
+      <nav className="bg-[#171717] px-2 sm:px-4 py-4 h-1/6">
+        <div className="container flex flex-wrap justify-between items-center mx-auto items-center">
           <Link to="/" className="flex items-center">
-            <img src={logo} className="mx-3 h-6 sm:h-9" alt="Incridea Logo" />
+            <img src={logo} className="mx-3 h-6 sm:h-16" alt="Incridea Logo" />
             {/* <span className="self-center text-xl font-semibold whitespace-nowrap ">Incridea</span> */}
           </Link>
           <div className="flex md:order-2">
             <button
               type="button"
-              class="text-white bg-[#DA0037] focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-none text-sm px-5 py-2.5 text-center mr-2 mb-2"
+              class="rounded-md text-white bg-[#9d7643] focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 text-md font-bold px-5 py-2.5 text-center mr-2 mb-2"
             >
               {" "}
-              <Link to="/login">Sign in</Link>{" "}
+              <Link to="/login">LOGIN/REGISTER</Link>{" "}
             </button>
 
             <button
               data-collapse-toggle="mobile-menu-4"
               type="button"
-              className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
+              className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden text-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
               aria-controls="mobile-menu-4"
               aria-expanded="false"
             >
@@ -64,53 +64,53 @@ function Navbar({ tab }) {
               <li>
                 <Link
                   to="/"
-                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#DA0037] md:p-0 ${
+                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#DA0037] md:p-0 ${
                     tab === "home" ? "text-[#DA0037]" : "text-[#EDEDED]"
                   } `}
                   aria-current="page"
                 >
-                  Home
+                  HOME
                 </Link>
               </li>
               <li>
                 <Link
                   to="/events"
-                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#DA0037] md:p-0 ${
+                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#DA0037] md:p-0 ${
                     tab === "events" ? "text-[#DA0037]" : "text-[#EDEDED]"
                   } `}
                 >
-                  Events
+                  EVENTS
                 </Link>
               </li>
               <li>
                 <Link
                   to="/gallery"
-                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#DA0037] md:p-0 ${
+                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#DA0037] md:p-0 ${
                     tab === "gallery" ? "text-[#DA0037]" : "text-[#EDEDED]"
                   } `}
                 >
-                  Gallery
+                  GALLERY
                 </Link>
               </li>
               <li>
                 <Link
                   to="/sponsors"
-                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#DA0037] md:p-0 ${
+                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#DA0037] md:p-0 ${
                     tab === "sponsor" ? "text-[#DA0037]" : "text-[#EDEDED]"
                   } `}
                 >
-                  Sponsors
+                  SPONSORS
                 </Link>
               </li>
 
               <li>
                 <Link
                   to="/team"
-                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#DA0037] md:p-0 ${
+                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#DA0037] md:p-0 ${
                     tab === "about" ? "text-[#DA0037]" : "text-[#EDEDED]"
                   } `}
                 >
-                  About us
+                  ABOUT US
                 </Link>
               </li>
             </ul>
