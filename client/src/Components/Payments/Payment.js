@@ -42,7 +42,7 @@ const Payment = ({ amount }) => {
 	};
 
 	const getData = (data) => {
-		return fetch(`http://localhost:5000/api/payment`, {
+		return fetch(`http://localhost:8080/api/payment`, {
 			method: 'POST',
 			headers: {
 				Accept: 'application/json',

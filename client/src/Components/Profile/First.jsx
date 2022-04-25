@@ -1,12 +1,14 @@
 import React from "react";
 
-function First() {
+function First({ participant }) {
   return (
-    <div className="p-2 border-l-4 border-orange-700">
-      <h1 className="text-xl text-red-600 font-semibold">Thanmay M Das</h1>
-      <h2 className="mb-3 text-gray-300">mdasthanmay@gmail.com</h2>
-      <div className="border-2 border-purple-400 text-purple-400 rounded-md text-center inline">
-        PID: 88901
+    <div className="p-2 border-l-4 border-purple-400 border-t-2 rounded-lg">
+      <h1 className="text-2xl text-red-500 font-semibold">
+        {participant.name}
+      </h1>
+      <h2 className="mb-3 text-gray-300">{participant.email}</h2>
+      <div className="border-2 px-2 border-cyan-900 font-semibold text-cyan-200 rounded-md text-center inline">
+        PID: {participant.pId}
       </div>
     </div>
   );
