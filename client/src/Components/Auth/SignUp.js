@@ -43,12 +43,12 @@ const SignUp = ({ signIn }) => {
             email: values.mail,
           });
           alert("Email sent");
+          SetValid(true);
           setEmailSent(true);
         } catch (error) {
           alert(error);
         }
         setVals(values);
-        SetValid(true);
       }}
     >
       {(formik) => {
@@ -59,18 +59,18 @@ const SignUp = ({ signIn }) => {
                 <SignInFormCustom>
                   <Title>Register</Title>
                   <Select
-                    // onChange={() => {
-                    //   const domain = document.getElementById("domain");
-                    //   const selected = document.getElementById("selected");
-                    //   const values = JSON.parse(selected.value);
-                    //   if (!values.isNitte) {
-                    //     domain.innerHTML = "";
-                    //     SetAmt(250);
-                    //   } else {
-                    //     domain.innerHTML = "@nmamit.in";
-                    //     SetAmt(150);
-                    //   }
-                    // }} Edited on server
+                    onChange={() => {
+                      const domain = document.getElementById("domain");
+                      const selected = document.getElementById("selected");
+                      const values = JSON.parse(selected.value);
+                      if (!values.isNitte) {
+                        domain.innerHTML = "";
+                        SetAmt(250);
+                      } else {
+                        domain.innerHTML = "@nmamit.in";
+                        SetAmt(150);
+                      }
+                    }} //Edited on server
                     id="selected"
                   >
                     <option value='{"name":"NMAMIT","isNitte":true}'>
