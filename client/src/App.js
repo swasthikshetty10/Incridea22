@@ -10,7 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import LoginForm from './Components/Auth/LoginForm';
 import ForgotPass from './Components/Auth/ForgotPass';
-import Register from './Components/Auth/Register';
+import UserInput from './Components/Auth/UserInput';
 
 function App() {
 	return (
@@ -22,7 +22,7 @@ function App() {
 
 				<Route exact path='/Sponsors' element={<Sponsor />} />
 				<Route path='/login' element={<LoginForm />} />
-				<Route path='/register' element={<Register />} />
+				<Route path='/userinput' element={<UserInput />} />
 				<Route path='/forgot' element={<ForgotPass />} />
 				<Route exact path='/status/:orderId' element={<PaymentStatus />} />
 			</Routes>

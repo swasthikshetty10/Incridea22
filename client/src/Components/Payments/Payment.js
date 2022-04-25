@@ -65,7 +65,7 @@ const Payment = ({ amount }) => {
 	};
 	return (
 		<>
-			<Button type='submit' onClick={makePayment}>
+			<Button type='button' onClick={makePayment}>
 				Register and Pay
 			</Button>
 		</>
