@@ -8,6 +8,7 @@ import src from "../../Images/navrasa.png";
 import FilterBar from "./FilterBar";
 import { queryByRole } from "@testing-library/react";
 import Footer from "../Footer";
+import Navbar2 from "../Navbar2";
 
 function Event2() {
   const [branch, setBranch] = useState("CORE");
@@ -32,7 +33,7 @@ function Event2() {
 
   return (
     <>
-      <Navbar tab="events" />
+      <Navbar2 tab="events" />
       <div className="bg-[#171717] p-5 sm:p-10">
         {/* <Navbar/> */}
         <FilterBar

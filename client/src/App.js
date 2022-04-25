@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Event2 from "./Components/Event2";
-import Gallery from "./Components/Gallary";
+import Gallery from "./Components/Gallery";
 import Home from "./Components/Home";
 import Sponsor from "./Components/Sponsor/index";
 import Profile from "./Components/Profile";
@@ -11,11 +11,16 @@ import PaymentStatus from "./Components/Payments/PaymentStatus";
 import FormValidation from "./Components/Auth/LoginForm";
 import LoginForm from "./Components/Auth/LoginForm";
 import ForgotPass from "./Components/Auth/ForgotPass";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Register from './Components/Auth/Register';
 import "./index.css";
+import { ChakraProvider, extendTheme } from "@chakra-ui/react";
+
+
 
 function App() {
   return (
+    <ChakraProvider>
     <div className="App ">
       <Routes>
         <Route exact path="/" element={<Home />} />
@@ -28,8 +33,10 @@ function App() {
 				<Route path='/forgot' element={<ForgotPass />} />
         <Route path="/login" element={<FormValidation />} />
         <Route exact path="/status/:orderId" element={<PaymentStatus />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
     </div>
+    </ChakraProvider>
   );
 }
 
