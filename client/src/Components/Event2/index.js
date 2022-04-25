@@ -32,7 +32,7 @@ function Event2() {
 
   return (
     <>
-      <Navbar tab="events" />
+      {/* <Navbar tab="events" /> */}
       <div className="bg-[#171717] p-5 sm:p-10">
         {/* <Navbar/> */}
         <FilterBar
