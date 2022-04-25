@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import {
   chakra,
@@ -52,21 +52,21 @@ export default function Navbar2() {
               color="brand.500"
               display={{ base: "none", md: "inline-flex" }}
             >
-                <Link to="/">
-                    <Button variant="ghost" fontStyle={} >Home</Button>
-                </Link>
-                <Link to="/">
-                    <Button variant="ghost">Events</Button>
-                </Link>
-                <Link to="/">
-                    <Button variant="ghost">Gallery</Button>
-                </Link>
-                <Link to="/">
-                    <Button variant="ghost">Sponsors</Button>
-                </Link>
-                <Link to="/">
-                    <Button variant="ghost">About Us</Button>
-                </Link>
+              <Link to="/">
+                <Button variant="ghost">Home</Button>
+              </Link>
+              <Link to="/">
+                <Button variant="ghost">Events</Button>
+              </Link>
+              <Link to="/">
+                <Button variant="ghost">Gallery</Button>
+              </Link>
+              <Link to="/">
+                <Button variant="ghost">Sponsors</Button>
+              </Link>
+              <Link to="/">
+                <Button variant="ghost">About Us</Button>
+              </Link>
             </HStack>
             <Button colorScheme="brand" size="sm">
               SignUp / SignIn
