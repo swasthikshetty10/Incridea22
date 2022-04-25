@@ -16,7 +16,7 @@ function Fourth() {
   };
 
   return (
-    <div className="pt-8 text-sm space-x-5 flex justify-center">
+    <div className="sm:pt-2 pt-8 text-sm space-x-5 flex justify-center">
       <button
         className="text-black hover:font-semibold transition-transform transform hover:scale-110 duration-200  bg-gradient-to-br from-cyan-300 to-blue-500 flex p-2 bg-white rounded-sm"
         onClick={() => {

@@ -1,12 +1,15 @@
 import { BiArrowBack } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 const Zero = () => {
   return (
     <>
-      <div className="w-4/5 text-white flex items-center">
+      <div className="w-full sm:w-4/5 text-white flex items-center">
         <div>
-          <BiArrowBack size="2rem" className="text-sky-400" />
-          <h1>Home</h1>
+          <Link to="/">
+            <BiArrowBack size="2rem" className="text-sky-400" />
+            <h1>Home</h1>
+          </Link>
         </div>
         <h1 className="w-full mx-auto text-center text-gradient font-bold text-3xl bg-gradient-to-r from-indigo-400 via-purple-400 to-sky-400">
           Welcome, Thanmay M Das!
