@@ -3,12 +3,12 @@ import { device } from './device';
 
 export const Container = styled.div`
 	background-color: #fff;
-	border-radius: 10px;
+	/* border-radius: 10px; */
 	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 	position: relative;
 	overflow: hidden;
-	width: 70vw;
-	height: 86vh;
+	width: 100vw;
+	height: 100vh;
 
 	@media ${device.tablet} {
 		width: 100vw;
@@ -69,15 +69,30 @@ export const SignInContainer = styled.div`
 	}
 `;
 
-export const FormCustom = styled.div`
+export const SignUpFormCustom = styled.div`
+	background-color: #ffffff;
+	padding: 20px 50px;
+	height: 100%;
+	text-align: center;
+	overflow: auto;
+
+	@media ${device.tablet} {
+		overflow-y: scroll;
+		padding: 20px 20px;
+		justify-content: space-between;
+	}
+`;
+
+export const SignInFormCustom = styled.div`
 	background-color: #ffffff;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	padding: 0 50px;
+	padding: 20px 50px;
 	height: 100%;
 	text-align: center;
+	overflow: auto;
 
 	@media ${device.tablet} {
 		overflow-y: scroll;
@@ -88,6 +103,7 @@ export const FormCustom = styled.div`
 
 export const Title = styled.h1`
 	font-weight: bold;
+	padding-bottom: 20px;
 	margin: 0;
 `;
 
@@ -259,4 +275,13 @@ export const Paragraph = styled.p`
 	line-height: 20px;
 	letter-spacing: 0.5px;
 	margin: 20px 0 30px;
+`;
+
+export const ForgotContainer = styled.div`
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 `;
