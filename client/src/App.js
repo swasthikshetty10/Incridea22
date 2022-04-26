@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Event2 from "./Components/Event2";
-import Gallery from "./Components/Gallery";
+import Gallery2 from "./Components/Gallery2";
 import Home from "./Components/Home";
 import Sponsor from "./Components/Sponsor/index";
 import Profile from "./Components/Profile";
@@ -21,11 +21,12 @@ import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 function App() {
   return (
     <ChakraProvider>
-    <div className="App ">
+    <div className="App">
+      {/* <Gallery2/>  */}
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/events" element={<Event2 />} />
-        <Route exact path="/gallery" element={<Gallery />} />
+        <Route exact path="/gallery" element={<Gallery2 />} />
         <Route exact path="/Sponsors" element={<Sponsor />} />
         <Route exact path="/profile" element={<Profile />} />
         <Route exact path="/team" element={<Team />} />
