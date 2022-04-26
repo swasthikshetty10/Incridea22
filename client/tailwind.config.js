@@ -1,9 +1,12 @@
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    fontFamily: {
+      nav: ["CinzelDecorative-Bold"],
+      // 'display': ['Oswald', ...],
+      body: ['"Open Sans"'],
+    },
   },
+  extend: {},
   plugins: [],
-}
+};

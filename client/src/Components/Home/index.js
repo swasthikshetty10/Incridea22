@@ -6,11 +6,10 @@ import Footer from "../Footer";
 function Home() {
   return (
     <>
-      {/* <Navbar tab="home" /> */}
+      <Navbar tab="home" />
       {/* <Footer/> */}
       <div className="bg-[#171717]"></div>
-      <div className="bg-black">
-      </div>
+      <div className="bg-black"></div>
     </>
   );
 }
