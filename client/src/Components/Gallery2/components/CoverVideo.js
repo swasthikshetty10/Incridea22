@@ -52,8 +52,8 @@ const Title = styled(motion.div)`
   }
 
   h1 {
-    font-family: 'Kaushan Script', cursive;
-   //font-family: 'Rubik Glitch', cursive;
+    font-family: CinzelDecorative-Bold;
+ 
     font-size: 90px;
     margin:-15px auto;
     letter-spacing:2px;
@@ -110,7 +110,7 @@ const CoverVideo = () => {
     <VideoContainer>
       <DarkOverlay />
       <Title variants={container} initial="hidden" animate="show">
-        <div>
+        <div style={{"font-family":"CinzelDecorative-Bold"}}>
           <motion.h1
             variants={item}
             data-scroll

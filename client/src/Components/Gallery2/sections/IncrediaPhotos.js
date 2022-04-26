@@ -141,10 +141,11 @@ const Photos = ({ img, title = "" }) => {
 };
 
 const IncrediaPhotos = ({id, elementnumber=1, title}) => {
-  gsap.registerPlugin(ScrollTrigger);
-
+  
   const ref = useRef(null);
   const horizontalRef = useRef(null);
+
+  gsap.registerPlugin(ScrollTrigger);
 
   useLayoutEffect(() => {
     let element = ref.current;
@@ -191,7 +192,9 @@ const IncrediaPhotos = ({id, elementnumber=1, title}) => {
     return () => {
       // Let's clear instances
       t1.kill();
-      ScrollTrigger.kill();
+      // ScrollTrigger.kill();
+      // ScrollTrigger.getAll().forEach(t => t.refresh());
+  
     };
   }, []);
 

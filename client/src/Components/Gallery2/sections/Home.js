@@ -1,17 +1,18 @@
 import React, { Suspense } from "react";
 import styled from "styled-components";
 
-import Navbar from "../../Navbar";
+// import Navbar from "../../Navbar";
 
 // import CoverVideo from '../components/CoverVideo';
 // import NavBar from '../components/NavBar';
 // import Logo from './../components/Logo';
 
 const CoverVideo = React.lazy(() => import("../components/CoverVideo"));
-// const NavBar = React.lazy(() => import("../components/NavBar"));
+const Navbar = React.lazy(() => import("../../Navbar"));
 // const Logo = React.lazy(() => import("../components/Logo"));
 
 const Section = styled.section`
+
   position: relative;
   min-height: 100vh;
   overflow: hidden;
@@ -22,7 +23,7 @@ const Home = () => {
     <Section id="home">
       <Suspense fallback={<></>}>
         {/* <Logo /> */}
-        <Navbar />
+        <Navbar  tab="gallery" />
         <CoverVideo />
       </Suspense>
     </Section>

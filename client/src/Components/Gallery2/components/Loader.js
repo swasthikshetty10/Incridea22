@@ -47,7 +47,7 @@ const Container = styled(motion.div)`
 `;
 
 const Text = styled(motion.span)`
-font-family: 'Kaushan Script', cursive;
+font-family:CinzelDecorative-Bold;
   font-size: 50px;
   letter-spacing: 2px;
   color: ${(props) => props.theme.text};

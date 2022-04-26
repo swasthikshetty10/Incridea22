@@ -126,16 +126,16 @@ function Navbar({ tab }) {
     <>
       {/* {... click===0? onClick()=>setClick(1):onClick()=>setClick(0)}  */}
 
-      <nav className="bg-[#161517] px-2 sm:px-4 py-6 font-nav">
+      <nav className="bg-[#000] px-2 sm:px-4 py-6 font-nav" style ={{"font-family":"CinzelDecorative-Bold"}} >
         <div className="container text-center flex flex-wrap justify-between items-center mx-auto">
           <Link to="/" className="flex items-center">
             <img src={logo} className="mx-3 h-6 sm:h-16" alt="Incridea Logo" />
             {/* <span className="self-center text-xl font-semibold whitespace-nowrap ">Incridea</span> */}
           </Link>
-          <div className="flex md:order-2">
+          <div className="flex md:order-2"style ={{"font-family":"CinzelDecorative-Bold"}}>
             <button
               type="button"
-              class="text-white bg-[#9d7643] focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 text-md font-bold px-5 py-2.5 text-center mr-2 mb-2"
+              class="text-white bg-[#9d7643] focus:ring-4 focus:outline-none  text-md px-5 py-2.5 text-center mr-2 mb-2"
             >
               {" "}
               <Link to="/login">Login/Register</Link>{" "}
@@ -145,7 +145,7 @@ function Navbar({ tab }) {
               data-collapse-toggle="mobile-menu-4"
               type="button"
               onClick={handleHamburger}
-              className={`  inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200`}
+              className={`  inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none`}
               aria-controls="mobile-menu-4"
               aria-expanded="false"
             >
@@ -180,7 +180,7 @@ function Navbar({ tab }) {
             className="justify-between items-center w-full md:flex md:w-auto md:order-1"
             id="mobile-menu-4"
           >
-            <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+            <ul style ={{"font-family":"CinzelDecorative-Bold"}} className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
               <li>
                 <Link
                   to="/"
@@ -205,7 +205,7 @@ function Navbar({ tab }) {
               <li>
                 <Link
                   to="/gallery"
-                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
+                  className={`block py-2 Opr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
                     tab === "gallery" ? "text-[#9d7643]" : "text-[#EDEDED]"
                   } `}
                 >
