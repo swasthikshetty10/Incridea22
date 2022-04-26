@@ -10,7 +10,6 @@ import Navbar from "./Components/Navbar";
 ReactDOM.render(
   <BrowserRouter>
     <React.StrictMode>
-      <Navbar tab="home" />
       <App />
       <Footer />
     </React.StrictMode>

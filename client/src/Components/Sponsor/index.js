@@ -29,7 +29,7 @@ const SponsorWebsiteLinks = [
 function Sponsor() {
   return (
     <>
-      <Navbar tab="sponsor" />
+      <Navbar tab="sponsors" />
       <div className="bg-[#171717] ">
         <div className="flex justify-center flex-col items-center gap-8 lg:gap-14 pt-10 lg:pt-20">
           <h1 className="text-5xl md:text-6xl tracking-widest  font-bold text-[#EDEDED]">

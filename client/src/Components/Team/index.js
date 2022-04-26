@@ -7,7 +7,7 @@ const Team = () => {
   return (
     <>
       {/* // <div className="w-4/5 m-auto mt-16"> */}
-      {/* <Navbar tab="team" /> */}
+      <Navbar tab="team" />
       <h1 className="text-white pt-6 text-center font-semibold text-4xl bg-[#171717]">
         MEET THE PEOPLE BEHIND THE SCENES
       </h1>
