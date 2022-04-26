@@ -43,7 +43,7 @@ const Title = styled.h1`
 
 const Left = styled.div`
   width: 35%;
-  background-color: ${(props) => props.theme.body};
+  background-color: transparent};
   color: ${(props) => props.theme.text};
 
   min-height: 100vh;
@@ -89,7 +89,7 @@ const Right = styled.div`
   min-height: 100vh;
 
   background-color: ${(props) => props.theme.grey};
-  /* width: 65%; */
+  /* width: 65%;  */
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -205,10 +205,7 @@ const IncrediaPhotos = ({id, elementnumber=1, title}) => {
          
           <br />
           <br />
-          We have lots of different clothing options like shoes, jackets and
-          dresses. Not only clothes but we also provide unique Jewellery as
-          well. It is great for us to carry our new clothes all around the
-          country and look different.
+    
         </p>
       </Left>
       <Right ref={horizontalRef}>

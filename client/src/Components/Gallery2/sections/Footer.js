@@ -128,7 +128,7 @@ const Footer = () => {
       <LogoContainer>
         <img data-scroll data-scroll-speed="2" src={Logo} alt="Wibe Studio" />
         <h3 data-scroll data-scroll-speed="-1">
-          Wibe Studio
+          Incridea
         </h3>
       </LogoContainer>
       <FooterComponent
@@ -140,11 +140,13 @@ const Footer = () => {
         }}
       >
         <ul>
-          <li onClick={() => handleScroll("#home")}>home</li>
-          <li onClick={() => handleScroll(".about")}>about</li>
-          <li onClick={() => handleScroll("#shop")}>shop</li>
-          <li onClick={() => handleScroll("#new-arrival")}>new arrival</li>
-          <li>
+          {/* we have */}
+          <li onClick={() => handleScroll("#home")}>Home</li>
+          <li onClick={() => handleScroll(".about")}>Events</li>
+          <li onClick={() => handleScroll("#shop")}>Gallery</li>
+          <li onClick={() => handleScroll("#new-arrival")}>Sponsors</li>
+          <li onClick={() => handleScroll("#new-arrival")}>About Us</li>
+          {/* <li>
             <a href="https://google.com" target="_blank" rel="noreferrer">
               look book
             </a>
@@ -153,7 +155,7 @@ const Footer = () => {
             <a href="https://google.com" target="_blank" rel="noreferrer">
               reviews
             </a>
-          </li>
+          </li> */}
         </ul>
         <Bottom>
           <span
