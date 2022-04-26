@@ -6,29 +6,6 @@ import redfm from '../../Images/Sponsor/redfm.png';
 import lifestyle from '../../Images/Sponsor/lifestyle.png';
 import dlithe from '../../Images/Sponsor/dlithe.png';
 
-// import src from '../../Images/Sponsor/codingninja.png';
-
-// const ImageSrcLinks = [
-// 	'../../Images/Sponsor/codingninja.png',
-// 	'../../Images/Sponsor/redfm.png',
-// 	'../../Images/Sponsor/lifestyle.png',
-// 	'../../Images/Sponsor/dlithe.png',
-// ];
-
-// const SponsorTitles = ['Coding Ninjas', 'Red FM', 'Lifestyle', 'Dlithe'];
-
-// const SponsorDescriptions = [
-// 	'Coding Ninjas is a place that trains passionate people in various technologies. Our core programs are intensive, immersive training that transforms people into outstanding developers.',
-// 	"Red FM is an Indian FM radio network headquartered in Chennai and owned by Chennai-based Sun Group. Red FM 93.5 is India's only Hindi CHR FM radio network spread across 48 cities.",
-// 	'Originating in India in 1999, Lifestyle is an Emirati retail fashion brand which comes under Dubai-based retail and hospitality conglomerate, the Landmark Group.',
-// 	'Being agile is the need of hour. The world is on disruptive mode. The world is looking for agile workforce that are adoptable and produce quicker results.',
-// ];
-// const SponsorWebsiteLinks = [
-// 	'https://www.codingninjas.com/',
-// 	'https://www.redfmindia.in',
-// 	'https://www.lifestylestores.com/in/en/',
-// 	'https://dlithe.com/',
-
 const SponsorDetails = [
 	{
 		name: 'Coding Ninjas',

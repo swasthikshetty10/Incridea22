@@ -9,3 +9,11 @@
   }
 }
 /* @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap'); */
+
+@font-face {
+  font-family: "CinzelDecorative-Bold";
+  src: local("CinzelDecorative-Bold"),
+    url(./fonts/CinzelDecorative-Bold.ttf) format("truetype");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
