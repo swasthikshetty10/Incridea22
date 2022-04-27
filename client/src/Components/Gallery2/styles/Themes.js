@@ -7,6 +7,7 @@ export const dark = {
     textRgba: '255,255,255',
 
     grey: '#bebebe', // grey shade
+    card: '#e0cfb8',
 
     fontxs: '0.75em', //1em = 16px
     fontsm: '0.875em', 

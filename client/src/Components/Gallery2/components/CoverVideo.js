@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import MainVideo from "../assets/Walking Girl.mp4";
+import MainVideo from "../assets/Incridea-Website-Video.mp4";
 import { motion } from "framer-motion";
 import "../assets/css/css_for_fonts.css"
 
@@ -92,7 +92,7 @@ const container = {
 
     transition: {
       delayChildren: 4, // 2
-      staggerChildren: 0.2,
+      staggerChildren: 0.15,
     },
   },
 };
@@ -110,7 +110,7 @@ const CoverVideo = () => {
     <VideoContainer>
       <DarkOverlay />
       <Title variants={container} initial="hidden" animate="show">
-        <div style={{"font-family":"CinzelDecorative-Bold"}}>
+        <div style={{"fontFamily":"CinzelDecorative-Regular"}}>
           <motion.h1
             variants={item}
             data-scroll

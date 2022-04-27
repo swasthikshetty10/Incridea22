@@ -20,7 +20,7 @@ const EventsCard = ({
 					<a href={SponsorWebsiteLink}>
 						<button
 							type='button'
-							className='text-white bg-[#DA0037] hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-none text-sm px-5 py-2.5 text-center mr-2 my-2 max-w-fit   '
+							className='text-white bg-[#9d7643]  font-medium rounded-none text-sm px-5 py-2.5 text-center mr-2 my-2 max-w-fit   '
 						>
 							Go to Website
 						</button>

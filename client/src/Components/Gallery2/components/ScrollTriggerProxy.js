@@ -45,7 +45,7 @@ const ScrollTriggerProxy = () => {
     }
 
     return () => {
-      ScrollTrigger.addEventListener("refresh", () => scroll?.update());
+      // ScrollTrigger.addEventListener("refresh", () => scroll?.update());
       ScrollTrigger.refresh();
     };
   }, [scroll]);

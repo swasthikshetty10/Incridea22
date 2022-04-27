@@ -57,18 +57,18 @@ function Gallery2() {
           }
           containerRef={containerRef}
         >
-        <AnimatePresence>
+        <AnimatePresence >
         {loaded ? null : <Loader />}
-        <ScrollTriggerProxy />
+        <ScrollTriggerProxy key="initialloader"/>
         </AnimatePresence>
-          <AnimatePresence>
+          <AnimatePresence key="mainpage">
           <main className='Gallery2' data-scroll-container ref={containerRef} >
             <Home />
             {/* <Buttons/> */}
             {/* <About /> */}
-            <IncrediaPhotos id='2020' elementnumber={1} title="2020"/>
-            <IncrediaPhotos id='2019' elementnumber={2} title="2019"/>
-            <IncrediaPhotos id='2018' elementnumber={3} title="2018"/>
+            <IncrediaPhotos id='2020' elementnumber={1} title="2020" key="2020"/>
+            <IncrediaPhotos id='2019' elementnumber={2} title="2019" key="2019"/>
+            <IncrediaPhotos id='2018' elementnumber={3} title="2018" key="2018"/>
 
             {/* <Banner /> */}
             {/* <NewArrival /> */}

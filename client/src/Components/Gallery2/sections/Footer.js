@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-import Logo from "../assets/Svgs/star_white_48dp.svg";
+import Logo from "../../../Images/logo.png";
 import { motion } from "framer-motion";
 import { useLocomotiveScroll } from "react-locomotive-scroll";
 
@@ -28,7 +28,7 @@ const LogoContainer = styled.div`
   align-items: center;
 
   img {
-    width: 10vw;
+    width: 28vw;
     height: auto;
   }
   h3 {
@@ -126,10 +126,10 @@ const Footer = () => {
   return (
     <Section>
       <LogoContainer>
-        <img data-scroll data-scroll-speed="2" src={Logo} alt="Wibe Studio" />
-        <h3 data-scroll data-scroll-speed="-1">
+        <img data-scroll data-scroll-speed="2" src={Logo} alt="Incredia" />
+        {/* <h3 data-scroll data-scroll-speed="-1">
           Incridea
-        </h3>
+        </h3> */}
       </LogoContainer>
       <FooterComponent
         initial={{ y: "-400px" }}

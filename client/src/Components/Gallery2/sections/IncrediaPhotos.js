@@ -84,7 +84,7 @@ const Left = styled.div`
 `;
 const Right = styled.div`
   position: absolute;
-  left: 35%;
+  left: 0%;
   padding-left: 30%;
   min-height: 100vh;
 
@@ -101,7 +101,7 @@ const Right = styled.div`
 `;
 
 const Item = styled(motion.div)`
-  width: 20rem;
+  width: ${(props) => props.width};
   margin-right: 6rem;
 
   display: flex;
@@ -109,7 +109,7 @@ const Item = styled(motion.div)`
   justify-content: center;
   align-items: center;
   img {
-    width: 100%;
+    min-width: 100%;
     height: auto;
     cursor: pointer;
   }
@@ -126,13 +126,14 @@ const Item = styled(motion.div)`
   }
 `;
 
-const Photos = ({ img, title = "" }) => {
+const Photos = ({ img,width, title = "" }) => {
   return (
     <Item
       initial={{ filter: "grayscale(100%)" }}
       whileInView={{ filter: "grayscale(0%)" }}
       transition={{ duration: 0.5 }}
       viewport={{ once: false, amount: "all" }}
+      width={width}
     >
       <img src={img} alt={title} />
       <h1>{title}</h1>
@@ -149,13 +150,21 @@ const IncrediaPhotos = ({id, elementnumber=1, title}) => {
 
   useLayoutEffect(() => {
     let element = ref.current;
+
+    // console.log("Incredia: " +element);
+
     let scrollingElement = horizontalRef.current;
 
     let pinWrapWidth = scrollingElement.offsetWidth;
-    let t1 = gsap.timeline();
+    let t1 =new gsap.timeline();
+
+    //use this to calculate the total actual height of the previous element
     // console.log(scrollingElement.offsetWidth);
 
+    console.log("t1: "+t1);
+
     setTimeout(() => {
+      // console.log("Incredia: " +element);
       t1.to(element, {
         scrollTrigger: {
           trigger: element,
@@ -192,7 +201,7 @@ const IncrediaPhotos = ({id, elementnumber=1, title}) => {
     return () => {
       // Let's clear instances
       t1.kill();
-      // ScrollTrigger.kill();
+      // ScrollTrigger.clear();
       // ScrollTrigger.getAll().forEach(t => t.refresh());
   
     };
@@ -212,16 +221,20 @@ const IncrediaPhotos = ({id, elementnumber=1, title}) => {
         </p>
       </Left>
       <Right ref={horizontalRef}>
-        <Photos img={images[title][0]['img']} title={images[title][0]['title']} />
-        <Photos img={images[title][1]['img']} title={images[title][1]['title']} />
-        <Photos img={images[title][2]['img']} title={images[title][2]['title']} />
-        <Photos img={images[title][3]['img']} title={images[title][3]['title']} />
-        <Photos img={images[title][4]['img']} title={images[title][4]['title']} />
-        <Photos img={images[title][5]['img']} title={images[title][5]['title']} />
-        <Photos img={images[title][6]['img']} title={images[title][6]['title']} />
-        <Photos img={images[title][7]['img']} title={images[title][7]['title']} />
-        <Photos img={images[title][8]['img']} title={images[title][8]['title']} />
-        <Photos img={images[title][9]['img']} title={images[title][9]['title']} />
+        <Photos img={images[title][0]['img']} width={images[title][0]['width']} />
+        <Photos img={images[title][1]['img']} width={images[title][1]['width']} />
+        <Photos img={images[title][2]['img']} width={images[title][2]['width']} />
+        <Photos img={images[title][3]['img']} width={images[title][3]['width']} />
+        <Photos img={images[title][4]['img']} width={images[title][4]['width']} />
+        <Photos img={images[title][5]['img']} width={images[title][5]['width']} />
+        <Photos img={images[title][6]['img']} width={images[title][6]['width']} />
+        <Photos img={images[title][7]['img']} width={images[title][7]['width']} />
+        <Photos img={images[title][8]['img']} width={images[title][8]['width']} />
+        <Photos img={images[title][9]['img']} width={images[title][9]['width']} />
+        <Photos img={images[title][10]['img']} width={images[title][10]['width']} />
+        <Photos img={images[title][11]['img']} width={images[title][11]['width']} />
+        <Photos img={images[title][12]['img']} width={images[title][12]['width']} />
+        <Photos img={images[title][13]['img']} width={images[title][13]['width']} />
       </Right>
     </Section>
   );
