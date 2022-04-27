@@ -9,9 +9,9 @@ const InputField = ({ placeholder, ...props }) => {
 			<Input
 				placeholder={placeholder}
 				autocomplete='off'
-				className={`form-control ${
-					meta.touched && meta.error ? 'is-invalid' : ''
-				}`}
+				required={true}
+				className={`form-control ${meta.touched && meta.error ? 'is-invalid' : ''
+					}`}
 				{...field}
 				{...props}
 			/>

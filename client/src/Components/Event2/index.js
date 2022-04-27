@@ -8,8 +8,9 @@ import src from "../../Images/navrasa.png";
 import FilterBar from "./FilterBar";
 import { queryByRole } from "@testing-library/react";
 import Footer from "../Footer";
-
+import { eventData } from './eventData'
 function Event2() {
+  console.log(eventData)
   const [branch, setBranch] = useState("CORE");
   const [day, setDay] = useState("0");
   const [query, setQuery] = useState("");
@@ -19,10 +20,10 @@ function Event2() {
     //filter code
 
     setElements(
-      data.filter(
+      eventData.filter(
         (ele) =>
           (String(ele.day) === day || day === "0") &&
-          (ele.branch === branch || branch == "CORE") &&
+          (ele.branch === branch || branch === "CORE") &&
           ele.name.toLowerCase().includes(query.toLowerCase())
       )
     );
@@ -53,8 +54,8 @@ function Event2() {
                 <EventsCard
                   key={index}
                   name={value.name}
-                  src={value.img}
-                  desc={value.desc}
+                  src={value.image}
+                  desc={value.smallDesc}
                 />
               );
             })}
