@@ -29,7 +29,7 @@ function Event2() {
     );
   }, [query, day, branch]);
 
-  const Cell = ({ toggle, name, height, description, css, maximized }) => <></>;
+  // const Cell = ({ toggle, name, height, description, css, maximized }) => <></>;
 
   return (
     <>
@@ -55,11 +55,13 @@ function Event2() {
                   key={index}
                   name={value.name}
                   src={src}
-                  desc={value.smallDesc}
+                  desc={value.fullDesc}
                   time={value.Time}
                   venue={value.venue}
                   day={value.day}
+                  branch={value.branch}
                   round={value.round ? value.round : null}
+                  
                 />
               );
             })}
