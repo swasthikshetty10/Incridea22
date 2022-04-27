@@ -2,7 +2,7 @@ import React from 'react'
 
 function FilterBar({ day, setDay, query, setQuery }) {
     return (
-        <div className='max-w-screen-lg w-full flex flex-wrap justify-center items-center m-auto gap-5 lg:s-mb-10 '>
+        <div className='max-w-screen-lg w-full flex flex-wrap justify-center items-center m-auto gap-3  lg:s-mb-10 '>
             <div className="flex justify-around">
                 <div className=" w-52 xl:w-72">
                     <div className="rounded-none overflow-hidden input-group relative flex items-stretch w-full ">

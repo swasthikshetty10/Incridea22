@@ -127,15 +127,15 @@ function Navbar({ tab }) {
       {/* {... click===0? onClick()=>setClick(1):onClick()=>setClick(0)}  */}
 
       <nav className="bg-[#000] px-2 sm:px-4 py-6 font-nav">
-        <div className="container text-center flex flex-wrap justify-between items-center content-center mx-auto">
+        <div className="container text-center flex flex-wrap justify-between items-center  content-center mx-auto">
           <Link to="/" className="flex items-center">
-            <img src={logo} className="mx-3 h-12 sm:h-16" alt="Incridea Logo" />
+            <img src={logo} className="mx-3 h-10  md:h-16" alt="Incridea Logo" />
             {/* <span className="self-center text-xl font-semibold whitespace-nowrap ">Incridea</span> */}
           </Link>
           <div className="flex md:order-2">
             <button
               type="button"
-              class="rounded-md text-white bg-[#9d7643] font-sans focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-white text-sm md:text-lg font-bold px-2 md:px-4  py-2.5 text-center mr-2 mb-2   "
+              class="rounded-md text-white bg-[#9d7643] font-sans focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-white text-sm md:text-lg font-bold px-2 sm-px-3 md:px-4  py-2.5 text-center mr-2 mb-2   "
             >
               {" "}
               <Link to="/login">LOGIN/REGISTER</Link>{" "}
