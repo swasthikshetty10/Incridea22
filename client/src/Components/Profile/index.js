@@ -38,10 +38,7 @@ function Profile() {
   console.log(participant);
 
   useEffect(() => {
-    const apiKey = JSON.parse(
-      localStorage.getItem(`firebase:authUser:${key}:[DEFAULT]`)
-    );
-    getUserInfo(apiKey.uid)
+    getUserInfo("Tr73GVxerhTTVMltltTnYkKYiS62") //TODO: to be changed
       .then((participant) => {
         console.log(participant);
         setParticipant(participant);
