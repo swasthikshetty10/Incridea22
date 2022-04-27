@@ -1,4 +1,5 @@
 import { FaInstagram } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
 
 const Member = ({ name, role, src }) => {
   return (
@@ -13,7 +14,10 @@ const Member = ({ name, role, src }) => {
             <h3 className="pt-2 pb-4 text-sm text-slate-400 font-semibold tracking-wider">
               {role}
             </h3>
-            <FaInstagram className="" />
+            <div className="flex gap-2">
+              <FaInstagram className="text-white cursor cursor-pointer" />
+              <HiOutlineMail className="text-white cursor-pointer" />
+            </div>
           </div>
         </div>
       </div>
