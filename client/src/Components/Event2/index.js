@@ -54,8 +54,12 @@ function Event2() {
                 <EventsCard
                   key={index}
                   name={value.name}
-                  src={value.image}
+                  src={src}
                   desc={value.smallDesc}
+                  time={value.Time}
+                  venue={value.venue}
+                  day={value.day}
+                  round={value.round ? value.round : null}
                 />
               );
             })}

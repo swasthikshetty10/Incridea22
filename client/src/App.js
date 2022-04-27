@@ -16,6 +16,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import UserInput from './Components/Auth/UserInput';
 import './index.css';
 import { ChakraProvider, extendTheme } from '@chakra-ui/react';
+import Footer from './Components/Footer';
 
 function App() {
 	return (
@@ -34,6 +35,8 @@ function App() {
 					<Route exact path='/status/:orderId' element={<PaymentStatus />} />
 					<Route exact path='/otp' element={<OtpFiled />} />
 				</Routes>
+				<Footer/>
+
 			</div>
 		</ChakraProvider>
 	);

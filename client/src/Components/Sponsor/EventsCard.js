@@ -9,14 +9,14 @@ const EventsCard = ({
 }) => {
 	return (
 		<>
-			{console.log(ImageSrc, SponsorTitle, SponsorDesc, SponsorWebsiteLink)}
+			{/* {console.log(ImageSrc, SponsorTitle, SponsorDesc, SponsorWebsiteLink)} */}
 			<div className='event__card'>
 				<div className='event__img__wrapper'>
 					<img className='event__img' src={ImageSrc} alt='' />
 				</div>
-				<div className='event__content_wrapper'>
+				<div className='event__content_wrapper py-4 gap-3 '>
 					<h5 className='event__heading text-3xl'>{SponsorTitle}</h5>
-					<p className='event__description'>{SponsorDesc}</p>
+					<p className='event__description  '>{SponsorDesc}</p>
 					<a href={SponsorWebsiteLink}>
 						<button
 							type='button'
