@@ -11,6 +11,7 @@ import PaymentStatus from './Components/Payments/PaymentStatus';
 
 import LoginForm from './Components/Auth/LoginForm';
 import ForgotPass from './Components/Auth/ForgotPass';
+import OtpFiled from './Components/Auth/OtpFiled';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import UserInput from './Components/Auth/UserInput';
 import './index.css';
@@ -27,10 +28,11 @@ function App() {
 					<Route exact path='/Sponsors' element={<Sponsor />} />
 					<Route exact path='/profile' element={<Profile />} />
 					<Route exact path='/team' element={<Team />} />
-					<Route path='/login' element={<LoginForm />} />
-					<Route path='/userinput' element={<UserInput />} />
-					<Route path='/forgot' element={<ForgotPass />} />
+					<Route exact path='/login' element={<LoginForm />} />
+					<Route exact path='/userinput' element={<UserInput />} />
+					<Route exact path='/forgot' element={<ForgotPass />} />
 					<Route exact path='/status/:orderId' element={<PaymentStatus />} />
+					<Route exact path='/otp' element={<OtpFiled />} />
 				</Routes>
 			</div>
 		</ChakraProvider>

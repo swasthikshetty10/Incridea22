@@ -13,11 +13,13 @@ import {
 	RightOverlayPanel,
 	Title,
 } from './StyledComponentsLogin';
+import Payment from '../Payments/Payment';
 
 const LoginForm = () => {
 	const [signIn, toggle] = useState(true);
 	return (
 		<div className='loginForm'>
+			<Payment amount={1} />
 			<Container className='loginForm'>
 				<SignUp signIn={signIn} />
 				<SignIn signIn={signIn} />
