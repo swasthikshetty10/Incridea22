@@ -15,11 +15,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import UserInput from "./Components/Auth/UserInput";
 import "./index.css";
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
     <ChakraProvider>
-      <div className="App">
+      <div className="App ">
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/events" element={<Event2 />} />
@@ -32,6 +33,7 @@ function App() {
           <Route path="/forgot" element={<ForgotPass />} />
           <Route exact path="/status/:orderId" element={<PaymentStatus />} />
         </Routes>
+        <Footer />
       </div>
     </ChakraProvider>
   );

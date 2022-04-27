@@ -2,7 +2,7 @@ import React from 'react'
 
 function FilterBar({ day, setDay, query, setQuery }) {
     return (
-        <div className='max-w-screen-lg w-full flex flex-wrap justify-center items-center m-auto gap-5 lg:s-mb-10 '>
+        <div className='max-w-screen-lg w-full flex flex-wrap justify-center items-center m-auto gap-3  lg:s-mb-10 '>
             <div className="flex justify-around">
                 <div className=" w-52 xl:w-72">
                     <div className="rounded-none overflow-hidden input-group relative flex items-stretch w-full ">
@@ -11,7 +11,7 @@ function FilterBar({ day, setDay, query, setQuery }) {
                 </div>
             </div>
             <div>
-                <select onChange={(e) => setDay(e.target.value)} id="dropdownDefault" data-dropdown-toggle="dropdown" className="text-center py-2 px-1 sm:px-3 sm:py-2 focus:outline-none focus:bg-[#DA0037] text-[#EDEDED] font-semibold rounded-none bg-[#DA0037]" >
+                <select onChange={(e) => setDay(e.target.value)} id="dropdownDefault" data-dropdown-toggle="dropdown" className="text-center py-2 px-1 sm:px-3 sm:py-2 focus:outline-none focus:bg-[#9d7643] text-[#EDEDED] font-semibold rounded-none bg-[#9d7643]" >
                     <option value={0}>All  </option>
                     <option value={1}>Day 1  </option>
                     <option value={2}>Day 2  </option>
