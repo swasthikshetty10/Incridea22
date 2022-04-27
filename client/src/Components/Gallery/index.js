@@ -29,7 +29,7 @@ function Gallery() {
   return (
     <>
       <Navbar tab="gallery" />
-      <div className="bg-[#000000] p-5 sm:p-10">
+      <div className="bg-[#000000] p-5 sm:p-10 h-full">
         {/* <Navbar/> */}
         {/* <FilterBar day={day} setDay={setDay} query={query} setQuery={setQuery} /> */}
         <div className="flex justify-center flex-col items-center gap-8 lg:gap-14 pt-10 lg:pt-20">

@@ -1,6 +1,7 @@
 import React from "react";
 import { FaInstagram, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import logo from "../Images/logo.png";
 function Footer() {
   // <footer className="sm:p-4 w-screen sm:w-screen flex-col sm:flex-row h-32 sm:h-24 flex items-center sm:justify-between  justify-center text-center bg-[#000] text-white relative inset-x-0 bottom-0 ">
   //       <img src={logo} className="mx-3 h-10 sm:h-9" alt="Incridea Logo" />
@@ -16,12 +17,12 @@ function Footer() {
   //     </footer>
   return (
     <>
-      <footer className="p-4 flex flex-wrap shadow md:flex md:items-center md:justify-center md:p-6 bg-black">
-        <div className="text-sm sm:text-center text-gray-200">
-          © 2022{" "}
-          <Link to="/" className="hover:underline">
-            Made with ♥ by: Incridea
-          </Link>
+
+      <footer className="p-4 flex flex-col md:flex-row flex-wrap items-center justify-center md:items-center  md:justify-around md:p-6 bg-black">
+        <div>
+          <img className="h-10" src={logo} alt="" />
+        </div>
+        <div className="text-sm sm:text-center text-gray-200">© 2022 <Link to="/" className="hover:underline">Made with ♥ by: Incridea</Link>
         </div>
         <div className="flex mx-3 gap-2">
           <a href="#" className="place-items-center  ">

@@ -10,10 +10,10 @@ function Home() {
     <>
       <Navbar tab="home" />
 
-      <div className="flex pt-5 bg-black flex-col-reverse md:flex-row ">
+      <div className="flex pt-5  flex-col-reverse md:flex-row h-screen">
         <div className="flex gap-3 px-5  flex-col">
           <img src={higher} className="h-auto w-screen "  alt="" />
-          <p className="text-gray-100" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores nam laboriosam, nulla amet sint similique consequuntur iste enim fuga, magni consequatur repellat consectetur architecto ipsam quasi at culpa nemo perferendis illo odit omnis magnam? Maxime magni corporis natus mollitia distinctio tempora laborum fugit officia! Quis, architecto. Voluptas deleniti excepturi sunt.</p>
+          <p className="text-gray-100 pb-10" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores nam laboriosam, nulla amet sint similique consequuntur iste enim fuga, magni consequatur repellat consectetur architecto ipsam quasi at culpa nemo perferendis illo odit omnis magnam? Maxime magni corporis natus mollitia distinctio tempora laborum fugit officia! Quis, architecto. Voluptas deleniti excepturi sunt.</p>
 
         </div>
 
