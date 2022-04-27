@@ -99,6 +99,7 @@ const SignUp = ({ signIn }) => {
                 <SignInFormCustom>
                   <Title>Register</Title>
                   <Select
+                    disabled={valid}
                     onChange={() => {
                       const domain = document.getElementById('domain');
                       const selected = document.getElementById('selected');
