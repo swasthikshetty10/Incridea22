@@ -22,7 +22,7 @@
 //   return (
 //     <>
 //       <nav className="bg-[#171717] px-2 sm:px-4 py-4 h-1/6">
-//         <div className="container flex flex-wrap justify-between items-center mx-auto items-center">
+//         <div className="container flex flex-wrap justify-between items-center mx-auto ">
 //           <Link to="/" className="flex items-center">
 //             <img src={logo} className="mx-3 h-6 sm:h-16" alt="Incridea Logo" />
 //             {/* <span className="self-center text-xl font-semibold whitespace-nowrap ">Incridea</span> */}
@@ -43,8 +43,8 @@
 //             <li>
 //               <Link
 //                 to="/"
-//                 className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#DA0037] md:p-0 ${
-//                   tab === "home" ? "text-[#DA0037]" : "text-[#EDEDED]"
+//                 className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
+//                   tab === "home" ? "text-[#9d7643]" : "text-[#EDEDED]"
 //                 } `}
 //                 aria-current="page"
 //               >
@@ -54,8 +54,8 @@
 //             <li>
 //               <Link
 //                 to="/events"
-//                 className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#DA0037] md:p-0 ${
-//                   tab === "events" ? "text-[#DA0037]" : "text-[#EDEDED]"
+//                 className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
+//                   tab === "events" ? "text-[#9d7643]" : "text-[#EDEDED]"
 //                 } `}
 //               >
 //                 EVENTS
@@ -64,8 +64,8 @@
 //             <li>
 //               <Link
 //                 to="/gallery"
-//                 className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#DA0037] md:p-0 ${
-//                   tab === "gallery" ? "text-[#DA0037]" : "text-[#EDEDED]"
+//                 className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
+//                   tab === "gallery" ? "text-[#9d7643]" : "text-[#EDEDED]"
 //                 } `}
 //               >
 //                 GALLERY
@@ -74,8 +74,8 @@
 //             <li>
 //               <Link
 //                 to="/sponsors"
-//                 className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#DA0037] md:p-0 ${
-//                   tab === "sponsor" ? "text-[#DA0037]" : "text-[#EDEDED]"
+//                 className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
+//                   tab === "sponsor" ? "text-[#9d7643]" : "text-[#EDEDED]"
 //                 } `}
 //               >
 //                 SPONSORS
@@ -85,8 +85,8 @@
 //             <li>
 //               <Link
 //                 to="/team"
-//                 className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#DA0037] md:p-0 ${
-//                   tab === "about" ? "text-[#DA0037]" : "text-[#EDEDED]"
+//                 className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
+//                   tab === "about" ? "text-[#9d7643]" : "text-[#EDEDED]"
 //                 } `}
 //               >
 //                 ABOUT US
@@ -100,7 +100,6 @@
 // }
 
 // export default Navbar;
-
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -135,9 +134,9 @@ function Navbar({ tab }) {
           <div className="flex md:order-2">
             <button
               type="button"
-              class="rounded-md text-white bg-[#9d7643] font-sans focus:ring-4 focus:outline-none  text-sm md:text-lg font-bold px-3 py-2.5 text-center mr-1 mb-2">
+              class="rounded-none text-white bg-[#9d7643] font-sans focus:ring-4 focus:outline-none  text-sm md:text-lg font-bold px-3 py-2.5 text-center mr-1 mb-2 hover:text-white ">
               
-              <Link to="/login">LOGIN/REGISTER</Link>{" "}
+              <Link to="/login">LOGIN/REGISTER</Link>
             </button>
 
             <button
@@ -183,8 +182,8 @@ function Navbar({ tab }) {
               <li>
                 <Link
                   to="/"
-                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#DA0037] md:p-0 ${
-                    tab === "home" ? "text-[#DA0037]" : "text-[#EDEDED]"
+                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
+                    tab === "home" ? "text-[#9d7643]" : "text-[#EDEDED]"
                   } `}
                   aria-current="page"
                 >
@@ -194,8 +193,8 @@ function Navbar({ tab }) {
               <li>
                 <Link
                   to="/events"
-                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#DA0037] md:p-0 ${
-                    tab === "events" ? "text-[#DA0037]" : "text-[#EDEDED]"
+                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
+                    tab === "events" ? "text-[#9d7643]" : "text-[#EDEDED]"
                   } `}
                 >
                   Events
@@ -204,8 +203,8 @@ function Navbar({ tab }) {
               <li>
                 <Link
                   to="/gallery"
-                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#DA0037] md:p-0 ${
-                    tab === "gallery" ? "text-[#DA0037]" : "text-[#EDEDED]"
+                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
+                    tab === "gallery" ? "text-[#9d7643]" : "text-[#EDEDED]"
                   } `}
                 >
                   Gallery
@@ -214,8 +213,8 @@ function Navbar({ tab }) {
               <li>
                 <Link
                   to="/sponsors"
-                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#DA0037] md:p-0 ${
-                    tab === "sponsors" ? "text-[#DA0037]" : "text-[#EDEDED]"
+                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
+                    tab === "sponsors" ? "text-[#9d7643]" : "text-[#EDEDED]"
                   } `}
                 >
                   Sponsors
@@ -225,8 +224,8 @@ function Navbar({ tab }) {
               <li>
                 <Link
                   to="/team"
-                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#DA0037] md:p-0 ${
-                    tab === "team" ? "text-[#DA0037]" : "text-[#EDEDED]"
+                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
+                    tab === "team" ? "text-[#9d7643]" : "text-[#EDEDED]"
                   } `}
                 >
                   About us

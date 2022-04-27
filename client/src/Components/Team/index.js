@@ -8,10 +8,10 @@ const Team = () => {
     <>
       {/* // <div className="w-4/5 m-auto mt-16"> */}
       <Navbar tab="team" />
-      <h1 className="text-white pt-6 text-center font-semibold text-4xl bg-[#171717]">
+      <h1 className="text-white pt-6 text-center font-semibold text-4xl bg-[#000000]">
         MEET THE PEOPLE BEHIND THE SCENES
       </h1>
-      <div className="flex flex-wrap justify-center bg-[#171717] py-6">
+      <div className="flex flex-wrap justify-center bg-[#000000] py-6">
         {persons.map((person, id) => {
           return (
             <Member id={id} name={person.name} role={person.role} src={src} />

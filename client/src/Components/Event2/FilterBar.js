@@ -11,7 +11,7 @@ function FilterBar({ day, setDay, query, setQuery }) {
                 </div>
             </div>
             <div>
-                <select onChange={(e) => setDay(e.target.value)} id="dropdownDefault" data-dropdown-toggle="dropdown" className="text-center py-2 px-1 sm:px-3 sm:py-2 focus:outline-none focus:bg-[#DA0037] text-[#EDEDED] font-semibold rounded-none bg-[#DA0037]" >
+                <select onChange={(e) => setDay(e.target.value)} id="dropdownDefault" data-dropdown-toggle="dropdown" className="text-center py-2 px-1 sm:px-3 sm:py-2 focus:outline-none focus:bg-[#9d7643] text-[#EDEDED] font-semibold rounded-none bg-[#9d7643]" >
                     <option value={0}>All  </option>
                     <option value={1}>Day 1  </option>
                     <option value={2}>Day 2  </option>

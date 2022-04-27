@@ -42,7 +42,7 @@ const Sponsor = () => {
 		<>
 			{console.log(SponsorDetails)}
 			<Navbar tab='sponsor' />
-			<div className='bg-[#171717] '>
+			<div className='bg-black '>
 				<div className='text-center pt-2'>
 					<h1 className='text-5xl md:text-6xl tracking-widest  font-bold text-[#EDEDED]'>
 						Our Sponsors

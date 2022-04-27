@@ -36,8 +36,8 @@ function Footer() {
         </div>
         <div className="flex mx-3 gap-2">
 
-        <a href="#" className="place-items-center  "><FaInstagram className="text-white h-7" />  </a>
-        <a href="#" className="place-items-center  "><FaYoutube className="text-white h-7" /></a>
+        <a href="#" className="place-items-center  "><FaInstagram className="text-white h-7 hover:text-[#9d7643]" /></a>
+        <a href="#" className="place-items-center  "><FaYoutube className="text-white h-7 hover:text-[#9d7643]" /></a>
         </div>
         {/* <ul className="flex flex-wrap  items-center mt-3 justify-center text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
          

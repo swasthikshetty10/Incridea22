@@ -24,7 +24,7 @@ export default function TabsSimple({ branch, setBranch }) {
             
             
             <li className="mr-2" key={i}>
-            <a href="#" onClick={(e)=>{setBranch(ele)} } className={"inline-block p-4 rounded-t-lg border-b-2 border-gray-600 border-transparent hover:border-[#DA0037]  hover:text-[#EDEDED] " }>{ele}</a>
+            <a href="#" onClick={(e)=>{setBranch(ele)} } className={"inline-block p-4 rounded-t-lg border-b-2 border-gray-600 border-transparent hover:border-[#9d7643]  hover:text-[#EDEDED] " }>{ele}</a>
           </li>) 
           }
          
