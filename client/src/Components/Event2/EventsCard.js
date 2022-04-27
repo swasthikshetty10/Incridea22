@@ -9,9 +9,9 @@ function EventsCard({ name, src, desc }) {
     return (
         <>
 
-            <div className="relative flex  flex-col mx-0 justify-center rounded-2xl shadow-xl hover:shadow-2xl  cursor-pointer transition-all ease-out delay-100 hover:-translate-y-1 hover:scale-105 duration-300  shadow-gray-300/60 hover:shadow-[#9d7643] "  onClick={() => { setModal(true) }} >
+            <div className="relative flex  flex-col mx-0 justify-center rounded-2xl shadow-md hover:shadow-lg  cursor-pointer transition-all ease-out delay-100 hover:-translate-y-1 hover:scale-105 duration-300    "  onClick={() => { setModal(true) }} >
 
-                <div className="mx-auto flex w-60 h-72 flex-col  justify-start bg-[#1d1d1d] rounded-none shadow-xl  ">
+                <div className="mx-auto flex w-60 h-72 flex-col  justify-start bg-[#1d1d1d]  rounded-none shadow-xl  ">
                     <img className="aspect-video rounded-t-none object-cover object-center  " src={src} />
                     <div className="p-2 flex flex-col justify-center ">
 
