@@ -46,7 +46,7 @@ const SignUp = ({ signIn }) => {
           SetValid(true);
           setEmailSent(true);
         } catch (error) {
-          alert(error);
+          alert(`${error.response.data} ${error.response.status}`);
         }
         setVals(values);
       }}
@@ -104,8 +104,7 @@ const SignUp = ({ signIn }) => {
                             alert("OTP verified!!"); //Change ui later
                           } catch (error) {
                             setEmailSent(false);
-                            console.log(error);
-                            alert(error);
+                            alert(`${error.response.data} ${error.response.status}`);
                           }
                         }}
                       >
