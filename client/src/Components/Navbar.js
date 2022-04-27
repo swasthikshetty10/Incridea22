@@ -113,7 +113,6 @@ function Navbar({ tab }) {
       document.getElementById("mobile-menu-4").classList.add("hidden");
       document.getElementById("mobile-menu-4").classList.add("visible");
       setClick(1);
-
     } else {
       document.getElementById("mobile-menu-4").classList.add("visible");
       document.getElementById("mobile-menu-4").classList.remove("hidden");
@@ -128,7 +127,11 @@ function Navbar({ tab }) {
       <nav className="bg-[#000] px-2 sm:px-4 py-6 font-nav min-w-fit ">
         <div className="container text-center flex flex-wrap justify-between items-center  content-center mx-auto">
           <Link to="/" className="flex items-center">
-            <img src={logo} className="mx-3 h-10  md:h-16" alt="Incridea Logo" />
+            <img
+              src={logo}
+              className="mx-3 h-10  md:h-16"
+              alt="Incridea Logo"
+            />
             {/* <span className="self-center text-xl font-semibold whitespace-nowrap ">Incridea</span> */}
           </Link>
           <div className="flex md:order-2">
@@ -187,7 +190,7 @@ function Navbar({ tab }) {
                   } `}
                   aria-current="page"
                 >
-                  Home
+                  home
                 </Link>
               </li>
               <li>
@@ -197,7 +200,7 @@ function Navbar({ tab }) {
                     tab === "events" ? "text-[#9d7643]" : "text-[#EDEDED]"
                   } `}
                 >
-                  Events
+                  events
                 </Link>
               </li>
               <li>
@@ -207,7 +210,7 @@ function Navbar({ tab }) {
                     tab === "gallery" ? "text-[#9d7643]" : "text-[#EDEDED]"
                   } `}
                 >
-                  Gallery
+                  gallery
                 </Link>
               </li>
               <li>
@@ -217,7 +220,7 @@ function Navbar({ tab }) {
                     tab === "sponsors" ? "text-[#9d7643]" : "text-[#EDEDED]"
                   } `}
                 >
-                  Sponsors
+                  sponsors
                 </Link>
               </li>
 
@@ -228,7 +231,7 @@ function Navbar({ tab }) {
                     tab === "team" ? "text-[#9d7643]" : "text-[#EDEDED]"
                   } `}
                 >
-                  About us
+                  about us
                 </Link>
               </li>
             </ul>
