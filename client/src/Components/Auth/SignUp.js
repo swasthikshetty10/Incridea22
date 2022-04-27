@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { Formik, Form } from 'formik';
 import * as Yup from 'yup';
 import axios from 'axios';
@@ -21,6 +21,7 @@ const SignUp = ({ signIn }) => {
   const [emailSent, setEmailSent] = useState(false);
   const [isNmamit, setNmamit] = useState(true);
   const [loading, setLoading] = useState(false);
+  const successSpan = useRef()
   let initialValues = {
     mail: '',
     // otp: '',
@@ -34,18 +35,23 @@ const SignUp = ({ signIn }) => {
     // otp: Yup.string().required('OTP is Required'),
   });
 
+  const clearMsg = () => {
+    successSpan.current.innerHTML = `<p class="font-semibold text-green-600"></p>`
+  }
   const getOTP = async (values) => {
     try {
       await axios.post('http://localhost:8080/auth/generateOtp', {
         email: values.mail,
       });
-      alert('Email sent');
+      successSpan.current.innerHTML = `<p class="font-semibold text-green-600">Email sent !!</p>`
       SetValid(true);
       setEmailSent(true);
 
     } catch (error) {
       console.log(error);
-      alert(error.response.data);
+      // alert(error.response.data);
+      successSpan.current.innerHTML = `<p class="font-semibold text-red-600">${error.response.data}</p>`
+
     }
     setVals(values);
   };
@@ -58,12 +64,12 @@ const SignUp = ({ signIn }) => {
         email: values.mail,
         OTP: values.otp,
       });
-      alert('OTP verified!!'); //Change ui later
-
+      //alert('OTP verified!!'); //Change ui later
+      successSpan.current.innerHTML = `<p class="font-semibold text-green-600">${"OTP verified!!"}</p>`
     } catch (error) {
-      setEmailSent(false);
       console.log(error);
-      alert(error.response.data);
+      //alert(error.response.data);
+      successSpan.current.innerHTML = `<p class="font-semibold text-red-600">${error.response.data}</p>`
     }
   };
 
@@ -118,7 +124,7 @@ const SignUp = ({ signIn }) => {
                     <option value='{"name":"MIT","isNitte":false}'>MIT</option>
                   </Select>
                   <Div>
-                    <InputField name='mail' type='text' placeholder='Email' />
+                    <InputField disabled={valid} name='mail' type='text' placeholder='Email' />
                     <p id='domain'>@nmamit.in</p>
                   </Div>
                   {!emailSent &&
@@ -132,15 +138,26 @@ const SignUp = ({ signIn }) => {
                   {valid ? (
                     <div className=''>
                       <InputField name='otp' type='text' placeholder='OTP' />
+                      <Button className={` inline-flex items-center justify-center gap-3  ${loading ? "opacity-90" : "opacity-100"}`} disabled={loading}>
+                        {loading ? <> <AiOutlineLoading3Quarters className=" animate-spin text-lg " /> <span className=''>verifying</span></> : 'Proceed'}
+                      </Button>
+                      <br />
 
-                      <Button disabled={loading} className={`${loading ? 'bg-opacity-10' : 'bg-opacity-100'}`} type='submit'>
-
-
-                        Proceed</Button>
                     </div>
                   ) : (
                     ''
                   )}
+                  <span className="text-center mt-2" ref={successSpan}></span>
+                  {
+                    valid && <>
+                      <p>Having trouble verifying via email?</p>
+                      <button onClick={() => {
+                        SetValid(false); setEmailSent(false)
+                        clearMsg();
+
+                      }} className='underline text-blue-800'>resend OTP</button>
+                    </>
+                  }
                 </SignInFormCustom>
               </SignUpContainer>
             </Form>
