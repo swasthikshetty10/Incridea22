@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-// import db from '../../firebaseConfig';
-// const { db } = require('../../firebaseConfig');
+import { exportDb } from '../../firebaseConfig';
 import { doc, getDoc } from 'firebase/firestore';
 import { Link, useParams } from 'react-router-dom';
+
 
 const PaymentStatus = () => {
 	const [values, setValues] = useState({ success: false, error: false });
@@ -11,7 +11,7 @@ const PaymentStatus = () => {
 
 	useEffect(() => {
 		const getStatus = async () => {
-			const paymentRef = doc(db, 'Payments/3bwEWFJWEnvTIdWjbhC9');
+			const paymentRef = doc(exportDb, 'Payments/3bwEWFJWEnvTIdWjbhC9');
 			const mySnapshot = await getDoc(paymentRef);
 
 			if (mySnapshot.exists()) {
