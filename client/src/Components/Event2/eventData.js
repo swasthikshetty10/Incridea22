@@ -8,7 +8,7 @@ export const eventData = [
         "branch": "BTE",
         "image": "",
         "smallDesc": "If you want to improve your grammar skills then it's time to ditch all the books and podcasts and play some word games instead.",
-        "full Desc": "If you want to improve your grammar skills then it's time to ditch all the books and podcasts and play some word games instead.",
+        "fullDesc": "If you want to improve your grammar skills then it's time to ditch all the books and podcasts and play some word games instead.",
         "roundDetails": {
             "round1": [
                 "Aptitude round A quiz to clear for qualification to the next successive round."
@@ -50,7 +50,7 @@ export const eventData = [
         "branch": "BTE",
         "image": "",
         "smallDesc": "If you want to improve your grammar skills then it's time to ditch all the books and podcasts and play some word games instead.",
-        "full Desc": "If you want to improve your grammar skills then it's time to ditch all the books and podcasts and play some word games instead.",
+        "fullDesc": "If you want to improve your grammar skills then it's time to ditch all the books and podcasts and play some word games instead.",
         "roundDetails": {
             "round1": [
                 "Aptitude round A quiz to clear for qualification to the next successive round."
@@ -92,7 +92,7 @@ export const eventData = [
         "branch": "BTE",
         "image": "",
         "smallDesc": "If you want to improve your grammar skills then it's time to ditch all the books and podcasts and play some word games instead.",
-        "full Desc": "If you want to improve your grammar skills then it's time to ditch all the books and podcasts and play some word games instead.",
+        "fullDesc": "If you want to improve your grammar skills then it's time to ditch all the books and podcasts and play some word games instead.",
         "roundDetails": {
             "round1": [
                 "Aptitude round A quiz to clear for qualification to the next successive round."
@@ -133,7 +133,7 @@ export const eventData = [
         "branch": "EEE",
         "image": "",
         "smallDesc": "Come entice the audience and enable them to feel closer to the Almighty, in the soothing Bhajan competition.",
-        "full Desc": "'I'll be singing hymns to the rafters, be praising his goodness so loud they're going to have to turn down the volume in Heaven, God loves to hear you. sing, so sing.' Come entice the audience and enable them to feel closer to the Almighty, in the soothing Bhajan competition.",
+        "fullDesc": "'I'll be singing hymns to the rafters, be praising his goodness so loud they're going to have to turn down the volume in Heaven, God loves to hear you. sing, so sing.' Come entice the audience and enable them to feel closer to the Almighty, in the soothing Bhajan competition.",
         "rules": [
             " Every team must consist of 5 to 8 members A Bhajan can be sung with or without Indian musical instruments",
             "A person can participate only in one team, if found participating in more than one team, it will lead to the disqualification of both the teams",
@@ -168,7 +168,7 @@ export const eventData = [
         "branch": "CIVIL",
         "image": "",
         "smallDesc": "'The artist sees what other catch only a glimpse of', said the great Da Vinci. Come, bring your strokes alive on the canvas to create a masterpiece!",
-        "full Desc": "In this single round event, participants will be given a topic on the spot. Pencil sketch and painting are to be submitted to the organizers within the given time.",
+        "fullDesc": "In this single round event, participants will be given a topic on the spot. Pencil sketch and painting are to be submitted to the organizers within the given time.",
         "rules": [
             "Any number of entries from a college are permitted",
             " Solo entries only",
@@ -205,7 +205,7 @@ export const eventData = [
         "branch": "ISE",
         "image": "",
         "smallDesc": "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? ",
-        "full Desc": "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? Desafio is an event which checks your FITNESS level by having various rounds.The tasks would not be mentioned precisely as it would be best if kept a surprise",
+        "fullDesc": "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? Desafio is an event which checks your FITNESS level by having various rounds.The tasks would not be mentioned precisely as it would be best if kept a surprise",
         "roundDetails": {
             "round1": [
                 "This is an mass elimination round depending on the registrations and we will have mass elimination considering their fitness levels. If there are less registrations, then the Round 1 will not be conducted."
@@ -247,7 +247,7 @@ export const eventData = [
         "branch": "ISE",
         "image": "",
         "smallDesc": "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? ",
-        "full Desc": "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? Desafio is an event which checks your FITNESS level by having various rounds.The tasks would not be mentioned precisely as it would be best if kept a surprise",
+        "fullDesc": "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? Desafio is an event which checks your FITNESS level by having various rounds.The tasks would not be mentioned precisely as it would be best if kept a surprise",
         "roundDetails": {
             "round1": [
                 "This is an mass elimination round depending on the registrations and we will have mass elimination considering their fitness levels. If there are less registrations, then the Round 1 will not be conducted."
@@ -289,7 +289,7 @@ export const eventData = [
         "branch": "ISE",
         "image": "",
         "smallDesc": "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? ",
-        "full Desc": "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? Desafio is an event which checks your FITNESS level by having various rounds.The tasks would not be mentioned precisely as it would be best if kept a surprise",
+        "fullDesc": "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? Desafio is an event which checks your FITNESS level by having various rounds.The tasks would not be mentioned precisely as it would be best if kept a surprise",
         "roundDetails": {
             "round1": [
                 "This is an mass elimination round depending on the registrations and we will have mass elimination considering their fitness levels. If there are less registrations, then the Round 1 will not be conducted."
@@ -330,7 +330,7 @@ export const eventData = [
         "branch": "CIVIL",
         "image": "",
         "smallDesc": "In a world obsessed with the digital and NFTS, can you think on your feet and create art that burns itself into our minds as well our screens?",
-        "full Desc": "In a world obsessed with the digital and NFTS, can you think on your feet and create art that burns itself into our minds as well our screens? Here's Digital Art Competition for you.Only solo participant. Participants will have to get their own devices (laptops, trackpad, etc). Time duration is 1 hour 30 minutes.",
+        "fullDesc": "In a world obsessed with the digital and NFTS, can you think on your feet and create art that burns itself into our minds as well our screens? Here's Digital Art Competition for you.Only solo participant. Participants will have to get their own devices (laptops, trackpad, etc). Time duration is 1 hour 30 minutes.",
         "roundDetails": {
             "round1": "Given a topic illustrate it digitally within the time limit. • Time duration is 1 hour 30 minutes."
         },
@@ -369,7 +369,7 @@ export const eventData = [
         "branch": "CIVIL",
         "image": "",
         "smallDesc": "If you think you and your partner can create magic and set the stage on fire, then DUET IT out!",
-        "full Desc": "Dance is a great way to express oneself. Dance from your heart and let your passion shine through. If you think you and your partner can create magic and set the stage on fire, then DUET IT out!.The duo can perform in any genre of dance in the given time of 3+1 mins. Western and eastern genres will be awarded separate prizes",
+        "fullDesc": "Dance is a great way to express oneself. Dance from your heart and let your passion shine through. If you think you and your partner can create magic and set the stage on fire, then DUET IT out!.The duo can perform in any genre of dance in the given time of 3+1 mins. Western and eastern genres will be awarded separate prizes",
         "rules": [
             "Any number of entries per college",
             "The participants may perform on any genre of dance",
@@ -419,7 +419,7 @@ export const eventData = [
         "branch": "ECE",
         "image": "",
         "smallDesc": " If you believe that you are capable of deciphering the given enigma, then here's an event that funds you to get to the bottom of these mysteries! ",
-        "full Desc": "Get ready to awaken the Einstein within and unravel the mysteries. If you believe that you are capable of deciphering the given enigma, then here's an event that funds you to get to the bottom of these mysteries.",
+        "fullDesc": "Get ready to awaken the Einstein within and unravel the mysteries. If you believe that you are capable of deciphering the given enigma, then here's an event that funds you to get to the bottom of these mysteries.",
         "roundDetails": {
             "round1": "A pen-paper test consisting of 40 questions -10 each from Money heist, general knowledge, geography, riddles. The top 12-15 teams will qualify for the next round.",
             "round2": " Treasure hunt Here the teams will be given 6 clues. Of those, the initial 4 will be different for each team and the remaining 2 will be common for all. The top 4-6 teams will qualify for the final round.",
@@ -463,7 +463,7 @@ export const eventData = [
         "branch": "ECE",
         "image": "",
         "smallDesc": " If you believe that you are capable of deciphering the given enigma, then here's an event that funds you to get to the bottom of these mysteries! ",
-        "full Desc": "Get ready to awaken the Einstein within and unravel the mysteries. If you believe that you are capable of deciphering the given enigma, then here's an event that funds you to get to the bottom of these mysteries.",
+        "fullDesc": "Get ready to awaken the Einstein within and unravel the mysteries. If you believe that you are capable of deciphering the given enigma, then here's an event that funds you to get to the bottom of these mysteries.",
         "roundDetails": {
             "round1": "A pen-paper test consisting of 40 questions -10 each from Money heist, general knowledge, geography, riddles. The top 12-15 teams will qualify for the next round.",
             "round2": " Treasure hunt Here the teams will be given 6 clues. Of those, the initial 4 will be different for each team and the remaining 2 will be common for all. The top 4-6 teams will qualify for the final round.",
@@ -507,7 +507,7 @@ export const eventData = [
         "branch": "ECE",
         "image": "",
         "smallDesc": " If you believe that you are capable of deciphering the given enigma, then here's an event that funds you to get to the bottom of these mysteries! ",
-        "full Desc": "Get ready to awaken the Einstein within and unravel the mysteries. If you believe that you are capable of deciphering the given enigma, then here's an event that funds you to get to the bottom of these mysteries.",
+        "fullDesc": "Get ready to awaken the Einstein within and unravel the mysteries. If you believe that you are capable of deciphering the given enigma, then here's an event that funds you to get to the bottom of these mysteries.",
         "roundDetails": {
             "round1": "A pen-paper test consisting of 40 questions -10 each from Money heist, general knowledge, geography, riddles. The top 12-15 teams will qualify for the next round.",
             "round2": " Treasure hunt Here the teams will be given 6 clues. Of those, the initial 4 will be different for each team and the remaining 2 will be common for all. The top 4-6 teams will qualify for the final round.",
@@ -550,7 +550,7 @@ export const eventData = [
         "branch": "ISE",
         "image": "",
         "smallDesc": "If you think you know it all and much more, this is the right place for you. Go ahead and unlock your knowledge at the speed of thought. ",
-        "full Desc": "Get ready for a roller coaster ride into the intense world of quizzing. Far from classroom rote, this quiz will help you put your grey cells to the test. If you think you know it all and much more, this is the right place for you. Go ahead and unlock your knowledge at the speed of thought.",
+        "fullDesc": "Get ready for a roller coaster ride into the intense world of quizzing. Far from classroom rote, this quiz will help you put your grey cells to the test. If you think you know it all and much more, this is the right place for you. Go ahead and unlock your knowledge at the speed of thought.",
         "roundDetails": {
             "round1": "Pen and paper test consisting of general knowledge questions",
             "round2": "This will be the final round consisting of various exciting elements.",
@@ -587,7 +587,7 @@ export const eventData = [
         "branch": "CSE",
         "image": "",
         "smallDesc": " Do you have the itch to make a joke out of every possible scenario? If so, come showcase your skills because this event is just right for you!",
-        "full Desc": "Can you improvise a topic better than we can improvise this description? Are you spontaneous enough to be the wittiest one among them all? Do you have the itch to make a joke out of every possible scenario? If so, come showcase your skills because this event is just right for you!",
+        "fullDesc": "Can you improvise a topic better than we can improvise this description? Are you spontaneous enough to be the wittiest one among them all? Do you have the itch to make a joke out of every possible scenario? If so, come showcase your skills because this event is just right for you!",
         "roundDetails": {
             "round1": [
                 "The point of the game is to hold a conversation using only questions. Players take turns asking questions to each other, and the first person to say a statement is out",
@@ -651,7 +651,7 @@ export const eventData = [
         "branch": "MECH",
         "image": "",
         "smallDesc": "You think you can make it through straight 60 seconds of speaking without any jerks while your opponents wait to pounce over you?",
-        "full Desc": "All about the control of the mind over the mouth, you think you can make it through straight 60 seconds of speaking without any jerks while your opponents wait to pounce over you? Do you have what it takes to beat the pressure and silence your opponents? If yes, this is your cup of tea.",
+        "fullDesc": "All about the control of the mind over the mouth, you think you can make it through straight 60 seconds of speaking without any jerks while your opponents wait to pounce over you? Do you have what it takes to beat the pressure and silence your opponents? If yes, this is your cup of tea.",
         "roundDetails": {
             "round1": "This will be an elimination round where participants will have to speak on the topic for a minute ",
             "round2": "Final buzzer round",
@@ -692,7 +692,7 @@ export const eventData = [
         "branch": "",
         "image": "",
         "smallDesc": "They say a picture is worth a thousand words,then a film is worth a thousand timesmore. If you are an author whose novels are films, Kalakaar is where you should publish!",
-        "full Desc": "Anything that canbe writtenor thought of can be filmed. A theme will be given to the participating teams .",
+        "fullDesc": "Anything that canbe writtenor thought of can be filmed. A theme will be given to the participating teams .",
         "roundDetails": {
             "round1": "A theme will be given to the participating teams on the first day of the fest. The governing rules will be announced on the spot.",
             "round2": "Final-The short movie will be collected by the organizers and then the judicial process will take placed",
@@ -738,7 +738,7 @@ export const eventData = [
         "branch": "",
         "image": "",
         "smallDesc": "They say a picture is worth a thousand words,then a film is worth a thousand timesmore. If you are an author whose novels are films, Kalakaar is where you should publish!",
-        "full Desc": "Anything that canbe writtenor thought of can be filmed. A theme will be given to the participating teams.",
+        "fullDesc": "Anything that canbe writtenor thought of can be filmed. A theme will be given to the participating teams.",
         "roundDetails": {
             "round1": "A theme will be given to the participating teams on the first day of the fest. The governing rules will be announced on the spot.",
             "round2": "Final-The short movie will be collected by the organizers and then the judicial process will take placed",
@@ -784,7 +784,7 @@ export const eventData = [
         "branch": "",
         "image": "",
         "smallDesc": "Do you have what it takes to express yourself without saying a word? ",
-        "full Desc": "'Khaamoshh ' is the perfect event for you to show your enacting skills. Come put your team of three to the ultimate test.",
+        "fullDesc": "'Khaamoshh ' is the perfect event for you to show your enacting skills. Come put your team of three to the ultimate test.",
         "roundDetails": {
             "round 1": "The Mind Fizz - Teams will be given a set of questions related to movies(Bollywood/ Hollywood /Sandalwood).Based on the scores, the top teams will qualify for the next round.",
             "round 2": "Pictoword - A combination of pictures that form the movie name/ song name will be displayed on the screen.The participants must guess the word from the pictures they see on the screen into one word.Teams guessing the maximum number of movies qua lify for the next round.",
@@ -825,7 +825,7 @@ export const eventData = [
         "branch": "",
         "image": "",
         "smallDesc": "Do you have what it takes to express yourself without saying a word? ",
-        "full Desc": "'Khaamoshh ' is the perfect event for you to show your enacting skills. Come put your team of three to the ultimate test.",
+        "fullDesc": "'Khaamoshh ' is the perfect event for you to show your enacting skills. Come put your team of three to the ultimate test.",
         "roundDetails": {
             "round 1": "The Mind Fizz - Teams will be given a set of questions related to movies(Bollywood/ Hollywood /Sandalwood).Based on the scores, the top teams will qualify for the next round.",
             "round 2": "Pictoword - A combination of pictures that form the movie name/ song name will be displayed on the screen.The participants must guess the word from the pictures they see on the screen into one word.Teams guessing the maximum number of movies qua lify for the next round.",
@@ -866,7 +866,7 @@ export const eventData = [
         "branch": "",
         "image": "",
         "smallDesc": "Do you have what it takes to express yourself without saying a word? ",
-        "full Desc": "'Khaamoshh ' is the perfect event for you to show your enacting skills. Come put your team of three to the ultimate test.",
+        "fullDesc": "'Khaamoshh ' is the perfect event for you to show your enacting skills. Come put your team of three to the ultimate test.",
         "roundDetails": {
             "round 1": "The Mind Fizz - Teams will be given a set of questions related to movies(Bollywood/ Hollywood /Sandalwood).Based on the scores, the top teams will qualify for the next round.",
             "round 2": "Pictoword - A combination of pictures that form the movie name/ song name will be displayed on the screen.The participants must guess the word from the pictures they see on the screen into one word.Teams guessing the maximum number of movies qua lify for the next round.",
@@ -907,7 +907,7 @@ export const eventData = [
         "branch": "",
         "image": "",
         "smallDesc": "Do you have what it takes to express yourself without saying a word? ",
-        "full Desc": "'Khaamoshh ' is the perfect event for you to show your enacting skills. Come put your team of three to the ultimate test.",
+        "fullDesc": "'Khaamoshh ' is the perfect event for you to show your enacting skills. Come put your team of three to the ultimate test.",
         "roundDetails": {
             "round 1": "The Mind Fizz - Teams will be given a set of questions related to movies(Bollywood/ Hollywood /Sandalwood).Based on the scores, the top teams will qualify for the next round.",
             "round 2": "Pictoword - A combination of pictures that form the movie name/ song name will be displayed on the screen.The participants must guess the word from the pictures they see on the screen into one word.Teams guessing the maximum number of movies qua lify for the next round.",
@@ -948,7 +948,7 @@ export const eventData = [
         "branch": "",
         "image": "",
         "smallDesc": "Lazzerena is a tag game which allows amateur video game lovers to experience war zone scena rio in real life.  ",
-        "full Desc": "It is played with guns which emit infrared beams. Infrared sensitive sensors which are integ rat ed on jackets are worn by each player. The game will comprise of two teams and each team will t ry to knockout the opponent by firing on their respect ive sensors.",
+        "fullDesc": "It is played with guns which emit infrared beams. Infrared sensitive sensors which are integ rat ed on jackets are worn by each player. The game will comprise of two teams and each team will t ry to knockout the opponent by firing on their respect ive sensors.",
         // "roundDetails": {
         //     "round 1": "The Mind Fizz - Teams will be given a set of questions related to movies(Bollywood/ Hollywood /Sandalwood).Based on the scores, the top teams will qualify for the next round.",
         //     "round 2": "Pictoword - A combination of pictures that form the movie name/ song name will be displayed on the screen.The participants must guess the word from the pictures they see on the screen into one word.Teams guessing the maximum number of movies qua lify for the next round.",
@@ -983,7 +983,7 @@ export const eventData = [
         "branch": "",
         "image": "",
         "smallDesc": "Lazzerena is a tag game which allows amateur video game lovers to experience war zone scena rio in real life.  ",
-        "full Desc": "It is played with guns which emit infrared beams. Infrared sensitive sensors which are integ rat ed on jackets are worn by each player. The game will comprise of two teams and each team will t ry to knockout the opponent by firing on their respect ive sensors.",
+        "fullDesc": "It is played with guns which emit infrared beams. Infrared sensitive sensors which are integ rat ed on jackets are worn by each player. The game will comprise of two teams and each team will t ry to knockout the opponent by firing on their respect ive sensors.",
         // "roundDetails": {
         //     "round 1": "The Mind Fizz - Teams will be given a set of questions related to movies(Bollywood/ Hollywood /Sandalwood).Based on the scores, the top teams will qualify for the next round.",
         //     "round 2": "Pictoword - A combination of pictures that form the movie name/ song name will be displayed on the screen.The participants must guess the word from the pictures they see on the screen into one word.Teams guessing the maximum number of movies qua lify for the next round.",
@@ -1018,7 +1018,7 @@ export const eventData = [
         "branch": "",
         "image": "",
         "smallDesc": "Lazzerena is a tag game which allows amateur video game lovers to experience war zone scena rio in real life.  ",
-        "full Desc": "It is played with guns which emit infrared beams. Infrared sensitive sensors which are integ rat ed on jackets are worn by each player. The game will comprise of two teams and each team will t ry to knockout the opponent by firing on their respect ive sensors.",
+        "fullDesc": "It is played with guns which emit infrared beams. Infrared sensitive sensors which are integ rat ed on jackets are worn by each player. The game will comprise of two teams and each team will t ry to knockout the opponent by firing on their respect ive sensors.",
         // "roundDetails": {
         //     "round 1": "The Mind Fizz - Teams will be given a set of questions related to movies(Bollywood/ Hollywood /Sandalwood).Based on the scores, the top teams will qualify for the next round.",
         //     "round 2": "Pictoword - A combination of pictures that form the movie name/ song name will be displayed on the screen.The participants must guess the word from the pictures they see on the screen into one word.Teams guessing the maximum number of movies qua lify for the next round.",
@@ -1053,7 +1053,7 @@ export const eventData = [
         "branch": "",
         "image": "",
         "smallDesc": "Lazzerena is a tag game which allows amateur video game lovers to experience war zone scena rio in real life.  ",
-        "full Desc": "It is played with guns which emit infrared beams. Infrared sensitive sensors which are integ rat ed on jackets are worn by each player. The game will comprise of two teams and each team will t ry to knockout the opponent by firing on their respect ive sensors.",
+        "fullDesc": "It is played with guns which emit infrared beams. Infrared sensitive sensors which are integ rat ed on jackets are worn by each player. The game will comprise of two teams and each team will t ry to knockout the opponent by firing on their respect ive sensors.",
         // "roundDetails": {
         //     "round 1": "The Mind Fizz - Teams will be given a set of questions related to movies(Bollywood/ Hollywood /Sandalwood).Based on the scores, the top teams will qualify for the next round.",
         //     "round 2": "Pictoword - A combination of pictures that form the movie name/ song name will be displayed on the screen.The participants must guess the word from the pictures they see on the screen into one word.Teams guessing the maximum number of movies qua lify for the next round.",
@@ -1087,7 +1087,7 @@ export const eventData = [
         "branch": "",
         "image": "",
         "smallDesc": "A rostrum where creativity meets madness, a chance to make an advertisement hilarious or sensitive. ",
-        "full Desc": "Mad Ads is a test of your creativity and ad sense.",
+        "fullDesc": "Mad Ads is a test of your creativity and ad sense.",
         // "roundDetails": {
         //     "round 1": "The Mind Fizz - Teams will be given a set of questions related to movies(Bollywood/ Hollywood /Sandalwood).Based on the scores, the top teams will qualify for the next round.",
         //     "round 2": "Pictoword - A combination of pictures that form the movie name/ song name will be displayed on the screen.The participants must guess the word from the pictures they see on the screen into one word.Teams guessing the maximum number of movies qua lify for the next round.",
@@ -1139,7 +1139,7 @@ export const eventData = [
         "branch": "",
         "image": "",
         "smallDesc": "Isn't life a collection of weird quizzes with no answers  to  half  the questions?",
-        "full Desc": "MELAS co mp rises questions ranging from Music, Enterta inment , Literature, Arts and Sports. If you possess the required grey matter, then this event is meant for you.",
+        "fullDesc": "MELAS co mp rises questions ranging from Music, Enterta inment , Literature, Arts and Sports. If you possess the required grey matter, then this event is meant for you.",
         "roundDetails": {
             "round 1": "Prelims will be a pen and paper round wherein participants need to write answers to a given set of questions. The top 6 scoring teams will move to the finals.",
             "round 2": "Finals will be an audio and visual round and the team with the max score at the end of all rounds will be declared the winner",
@@ -1181,7 +1181,7 @@ export const eventData = [
         "branch": "",
         "image": "",
         "smallDesc": "Isn't life a collection of weird quizzes with no answers  to  half  the questions?",
-        "full Desc": "MELAS co mp rises questions ranging from Music, Enterta inment , Literature, Arts and Sports. If you possess the required grey matter, then this event is meant for you.",
+        "fullDesc": "MELAS co mp rises questions ranging from Music, Enterta inment , Literature, Arts and Sports. If you possess the required grey matter, then this event is meant for you.",
         "roundDetails": {
             "round 1": "Prelims will be a pen and paper round wherein participants need to write answers to a given set of questions. The top 6 scoring teams will move to the finals.",
             "round 2": "Finals will be an audio and visual round and the team with the max score at the end of all rounds will be declared the winner",
@@ -1223,7 +1223,7 @@ export const eventData = [
         "branch": "",
         "image": "",
         "smallDesc": "A mega event, an alter-ego of a treasure hunt where you need to use your brains, wit, and wisdom. ",
-        "full Desc": "We bring  to  you-  MISSION IMPOSSIBLE b eca use the t reasure is not easy to FIND.sn't life a collection of weird quizzes with no answers  to  half  the questions?",
+        "fullDesc": "We bring  to  you-  MISSION IMPOSSIBLE b eca use the t reasure is not easy to FIND.sn't life a collection of weird quizzes with no answers  to  half  the questions?",
         "roundDetails": {
             "round 1": "Preliminary round which involves puzzle solving and logical thinking will be conducted and the top  25% of  teams will proceed to  the next round",
             "round 2": "A game that involvesthe use of your analytic al and crypt ic skills will be held, wherein the top 8 teams will qualify for the finale.",
@@ -1270,7 +1270,7 @@ export const eventData = [
         "branch": "",
         "image": "",
         "smallDesc": "A mega event, an alter-ego of a treasure hunt where you need to use your brains, wit, and wisdom. ",
-        "full Desc": "We bring  to  you-  MISSION IMPOSSIBLE b eca use the t reasure is not easy to FIND.sn't life a collection of weird quizzes with no answers  to  half  the questions?",
+        "fullDesc": "We bring  to  you-  MISSION IMPOSSIBLE b eca use the t reasure is not easy to FIND.sn't life a collection of weird quizzes with no answers  to  half  the questions?",
         "roundDetails": {
             "round 1": "Preliminary round which involves puzzle solving and logical thinking will be conducted and the top  25% of  teams will proceed to  the next round",
             "round 2": "A game that involvesthe use of your analytic al and crypt ic skills will be held, wherein the top 8 teams will qualify for the finale.",
@@ -1317,7 +1317,7 @@ export const eventData = [
         "branch": "",
         "image": "",
         "smallDesc": "A mega event, an alter-ego of a treasure hunt where you need to use your brains, wit, and wisdom. ",
-        "full Desc": "We bring  to  you-  MISSION IMPOSSIBLE b eca use the t reasure is not easy to FIND.sn't life a collection of weird quizzes with no answers  to  half  the questions?",
+        "fullDesc": "We bring  to  you-  MISSION IMPOSSIBLE b eca use the t reasure is not easy to FIND.sn't life a collection of weird quizzes with no answers  to  half  the questions?",
         "roundDetails": {
             "round 1": "Preliminary round which involves puzzle solving and logical thinking will be conducted and the top  25% of  teams will proceed to  the next round",
             "round 2": "A game that involvesthe use of your analytic al and crypt ic skills will be held, wherein the top 8 teams will qualify for the finale.",
@@ -1363,7 +1363,7 @@ export const eventData = [
         "branch": "",
         "image": "",
         "smallDesc": "Open your eyes to a day when you'refinally a celebrity notjust in front of your mirror!",
-        "full Desc": "Got the skills to speak up and convince your audience? Can'twait to face the barrage of questions thrown towards you? Step into theirbootsandbringyourcelebA-gametothetable.",
+        "fullDesc": "Got the skills to speak up and convince your audience? Can'twait to face the barrage of questions thrown towards you? Step into theirbootsandbringyourcelebA-gametothetable.",
         "roundDetails": {
             "round 1": "Each participant must perform individually. G enera l/ entertainment quiz",
             "round 2": "The final round will be a mock press",
@@ -1410,7 +1410,7 @@ export const eventData = [
         "branch": "",
         "image": "",
         "smallDesc": "A painting or photo exhibition is traditionally a space in which art meets an audience.",
-        "full Desc": " Paint and pixel is an event where we provide a platform for the artists and photographers of our college to showcase their talent.Art completes what nature cannot bring to a finish and a camera is the save button for the mind's eye. Attendees will be able to view the exhibits on displa y. If the artist is willing to sell his / her work, we provide a medium to do so. The exhibits will be on display on all four days of Incridea.",
+        "fullDesc": " Paint and pixel is an event where we provide a platform for the artists and photographers of our college to showcase their talent.Art completes what nature cannot bring to a finish and a camera is the save button for the mind's eye. Attendees will be able to view the exhibits on displa y. If the artist is willing to sell his / her work, we provide a medium to do so. The exhibits will be on display on all four days of Incridea.",
         // "roundDetails": {
         //     "round 1": "Each participant must perform individually. G enera l/ entertainment quiz",
         //     "round 2": "The final round will be a mock press",
@@ -1456,7 +1456,7 @@ export const eventData = [
         "branch": "",
         "image": "",
         "smallDesc": "Do you master the art of playing with perceptions or bringing your imagination to life? ",
-        "full Desc": " The success of a presenta tion is judged not by the knowledge one conveys, but by what the audience receives. Panchatantram is a platform where you get to enthrall the world with your presenta t ion skills.",
+        "fullDesc": " The success of a presenta tion is judged not by the knowledge one conveys, but by what the audience receives. Panchatantram is a platform where you get to enthrall the world with your presenta t ion skills.",
         "roundDetails": {
             "round1": "This round is a pen and paper test which consists of 30 questions relate d to top ics like problem- solving, logical reasoning, general knowledge and verbal abilities to be answered in 30 minutes.The top 10 teams to clear round 1 will be selected for round 2.",
             "round2": "This round is also a pen and paper test which consists of 20 questions that involve monito ring skills and visual clues to be answered in 20 minutes.The top 4 teams to clear round 2 will advance to round 3.",
@@ -1498,7 +1498,7 @@ export const eventData = [
         "branch": "",
         "image": "",
         "smallDesc": "Do you master the art of playing with perceptions or bringing your imagination to life? ",
-        "full Desc": " The success of a presenta tion is judged not by the knowledge one conveys, but by what the audience receives. Panchatantram is a platform where you get to enthrall the world with your presenta t ion skills.",
+        "fullDesc": " The success of a presenta tion is judged not by the knowledge one conveys, but by what the audience receives. Panchatantram is a platform where you get to enthrall the world with your presenta t ion skills.",
         "roundDetails": {
             "round1": "This round is a pen and paper test which consists of 30 questions relate d to top ics like problem- solving, logical reasoning, general knowledge and verbal abilities to be answered in 30 minutes.The top 10 teams to clear round 1 will be selected for round 2.",
             "round2": "This round is also a pen and paper test which consists of 20 questions that involve monito ring skills and visual clues to be answered in 20 minutes.The top 4 teams to clear round 2 will advance to round 3.",
@@ -1540,7 +1540,7 @@ export const eventData = [
         "branch": "",
         "image": "",
         "smallDesc": "Grab a person and a paintbrush and head on over to this face painting competition!",
-        "full Desc": " In this age of filters and  lenses where augmented reality has made changing our looks as simple as tapp ing a button, Pra thibimb ta kes a step back to the drawing board. ",
+        "fullDesc": " In this age of filters and  lenses where augmented reality has made changing our looks as simple as tapp ing a button, Pra thibimb ta kes a step back to the drawing board. ",
         "roundDetails": {
             "round1": "Paint the face of your fellow teammates in 1 hr 30 min based on your creativity. The top teams with the best paintings will be selected for the second round. ",
             "round2": "The qualified teams for round 2 will paint their fellow teammate based on the provided theme in 1.5 hours. The top teams with the best face painting will be announced as winners.",
@@ -1583,7 +1583,7 @@ export const eventData = [
         "branch": "",
         "image": "",
         "smallDesc": "Grab a person and a paintbrush and head on over to this face painting competition!",
-        "full Desc": " In this age of filters and  lenses where augmented reality has made changing our looks as simple as tapp ing a button, Pra thibimb ta kes a step back to the drawing board. ",
+        "fullDesc": " In this age of filters and  lenses where augmented reality has made changing our looks as simple as tapp ing a button, Pra thibimb ta kes a step back to the drawing board. ",
         "roundDetails": {
             "round1": "Paint the face of your fellow teammates in 1 hr 30 min based on your creativity. The top teams with the best paintings will be selected for the second round. ",
             "round2": "The qualified teams for round 2 will paint their fellow teammate based on the provided theme in 1.5 hours. The top teams with the best face painting will be announced as winners.",
