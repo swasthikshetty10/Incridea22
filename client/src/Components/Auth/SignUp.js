@@ -13,13 +13,14 @@ import {
 import './styles.css';
 import InputField from './InputField';
 import Payment from '../Payments/Payment';
-
+import { AiOutlineLoading3Quarters } from "react-icons/ai"
 const SignUp = ({ signIn }) => {
   const [amt, SetAmt] = useState(150);
   const [valid, SetValid] = useState(false);
   const [vals, setVals] = useState({});
   const [emailSent, setEmailSent] = useState(false);
-
+  const [isNmamit, setNmamit] = useState(true);
+  const [loading, setLoading] = useState(false);
   let initialValues = {
     mail: '',
     // otp: '',
@@ -41,6 +42,7 @@ const SignUp = ({ signIn }) => {
       alert('Email sent');
       SetValid(true);
       setEmailSent(true);
+
     } catch (error) {
       console.log(error);
       alert(error.response.data);
@@ -57,6 +59,7 @@ const SignUp = ({ signIn }) => {
         OTP: values.otp,
       });
       alert('OTP verified!!'); //Change ui later
+
     } catch (error) {
       setEmailSent(false);
       console.log(error);
@@ -68,19 +71,18 @@ const SignUp = ({ signIn }) => {
     <Formik
       initialValues={initialValues}
       validationSchema={validate}
-      onSubmit={(values) => {
-        // console.log(values);
-        // amt === 150
-        // 	? (values.mail = `${values.mail}@nmamit.in`)
-        // 	: values.mail;
-        // console.log(values);
+      onSubmit={async (values) => {
+        setLoading(true)
+        if (isNmamit && !values.mail.includes(`@nmamit.in`)) {
+          values.mail = `${values.mail}@nmamit.in`;
+        }
         if (!emailSent) {
-          console.log(values);
-          getOTP(values);
+          await getOTP(values);
         } else {
           console.log(values);
-          validateOTP(values);
+          await validateOTP(values);
         }
+        setLoading(false)
       }}
     >
       {(formik) => {
@@ -98,8 +100,10 @@ const SignUp = ({ signIn }) => {
                       if (!values.isNitte) {
                         domain.innerHTML = '';
                         SetAmt(250);
+                        setNmamit(false);
                       } else {
                         domain.innerHTML = '@nmamit.in';
+                        setNmamit(true);
                         SetAmt(150);
                       }
                     }} //Edited on server
@@ -117,12 +121,22 @@ const SignUp = ({ signIn }) => {
                     <InputField name='mail' type='text' placeholder='Email' />
                     <p id='domain'>@nmamit.in</p>
                   </Div>
-                  {!emailSent && <Button type='submit'>Send OTP</Button>}
+                  {!emailSent &&
+
+
+                    <Button type='submit' className={` inline-flex items-center justify-center gap-3  ${loading ? "opacity-90" : "opacity-100"}`} disabled={loading} >
+                      {loading ? <> <AiOutlineLoading3Quarters className=" animate-spin text-lg " /> <span className=''>Generating OTP...</span></> : 'Send OTP'}
+
+
+                    </Button>}
                   {valid ? (
                     <div className=''>
                       <InputField name='otp' type='text' placeholder='OTP' />
 
-                      <Button type='submit'>Proceed</Button>
+                      <Button disabled={loading} className={`${loading ? 'bg-opacity-10' : 'bg-opacity-100'}`} type='submit'>
+
+
+                        Proceed</Button>
                     </div>
                   ) : (
                     ''
@@ -133,7 +147,7 @@ const SignUp = ({ signIn }) => {
           </div>
         );
       }}
-    </Formik>
+    </Formik >
   );
 };
 
