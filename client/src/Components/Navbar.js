@@ -108,13 +108,13 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import logo from "../Images/logo.png";
 
 function Navbar({ tab }) {
-  const [click, setClick] = useState(0);
+  const [click, setClick] = useState(1);
   const handleHamburger = () => {
     if (click === 0) {
       document.getElementById("mobile-menu-4").classList.add("hidden");
       document.getElementById("mobile-menu-4").classList.add("visible");
-
       setClick(1);
+
     } else {
       document.getElementById("mobile-menu-4").classList.add("visible");
       document.getElementById("mobile-menu-4").classList.remove("hidden");
@@ -127,15 +127,15 @@ function Navbar({ tab }) {
       {/* {... click===0? onClick()=>setClick(1):onClick()=>setClick(0)}  */}
 
       <nav className="bg-[#000] px-2 sm:px-4 py-6 font-nav">
-        <div className="container text-center flex flex-wrap justify-between items-center mx-auto">
+        <div className="container text-center flex flex-wrap justify-between items-center content-center mx-auto">
           <Link to="/" className="flex items-center">
-            <img src={logo} className="mx-3 h-6 sm:h-16" alt="Incridea Logo" />
+            <img src={logo} className="mx-3 h-12 sm:h-16" alt="Incridea Logo" />
             {/* <span className="self-center text-xl font-semibold whitespace-nowrap ">Incridea</span> */}
           </Link>
           <div className="flex md:order-2">
             <button
               type="button"
-              class="rounded-md text-white bg-[#9d7643] font-sans focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 text-md font-bold px-5 py-2.5 text-center mr-2 mb-2"
+              class="rounded-md text-white bg-[#9d7643] font-sans focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-white text-sm md:text-lg font-bold px-2 md:px-4  py-2.5 text-center mr-2 mb-2   "
             >
               {" "}
               <Link to="/login">LOGIN/REGISTER</Link>{" "}
@@ -145,7 +145,7 @@ function Navbar({ tab }) {
               data-collapse-toggle="mobile-menu-4"
               type="button"
               onClick={handleHamburger}
-              className={`  inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200`}
+              className=" inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden "
               aria-controls="mobile-menu-4"
               aria-expanded="false"
             >
@@ -177,7 +177,7 @@ function Navbar({ tab }) {
             </button>
           </div>
           <div
-            className="justify-between items-center w-full md:flex md:w-auto md:order-1"
+            className="justify-between items-center w-full md:flex md:w-auto hidden md:order-1"
             id="mobile-menu-4"
           >
             <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">

@@ -54,7 +54,7 @@ function Gallery() {
         </div>
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
