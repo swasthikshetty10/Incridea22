@@ -24,11 +24,11 @@ function Footer() {
         </div>
         <div className="text-sm sm:text-center text-gray-200">© 2022 <Link to="/" className="hover:underline">Made with ♥ by: Incridea</Link>
         </div>
-        <div className="flex mx-3 gap-2">
-          <a href="#" className="place-items-center  ">
+        <div className="flex mx-3 gap-4">
+          <a href="https://instagram.com/incridea?igshid=YmMyMTA2M2Y=" className="place-items-center  ">
             <FaInstagram className="text-white h-7 hover:text-[#9d7643]" />
           </a>
-          <a href="#" className="place-items-center  ">
+          <a href="https://www.youtube.com/channel/UCjvGyATGpvX5dsfIUwEOt1g" className="place-items-center  ">
             <FaYoutube className="text-white h-7 hover:text-[#9d7643]" />
           </a>
         </div>

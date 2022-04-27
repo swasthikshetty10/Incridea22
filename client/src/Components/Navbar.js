@@ -139,7 +139,7 @@ function Navbar({ tab }) {
               type="button"
               class="rounded-none text-white bg-[#9d7643] font-sans focus:ring-4 focus:outline-none  text-sm md:text-lg font-bold px-3 py-2.5 text-center mr-1 mb-2 hover:text-white ">
               
-              <Link to="/login">Login/Register</Link>
+              <Link to="/login">login / register</Link>
             </button>
 
             <button
