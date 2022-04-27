@@ -33,8 +33,7 @@ function Event2() {
   return (
     <>
       <Navbar tab="events" />
-      <div className="bg-[#171717] p-5 sm:p-10">
-        {/* <Navbar/> */}
+      <div className="bg-black p-5 sm:p-10 h-full">
         <FilterBar
           day={day}
           setDay={setDay}
