@@ -138,7 +138,7 @@ function Navbar({ tab }) {
               class="rounded-md text-white bg-[#9d7643] font-sans focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 text-md font-bold px-5 py-2.5 text-center mr-2 mb-2"
             >
               {" "}
-              <Link to="/login">LOGIN/REGISTER</Link>{" "}
+              <Link to="/login">login/register</Link>{" "}
             </button>
 
             <button
@@ -189,7 +189,7 @@ function Navbar({ tab }) {
                   } `}
                   aria-current="page"
                 >
-                  Home
+                  home
                 </Link>
               </li>
               <li>
@@ -199,7 +199,7 @@ function Navbar({ tab }) {
                     tab === "events" ? "text-[#DA0037]" : "text-[#EDEDED]"
                   } `}
                 >
-                  Events
+                  events
                 </Link>
               </li>
               <li>
@@ -209,7 +209,7 @@ function Navbar({ tab }) {
                     tab === "gallery" ? "text-[#DA0037]" : "text-[#EDEDED]"
                   } `}
                 >
-                  Gallery
+                  gallery
                 </Link>
               </li>
               <li>
@@ -219,7 +219,7 @@ function Navbar({ tab }) {
                     tab === "sponsors" ? "text-[#DA0037]" : "text-[#EDEDED]"
                   } `}
                 >
-                  Sponsors
+                  sponsors
                 </Link>
               </li>
 
@@ -230,7 +230,7 @@ function Navbar({ tab }) {
                     tab === "team" ? "text-[#DA0037]" : "text-[#EDEDED]"
                   } `}
                 >
-                  About us
+                  about us
                 </Link>
               </li>
             </ul>

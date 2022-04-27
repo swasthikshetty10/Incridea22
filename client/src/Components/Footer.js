@@ -18,7 +18,7 @@ function Footer() {
   //         </div>
   return (
     <>
-      <footer className="p-20 sm:p-4 w-full sm:w-screen flex-col sm:flex-row h-32 sm:h-24 flex items-center sm:justify-between justify-center text-center bg-[#000] text-white">
+      <footer className="p-20 sm:p-4 flex-col sm:flex-row h-32 sm:h-24 flex items-center sm:justify-between justify-center text-center bg-[#000] text-white">
         <img src={logo} className="mx-3 h-10 sm:h-9" alt="Incridea Logo" />
         <div className="text-center pt-2 sm:pt-0">Made with ♥ by: Incridea</div>
         <div className="pt-2 sm:pt-0">
