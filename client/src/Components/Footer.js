@@ -17,19 +17,29 @@ function Footer() {
   //     </footer>
   return (
     <>
-
-      <footer className="p-4 flex flex-col md:flex-row flex-wrap items-center justify-center md:items-center  md:justify-around md:p-6 bg-black">
+      <footer className="p-4 gap-2 bg-[#1d1d1d] flex flex-col md:flex-row flex-wrap items-center justify-center md:items-center md:justify-between md:p-6">
         <div>
-          <img className="h-10" src={logo} alt="" />
+          <img className="h-12" src={logo} alt="" />
         </div>
-        <div className="text-sm sm:text-center text-gray-200">© 2022 <Link to="/" className="hover:underline">Made with ♥ by: Incridea</Link>
+        <div className="text-sm sm:text-center text-gray-200">
+          <Link to="/" className="hover:underline text-base">
+            Made with ♥ by Technical Team, Incridea
+            <br />
+          </Link>
+          © 2022
         </div>
         <div className="flex mx-3 gap-4">
-          <a href="https://instagram.com/incridea?igshid=YmMyMTA2M2Y=" className="place-items-center  ">
-            <FaInstagram className="text-white h-7 hover:text-[#9d7643]" />
+          <a
+            href="https://instagram.com/incridea?igshid=YmMyMTA2M2Y="
+            className="place-items-center  "
+          >
+            <FaInstagram className="text-white h-8 hover:text-[#9d7643]" />
           </a>
-          <a href="https://www.youtube.com/channel/UCjvGyATGpvX5dsfIUwEOt1g" className="place-items-center  ">
-            <FaYoutube className="text-white h-7 hover:text-[#9d7643]" />
+          <a
+            href="https://www.youtube.com/channel/UCjvGyATGpvX5dsfIUwEOt1g"
+            className="place-items-center  "
+          >
+            <FaYoutube className="text-white h-8 hover:text-[#9d7643]" />
           </a>
         </div>
         {/* <ul className="flex flex-wrap  items-center mt-3 justify-center text-sm text-gray-500 dark:text-gray-400 sm:mt-0">

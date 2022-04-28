@@ -4,8 +4,9 @@ module.exports = {
     fontFamily: {
       nav: ["CinzelDecorative-Regular"],
       // 'display': ['Oswald', ...],
-
-      body: ['"Open Sans"'],
+      title: ["Playfair"],
+      subheading: ["Playfair"],
+      body: ["Poppins-Light"],
     },
   },
   extend: {},
