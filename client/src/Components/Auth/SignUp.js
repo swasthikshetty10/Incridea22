@@ -132,7 +132,7 @@ const SignUp = ({ signIn }) => {
 
 
                     <Button type='submit' className={` inline-flex items-center justify-center gap-3  ${loading ? "opacity-90" : "opacity-100"}`} disabled={loading} >
-                      {loading ? <> <AiOutlineLoading3Quarters className=" animate-spin text-lg " /> <span className=''>Generating OTP...</span></> : 'Send OTP'}
+                      {loading ? <> <AiOutlineLoading3Quarters className=" animate-spin text-lg " /> <span className=''>Sending Email...</span></> : 'Send Verification Email'}
 
 
                     </Button>}
@@ -140,7 +140,7 @@ const SignUp = ({ signIn }) => {
                     <div className=''>
                       <InputField name='otp' type='text' placeholder='OTP' />
                       <Button className={` inline-flex items-center justify-center gap-3  ${loading ? "opacity-90" : "opacity-100"}`} disabled={loading}>
-                        {loading ? <> <AiOutlineLoading3Quarters className=" animate-spin text-lg " /> <span className=''>verifying</span></> : 'Proceed'}
+                        {loading ? <> <AiOutlineLoading3Quarters className=" animate-spin text-lg " /> <span className=''>verifying</span></> : 'Verify'}
                       </Button>
                       <br />
 
