@@ -19,12 +19,12 @@ const SignUp = ({ signIn }) => {
   const [valid, SetValid] = useState(false);
   const [vals, setVals] = useState({});
   const [emailSent, setEmailSent] = useState(false);
+  const [otpVerified, setOtpVerified] = useState(false)
   const [isNmamit, setNmamit] = useState(true);
   const [loading, setLoading] = useState(false);
   const successSpan = useRef()
   let initialValues = {
     mail: '',
-    // otp: '',
   };
 
   const validate = Yup.object().shape({
@@ -32,7 +32,6 @@ const SignUp = ({ signIn }) => {
       amt === 150
         ? Yup.string().required('Email is required')
         : Yup.string().email().required('Email is required'),
-    // otp: Yup.string().required('OTP is Required'),
   });
 
   const clearMsg = () => {
@@ -43,13 +42,12 @@ const SignUp = ({ signIn }) => {
       await axios.post('http://localhost:8080/auth/generateOtp', {
         email: values.mail,
       });
-      successSpan.current.innerHTML = `<p class="font-semibold text-green-600">Email sent !!</p>`
+      successSpan.current.innerHTML = `<p class="font-semibold text-green-600">Email sent!</p>`
       SetValid(true);
       setEmailSent(true);
 
     } catch (error) {
       console.log(error);
-      // alert(error.response.data);
       successSpan.current.innerHTML = `<p class="font-semibold text-red-600">${error.response.data}</p>`
 
     }
@@ -57,19 +55,16 @@ const SignUp = ({ signIn }) => {
   };
 
   const validateOTP = async (values) => {
-    console.log(values.mail);
-    console.log(values.otp);
     try {
       await axios.post('http://localhost:8080/auth/verifyOtp', {
         email: values.mail,
         OTP: values.otp,
       });
-      //alert('OTP verified!!'); //Change ui later
-      successSpan.current.innerHTML = `<p class="font-semibold text-green-600">${"OTP verified!!"}</p>`
+      successSpan.current.innerHTML = `<p class="font-semibold text-green-600">${"Email Verified"}</p>`
+      setOtpVerified(true)
     } catch (error) {
       console.log(error);
-      //alert(error.response.data);
-      successSpan.current.innerHTML = `<p class="font-semibold text-red-600">${error.response.data}</p>`
+      successSpan.current.innerHTML = `<p class="font-semibold text-red-600">${error.response.data}</p>`//NOTE:
     }
   };
 
@@ -85,7 +80,6 @@ const SignUp = ({ signIn }) => {
         if (!emailSent) {
           await getOTP(values);
         } else {
-          console.log(values);
           await validateOTP(values);
         }
         setLoading(false)
@@ -136,29 +130,33 @@ const SignUp = ({ signIn }) => {
 
 
                     </Button>}
-                  {valid ? (
+                  {!otpVerified && valid && (
                     <div className=''>
-                      <InputField name='otp' type='text' placeholder='OTP' />
+                      <InputField onChange={(e) => {
+                        if (e.target.value.length > 6)
+                          return;
+                        formik.setFieldValue('otp', e.target.value);
+                      }} name='otp' type='number' className='text-center' placeholder='OTP' />
                       <Button className={` inline-flex items-center justify-center gap-3  ${loading ? "opacity-90" : "opacity-100"}`} disabled={loading}>
                         {loading ? <> <AiOutlineLoading3Quarters className=" animate-spin text-lg " /> <span className=''>verifying</span></> : 'Verify'}
                       </Button>
                       <br />
 
                     </div>
-                  ) : (
-                    ''
                   )}
                   <span className="text-center mt-2" ref={successSpan}></span>
                   {
-                    valid && <>
-                      <p>Having trouble verifying via email?</p>
-                      <button onClick={() => {
+                    valid && !otpVerified && <>
+                      <p>Having trouble? <button onClick={() => {
                         SetValid(false); setEmailSent(false)
                         clearMsg();
 
-                      }} className='underline text-blue-800'>resend OTP</button>
+                      }} className='inline underline text-blue-800'>Resend OTP</button></p>
+
                     </>
                   }
+                  {otpVerified && <Payment email={formik.values.mail} className="mt-1" type="button" />}
+
                 </SignInFormCustom>
               </SignUpContainer>
             </Form>
