@@ -1,7 +1,5 @@
-
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { GiHamburgerMenu } from "react-icons/gi";
 
 import logo from "../Images/logo.png";
 
@@ -48,10 +46,12 @@ function Navbar({ tab }) {
           //   </button> */}
 
           <div className="flex md:order-2">
-            <Link  to="/login" >
+            <Link to="/login">
               <button
                 type="button"
-                class="rounded-none text-white bg-[#9d7643] font-sans focus:ring-4 focus:outline-none  text-sm md:text-lg font-bold px-2.5  py-2.5 text-center mr-1 mb-2 hover:text-white ">
+                class="rounded-none text-white bg-[#9d7643] font-sans focus:ring-4 focus:outline-none  text-sm md:text-lg font-bold p-2.5 md:px-3 text-center mr-1 mb-2 hover:text-white "
+              >
+
                 login / register
               </button>
             </Link>
@@ -103,8 +103,9 @@ function Navbar({ tab }) {
               <li>
                 <Link
                   to="/"
-                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${tab === "home" ? "text-[#9d7643]" : "text-[#EDEDED]"
-                    } `}
+                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
+                    tab === "home" ? "text-[#9d7643]" : "text-[#EDEDED]"
+                  } `}
                   aria-current="page"
                 >
                   home
@@ -113,8 +114,9 @@ function Navbar({ tab }) {
               <li>
                 <Link
                   to="/events"
-                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${tab === "events" ? "text-[#9d7643]" : "text-[#EDEDED]"
-                    } `}
+                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
+                    tab === "events" ? "text-[#9d7643]" : "text-[#EDEDED]"
+                  } `}
                 >
                   events
                 </Link>
@@ -123,6 +125,7 @@ function Navbar({ tab }) {
                 <Link
                   to="/gallery"
 
+
                   // className={`block py-2 Opr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
 
                   //   tab === "gallery" ? "text-[#9d7643]" : "text-[#EDEDED]"
@@ -130,6 +133,7 @@ function Navbar({ tab }) {
 
                   className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${tab === "gallery" ? "text-[#9d7643]" : "text-[#EDEDED]"
                     } `}
+
                 >
                   gallery
                 </Link>
@@ -137,8 +141,9 @@ function Navbar({ tab }) {
               <li>
                 <Link
                   to="/sponsors"
-                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${tab === "sponsors" ? "text-[#9d7643]" : "text-[#EDEDED]"
-                    } `}
+                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
+                    tab === "sponsors" ? "text-[#9d7643]" : "text-[#EDEDED]"
+                  } `}
                 >
                   sponsors
                 </Link>
@@ -147,8 +152,9 @@ function Navbar({ tab }) {
               <li>
                 <Link
                   to="/team"
-                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${tab === "team" ? "text-[#9d7643]" : "text-[#EDEDED]"
-                    } `}
+                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
+                    tab === "team" ? "text-[#9d7643]" : "text-[#EDEDED]"
+                  } `}
                 >
                   about us
                 </Link>
