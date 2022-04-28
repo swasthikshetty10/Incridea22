@@ -4,7 +4,7 @@ import Modal from '../Event2/Modal';
 import { FaUsers } from "react-icons/fa";
 import { GoLocation } from "react-icons/go";
 import { BiTimeFive } from "react-icons/bi";
-import { Fade, Zoom, Slide } from "react-awesome-reveal";
+import { Fade , Zoom, Slide } from "react-awesome-reveal";
 
 function EventsCard({ name, src, desc, time, venue, day, branch, round, data }) {
 
@@ -12,8 +12,8 @@ function EventsCard({ name, src, desc, time, venue, day, branch, round, data }) 
 
     return (
         <>
-            <Fade duration={1000} delay={100} >
-                <div className="relative flex  flex-col mx-0 justify-center rounded-2xl shadow-md hover:shadow-lg  cursor-pointer transition-all ease-out delay-100 hover:-translate-y-1 hover:scale-105 duration-300"  >
+             <Fade duration={1000} delay={100} >
+                <div className="relative flex  flex-col mx-0 justify-center rounded-2xl shadow-md hover:shadow-lg  cursor-pointer transition-all ease-out delay-100 hover:-translate-y-1 hover:scale-105 duration-300    "  >
 
                     <div className="relative flex  flex-col mx-0 justify-center rounded-2xl shadow-md hover:shadow-lg  cursor-pointer transition-all ease-out delay-100 hover:-translate-y-1 hover:scale-105 duration-300    " >
 

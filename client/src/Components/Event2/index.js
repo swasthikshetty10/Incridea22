@@ -8,7 +8,8 @@ import src from "../../Images/navrasa.png";
 import FilterBar from "./FilterBar";
 import { queryByRole } from "@testing-library/react";
 import Footer from "../Footer";
-import { eventData } from "./eventData";
+import { eventData } from "./eventData"
+import { Fade, Zoom, Slide } from "react-awesome-reveal";;
 
 
 function Event2() {
