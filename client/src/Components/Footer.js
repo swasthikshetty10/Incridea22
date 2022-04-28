@@ -17,16 +17,16 @@ function Footer() {
   //     </footer>
   return (
     <>
-      <footer className="p-4 gap-2 bg-[#1d1d1d] flex flex-col md:flex-row flex-wrap items-center justify-center md:items-center md:justify-between md:p-6">
+      <footer className="p-4 gap-2 bg-[#1d1d1d] flex flex-col md:flex-row flex-wrap  justify-center items-center md:justify-between md:p-6">
         <div>
           <img className="h-12" src={logo} alt="" />
         </div>
-        <div className="text-sm sm:text-center text-gray-200">
+        <div className="text-sm text-center items-center justify-center text-gray-200">
           <Link to="/" className="hover:underline text-base">
             Made with ♥ by Technical Team, Incridea
             <br />
           </Link>
-          © 2022
+          © Incridea 2022
         </div>
         <div className="flex mx-3 gap-4">
           <a
