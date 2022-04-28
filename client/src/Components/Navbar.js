@@ -25,7 +25,7 @@ function Navbar({ tab }) {
       {/* <nav className="bg-[#000] px-2 sm:px-4 py-6 font-nav" style ={{"fontFamily":"CinzelDecorative-Bold"}} >
         <div className="container text-center flex flex-wrap justify-between items-center mx-auto"> */}
 
-      <nav className="bg-[#000] px-2 md:px-4 py-6 font-nav min-w-fit ">
+      <nav className="bg-[#000] px-2 md:px-4 py-6 font-nav  min-w-fit ">
         <div className="container text-center flex flex-wrap justify-between items-center  content-center mx-auto">
           <Link to="/" className="flex items-center">
             <img
@@ -33,17 +33,9 @@ function Navbar({ tab }) {
               className="mx-3 h-9 md:h-16"
               alt="Incridea Logo"
             />
-            {/* <span className="self-center text-xl font-semibold whitespace-nowrap ">Incridea</span> */}
           </Link>
 
-          {/* // <div className="flex md:order-2"style ={{"fontFamily":"CinzelDecorative-Bold"}}>
-          //   <button */}
-          {/* //     type="button"
-          //     className="rounded-none text-white bg-[#9d7643] font-sans focus:ring-4 focus:outline-none  text-sm md:text-lg font-bold px-3 py-2.5 text-center mr-1 mb-2 hover:text-white ">
-              
-          //     <Link to="/login">login / register</Link>
-
-          //   </button> */}
+          
 
           <div className="flex md:order-2">
             
@@ -53,9 +45,8 @@ function Navbar({ tab }) {
               type="button"
               onClick={handleHamburger}
 
-              className={`  inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none`}
+              className={`  inline-flex items-center p-2 text-sm text-gray-500 rounded-lg sm:hidden md:hidden hover:bg-gray-100 focus:outline-none`}
 
-              // className=" inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden "
 
               aria-controls="mobile-menu-4"
               aria-expanded="false"
@@ -95,7 +86,7 @@ function Navbar({ tab }) {
               <li>
                 <Link
                   to="/"
-                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
+                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl  font-nav font-bold hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
                     tab === "home" ? "text-[#9d7643]" : "text-[#EDEDED]"
                   } `}
                   aria-current="page"
@@ -106,7 +97,7 @@ function Navbar({ tab }) {
               <li>
                 <Link
                   to="/events"
-                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
+                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
                     tab === "events" ? "text-[#9d7643]" : "text-[#EDEDED]"
                   } `}
                 >
@@ -118,12 +109,7 @@ function Navbar({ tab }) {
                   to="/gallery"
 
 
-                  // className={`block py-2 Opr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
-
-                  //   tab === "gallery" ? "text-[#9d7643]" : "text-[#EDEDED]"
-                  // } `}
-
-                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${tab === "gallery" ? "text-[#9d7643]" : "text-[#EDEDED]"
+                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${tab === "gallery" ? "text-[#9d7643]" : "text-[#EDEDED]"
                     } `}
 
                 >
@@ -133,7 +119,7 @@ function Navbar({ tab }) {
               <li>
                 <Link
                   to="/sponsors"
-                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
+                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl  font-nav font-bold hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
                     tab === "sponsors" ? "text-[#9d7643]" : "text-[#EDEDED]"
                   } `}
                 >
@@ -144,7 +130,7 @@ function Navbar({ tab }) {
               <li>
                 <Link
                   to="/team"
-                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
+                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
                     tab === "team" ? "text-[#9d7643]" : "text-[#EDEDED]"
                   } `}
                 >
