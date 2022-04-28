@@ -13,11 +13,11 @@ function EventsCard({ name, src, desc }) {
 
                 <div className="mx-auto flex w-60 h-fit flex-col  justify-start bg-white rounded-none shadow-xl ">
                     <img className="aspect-video rounded-none object-cover object-center " src={src} />
-                   
+
 
                 </div>
             </div>
-            
+
         </>
     )
 }
