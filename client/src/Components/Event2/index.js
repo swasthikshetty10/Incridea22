@@ -20,7 +20,6 @@ function Event2() {
 
   useEffect(() => {
     //filter code
-
     setElements(
       eventData.filter(
         (ele) =>
@@ -35,27 +34,31 @@ function Event2() {
 
   return (
     <>
-      <Navbar tab="events" />
+      <Fade delay={200}>
+        <Navbar tab="events" />
+      </Fade>
       <div className="bg-black  sm:p-10 h-full">
         <div className="flex justify-center flex-col items-center gap-8 lg:gap-5 pb-5">
-          <h1 className="text-6xl md:text-6xl tracking-widest font-title pt-3 sm:pt-0 text-[#EDEDED]">
-            EVENTS
-          </h1>
-          <p className="text-white lg:mb-6 pt-1 pb-3 text-2xl font-body text-center">
-            55 events, 55 places to be
-          </p>
-          <FilterBar
-            day={day}
-            setDay={setDay}
-            query={query}
-            setQuery={setQuery}
-          />
-          {/* <FilterBar {...{ day, setDay, query, setQuery }} /> */}
-          <TabsSimple {...{ branch, setBranch }} />
+          <Fade delay={200}>
+            <h1 className="text-6xl md:text-6xl tracking-widest font-title pt-3 sm:pt-0 text-[#EDEDED]">
+              EVENTS
+            </h1>
+            <p className="text-white lg:mb-6 pt-1 pb-3 text-2xl font-body text-center">
+              55 events, 55 places to be
+            </p>
+            <FilterBar
+              day={day}
+              setDay={setDay}
+              query={query}
+              setQuery={setQuery}
+            />
+            {/* <FilterBar {...{ day, setDay, query, setQuery }} /> */}
+            <TabsSimple {...{ branch, setBranch }} />
+          </Fade>
 
-          
-            
-          
+
+
+
           <div className="max-w-screen-xl flex flex-wrap justify-center gap-x-10 gap-y-14 ">
             {elements.map((value, index) => {
               return (
@@ -74,7 +77,7 @@ function Event2() {
               );
             })}
           </div>
-         
+
 
         </div>
       </div>
