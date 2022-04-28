@@ -65,22 +65,24 @@ function Profile() {
         {/* <Zero /> */}
         <div className="w-full sm:w-4/5 text-white flex items-center lg:p-2 p-4">
           <div>
-            <Link to="/">
-              <BiArrowBack size="2rem" className="text-[#9d7643]" />
-              <h1>Home</h1>
-            </Link>
+            <button>
+              <Link to="/">
+                <BiArrowBack size="2rem" className=" text-[#9d7643]" />
+              </Link>
+              Home
+            </button>
           </div>
           <h1 className="p-2 w-full mx-auto text-center text-gradient font-bold text-3xl bg-gradient-to-r from-amber-100  to-yellow-500">
             Welcome, {participant.name}
           </h1>
         </div>
-        <div className="border bg-black p-4 border-[#9d7643] mt-4 backdrop-blur-sm bg-white/1 shadow-2xl">
+        <div className="border bg-black p-4 mt-4 backdrop-blur-sm bg-white/1 shadow-2xl">
           <div className="border-l-4 p-2 border-[#9d7643] border-t-2 rounded-lg">
             <h1 className="text-2xl text-white font-semibold">
               {participant.name}
             </h1>
             <h2 className=" text-gray-300 mb-3">{participant.email}</h2>
-            <div className="border-2 border-cyan-900 font-semibold text-cyan-200 rounded-md text-center inline">
+            <div className="border-1 border-white/80 font-semibold text-red-600 rounded-md text-center inline p-1">
               PID: {participant.pId}
             </div>
           </div>
@@ -103,7 +105,7 @@ function Profile() {
           <div className="text-center shadow-2xl p-2 rounded-lg flex justify-center items-center bg-white w-fit mx-auto">
             <div className="p-2">
               <h1 className="text-gray font-semibold text-2xl">PID</h1>
-              <h2 className="text-gray-900 text-xl">18041</h2>
+              <h2 className="text-gray-900 text-xl">{participant.pId}</h2>
             </div>
             <div id="container" className="">
               <img src={src} alt="QR code" />

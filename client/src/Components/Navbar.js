@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { GiHamburgerMenu } from "react-icons/gi";
 
 import logo from "../Images/logo.png";
 
@@ -36,7 +35,7 @@ function Navbar({ tab }) {
             <Link to="/login">
               <button
                 type="button"
-                class="rounded-none text-white bg-[#9d7643] font-sans focus:ring-4 focus:outline-none  text-sm md:text-lg font-bold px-1 md:px-3 py-2.5 text-center mr-1 mb-2 hover:text-white "
+                class="rounded-none text-white bg-[#9d7643] font-sans focus:ring-4 focus:outline-none  text-sm md:text-lg font-bold p-2.5 md:px-3 text-center mr-1 mb-2 hover:text-white "
               >
                 login / register
               </button>

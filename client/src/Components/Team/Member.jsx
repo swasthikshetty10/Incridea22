@@ -14,7 +14,7 @@ const Member = ({ name, role, src }) => {
             <h3 className="pt-2 pb-4 text-sm text-slate-400 font-semibold tracking-wider">
               {role}
             </h3>
-            <div className="flex gap-2">
+            <div className="flex justify-center gap-3">
               <FaInstagram className="text-white cursor cursor-pointer" />
               <HiOutlineMail className="text-white cursor-pointer" />
             </div>
