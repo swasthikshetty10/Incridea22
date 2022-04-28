@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+
 import Logo from "../../../Images/logo.png";
 import { motion } from "framer-motion";
 import { useLocomotiveScroll } from "react-locomotive-scroll";
@@ -30,6 +30,10 @@ const LogoContainer = styled.div`
   img {
     width: 28vw;
     height: auto;
+
+    @media (max-width: 48em) {
+      width:70vw;
+    }
   }
   h3 {
     font-size: ${(props) => props.theme.fontxxl};
@@ -141,16 +145,11 @@ const Footer = () => {
       >
         <ul>
           {/* we have */}
-          <Link to="/" >Home</Link>
-          <Link to="/events" >Events</Link>
-          <Link to="/gallery" >Gallery</Link>
-          <Link to="/sponsers" >Sponsors</Link>
-          <Link to="/about" >About Us</Link>
-          {/* <li onClick={() => handleScroll("#home")}>Home</li>
+          <li onClick={() => handleScroll("#home")}>Home</li>
           <li onClick={() => handleScroll(".about")}>Events</li>
           <li onClick={() => handleScroll("#shop")}>Gallery</li>
           <li onClick={() => handleScroll("#new-arrival")}>Sponsors</li>
-          <li onClick={() => handleScroll("#new-arrival")}>About Us</li> */}
+          <li onClick={() => handleScroll("#new-arrival")}>About Us</li>
           {/* <li>
             <a href="https://google.com" target="_blank" rel="noreferrer">
               look book
@@ -181,7 +180,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Incridea Tech Team
+              CodeBucks
             </a>
           </span>
         </Bottom>

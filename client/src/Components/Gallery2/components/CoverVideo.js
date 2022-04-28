@@ -54,14 +54,14 @@ const Title = styled(motion.div)`
   h1 {
     font-family: CinzelDecorative-Bold;
  
-    font-size: 90px;
+    font-size: 8vw;
     margin:-15px auto;
     letter-spacing:2px;
     text-shadow: 1px 1px 1px ${(props) => props.theme.body};
 
     @media (max-width: 50em) {
-      font-size: 60px;
-      margin:-10px auto;
+      font-size: 12vw;
+      margin:0px auto;
     }
 
   }
