@@ -30,6 +30,10 @@ const LogoContainer = styled.div`
   img {
     width: 28vw;
     height: auto;
+
+    @media (max-width: 48em) {
+      width:70vw;
+    }
   }
   h3 {
     font-size: ${(props) => props.theme.fontxxl};

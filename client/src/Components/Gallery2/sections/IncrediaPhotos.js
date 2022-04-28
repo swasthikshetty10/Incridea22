@@ -122,7 +122,7 @@ const Item = styled(motion.div)`
   }
 
   @media (max-width: 48em) {
-    width: 15rem;
+    width: 90vw;
   }
 `;
 
