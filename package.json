@@ -18,6 +18,9 @@
   "homepage": "https://github.com/BharathMKulkarni/Incridea-Website-22#readme",
   "dependencies": {
     "dotenv": "^16.0.0",
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "gsap": "^3.10.4",
+    "locomotive-scroll": "^4.1.4",
+    "react-locomotive-scroll": "^0.2.0"
   }
 }
