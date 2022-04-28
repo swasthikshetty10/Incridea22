@@ -11,7 +11,7 @@ import Footer from "../Footer";
 import { eventData } from './eventData'
 function Event2() {
   console.log(eventData)
-  const [branch, setBranch] = useState("CORE");
+  const [branch, setBranch] = useState("ALL");
   const [day, setDay] = useState("0");
   const [query, setQuery] = useState("");
   const [elements, setElements] = useState(data);
@@ -23,7 +23,7 @@ function Event2() {
       eventData.filter(
         (ele) =>
           (String(ele.day) === day || day === "0") &&
-          (ele.branch === branch || branch === "CORE") &&
+          (ele.branch === branch || branch === "ALL") &&
           ele.name.toLowerCase().includes(query.toLowerCase())
       )
     );
@@ -61,7 +61,7 @@ function Event2() {
                   day={value.day}
                   branch={value.branch}
                   round={value.round ? value.round : null}
-                  
+                  data={value}
                 />
               );
             })}

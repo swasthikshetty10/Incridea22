@@ -17,12 +17,12 @@ import Footer from './sections/Footer';
 import Loader from "./components/Loader";
 // import Buttons from "./sections/Buttons";
 import Navbar from "../Navbar";
-
+import Topbutton from "../Topbutton";
 
 function Gallery2() {
   const containerRef = useRef(null);
   console.log("containerRef: "+containerRef);
-
+  const topref = useRef()
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
@@ -34,8 +34,10 @@ function Gallery2() {
 
   return (
     <>
+   
       <GlobalStyles />
 
+      {/* <Topbutton topref={topref}/> */}
       <ThemeProvider theme={dark} >
         <LocomotiveScrollProvider
           options={{
@@ -63,7 +65,7 @@ function Gallery2() {
         </AnimatePresence>
           <AnimatePresence key="mainpage">
           <main className='Gallery2' data-scroll-container ref={containerRef} >
-            <Home />
+            <Home ref={topref}/>
             {/* <Buttons/> */}
             {/* <About /> */}
             <IncrediaPhotos id='2020' elementnumber={1} title="2020" key="2020"/>

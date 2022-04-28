@@ -18,9 +18,9 @@ const Section = styled.section`
   overflow: hidden;
 `;
 
-const Home = () => {
+const Home = ({topref}) => {
   return (
-    <Section id="home">
+    <Section id="home" ref={topref}>
       <Suspense fallback={<></>}>
         {/* <Logo /> */}
         <Navbar  tab="gallery" />

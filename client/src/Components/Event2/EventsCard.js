@@ -5,7 +5,7 @@ import { FaUsers } from "react-icons/fa";
 import { GoLocation } from "react-icons/go";
 import { BiTimeFive } from "react-icons/bi";
 
-function EventsCard({ name, src, desc, time, venue, day,branch, round }) {
+function EventsCard({ name, src, desc, time, venue, day, branch, round, data }) {
 
     const [openModal, setModal] = useState(false);
 
@@ -44,15 +44,10 @@ function EventsCard({ name, src, desc, time, venue, day,branch, round }) {
             {openModal &&
 
                 < Modal
-                name= {name}
-                desc={desc}
-                venue={venue}
-                time={time}
-                src={src}
-                branch={branch}
+                    data={data}
 
-                
-                closeModal={setModal} />
+
+                    closeModal={setModal} />
 
             }
         </>
