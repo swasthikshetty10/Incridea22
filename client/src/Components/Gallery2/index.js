@@ -16,7 +16,6 @@ import ScrollTriggerProxy from './components/ScrollTriggerProxy';
 import Footer from './sections/Footer';
 import Loader from "./components/Loader";
 // import Buttons from "./sections/Buttons";
-import Navbar from "../Navbar";
 
 
 function Gallery2() {
@@ -35,7 +34,6 @@ function Gallery2() {
   return (
     <>
       <GlobalStyles />
-
       <ThemeProvider theme={dark} >
         <LocomotiveScrollProvider
           options={{

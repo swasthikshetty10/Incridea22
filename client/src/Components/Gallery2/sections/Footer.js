@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-
+import { Link } from "react-router-dom";
 import Logo from "../../../Images/logo.png";
 import { motion } from "framer-motion";
 import { useLocomotiveScroll } from "react-locomotive-scroll";
@@ -141,11 +141,16 @@ const Footer = () => {
       >
         <ul>
           {/* we have */}
-          <li onClick={() => handleScroll("#home")}>Home</li>
+          <Link to="/" >Home</Link>
+          <Link to="/events" >Events</Link>
+          <Link to="/gallery" >Gallery</Link>
+          <Link to="/sponsers" >Sponsors</Link>
+          <Link to="/about" >About Us</Link>
+          {/* <li onClick={() => handleScroll("#home")}>Home</li>
           <li onClick={() => handleScroll(".about")}>Events</li>
           <li onClick={() => handleScroll("#shop")}>Gallery</li>
           <li onClick={() => handleScroll("#new-arrival")}>Sponsors</li>
-          <li onClick={() => handleScroll("#new-arrival")}>About Us</li>
+          <li onClick={() => handleScroll("#new-arrival")}>About Us</li> */}
           {/* <li>
             <a href="https://google.com" target="_blank" rel="noreferrer">
               look book
@@ -176,7 +181,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              CodeBucks
+              Incridea Tech Team
             </a>
           </span>
         </Bottom>
