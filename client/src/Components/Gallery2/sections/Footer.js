@@ -31,7 +31,7 @@ const LogoContainer = styled.div`
     width: 28vw;
     height: auto;
 
-    @media (max-width: 48em) {
+    @media (max-width: 48em){
       width:70vw;
     }
   }
