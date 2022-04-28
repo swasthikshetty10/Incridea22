@@ -61,7 +61,7 @@ function Event2() {
                   day={value.day}
                   branch={value.branch}
                   round={value.round ? value.round : null}
-                  
+                  data={value}
                 />
               );
             })}
