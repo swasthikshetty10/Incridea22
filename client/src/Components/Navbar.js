@@ -21,18 +21,13 @@ function Navbar({ tab }) {
     <>
       {/* {... click===0? onClick()=>setClick(1):onClick()=>setClick(0)}  */}
 
-
       {/* <nav className="bg-[#000] px-2 sm:px-4 py-6 font-nav" style ={{"fontFamily":"CinzelDecorative-Bold"}} >
         <div className="container text-center flex flex-wrap justify-between items-center mx-auto"> */}
 
-      <nav className="bg-[#000] px-2 md:px-4 py-6 font-nav min-w-fit ">
+      <nav className="bg-[#000] px-2 md:px-4 font-bold py-6 min-w-fit ">
         <div className="container text-center flex flex-wrap justify-between items-center  content-center mx-auto">
           <Link to="/" className="flex items-center">
-            <img
-              src={logo}
-              className="mx-3 h-9 md:h-16"
-              alt="Incridea Logo"
-            />
+            <img src={logo} className="mx-3 h-9 md:h-16" alt="Incridea Logo" />
             {/* <span className="self-center text-xl font-semibold whitespace-nowrap ">Incridea</span> */}
           </Link>
 
@@ -46,15 +41,11 @@ function Navbar({ tab }) {
           //   </button> */}
 
           <div className="flex md:order-2">
-            
-
             <button
               data-collapse-toggle="mobile-menu-4"
               type="button"
               onClick={handleHamburger}
-
               className={`  inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none`}
-
               // className=" inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden "
 
               aria-controls="mobile-menu-4"
@@ -91,7 +82,10 @@ function Navbar({ tab }) {
             className="justify-between items-center w-full md:flex md:w-auto hidden md:order-1"
             id="mobile-menu-4"
           >
-            <ul style ={{"fontFamily":"CinzelDecorative-Bold"}} className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+            <ul
+              style={{ fontFamily: "CinzelDecorative-Bold" }}
+              className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium"
+            >
               <li>
                 <Link
                   to="/"
@@ -116,16 +110,14 @@ function Navbar({ tab }) {
               <li>
                 <Link
                   to="/gallery"
-
-
                   // className={`block py-2 Opr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
 
                   //   tab === "gallery" ? "text-[#9d7643]" : "text-[#EDEDED]"
                   // } `}
 
-                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${tab === "gallery" ? "text-[#9d7643]" : "text-[#EDEDED]"
-                    } `}
-
+                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl   hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
+                    tab === "gallery" ? "text-[#9d7643]" : "text-[#EDEDED]"
+                  } `}
                 >
                   gallery
                 </Link>

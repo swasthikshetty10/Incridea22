@@ -10,7 +10,9 @@ const Member = ({ name, role, src }) => {
             <img className="h-40 m-auto " src={src} alt="" />
           </div>
           <div className="text-center h-fit bg-[#1d1d1d]  p-2">
-            <h1 className="pt-2  font-semibold text-xl text-white">{name}</h1>
+            <h1 className="pt-2  font-semibold text-xl text-white tracking-wide">
+              {name}
+            </h1>
             <h3 className="pt-2 pb-4 text-sm text-slate-400 font-semibold tracking-wider">
               {role}
             </h3>
