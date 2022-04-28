@@ -25,6 +25,7 @@ function Payment(props) {
 			"order_id": data.id,
 			"handler": async function (response) {
 				//TODO: EVERYTHING IN COMMENTS
+				//TODO: USE TIMEOUTS WITH AXIOS --> can client change??
 				const res = await axios.post('http://localhost:8080/auth/verifyPayment', {
 					email: props.email,
 					payment_id: response.razorpay_payment_id,
