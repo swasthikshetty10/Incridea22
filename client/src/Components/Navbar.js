@@ -24,7 +24,7 @@ function Navbar({ tab }) {
       {/* <nav className="bg-[#000] px-2 sm:px-4 py-6 font-nav" style ={{"fontFamily":"CinzelDecorative-Bold"}} >
         <div className="container text-center flex flex-wrap justify-between items-center mx-auto"> */}
 
-      <nav className="bg-[#1d1d1d] tracking-wider px-2 md:px-4 py-6 font-nav  min-w-fit ">
+      <nav className="bg-[#000] tracking-wider px-2 md:px-4 py-6 font-nav  min-w-fit ">
         <div className="container text-center flex flex-wrap justify-between items-center  content-center mx-auto">
           <Link to="/" className="flex items-center">
             <img src={logo} className="mx-3 h-9 md:h-16" alt="Incridea Logo" />
@@ -67,17 +67,17 @@ function Navbar({ tab }) {
             </button>
           </div>
           <div
-            className="justify-between items-center w-full md:flex md:w-auto hidden md:order-1"
+            className="justify-between items-center w-full md:flex md:w-auto hidden  md:order-1"
             id="mobile-menu-4"
           >
             <ul
               style={{ fontFamily: "CinzelDecorative-Bold" }}
-              className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium"
+              className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm  md:font-medium"
             >
               <li>
                 <Link
                   to="/"
-                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl  font-nav font-bold hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
+                  className={`block py-2 pr-4 pl-3  border-none  text-xl  font-nav font-bold hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
                     tab === "home" ? "text-[#9d7643]" : "text-[#EDEDED]"
                   } `}
                   aria-current="page"
@@ -88,7 +88,7 @@ function Navbar({ tab }) {
               <li>
                 <Link
                   to="/events"
-                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl font-nav  font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
+                  className={`block py-2 pr-4 pl-3  border-none text-xl font-nav  font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
                     tab === "events" ? "text-[#9d7643]" : "text-[#EDEDED]"
                   } `}
                 >
@@ -98,7 +98,7 @@ function Navbar({ tab }) {
               <li>
                 <Link
                   to="/gallery"
-                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
+                  className={`block py-2 pr-4 pl-3   text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
                     tab === "gallery" ? "text-[#9d7643]" : "text-[#EDEDED]"
                   } `}
                 >
@@ -108,7 +108,7 @@ function Navbar({ tab }) {
               <li>
                 <Link
                   to="/sponsors"
-                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl  font-nav font-bold hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
+                  className={`block py-2 pr-4 pl-3   text-xl  font-nav font-bold hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
                     tab === "sponsors" ? "text-[#9d7643]" : "text-[#EDEDED]"
                   } `}
                 >
@@ -119,7 +119,7 @@ function Navbar({ tab }) {
               <li>
                 <Link
                   to="/team"
-                  className={`block py-2 pr-4 pl-3  border-b border-gray-100 text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
+                  className={`block py-2 pr-4 pl-3   text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
                     tab === "team" ? "text-[#9d7643]" : "text-[#EDEDED]"
                   } `}
                 >

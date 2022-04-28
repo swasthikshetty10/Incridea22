@@ -35,10 +35,13 @@ function Event2() {
     <>
       <Navbar tab="events" />
       <div className="bg-black  sm:p-10 h-full">
-        <div className="flex justify-center flex-col items-center gap-8 lg:gap-14 pb-5">
-          <h1 className="text-6xl md:text-6xl tracking-widest font-title font- text-[#EDEDED]">
+        <div className="flex justify-center flex-col items-center gap-8 lg:gap-5 pb-5">
+          <h1 className="text-6xl md:text-6xl tracking-widest font-title pt-3 sm:pt-0 text-[#EDEDED]">
             EVENTS
           </h1>
+          <p className="text-white lg:mb-6 pt-1 pb-3 text-2xl font-body text-center">
+          55 events, 55 places to be
+          </p>
           <FilterBar
             day={day}
             setDay={setDay}

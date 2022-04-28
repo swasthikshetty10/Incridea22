@@ -17,7 +17,7 @@ function Footer() {
   //     </footer>
   return (
     <>
-      <footer className="p-4 gap-2 bg-[#1d1d1d] flex flex-col md:flex-row flex-wrap  justify-center items-center md:justify-between md:p-6">
+      <footer className="p-4 gap-2 bg-[#000] flex flex-col md:flex-row flex-wrap  justify-center items-center md:justify-between md:p-6">
         <div>
           <img className="h-12" src={logo} alt="" />
         </div>

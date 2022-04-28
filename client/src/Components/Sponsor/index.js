@@ -42,13 +42,16 @@ const Sponsor = () => {
       {console.log(SponsorDetails)}
       <Navbar tab="sponsors" />
       <div className="bg-black sm:p-4 lg:p-8">
-        <div className="text-center pt-2">
+        <div className="text-center gap-5 pt-2">
           <h1
-            className="font-title  text-5xl md:text-6xl tracking-widest pb-5
+            className="font-title  text-5xl md:text-6xl tracking-widest pb-4
            text-[#EDEDED]"
           >
             OUR SPONSORS
           </h1>
+          <p className="text-white lg:mb-6 pt-1 pb-3 text-2xl font-body text-center">
+            Big names backing an extraordinary fest
+          </p>
           <div className="gap-5 ">
             {SponsorDetails.map((sponorDetail) => (
               <EventsCard

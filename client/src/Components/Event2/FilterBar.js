@@ -10,7 +10,7 @@ function FilterBar({ day, setDay, query, setQuery }) {
               onChange={(e) => setQuery(e.target.value)}
               value={query}
               type="search"
-              className="form-control relative flex-auto min-w-0 block w-full px-3 py-2 text-base font-normal text-[#EDEDED] bg-[#444444] bg-clip-padding border-3 border-solid border-gray-900  transition ease-in-out m-0 focus:text-gray-700 focus:bg-white  focus:outline-none"
+              className="form-control relative flex-auto min-w-0 block w-full px-3 py-2 text-base font-normal text-[#EDEDED] bg-[#444444] bg-clip-padding border-3 border-none  transition ease-in-out m-0 focus:text-gray-700 focus:bg-white  focus:outline-none"
               placeholder="Search Events"
             />
           </div>
