@@ -26,7 +26,7 @@ function Navbar({ tab }) {
           <Link to="/" className="flex items-center">
             <img
               src={logo}
-              className="mx-3 h-10  md:h-16"
+              className="mx-3 h-9 md:h-16"
               alt="Incridea Logo"
             />
             {/* <span className="self-center text-xl font-semibold whitespace-nowrap ">Incridea</span> */}
@@ -37,6 +37,7 @@ function Navbar({ tab }) {
                 type="button"
                 class="rounded-none text-white bg-[#9d7643] font-sans focus:ring-4 focus:outline-none  text-sm md:text-lg font-bold p-2.5 md:px-3 text-center mr-1 mb-2 hover:text-white "
               >
+
                 login / register
               </button>
             </Link>
