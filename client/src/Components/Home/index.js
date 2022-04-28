@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../Navbar";
 import higher from "../../Images/home/higher.png"
 import avatar from "../../Images/home/avatar.png"
+import Counter from "./Counter";
 
 
 function Home() {
@@ -23,11 +24,14 @@ function Home() {
           {/* <img className="absolute top-20 left-5 z-10 md:top-8 md:left-[50rem] md:h-[90vh] " src={circle} alt="" /> */}
           <img className="md:max-w-[50vw]" src={avatar} alt="" />
         </div>
-
-
       </div>
 
-
+      <div className="flex justify-center text-center items-center py-5" style={{ fontFamily: "CinzelDecorative-Bold" }}>
+        <div className="flex flex-col items-center justify-center">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl p-3 font-semibold text-[#9d7643]">Countdown Has Begun</h2>
+          <Counter />
+        </div>
+      </div>
 
 
     </>
