@@ -12,7 +12,7 @@ function EventsCard({ name, src, desc, time, venue, day, branch, round, data }) 
     return (
         <>
 
-            <div className="relative flex  flex-col mx-0 justify-center rounded-2xl shadow-md hover:shadow-lg  cursor-pointer transition-all ease-out delay-100 hover:-translate-y-1 hover:scale-105 duration-300    " onClick={() => { setModal(true) }} >
+            <div className="relative flex  flex-col mx-0 justify-center rounded-2xl shadow-md hover:shadow-lg  cursor-pointer transition-all ease-out delay-100 hover:-translate-y-1 hover:scale-105 duration-300    " >
 
                 <div className="mx-auto flex w-60 h-72 flex-col pb-8 justify-start bg-[#1d1d1d]  rounded-none shadow-xl  ">
                     <img className="aspect-video rounded-t-none object-cover object-center  " src={src} />
@@ -36,7 +36,7 @@ function EventsCard({ name, src, desc, time, venue, day, branch, round, data }) 
 
                     </div>
                     <div className=' flex justify-center'>
-                        <button type="button" class="absolute bottom-[-1.75rem]   text-white bg-[#9d7643]  hover:bg-gradient-to-bl  font-medium rounded-none text-sm px-5 py-2.5 text-center w-fit m-auto   my-2" onClick={() => { setModal(true) }}  >Know More <BsFillArrowRightCircleFill className='inline mx-1' /> </button>
+                        <button type="button" className="absolute bottom-[-1.75rem] transition ease-in-out hover:scale-110  hover:-translate-y-1  text-white bg-[#9d7643]  hover:bg-gradient-to-bl  font-medium rounded-none text-sm px-5 py-2.5 text-center w-fit m-auto   my-2" onClick={() => { setModal(true) }}  >Know More <BsFillArrowRightCircleFill className='inline mx-1' /> </button>
                     </div>
 
                 </div>

@@ -9,7 +9,6 @@ import FilterBar from "./FilterBar";
 import { queryByRole } from "@testing-library/react";
 import Footer from "../Footer";
 import { eventData } from "./eventData";
-import { Fade, Zoom } from "react-awesome-reveal";
 
 
 function Event2() {
@@ -60,7 +59,6 @@ function Event2() {
           <div className="max-w-screen-xl flex flex-wrap justify-center gap-x-10 gap-y-14 ">
             {elements.map((value, index) => {
               return (
-                <Zoom fraction=".8" triggerOnce  >
                 <EventsCard
                   key={index}
                   name={value.name}
@@ -73,7 +71,6 @@ function Event2() {
                   round={value.round ? value.round : null}
                   data={value}
                 />
-                </Zoom>
               );
             })}
           </div>

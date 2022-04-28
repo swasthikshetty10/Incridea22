@@ -23,7 +23,7 @@ function Modal({ data, closeModal }) {
             <div id="extralarge-modal" tabindex="-1" className=" overflow-y-hidden  md:inset-0  flex items-center justify-center justify-items-center overflow-x-hidden  ">
                 <div className="relative p-4 w-full max-w-7xl h-full md:h-auto backdrop-lg rounded-lg shadow-lg  border-0  " >
                     {/* <!-- Modal content --> */}
-                    <div className="relative bg-blend-color rounded-lg shadow  bg-clip-padding backdrop-blur  bg-opacity-90 bg-gradient-to-r from-gray-800 to-gray-500 ">
+                    <div className="relative bg-blend-color rounded-lg shadow  bg-clip-padding backdrop-blur  bg-opacity-90 bg-gradient-to-r from-[#232526] to-[#414345] ">
                         {/* <!-- Modal header --> */}
                         <div className="flex flex-wrap justify-between items-center p-3 md:p-4  rounded-t border-b dark:border-gray-600">
                             <div className=''>
@@ -50,14 +50,14 @@ function Modal({ data, closeModal }) {
                                     <div className=" text-gray-100"> <BiTimeFive className="inline mr-2" />Time - {data.Time}</div>
                                     <div className=" text-gray-100"> <FaBuilding className="inline mr-2" />Branch - {data.branch}  </div>
                                     {/* <div className=" text-white"> <BiTimeFive className="inline mr-2" />Team - 5:00PM</div> */}
-                                    <div className="pt-3 text-gray-100"> <HiUserGroup className="inline mr-2" />Organizer details :
+                                    <div className="pt-3 text-gray-100 text-lg"> <HiUserGroup className="inline mr-2" />Organizer details :
                                         <br />
                                         {data.contactDetails.map((org, i) =>
                                             <div key={i} className=''>
-                                                <span>
+                                                <span className='text-[17px]' >
                                                     {org.name}
                                                 </span><br />
-                                                <span>
+                                                <span className='text-sm' >
                                                     {org.phoneNumber}
                                                 </span>
 
