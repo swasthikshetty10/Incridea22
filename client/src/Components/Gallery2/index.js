@@ -13,7 +13,7 @@ import IncrediaPhotos from "./sections/IncrediaPhotos";
 import ScrollTriggerProxy from './components/ScrollTriggerProxy';
 // import Banner from "./sections/Banner";
 // import NewArrival from "./sections/NewArrival";
-import Footer from './sections/Footer';
+import Footer from '../Footer';
 import Loader from "./components/Loader";
 // import Buttons from "./sections/Buttons";
 import Navbar from "../Navbar";
@@ -36,7 +36,8 @@ function Gallery2() {
     <>
    
       <GlobalStyles />
-
+      {/* <Topbutton/> */}
+      {/* <span id="top"></span> */}
       {/* <Topbutton topref={topref}/> */}
       <ThemeProvider theme={dark} >
         <LocomotiveScrollProvider
