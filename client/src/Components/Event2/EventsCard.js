@@ -28,7 +28,8 @@ function EventsCard({ name, src, desc, time, venue, day, branch, round, data }) 
 
                                     <div className='text-center text-gray-400'>
                                         <span className='inline-flex overflow-wrap mr-2'>{venue}</span>|
-                                        <span className='inline-flex overflow-wrap  ml-2'>{time}</span>
+                                        <span className='inline-flex overflow-wrap  ml-2'>{time}</span> |
+                                        <span className='inline-flex overflow-wrap  ml-2'>Day- {day}</span>
                                     </div>
                                     <div className='text-center  text-sm text-gray-500'>
                                         {round && `round ${round}`}

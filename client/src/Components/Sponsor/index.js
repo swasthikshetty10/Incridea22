@@ -5,6 +5,8 @@ import codeNinja from "../../Images/Sponsor/codingninja.png";
 import redfm from "../../Images/Sponsor/redfm.png";
 import lifestyle from "../../Images/Sponsor/lifestyle.png";
 import dlithe from "../../Images/Sponsor/dlithe.png";
+import { Fade , Zoom, Slide } from "react-awesome-reveal";
+
 
 const SponsorDetails = [
   {
@@ -53,6 +55,8 @@ const Sponsor = () => {
             Big names backing an extraordinary fest
           </p>
           <div className="gap-5 ">
+          <Fade duration={1000} delay={100} >
+
             {SponsorDetails.map((sponorDetail) => (
               <EventsCard
                 ImageSrc={sponorDetail.image}
@@ -61,6 +65,7 @@ const Sponsor = () => {
                 SponsorWebsiteLink={sponorDetail.url}
               />
             ))}
+            </Fade>
           </div>
         </div>
       </div>
