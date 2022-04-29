@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "../Navbar";
 import higher from "../../Images/home/higher.png"
 import avatar from "../../Images/home/avatar.png"
@@ -7,8 +7,15 @@ import { Slide, Fade } from 'react-awesome-reveal'
 import cloud from './cloud1.png'
 import chakra from './chakra.png'
 function Home() {
+  const [rotation, setRotation] = useState("rotate-0")
+  const [second, secSecond] = useState(0)
+  useEffect(() => {
+    const rot = `${(second * 6) % 360}deg`
+    setRotation(rot)
+  }, [second])
   return (
     <>
+
       <Fade duration={1500}>
         <Navbar tab="home" />
       </Fade>
@@ -17,10 +24,10 @@ function Home() {
           <div className="flex gap-3 px-5  flex-col" >
             <img src={higher} className=" " alt="" />
             <p className="text-gray-100 text-lg  text-justify" >An amalgamation of all forms of technical, literary and cultural activities Incridea is a celebration of fervour and talent. It is the national level techno-cultural fest of
-              <a target="blank" className="  text-[#cd9b58] hover:text-white text-base" href="https://nmamit.nitte.edu.in/"> NMAM Institute of Technology</a> , Nitte .
+              <a target="blank" className="  text-[#cd9b58] hover:text-red-500 text-base" href="https://nmamit.nitte.edu.in/"> NMAM Institute of Technology</a> , Nitte .
             </p>
             <div className="select-none bg-white border-0 hover:bg-opacity-100  bg-opacity-10 text-white px-6 py-2 w-fit font-bold  text-center " >
-              Registrations start on 30th April
+              Registrations start on 29th April
 
             </div>
           </div>
@@ -39,17 +46,17 @@ function Home() {
       <div className="relative overflow-hidden pt-36 pb-96">
         <div className="absolute w-full flex justify-between ">
           <div className=" shrink-0  -ml-[395px]  -mt-28" >
-            <img className=" h-[40rem]   w-auto" src={chakra} alt="" />
+            <img style={{ transform: `rotate(-${rotation})` }} className={` h-[40rem]   w-auto`} src={chakra} alt="" />
           </div>
-          <div className="shrink-0 -mr-[395px]   pt-10">
-            <img className="h-[40rem] w-auto" src={chakra} alt="" />
+          <div className="shrink-0 -mr-[395px] hidden md:block  pt-10">
+            <img style={{ transform: `rotate(${rotation})` }} className="h-[40rem] w-auto" src={chakra} alt="" />
           </div>
         </div>
         <Slide direction="up">
           <div className="flex justify-center text-center items-center py-5" style={{ fontFamily: "CinzelDecorative-Bold" }}>
             <div className="flex flex-col items-center justify-center pt-20 ">
               <h2 className="text-3xl sm:text-4xl lg:text-5xl p-3 font-semibold text-[#9d7643]">Countdown Has Begun</h2>
-              <Counter />
+              <Counter setSecond={secSecond} />
             </div>
           </div>
         </Slide>

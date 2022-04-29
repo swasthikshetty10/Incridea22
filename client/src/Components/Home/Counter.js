@@ -50,9 +50,9 @@ const ShowCounter = ({ days, hours, minutes, seconds }) => {
   );
 };
 
-const CountdownTimer = () => {
+const CountdownTimer = ({ setSecond }) => {
   const [days, hours, minutes, seconds] = useCountdown("2022-05-12");
-
+  setSecond(seconds)
   if (days + hours + minutes + seconds <= 0) {
     return <ExpiredNotice />;
   } else {
