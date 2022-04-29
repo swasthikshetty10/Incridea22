@@ -33,13 +33,14 @@ function Payment(props) {
 						order_id: response.razorpay_order_id,
 						signature: response.razorpay_signature,
 					})
+
 					const callBackData = res.data
 					alert(callBackData) //for now
-					// if (data) {
-					// 	render register components
-					// } else {
-					// 	render successSpan useRef
-					// }
+					if (data) {
+						navigate(`/register/${props.email}`)
+					} else {
+						//render successSpan useRef
+					}
 					//OR use try catch??
 					//REGISTER HAPPENS AFTER THIS BUT HOW???
 				},
