@@ -17,10 +17,10 @@ function Home() {
           <div className="flex gap-3 px-5  flex-col" >
             <img src={higher} className=" " alt="" />
             <p className="text-gray-100 text-lg  text-justify" >An amalgamation of all forms of technical, literary and cultural activities Incridea is a celebration of fervour and talent. It is the national level techno-cultural fest of
-              <a target="blank" className="  text-[#cd9b58] hover:text-red-500 text-base" href="https://nmamit.nitte.edu.in/"> NMAM Institute of Technology</a> , Nitte .
+              <a target="blank" className="  text-[#cd9b58] hover:text-white text-base" href="https://nmamit.nitte.edu.in/"> NMAM Institute of Technology</a> , Nitte .
             </p>
             <div className="select-none bg-white border-0 hover:bg-opacity-100  bg-opacity-10 text-white px-6 py-2 w-fit font-bold  text-center " >
-              Registrations start on 29th April
+              Registrations start on 30th April
 
             </div>
           </div>

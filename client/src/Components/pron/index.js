@@ -14,28 +14,28 @@ const inlineStyle = {
 
 function Pron() {
   return (
-		<>
-		<Navbar tab='pron'/>
-    <div style={{ textAlign: 'center' }}>
-      
-      <Parallax className='h-[100vh] mt-2 ' bgImage={require('./rd.jpg')} strength={-200} >
-        <div style={{ height: 500 }}>
-          <div style={inlineStyle} className='text-white text-7xl'>Raghu Dixit</div>
-        </div>
-      </Parallax>
+    <>
+      <Navbar tab='pron' />
+      <div style={{ textAlign: 'center' }}>
 
-			<div className='h-[30vh] bg-white border border-white'>
-Hola
-			</div>
+        <Parallax className='h-[100vh] mt-2 ' bgImage={require('./rd.jpg')} strength={-200} >
+          <div style={{ height: 500 }}>
+            <div style={inlineStyle} className='text-white text-7xl'>Raghu Dixit</div>
+          </div>
+        </Parallax>
 
-			<Parallax className='h-[100vh]' bgImage={require('./tb.jpg')} strength={-200} >
-        <div style={{ height: 500 }}>
-          <div style={inlineStyle} className='text-white text-7xl'>Thaikkudam Bridge</div>
+        <div className='h-[30vh] bg-white border border-white'>
+          Hola
         </div>
-      </Parallax>
-    
-    </div>
-		</>
+
+        <Parallax className='h-[100vh]' bgImage={require('./tb.jpg')} strength={-200} >
+          <div style={{ height: 500 }}>
+            <div style={inlineStyle} className='text-white text-7xl'>Thaikkudam Bridge</div>
+          </div>
+        </Parallax>
+
+      </div>
+    </>
   );
 }
 
