@@ -24,10 +24,10 @@ const Section = styled.section`
 `;
 const Title = styled.h1`
   font-size: ${(props) => props.theme.fontxxxl};
-  font-family: 'Kaushan Script', cursive;
+  font-family: Playfair;
   font-weight: 300;
   text-shadow: 1px 1px 1px ${(props) => props.theme.body};
-  color: ${(props) => props.theme.text};
+  color: ${(props) => props.theme.gold};
   position: absolute;
   top: 1rem;
   left: 5%;
@@ -88,7 +88,7 @@ const Right = styled.div`
   padding-left: 30%;
   min-height: 100vh;
 
-  background-color: ${(props) => props.theme.grey};
+  // background-color: ${(props) => props.theme.grey};
   /* width: 65%;  */
   display: flex;
   justify-content: flex-start;
@@ -220,7 +220,7 @@ const IncrediaPhotos = ({id, elementnumber=1, title}) => {
     
         </p>
       </Left>
-      <Right ref={horizontalRef}>
+      <Right ref={horizontalRef} className="bg-\[\#1d1d1d\]">
         <Photos img={images[title][0]['img']} width={images[title][0]['width']} />
         <Photos img={images[title][1]['img']} width={images[title][1]['width']} />
         <Photos img={images[title][2]['img']} width={images[title][2]['width']} />
