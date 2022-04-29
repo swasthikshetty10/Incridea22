@@ -11,7 +11,6 @@ import {
 } from 'firebase/firestore';
 import {
     getAuth,
-    signInWithEmailAndPassword,
 } from 'firebase/auth';
 
 const firebaseConfig = {
@@ -25,9 +24,10 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
+const auth = getAuth(app);
 export const exportDb = db;
 
-const auth = getAuth(app);
+export const exportAuth = auth;
 
 export async function getUserInfo(uid) {
     if (uid) {

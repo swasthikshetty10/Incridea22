@@ -3,6 +3,9 @@ import { useParams } from "react-router";
 import { Formik, Form } from 'formik';
 import * as Yup from 'yup';
 import { Container } from './StyledComponentsLogin';
+import { exportAuth } from '../../firebaseConfig';
+import { signInWithEmailAndPassword } from 'firebase/auth';
+import { AiOutlineLoading3Quarters } from 'react-icons/ai';
 
 import {
     Button,
@@ -44,11 +47,16 @@ function Register() {
     const HandleSubmit = (value) => {
         const data = { email, ...value }
         axios.post('http://localhost:8080/auth/register', data).then( //register user
-            (res) => {
+            async (res) => {
                 console.log(data);
                 alert('login success') //TODO: for now
-                //login user
-                //navigate to profile 
+                try {
+                    const userCred = await signInWithEmailAndPassword(data.email, data.password)
+                    console.log(userCred.user);
+                    navigate('/profile')
+                } catch (e) {
+                    throw new Error(e)
+                }
             }
         ).catch((res) => {
             console.log(data);
@@ -58,14 +66,13 @@ function Register() {
 
     useEffect(() => {
         setLoading(true)
-        axios.post(`https://end-point`, { //validate email before rendering
+        axios.post(`http://localhost:8080/auth/verifyEmail`, { //Check if email verified and paid and not in participants
             email
         }).then((res => {
             setLoading(false)
 
         })).catch(res => {
-            // uncomment this
-            // navigate("/login")
+            navigate("/login")
             setLoading(false)
         })
 
@@ -134,6 +141,7 @@ function Register() {
                                         placeholder='Confirm Password'
                                     />
                                     <Button type='submit'>Sign Up</Button>
+                                    {/* TODO: Add loading animation */}
                                 </Form>
                             </ForgotContainer>
                         );

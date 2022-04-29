@@ -54,7 +54,7 @@ const SignUp = ({ signIn }) => {
 
     } catch (error) {
       console.log(error);
-      if (error.statusCode === 300) {
+      if (error.response.status === 300) {
         navigate(`/register/${values.mail}`)
       }
       successSpan.current.innerHTML = `<p class="font-semibold text-red-600">${error.response.data}</p>`
@@ -147,7 +147,7 @@ const SignUp = ({ signIn }) => {
                         formik.setFieldValue('otp', e.target.value);
                       }} name='otp' type='number' className='text-center' placeholder='OTP' />
                       <Button onClick={clearMsg} className={` inline-flex items-center justify-center gap-3  ${loading ? "opacity-90" : "opacity-100"}`} disabled={loading}>
-                        {loading ? <> <AiOutlineLoading3Quarters className=" animate-spin text-lg " /> <span className=''>verifying</span></> : 'Verify'}
+                        {loading ? <> <AiOutlineLoading3Quarters className=" animate-spin text-lg " /> <span className=''>Verifying...</span></> : 'Verify'}
                       </Button>
                       <br />
 

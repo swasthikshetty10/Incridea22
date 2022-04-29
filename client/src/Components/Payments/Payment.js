@@ -38,11 +38,9 @@ function Payment(props) {
 					if (callBackData) {
 						navigate(`/register/${props.email}`)
 					} else {
-						//render successSpan useRef
 						console.log('payment failed')
 					}
 					//OR use try catch??
-					//REGISTER HAPPENS AFTER THIS BUT HOW???
 				},
 				"prefill": {
 					"email": `${props.email}`,
@@ -56,7 +54,7 @@ function Payment(props) {
 			paymentObject.open()
 
 		} catch (e) {
-			console.dir(e);
+			console.log(e);
 			props.successSpan.current.innerHTML = `<p class="font-semibold text-red-600">${e.response.data || e || "Error"}</p>`
 		}
 		setLoading(false)

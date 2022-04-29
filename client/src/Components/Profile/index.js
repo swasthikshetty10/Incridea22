@@ -5,7 +5,6 @@ import Third from "./Third";
 import Fourth from "./Fourth";
 import { getUserInfo } from "../../firebaseConfig";
 import { useEffect } from "react";
-import { key } from "../../firebaseConfig";
 import Zero from "./Zero";
 import QRCode from "qrcode";
 import fileDownload from "js-file-download";
