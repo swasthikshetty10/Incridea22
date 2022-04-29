@@ -24,7 +24,8 @@ const Team = () => {
           <div className="flex  font-bo max-w-screen-xl  lg:gap-8 m-auto flex-wrap justify-center h-full bg-[#000] pb-16">
             {persons.map((person, id) => {
               return (
-                <Member id={id} name={person.name} role={person.role} src={src} />
+                
+                <Member id={id} name={person.name} role={person.role} mob={person.mob} src={src} />
               );
             })}
           </div>

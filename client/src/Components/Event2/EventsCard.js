@@ -9,7 +9,7 @@ import { Fade , Zoom, Slide } from "react-awesome-reveal";
 function EventsCard({ name, src, desc, time, venue, day, branch, round, data }) {
 
     const [openModal, setModal] = useState(false);
-
+    
     return (
         <>
              <Fade duration={1000} delay={100} >
@@ -19,17 +19,23 @@ function EventsCard({ name, src, desc, time, venue, day, branch, round, data }) 
 
                         <div className="mx-auto flex w-60 h-72 flex-col pb-8 justify-start bg-[#1d1d1d]  rounded-none shadow-xl  ">
                             <img className="aspect-video rounded-t-none object-cover object-center  " src={src} />
-                            <div className="p-2 flex flex-col justify-between h-full  ">
+                            <div className="p-2 flex flex-col justify-start gap-1 h-full  ">
                                 <div className='text-center pb-2'>
-                                    <h1 className=" text-2xl text-center font-medium text-gray-100 ">{name}</h1>
+                                    <h1 className={`${name.length > 17?  "text-xl" : "text-2xl "} text-center font-medium text-gray-100 `}>{name}</h1>
                                 </div>
 
                                 <div>
 
-                                    <div className='text-center text-gray-400'>
-                                        <span className='inline-flex overflow-wrap mr-2'>{venue}</span>|
-                                        <span className='inline-flex overflow-wrap  ml-2'>{time}</span> |
-                                        <span className='inline-flex overflow-wrap  ml-2'>Day- {day}</span>
+                                    <div className={`text-center text-gray-400`}>
+                                        <div>
+                                        <span className={`inline-flex overflow-wrap mr-2   ${`${venue}`.length > 25 ?
+                                       (`${venue}`.length > 32 ? 'text-xs' : "text-sm")
+                                        : 'text-md' }`  }>{venue}</span>
+                                        </div>
+                                        <div className='flex justify-center text-sm '>
+                                        <span className='inline-flex overflow-wrap  pr-2'>{time}</span> |
+                                        <span className='inline-flex overflow-wrap  pl-2'>Day-{day}</span>
+                                        </div>
                                     </div>
                                     <div className='text-center  text-sm text-gray-500'>
                                         {round && `round ${round}`}
@@ -55,6 +61,7 @@ function EventsCard({ name, src, desc, time, venue, day, branch, round, data }) 
 
                 < Modal
                     data={data}
+                    img={src}
 
 
                     closeModal={setModal} />

@@ -66,7 +66,7 @@ function Event2() {
                 <EventsCard
                   key={index}
                   name={value.name}
-                  src={src}
+                  src={value.image}
                   desc={value.fullDesc}
                   time={value.Time}
                   venue={value.venue}

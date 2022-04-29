@@ -57,8 +57,9 @@ const Sponsor = () => {
           <div className="gap-5 ">
           <Fade duration={1000} delay={100} >
 
-            {SponsorDetails.map((sponorDetail) => (
+            {SponsorDetails.map((sponorDetail , i) => (
               <EventsCard
+                rev = {i%2}
                 ImageSrc={sponorDetail.image}
                 SponsorTitle={sponorDetail.name}
                 SponsorDesc={sponorDetail.description}
