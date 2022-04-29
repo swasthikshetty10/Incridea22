@@ -6,7 +6,7 @@ export const eventData = [
         "Time": "11 am",
         "venue": "NC21",
         "branch": "BTE",
-        "image": "events/BT/BetterBeLetter.png",
+        "image": "/events/BT/BetterBeLetter.png",
         "smallDesc": "If you want to improve your grammar skills then it's time to ditch all the books and podcasts and play some word games instead.",
         "fullDesc": "If you want to improve your grammar skills then it's time to ditch all the books and podcasts and play some word games instead.",
         "roundDetails": {
@@ -39,7 +39,7 @@ export const eventData = [
         "Time": "11 am",
         "venue": "NC21",
         "branch": "BTE",
-        "image": "events/BT/BetterBeLetter.png",
+        "image": "/events/BT/BetterBeLetter.png",
         "smallDesc": "If you want to improve your grammar skills then it's time to ditch all the books and podcasts and play some word games instead.",
         "fullDesc": "If you want to improve your grammar skills then it's time to ditch all the books and podcasts and play some word games instead.",
         "roundDetails": {
@@ -71,7 +71,7 @@ export const eventData = [
         "Time": "9:30 am",
         "venue": "Phalguni ",
         "branch": "BTE",
-        "image": "events/BT/BetterBeLetter.png",
+        "image": "/events/BT/BetterBeLetter.png",
         "smallDesc": "If you want to improve your grammar skills then it's time to ditch all the books and podcasts and play some word games instead.",
         "fullDesc": "If you want to improve your grammar skills then it's time to ditch all the books and podcasts and play some word games instead.",
         "roundDetails": {
@@ -102,7 +102,7 @@ export const eventData = [
         "Time": "9:30 am",
         "venue": "Temple ",
         "branch": "EEE",
-        "image": "events/EE/BHAJAN.png",
+        "image": "/events/EE/BHAJAN.png",
         "smallDesc": "Come entice the audience and enable them to feel closer to the Almighty, in the soothing Bhajan competition.",
         "fullDesc": "'I'll be singing hymns to the rafters, be praising his goodness so loud they're going to have to turn down the volume in Heaven, God loves to hear you. sing, so sing.' Come entice the audience and enable them to feel closer to the Almighty, in the soothing Bhajan competition.",
 
@@ -129,7 +129,7 @@ export const eventData = [
         "Time": "10 am",
         "venue": " NC 23 ",
         "branch": "CIVIL",
-        "image": "/public/events/CV/DAVINCI.png",
+        "image": "/events/CV/DAVINCI.png",
         "smallDesc": "'The artist sees what other catch only a glimpse of', said the great Da Vinci. Come, bring your strokes alive on the canvas to create a masterpiece!",
         "fullDesc": "In this single round event, participants will be given a topic on the spot. Pencil sketch and painting are to be submitted to the organizers within the given time.",
 
@@ -157,7 +157,7 @@ export const eventData = [
         "Time": "9 am",
         "venue": "Sadananda ground",
         "branch": "ISE",
-        "image": "/public/events/IS/CodeStudio.jpg",
+        "image": "/events/IS/CodeStudio.jpg",
         "smallDesc": "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? ",
         "fullDesc": "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? Desafio is an event which checks your FITNESS level by having various rounds.The tasks would not be mentioned precisely as it would be best if kept a surprise",
         "roundDetails": {
@@ -182,7 +182,7 @@ export const eventData = [
         "Time": "9 am",
         "venue": "Sadananda ground",
         "branch": "ISE",
-        "image": "/public/events/IS/CodeStudio.jpg",
+        "image": "/events/IS/CodeStudio.jpg",
         "smallDesc": "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? ",
         "fullDesc": "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? Desafio is an event which checks your FITNESS level by having various rounds.The tasks would not be mentioned precisely as it would be best if kept a surprise",
         "roundDetails": {
@@ -207,7 +207,7 @@ export const eventData = [
         "Time": "9 am",
         "venue": "Sadananda ground",
         "branch": "ISE",
-        "image": "/public/events/IS/CodeStudio.jpg",
+        "image": "/events/IS/CodeStudio.jpg",
         "smallDesc": "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? ",
         "fullDesc": "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? Desafio is an event which checks your FITNESS level by having various rounds.The tasks would not be mentioned precisely as it would be best if kept a surprise",
         "roundDetails": {
@@ -231,7 +231,7 @@ export const eventData = [
         "Time": "10:30 am",
         "venue": "RGIS lab",
         "branch": "CIVIL",
-        "image": "digital-art.png",
+        "image": "/events/cv/comingsoon.jpg",
         "smallDesc": "In a world obsessed with the digital and NFTS, can you think on your feet and create art that burns itself into our minds as well our screens?",
         "fullDesc": "In a world obsessed with the digital and NFTS, can you think on your feet and create art that burns itself into our minds as well our screens? Here's Digital Art Competition for you.Only solo participant. Participants will have to get their own devices (laptops, trackpad, etc). Time duration is 1 hour 30 minutes.",
         "roundDetails": {
@@ -260,7 +260,7 @@ export const eventData = [
         "Time": "12pm",
         "venue": "Swarna EDC",
         "branch": "CIVIL",
-        "image": "/public/events/CV/duetDance.png",
+        "image": "/events/CV/duetDance.png",
         "smallDesc": "If you think you and your partner can create magic and set the stage on fire, then DUET IT out!",
         "fullDesc": "Dance is a great way to express oneself. Dance from your heart and let your passion shine through. If you think you and your partner can create magic and set the stage on fire, then DUET IT out!.The duo can perform in any genre of dance in the given time of 3+1 mins. Western and eastern genres will be awarded separate prizes",
 
@@ -289,7 +289,7 @@ export const eventData = [
         "Time": "3 pm",
         "venue": "Shmabavi,LH110,LH112,LH212",
         "branch": "EC",
-        "image": "/public/events/EC/MONEYHEIST.png",
+        "image": "/events/EC/MONEYHEIST.png",
         "smallDesc": " If you believe that you are capable of deciphering the given enigma, then here's an event that funds you to get to the bottom of these mysteries! ",
         "fullDesc": "Get ready to awaken the Einstein within and unravel the mysteries. If you believe that you are capable of deciphering the given enigma, then here's an event that funds you to get to the bottom of these mysteries.",
         "roundDetails": {
@@ -321,7 +321,7 @@ export const eventData = [
         "Time": "9 am",
         "venue": "Swarna EDC",
         "branch": "EC",
-        "image": "/public/events/EC/MONEYHEIST.png",
+        "image": "/events/EC/MONEYHEIST.png",
         "smallDesc": " If you believe that you are capable of deciphering the given enigma, then here's an event that funds you to get to the bottom of these mysteries! ",
         "fullDesc": "Get ready to awaken the Einstein within and unravel the mysteries. If you believe that you are capable of deciphering the given enigma, then here's an event that funds you to get to the bottom of these mysteries.",
         "roundDetails": {
@@ -353,7 +353,7 @@ export const eventData = [
         "Time": "9 am",
         "venue": "Swarna EDC",
         "branch": "EC",
-        "image": "/public/events/EC/MONEYHEIST.png",
+        "image": "/events/EC/MONEYHEIST.png",
         "smallDesc": " If you believe that you are capable of deciphering the given enigma, then here's an event that funds you to get to the bottom of these mysteries! ",
         "fullDesc": "Get ready to awaken the Einstein within and unravel the mysteries. If you believe that you are capable of deciphering the given enigma, then here's an event that funds you to get to the bottom of these mysteries.",
         "roundDetails": {
@@ -384,7 +384,7 @@ export const eventData = [
         "Time": "9 am",
         "venue": "Sambram",
         "branch": "ISE",
-        "image": "/public/events/IS/generalquiz.jpg",
+        "image": "/events/IS/generalquiz.jpg",
         "smallDesc": "If you think you know it all and much more, this is the right place for you. Go ahead and unlock your knowledge at the speed of thought. ",
         "fullDesc": "Get ready for a roller coaster ride into the intense world of quizzing. Far from classroom rote, this quiz will help you put your grey cells to the test. If you think you know it all and much more, this is the right place for you. Go ahead and unlock your knowledge at the speed of thought.",
         "roundDetails": {
@@ -414,7 +414,7 @@ export const eventData = [
         "Time": "1 pm",
         "venue": "Sambram",
         "branch": "CSE",
-        "image": "/public/events/CS/improv.png",
+        "image": "/events/CS/improv.png",
         "smallDesc": " Do you have the itch to make a joke out of every possible scenario? If so, come showcase your skills because this event is just right for you!",
         "fullDesc": "Can you improvise a topic better than we can improvise this description? Are you spontaneous enough to be the wittiest one among them all? Do you have the itch to make a joke out of every possible scenario? If so, come showcase your skills because this event is just right for you!",
         "roundDetails": {
@@ -446,7 +446,7 @@ export const eventData = [
         "Time": "11 am",
         "venue": "Phalguni",
         "branch": "MECH",
-        "image": "/public/events/Mech/jam.png",
+        "image": "/events/Mech/jam.png",
         "smallDesc": "You think you can make it through straight 60 seconds of speaking without any jerks while your opponents wait to pounce over you?",
         "fullDesc": "All about the control of the mind over the mouth, you think you can make it through straight 60 seconds of speaking without any jerks while your opponents wait to pounce over you? Do you have what it takes to beat the pressure and silence your opponents? If yes, this is your cup of tea.",
         "roundDetails": {
@@ -480,7 +480,7 @@ export const eventData = [
         "Time": "2 pm",
         "venue": "NC 23",
         "branch": "EEE",
-        "image": "/public/events/EE/KALAKAR.png",
+        "image": "/events/EE/KALAKAR.png",
         "smallDesc": "They say a picture is worth a thousand words,then a film is worth a thousand timesmore. If you are an author whose novels are films, Kalakaar is where you should publish!",
         "fullDesc": "Anything that can be written or thought of can be filmed. A theme will be given to the participating teams .",
         "roundDetails": {
@@ -525,7 +525,7 @@ export const eventData = [
         "Time": "10:30 am",
         "venue": "SOWPARNIKA",
         "branch": "EEE",
-        "image": "/public/events/EE/KALAKAR.png",
+        "image": "/events/EE/KALAKAR.png",
         "smallDesc": "They say a picture is worth a thousand words,then a film is worth a thousand timesmore. If you are an author whose novels are films, Kalakaar is where you should publish!",
         "fullDesc": "Anything that can be written or thought of can be filmed. A theme will be given to the participating teams.",
         "roundDetails": {
@@ -570,7 +570,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "NC 24, 25",
         "branch": "ISE",
-        "image": "/public/events/IS/khaamoshh.jpg",
+        "image": "/events/IS/khaamoshh.jpg",
         "smallDesc": "Do you have what it takes to express yourself without saying a word? ",
         "fullDesc": "'Khaamoshh ' is the perfect event for you to show your enacting skills. Come put your team of three to the ultimate test.",
         "roundDetails": {
@@ -615,7 +615,7 @@ export const eventData = [
         "Time": "12:30 am",
         "venue": "NC 24, 25",
         "branch": "ISE",
-        "image": "/public/events/IS/khaamoshh.jpg",
+        "image": "/events/IS/khaamoshh.jpg",
         "smallDesc": "Do you have what it takes to express yourself without saying a word? ",
         "fullDesc": "'Khaamoshh ' is the perfect event for you to show your enacting skills. Come put your team of three to the ultimate test.",
         "roundDetails": {
@@ -660,7 +660,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "NC 12, 13",
         "branch": "ISE",
-        "image": "/public/events/IS/khaamoshh.jpg",
+        "image": "/events/IS/khaamoshh.jpg",
         "smallDesc": "Do you have what it takes to express yourself without saying a word? ",
         "fullDesc": "'Khaamoshh ' is the perfect event for you to show your enacting skills. Come put your team of three to the ultimate test.",
         "roundDetails": {
@@ -705,7 +705,7 @@ export const eventData = [
         "Time": "11:30 am",
         "venue": "NC 12, 13",
         "branch": "ISE",
-        "image": "/public/events/IS/khaamoshh.jpg",
+        "image": "/events/IS/khaamoshh.jpg",
         "smallDesc": "Do you have what it takes to express yourself without saying a word? ",
         "fullDesc": "'Khaamoshh ' is the perfect event for you to show your enacting skills. Come put your team of three to the ultimate test.",
         "roundDetails": {
@@ -750,7 +750,7 @@ export const eventData = [
         "Time": "11:00 am",
         "venue": "NC 14",
         "branch": "EC",
-        "image": "/public/events/EC/LAZZRENA.png",
+        "image": "/events/EC/LAZZRENA.png",
         "smallDesc": "Lazzerena is a tag game which allows amateur video game lovers to experience war zone scena rio in real life.  ",
         "fullDesc": "It is played with guns which emit infrared beams. Infrared sensitive sensors which are integ rat ed on jackets are worn by each player. The game will comprise of two teams and each team will t ry to knockout the opponent by firing on their respect ive sensors.",
         // "roundDetails": {
@@ -793,7 +793,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "NC 14",
         "branch": "EC",
-        "image": "/public/events/EC/LAZZRENA.png",
+        "image": "/events/EC/LAZZRENA.png",
         "smallDesc": "Lazzerena is a tag game which allows amateur video game lovers to experience war zone scena rio in real life.  ",
         "fullDesc": "It is played with guns which emit infrared beams. Infrared sensitive sensors which are integ rat ed on jackets are worn by each player. The game will comprise of two teams and each team will t ry to knockout the opponent by firing on their respect ive sensors.",
         // "roundDetails": {
@@ -836,7 +836,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "NC 14",
         "branch": "EC",
-        "image": "/public/events/EC/LAZZRENA.png",
+        "image": "/events/EC/LAZZRENA.png",
         "smallDesc": "Lazzerena is a tag game which allows amateur video game lovers to experience war zone scena rio in real life.  ",
         "fullDesc": "It is played with guns which emit infrared beams. Infrared sensitive sensors which are integ rat ed on jackets are worn by each player. The game will comprise of two teams and each team will t ry to knockout the opponent by firing on their respect ive sensors.",
         // "roundDetails": {
@@ -879,7 +879,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "NC 14",
         "branch": "EC",
-        "image": "/public/events/EC/LAZZRENA.png",
+        "image": "/events/EC/LAZZRENA.png",
         "smallDesc": "Lazzerena is a tag game which allows amateur video game lovers to experience war zone scena rio in real life.  ",
         "fullDesc": "It is played with guns which emit infrared beams. Infrared sensitive sensors which are integ rat ed on jackets are worn by each player. The game will comprise of two teams and each team will t ry to knockout the opponent by firing on their respect ive sensors.",
         // "roundDetails": {
@@ -921,7 +921,7 @@ export const eventData = [
         "Time": "11:00 am",
         "venue": "Swarna EDC",
         "branch": "MECH",
-        "image": "/public/events/Mech/Madads.png",
+        "image": "/events/Mech/Madads.png",
         "smallDesc": "A rostrum where creativity meets madness, a chance to make an advertisement hilarious or sensitive. ",
         "fullDesc": "Mad Ads is a test of your creativity and ad sense.",
         // "roundDetails": {
@@ -976,7 +976,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "Sambhram",
         "branch": "MECH",
-        "image": "/public/events/Mech/Madads.png",
+        "image": "/events/Mech/Madads.png",
         "smallDesc": "Isn't life a collection of weird quizzes with no answers  to  half  the questions?",
         "fullDesc": "MELAS co mp rises questions ranging from Music, Enterta inment , Literature, Arts and Sports. If you possess the required grey matter, then this event is meant for you.",
         "roundDetails": {
@@ -1024,7 +1024,7 @@ export const eventData = [
         "Time": "12:00 am",
         "venue": "Shambhavi",
         "branch": "MECH",
-        "image": "/public/events/Mech/Madads.png",
+        "image": "/events/Mech/Madads.png",
         "smallDesc": "Isn't life a collection of weird quizzes with no answers  to  half  the questions?",
         "fullDesc": "MELAS co mp rises questions ranging from Music, Enterta inment , Literature, Arts and Sports. If you possess the required grey matter, then this event is meant for you.",
         "roundDetails": {
@@ -1073,7 +1073,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "LH 202 - 208",
         "branch": "MECH",
-        "image": "/public/events/Mech/Madads.png",
+        "image": "/events/Mech/Madads.png",
         "smallDesc": "A mega event, an alter-ego of a treasure hunt where you need to use your brains, wit, and wisdom. ",
         "fullDesc": "We bring  to  you-  MISSION IMPOSSIBLE b eca use the t reasure is not easy to FIND.sn't life a collection of weird quizzes with no answers  to  half  the questions?",
         "roundDetails": {
@@ -1124,7 +1124,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "LH 202 -208",
         "branch": "MECH",
-        "image": "/public/events/Mech/Madads.png",
+        "image": "/events/Mech/Madads.png",
         "smallDesc": "A mega event, an alter-ego of a treasure hunt where you need to use your brains, wit, and wisdom. ",
         "fullDesc": "We bring  to  you-  MISSION IMPOSSIBLE b eca use the t reasure is not easy to FIND.sn't life a collection of weird quizzes with no answers  to  half  the questions?",
         "roundDetails": {
@@ -1176,7 +1176,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "Infront Co-Op Store",
         "branch": "MECH",
-        "image": "/public/events/EC/LAZZRENA.png",
+        "image": "/events/EC/LAZZRENA.png",
         "smallDesc": "A mega event, an alter-ego of a treasure hunt where you need to use your brains, wit, and wisdom. ",
         "fullDesc": "We bring  to  you-  MISSION IMPOSSIBLE b eca use the t reasure is not easy to FIND.sn't life a collection of weird quizzes with no answers  to  half  the questions?",
         "roundDetails": {
@@ -1227,7 +1227,7 @@ export const eventData = [
         "Time": "11:00 am",
         "venue": "Shambhavi",
         "branch": "MECH",
-        "image": "/public/events/Mech/mockpress.png",
+        "image": "/events/Mech/mockpress.png",
         "smallDesc": "Open your eyes to a day when you'refinally a celebrity notjust in front of your mirror!",
         "fullDesc": "Got the skills to speak up and convince your audience? Can'twait to face the barrage of questions thrown towards you? Step into theirbootsandbringyourcelebA-gametothetable.",
         "roundDetails": {
@@ -1279,7 +1279,7 @@ export const eventData = [
         "Time": "11:00 am",
         "venue": "LH 006",
         "branch": "ISE",
-        "image": "/public/events/IS/paintandpixel.jpg",
+        "image": "/events/IS/paintandpixel.jpg",
         "smallDesc": "A painting or photo exhibition is traditionally a space in which art meets an audience.",
         "fullDesc": " Paint and pixel is an event where we provide a platform for the artists and photographers of our college to showcase their talent.Art completes what nature cannot bring to a finish and a camera is the save button for the mind's eye. Attendees will be able to view the exhibits on displa y. If the artist is willing to sell his / her work, we provide a medium to do so. The exhibits will be on display on all four days of Incridea.",
         // "roundDetails": {
@@ -1329,7 +1329,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "LH 006",
         "branch": "ISE",
-        "image": "/public/events/IS/paintandpixel.jpg",
+        "image": "/events/IS/paintandpixel.jpg",
         "smallDesc": "A painting or photo exhibition is traditionally a space in which art meets an audience.",
         "fullDesc": " Paint and pixel is an event where we provide a platform for the artists and photographers of our college to showcase their talent.Art completes what nature cannot bring to a finish and a camera is the save button for the mind's eye. Attendees will be able to view the exhibits on displa y. If the artist is willing to sell his / her work, we provide a medium to do so. The exhibits will be on display on all four days of Incridea.",
         // "roundDetails": {
@@ -1379,7 +1379,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "LH 006",
         "branch": "ISE",
-        "image": "/public/events/IS/paintandpixel.jpg",
+        "image": "/events/IS/paintandpixel.jpg",
         "smallDesc": "A painting or photo exhibition is traditionally a space in which art meets an audience.",
         "fullDesc": " Paint and pixel is an event where we provide a platform for the artists and photographers of our college to showcase their talent.Art completes what nature cannot bring to a finish and a camera is the save button for the mind's eye. Attendees will be able to view the exhibits on displa y. If the artist is willing to sell his / her work, we provide a medium to do so. The exhibits will be on display on all four days of Incridea.",
         // "roundDetails": {
@@ -1429,7 +1429,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "LH 006",
         "branch": "ISE",
-        "image": "/public/events/IS/paintandpixel.jpg",
+        "image": "/events/IS/paintandpixel.jpg",
         "smallDesc": "A painting or photo exhibition is traditionally a space in which art meets an audience.",
         "fullDesc": " Paint and pixel is an event where we provide a platform for the artists and photographers of our college to showcase their talent.Art completes what nature cannot bring to a finish and a camera is the save button for the mind's eye. Attendees will be able to view the exhibits on displa y. If the artist is willing to sell his / her work, we provide a medium to do so. The exhibits will be on display on all four days of Incridea.",
         "contactDetails": [
@@ -1455,7 +1455,7 @@ export const eventData = [
         "Time": "11:00 am",
         "venue": "NC 21, 22",
         "branch": "EEE",
-        "image": "/public/events/EE/PANCHATANTRAM.png",
+        "image": "/events/EE/PANCHATANTRAM.png",
         "smallDesc": "Do you master the art of playing with perceptions or bringing your imagination to life? ",
         "fullDesc": " The success of a presenta tion is judged not by the knowledge one conveys, but by what the audience receives. Panchatantram is a platform where you get to enthrall the world with your presenta t ion skills.",
         "roundDetails": {
@@ -1502,7 +1502,7 @@ export const eventData = [
         "Time": "11:00 am",
         "venue": "NC 21, 22",
         "branch": "EEE",
-        "image": "/public/events/EE/PANCHATANTRAM.png",
+        "image": "/events/EE/PANCHATANTRAM.png",
         "smallDesc": "Do you master the art of playing with perceptions or bringing your imagination to life? ",
         "fullDesc": " The success of a presenta tion is judged not by the knowledge one conveys, but by what the audience receives. Panchatantram is a platform where you get to enthrall the world with your presenta t ion skills.",
         "roundDetails": {
@@ -1549,7 +1549,7 @@ export const eventData = [
         "Time": "10 :00 am",
         "venue": "LH 004",
         "branch": "ISE",
-        "image": "/public/events/IS/Pratibimbh.jpg",
+        "image": "/events/IS/Pratibimbh.jpg",
         "smallDesc": "Grab a person and a paintbrush and head on over to this face painting competition!",
         "fullDesc": " In this age of filters and  lenses where augmented reality has made changing our looks as simple as tapp ing a button, Pra thibimb ta kes a step back to the drawing board. ",
         "roundDetails": {
@@ -1601,7 +1601,7 @@ export const eventData = [
         "Time": "12 :30 pm",
         "venue": "LH 004",
         "branch": "ISE",
-        "image": "/public/events/IS/Pratibimbh.jpg",
+        "image": "/events/IS/Pratibimbh.jpg",
         "smallDesc": "Grab a person and a paintbrush and head on over to this face painting competition!",
         "fullDesc": " In this age of filters and  lenses where augmented reality has made changing our looks as simple as tapp ing a button, Pra thibimb ta kes a step back to the drawing board. ",
         "roundDetails": {
@@ -1653,7 +1653,7 @@ export const eventData = [
         "Time": "12 :00 pm",
         "venue": "Sowparnika",
         "branch": "CIVIL",
-        "image": "/public/events/CV/PROVEUSWRONG.jpg",
+        "image": "/events/CV/PROVEUSWRONG.jpg",
         "smallDesc": "I love argument, I love debate. I don't expect anyone just to sit there and agree with me, that's not their job - Margaret Tha tcher",
         "fullDesc": "Do you agree with her? Then come and let your opinions speak louder than your voice in Prove Us Wrong. Armed with vocabulary and craft, stage awaits you motor mouths to set it all on fire.",
         "roundDetails": {
@@ -1696,7 +1696,7 @@ export const eventData = [
         "Time": "12 :00 pm",
         "venue": "Sowparnika",
         "branch": "CIVIL",
-        "image": "/public/events/CV/PROVEUSWRONG.jpg",
+        "image": "/events/CV/PROVEUSWRONG.jpg",
         "smallDesc": "I love argument, I love debate. I don't expect anyone just to sit there and agree with me, that's not their job - Margaret Tha tcher",
         "fullDesc": "Do you agree with her? Then come and let your opinions speak louder than your voice in Prove Us Wrong. Armed with vocabulary and craft, stage awaits you motor mouths to set it all on fire.",
         "roundDetails": {
@@ -1739,7 +1739,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "LC 01",
         "branch": "BTE",
-        "image": "/public/events/BT/Rangoli.png",
+        "image": "/events/BT/Rangoli.png",
         "smallDesc": "Think your designs have what it takes to enthrall and stand out among countless others?",
         "fullDesc": "Patterns and design are an integra l part of our culture. Think your designs have what it takes to enthrall and stand out among countless others? Then this competition is for you!",
         // "roundDetails": {
@@ -1802,7 +1802,7 @@ export const eventData = [
         "Time": "9:30 am",
         "venue": "LC 504",
         "branch": "CSE",
-        "image": "/public/events/CS/RIFFOFF.jpg",
+        "image": "/events/CS/RIFFOFF.jpg",
         "smallDesc": "A sequence of vocals thrumming to a beat, a chain of songs, and  you're in for a melodious treat. ",
         "fullDesc": "Presenting to you Riff- Off - an Antaksha ri with a twist. Come sing along because those who wish to sing always find a song.",
         "roundDetails": {
@@ -1853,7 +1853,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "Sambhram",
         "branch": "CSE",
-        "image": "/public/events/CS/RIFFOFF.jpg",
+        "image": "/events/CS/RIFFOFF.jpg",
         "smallDesc": "A sequence of vocals thrumming to a beat, a chain of songs, and  you're in for a melodious treat. ",
         "fullDesc": "Presenting to you Riff- Off - an Antaksha ri with a twist. Come sing along because those who wish to sing always find a song.",
         "roundDetails": {
@@ -1904,7 +1904,7 @@ export const eventData = [
         "Time": "11:30 am",
         "venue": "LH 500, 502, 503",
         "branch": "ISE",
-        "image": "/public/events/IS/Roadies.jpg",
+        "image": "/events/IS/Roadies.jpg",
         "smallDesc": "Are you ready to get the best out of yourself as an ind ividual and as a team member? Do you think you have what it takes to be the ultimate ROADIE? ",
         "fullDesc": "An event that sees your p otent ia l as an indiv idual as well as a group member having various rounds as mentioned below. The tasks would not be mentioned precisely as it would be best if kept a surprise.",
         "roundDetails": {
@@ -1957,7 +1957,7 @@ export const eventData = [
         "Time": "11:30 am",
         "venue": "LH 500",
         "branch": "ISE",
-        "image": "/public/events/IS/Roadies.jpg",
+        "image": "/events/IS/Roadies.jpg",
         "smallDesc": "Are you ready to get the best out of yourself as an ind ividual and as a team member? Do you think you have what it takes to be the ultimate ROADIE? ",
         "fullDesc": "An event that sees your p otent ia l as an indiv idual as well as a group member having various rounds as mentioned below. The tasks would not be mentioned precisely as it would be best if kept a surprise.",
         "roundDetails": {
@@ -2011,7 +2011,7 @@ export const eventData = [
         "Time": "1:00 am",
         "venue": "SADANANDA GROUND",
         "branch": "ISE",
-        "image": "/public/events/IS/Roadies.jpg",
+        "image": "/events/IS/Roadies.jpg",
         "smallDesc": "Are you ready to get the best out of yourself as an ind ividual and as a team member? Do you think you have what it takes to be the ultimate ROADIE? ",
         "fullDesc": "An event that sees your p otent ia l as an indiv idual as well as a group member having various rounds as mentioned below. The tasks would not be mentioned precisely as it would be best if kept a surprise.",
         "roundDetails": {
@@ -2065,7 +2065,7 @@ export const eventData = [
         "Time": "10:00 am",
         "venue": "IN FRONT OF NC BLOCK",
         "branch": "ISE",
-        "image": "/public/events/IS/Roadies.jpg",
+        "image": "/events/IS/Roadies.jpg",
         "smallDesc": "Are you ready to get the best out of yourself as an ind ividual and as a team member? Do you think you have what it takes to be the ultimate ROADIE? ",
         "fullDesc": "An event that sees your p otent ia l as an indiv idual as well as a group member having various rounds as mentioned below. The tasks would not be mentioned precisely as it would be best if kept a surprise.",
         "roundDetails": {
@@ -2119,7 +2119,7 @@ export const eventData = [
         "Time": "12:00 am",
         "venue": "SAMBHRAM",
         "branch": "ISE",
-        "image": "/public/events/IS/Roadies.jpg",
+        "image": "/events/IS/Roadies.jpg",
         "smallDesc": "Are you ready to get the best out of yourself as an ind ividual and as a team member? Do you think you have what it takes to be the ultimate ROADIE? ",
         "fullDesc": "An event that sees your p otent ia l as an indiv idual as well as a group member having various rounds as mentioned below. The tasks would not be mentioned precisely as it would be best if kept a surprise.",
         "roundDetails": {
@@ -2173,7 +2173,7 @@ export const eventData = [
         "Time": "1:00 pm",
         "venue": "LH 306",
         "branch": "EC",
-        "image": "/public/events/EC/SHARKTANK.png",
+        "image": "/events/EC/SHARKTANK.png",
         "smallDesc": "Do you see the world around you in vivid colours? Does every ordinary occurrence play out differently in your imagination? ",
         "fullDesc": "If you found yourself saying yes, then we've got the perfect event for you! Sha rk tank will tingle your senses and kick your creativity into ge ar.",
         "roundDetails": {
@@ -2228,7 +2228,7 @@ export const eventData = [
         "Time": "3:30 pm",
         "venue": "LH 306",
         "branch": "EC",
-        "image": "/public/events/EC/SHARKTANK.png",
+        "image": "/events/EC/SHARKTANK.png",
         "smallDesc": "Do you see the world around you in vivid colours? Does every ordinary occurrence play out differently in your imagination? ",
         "fullDesc": "If you found yourself saying yes, then we've got the perfect event for you! Sha rk tank will tingle your senses and kick your creativity into ge ar.",
         "roundDetails": {
@@ -2284,7 +2284,7 @@ export const eventData = [
         "Time": "1:00 pm",
         "venue": "Sowparnika",
         "branch": "EC",
-        "image": "/public/events/EC/SHARKTANK.png",
+        "image": "/events/EC/SHARKTANK.png",
         "smallDesc": "Do you see the world around you in vivid colours? Does every ordinary occurrence play out differently in your imagination? ",
         "fullDesc": "If you found yourself saying yes, then we've got the perfect event for you! Sha rk tank will tingle your senses and kick your creativity into ge ar.",
         "roundDetails": {
@@ -2339,7 +2339,7 @@ export const eventData = [
         "Time": "1:00 pm",
         "venue": "NC 11, 12 ,13 ,15",
         "branch": "CSE",
-        "image": "/public/events/CS/Sherlocked.png",
+        "image": "/events/CS/Sherlocked.png",
         "smallDesc": "Do you see the world around you in vivid colours? Does every ordinary occurrence play out differently in your imagination? ",
         "fullDesc": "Don your trench coats and magnifying glasses. Work your brain to its full potential as you journey through all the facts and info rma t ion and emerge victoriously. An event to portray how erudite and witty you are to read between the lines. ",
         "roundDetails": {
@@ -2398,7 +2398,7 @@ export const eventData = [
         "Time": "9:00 pm",
         "venue": "NC 34, 35 & LD LAB",
         "branch": "CSE",
-        "image": "/public/events/CS/Sherlocked.png",
+        "image": "/events/CS/Sherlocked.png",
         "smallDesc": "Do you see the world around you in vivid colours? Does every ordinary occurrence play out differently in your imagination? ",
         "fullDesc": "Don your trench coats and magnifying glasses. Work your brain to its full potential as you journey through all the facts and info rma t ion and emerge victoriously. An event to portray how erudite and witty you are to read between the lines. ",
         "roundDetails": {
@@ -2456,7 +2456,7 @@ export const eventData = [
         "Time": "9:00 pm",
         "venue": "NC 34, 35 & LD LAB",
         "branch": "CSE",
-        "image": "/public/events/CS/Sherlocked.png",
+        "image": "/events/CS/Sherlocked.png",
         "smallDesc": "Do you see the world around you in vivid colours? Does every ordinary occurrence play out differently in your imagination? ",
         "fullDesc": "Don your trench coats and magnifying glasses. Work your brain to its full potential as you journey through all the facts and info rma t ion and emerge victoriously. An event to portray how erudite and witty you are to read between the lines. ",
         "roundDetails": {
@@ -2513,7 +2513,7 @@ export const eventData = [
         "Time": "9:00 pm",
         "venue": "NC 11,12",
         "branch": "EC",
-        "image": "/public/events/EC/SHUTTERUP.png",
+        "image": "/events/EC/SHUTTERUP.png",
         "smallDesc": "Gear up, focus in and click on!",
         "fullDesc": "You can look at a picture for a week and never think of it for a second.You can  also look at a picture for a second and think of it all your life.Shutter up is an event for all photo enthusiasts to show the world a story that cannot be put into words.",
         "roundDetails": {
@@ -2576,7 +2576,7 @@ export const eventData = [
         "Time": "9:00 pm",
         "venue": "LH 005",
         "branch": "EC",
-        "image": "/public/events/EC/SHUTTERUP.png",
+        "image": "/events/EC/SHUTTERUP.png",
         "smallDesc": "Gear up, focus in and click on!",
         "fullDesc": "You can look at a picture for a week and never think of it for a second.You can  also look at a picture for a second and think of it all your life.Shutter up is an event for all photo enthusiasts to show the world a story that cannot be put into words.",
         "roundDetails": {
@@ -2639,7 +2639,7 @@ export const eventData = [
         "Time": "9:00 pm",
         "venue": "LH 005",
         "branch": "EC",
-        "image": "/public/events/EC/SHUTTERUP.png",
+        "image": "/events/EC/SHUTTERUP.png",
         "smallDesc": "Gear up, focus in and click on!",
         "fullDesc": "You can look at a picture for a week and never think of it for a second.You can  also look at a picture for a second and think of it all your life.Shutter up is an event for all photo enthusiasts to show the world a story that cannot be put into words.",
         "roundDetails": {
@@ -2702,7 +2702,7 @@ export const eventData = [
         "Time": "1:00 pm",
         "venue": "SADANANDA GROUND",
         "branch": "CIVIL",
-        "image": "/public/events/CV/SlowBikeRace.jpg",
+        "image": "/events/CV/SlowBikeRace.jpg",
         "smallDesc": "Skill in rid ing is not about how fast you can go, but about how steady you are in the trickiest roads. ",
         "fullDesc": "For all the bike enthusiasts, we present to you the SLOW BIKE RACE. It's your road. Others can ride it with you, not for you. For all the bike enthusiasts, we present to you- the Slow Bike Race, where for once, coming last is in your favour.",
         "roundDetails": {
@@ -2756,7 +2756,7 @@ export const eventData = [
         "Time": "12:30 pm",
         "venue": "SAMBRAHM",
         "branch": "EC",
-        "image": "/public/events/EC/THX.png",
+        "image": "/events/EC/THX.png",
         "smallDesc": "Talent is a one-of-a-kind skill that sets you apart from the rest of the pack. Everyone is born with it, but not everyone recognises it. ",
         "fullDesc": "Talent House Xis a forum for amateur artists to display their talents in a variety of genres, including singing, dance, comedy, novelty acts and more. So, if you've discovered the X factor in you, then this is the right platform to show case your hidden 'X' quotient on stage and wow the crowd!",
         "roundDetails": {
@@ -2824,7 +2824,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "SADANANDA",
         "branch": "EC",
-        "image": "/public/events/EC/THX.png",
+        "image": "/events/EC/THX.png",
         "smallDesc": "Talent is a one-of-a-kind skill that sets you apart from the rest of the pack. Everyone is born with it, but not everyone recognises it. ",
         "fullDesc": "Talent House Xis a forum for amateur artists to display their talents in a variety of genres, including singing, dance, comedy, novelty acts and more. So, if you've discovered the X factor in you, then this is the right platform to show case your hidden 'X' quotient on stage and wow the crowd!",
         "roundDetails": {
@@ -2890,7 +2890,7 @@ export const eventData = [
         "Time": "10:00 am",
         "venue": "LH 212 & BIOINFORMATICS Lab",
         "branch": "BTE",
-        "image": "/public/events/BT/Thinking Cap.png",
+        "image": "/events/BT/Thinking Cap.png",
         "smallDesc": "Not every thing is about you kids, make way for your lecturers to show their unseen skills this lncridea!",
         "fullDesc": "Not every thing is about you kids, make way for your lecturers to show their unseen skills this lncridea!",
         "roundDetails": {
@@ -2938,7 +2938,7 @@ export const eventData = [
         "Time": "10:00 am",
         "venue": "Phalguni",
         "branch": "BTE",
-        "image": "",
+        "image": "/public/events/BT/VocalTwist.png",
         "smallDesc": "Can you mesmerize those who listen to you? ",
         "fullDesc": "Do you have what it takes to move the hearts of the masses with your voice? Then it is time to bring out your inner Nightingale.",
         // "roundDetails": {
@@ -2991,7 +2991,7 @@ export const eventData = [
         "Time": "10:00 am",
         "venue": "Shambhavi",
         "branch": "BTE",
-        "image": "",
+        "image": "/public/events/BT/VocalTwist.png",
         "smallDesc": "Can you mesmerize those who listen to you? ",
         "fullDesc": "Do you have what it takes to move the hearts of the masses with your voice? Then it is time to bring out your inner Nightingale.",
         // "roundDetails": {
@@ -3045,7 +3045,7 @@ export const eventData = [
         "Time": "11:00 am",
         "venue": "LH 210, 211",
         "branch": "BTE",
-        "image": "/public/events/BT/EscapeRoom.png",
+        "image": "/events/BT/EscapeRoom.png",
         "smallDesc": ". Get  trapped in the room, decode whodunit and escape!",
         "fullDesc": "The escape room is an event that unleashes the detective in you. With a few technical skills and a keen sense of  observation, you have to escape from the grasp of your kidnapper. Your basic chemistry and biology knowledge and your stamina will be the key to helping solve the  mystery. ",
         "roundDetails": {
@@ -3105,7 +3105,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "LH 210, 211",
         "branch": "BTE",
-        "image": "/public/events/BT/EscapeRoom.png",
+        "image": "/events/BT/EscapeRoom.png",
         "smallDesc": ". Get  trapped in the room, decode whodunit and escape!",
         "fullDesc": "The escape room is an event that unleashes the detective in you. With a few technical skills and a keen sense of  observation, you have to escape from the grasp of your kidnapper. Your basic chemistry and biology knowledge and your stamina will be the key to helping solve the  mystery. ",
         "roundDetails": {
@@ -3165,7 +3165,7 @@ export const eventData = [
         "Time": "10:00 am",
         "venue": "LH 212 & BIOKINETICS Lab",
         "branch": "BTE",
-        "image": "/public/events/BT/Perplex.png",
+        "image": "/events/BT/Perplex.png",
         "smallDesc": "Do you know a little more Biology than \"Mitochondria is the powerhouse of the cell\" and a little more Chemistry than \"a mole is equal to 6.022* 10\"23 a toms \"?",
         "fullDesc": "Perplex awaits you.Come push your knowledge, task handling cap abilities, and time management skills to the limit",
         "roundDetails": {
@@ -3223,7 +3223,7 @@ export const eventData = [
         "Time": "2:00 pm",
         "venue": "LH 212 & BIOKINETICS Lab",
         "branch": "BTE",
-        "image": "/public/events/BT/Perplex.png",
+        "image": "/events/BT/Perplex.png",
         "smallDesc": "Do you know a little more Biology than \"Mitochondria is the powerhouse of the cell\" and a little more Chemistry than \"a mole is equal to 6.022* 10\"23 a toms \"?",
         "fullDesc": "Perplex awaits you.Come push your knowledge, task handling cap abilities, and time management skills to the limit",
         "roundDetails": {
@@ -3281,7 +3281,7 @@ export const eventData = [
         "Time": "10:00 am",
         "venue": "LH 212 & BIOKINETICS Lab",
         "branch": "BTE",
-        "image": "/public/events/BT/Perplex.png",
+        "image": "/events/BT/Perplex.png",
         "smallDesc": "Do you know a little more Biology than \"Mitochondria is the powerhouse of the cell\" and a little more Chemistry than \"a mole is equal to 6.022* 10\"23 a toms \"?",
         "fullDesc": "Perplex awaits you.Come push your knowledge, task handling cap abilities, and time management skills to the limit",
         "roundDetails": {
@@ -3341,7 +3341,7 @@ export const eventData = [
         "Time": "11:00 am",
         "venue": "CSL 01,02",
         "branch": "CSE",
-        "image": "/public/events/CS/CTF.jpg",
+        "image": "/events/CS/CTF.jpg",
         "smallDesc": "Show off your hacking skills and flex your problem solving skills",
         "fullDesc": "Capture the Flag is the platform to show off your hacking skills and flex your problem solving skills through a series of problems in the Cryptography, Steno graphy, Binary Exploitation, Web Exploita tion, Forensics, Reverse Engineer ing, Programming,  Packet  Analysis and  some  Miscellaneous cate gories.",
         "roundDetails": {
@@ -3399,7 +3399,7 @@ export const eventData = [
         "Time": "11:00 am",
         "venue": "CSL 01,02",
         "branch": "CSE",
-        "image": "/public/events/CS/CTF.jpg",
+        "image": "/events/CS/CTF.jpg",
         "smallDesc": "Show off your hacking skills and flex your problem solving skills",
         "fullDesc": "Capture the Flag is the platform to show off your hacking skills and flex your problem solving skills through a series of problems in the Cryptography, Steno graphy, Binary Exploitation, Web Exploita tion, Forensics, Reverse Engineer ing, Programming,  Packet  Analysis and  some  Miscellaneous cate gories.",
         "roundDetails": {
@@ -3457,7 +3457,7 @@ export const eventData = [
         "Time": "11:30 am",
         "venue": "LH303, 304, 305",
         "branch": "CSE",
-        "image": "/public/events/CS/techtainment.png",
+        "image": "/events/CS/techtainment.png",
         "smallDesc": "All you need is some technical knowledge, swift responses, and a great companion!",
         "fullDesc": "Techtainment is an event that will keepyou on your toes while storming your technical cap abilities. ",
         "roundDetails": {
@@ -3531,7 +3531,7 @@ export const eventData = [
         "Time": "12:30 am",
         "venue": "LH502, CSL05",
         "branch": "CSE",
-        "image": "/public/events/CS/techtainment.png",
+        "image": "/events/CS/techtainment.png",
         "smallDesc": "All you need is some technical knowledge, swift responses, and a great companion!",
         "fullDesc": "Techtainment is an event that will keepyou on your toes while storming your technical cap abilities. ",
         "roundDetails": {
@@ -3603,7 +3603,7 @@ export const eventData = [
         "Time": "12:30 am",
         "venue": "LH502, CSL05",
         "branch": "CSE",
-        "image": "/public/events/CS/techtainment.png",
+        "image": "/events/CS/techtainment.png",
         "smallDesc": "All you need is some technical knowledge, swift responses, and a great companion!",
         "fullDesc": "Techtainment is an event that will keepyou on your toes while storming your technical cap abilities. ",
         "roundDetails": {
@@ -3676,7 +3676,7 @@ export const eventData = [
         "Time": "10:00 am",
         "venue": "CSL03, 04",
         "branch": "CSE",
-        "image": "",
+        "image": "/public/events/CS/WebPiracy.jpg",
         "smallDesc": " Ever looked at a corporate website and t houg ht \"I could have done that\".Well, here's your chance to prove that in our all- new web piracy web competition.",
         "fullDesc": " Ever looked at a corporate website and t houg ht \"I could have done that\".Well, here's your chance to prove that in our all- new web piracy web competition.",
         "roundDetails": {
@@ -3748,7 +3748,7 @@ export const eventData = [
         "Time": "10:00 am",
         "venue": "CSL03, 04",
         "branch": "CSE",
-        "image": "/public/events/CS/WebPiracy.jpg",
+        "image": "/events/CS/WebPiracy.jpg",
         "smallDesc": " Ever looked at a corporate website and t houg ht \"I could have done that\".Well, here's your chance to prove that in our all- new web piracy web competition.",
         "fullDesc": " Ever looked at a corporate website and t houg ht \"I could have done that\".Well, here's your chance to prove that in our all- new web piracy web competition.",
         "roundDetails": {
@@ -3820,7 +3820,7 @@ export const eventData = [
         "Time": "10:00 am",
         "venue": "CSL03, 04",
         "branch": "CSE",
-        "image": "/public/events/CS/WebPiracy.jpg",
+        "image": "/events/CS/WebPiracy.jpg",
         "smallDesc": " Ever looked at a corporate website and t houg ht \"I could have done that\".Well, here's your chance to prove that in our all- new web piracy web competition.",
         "fullDesc": " Ever looked at a corporate website and t houg ht \"I could have done that\".Well, here's your chance to prove that in our all- new web piracy web competition.",
         "roundDetails": {
@@ -3885,7 +3885,7 @@ export const eventData = [
         "Time": "12:00 am",
         "venue": "NC 13",
         "branch": "CIVIL",
-        "image": "/public/events/CV/BOB THE BUILDER.png",
+        "image": "/events/CV/BOB THE BUILDER.png",
         "smallDesc": " A step to test your skills of past by constructing your creativity in present. Here's a chal leng e to live your childhood again, ask yourself Can you fix it? We present to you BOB THE BUILDER.",
         "fullDesc": "Each team consist of 3 members. Consists of three rounds .All required materials will be provided.",
         "roundDetails": {
@@ -3941,7 +3941,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "NC 15 & CT Lab",
         "branch": "CIVIL",
-        "image": "/public/events/CV/BOB THE BUILDER.png",
+        "image": "/events/CV/BOB THE BUILDER.png",
         "smallDesc": " A step to test your skills of past by constructing your creativity in present. Here's a chal leng e to live your childhood again, ask yourself Can you fix it? We present to you BOB THE BUILDER.",
         "fullDesc": "Each team consist of 3 members. Consists of three rounds .All required materials will be provided.",
         "roundDetails": {
@@ -3997,7 +3997,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "NC 15 & CT Lab",
         "branch": "CIVIL",
-        "image": "/public/events/CV/BOB THE BUILDER.png",
+        "image": "/events/CV/BOB THE BUILDER.png",
         "smallDesc": " A step to test your skills of past by constructing your creativity in present. Here's a chal leng e to live your childhood again, ask yourself Can you fix it? We present to you BOB THE BUILDER.",
         "fullDesc": "Each team consist of 3 members. Consists of three rounds .All required materials will be provided.",
         "roundDetails": {
@@ -4054,7 +4054,7 @@ export const eventData = [
         "Time": "1:30 pm",
         "venue": "NC 11,12",
         "branch": "CIVIL",
-        "image": "/public/events/CV/BridgeIt.jpg",
+        "image": "/events/CV/BridgeIt.jpg",
         "smallDesc": "\"Efforts and hard work construct the bridge that connects your dream to reality\", If you think  you can  build the lightest bridge with the highest struct ura l efficiency this is the right place to be!",
         "fullDesc": "Each team consist of 3 members. Consists of three rounds.All required materials will be provided.",
         "roundDetails": {
@@ -4112,7 +4112,7 @@ export const eventData = [
         "Time": "1:30 pm",
         "venue": "NC 11,12",
         "branch": "CIVIL",
-        "image": "/public/events/CV/BridgeIt.jpg",
+        "image": "/events/CV/BridgeIt.jpg",
         "smallDesc": "\"Efforts and hard work construct the bridge that connects your dream to reality\", If you think  you can  build the lightest bridge with the highest struct ura l efficiency this is the right place to be!",
         "fullDesc": "Each team consist of 3 members. Consists of three rounds.All required materials will be provided.",
         "roundDetails": {
@@ -4172,7 +4172,7 @@ export const eventData = [
         "Time": "12:00 pm",
         "venue": "Sowparnika",
         "branch": "CIVIL",
-        "image": "/public/events/CV/INTELLECTIUM.png",
+        "image": "/events/CV/INTELLECTIUM.png",
         "smallDesc": "It's always the sma ll pieces that make the big pictures. Here is a chance to you to solve the puzzles and to bring out the ideas in a paper by using your creative and competitive thinkingskills.",
         "fullDesc": "\"To expect the unexpected shows thoroughly a modern intellect.\"Do you love writing research papers and presenting them nonchalantly? lnte llect ium is open now!",
         "roundDetails": {
@@ -4228,7 +4228,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "Infront of NC Block, Survery Lab",
         "branch": "EC",
-        "image": "/public/events/EC/ROBORACE.png",
+        "image": "/events/EC/ROBORACE.png",
         "smallDesc": "Come let your rob ots do the running and your skills do the talking in the Robe Race this lncridea.",
         "fullDesc": "Come let your rob ots do the running and your skills do the talking in the Robe Race this lncridea.",
         "roundDetails": {
@@ -4302,7 +4302,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "Beside Sadananda",
         "branch": "EC",
-        "image": "/public/events/EC/ROBORACE.png",
+        "image": "/events/EC/ROBORACE.png",
         "smallDesc": "Come let your rob ots do the running and your skills do the talking in the Robe Race this lncridea.",
         "fullDesc": "Come let your rob ots do the running and your skills do the talking in the Robe Race this lncridea.",
         "roundDetails": {
@@ -4376,7 +4376,7 @@ export const eventData = [
         "Time": "12:30 pm",
         "venue": "LH 301 & 302",
         "branch": "EC",
-        "image": "/public/events/EC/WIRED.png",
+        "image": "/events/EC/WIRED.png",
         "smallDesc": "Are you an electronics geek? Do you want to test your circuit building skills and be a winner? ",
         "fullDesc": "Wired! is the place you should be. Come, show us what you've got.",
         "roundDetails": {
@@ -4436,7 +4436,7 @@ export const eventData = [
         "Time": "9:30 am",
         "venue": "Project Lab 1 & DSD Lab",
         "branch": "EC",
-        "image": "/public/events/EC/WIRED.png",
+        "image": "/events/EC/WIRED.png",
         "smallDesc": "Are you an electronics geek? Do you want to test your circuit building skills and be a winner? ",
         "fullDesc": "Wired! is the place you should be. Come, show us what you've got.",
         "roundDetails": {
@@ -4496,7 +4496,7 @@ export const eventData = [
         "Time": "9:30 am",
         "venue": "Project Lab 1 & DSD Lab",
         "branch": "EC",
-        "image": "/public/events/EC/WIRED.png",
+        "image": "/events/EC/WIRED.png",
         "smallDesc": "Are you an electronics geek? Do you want to test your circuit building skills and be a winner? ",
         "fullDesc": "Wired! is the place you should be. Come, show us what you've got.",
         "roundDetails": {
@@ -4558,7 +4558,7 @@ export const eventData = [
         "Time": "10:00 am",
         "venue": "NC24",
         "branch": "EE",
-        "image": "/public/events/EE/BURNANDRUN.png",
+        "image": "/events/EE/BURNANDRUN.png",
         "smallDesc": "Embed yourselvesinto the world of embedded systems. ",
         "fullDesc": ". If you can stay cool while burning and running programs using microcont rollers and Ard uino, Burn and Run awaits you!",
         "roundDetails": {
@@ -4618,7 +4618,7 @@ export const eventData = [
         "Time": "12:30 pm",
         "venue": "NCL31 - LD Lab",
         "branch": "EE",
-        "image": "/public/events/EE/BURNANDRUN.png",
+        "image": "/events/EE/BURNANDRUN.png",
         "smallDesc": "Embed yourselvesinto the world of embedded systems. ",
         "fullDesc": ". If you can stay cool while burning and running programs using microcont rollers and Ard uino, Burn and Run awaits you!",
         "roundDetails": {
@@ -4678,7 +4678,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "NC22",
         "branch": "EE",
-        "image": "/public/events/EE/ELECTRICUITIT.png",
+        "image": "/events/EE/ELECTRICUITIT.png",
         "smallDesc": "Are you the reputed regulator for the fluctuations in circuit- related problems in your friends' gang? If yes, then come to Electricuit It!",
         "fullDesc": "Are you the reputed regulator for the fluctuations in circuit- related problems in your friends' gang? If yes, then come to Electricuit It!",
         "roundDetails": {
@@ -4734,7 +4734,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "NC22",
         "branch": "EE",
-        "image": "/public/events/EE/ELECTRICUITIT.png",
+        "image": "/events/EE/ELECTRICUITIT.png",
         "smallDesc": "Are you the reputed regulator for the fluctuations in circuit- related problems in your friends' gang? If yes, then come to Electricuit It!",
         "fullDesc": "Are you the reputed regulator for the fluctuations in circuit- related problems in your friends' gang? If yes, then come to Electricuit It!",
         "roundDetails": {
@@ -4790,7 +4790,7 @@ export const eventData = [
         "Time": "1:00 pm",
         "venue": "NCL32 - AEC Lab",
         "branch": "EE",
-        "image": "/public/events/EE/ELECTRICUITIT.png",
+        "image": "/events/EE/ELECTRICUITIT.png",
         "smallDesc": "Are you the reputed regulator for the fluctuations in circuit- related problems in your friends' gang? If yes, then come to Electricuit It!",
         "fullDesc": "Are you the reputed regulator for the fluctuations in circuit- related problems in your friends' gang? If yes, then come to Electricuit It!",
         "roundDetails": {
@@ -4920,7 +4920,7 @@ export const eventData = [
         "Time": "1:30 pm",
         "venue": "ISL 02, 03, 04",
         "branch": "ISE",
-        "image": "/public/events/IS/CodeStudio.jpg",
+        "image": "/events/IS/CodeStudio.jpg",
         "smallDesc": "Are you a coding wizard? Or a person who loves to code? If yes, then Code Studio is a perfect platform for you",
         "fullDesc": ". Consisting of four rounds in total, each round is going to be bigger and better. Grab this opportunity and test your coding skills with Code St ud io.",
         "roundDetails": {
@@ -4993,7 +4993,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "ISL 01 ,02, 03",
         "branch": "ISE",
-        "image": "/public/events/IS/CodeStudio.jpg",
+        "image": "/events/IS/CodeStudio.jpg",
         "smallDesc": "Are you a coding wizard? Or a person who loves to code? If yes, then Code Studio is a perfect platform for you",
         "fullDesc": ". Consisting of four rounds in total, each round is going to be bigger and better. Grab this opportunity and test your coding skills with Code St ud io.",
         "roundDetails": {
@@ -5066,7 +5066,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "ISL 01 ,02, 03",
         "branch": "ISE",
-        "image": "/public/events/IS/CodeStudio.jpg",
+        "image": "/events/IS/CodeStudio.jpg",
         "smallDesc": "Are you a coding wizard? Or a person who loves to code? If yes, then Code Studio is a perfect platform for you",
         "fullDesc": ". Consisting of four rounds in total, each round is going to be bigger and better. Grab this opportunity and test your coding skills with Code St ud io.",
         "roundDetails": {
@@ -5140,7 +5140,7 @@ export const eventData = [
         "Time": "2:30 pm",
         "venue": "LH 501, 502, 503",
         "branch": "ISE",
-        "image": "",
+        "image": "/events/",
         "smallDesc": "A perfect opportunity for all the Web development enthusiasts !! Do you have an aptitude for designing and coding? ",
         "fullDesc": "Building a website is easy, designing one takes skill. A perfect opportunity for all the Web development enthusiasts !! Do you have an aptitude for designing and coding? Then \"Webbed\" is perfectly suited to test your designing and  coding skills. Co nsisting  of three rounds,  put  your  team of t wo to the ultimate test.",
         "roundDetails": {
@@ -5221,7 +5221,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "LH 01, 02",
         "branch": "ISE",
-        "image": "/public/events/IS/WEBBED.jpg",
+        "image": "/events/IS/WEBBED.jpg",
         "smallDesc": "A perfect opportunity for all the Web development enthusiasts !! Do you have an aptitude for designing and coding? ",
         "fullDesc": "Building a website is easy, designing one takes skill. A perfect opportunity for all the Web development enthusiasts !! Do you have an aptitude for designing and coding? Then \"Webbed\" is perfectly suited to test your designing and  coding skills. Co nsisting  of three rounds,  put  your  team of t wo to the ultimate test.",
         "roundDetails": {
@@ -5301,7 +5301,7 @@ export const eventData = [
         "Time": "2:30 pm",
         "venue": "CSL 05, 06",
         "branch": "ISE",
-        "image": "/",
+        "image": "/events/IS/WEBBED.jpg",
         "smallDesc": "A perfect opportunity for all the Web development enthusiasts !! Do you have an aptitude for designing and coding? ",
         "fullDesc": "Building a website is easy, designing one takes skill. A perfect opportunity for all the Web development enthusiasts !! Do you have an aptitude for designing and coding? Then \"Webbed\" is perfectly suited to test your designing and  coding skills. Co nsisting  of three rounds,  put  your  team of t wo to the ultimate test.",
         "roundDetails": {
@@ -5382,7 +5382,7 @@ export const eventData = [
         "Time": "2:30 pm",
         "venue": "CSL 05, 06",
         "branch": "ISE",
-        "image": "",
+        "image": "/events/IS/WEBBED.jpg",
         "smallDesc": "A perfect opportunity for all the Web development enthusiasts !! Do you have an aptitude for designing and coding? ",
         "fullDesc": "Building a website is easy, designing one takes skill. A perfect opportunity for all the Web development enthusiasts !! Do you have an aptitude for designing and coding? Then \"Webbed\" is perfectly suited to test your designing and  coding skills. Co nsisting  of three rounds,  put  your  team of t wo to the ultimate test.",
         "roundDetails": {
@@ -5464,7 +5464,7 @@ export const eventData = [
         "Time": "11:30 am",
         "venue": "LH 202, 203, 204 & Automotive Lab",
         "branch": "MECH",
-        "image": "",
+        "image": "/events/Mech/engineoverhaulin.png",
         "smallDesc": "Do you think you can bring life to the heart of the vehicle? This is a great opportunity for all the motor- heads ou t there to get your engine know- how tested.",
         "fullDesc": "A team should consist of 2-3 members who are of the same college An individual should be a member of only one team .All the required tools for overhaul will be provided",
         "roundDetails": {
@@ -5520,7 +5520,7 @@ export const eventData = [
         "Time": "11:30 am",
         "venue": "LH 202, 203, 204 & Automotive Lab",
         "branch": "MECH",
-        "image": "",
+        "image": "/events/Mech/engineoverhaulin.png",
         "smallDesc": "Do you think you can bring life to the heart of the vehicle? This is a great opportunity for all the motor- heads ou t there to get your engine know- how tested.",
         "fullDesc": "A team should consist of 2-3 members who are of the same college An individual should be a member of only one team .All the required tools for overhaul will be provided",
         "roundDetails": {
@@ -5576,7 +5576,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "Infront of NC Block, Survery Lab",
         "branch": "MECH",
-        "image": "",
+        "image": "/events/Mech/engineoverhaulin.png",
         "smallDesc": "Beckham who? Get those motors smoking; remember the robots from Robowars? Now they play soccer.",
         "fullDesc": "Beckham who? Get those motors smoking; remember the robots from Robowars? Now they play soccer.",
         "roundDetails": ["In the  beginning, a  toss will decide the first hold over the ball.The winner of the toss will get possession of the ball at the center of the arena, whereas the opponent will have to defend the post.",
@@ -5686,7 +5686,7 @@ export const eventData = [
         "Time": "4:00 pm",
         "venue": "Sadananda",
         "branch": "CORE",
-        "image": "",
+        "image": "/events/CORE/Couture.png",
         "smallDesc": ". Couture is the platform to showcase unseen, unforgettable and ultimate spectacle of all things fashion. ",
         "fullDesc": "Fashion is a unique platform of art to express and impress. Couture is the platform to showcase unseen, unforgettable and ultimate spectacle of all things fashion. So gather your team, work around a theme and strut down the runway.",
         // "roundDetails": {
@@ -5761,7 +5761,7 @@ export const eventData = [
         "Time": "11:30 am",
         "venue": "SAC OAT",
         "branch": "CORE",
-        "image": "",
+        "image": "/public/events/CORE/Hogathon.png",
         "smallDesc": "Are you a big-time foodie, a glutton who loves to eat it all in one go?",
         "fullDesc": " For all the food - lovers with appetites bigger than their tummies, it's time to put your bellies and taste buds to test. lncridea'22 presents- Hogathon. A mega food eating competition to hog it all as fast as you can, let's see \"How Big Your Appetite is?\"",
         "roundDetails": {
@@ -5829,7 +5829,7 @@ export const eventData = [
         "Time": "12:30 am",
         "venue": "SAMBHRAM",
         "branch": "CORE",
-        "image": "",
+        "image": "/events/CORE/navarasa.png",
         "smallDesc": "A drama competition open to teams from all universities. Through this, we wish to  provide a platform for all budding playwrights, t heatre artists, and art patrons to entertain theatre lovers.",
         "fullDesc": "Sanskrit  literature has a  profound saying  which goes, \"Kavyeshu  Natakam Ra mya m\" : Dra ma is the finest form of poet ry. 'Drama' is a metaphorical amalgamation of visual, auditory, material, and nuances of character.",
         // "roundDetails": {
@@ -5900,7 +5900,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "Infront of NC Block, Survey Lab",
         "branch": "CORE",
-        "image": "",
+        "image": "/events/CORE/robowars.png",
         "smallDesc": "Are you passionate about Bots? Or you just like to watch things get crushed? ",
         "fullDesc": "War does not determine who is right, only who is left.Are you passionate about Bots? Or you just like to watch things get crushed?The path to glory passes through the alley of destruc t ion, let ha l combats, violent bots, and flying blades! Merge your technical know- how with the ferocious gladiator in you! Make your bot fight for the ultimate glory or land up in the junkyard! Fight smart, be patient and pray; for Robo - Wars just got crazier in its new avatar!",
         "eventDetails": {
@@ -5994,7 +5994,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "SADANANDA",
         "branch": "CORE",
-        "image": "",
+        "image": "/events/CORE/StompThat.png",
         "smallDesc": "a chance for all the amazing groups out there to showcase their group's skills, choreography, and sync.",
         "fullDesc": "There is nothing more calming than watching a fluid choreography of people dancing in unison.This is a chance for all the amazing groups out there to showcase their group's skills, choreography, and sync. So get your groups ready to stomp that stage with uniqueness and talent!",
         "eventDetails": {
@@ -6057,7 +6057,7 @@ export const eventData = [
         //"Time": "-",
         // "venue": "SAC OAT",
         "branch": "CORE",
-        "image": "",
+        "image": "/events/CORE/vibe.png",
         "smallDesc": "The battleground is set, the lights are lit,andit's time for all you dancers to fire up the dancetloor with your moves to the unpredictable tunes.",
         "fullDesc": "Come join the battle of dance and ignite your dancing flame! Vibe hai toh hype hai",
         "roundDetails": {
@@ -6133,7 +6133,7 @@ export const eventData = [
         "Time": "2:00 pm",
         "venue": "SAC OAT",
         "branch": "CORE",
-        "image": "",
+        "image": "/events/CORE/vibe.png",
         "smallDesc": "The battleground is set, the lights are lit,andit's time for all you dancers to fire up the dancetloor with your moves to the unpredictable tunes.",
         "fullDesc": "Come join the battle of dance and ignite your dancing flame! Vibe hai toh hype hai",
         "roundDetails": {
@@ -6209,7 +6209,7 @@ export const eventData = [
         "Time": "2:00 pm",
         "venue": "SAC OAT",
         "branch": "CORE",
-        "image": "",
+        "image": "/events/CORE/vibe.png",
         "smallDesc": "The battleground is set, the lights are lit,andit's time for all you dancers to fire up the dancetloor with your moves to the unpredictable tunes.",
         "fullDesc": "Come join the battle of dance and ignite your dancing flame! Vibe hai toh hype hai",
         "roundDetails": {
