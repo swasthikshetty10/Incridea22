@@ -5,6 +5,7 @@ import codeNinja from "../../Images/Sponsor/codingninja.png";
 import redfm from "../../Images/Sponsor/redfm.png";
 import lifestyle from "../../Images/Sponsor/lifestyle.png";
 import dlithe from "../../Images/Sponsor/dlithe.png";
+import paramvah from "../../Images/Sponsor/paramvah.jpg";
 import { Fade , Zoom, Slide } from "react-awesome-reveal";
 
 
@@ -15,6 +16,12 @@ const SponsorDetails = [
       Coding Ninjas boasts of world-class teaching faculty and a state-of-art learning platform for Coding education with faculty alumni of IIT, Stanford, IIIT and Facebook. Coding Ninjas teaches 17+ Programming courses ins Machine Learning, Data Science, Web Development, Android and more.`,
     image: codeNinja,
     url: "https://www.codingninjas.com/",
+  },
+  {
+    name: "Paramvah Studios",
+    description: `Paramvah Studios aims to be a world class production house creating memorable films & characters using latest technologies & best creative talents. We are a production house, engaged in creating movie content and Paramvah Studios is more than just a name for us.`,
+    image: paramvah,
+    url: "https://www.paramvah.com/",
   },
   {
     name: "Red FM",
@@ -36,6 +43,7 @@ const SponsorDetails = [
     image: dlithe,
     url: "https://dlithe.com/",
   },
+
 ];
 
 const Sponsor = () => {
