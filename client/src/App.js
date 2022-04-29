@@ -12,6 +12,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import { ChakraProvider, extendTheme } from '@chakra-ui/react';
 import Footer from './Components/Footer';
+import Pron from "./Components/pron";
+import TechTeam from "./Components/TechTeam"
 
 function App() {
 
@@ -24,7 +26,9 @@ function App() {
         <Route exact path="/gallery" element={<Gallery />} />
         <Route exact path="/Sponsors" element={<Sponsor />} />
         <Route exact path="/team" element={<Team />} />
-        
+        <Route exact path="/pron" element={<Pron />} />
+        <Route exact path="/TechTeam" element={<TechTeam />} />
+
       </Routes>
 	  <Footer/>
     </div>

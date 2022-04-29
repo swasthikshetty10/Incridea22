@@ -180,7 +180,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              CodeBucks
+              Incri
             </a>
           </span>
         </Bottom>

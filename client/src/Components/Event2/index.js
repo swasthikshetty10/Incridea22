@@ -8,13 +8,13 @@ import src from "../../Images/navrasa.png";
 import FilterBar from "./FilterBar";
 import { queryByRole } from "@testing-library/react";
 import Footer from "../Footer";
-import { eventData } from "./eventData";
-import { Fade, Zoom, Slide } from "react-awesome-reveal";
+import { eventData } from "./eventData"
+import { Fade, Zoom, Slide } from "react-awesome-reveal";;
 
 
 function Event2() {
   console.log(eventData)
-  const [branch, setBranch] = useState("ALL");
+  const [branch, setBranch] = useState("CORE");
   const [day, setDay] = useState("0");
   const [query, setQuery] = useState("");
   const [elements, setElements] = useState(data);
@@ -63,11 +63,10 @@ function Event2() {
           <div className="max-w-screen-xl flex flex-wrap justify-center gap-x-10 gap-y-14 ">
             {elements.map((value, index) => {
               return (
-
                 <EventsCard
                   key={index}
                   name={value.name}
-                  src={src}
+                  src={value.image}
                   desc={value.fullDesc}
                   time={value.Time}
                   venue={value.venue}
@@ -76,7 +75,6 @@ function Event2() {
                   round={value.round ? value.round : null}
                   data={value}
                 />
-
               );
             })}
           </div>

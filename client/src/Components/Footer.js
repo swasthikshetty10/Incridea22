@@ -22,7 +22,7 @@ function Footer() {
           <img className="h-12" src={logo} alt="" />
         </div>
         <div className="text-sm text-center items-center justify-center text-gray-200">
-          <Link to="/"  className="   underline underline-offset-4 hover:text-red-500 text-base">
+          <Link to="/techteam"  className="transition-all ease-out delay-75 text-[#cd9b58] hover:text-red-500 text-base">
             Made with ♥ by Technical Team, Incridea
             <br />
           </Link>

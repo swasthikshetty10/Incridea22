@@ -4,22 +4,23 @@ import higher from "../../Images/home/higher.png"
 import avatar from "../../Images/home/avatar.png"
 import Counter from "./Counter";
 import { Slide, Fade } from 'react-awesome-reveal'
-
+import cloud from './cloud1.png'
 function Home() {
   return (
     <>
       <Fade duration={1500}>
         <Navbar tab="home" />
       </Fade>
-      <div className="flex py-5 items-center justify-center flex-col-reverse md:flex-row tracking-wide" style={{ fontFamily: "CinzelDecorative-Bold" }}>
+      <div className="overflow-x-hidden relative flex py-5 items-center justify-center flex-col-reverse md:flex-row tracking-wide" style={{ fontFamily: "CinzelDecorative-Bold" }}>
         <Slide direction="left" duration={1000}>
           <div className="flex gap-3 px-5  flex-col" >
             <img src={higher} className=" " alt="" />
             <p className="text-gray-100 text-lg  text-justify" >An amalgamation of all forms of technical, literary and cultural activities Incridea is a celebration of fervour and talent. It is the national level techno-cultural fest of
-              <a target="blank" className=" underline underline-offset-4 hover:text-red-500 text-base" href="https://nmamit.nitte.edu.in/"> NMAM Institute of Technology</a> , Nitte .
+              <a target="blank" className="  text-[#cd9b58] hover:text-red-500 text-base" href="https://nmamit.nitte.edu.in/"> NMAM Institute of Technology</a> , Nitte .
             </p>
             <div className="select-none bg-white border-0 hover:bg-opacity-100  bg-opacity-10 text-white px-6 py-2 w-fit font-bold  text-center " >
               Registrations start on 29th April
+
             </div>
           </div>
         </Slide>
@@ -29,6 +30,10 @@ function Home() {
             <img className="md:max-w-[50vw]" src={avatar} alt="" />
           </div>
         </Slide>
+        <Slide className="w-full h-full absolute -z-10" direction="left" duration={3500} delay={100}>
+          <img className=" md:h-full w-96 sm:w-full top-0 right-0  translate-x-12  h-64 sm: md:translate-x-72 lg:translate-x-96 md:scale-80" src={cloud} alt="" />
+        </Slide>
+
       </div>
       <Slide direction="up">
         <div className="flex justify-center text-center items-center py-5" style={{ fontFamily: "CinzelDecorative-Bold" }}>
