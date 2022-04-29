@@ -43,13 +43,16 @@ function Register() {
 
     const HandleSubmit = (value) => {
         const data = { email, ...value }
-        axios.post('https://end-point', data).then( //register user
+        axios.post('http://localhost:8080/auth/register', data).then( //register user
             (res) => {
+                console.log(data);
+                alert('login success') //TODO: for now
                 //login user
                 //navigate to profile 
             }
         ).catch((res) => {
-            //for now alert
+            console.log(data);
+            alert(res) //TODO: alert for now
         })
     }
 
@@ -80,7 +83,7 @@ function Register() {
         name: Yup.string()
             .max(15, 'Must be 15 characters or less')
             .required('Required'),
-        mobnumber: Yup.string()
+        phNo: Yup.string()
             .min(10, 'Must be 10 digits')
             .max(10, 'Must be 10 digits')
             .required('Required'),
@@ -113,7 +116,7 @@ function Register() {
                                     <Title>Enter Your Details Carefully </Title>
                                     <InputField placeholder='Name' name='name' type='text' />
                                     <InputField
-                                        name='mobnumber'
+                                        name='phNo'
                                         type='text'
                                         placeholder='Mobile Number'
                                     />

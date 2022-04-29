@@ -35,11 +35,11 @@ function Payment(props) {
 					})
 
 					const callBackData = res.data
-					alert(callBackData) //for now
-					if (data) {
+					if (callBackData) {
 						navigate(`/register/${props.email}`)
 					} else {
 						//render successSpan useRef
+						console.log('payment failed')
 					}
 					//OR use try catch??
 					//REGISTER HAPPENS AFTER THIS BUT HOW???
@@ -63,7 +63,7 @@ function Payment(props) {
 	}
 	return (
 		<Button {...props} className={` inline-flex items-center justify-center gap-3  ${loading ? "opacity-90" : "opacity-100"}`} disabled={loading} onClick={displayRazorpay}>
-			{loading ? <> <AiOutlineLoading3Quarters className=" animate-spin text-lg " /> <span>Hold on</span></> : 'Proceed To Payment'}
+			{loading ? <> <AiOutlineLoading3Quarters className=" animate-spin text-lg " /> <span>Processing...</span></> : 'Proceed To Payment'}
 		</Button>
 	)
 }
