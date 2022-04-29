@@ -59,7 +59,7 @@ function Modal({ data,img, closeModal }) {
                                                     {org.name}
                                                 </span><br />
                                                 <span className='text-sm' >
-                                                    {org.phoneNumber}
+                                                   <a href={`tel:${org.phoneNumber}`}>{org.phoneNumber}</a> 
                                                 </span>
 
                                             </div>

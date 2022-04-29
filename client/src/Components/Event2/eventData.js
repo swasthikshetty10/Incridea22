@@ -5301,7 +5301,7 @@ export const eventData = [
         "Time": "2:30 pm",
         "venue": "CSL 05, 06",
         "branch": "ISE",
-        "image": "",
+        "image": "/",
         "smallDesc": "A perfect opportunity for all the Web development enthusiasts !! Do you have an aptitude for designing and coding? ",
         "fullDesc": "Building a website is easy, designing one takes skill. A perfect opportunity for all the Web development enthusiasts !! Do you have an aptitude for designing and coding? Then \"Webbed\" is perfectly suited to test your designing and  coding skills. Co nsisting  of three rounds,  put  your  team of t wo to the ultimate test.",
         "roundDetails": {
