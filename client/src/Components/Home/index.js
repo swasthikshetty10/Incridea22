@@ -5,6 +5,7 @@ import avatar from "../../Images/home/avatar.png"
 import Counter from "./Counter";
 import { Slide, Fade } from 'react-awesome-reveal'
 import cloud from './cloud1.png'
+import chakra from './chakra.png'
 function Home() {
   return (
     <>
@@ -35,14 +36,24 @@ function Home() {
         </Slide>
 
       </div>
-      <Slide direction="up">
-        <div className="flex justify-center text-center items-center py-5" style={{ fontFamily: "CinzelDecorative-Bold" }}>
-          <div className="flex flex-col items-center justify-center">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl p-3 font-semibold text-[#9d7643]">Countdown Has Begun</h2>
-            <Counter />
+      <div className="relative overflow-hidden pt-36 pb-96">
+        <div className="absolute w-full flex justify-between ">
+          <div className=" shrink-0  -ml-[395px]  -mt-28" >
+            <img className=" h-[40rem]   w-auto" src={chakra} alt="" />
+          </div>
+          <div className="shrink-0 -mr-[395px]   pt-10">
+            <img className="h-[40rem] w-auto" src={chakra} alt="" />
           </div>
         </div>
-      </Slide>
+        <Slide direction="up">
+          <div className="flex justify-center text-center items-center py-5" style={{ fontFamily: "CinzelDecorative-Bold" }}>
+            <div className="flex flex-col items-center justify-center pt-20 ">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl p-3 font-semibold text-[#9d7643]">Countdown Has Begun</h2>
+              <Counter />
+            </div>
+          </div>
+        </Slide>
+      </div>
     </>
   );
 }
