@@ -41,20 +41,21 @@ function Register() {
     const [loading, setLoading] = useState(true);
     const navigate = useNavigate()
 
-    const HanddleSubmit = (value) => {
+    const HandleSubmit = (value) => {
         const data = { email, ...value }
-        axios.post('https://end-point', data).then(
+        axios.post('https://end-point', data).then( //register user
             (res) => {
-
+                //login user
+                //navigate to profile 
             }
         ).catch((res) => {
-
+            //for now alert
         })
     }
 
     useEffect(() => {
         setLoading(true)
-        axios.post(`https://end-point`, {
+        axios.post(`https://end-point`, { //validate email before rendering
             email
         }).then((res => {
             setLoading(false)
@@ -103,7 +104,7 @@ function Register() {
                 <Formik
                     initialValues={initialValues}
                     validationSchema={validate}
-                    onSubmit={HanddleSubmit}
+                    onSubmit={HandleSubmit}
                 >
                     {(formik) => {
                         return (
