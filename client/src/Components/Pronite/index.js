@@ -29,6 +29,12 @@ function Pron() {
     <>
       <Navbar tab='pronite' />
       <div style={{ textAlign: 'center' }}>
+        <div className='py-[40vh]' >
+          <div >
+            <div className='text-white font-nav  text-7xl md:text-9xl'>pronites </div>
+            <p className='py-2 text-2xl text-[#9d7643] md:text-3xl font-body ' >These are the nights you will remember.</p>
+          </div>
+        </div>
 
         <Parallax className='h-[100vh] mt-2' bgImage={require('./rd.jpg')} bgImageStyle={{ objectFit: 'cover' }} strength={-200} >
           <div style={{ height: 500 }}>
@@ -37,12 +43,7 @@ function Pron() {
           </div>
         </Parallax>
 
-        <div>
-          <div >
-            <div className='text-white font-nav font-bold text-7xl'>pronite </div>
-            <p className='py-2 text-2xl text-[#9d7643] md:text-3xl font-body ' >Lorem ipsum dolor sit amet consectetur.</p>
-          </div>
-        </div>
+
 
 
         <Parallax className='h-[100vh]' bgImage={require('./tb.jpg')} bgImageStyle={{ objectFit: 'cover' }} strength={-200} >
