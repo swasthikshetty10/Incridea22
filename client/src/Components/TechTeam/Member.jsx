@@ -19,15 +19,15 @@ const Member = ({ name, role, src, mob }) => {
               {name}
             </h1>
             <h3 className="pt-2 pb-4 text-sm text-slate-400 font-semibold tracking-wider">
-              {role}
+              {/* {role} */}
             </h3>
             <div className="flex justify-center gap-3 mb-2">
-              {/* <FaInstagram className="text-white cursor cursor-pointer   transition ease-in-out hover:-translate-x-1 hover:text-lg hover:-translate-y-1 " /> */}
+              <FaInstagram className="text-white cursor cursor-pointer   transition-all ease-out hover:-translate-x-1 hover:text-lg hover:-translate-y-1 " />
               <a href="mailto:ayusmann23@gmail.com ">
-              <HiOutlineMail className="text-white cursor-pointer   transition-all  ease-out  hover:text-2xl   " />
+              <HiOutlineMail className="text-white cursor-pointer  transition-all ease-in-out hover:text-2xl  hover:-translate-y-1   " />
               </a>
               <a href={`tel:${mob}`}>
-              <BsTelephoneOutbound className="  text-white cursor-pointer  transition-all  ease-out  hover:text-2xl  " />
+              <BsTelephoneOutbound className="  text-white cursor-pointer  transition-all  ease-out hover:translate-x-1 hover:text-2xl hover:-translate-y-1 " />
               </a>
             </div>
           </div>

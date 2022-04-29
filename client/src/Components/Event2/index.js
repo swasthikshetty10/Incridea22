@@ -14,7 +14,7 @@ import { Fade, Zoom, Slide } from "react-awesome-reveal";;
 
 function Event2() {
   console.log(eventData)
-  const [branch, setBranch] = useState("ALL");
+  const [branch, setBranch] = useState("CORE");
   const [day, setDay] = useState("0");
   const [query, setQuery] = useState("");
   const [elements, setElements] = useState(data);

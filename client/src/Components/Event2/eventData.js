@@ -231,7 +231,7 @@ export const eventData = [
         "Time": "10:30 am",
         "venue": "RGIS lab",
         "branch": "CIVIL",
-        "image": "/events/cv/comingsoon.jpg",
+        "image": "/events/cv/digital.png",
         "smallDesc": "In a world obsessed with the digital and NFTS, can you think on your feet and create art that burns itself into our minds as well our screens?",
         "fullDesc": "In a world obsessed with the digital and NFTS, can you think on your feet and create art that burns itself into our minds as well our screens? Here's Digital Art Competition for you.Only solo participant. Participants will have to get their own devices (laptops, trackpad, etc). Time duration is 1 hour 30 minutes.",
         "roundDetails": {
@@ -5761,7 +5761,7 @@ export const eventData = [
         "Time": "11:30 am",
         "venue": "SAC OAT",
         "branch": "CORE",
-        "image": "/public/events/CORE/Hogathon.png",
+        "image": "/events/CORE/Hogathon.png",
         "smallDesc": "Are you a big-time foodie, a glutton who loves to eat it all in one go?",
         "fullDesc": " For all the food - lovers with appetites bigger than their tummies, it's time to put your bellies and taste buds to test. lncridea'22 presents- Hogathon. A mega food eating competition to hog it all as fast as you can, let's see \"How Big Your Appetite is?\"",
         "roundDetails": {
