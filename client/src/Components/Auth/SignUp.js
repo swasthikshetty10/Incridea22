@@ -54,6 +54,9 @@ const SignUp = ({ signIn }) => {
 
     } catch (error) {
       console.log(error);
+      if (error.statusCode === 300) {
+        navigate(`/register/${values.mail}`)
+      }
       successSpan.current.innerHTML = `<p class="font-semibold text-red-600">${error.response.data}</p>`
 
     }
