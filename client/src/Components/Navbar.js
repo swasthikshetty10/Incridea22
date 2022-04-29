@@ -107,6 +107,16 @@ function Navbar({ tab }) {
               </li>
               <li>
                 <Link
+                  to="/pron"
+                  className={`block py-2 pr-4 pl-3   text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
+                    tab === "pron" ? "text-[#9d7643]" : "text-[#EDEDED]"
+                  } `}
+                >
+                  proNight
+                </Link>
+              </li>
+              <li>
+                <Link
                   to="/sponsors"
                   className={`block py-2 pr-4 pl-3   text-xl  font-nav font-bold hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
                     tab === "sponsors" ? "text-[#9d7643]" : "text-[#EDEDED]"

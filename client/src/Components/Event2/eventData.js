@@ -1073,7 +1073,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "LH 202 - 208",
         "branch": "MECH",
-        "image": "/events/Mech/MISSIONIMPOSSIBLE.jpeg",
+        "image": "/events/Mech/mission.jpeg",
         "smallDesc": "A mega event, an alter-ego of a treasure hunt where you need to use your brains, wit, and wisdom. ",
         "fullDesc": "We bring  to  you-  MISSION IMPOSSIBLE b eca use the t reasure is not easy to FIND.sn't life a collection of weird quizzes with no answers  to  half  the questions?",
         "roundDetails": {
@@ -1124,7 +1124,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "LH 202 -208",
         "branch": "MECH",
-        "image": "/events/Mech/MISSIONIMPOSSIBLE.jpeg",
+        "image": "/events/Mech/mission.jpeg",
         "smallDesc": "A mega event, an alter-ego of a treasure hunt where you need to use your brains, wit, and wisdom. ",
         "fullDesc": "We bring  to  you-  MISSION IMPOSSIBLE b eca use the t reasure is not easy to FIND.sn't life a collection of weird quizzes with no answers  to  half  the questions?",
         "roundDetails": {
@@ -1176,7 +1176,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "Infront Co-Op Store",
         "branch": "MECH",
-        "image": "/events/EC/MISSIONIMPOSSIBLE.jpeg",
+        "image": "/events/MECH/mission.jpeg",
         "smallDesc": "A mega event, an alter-ego of a treasure hunt where you need to use your brains, wit, and wisdom. ",
         "fullDesc": "We bring  to  you-  MISSION IMPOSSIBLE b eca use the t reasure is not easy to FIND.sn't life a collection of weird quizzes with no answers  to  half  the questions?",
         "roundDetails": {
@@ -2890,7 +2890,7 @@ export const eventData = [
         "Time": "10:00 am",
         "venue": "LH 212 & BIOINFORMATICS Lab",
         "branch": "BTE",
-        "image": "/events/BT/Thinking Cap.png",
+        "image": "/events/BT/ThinkingCap.png",
         "smallDesc": "Not every thing is about you kids, make way for your lecturers to show their unseen skills this lncridea!",
         "fullDesc": "Not every thing is about you kids, make way for your lecturers to show their unseen skills this lncridea!",
         "roundDetails": {
@@ -2938,7 +2938,7 @@ export const eventData = [
         "Time": "10:00 am",
         "venue": "Phalguni",
         "branch": "BTE",
-        "image": "/public/events/BT/VocalTwist.png",
+        "image": "/events/BT/VocalTwist.png",
         "smallDesc": "Can you mesmerize those who listen to you? ",
         "fullDesc": "Do you have what it takes to move the hearts of the masses with your voice? Then it is time to bring out your inner Nightingale.",
         // "roundDetails": {
@@ -2991,7 +2991,7 @@ export const eventData = [
         "Time": "10:00 am",
         "venue": "Shambhavi",
         "branch": "BTE",
-        "image": "/public/events/BT/VocalTwist.png",
+        "image": "/events/BT/VocalTwist.png",
         "smallDesc": "Can you mesmerize those who listen to you? ",
         "fullDesc": "Do you have what it takes to move the hearts of the masses with your voice? Then it is time to bring out your inner Nightingale.",
         // "roundDetails": {
@@ -3676,7 +3676,7 @@ export const eventData = [
         "Time": "10:00 am",
         "venue": "CSL03, 04",
         "branch": "CSE",
-        "image": "/public/events/CS/WebPiracy.jpg",
+        "image": "/events/CS/WebPiracy.jpg",
         "smallDesc": " Ever looked at a corporate website and t houg ht \"I could have done that\".Well, here's your chance to prove that in our all- new web piracy web competition.",
         "fullDesc": " Ever looked at a corporate website and t houg ht \"I could have done that\".Well, here's your chance to prove that in our all- new web piracy web competition.",
         "roundDetails": {
@@ -4847,7 +4847,7 @@ export const eventData = [
         "Time": "9:30 am",
         "venue": "ISL 01 ISL 04, ISL 08, CSL 06, CSL 07",
         "branch": "ISE",
-        "image": "",
+        "image": "/events/ISE/CodeStudio.jpg",
         "smallDesc": "Are you a coding wizard? Or a person who loves to code? If yes, then Code Studio is a perfect platform for you",
         "fullDesc": ". Consisting of four rounds in total, each round is going to be bigger and better. Grab this opportunity and test your coding skills with Code St ud io.",
         "roundDetails": {
@@ -5140,7 +5140,7 @@ export const eventData = [
         "Time": "2:30 pm",
         "venue": "LH 501, 502, 503",
         "branch": "ISE",
-        "image": "/events/",
+        "image": "/events/IS/WEBBED.jpg",
         "smallDesc": "A perfect opportunity for all the Web development enthusiasts !! Do you have an aptitude for designing and coding? ",
         "fullDesc": "Building a website is easy, designing one takes skill. A perfect opportunity for all the Web development enthusiasts !! Do you have an aptitude for designing and coding? Then \"Webbed\" is perfectly suited to test your designing and  coding skills. Co nsisting  of three rounds,  put  your  team of t wo to the ultimate test.",
         "roundDetails": {
