@@ -157,7 +157,7 @@ export const eventData = [
         "Time": "9 am",
         "venue": "Sadananda ground",
         "branch": "ISE",
-        "image": "/events/IS/CodeStudio.jpg",
+        "image": "/events/IS/DESAFIO.jpeg",
         "smallDesc": "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? ",
         "fullDesc": "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? Desafio is an event which checks your FITNESS level by having various rounds.The tasks would not be mentioned precisely as it would be best if kept a surprise",
         "roundDetails": {
@@ -182,7 +182,7 @@ export const eventData = [
         "Time": "9 am",
         "venue": "Sadananda ground",
         "branch": "ISE",
-        "image": "/events/IS/CodeStudio.jpg",
+        "image": "/events/IS/DESAFIO.jpeg",
         "smallDesc": "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? ",
         "fullDesc": "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? Desafio is an event which checks your FITNESS level by having various rounds.The tasks would not be mentioned precisely as it would be best if kept a surprise",
         "roundDetails": {
@@ -207,7 +207,7 @@ export const eventData = [
         "Time": "9 am",
         "venue": "Sadananda ground",
         "branch": "ISE",
-        "image": "/events/IS/CodeStudio.jpg",
+        "image": "/events/IS/DESAFIO.jpeg",
         "smallDesc": "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? ",
         "fullDesc": "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? Desafio is an event which checks your FITNESS level by having various rounds.The tasks would not be mentioned precisely as it would be best if kept a surprise",
         "roundDetails": {
@@ -1073,7 +1073,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "LH 202 - 208",
         "branch": "MECH",
-        "image": "/events/Mech/Madads.png",
+        "image": "/events/Mech/MISSIONIMPOSSIBLE.jpeg",
         "smallDesc": "A mega event, an alter-ego of a treasure hunt where you need to use your brains, wit, and wisdom. ",
         "fullDesc": "We bring  to  you-  MISSION IMPOSSIBLE b eca use the t reasure is not easy to FIND.sn't life a collection of weird quizzes with no answers  to  half  the questions?",
         "roundDetails": {
@@ -1124,7 +1124,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "LH 202 -208",
         "branch": "MECH",
-        "image": "/events/Mech/Madads.png",
+        "image": "/events/Mech/MISSIONIMPOSSIBLE.jpeg",
         "smallDesc": "A mega event, an alter-ego of a treasure hunt where you need to use your brains, wit, and wisdom. ",
         "fullDesc": "We bring  to  you-  MISSION IMPOSSIBLE b eca use the t reasure is not easy to FIND.sn't life a collection of weird quizzes with no answers  to  half  the questions?",
         "roundDetails": {
@@ -1176,7 +1176,7 @@ export const eventData = [
         "Time": "9:00 am",
         "venue": "Infront Co-Op Store",
         "branch": "MECH",
-        "image": "/events/EC/LAZZRENA.png",
+        "image": "/events/EC/MISSIONIMPOSSIBLE.jpeg",
         "smallDesc": "A mega event, an alter-ego of a treasure hunt where you need to use your brains, wit, and wisdom. ",
         "fullDesc": "We bring  to  you-  MISSION IMPOSSIBLE b eca use the t reasure is not easy to FIND.sn't life a collection of weird quizzes with no answers  to  half  the questions?",
         "roundDetails": {
