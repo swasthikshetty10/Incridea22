@@ -22,7 +22,7 @@ const Member = ({ name, role, src, mob }) => {
               {/* {role} */}
             </h3>
             <div className="flex justify-center gap-3 mb-2">
-              <FaInstagram className="text-white cursor cursor-pointer   transition-all ease-out hover:-translate-x-1 hover:text-lg hover:-translate-y-1 " />
+              <FaInstagram className="text-white cursor cursor-pointer   transition-all ease-out hover:-translate-x-1 hover:text-2xl hover:-translate-y-1 " />
               <a href="mailto:ayusmann23@gmail.com ">
               <HiOutlineMail className="text-white cursor-pointer  transition-all ease-in-out hover:text-2xl  hover:-translate-y-1   " />
               </a>

@@ -3,7 +3,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import { BsTelephoneOutbound } from "react-icons/bs";
 import { Fade } from "react-awesome-reveal";
 
-const Member = ({ name, role, src, mob }) => {
+const Member = ({ name, role, src, mob, email }) => {
 
 
 
@@ -23,7 +23,7 @@ const Member = ({ name, role, src, mob }) => {
             </h3>
             <div className="flex justify-center gap-3 mb-2">
               {/* <FaInstagram className="text-white cursor cursor-pointer   transition ease-in-out hover:-translate-x-1 hover:text-lg hover:-translate-y-1 " /> */}
-              <a href="mailto:ayusmann23@gmail.com ">
+              <a href={`mailto:${email}` }>
               <HiOutlineMail className="text-white cursor-pointer   transition-all  ease-out  hover:text-2xl   " />
               </a>
               <a href={`tel:${mob}`}>
