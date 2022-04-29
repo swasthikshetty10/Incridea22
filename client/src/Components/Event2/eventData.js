@@ -6053,9 +6053,7 @@ export const eventData = [
     {
         "name": "VIBE",
         "round": "1",
-        //"day": "-",
-        //"Time": "-",
-        // "venue": "SAC OAT",
+        "venue": "Online",
         "branch": "CORE",
         "image": "/events/CORE/vibe.png",
         "smallDesc": "The battleground is set, the lights are lit,andit's time for all you dancers to fire up the dancetloor with your moves to the unpredictable tunes.",

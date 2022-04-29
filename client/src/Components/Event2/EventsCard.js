@@ -28,13 +28,13 @@ function EventsCard({ name, src, desc, time, venue, day, branch, round, data }) 
 
                                     <div className={`text-center text-gray-400`}>
                                         <div>
-                                        <span className={`inline-flex overflow-wrap mr-2   ${`${venue}`.length > 25 ?
+                                        <span className={`inline-flex font-bold overflow-wrap mr-2   ${`${venue}`.length > 25 ?
                                        (`${venue}`.length > 32 ? 'text-xs' : "text-sm")
                                         : 'text-md' }`  }>{venue}</span>
                                         </div>
                                         <div className='flex justify-center text-sm '>
-                                        <span className='inline-flex overflow-wrap  pr-2'>{time}</span> |
-                                        <span className='inline-flex overflow-wrap  pl-2'>Day-{day}</span>
+                                        <span className='inline-flex overflow-wrap  pr-2'>{time}</span> <span className='font-extrabold text-[#9d7643]'>|</span>
+                                        <span className='inline-flex overflow-wrap  pl-2'>Day {day}</span>
                                         </div>
                                     </div>
                                     <div className='text-center  text-sm text-gray-500'>
