@@ -38,7 +38,7 @@ function Modal({ data, img, closeModal }) {
                         <div className="overflow-y-scroll sm:overflow-y-auto  h-[80vh] sm:h-auto p-1 sm:flex sm:flex-col md:flex md:flex-row lg:flex lg:flex-row xl:flex xl:flex-row">
 
                             <div className="p-3 flex flex-col justify-around space-y-3 sm:min-w-max">
-                                <img src={img} class=" hidden md:block sm:w-32 md:w-48 lg:w-60" />
+                                <img src={img} class=" block sm:w-32 md:w-48 lg:w-60" />
                                 <div>
 
                                     <div className=" text-gray-100"> <GoLocation className="inline mr-2" />Venue - {data.venue}</div>

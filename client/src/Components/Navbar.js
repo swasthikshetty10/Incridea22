@@ -24,7 +24,7 @@ function Navbar({ tab }) {
       {/* <nav className="bg-[#000] px-2 sm:px-4 py-6 font-nav" style ={{"fontFamily":"CinzelDecorative-Bold"}} >
         <div className="container text-center flex flex-wrap justify-between items-center mx-auto"> */}
 
-      <nav className="bg-[#000] tracking-wider px-2 md:px-4 py-6 font-nav  min-w-fit ">
+      <nav className="bg-[#000] tracking-wider px-2 md:px-4 py-1 font-nav  min-w-fit ">
         <div className="container text-center flex flex-wrap justify-between items-center  content-center mx-auto">
           <Link to="/" className="flex items-center">
             <img src={logo} className="mx-3 h-9 md:h-16" alt="Incridea Logo" />
@@ -97,9 +97,9 @@ function Navbar({ tab }) {
               </li>
               <li>
                 <Link
-                  to="/pron"
+                  to="/pronite"
                   className={`block py-2 pr-4 pl-3   text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
-                    tab === "pron" ? "text-[#9d7643]" : "text-[#EDEDED]"
+                    tab === "pronite" ? "text-[#9d7643]" : "text-[#EDEDED]"
                   } `}
                 >
                   pronite
