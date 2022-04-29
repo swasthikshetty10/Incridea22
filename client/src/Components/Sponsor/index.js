@@ -57,7 +57,7 @@ const Sponsor = () => {
             className="font-title  text-5xl md:text-6xl tracking-widest pb-4
            text-[#EDEDED]"
           >
-            OUR SPONSORS
+            SPONSORS
           </h1>
           <p className="text-[#9d7643] font-bold lg:mb-6 pt-1 pb-3 text-2xl font-body text-center">
             Big names backing an extraordinary fest

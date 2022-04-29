@@ -12,7 +12,7 @@ export const persons = [
   {
     name: "SHRIVIDYA",
     role: "CO-CORDINATOR",
-    img: "", email:"shrividya2k@gmail.com",   mob: "9663312695",
+    img: "/team/Shreevidya.jpg", email:"shrividya2k@gmail.com",   mob: "9663312695",
   },
   {
     name: "VIJETH ULLAL",

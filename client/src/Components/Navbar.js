@@ -24,7 +24,7 @@ function Navbar({ tab }) {
       {/* <nav className="bg-[#000] px-2 sm:px-4 py-6 font-nav" style ={{"fontFamily":"CinzelDecorative-Bold"}} >
         <div className="container text-center flex flex-wrap justify-between items-center mx-auto"> */}
 
-      <nav className="bg-[#000] tracking-wider px-2 md:px-4 py-1 font-nav  min-w-fit ">
+      <nav className="bg-[#000] tracking-wider px-2 md:px-4 py-6 font-nav  min-w-fit ">
         <div className="container text-center flex flex-wrap justify-between items-center  content-center mx-auto">
           <Link to="/" className="flex items-center">
             <img src={logo} className="mx-3 h-9 md:h-16" alt="Incridea Logo" />
@@ -35,7 +35,7 @@ function Navbar({ tab }) {
               data-collapse-toggle="mobile-menu-4"
               type="button"
               onClick={handleHamburger}
-              className={`  inline-flex items-center p-2 text-sm text-gray-500 rounded-lg  md:hidden hover:bg-gray-100 focus:outline-none`}
+              className={`  inline-flex items-center p-2 text-sm text-gray-500 rounded-lg  md:hidden transition-all ease-out duration-150 hover:scale-125 `}
               aria-controls="mobile-menu-4"
               aria-expanded="false"
             >
