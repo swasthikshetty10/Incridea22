@@ -19,6 +19,7 @@ const SponsorDetails = [
   },
   {
     name: "Paramvah Studios",
+    
     description: `Paramvah Studios aims to be a world class production house creating memorable films & characters using latest technologies & best creative talents. We are a production house, engaged in creating movie content and Paramvah Studios is more than just a name for us.`,
     image: paramvah,
     url: "https://www.paramvah.com/",
