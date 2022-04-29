@@ -25,7 +25,7 @@ const Team = () => {
             {persons.map((person, id) => {
               return (
                 
-                <Member id={id} name={person.name} role={person.role} mob={person.mob} src={src} />
+                <Member id={id} name={person.name} role={person.role} email={person.email} mob={person.mob} src={src} />
               );
             })}
           </div>

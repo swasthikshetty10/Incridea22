@@ -19,8 +19,8 @@ function Home() {
             <p className="text-gray-100 text-lg  text-justify" >An amalgamation of all forms of technical, literary and cultural activities Incridea is a celebration of fervour and talent. It is the national level techno-cultural fest of
               <a target="blank" className="  text-[#cd9b58] hover:text-red-500 text-base" href="https://nmamit.nitte.edu.in/"> NMAM Institute of Technology</a> , Nitte .
             </p>
-            <div className="cursor-pointer bg-white border-0 rounded-md px-6 py-2 w-fit font-bold  text-center " >
-              Registrations start on 29th April
+            <div className=" bg-none border-0 rounded-md text-white text-2xl py-2 w-fit font-bold  text-center " >
+              Registrations starts on 30th April
             </div>
           </div>
         </Slide>
