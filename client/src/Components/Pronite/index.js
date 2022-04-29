@@ -27,10 +27,10 @@ const inlineStyleTB = {
 function Pron() {
   return (
     <>
-      <Navbar tab='pron' />
+      <Navbar tab='pronite' />
       <div style={{ textAlign: 'center' }}>
 
-        <Parallax className='h-[100vh] mt-2 '  bgImage={require('./rd.jpg')} strength={-200} >
+        <Parallax className='h-[100vh] mt-2' bgImage={require('./rd.jpg')} bgImageStyle={{objectFit: 'cover'}} strength={-200} >
           <div style={{ height: 500}}>
             <div style={inlineStyleRD} className='text-white  text-7xl'>RAGHU DIXIT <br /><p className='py-2 text-2xl md:text-3xl font-body ' >sub oijsd here</p> </div>
 
@@ -39,7 +39,7 @@ function Pron() {
 
 
 
-        <Parallax className='h-[100vh] object-cover  '  bgImage={require('./tb.jpg')} strength={-200} >
+        <Parallax className='h-[100vh]'  bgImage={require('./tb.jpg')} bgImageStyle={{objectFit: 'cover'}} strength={-200} >
           <div style={{ height: 500 }}>
             <div style={inlineStyleTB} className='text-white font-body font-extrabold text-6xl  md:text-7xl'>THAIKKUDAM BRIDGE <br /><p className='py-2 text-2xl md:text-3xl font-normal ' >sub oijsd here</p> </div>
             

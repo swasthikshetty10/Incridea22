@@ -10,7 +10,6 @@ const ScrollTriggerProxy = () => {
   
   // first let's get instance of locomotive scroll
   const { scroll } = useLocomotiveScroll();
-  // console.log("scroll: "+ scroll);
 
   // Register scroll trigger plugin
   gsap.registerPlugin(ScrollTrigger);
@@ -18,20 +17,17 @@ const ScrollTriggerProxy = () => {
   useEffect(() => {
     if (scroll) {
       const element = scroll?.el; // locomotive scrolling element, in our case it's app (main)
-      // console.log(scroll?.el);
 
       scroll.on("scroll", ScrollTrigger.update); // on scroll of locomotive, update scrolltrigger
 
       //  let's use scroller proxy
       ScrollTrigger.scrollerProxy(element, {
         scrollTop(value) {
-          // console.log("inside scrollerproxy: "+value);
           return arguments.length
             ? scroll.scrollTo(value, 0, 0)
             : scroll.scroll.instance.scroll.y;
         }, // we don't have to define a scrollLeft because we're only scrolling vertically.
         getBoundingClientRect() {
-          // console.log("inside scrollerproxy: aaa");
           return {
             top: 0,
             left: 0,
