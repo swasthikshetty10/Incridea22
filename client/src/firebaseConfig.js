@@ -29,11 +29,6 @@ export const exportDb = db;
 
 const auth = getAuth(app);
 
-export async function loginDummyUser(email, password) {
-    await signInWithEmailAndPassword(auth, email, password);
-    console.log('logged in');
-}
-
 export async function getUserInfo(uid) {
     if (uid) {
         const participants = [];

@@ -14,6 +14,7 @@ import './styles.css';
 import InputField from './InputField';
 import Payment from '../Payments/Payment';
 import { AiOutlineLoading3Quarters } from "react-icons/ai"
+import { colleges } from '../../colleges';
 const SignUp = ({ signIn }) => {
   const [amt, SetAmt] = useState(150);
   const [valid, SetValid] = useState(false);
@@ -25,6 +26,8 @@ const SignUp = ({ signIn }) => {
   const successSpan = useRef()
   let initialValues = {
     mail: '',
+    otp: '',
+    college: colleges[0]
   };
 
   const validate = Yup.object().shape({
@@ -41,6 +44,7 @@ const SignUp = ({ signIn }) => {
     try {
       await axios.post('http://localhost:8080/auth/generateOtp', {
         email: values.mail,
+        collegeName: values.college
       });
       successSpan.current.innerHTML = `<p class="font-semibold text-green-600">Email sent!</p>`
       SetValid(true);
@@ -98,6 +102,7 @@ const SignUp = ({ signIn }) => {
                       const domain = document.getElementById('domain');
                       const selected = document.getElementById('selected');
                       const values = JSON.parse(selected.value);
+                      formik.setFieldValue('college', values.name);
                       if (!values.isNitte) {
                         domain.innerHTML = '';
                         SetAmt(250);
@@ -109,14 +114,13 @@ const SignUp = ({ signIn }) => {
                       }
                     }} //Edited on server
                     id='selected'
+                    name="college"
                   >
-                    <option value='{"name":"NMAMIT","isNitte":true}'>
-                      NMAMIT
-                    </option>
-                    <option value='{"name":"MITE","isNitte":false}'>
-                      MITE
-                    </option>
-                    <option value='{"name":"MIT","isNitte":false}'>MIT</option>
+                    {
+                      colleges.map(college => ([
+                        <option key={college} value={`{ "name": "${college}", "isNitte": ${college === "NMAM INSTITUTE OF TECHNOLOGY"} }`}>{college}</option>
+                      ]))
+                    }
                   </Select>
                   <Div>
                     <InputField disabled={valid} name='mail' type='text' placeholder='Email' />
@@ -125,7 +129,7 @@ const SignUp = ({ signIn }) => {
                   {!emailSent &&
 
 
-                    <Button type='submit' className={` inline-flex items-center justify-center gap-3  ${loading ? "opacity-90" : "opacity-100"}`} disabled={loading} >
+                    <Button onClick={clearMsg} type='submit' className={` inline-flex items-center justify-center gap-3  ${loading ? "opacity-90" : "opacity-100"}`} disabled={loading} >
                       {loading ? <> <AiOutlineLoading3Quarters className=" animate-spin text-lg " /> <span className=''>Sending Email...</span></> : 'Send Verification Email'}
 
 
@@ -137,7 +141,7 @@ const SignUp = ({ signIn }) => {
                           return;
                         formik.setFieldValue('otp', e.target.value);
                       }} name='otp' type='number' className='text-center' placeholder='OTP' />
-                      <Button className={` inline-flex items-center justify-center gap-3  ${loading ? "opacity-90" : "opacity-100"}`} disabled={loading}>
+                      <Button onClick={clearMsg} className={` inline-flex items-center justify-center gap-3  ${loading ? "opacity-90" : "opacity-100"}`} disabled={loading}>
                         {loading ? <> <AiOutlineLoading3Quarters className=" animate-spin text-lg " /> <span className=''>verifying</span></> : 'Verify'}
                       </Button>
                       <br />
@@ -148,6 +152,7 @@ const SignUp = ({ signIn }) => {
                   {
                     valid && !otpVerified && <>
                       <p>Having trouble? <button onClick={() => {
+                        clearMsg()
                         SetValid(false); setEmailSent(false)
                         clearMsg();
 
@@ -155,7 +160,7 @@ const SignUp = ({ signIn }) => {
 
                     </>
                   }
-                  {otpVerified && <Payment email={formik.values.mail} className="mt-1" type="button" />}
+                  {otpVerified && <Payment email={formik.values.mail} successSpan={successSpan} clearMsg={clearMsg} className="mt-1" type="button" />}
 
                 </SignInFormCustom>
               </SignUpContainer>

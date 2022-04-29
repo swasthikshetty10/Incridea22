@@ -9,50 +9,55 @@ function Payment(props) {
 	const [loading, setLoading] = useState(false)
 	const displayRazorpay = async (e) => {
 		e.preventDefault();
+		props.clearMsg()
 		setLoading(true)
-		const response = await axios.post('http://c847-2401-4900-4e5d-591f-b469-a94b-1431-a87e.ngrok.io/payments/razorpay')
-		const { data } = response
-		console.log(data);
+		try {
+			const response = await axios.post('http://localhost:8080/payments/createOrder', {
+				email: props.email
+			})
+			const { data } = response
+			const options = {
+				"key": "rzp_test_5e8G9YqQhDdr9I", // Change during production or use document.domain
+				"amount": data.amount.toString(),
+				"currency": data.currency,
+				"name": "Incridea Registration", //Change this stuff
+				"description": "Test Transaction",
+				"image": "https://www.nme.com/wp-content/uploads/2021/07/RickAstley2021.jpg",
+				"order_id": data.id,
+				"handler": async function (response) {
+					//TODO: EVERYTHING IN COMMENTS
+					//TODO: USE TIMEOUTS WITH AXIOS --> can client change??
+					const res = await axios.post('http://localhost:8080/auth/verifyPayment', {
+						email: props.email,
+						payment_id: response.razorpay_payment_id,
+						order_id: response.razorpay_order_id,
+						signature: response.razorpay_signature,
+					})
+					const callBackData = res.data
+					alert(callBackData) //for now
+					// if (data) {
+					// 	render register components
+					// } else {
+					// 	render successSpan useRef
+					// }
+					//OR use try catch??
+					//REGISTER HAPPENS AFTER THIS BUT HOW???
+				},
+				"prefill": {
+					"email": `${props.email}`,
+				},
+				"theme": {
+					"color": "#3399cc"
+				}
+			};
 
-		console.log(props.email);
-		const options = {
-			"key": "rzp_test_tyyfdnDTmx6oxW", // Change during production or use document.domain
-			"amount": data.amount.toString(),
-			"currency": data.currency,
-			"name": "Inridemo", //Change this stuff
-			"description": "Test Transaction",
-			"image": "https://www.nme.com/wp-content/uploads/2021/07/RickAstley2021.jpg",
-			"order_id": data.id,
-			"handler": async function (response) {
-				//TODO: EVERYTHING IN COMMENTS
-				//TODO: USE TIMEOUTS WITH AXIOS --> can client change??
-				const res = await axios.post('http://localhost:8080/auth/verifyPayment', {
-					email: props.email,
-					payment_id: response.razorpay_payment_id,
-					order_id: response.razorpay_order_id,
-					signature: response.razorpay_signature,
-					//college name
-				})
-				const { data } = res
-				alert(data) //for now
-				// if (data) {
-				// 	render register components
-				// } else {
-				// 	render successSpan useRef
-				// }
-				//OR use try catch??
-				//REGISTER HAPPENS AFTER THIS BUT HOW???
-			},
-			"prefill": {
-				"email": `${props.email}`,
-			},
-			"theme": {
-				"color": "#3399cc"
-			}
-		};
+			const paymentObject = new window.Razorpay(options);
+			paymentObject.open()
 
-		const paymentObject = new window.Razorpay(options);
-		paymentObject.open()
+		} catch (e) {
+			console.dir(e);
+			props.successSpan.current.innerHTML = `<p class="font-semibold text-red-600">${e.response.data || e || "Error"}</p>`
+		}
 		setLoading(false)
 	}
 	return (
