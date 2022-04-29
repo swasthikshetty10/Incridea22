@@ -7,15 +7,16 @@ const EventsCard = ({
   SponsorTitle,
   SponsorDesc,
   SponsorWebsiteLink,
+  rev
 }) => {
   return (
     <>
       {/* {console.log(ImageSrc, SponsorTitle, SponsorDesc, SponsorWebsiteLink)} */}
-      <div className="event__card py-4 lg:p-8 bg-[#1d1d1d] my-5">
-        <div className="event__img__wrapper w-[50%] ">
-          <img className="event__img" src={ImageSrc} alt="" />
+      <div className={`text-center px-3 py-4 md:p-5 h-auto  md:h-[50vh] w-[80vw] m-auto flex flex-col  md:flex-row ${rev ? "flex-col md:flex-row-reverse" : ""} gap-3 justify-center md:justify-evenly items-center text-white py-4 lg:p-8 bg-[#1d1d1d] my-5`}>
+        <div className="event__img__wrapper w-full  md:w-[50%] ">
+          <img className="event__img  " src={ImageSrc} alt="" />
         </div>
-        <div className="event__content_wrapper py-0 px-3 mx-auto mt-4 sm:py-2 gap-4 ml-8">
+        <div className="event__content_wrapper  py-0  mx-auto my-3 sm:py-2 gap-4 px-0 md:px-8">
           <h5 className="event__heading text-3xl font-subheading">
             {SponsorTitle}
           </h5>

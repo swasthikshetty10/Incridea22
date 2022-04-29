@@ -17,7 +17,7 @@
 
 
 .event__card:nth-child(even) {
-  flex-direction: row-reverse;
+  /* flex-direction: row; */
 }
 
 .event__img {
@@ -55,6 +55,6 @@
   }
 
   .event__card:nth-child(even) {
-    flex-direction: column;
+    /* flex-direction: column; */
   }
 }
