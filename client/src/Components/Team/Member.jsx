@@ -24,10 +24,10 @@ const Member = ({ name, role, src, mob, email }) => {
             <div className="flex justify-center gap-3 mb-2">
               {/* <FaInstagram className="text-white cursor cursor-pointer   transition ease-in-out hover:-translate-x-1 hover:text-lg hover:-translate-y-1 " /> */}
               <a href={`mailto:${email}` }>
-              <HiOutlineMail className="text-white cursor-pointer   transition-all  ease-out  hover:text-2xl   " />
+              <HiOutlineMail className=" cursor-pointer text-[#9d7643]  transition-all  ease-out text-2xl hover:text-3xl   " />
               </a>
               <a href={`tel:${mob}`}>
-              <BsTelephoneOutbound className="  text-white cursor-pointer  transition-all  ease-out  hover:text-2xl  " />
+              <BsTelephoneOutbound className="   cursor-pointer text-[#9d7643] transition-all  ease-out text-2xl hover:text-3xl  " />
               </a>
             </div>
           </div>

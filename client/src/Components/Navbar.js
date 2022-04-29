@@ -112,7 +112,7 @@ function Navbar({ tab }) {
                     tab === "pron" ? "text-[#9d7643]" : "text-[#EDEDED]"
                   } `}
                 >
-                  proNight
+                  proNite
                 </Link>
               </li>
               <li>

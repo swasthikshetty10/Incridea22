@@ -17,7 +17,7 @@ const Team = () => {
         <h1 className="leading-[2.5rem]  text-5xl text-center md:text-6xl font-title pb-0 text-white sm:ml-4 p-4 sm:p-12 tracking-widest  bg-[#000]">
           TEAM
         </h1>
-        <p className="text-white lg:mb-6 p-3 text-2xl font-body text-center">
+        <p className="text-[#9d7643] font-bold lg:mb-6 p-3 text-2xl font-body text-center">
           Meet the people behind the scenes
         </p>
         <Fade duration={1000} delay={100} >

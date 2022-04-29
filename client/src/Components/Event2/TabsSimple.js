@@ -14,7 +14,7 @@ export default function TabsSimple({ branch, setBranch }) {
 
 
 
-      <div className="text-sm font-medium text-center text-gray-500  dark:border-gray-700">
+      <div className="text-sm pb-8 font-medium text-center text-gray-500  dark:border-gray-700">
         <ul className="flex flex-wrap justify-center -mb-px">
           {
             ["ALL", "CORE", "BTE", "CIVIL", "CSE",  "ECE", "EEE", "MECH", "ISE"].map((ele, i) =>
