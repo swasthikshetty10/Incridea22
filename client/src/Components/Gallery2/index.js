@@ -21,7 +21,6 @@ import Topbutton from "../Topbutton";
 
 function Gallery2() {
   const containerRef = useRef(null);
-  console.log("containerRef: "+containerRef);
   const topref = useRef()
   const [loaded, setLoaded] = useState(false);
 
@@ -30,13 +29,12 @@ function Gallery2() {
       setLoaded(true);
     }, 3000);
   }, [])
-  
 
   return (
     <>
    
       <GlobalStyles />
-      {/* <Topbutton/> */}
+      <Topbutton showBtn={loaded} />
       {/* <span id="top"></span> */}
       {/* <Topbutton topref={topref}/> */}
       <ThemeProvider theme={dark} >
