@@ -59,7 +59,7 @@ const Sponsor = () => {
           >
             SPONSORS
           </h1>
-          <p className="text-[#9d7643] font-bold lg:mb-6 pt-1 pb-3 text-2xl font-body text-center">
+          <p className="text-[#9d7643]  lg:mb-6 pt-1 pb-3 text-2xl font-body text-center">
             Big names backing an extraordinary fest
           </p>
           <div className="gap-5 ">
