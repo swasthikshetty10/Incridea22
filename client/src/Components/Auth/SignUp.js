@@ -15,6 +15,7 @@ import InputField from './InputField';
 import Payment from '../Payments/Payment';
 import { AiOutlineLoading3Quarters } from "react-icons/ai"
 import { colleges } from '../../colleges';
+import { useNavigate } from 'react-router-dom';
 const SignUp = ({ signIn }) => {
   const [amt, SetAmt] = useState(150);
   const [valid, SetValid] = useState(false);
@@ -24,6 +25,7 @@ const SignUp = ({ signIn }) => {
   const [isNmamit, setNmamit] = useState(true);
   const [loading, setLoading] = useState(false);
   const successSpan = useRef()
+  const navigate = useNavigate()
   let initialValues = {
     mail: '',
     otp: '',

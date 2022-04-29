@@ -17,6 +17,7 @@ import UserInput from './Components/Auth/UserInput';
 import './index.css';
 import { ChakraProvider, extendTheme } from '@chakra-ui/react';
 import Footer from './Components/Footer';
+import Register from "./Components/Auth/Register";
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
           <Route path='/userinput' element={<UserInput />} />
           <Route path='/forgot' element={<ForgotPass />} />
           <Route exact path='/otp' element={<OtpFiled />} />
+          <Route exact path='/register/:email' element={<Register />} />
         </Routes>
         <Footer />
       </div>
