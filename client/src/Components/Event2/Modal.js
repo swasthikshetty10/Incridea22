@@ -15,7 +15,6 @@ import src from '../../Images/navrasa.png'
 
 
 function Modal({ data, img, closeModal }) {
-    console.log(data)
     return (
         <Zoom as="div" duration={500} className='flex flex-col h-screen justify-center items-center fixed top-0 right-0 left-0 z-50 w-full'>
             <div id="extralarge-modal" tabindex="-1" className=" overflow-y-hidden  md:inset-0  flex items-center justify-center justify-items-center overflow-x-hidden  ">

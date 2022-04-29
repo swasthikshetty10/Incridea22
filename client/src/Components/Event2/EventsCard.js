@@ -1,10 +1,7 @@
 import React, { useState } from 'react'
-import { BsFillCalendar3RangeFill, BsFillArrowRightCircleFill } from "react-icons/bs";
+import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import Modal from '../Event2/Modal';
-import { FaUsers } from "react-icons/fa";
-import { GoLocation } from "react-icons/go";
-import { BiTimeFive } from "react-icons/bi";
-import { Fade , Zoom, Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 function EventsCard({ name, src, desc, time, venue, day, branch, round, data }) {
 
@@ -12,13 +9,13 @@ function EventsCard({ name, src, desc, time, venue, day, branch, round, data }) 
     
     return (
         <>
-             <Fade duration={1000} delay={100} >
+             <Fade duration={500} >
                 <div className="relative flex  flex-col mx-0 justify-center rounded-2xl shadow-md hover:shadow-lg  cursor-pointer transition-all ease-out delay-100 hover:-translate-y-1 hover:scale-105 duration-300    "  >
 
                     <div className="relative flex  flex-col mx-0 justify-center rounded-2xl shadow-md hover:shadow-lg  cursor-pointer transition-all ease-out delay-100 hover:-translate-y-1 hover:scale-105 duration-300    " >
 
                         <div className="mx-auto flex w-60 h-72 flex-col pb-8 justify-start bg-[#1d1d1d]  rounded-none shadow-xl  ">
-                            <img className="aspect-video rounded-t-none object-cover object-center  " src={src} />
+                            <img className="aspect-video rounded-t-none object-cover object-center" alt='Event Poster' src={src} />
                             <div className="p-2 flex flex-col justify-start gap-1 h-full  ">
                                 <div className='text-center pb-2'>
                                     <h1 className={`${name.length > 17?  "text-xl" : "text-2xl "} text-center font-medium text-gray-100 `}>{name}</h1>

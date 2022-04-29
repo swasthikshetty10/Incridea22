@@ -137,10 +137,10 @@ nav a {
 }
 @keyframes foglayer_01_opacity {
   0% { opacity: .1; }
-  22% { opacity: .5; }
-  40% { opacity: .28; }
-  58% { opacity: .4; }
-  80% { opacity: .16; }
+  22% { opacity: .6; }
+  40% { opacity: .38; }
+  58% { opacity: .5; }
+  80% { opacity: .26; }
   100% { opacity: .1; }
 }
 /* ---------- Keyframe Layer 2 ---------- */

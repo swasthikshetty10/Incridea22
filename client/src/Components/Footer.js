@@ -8,27 +8,28 @@ function Footer() {
     <>
       <footer className="p-4 gap-2 bg-[#000] flex flex-col md:flex-row flex-wrap  justify-center items-center md:justify-between md:p-6">
         <div>
-          <img className="h-12" src={logo} alt="" />
+          <img className="h-12" src={logo} alt="logo" />
         </div>
-        <div className="text-sm text-center items-center justify-center text-gray-200">
-          <Link to="/techteam"  className="transition-all ease-out delay-75 text-[#cd9b58] hover:text-white text-base">
-            Made with ♥ by Technical Team, Incridea
-            <br />
-          </Link>
+        <div className="text-sm text-center text-gray-200">
+          <p className="mb-1">
+            <Link to="/techteam"  className="transition-all ease-out delay-75 text-[#cd9b58] hover:text-white text-base">
+              Made with ♥ by the Incridea Technical Team
+            </Link>
+          </p>
           © Incridea 2022
         </div>
         <div className="flex mx-3 gap-4">
           <a
             href="https://instagram.com/incridea?igshid=YmMyMTA2M2Y="
-            className="place-items-center  "
+            className="place-items-center text-white text-xl"
           >
-            <FaInstagram className="text-white h-8 hover:text-[#9d7643]" />
+            <FaInstagram className="h-8 hover:text-[#c32aa3]" />
           </a>
           <a
             href="https://www.youtube.com/channel/UCjvGyATGpvX5dsfIUwEOt1g"
-            className="place-items-center  "
+            className="place-items-center text-white  text-xl "
           >
-            <FaYoutube className="text-white h-8 hover:text-[#9d7643]" />
+            <FaYoutube className="h-8 hover:text-[#e62117]" />
           </a>
         </div>
         {/* <ul className="flex flex-wrap  items-center mt-3 justify-center text-sm text-gray-500 dark:text-gray-400 sm:mt-0">

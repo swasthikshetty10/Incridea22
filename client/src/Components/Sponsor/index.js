@@ -6,7 +6,7 @@ import redfm from "../../Images/Sponsor/redfm.png";
 import lifestyle from "../../Images/Sponsor/lifestyle.png";
 import dlithe from "../../Images/Sponsor/dlithe.png";
 import paramvah from "../../Images/Sponsor/paramvah.jpg";
-import { Fade , Zoom, Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 
 const SponsorDetails = [
@@ -50,7 +50,6 @@ const SponsorDetails = [
 const Sponsor = () => {
   return (
     <>
-      {console.log(SponsorDetails)}
       <Navbar tab="sponsors" />
       <div className="bg-black sm:p-4 lg:p-8">
         <div className="text-center gap-5 pt-2">
@@ -79,7 +78,6 @@ const Sponsor = () => {
           </div>
         </div>
       </div>
-      {/* {console.log(SponsorDetails)} */}
     </>
   );
 };

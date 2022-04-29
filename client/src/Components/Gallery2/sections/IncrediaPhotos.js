@@ -151,7 +151,6 @@ const IncrediaPhotos = ({id, elementnumber=1, title}) => {
   useLayoutEffect(() => {
     let element = ref.current;
 
-    // console.log("Incredia: " +element);
 
     let scrollingElement = horizontalRef.current;
 
@@ -159,12 +158,9 @@ const IncrediaPhotos = ({id, elementnumber=1, title}) => {
     let t1 =new gsap.timeline();
 
     //use this to calculate the total actual height of the previous element
-    // console.log(scrollingElement.offsetWidth);
 
-    console.log("t1: "+t1);
 
     setTimeout(() => {
-      // console.log("Incredia: " +element);
       t1.to(element, {
         scrollTrigger: {
           trigger: element,
