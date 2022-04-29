@@ -11,15 +11,14 @@ function Home() {
       <Fade duration={1500}>
         <Navbar tab="home" />
       </Fade>
-
-      <div className="flex py-5 items-center justify-center flex-col-reverse md:flex-row ">
+      <div className="flex py-5 items-center justify-center flex-col-reverse md:flex-row tracking-wide" style={{ fontFamily: "CinzelDecorative-Bold" }}>
         <Slide direction="left" duration={1000}>
-          <div className="flex gap-3 px-5  flex-col">
+          <div className="flex gap-3 px-5  flex-col" >
             <img src={higher} className=" " alt="" />
             <p className="text-gray-100 text-lg  text-justify" >An amalgamation of all forms of technical, literary and cultural activities Incridea is a celebration of fervour and talent. It is the national level techno-cultural fest of
               <a target="blank" className=" underline underline-offset-4 hover:text-red-500 text-base" href="https://nmamit.nitte.edu.in/"> NMAM Institute of Technology</a> , Nitte .
             </p>
-            <div className="cursor-pointer bg-white border-0 rounded-md px-6 py-2 w-fit font-bold  text-center " >
+            <div className="select-none bg-white border-0 hover:bg-opacity-100  bg-opacity-10 text-white px-6 py-2 w-fit font-bold  text-center " >
               Registrations start on 29th April
             </div>
           </div>
@@ -31,9 +30,7 @@ function Home() {
           </div>
         </Slide>
       </div>
-
       <Slide direction="up">
-
         <div className="flex justify-center text-center items-center py-5" style={{ fontFamily: "CinzelDecorative-Bold" }}>
           <div className="flex flex-col items-center justify-center">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl p-3 font-semibold text-[#9d7643]">Countdown Has Begun</h2>
@@ -41,8 +38,6 @@ function Home() {
           </div>
         </div>
       </Slide>
-
-
     </>
   );
 }

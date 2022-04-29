@@ -11,15 +11,10 @@ import { IoIosArrowBack } from "react-icons/io";
 import { BiTimeFive } from "react-icons/bi";
 import { HiUserGroup } from "react-icons/hi";
 import { Zoom } from "react-awesome-reveal"
-
-
 import src from '../../Images/navrasa.png'
-
 function Modal({ data, closeModal }) {
     console.log(data)
-
     return (
-
         <Zoom as="div" duration={500} className='flex flex-col h-screen justify-center items-center fixed top-0 right-0 left-0 z-50 w-full'>
             <div id="extralarge-modal" tabindex="-1" className=" overflow-y-hidden  md:inset-0  flex items-center justify-center justify-items-center overflow-x-hidden  ">
                 <div className="relative p-4 w-full max-w-7xl h-full md:h-auto backdrop-lg rounded-lg shadow-lg  border-0  " >
@@ -34,7 +29,6 @@ function Modal({ data, closeModal }) {
                                 {data.round && <p className='text-sm text-gray-200'>Round {data.round}</p>}
                             </div>
                             <button type="button" className="text-gray-100 bg-transparent hover:bg-red-200 hover:text-gray-100 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center " data-modal-toggle="extralarge-modal" onClick={() => { closeModal(false) }} >
-
                                 {/* <ImCross /> */}
                                 <IoIosArrowBack className="inline mr-0" /> Back
                             </button>
@@ -66,8 +60,6 @@ function Modal({ data, closeModal }) {
                                         )}
                                     </div>
                                 </div>
-
-
                             </div>
                             <div className="p-3  space-y-6  sm:overflow-y-scroll  sm:h-[75vh]">
                                 <div className="">
@@ -78,16 +70,13 @@ function Modal({ data, closeModal }) {
 
                                     </p>
                                 </div>
-
                                 {
                                     data.rules && <div className="">
-
                                         <h1 className="text-gray-100/100 text-4xl font-bold py-3">Rules</h1>
                                         <p className="  text-base leading-relaxed text-gray-100 ">
                                             <ol className=" list-decimal list-inside">
                                                 {
                                                     data.rules.map((value, index) =>
-
                                                         <li key={index}>{value}</li>
                                                     )
                                                 }
@@ -96,7 +85,6 @@ function Modal({ data, closeModal }) {
 
                                     </div>
                                 }
-
                                 <div className="">
                                     {
 
