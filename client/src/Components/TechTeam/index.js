@@ -13,9 +13,9 @@ const TechTeam = () => {
 
       <div className="bg-[#000] ">
         <h1 className="leading-[2.5rem]  text-5xl text-center md:text-6xl font-title pb-0 text-white sm:ml-4 p-4 sm:p-12 tracking-widest  bg-[#000]">
-          Tech TEAM (Web)
+          TECHNICAL TEAM
         </h1>
-        <p className="text-white lg:mb-6 p-3 text-2xl font-body text-center">
+        <p className="text-[#9d7643] lg:mb-6 p-3 text-2xl font-body text-center">
           Meet the people behind the Website
         </p>
         <Fade duration={1000} delay={100} >
@@ -23,7 +23,7 @@ const TechTeam = () => {
             {persons.map((person, id) => {
               return (
                 
-                <Member id={id} name={person.name}  mob={person.mob} src={person.img} />
+                <Member id={id} name={person.name} role={person.role} github={person.github} linkedin={person.linkedin}  mob={person.mob} src={person.img} />
               );
             })}
           </div>

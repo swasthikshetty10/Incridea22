@@ -97,6 +97,16 @@ function Navbar({ tab }) {
               </li>
               <li>
                 <Link
+                  to="/pron"
+                  className={`block py-2 pr-4 pl-3   text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
+                    tab === "pron" ? "text-[#9d7643]" : "text-[#EDEDED]"
+                  } `}
+                >
+                  pronite
+                </Link>
+              </li>
+              <li>
+                <Link
                   to="/gallery"
                   className={`block py-2 pr-4 pl-3   text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
                     tab === "gallery" ? "text-[#9d7643]" : "text-[#EDEDED]"
@@ -105,16 +115,7 @@ function Navbar({ tab }) {
                   gallery
                 </Link>
               </li>
-              <li>
-                <Link
-                  to="/pron"
-                  className={`block py-2 pr-4 pl-3   text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${
-                    tab === "pron" ? "text-[#9d7643]" : "text-[#EDEDED]"
-                  } `}
-                >
-                  proNite
-                </Link>
-              </li>
+              
               <li>
                 <Link
                   to="/sponsors"
