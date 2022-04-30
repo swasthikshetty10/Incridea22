@@ -41,7 +41,7 @@ export const persons = [
   {
     name: "Dhanish S Suvarna",
     role: "Back-End Development",
-    img: "/techteam/bharath.jpg", 
+    img: "/techteam/hacker.jpg", 
     mob: "8073445263",
     github: "https://github.com/dhanishssuvarna",
     linkedin: "https://www.linkedin.com/in/dhanishssuvarna/",  
@@ -50,7 +50,7 @@ export const persons = [
   {
     name: "Thanmay Das",
     role: "Front-End Development",
-    img: "/techteam/bharath.jpg", 
+    img: "/techteam/hacker.jpg", 
     mob: "8431439127",
     github: "https://github.com/tAnboyy",
     linkedin: "https://www.linkedin.com/in/thanmay-m-das-676240193",
@@ -60,7 +60,7 @@ export const persons = [
   {
     name: "Sonika Shetty",
     role: "Front-End Development",
-    img: "/techteam/bharath.jpg", 
+    img: "/techteam/hacker.jpg", 
     mob: "#",
     github: "https://github.com/Rubix64",
     linkedin: "https://www.linkedin.com/in/sonika-shetty-522691212",  
@@ -69,7 +69,7 @@ export const persons = [
   {
     name: "Shifali U",
     role: "Front-End Development",
-    img: "/techteam/bharath.jpg", 
+    img: "/techteam/hacker.jpg", 
     mob: "#",
     github: "https://github.com/ushifali",
     linkedin: "https://www.linkedin.com/in/thanmay-m-das-676240193",  
