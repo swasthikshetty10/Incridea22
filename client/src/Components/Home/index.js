@@ -4,7 +4,7 @@ import higher from "../../Images/home/higher.png"
 import avatar from "../../Images/home/avatar.png"
 import Counter from "./Counter";
 import { Slide, Fade } from 'react-awesome-reveal'
-import {AiOutlineDownload} from 'react-icons/ai'
+import { AiOutlineDownload } from 'react-icons/ai'
 import schedule from '../../Assets/schedule.xlsx'
 import rulebook from '../../Assets/rulebook.pdf'
 // import cloud from './cloud1.png'
@@ -29,17 +29,17 @@ function Home() {
         </Fade>
         <div className=" overflow-hidden  relative  flex py-5 items-center justify-center flex-col-reverse md:flex-row tracking-wide" style={{ fontFamily: "CinzelDecorative-Bold" }}>
           {/* Fog divs */}
-          <div id="foglayer_01" class="fog">
-            <div class="image01"></div>
-            <div class="image02"></div>
+          <div id="foglayer_01" className="fog">
+            <div className="image01"></div>
+            <div className="image02"></div>
           </div>
-          <div id="foglayer_02" class="fog">
-            <div class="image01"></div>
-            <div class="image02"></div>
+          <div id="foglayer_02" className="fog">
+            <div className="image01"></div>
+            <div className="image02"></div>
           </div>
-          <div id="foglayer_03" class="fog">
-            <div class="image01"></div>
-            <div class="image02"></div>
+          <div id="foglayer_03" className="fog">
+            <div className="image01"></div>
+            <div className="image02"></div>
           </div>
           <Slide direction="left" duration={1000}>
             <div className="flex gap-3 px-5 flex-col" >
@@ -88,18 +88,21 @@ function Home() {
       </div>
       <div direction="up" delay={500}>
         <div style={{ fontFamily: "CinzelDecorative-Bold" }} className=" p-10 bg-opacity-20 backdrop-blur-lg text-white  bg-gray-900 flex flex-col-reverse gap-10 md:flex-row-reverse justify-center items-center">
-            <a href={rulebook} download={'Incridea 22 Rulebook.pdf'} target="_blank" rel="noreferrer" className="px-5 py-3 inline-flex items-center gap-2 font-bold text-[#9d7643] transition-colors ease-out transition-duration-50 text-xl hover:bg-[#9d7643] hover:text-white border-[#9d7643] border-2">
+          <a href={rulebook} download={'Incridea 22 Rulebook.pdf'} target="_blank" rel="noreferrer" className="px-5 py-3 inline-flex items-center gap-2 font-bold text-[#9d7643] transition-colors ease-out transition-duration-50 text-xl hover:bg-[#9d7643] hover:text-white border-[#9d7643] border-2">
             Download Rulebook <AiOutlineDownload className="text-2xl" />
-            </a>
-            <a href={schedule} download={"Incridea 22 Schedule.xlsx"} target="_blank" rel="noreferrer" className="px-5 py-3 inline-flex items-center gap-2 font-bold text-[#9d7643] transition-colors ease-in transition-duration-50 text-xl hover:bg-[#9d7643] hover:text-white border-[#9d7643] border-2">
-              Download Schedule <AiOutlineDownload className="text-2xl" />
-            </a>
+          </a>
+          <a href={schedule} download={"Incridea 22 Schedule.xlsx"} target="_blank" rel="noreferrer" className="px-5 py-3 inline-flex items-center gap-2 font-bold text-[#9d7643] transition-colors ease-in transition-duration-50 text-xl hover:bg-[#9d7643] hover:text-white border-[#9d7643] border-2">
+            Download Schedule <AiOutlineDownload className="text-2xl" />
+          </a>
           {/* <div className="">
             <h2 className="font-semibold text-3xl" style={{ fontFamily: "CinzelDecorative-Bold" }}>
               Be Part of Incridea's Events
             </h2>
           </div> */}
         </div>
+      </div>
+      <div>
+
       </div>
     </>
   );
