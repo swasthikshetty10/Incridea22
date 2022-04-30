@@ -22,10 +22,11 @@ const LoginForm = () => {
 	const user = useContext(AuthContext)
 	const navigate = useNavigate()
 	useEffect(() => {
+		console.log(user)
 		if (user) {
 			navigate("/profile")
 		}
-	}, [])
+	}, [user])
 	return (
 		<div className='loginForm'>
 

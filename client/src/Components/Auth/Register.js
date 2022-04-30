@@ -34,7 +34,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router';
 import { AuthContext } from '../../Context/AuthContext';
 import { useContext } from 'react'
-
+import { auth } from '../../firebaseConfig'
 
 
 
@@ -46,11 +46,13 @@ function Register() {
     const [loading, setLoading] = useState(true);
     const navigate = useNavigate()
     const user = useContext(AuthContext)
+
     useEffect(() => {
         if (user) {
+            console.log(user)
             navigate("/profile")
         }
-    }, [])
+    }, [user])
     const HandleSubmit = (value) => {
         const data = { email, ...value }
         axios.post('http://143.110.253.237:8080/auth/register', data).then( //register user
@@ -58,7 +60,8 @@ function Register() {
                 console.log(data);
                 alert('login success') //TODO: for now
                 try {
-                    const userCred = await signInWithEmailAndPassword(data.email, data.password)
+                    console.log()
+                    const userCred = await signInWithEmailAndPassword(auth, email, data.password)
                     console.log(userCred.user);
                     navigate('/profile')
                 } catch (e) {

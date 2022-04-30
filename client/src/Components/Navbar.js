@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../Context/AuthContext";
 
 import logo from "../Images/logo.png";
 
@@ -15,6 +16,7 @@ function Navbar({ tab, sticky }) {
 
     return () => window.removeEventListener('scroll', scrollFn)
   }, [])
+  const user = useContext(AuthContext)
   const handleHamburger = () => {
     if (click === 0) {
       document.getElementById("mobile-menu-4").classList.add("hidden");
@@ -40,10 +42,10 @@ function Navbar({ tab, sticky }) {
             <img src={logo} className="mx-3 h-9 md:h-16" alt="Incridea Logo" />
           </Link>
           <Link
-            to="/register"
+            to={user ? "/profile" : "/login"}
             className={`block md:hidden border-2 border-[#9d7643] p-2 text-sm font-nav font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633] md:border-0 md:hover:text-white text-[#9d7643]`}
           >
-            Login/Register
+            {user ? "Profile" : "Login/Register"}
           </Link>
           <div className="flex md:hidden">
             <button
@@ -148,10 +150,10 @@ function Navbar({ tab, sticky }) {
               </li>
               <li>
                 <Link
-                  to="/login"
+                  to={user ? "/profile" : "/login"}
                   className={`hidden md:block border-2 border-[#9d7643] py-2 pr-4 pl-3 text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633] md:border-0 md:hover:text-white text-[#9d7643]`}
                 >
-                  Login/Register
+                  {user ? "Profile" : "Login/Register"}
                 </Link>
               </li>
             </ul>

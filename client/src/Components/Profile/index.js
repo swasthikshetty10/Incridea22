@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import First from "./First";
 import Second from "./Second";
 import Third from "./Third";
@@ -12,7 +12,8 @@ import axios from "axios";
 
 import { BsDownload } from "react-icons/bs";
 import { BiArrowBack } from "react-icons/bi";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { AuthContext } from "../../Context/AuthContext";
 
 // const firebaseConfig = {
 //   apiKey: "AIzaSyChSXTSYZm0-EqrOhVbnP9FNopgEifCqu4",
@@ -35,13 +36,16 @@ function Profile() {
   console.log("profile");
   const [participant, setParticipant] = useState({});
   console.log(participant);
-
+  const user = useContext(AuthContext)
+  const navigate = useNavigate();
   useEffect(() => {
-    getUserInfo("Tr73GVxerhTTVMltltTnYkKYiS62") //TODO: to be changed
+    if (user == null) {
+      navigate("/login");
+    }
+    getUserInfo(user.uid)
       .then((participant) => {
         console.log(participant);
         setParticipant(participant);
-        // console.log(participant); //Available to you
       })
       .catch((e) => {
         console.log(e);

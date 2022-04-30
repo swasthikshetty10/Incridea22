@@ -19,11 +19,9 @@ const firebaseConfig = {
     appId: '1:599759960850:web:0c378639e025467c15d1cb',
 };
 
-const app = initializeApp(firebaseConfig);
+export const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 export const auth = getAuth(app)
-export const exportDb = db;
-export const exportAuth = auth;
 
 export async function getUserInfo(uid) {
     if (uid) {
@@ -39,8 +37,11 @@ export async function getUserInfo(uid) {
         throw new Error('No user logged in');
     }
 }
+
 export async function loginUser(email, password) {
     const userCred = await signInWithEmailAndPassword(auth, email, password)
     return userCred.user
 }
+
+
 export const key = firebaseConfig.apiKey;
