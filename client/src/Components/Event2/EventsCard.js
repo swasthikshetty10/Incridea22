@@ -30,8 +30,8 @@ function EventsCard({ name, src, desc, time, venue, day, branch, round, data }) 
                                                 : 'text-md'}`}>{venue}</span>
                                         </div>
                                         <div className='flex justify-center text-sm '>
-                                            <span className='inline-flex overflow-wrap  pr-2'>{time}</span> <span className='font-extrabold text-[#9d7643]'>|</span>
-                                            <span className='inline-flex overflow-wrap  pl-2'>Day {day}</span>
+                                            <span className='inline-flex overflow-wrap  pr-2'>{`1${parseInt(day) + 1}/05/2002`}</span> <span className='font-extrabold text-[#9d7643]'>|</span>
+                                            <span className='inline-flex overflow-wrap  pl-2'> {time}</span>
                                         </div>
                                     </div>
                                     <div className='text-center  text-sm text-gray-500'>
