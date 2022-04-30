@@ -10,10 +10,10 @@ function EventsCard({ name, src, desc, time, venue, day, branch, round, data }) 
     return (
         <>
             <Fade>
-                <div className="relative flex  flex-col mx-0 justify-center rounded-2xl shadow-md hover:shadow-lg  cursor-pointer transition-all ease-out delay-100 hover:-translate-y-1 hover:scale-105 duration-300    "  >
-                    <div className="relative flex  flex-col mx-0 justify-center rounded-2xl shadow-md hover:shadow-lg  cursor-pointer transition-all ease-out delay-100 hover:-translate-y-1 hover:scale-105 duration-300    " >
+                <div className="relative flex  flex-col mx-0 justify-center rounded-2xl shadow-md hover:shadow-lg  cursor-pointer transition-all ease-out  hover:-translate-y-1 hover:scale-103 duration-300    "  >
+                    <div className="relative flex  flex-col mx-0 justify-center rounded-2xl shadow-md hover:shadow-lg  cursor-pointer transition-all ease-out  hover:-translate-y-1 hover:scale-105 duration-300    " >
                         <div className="mx-auto flex w-60 h-72 flex-col pb-8 justify-start bg-[#1d1d1d]/50  rounded-none shadow-xl  ">
-                            <img className="aspect-video rounded-t-none object-cover object-center" alt='Event Poster' src={src} />
+                            <img className="aspect-video rounded-t-none object-cover object-center" alt={name} src={src} />
                             <div className="p-2 flex flex-col justify-start gap-1 h-full  ">
                                 <div className='text-center pb-1'>
                                     <h1 className={`${name.length > 15 ? name.length > 20 ? "text-lg" : "text-xl" : "text-2xl "} text-center font-medium text-gray-100 `}>{name}</h1>

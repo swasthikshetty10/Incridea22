@@ -7,7 +7,7 @@ export const persons = [
     mob: "9620788383",
     github: "https://github.com/prg2308",
     linkedin: "https://www.linkedin.com/in/prayag-sharma-78aa74213",  
-    insta: "https://instagram.com/prg2308?igshid=YmMyMTA2M2Y="
+    insta: "https://instagram.com/prg2308"
   },
  
   {
@@ -36,7 +36,7 @@ export const persons = [
     mob: "8606521714",
     github: "https://github.com/numannaeem",
     linkedin: "https://www.linkedin.com/in/numanhere",  
-    insta: "https://instagram.com/num4n_?igshid=YmMyMTA2M2Y="
+    insta: "https://instagram.com/num4n_"
   },
   {
     name: "Dhanish S Suvarna",
@@ -45,7 +45,7 @@ export const persons = [
     mob: "8073445263",
     github: "https://github.com/dhanishssuvarna",
     linkedin: "https://www.linkedin.com/in/dhanishssuvarna/",  
-    insta: "https://instagram.com/dhanish_s_suvarna?igshid=YmMyMTA2M2Y="
+    insta: "https://instagram.com/dhanish_s_suvarna"
   },
   {
     name: "Thanmay Das",
@@ -54,7 +54,7 @@ export const persons = [
     mob: "8431439127",
     github: "https://github.com/tAnboyy",
     linkedin: "https://www.linkedin.com/in/thanmay-m-das-676240193",
-    insta: "https://instagram.com/_tanboyy_?igshid=YmMyMTA2M2Y=",
+    insta: "https://instagram.com/_tanboyy_",
 
   },
   {
@@ -82,7 +82,7 @@ export const persons = [
     mob: "8861885124",
     github: "https://github.com/BharathMKulkarni",
     linkedin: "https://www.linkedin.com/in/bharath-m-kulkarni-2778b6112/",  
-    insta: "https://instagram.com/bharathmkulkarni?igshid=YmMyMTA2M2Y="
+    insta: "https://instagram.com/bharathmkulkarni"
   },
   
 ];

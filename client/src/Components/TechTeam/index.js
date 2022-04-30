@@ -23,7 +23,7 @@ const TechTeam = () => {
             {persons.map((person, id) => {
               return (
                 
-                <Member id={id} name={person.name} role={person.role} github={person.github} linkedin={person.linkedin}  mob={person.mob} src={person.img} />
+                <Member id={id} name={person.name} insta={person.insta} role={person.role} github={person.github} linkedin={person.linkedin}  mob={person.mob} src={person.img} />
               );
             })}
           </div>

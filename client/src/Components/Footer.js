@@ -20,7 +20,7 @@ function Footer() {
         </div>
         <div className="flex mx-3 gap-4">
           <a
-            href="https://instagram.com/incridea?igshid=YmMyMTA2M2Y="
+            href="https://instagram.com/incridea"
             className="place-items-center text-white text-xl"
           >
             <FaInstagram className="h-8 hover:text-[#9d7643]" />
