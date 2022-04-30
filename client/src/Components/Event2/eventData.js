@@ -1,7 +1,7 @@
 export const eventData = [
     {
         "name": "BETTER BE LETTER",
-        "round": "1",
+        "round": "1 & 2",
         "day": "1",
         "Time": "11 am",
         "venue": "NC21",
@@ -16,38 +16,6 @@ export const eventData = [
         },
 
         "rules": ["The event consists of 3 rounds", "Each team must comprise of 2 members", "Using mobiles or any other gadget is not allowed"],
-        "judgingCriteria": ["The participants scoring a higher number of points will qualify for successive rounds."],
-        "contactDetails": [
-            {
-                "name": "Namana Gowda",
-                "phoneNumber": "+916362512411",
-                "emailID": "namanahbgowda@gmail.com"
-            },
-            {
-                "name": "Abhirami Nair",
-                "phoneNumber": "+917795979167",
-                "emailID": "abhiraminair167@gmail.com"
-            }
-
-        ]
-
-    },
-    {
-        "name": "BETTER BE LETTER",
-        "round": "2",
-        "day": "1",
-        "Time": "11 am",
-        "venue": "NC21",
-        "branch": "BTE",
-        "image": "/events/BT/BetterBeLetter.png",
-        "smallDesc": "If you want to improve your grammar skills then it's time to ditch all the books and podcasts and play some word games instead.",
-        "fullDesc": "If you want to improve your grammar skills then it's time to ditch all the books and podcasts and play some word games instead.",
-        "roundDetails": {
-            "round1": ["Aptitude round A quiz to clear for qualification to the next successive round."],
-            "round2": ["A fun game for a player to have their partners guess the word on the player's card without using that word."],
-            "round3": ["Spell bee"]
-        },
-        "rules": ["The event consists of 3 rounds", "Each team must comprise 2 members", "Using mobiles or any other gadget is not allowed"],
         "judgingCriteria": ["The participants scoring a higher number of points will qualify for successive rounds."],
         "contactDetails": [
             {
@@ -175,9 +143,10 @@ export const eventData = [
 
         ]
 
-    }, {
+    }, 
+    {
         "name": "DESAFIO",
-        "round": "2",
+        "round": "2 & 3",
         "day": "3",
         "Time": "9 am",
         "venue": "Sadananda ground",
@@ -200,32 +169,7 @@ export const eventData = [
 
         ]
 
-    }, {
-        "name": "DESAFIO",
-        "round": "3",
-        "day": "3",
-        "Time": "9 am",
-        "venue": "Sadananda ground",
-        "branch": "ISE",
-        "image": "/events/IS/DESAFIO.jpeg",
-        "smallDesc": "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? ",
-        "fullDesc": "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? Desafio is an event which checks your FITNESS level by having various rounds.The tasks would not be mentioned precisely as it would be best if kept a surprise",
-        "roundDetails": {
-            "round1": ["This is an mass elimination round depending on the registrations and we will have mass elimination considering their fitness levels. If there are less registrations, then the Round 1 will not be conducted."],
-            "round2": ["This round is to shortlist contestants to the FINAL SHOWDOWN.", "Groups of 4 will be made randomly which will be done by the organizers.", "The participants who played good enough will be selected. They are judges individually.", " It is Purely based on the physical task which should be performed the given time. within the given time", "Task will be given to each one of the team member, The first one should complete his/her task and pass it on to the second member and it goes same till the final 4th member of the team.", "Number of groups depends on the registrations."],
-            "round3": ["The final round will be an intense fitness course which will decide who the WINNER is.", "8-10 contestants will be selected to the finals. Each of them will do the same course.", "It is Purely based on an intense task which should be performed within the given time also with a good form.", "The Participant who successfully completes the course with minimum time will be the WINNER."]
-        },
-        "rules": [" All materials for the different rounds will be given by the organizers.", "No usage of cell phones or any other electronic devices until told otherwise.", "The decision taken by the judges and the organizers is final."],
-        "contactDetails": [
-            {
-                "name": "Sinan Mohamed",
-                "phoneNumber": "8792281367 ",
-                "emailID": "mohdmmedsinanll@gmail.com"
-            }
-
-        ]
-
-    }, {
+    },  {
         "name": "DIGITAL ART",
         "day": "3",
         "Time": "10:30 am",
@@ -288,7 +232,7 @@ export const eventData = [
         "day": "1",
         "Time": "3 pm",
         "venue": "Shmabavi,LH110,LH112,LH212",
-        "branch": "EC",
+        "branch": "ECE",
         "image": "/events/EC/MONEYHEIST.png",
         "smallDesc": " If you believe that you are capable of deciphering the given enigma, then here's an event that funds you to get to the bottom of these mysteries! ",
         "fullDesc": "Get ready to awaken the Einstein within and unravel the mysteries. If you believe that you are capable of deciphering the given enigma, then here's an event that funds you to get to the bottom of these mysteries.",
@@ -316,43 +260,11 @@ export const eventData = [
     },
     {
         "name": "MONEY HEIST",
-        "round": "2",
+        "round": "2 & 3",
         "day": "2",
         "Time": "9 am",
         "venue": "Swarna EDC",
-        "branch": "EC",
-        "image": "/events/EC/MONEYHEIST.png",
-        "smallDesc": " If you believe that you are capable of deciphering the given enigma, then here's an event that funds you to get to the bottom of these mysteries! ",
-        "fullDesc": "Get ready to awaken the Einstein within and unravel the mysteries. If you believe that you are capable of deciphering the given enigma, then here's an event that funds you to get to the bottom of these mysteries.",
-        "roundDetails": {
-            "round1": ["A pen-paper test consisting of 40 questions -10 each from Money heist, general knowledge, geography, riddles. The top 12-15 teams will qualify for the next round."],
-            "round2": [" Treasure hunt Here the teams will be given 6 clues. Of those, the initial 4 will be different for each team and the remaining 2 will be common for all. The top 4-6 teams will qualify for the final round."],
-            "round3": ["Surprise round"]
-        },
-        "rules": ["The use of calculators, mobile phones, or any kind of electronic device will result in disqualification", "Round 1 : Time duration: 40 minutes", "Round 2 : Time duration: 2 hours", "Round 3 : Time duration: 2 hours and 15 minutes ", " Only students pursuing engineering degrees are allowed to participate.", "A maximum of 4 members are allowed in a team. ", "All the team members must be from the same college.", "External contestants should register prior. Spot registrations are notentertained.", "Internal contestants are also advised to register prior to the event, although spot registrations are accepted."],
-        "judgingCriteria": ["Top 12-15 teams will proceed to round 2.", "Top 4-6 teams from round 2 will be selected for the final round. ", "The final winner will be decided based on the time consumed, money left with the team and percentage of completion of the project. "],
-        "contactDetails": [
-            {
-                "name": "Anup Rai",
-                "phoneNumber": "9945191271",
-                "emailID": "anuprai2000@gmail.com"
-            },
-            {
-                "name": "Dishan Babu",
-                "phoneNumber": "9742228744",
-                "emailID": "dishanshetty468@gmail.com"
-            }
-
-        ]
-
-    },
-    {
-        "name": "MONEY HEIST",
-        "round": "3",
-        "day": "2",
-        "Time": "9 am",
-        "venue": "Swarna EDC",
-        "branch": "EC",
+        "branch": "ECE",
         "image": "/events/EC/MONEYHEIST.png",
         "smallDesc": " If you believe that you are capable of deciphering the given enigma, then here's an event that funds you to get to the bottom of these mysteries! ",
         "fullDesc": "Get ready to awaken the Einstein within and unravel the mysteries. If you believe that you are capable of deciphering the given enigma, then here's an event that funds you to get to the bottom of these mysteries.",
@@ -749,7 +661,7 @@ export const eventData = [
         "day": "1",
         "Time": "11:00 am",
         "venue": "NC 14",
-        "branch": "EC",
+        "branch": "ECE",
         "image": "/events/EC/LAZZRENA.png",
         "smallDesc": "Lazzerena is a tag game which allows amateur video game lovers to experience war zone scena rio in real life.  ",
         "fullDesc": "It is played with guns which emit infrared beams. Infrared sensitive sensors which are integ rat ed on jackets are worn by each player. The game will comprise of two teams and each team will t ry to knockout the opponent by firing on their respect ive sensors.",
@@ -792,7 +704,7 @@ export const eventData = [
         "day": "2",
         "Time": "9:00 am",
         "venue": "NC 14",
-        "branch": "EC",
+        "branch": "ECE",
         "image": "/events/EC/LAZZRENA.png",
         "smallDesc": "Lazzerena is a tag game which allows amateur video game lovers to experience war zone scena rio in real life.  ",
         "fullDesc": "It is played with guns which emit infrared beams. Infrared sensitive sensors which are integ rat ed on jackets are worn by each player. The game will comprise of two teams and each team will t ry to knockout the opponent by firing on their respect ive sensors.",
@@ -835,7 +747,7 @@ export const eventData = [
         "day": "3",
         "Time": "9:00 am",
         "venue": "NC 14",
-        "branch": "EC",
+        "branch": "ECE",
         "image": "/events/EC/LAZZRENA.png",
         "smallDesc": "Lazzerena is a tag game which allows amateur video game lovers to experience war zone scena rio in real life.  ",
         "fullDesc": "It is played with guns which emit infrared beams. Infrared sensitive sensors which are integ rat ed on jackets are worn by each player. The game will comprise of two teams and each team will t ry to knockout the opponent by firing on their respect ive sensors.",
@@ -878,7 +790,7 @@ export const eventData = [
         "day": "4",
         "Time": "9:00 am",
         "venue": "NC 14",
-        "branch": "EC",
+        "branch": "ECE",
         "image": "/events/EC/LAZZRENA.png",
         "smallDesc": "Lazzerena is a tag game which allows amateur video game lovers to experience war zone scena rio in real life.  ",
         "fullDesc": "It is played with guns which emit infrared beams. Infrared sensitive sensors which are integ rat ed on jackets are worn by each player. The game will comprise of two teams and each team will t ry to knockout the opponent by firing on their respect ive sensors.",
@@ -2172,7 +2084,7 @@ export const eventData = [
         "day": "1",
         "Time": "1:00 pm",
         "venue": "LH 306",
-        "branch": "EC",
+        "branch": "ECE",
         "image": "/events/EC/SHARKTANK.png",
         "smallDesc": "Do you see the world around you in vivid colours? Does every ordinary occurrence play out differently in your imagination? ",
         "fullDesc": "If you found yourself saying yes, then we've got the perfect event for you! Sha rk tank will tingle your senses and kick your creativity into ge ar.",
@@ -2227,7 +2139,7 @@ export const eventData = [
         "day": "1",
         "Time": "3:30 pm",
         "venue": "LH 306",
-        "branch": "EC",
+        "branch": "ECE",
         "image": "/events/EC/SHARKTANK.png",
         "smallDesc": "Do you see the world around you in vivid colours? Does every ordinary occurrence play out differently in your imagination? ",
         "fullDesc": "If you found yourself saying yes, then we've got the perfect event for you! Sha rk tank will tingle your senses and kick your creativity into ge ar.",
@@ -2283,7 +2195,7 @@ export const eventData = [
         "day": "3",
         "Time": "1:00 pm",
         "venue": "Sowparnika",
-        "branch": "EC",
+        "branch": "ECE",
         "image": "/events/EC/SHARKTANK.png",
         "smallDesc": "Do you see the world around you in vivid colours? Does every ordinary occurrence play out differently in your imagination? ",
         "fullDesc": "If you found yourself saying yes, then we've got the perfect event for you! Sha rk tank will tingle your senses and kick your creativity into ge ar.",
@@ -2512,7 +2424,7 @@ export const eventData = [
         "day": "2",
         "Time": "9:00 pm",
         "venue": "NC 11,12",
-        "branch": "EC",
+        "branch": "ECE",
         "image": "/events/EC/SHUTTERUP.png",
         "smallDesc": "Gear up, focus in and click on!",
         "fullDesc": "You can look at a picture for a week and never think of it for a second.You can  also look at a picture for a second and think of it all your life.Shutter up is an event for all photo enthusiasts to show the world a story that cannot be put into words.",
@@ -2575,7 +2487,7 @@ export const eventData = [
         "day": "3",
         "Time": "9:00 pm",
         "venue": "LH 005",
-        "branch": "EC",
+        "branch": "ECE",
         "image": "/events/EC/SHUTTERUP.png",
         "smallDesc": "Gear up, focus in and click on!",
         "fullDesc": "You can look at a picture for a week and never think of it for a second.You can  also look at a picture for a second and think of it all your life.Shutter up is an event for all photo enthusiasts to show the world a story that cannot be put into words.",
@@ -2638,7 +2550,7 @@ export const eventData = [
         "day": "3",
         "Time": "9:00 pm",
         "venue": "LH 005",
-        "branch": "EC",
+        "branch": "ECE",
         "image": "/events/EC/SHUTTERUP.png",
         "smallDesc": "Gear up, focus in and click on!",
         "fullDesc": "You can look at a picture for a week and never think of it for a second.You can  also look at a picture for a second and think of it all your life.Shutter up is an event for all photo enthusiasts to show the world a story that cannot be put into words.",
@@ -2746,7 +2658,7 @@ export const eventData = [
 
     },
 
-    
+
 
 
     {
@@ -2755,7 +2667,7 @@ export const eventData = [
         "day": "1",
         "Time": "12:30 pm",
         "venue": "SAMBRAHM",
-        "branch": "EC",
+        "branch": "ECE",
         "image": "/events/EC/THX.png",
         "smallDesc": "Talent is a one-of-a-kind skill that sets you apart from the rest of the pack. Everyone is born with it, but not everyone recognises it. ",
         "fullDesc": "Talent House Xis a forum for amateur artists to display their talents in a variety of genres, including singing, dance, comedy, novelty acts and more. So, if you've discovered the X factor in you, then this is the right platform to show case your hidden 'X' quotient on stage and wow the crowd!",
@@ -2823,7 +2735,7 @@ export const eventData = [
         "day": "3",
         "Time": "9:00 am",
         "venue": "SADANANDA",
-        "branch": "EC",
+        "branch": "ECE",
         "image": "/events/EC/THX.png",
         "smallDesc": "Talent is a one-of-a-kind skill that sets you apart from the rest of the pack. Everyone is born with it, but not everyone recognises it. ",
         "fullDesc": "Talent House Xis a forum for amateur artists to display their talents in a variety of genres, including singing, dance, comedy, novelty acts and more. So, if you've discovered the X factor in you, then this is the right platform to show case your hidden 'X' quotient on stage and wow the crowd!",
@@ -4227,7 +4139,7 @@ export const eventData = [
         "day": "2",
         "Time": "9:00 am",
         "venue": "Infront of NC Block, Survery Lab",
-        "branch": "EC",
+        "branch": "ECE",
         "image": "/events/EC/ROBORACE.png",
         "smallDesc": "Come let your rob ots do the running and your skills do the talking in the Robe Race this lncridea.",
         "fullDesc": "Come let your rob ots do the running and your skills do the talking in the Robe Race this lncridea.",
@@ -4301,7 +4213,7 @@ export const eventData = [
         "day": "3",
         "Time": "9:00 am",
         "venue": "Beside Sadananda",
-        "branch": "EC",
+        "branch": "ECE",
         "image": "/events/EC/ROBORACE.png",
         "smallDesc": "Come let your rob ots do the running and your skills do the talking in the Robe Race this lncridea.",
         "fullDesc": "Come let your rob ots do the running and your skills do the talking in the Robe Race this lncridea.",
@@ -4375,7 +4287,7 @@ export const eventData = [
         "day": "2",
         "Time": "12:30 pm",
         "venue": "LH 301 & 302",
-        "branch": "EC",
+        "branch": "ECE",
         "image": "/events/EC/WIRED.png",
         "smallDesc": "Are you an electronics geek? Do you want to test your circuit building skills and be a winner? ",
         "fullDesc": "Wired! is the place you should be. Come, show us what you've got.",
@@ -4435,7 +4347,7 @@ export const eventData = [
         "day": "3",
         "Time": "9:30 am",
         "venue": "Project Lab 1 & DSD Lab",
-        "branch": "EC",
+        "branch": "ECE",
         "image": "/events/EC/WIRED.png",
         "smallDesc": "Are you an electronics geek? Do you want to test your circuit building skills and be a winner? ",
         "fullDesc": "Wired! is the place you should be. Come, show us what you've got.",
@@ -4495,7 +4407,7 @@ export const eventData = [
         "day": "3",
         "Time": "9:30 am",
         "venue": "Project Lab 1 & DSD Lab",
-        "branch": "EC",
+        "branch": "ECE",
         "image": "/events/EC/WIRED.png",
         "smallDesc": "Are you an electronics geek? Do you want to test your circuit building skills and be a winner? ",
         "fullDesc": "Wired! is the place you should be. Come, show us what you've got.",

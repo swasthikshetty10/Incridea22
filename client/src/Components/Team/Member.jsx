@@ -11,8 +11,8 @@ const Member = ({ name, role, src, mob, email }) => {
     <>
       <Fade as="div" className=" max-w-sm scale-90 lg:scale-100 h-full text-center w-[80%] lg:w-[22%] mt-2">
         <div className="transition-transform hover:scale-105 duration-300">
-          <div className="bg-[#2f2f2f] h-full pt-0  ">
-            <img className="h-40 m-auto  " src={src} alt="" />
+          <div className="bg-[#2f2f2f]  h-full pt-0  ">
+            <img className="aspect-video w-fit m-auto  " src={src} alt="" />
           </div>
           <div className="text-center h-40 bg-[#1d1d1d]  p-2">
             <h1 className="pt-2  font-bold text-xl text-white tracking-wide">

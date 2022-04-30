@@ -16,7 +16,7 @@ import src from '../../Images/navrasa.png'
 
 function Modal({ data, img, closeModal }) {
     return (
-        <Zoom as="div" duration={500} className='flex flex-col h-screen justify-center items-center fixed top-0 right-0 left-0 z-50 w-full'>
+        <Zoom as="div" duration={500} className='flex flex-col h-screen justify-center items-center fixed top-0 right-0 left-0 z-[999] w-full'>
             <div id="extralarge-modal" tabindex="-1" className=" overflow-y-hidden  md:inset-0  flex items-center justify-center justify-items-center overflow-x-hidden  ">
                 <div className="relative p-4 w-full max-w-7xl h-full md:h-auto backdrop-lg rounded-lg shadow-lg  border-0  " >
                     {/* <!-- Modal content --> */}
@@ -42,7 +42,7 @@ function Modal({ data, img, closeModal }) {
                                 <div>
 
                                     <div className=" text-gray-100"> <GoLocation className="inline mr-2" />Venue - {data.venue}</div>
-                                    <div className=" text-gray-100"> <BsFillCalendar3RangeFill className="inline mr-2" />Event Date - 12/05/2022</div>
+                                    <div className=" text-gray-100"> <BsFillCalendar3RangeFill className="inline mr-2" />Event Date - {`${10 + parseInt(data.day) + 1}/05/2002`}</div>
                                     <div className=" text-gray-100"> <BiTimeFive className="inline mr-2" />Time - {data.Time}</div>
                                     <div className=" text-gray-100"> <FaBuilding className="inline mr-2" />Branch - {data.branch}  </div>
                                     {/* <div className=" text-white"> <BiTimeFive className="inline mr-2" />Team - 5:00PM</div> */}

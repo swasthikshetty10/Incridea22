@@ -8,7 +8,7 @@ import { eventData } from "./eventData"
 
 
 function Event2() {
-  const [branch, setBranch] = useState("CORE");
+  const [branch, setBranch] = useState("ALL");
   const [day, setDay] = useState("0");
   const [query, setQuery] = useState("");
   const [elements, setElements] = useState(data);
@@ -29,23 +29,23 @@ function Event2() {
 
   return (
     <>
-        <Navbar tab="events" />
+      <Navbar tab="events" />
       <div className="bg-black  sm:p-10 h-full">
         <div className="flex justify-center flex-col items-center gap-8 lg:gap-5 pb-5">
-            <h1 className="text-5xl md:text-6xl tracking-widest font-title pt-3 sm:pt-0 text-[#EDEDED]">
-              EVENTS
-            </h1>
-            <p className="text-[#9d7643]  lg:mb-6 pt-1 pb-3 text-3xl font-body text-center">
-              55 events, 55 places to be.
-            </p>
-            <FilterBar
-              day={day}
-              setDay={setDay}
-              query={query}
-              setQuery={setQuery}
-            />
-            {/* <FilterBar {...{ day, setDay, query, setQuery }} /> */}
-            <TabsSimple {...{ branch, setBranch }} />
+          <h1 className="text-5xl md:text-6xl tracking-widest font-title pt-3 sm:pt-0 text-[#EDEDED]">
+            EVENTS
+          </h1>
+          <p className="text-[#9d7643]  lg:mb-6 pt-1 pb-3 text-2xl font-body text-center">
+            55 events, 55 places to be
+          </p>
+          <FilterBar
+            day={day}
+            setDay={setDay}
+            query={query}
+            setQuery={setQuery}
+          />
+          {/* <FilterBar {...{ day, setDay, query, setQuery }} /> */}
+          <TabsSimple {...{ branch, setBranch }} />
 
 
 
