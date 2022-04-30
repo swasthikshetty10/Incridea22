@@ -4,9 +4,11 @@ import higher from "../../Images/home/higher.png"
 import avatar from "../../Images/home/avatar.png"
 import Counter from "./Counter";
 import { Slide, Fade } from 'react-awesome-reveal'
+import {AiOutlineDownload} from 'react-icons/ai'
+import schedule from '../../Assets/schedule.xlsx'
+import rulebook from '../../Assets/rulebook.pdf'
 // import cloud from './cloud1.png'
 import chakra from './chakra.png'
-import { Link } from "react-router-dom";
 function Home() {
   const [rotation, setRotation] = useState("rotate-0")
   const [second, secSecond] = useState(0)
@@ -45,8 +47,8 @@ function Home() {
               <p className="text-gray-100 font-body text-lg  text-justify" >An amalgamation of all forms of technical, literary and cultural activities. Incridea is a celebration of fervour and talent. It is the national level techno-cultural fest of
                 <a target="blank" className="  text-[#cd9b58] hover:text-white transition-all ease-out delay-75 text-base" href="https://nmamit.nitte.edu.in/"> NMAM Institute of Technology</a>, Nitte.
               </p>
-              <div className="select-none bg-white border-0 hover:bg-opacity-100  bg-opacity-10 text-white px-6 py-2 w-fit font-bold  text-center " >
-                Registrations begin from 30th April, 5PM
+              <div className="select-none bg-white border-0 hover:bg-opacity-100  bg-opacity-10 text-white px-6 py-2 w-fit font-body  text-center " >
+                Registrations begin May Day, 9AM
               </div>
             </div>
           </Slide>
@@ -60,7 +62,7 @@ function Home() {
           <img className="custom-animation md:h-full w-96 sm:w-full top-0 right-0  translate-x-12  h-64 sm: md:translate-x-72 lg:translate-x-96 md:scale-80" src={cloud} alt="" />
         </Slide> */}
 
-          <div className="h-20 overflow-hidden w-[125%] hidden border-t border-[#9d7643]/50 md:block absolute -bottom-10 -rotate-3">
+          <div className="h-20 overflow-hidden w-[125%] hidden border-[#9d7643]/100 border-t-2 md:block absolute -bottom-10 -rotate-3">
             <div className="  p-10 w-full bg-gradient-to-b  bg-black   to-"></div>
           </div>
         </div>
@@ -78,24 +80,25 @@ function Home() {
         <Slide direction="up">
           <div className="flex mt-[4rem] justify-center text-center items-center py-5" style={{ fontFamily: "CinzelDecorative-Bold" }}>
             <div className=" flex flex-col items-center justify-center pt-20 -mt-36 md:m-0 ">
-              <h2 className="text-3xl sm:text-4xl lg:text-6xl m-3 text-[#9d7643] p-2 sm:p-3 lg:p-4 bg-opacity-30 backdrop-blur-lg rounded-md bg-gray-900">Going live in</h2>
+              <h2 className="text-3xl sm:text-4xl lg:text-6xl m-3 text-[#9d7643] p-2 sm:p-3 lg:p-4 bg-opacity-30 backdrop-blur-lg rounded-md bg-gray-1000">countdown has begun</h2>
               <Counter setSecond={secSecond} />
             </div>
           </div>
         </Slide>
       </div>
       <div direction="up" delay={500}>
-        <div className="text-center w-full p-10 bg-opacity-20 backdrop-blur-lg text-white  bg-gray-900 flex flex-col-reverse gap-10 md:flex-row items-center justify-center md:justify-evenly">
-          <div className="">
-            <Link to="/events">
-              <a href="#" className="px-5 py-3 font-bold text-lg hover:bg-white hover:text-black bg-[#cd9b58]" style={{ fontFamily: "CinzelDecorative-Bold" }}>Know more</a>
-            </Link>
-          </div>
-          <div className="">
+        <div style={{ fontFamily: "CinzelDecorative-Bold" }} className=" p-10 bg-opacity-20 backdrop-blur-lg text-white  bg-gray-900 flex flex-col-reverse gap-10 md:flex-row-reverse justify-center items-center">
+            <a href={rulebook} download={'Incridea 22 Rulebook.pdf'} target="_blank" rel="noreferrer" className="px-5 py-3 inline-flex items-center gap-2 font-bold text-[#9d7643] transition-colors ease-out transition-duration-50 text-xl hover:bg-[#9d7643] hover:text-white border-[#9d7643] border-2">
+            Download Rulebook <AiOutlineDownload className="text-2xl" />
+            </a>
+            <a href={schedule} download={"Incridea 22 Schedule.xlsx"} target="_blank" rel="noreferrer" className="px-5 py-3 inline-flex items-center gap-2 font-bold text-[#9d7643] transition-colors ease-in transition-duration-50 text-xl hover:bg-[#9d7643] hover:text-white border-[#9d7643] border-2">
+              Download Schedule <AiOutlineDownload className="text-2xl" />
+            </a>
+          {/* <div className="">
             <h2 className="font-semibold text-3xl" style={{ fontFamily: "CinzelDecorative-Bold" }}>
-              Be Part of Incredia's Events
+              Be Part of Incridea's Events
             </h2>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
