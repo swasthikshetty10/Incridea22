@@ -1,40 +1,38 @@
 export const eventData = [
     {
         "name": "COUTURE",
-
         "day": "2",
         "Time": "4:00 pm",
-        "venue": "Sadananda",
+        "venue": "SADANANDA",
         "branch": "CORE",
         "image": "/events/CORE/Couture.png",
-        "smallDesc": "Couture is the platform to showcase unseen, unforgettable and ultimate spectacle of all things fashion. ",
+        "smallDesc": "Couture is the platform to showcase unseen, unforgettable and ultimate spectacle of all things fashion.",
         "fullDesc": "Fashion is a unique platform of art to express and impress. Couture is the platform to showcase unseen, unforgettable and ultimate spectacle of all things fashion. So gather your team, work around a theme and strut down the runway.",
         "rules": [
             "Teams may participate on invitation through mail only",
             "The event consists of two rounds",
             "First round requires the team lead to mail portfolios of all the models. Selection for round 2 will be based on the portfolios submitted",
             "Final round is where teams selected from the portfolio round walk the ramp for Couture'22",
-            "A duration of 10 minutes will be allotted purely for the performance, and an additio nal 5 minutes will be allowed for setting the stage",
+            "A duration of 10 minutes will be allotted purely for the performance, and an additional 5 minutes will be allowed for setting the stage",
             "Online registration is mandatory for the teams that qualify for the last round.",
             "Vulgarity in any form will lead to disqualification",
-            "Use of water, fire or any kind of fireworks(party poppers) will lead to immediate disqualification",
+            "Use of water, fire or any kind of fireworks (party poppers) will lead to immediate disqualification",
             "No gender restriction on team constitution",
             "Performance should be based on any theme of the team's choice",
             "Any deviation from a fashion- related choreography will lead to a deduction in score",
-            "Judgment will be based on coordination, music, confidence, gesture,",
-            "creativit y, garments and accessories",
-            "Judges' decision is final",
             "Any violation with respect to the campus rules could lead to disqualification",
             "Any sort of intoxication in the campus or the green room will lead to disqualification",
             "Team Limit: 16 models + 7 supporting crew",
+        ],
+
+        "judgingCriteria": [
+            "Judgment will be based on coordination, music, confidence, gesture,creativity, garments and accessories",
+            "Judges' decision is final",
 
         ],
 
-
         "contactDetails": [
             {
-
-
                 "name": "Sayyaf Ahamed",
                 "phoneNumber": "+919880948808",
                 "emailID": "sayyafahamed9@gmail.com"
@@ -49,17 +47,12 @@ export const eventData = [
                 "phoneNumber": "+918762178003",
                 "emailID": "ananyabhat3009@gmail.com",
             }
-
-
-
         ]
-
     },
 
 
     {
         "name": "HOGATHON",
-
         "day": "4",
         "Time": "11:30 am",
         "venue": "SAC OAT",
@@ -82,23 +75,18 @@ export const eventData = [
             "The participant must finish one item completely before starting the next",
             "Any item that is not completely eaten will not be considered",
             "Any item eaten after the allotted time will not be considered",
-            "Judging is based on maximum amount of food eaten in the minimum time possible",
-            "The decision taken by the judge is final.",
-            "",
             "Participants contest individually",
             "Participants have to pay a registration fee (not included in global registration)",
-            "Participants must possess the PIO as wel l as t he ir respective college ID",
-
-
-
-
+            "Participants must possess the PIO as well as their respective college ID",
         ],
+
+        "judgingCriteria": ["Judging is based on maximum amount of food eaten in the minimum time possible",
+            "The decision taken by the judge is final."],
 
 
 
         "contactDetails": [
             {
-
                 "name": "Deekshitha Shetty",
                 "phoneNumber": "+ 919686693372",
                 "emailID": "shettydeekshitha15@gmail.com"
@@ -159,12 +147,12 @@ export const eventData = [
 
                 "name": " Moghe Sudheesh Rao",
                 "phoneNumber": "+919902145643",
-                
+
             },
             {
                 "name": "Pranava Moodithaya P",
                 "phoneNumber": "+917975060473",
-                
+
             }
 
 
@@ -580,21 +568,21 @@ export const eventData = [
         "image": "/events/CORE/BoB.jpg",
         "smallDesc": "A golden opportunity awaits all the tremendous bands in Karnataka to win the ultimate showdown - BATTLE OF THE BANDS.",
         "fullDesc": "A golden opportunity awaits all the tremendous bands in Karnataka to win the ultimate showdown - BATTLE OF THE BANDS.",
-        "rules" : [
+        "rules": [
             "The Bands will be selected for the competition based on the videos provided.",
-	        "A Band can have a maximum of 10 members on stage with minimum of 1 drummer and 1 guitarist.",
-	        "Genres like Rock, Meta l and Fusion are p referred. However, there is no restriction for other genres.",
-	        "Each team is allotted 5 minutes for sound- check and 15 minutes for the performance.",
-	        "Exceeding the 20 minutes will earn drastic negative points",
-	        "Judgment criterion is based on Musical quality, Technical Merit, Band synchronization, Stage Presence and overall performance.",
-	        "Bonus marks are awarded for original composition, musical complexity and theme integration.",
-             "Organizers hold the right to disqualify any band at their discretion without prior notice.",
-	"Decision of the organizers in any circumstances will be final.",
-	"Any vulgarity will lead to disqualific ation.",
-	"Results of this event won't be considered for Winner and Runners Tro phy of the fest.",
-	"Last day to submit entries will be 10th May 2022",
-	"In case of any technical fault, timersshall be reset, and the p articipant will be allowed to perform from the beginning."
-    ],
+            "A Band can have a maximum of 10 members on stage with minimum of 1 drummer and 1 guitarist.",
+            "Genres like Rock, Meta l and Fusion are p referred. However, there is no restriction for other genres.",
+            "Each team is allotted 5 minutes for sound- check and 15 minutes for the performance.",
+            "Exceeding the 20 minutes will earn drastic negative points",
+            "Judgment criterion is based on Musical quality, Technical Merit, Band synchronization, Stage Presence and overall performance.",
+            "Bonus marks are awarded for original composition, musical complexity and theme integration.",
+            "Organizers hold the right to disqualify any band at their discretion without prior notice.",
+            "Decision of the organizers in any circumstances will be final.",
+            "Any vulgarity will lead to disqualific ation.",
+            "Results of this event won't be considered for Winner and Runners Tro phy of the fest.",
+            "Last day to submit entries will be 10th May 2022",
+            "In case of any technical fault, timersshall be reset, and the p articipant will be allowed to perform from the beginning."
+        ],
         "contactDetails": [
             {
                 "name": "Vijeth Ullal",
@@ -611,7 +599,7 @@ export const eventData = [
         ]
 
     },
-    {   
+    {
         "name": "BETTER BE LETTER",
         "round": "1 & 2",
         "day": "1",
@@ -755,7 +743,7 @@ export const eventData = [
 
         ]
 
-    }, 
+    },
     {
         "name": "DESAFIO",
         "round": "2 & 3",
@@ -781,7 +769,7 @@ export const eventData = [
 
         ]
 
-    },  {
+    }, {
         "name": "DIGITAL ART",
         "day": "3",
         "Time": "10:30 am",
@@ -4376,7 +4364,7 @@ export const eventData = [
                 "A quiz based on web development will be used to filter teams by the points secured, quiz will be mainly based on HTML, CSS & javascript",
                 "Number of questions 30",
                 "The qualified teams will enter round 2(time limit: 25mins)",
-                
+
             ],
 
             "Round 2": [
@@ -4457,7 +4445,7 @@ export const eventData = [
                 "A quiz based on web development will be used to filter teams by the points secured, quiz will be mainly based on HTML, CSS & javascript",
                 "Number of questions 30",
                 "The qualified teams will enter round 2(time limit: 25mins)",
-                
+
             ],
 
             "Round 2": [
@@ -4537,7 +4525,7 @@ export const eventData = [
                 "A quiz based on web development will be used to filter teams by the points secured, quiz will be mainly based on HTML, CSS & javascript",
                 "Number of questions 30",
                 "The qualified teams will enter round 2(time limit: 25mins)",
-                
+
             ],
 
             "Round 2": [
@@ -4618,7 +4606,7 @@ export const eventData = [
                 "A quiz based on web development will be used to filter teams by the points secured, quiz will be mainly based on HTML, CSS & javascript",
                 "Number of questions 30",
                 "The qualified teams will enter round 2(time limit: 25mins)",
-                
+
             ],
 
             "Round 2": [
@@ -4738,7 +4726,7 @@ export const eventData = [
 
     },
 
-   
+
     {
         "name": "ROBOSOCCER",
         "day": "2",
@@ -4847,7 +4835,7 @@ export const eventData = [
     },
 
 
-   
+
 
 ]
 
