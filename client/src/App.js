@@ -26,7 +26,7 @@ function App() {
         <Route exact path="/gallery" element={<Gallery />} />
         <Route exact path="/Sponsors" element={<Sponsor />} />
         <Route exact path="/team" element={<Team />} />
-        <Route exact path="/pronite" element={<Pronite />} />
+        <Route exact path="/pronites" element={<Pronite />} />  
         <Route exact path="/TechTeam" element={<TechTeam />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>

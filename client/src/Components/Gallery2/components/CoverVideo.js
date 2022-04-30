@@ -254,6 +254,7 @@ const CoverVideo = () => {
           data-scroll
           data-scroll-delay="0.055"
           data-scroll-speed="2"
+          className={"text-[#9d7643]"}
         >
           Incridea over the years
         </motion.h2>
