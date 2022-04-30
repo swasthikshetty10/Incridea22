@@ -52,12 +52,12 @@ const Title = styled(motion.div)`
   }
 
   h1 {
-    font-family: CinzelDecorative-Regular;
+    font-family: Playfair;
  
-    font-size: 7.5vw;
+    font-size: 6.5vw;
     margin:-15px auto;
     letter-spacing:2px;
-    text-shadow: 1px 1px 1px ${(props) => props.theme.body};
+    // text-shadow: 1px 1px 1px ${(props) => props.theme.body};
 
     @media (max-width: 50em) {
       font-size: 12vw;
@@ -66,7 +66,7 @@ const Title = styled(motion.div)`
 
   }
   h2 {
-    font-family: Poppins bold;
+    font-family: Poppins-Light;
     font-size: 30px;
     text-shadow: 1px 1px 1px ${(props) => props.theme.body};
     font-weight: bolder;
@@ -110,7 +110,7 @@ const CoverVideo = () => {
     <VideoContainer>
       <DarkOverlay />
       <Title variants={container} initial="hidden" animate="show">
-        <div style={{"fontFamily":"CinzelDecorative-Regular"}}>
+        <div style={{"fontFamily":"Playfair"}} >
           <motion.h1
             variants={item}
             data-scroll
@@ -182,14 +182,12 @@ const CoverVideo = () => {
             data-scroll-delay="0.10"
             data-scroll-speed="4"
           >
-            f
+            f&nbsp;
           </motion.h1>
-          </div>
-          <div>
           <motion.h1
             variants={item}
             data-scroll
-            data-scroll-delay="0.095"
+            data-scroll-delay="0.10"
             data-scroll-speed="4"
           >
             I
@@ -256,8 +254,9 @@ const CoverVideo = () => {
           data-scroll
           data-scroll-delay="0.055"
           data-scroll-speed="2"
+          className={"text-[#9d7643]"}
         >
-          Incridea over the years ...
+          Incridea over the years
         </motion.h2>
       </Title>
       <video src={MainVideo} type="video/mp4" autoPlay muted loop />

@@ -38,13 +38,13 @@ function Pron() {
 
         <Parallax className='h-[100vh] mt-2' bgImage={require('./rd.jpg')} bgStyle={{ backgroundPosition: "left" }} bgImageStyle={{ objectFit: 'cover' }} strength={-200} >
           <div style={{ height: 500, }} >
-            <div style={inlineStyleRD} className='text-white font-extrabold  text-7xl'><span style={{ textShadow: "2px 2px 15px #000000" }} >RAGHU DIXIT</span> <br /><p style={{ textShadow: "2px 2px 15px #000000" }} className='py-2 text-2xl md:text-3xl font-body ' >sub oijsd here</p> </div>
+            <div style={inlineStyleRD} className='text-white font-extrabold  text-7xl'><span style={{ textShadow: "2px 2px 15px #000000" }} >RAGHU DIXIT</span> <br /><p style={{ textShadow: "2px 2px 15px #000000" }} className='py-2 text-2xl md:text-3xl font-body ' >MAY 14 <span > , </span> 7.30PM</p> </div>
 
           </div>
         </Parallax>
         <Parallax className='h-[100vh]' bgImage={require('./tb.jpg')} bgImageStyle={{ objectFit: 'cover' }} strength={-200} >
           <div style={{ height: 500 }}>
-            <div style={inlineStyleTB} className='text-white font-body font-extrabold text-6xl  md:text-7xl'><span style={{ textShadow: "2px 2px 15px #000000" }}>THAIKKUDAM BRIDGE</span> <br /><p style={{ textShadow: "2px 2px 15px #000000" }} className='py-2 text-2xl md:text-3xl font-normal ' >sub oijsd here</p> </div>
+            <div style={inlineStyleTB} className='text-white font-extrabold text-6xl  md:text-7xl'><span style={{ textShadow: "2px 2px 15px #000000" }}>THAIKKUDAM BRIDGE</span> <br /><p style={{ textShadow: "2px 2px 15px #000000" }} className='py-2 text-2xl md:text-3xl font-normal ' >MAY 15 <span> , </span> 7 PM</p> </div>
 
           </div>
         </Parallax>

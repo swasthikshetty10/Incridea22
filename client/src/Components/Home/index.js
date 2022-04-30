@@ -47,8 +47,8 @@ function Home() {
               <p className="text-gray-100 font-body text-lg  text-justify" >An amalgamation of all forms of technical, literary and cultural activities. Incridea is a celebration of fervour and talent. It is the national level techno-cultural fest of
                 <a target="blank" className="  text-[#cd9b58] hover:text-white transition-all ease-out delay-75 text-base" href="https://nmamit.nitte.edu.in/"> NMAM Institute of Technology</a>, Nitte.
               </p>
-              <div className="select-none bg-white border-0 hover:bg-opacity-100  bg-opacity-10 text-white px-6 py-2 w-fit font-bold  text-center " >
-                Registrations begin from 30th April, 5PM
+              <div className="select-none bg-white border-0 hover:bg-opacity-100  bg-opacity-10 text-white px-6 py-2 w-fit font-body  text-center " >
+                Registrations begin May Day, 9AM
               </div>
             </div>
           </Slide>
@@ -80,7 +80,7 @@ function Home() {
         <Slide direction="up">
           <div className="flex mt-[4rem] justify-center text-center items-center py-5" style={{ fontFamily: "CinzelDecorative-Bold" }}>
             <div className=" flex flex-col items-center justify-center pt-20 -mt-36 md:m-0 ">
-              <h2 className="text-3xl sm:text-4xl lg:text-6xl m-3 text-[#9d7643] p-2 sm:p-3 lg:p-4 bg-opacity-30 backdrop-blur-lg rounded-md bg-gray-900">Going live in</h2>
+              <h2 className="text-3xl sm:text-4xl lg:text-6xl m-3 text-[#9d7643] p-2 sm:p-3 lg:p-4 bg-opacity-30 backdrop-blur-lg rounded-md bg-gray-1000">countdown has begun</h2>
               <Counter setSecond={secSecond} />
             </div>
           </div>

@@ -41,7 +41,7 @@ export const persons = [
   {
     name: "Dhanish S Suvarna",
     role: "Back-End Development",
-    img: "/techteam/hacker.jpg", 
+    img: "/techteam/dhanish.jpg", 
     mob: "8073445263",
     github: "https://github.com/dhanishssuvarna",
     linkedin: "https://www.linkedin.com/in/dhanishssuvarna/",  
@@ -50,7 +50,7 @@ export const persons = [
   {
     name: "Thanmay Das",
     role: "Front-End Development",
-    img: "/techteam/hacker.jpg", 
+    img: "/techteam/tanmay.jpeg", 
     mob: "8431439127",
     github: "https://github.com/tAnboyy",
     linkedin: "https://www.linkedin.com/in/thanmay-m-das-676240193",
