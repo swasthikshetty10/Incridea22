@@ -42,7 +42,7 @@ function Modal({ data, img, closeModal }) {
                                 <div>
 
                                     <div className=" text-gray-100"> <GoLocation className="inline mr-2" />Venue - {data.venue}</div>
-                                    <div className=" text-gray-100"> <BsFillCalendar3RangeFill className="inline mr-2" />Event Date - 12/05/2022</div>
+                                    <div className=" text-gray-100"> <BsFillCalendar3RangeFill className="inline mr-2" />Event Date - {`${10 + parseInt(data.day) + 1}/05/2002`}</div>
                                     <div className=" text-gray-100"> <BiTimeFive className="inline mr-2" />Time - {data.Time}</div>
                                     <div className=" text-gray-100"> <FaBuilding className="inline mr-2" />Branch - {data.branch}  </div>
                                     {/* <div className=" text-white"> <BiTimeFive className="inline mr-2" />Team - 5:00PM</div> */}
