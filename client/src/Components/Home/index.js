@@ -74,14 +74,14 @@ function Home() {
           <div className=" shrink-0 -ml-[305px] md:-ml-[395px]  " >
             <img style={{ transform: `rotate(-${rotation})` }} className={`transform ease-linear duration-50 h-[30rem] md:h-[40rem] w-auto`} src={chakra} alt="" />
           </div>
-          <div className="shrink-0 -mr-[395px] hidden md:block -mt-[15px]">
+          <div className="shrink-0 -mr-[395px] hidden md:block -mt-[95px]">
             <img style={{ transform: `rotate(${rotation})` }} className="h-[40rem] w-auto transform ease-linear duration-50 " src={chakra} alt="" />
           </div>
         </div>
         <Slide direction="up">
           <div className="flex mt-[4rem] justify-center text-center items-center py-5" style={{ fontFamily: "CinzelDecorative-Bold" }}>
             <div className=" flex flex-col items-center justify-center pt-20 -mt-36 md:m-0 ">
-              <h2 className=" inline-flex gap-3 text-3xl sm:text-4xl lg:text-6xl m-3 text-[#9d7643] p-2 sm:p-3 lg:p-4 bg-opacity-30 backdrop-blur-lg rounded-md bg-gray-1000">Take-off in</h2>
+              <h2 className=" inline-flex gap-3 text-3xl sm:text-4xl lg:text-6xl m-3 text-[#9d7643] p-2 sm:p-3 lg:p-4 bg-opacity-30 backdrop-blur-lg tracking-wide rounded-md bg-gray-1000">Take-off in</h2>
               <Counter setSecond={secSecond} />
               <h2 className="p-1 text-md md:text-xl mt-5 text-gray-400  bg-opacity-30 backdrop-blur-lg rounded-md bg-gray-1000">...while you're here, check out our <Link to="/events" className="text-[#cd9b58] hover:text-gray-100 transition-colors ease-out ">events</Link>!</h2>
             </div>

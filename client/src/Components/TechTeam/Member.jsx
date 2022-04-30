@@ -1,7 +1,6 @@
 import { FaInstagram,FaGithub } from "react-icons/fa";
 import {FiLinkedin} from "react-icons/fi";
-import { HiOutlineMail } from "react-icons/hi";
-import { BsTelephoneOutbound } from "react-icons/bs";
+import { BsTelephone } from "react-icons/bs";
 import { Fade } from "react-awesome-reveal";
 
 const Member = ({ name, role,github,insta, linkedin, src, mob }) => {
@@ -31,11 +30,11 @@ const Member = ({ name, role,github,insta, linkedin, src, mob }) => {
               <a href={linkedin}>
               <FiLinkedin className="text-[#9d7643] hover:text-white cursor-pointer  transition-all ease-in-out text-2xl hover:text-3xl   hover:-translate-y-1   " />
               </a>
-              <a href={insta}>
+              {insta !== '#' && <a href={insta}>
               <FaInstagram className="text-[#9d7643] hover:text-white cursor-pointer  transition-all ease-in-out text-2xl hover:text-3xl   hover:-translate-y-1   " />
-              </a>
+              </a>}
               <a href={`tel:${mob}`}>
-              <BsTelephoneOutbound className="  text-[#9d7643] hover:text-white cursor-pointer  transition-all  ease-out hover:translate-x-1 text-2xl hover:text-3xl hover:-translate-y-1 " />
+              <BsTelephone className="  text-[#9d7643] hover:text-white cursor-pointer  transition-all  ease-out hover:translate-x-1 text-2xl hover:text-3xl hover:-translate-y-1 " />
               </a>
             </div>
           </div>
