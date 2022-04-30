@@ -5,9 +5,10 @@ import avatar from "../../Images/home/avatar.png"
 import Counter from "./Counter";
 import { Slide, Fade } from 'react-awesome-reveal'
 import {AiOutlineDownload} from 'react-icons/ai'
+import schedule from '../../Assets/schedule.xlsx'
+import rulebook from '../../Assets/rulebook.pdf'
 // import cloud from './cloud1.png'
 import chakra from './chakra.png'
-import { Link } from "react-router-dom";
 function Home() {
   const [rotation, setRotation] = useState("rotate-0")
   const [second, secSecond] = useState(0)
@@ -87,12 +88,12 @@ function Home() {
       </div>
       <div direction="up" delay={500}>
         <div style={{ fontFamily: "CinzelDecorative-Bold" }} className=" p-10 bg-opacity-20 backdrop-blur-lg text-white  bg-gray-900 flex flex-col-reverse gap-10 md:flex-row-reverse justify-center items-center">
-            <Link to="/events" className="px-5 py-3 inline-flex items-center gap-2 font-bold text-[#9d7643] transition-colors ease-out transition-duration-50 text-xl hover:bg-[#9d7643] hover:text-white border-[#9d7643] border-2">
+            <a href={rulebook} download={'Incridea 22 Rulebook.pdf'} target="_blank" rel="noreferrer" className="px-5 py-3 inline-flex items-center gap-2 font-bold text-[#9d7643] transition-colors ease-out transition-duration-50 text-xl hover:bg-[#9d7643] hover:text-white border-[#9d7643] border-2">
             Download Rulebook <AiOutlineDownload className="text-2xl" />
-            </Link>
-            <Link to="/events" className="px-5 py-3 inline-flex items-center gap-2 font-bold text-[#9d7643] transition-colors ease-in transition-duration-50 text-xl hover:bg-[#9d7643] hover:text-white border-[#9d7643] border-2">
+            </a>
+            <a href={schedule} download={"Incridea 22 Schedule.xlsx"} target="_blank" rel="noreferrer" className="px-5 py-3 inline-flex items-center gap-2 font-bold text-[#9d7643] transition-colors ease-in transition-duration-50 text-xl hover:bg-[#9d7643] hover:text-white border-[#9d7643] border-2">
               Download Schedule <AiOutlineDownload className="text-2xl" />
-            </Link>
+            </a>
           {/* <div className="">
             <h2 className="font-semibold text-3xl" style={{ fontFamily: "CinzelDecorative-Bold" }}>
               Be Part of Incridea's Events

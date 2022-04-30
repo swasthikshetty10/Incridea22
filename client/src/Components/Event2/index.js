@@ -50,7 +50,7 @@ function Event2() {
 
 
 
-          <div className="max-w-screen-xl flex flex-wrap justify-center gap-x-10 gap-y-14 ">
+          {elements.length > 0 ? <div className="max-w-screen-xl flex flex-wrap justify-center gap-x-10 gap-y-14 ">
             {elements.map((value, index) => {
               return (
                 <EventsCard
@@ -67,7 +67,10 @@ function Event2() {
                 />
               );
             })}
-          </div>
+          </div>:  <>
+              <h3 className="text-[#9d7643] mt-6 pt-1  text-3xl font-body text-center">No events found!</h3>
+              <p className="text-gray-500  lg:mb-6 pt-1 pb-3 text-lg font-body text-center">Try changing up the filters?</p>
+            </>}
 
 
         </div>
