@@ -14,24 +14,38 @@ import { ChakraProvider } from '@chakra-ui/react';
 import Footer from './Components/Footer';
 import Pronite from "./Components/Pronite";
 import TechTeam from "./Components/TechTeam"
+// ScrollToTop.jsx
+import { useEffect } from "react";
+import { useLocation } from "react-router";
 
+const ScrollToTop = (props) => {
+  const location = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
+  return <>{props.children}</>
+};
 function App() {
 
   return (
     <ChakraProvider>
-    <div className="App">
-      <Routes>
-        <Route exact index path="/" element={<Home />} />
-        <Route exact path="/events" element={<Event2 />} />
-        <Route exact path="/gallery" element={<Gallery />} />
-        <Route exact path="/Sponsors" element={<Sponsor />} />
-        <Route exact path="/team" element={<Team />} />
-        <Route exact path="/pronite" element={<Pronite />} />
-        <Route exact path="/TechTeam" element={<TechTeam />} />
-        <Route path="*" element={<Navigate to="/" replace />} />
-      </Routes>
-	  <Footer/>
-    </div>
+      <div className="App">
+        <ScrollToTop>
+
+          <Routes>
+            <Route exact index path="/" element={<Home />} />
+            <Route exact path="/events" element={<Event2 />} />
+            <Route exact path="/gallery" element={<Gallery />} />
+            <Route exact path="/Sponsors" element={<Sponsor />} />
+            <Route exact path="/team" element={<Team />} />
+            <Route exact path="/pronite" element={<Pronite />} />
+            <Route exact path="/TechTeam" element={<TechTeam />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
+          </Routes>
+          <Footer />
+        </ScrollToTop>
+      </div>
     </ChakraProvider>
   );
 

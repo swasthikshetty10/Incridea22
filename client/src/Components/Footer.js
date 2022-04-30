@@ -3,16 +3,16 @@ import { FaInstagram, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import logo from "../Images/logo.png";
 function Footer() {
- 
+
   return (
     <>
-      <footer className="p-4 gap-2 bg-[#000] flex flex-col md:flex-row flex-wrap  justify-center items-center md:justify-between md:p-6">
+      <footer className="p-4 gap-2 z-100 bg-black flex flex-col md:flex-row flex-wrap  justify-center items-center md:justify-between md:p-6">
         <div>
           <img className="h-12" src={logo} alt="logo" />
         </div>
         <div className="text-sm text-center text-gray-200">
           <p className="mb-1">
-            <Link to="/techteam"  className="transition-all ease-out delay-75 text-[#cd9b58] hover:text-white text-base">
+            <Link to="/techteam" className="transition-all ease-out delay-75 text-[#cd9b58] hover:text-white text-base">
               Made with ♥ by the Incridea Technical Team
             </Link>
           </p>

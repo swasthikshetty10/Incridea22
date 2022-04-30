@@ -6,10 +6,10 @@ import { Fade } from "react-awesome-reveal";
 function EventsCard({ name, src, desc, time, venue, day, branch, round, data }) {
 
     const [openModal, setModal] = useState(false);
-    
+
     return (
         <>
-             <Fade duration={500} >
+            <Fade>
                 <div className="relative flex  flex-col mx-0 justify-center rounded-2xl shadow-md hover:shadow-lg  cursor-pointer transition-all ease-out delay-100 hover:-translate-y-1 hover:scale-105 duration-300    "  >
 
                     <div className="relative flex  flex-col mx-0 justify-center rounded-2xl shadow-md hover:shadow-lg  cursor-pointer transition-all ease-out delay-100 hover:-translate-y-1 hover:scale-105 duration-300    " >
@@ -18,20 +18,20 @@ function EventsCard({ name, src, desc, time, venue, day, branch, round, data }) 
                             <img className="aspect-video rounded-t-none object-cover object-center" alt='Event Poster' src={src} />
                             <div className="p-2 flex flex-col justify-start gap-1 h-full  ">
                                 <div className='text-center pb-2'>
-                                    <h1 className={`${name.length > 17?  "text-xl" : "text-2xl "} text-center font-medium text-gray-100 `}>{name}</h1>
+                                    <h1 className={`${name.length > 17 ? "text-xl" : "text-2xl "} text-center font-medium text-gray-100 `}>{name}</h1>
                                 </div>
 
                                 <div>
 
                                     <div className={`text-center text-gray-400`}>
                                         <div>
-                                        <span className={`inline-flex font-bold overflow-wrap mr-2   ${`${venue}`.length > 25 ?
-                                       (`${venue}`.length > 32 ? 'text-xs' : "text-sm")
-                                        : 'text-md' }`  }>{venue}</span>
+                                            <span className={`inline-flex font-bold overflow-wrap mr-2   ${`${venue}`.length > 25 ?
+                                                (`${venue}`.length > 32 ? 'text-xs' : "text-sm")
+                                                : 'text-md'}`}>{venue}</span>
                                         </div>
                                         <div className='flex justify-center text-sm '>
-                                        <span className='inline-flex overflow-wrap  pr-2'>{time}</span> <span className='font-extrabold text-[#9d7643]'>|</span>
-                                        <span className='inline-flex overflow-wrap  pl-2'>Day {day}</span>
+                                            <span className='inline-flex overflow-wrap  pr-2'>{time}</span> <span className='font-extrabold text-[#9d7643]'>|</span>
+                                            <span className='inline-flex overflow-wrap  pl-2'>Day {day}</span>
                                         </div>
                                     </div>
                                     <div className='text-center  text-sm text-gray-500'>

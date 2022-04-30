@@ -13,6 +13,7 @@ function FilterBar({ day, setDay, query, setQuery }) {
               className="form-control relative flex-auto min-w-0 block w-full px-3 py-2 text-base font-normal text-[#EDEDED] bg-[#444444] bg-clip-padding border-3 border-none  transition ease-in-out m-0 focus:text-gray-700 focus:bg-white  focus:outline-none"
               placeholder="Search Events"
             />
+            <button type="submit"></button>
           </div>
         </div>
       </div>
