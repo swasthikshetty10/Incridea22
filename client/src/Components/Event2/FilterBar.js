@@ -7,7 +7,14 @@ function FilterBar({ day, setDay, query, setQuery }) {
         <div className=" w-52 xl:w-72">
           <div className="rounded-none overflow-hidden input-group relative flex items-stretch w-full ">
             <input
-              onChange={(e) => setQuery(e.target.value)}
+              onChange={(e) =>{
+                setQuery(e.target.value)
+              }}
+              onKeyDown={(e) => {
+                if(e.key === 'Enter') {
+                  e.target.blur()
+                }
+              }}
               value={query}
               type="search"
               className="form-control relative flex-auto min-w-0 block w-full px-3 py-2 text-base font-normal text-[#EDEDED] bg-[#444444] bg-clip-padding border-3 border-none  transition ease-in-out m-0 focus:text-gray-700 focus:bg-white  focus:outline-none"
