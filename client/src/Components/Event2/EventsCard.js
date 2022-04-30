@@ -15,8 +15,11 @@ function EventsCard({ name, src, desc, time, venue, day, branch, round, data }) 
                         <div className="mx-auto flex w-60 h-72 flex-col pb-8 justify-start bg-[#1d1d1d]/50  rounded-none shadow-xl  ">
                             <img className="aspect-video rounded-t-none object-cover object-center" alt='Event Poster' src={src} />
                             <div className="p-2 flex flex-col justify-start gap-1 h-full  ">
-                                <div className='text-center pb-2'>
+                                <div className='text-center pb-1'>
                                     <h1 className={`${name.length > 15 ? name.length > 20 ? "text-lg" : "text-xl" : "text-2xl "} text-center font-medium text-gray-100 `}>{name}</h1>
+                                    <div className='text-center  text-sm text-gray-500'>
+                                        {round && `round ${round}`}
+                                    </div>
                                 </div>
 
                                 <div>
@@ -32,9 +35,7 @@ function EventsCard({ name, src, desc, time, venue, day, branch, round, data }) 
                                             <span className='inline-flex overflow-wrap  pl-2'> {time ? time : "NA"}</span>
                                         </div>
                                     </div>
-                                    <div className='text-center  text-sm text-gray-500'>
-                                        {round && `round ${round}`}
-                                    </div>
+
 
                                 </div>
                                 {/* <p className="text-sm tracking-tight text-center font-medium text-[#a5a5a5] leading-6  "> {desc} </p> */}
