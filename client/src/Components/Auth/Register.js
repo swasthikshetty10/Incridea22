@@ -32,6 +32,7 @@ import InputField from './InputField';
 import { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router';
+import { AuthContext } from '../../Context/AuthContext';
 
 
 
@@ -43,7 +44,12 @@ function Register() {
     const { email } = useParams();
     const [loading, setLoading] = useState(true);
     const navigate = useNavigate()
-
+    const user = AuthContext()
+    useEffect(() => {
+        if (user) {
+            navigate("/profile")
+        }
+    }, [])
     const HandleSubmit = (value) => {
         const data = { email, ...value }
         axios.post('http://localhost:8080/auth/register', data).then( //register user

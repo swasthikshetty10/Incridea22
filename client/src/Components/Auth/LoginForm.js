@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './styles.css';
 import SignIn from './SignIn';
 import SignUp from './SignUp';
@@ -13,10 +13,18 @@ import {
 	RightOverlayPanel,
 	Title,
 } from './StyledComponentsLogin';
-import Payment from '../Payments/Payment';
+import { AuthContext } from '../../Context/AuthContext';
+import { useNavigate } from 'react-router-dom';
 
 const LoginForm = () => {
 	const [signIn, toggle] = useState(true);
+	const user = AuthContext();
+	const navigate = useNavigate()
+	useEffect(() => {
+		if (user) {
+			navigate("/profile")
+		}
+	}, [])
 	return (
 		<div className='loginForm'>
 

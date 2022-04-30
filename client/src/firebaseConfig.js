@@ -2,15 +2,12 @@ import { initializeApp } from 'firebase/app';
 import {
     getFirestore,
     collection,
-    doc,
     getDocs,
-    addDoc,
-    updateDoc,
     query,
     where,
 } from 'firebase/firestore';
 import {
-    getAuth,
+    getAuth, signInWithEmailAndPassword
 } from 'firebase/auth';
 
 const firebaseConfig = {
@@ -24,9 +21,8 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
-const auth = getAuth(app);
+export const auth = getAuth(app)
 export const exportDb = db;
-
 export const exportAuth = auth;
 
 export async function getUserInfo(uid) {
@@ -43,5 +39,8 @@ export async function getUserInfo(uid) {
         throw new Error('No user logged in');
     }
 }
-
+export async function loginUser(email, password) {
+    const userCred = await signInWithEmailAndPassword(auth, email, password)
+    return userCred.user
+}
 export const key = firebaseConfig.apiKey;

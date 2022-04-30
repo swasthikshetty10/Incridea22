@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Formik, Form } from 'formik';
 import * as Yup from 'yup';
 import {
@@ -10,13 +10,17 @@ import {
 } from './StyledComponentsLogin';
 import './styles.css';
 import InputField from './InputField';
-
+import { loginUser } from '../../firebaseConfig';
+import { AuthContext } from '../../Context/AuthContext';
+import { AiOutlineLoading3Quarters } from 'react-icons/ai'
 const SignIn = ({ signIn }) => {
 	let initialValues = {
 		mail: '',
 		password: '',
 	};
-
+	const [loading, setLoading] = useState(false);
+	const successSpan = useRef()
+	const user = AuthContext()
 	const validate = Yup.object().shape({
 		mail: Yup.string().email().required('Email is required'),
 
@@ -29,8 +33,22 @@ const SignIn = ({ signIn }) => {
 		<Formik
 			initialValues={initialValues}
 			validationSchema={validate}
-			onSubmit={(values) => {
+			onSubmit={async (values) => {
 				console.log(values);
+				setLoading(true)
+				try {
+					await loginUser(values.mail, values.password)
+					if (!user) {
+						successSpan.current.innerHTML = `<p class="font-semibold text-red-500">Invalid Email or Password</p>`
+					}
+					setLoading(false)
+				} catch {
+					setLoading(false)
+					if (!user) {
+						successSpan.current.innerHTML = `<p class="font-semibold text-red-500">Invalid Email or Password</p>`
+					}
+				}
+
 			}}
 		>
 			{(formik) => {
@@ -46,8 +64,12 @@ const SignIn = ({ signIn }) => {
 										type='password'
 										placeholder='Password'
 									/>
+									<span className="text-center mt-2" ref={successSpan}></span>
+
 									<Anchor href='/forgot'>Forgot your password?</Anchor>
-									<Button type='submit'>Sign In</Button>
+									<Button disabled={loading} type='submit'>
+										{loading ? <> <AiOutlineLoading3Quarters className=" animate-spin text-lg " /> <span className=''>Logging In...</span></> : 'Login'}
+									</Button>
 								</SignInFormCustom>
 							</SignInContainer>
 						</Form>
