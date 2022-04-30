@@ -2,7 +2,7 @@ import styled from 'styled-components/macro';
 import { device } from './device';
 
 export const Container = styled.div`
-	background-color: #fff;
+	background-color: #0a0a0a;
 	/* border-radius: 10px; */
 	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 	position: relative;
@@ -70,7 +70,7 @@ export const SignInContainer = styled.div`
 `;
 
 export const SignUpFormCustom = styled.div`
-	background-color: #ffffff;
+	background-color: #0a0a0a;
 	padding: 20px 50px;
 	height: 100%;
 	text-align: center;
@@ -84,7 +84,9 @@ export const SignUpFormCustom = styled.div`
 `;
 
 export const SignInFormCustom = styled.div`
-	background-color: #ffffff;
+	background: #9d7643;													//form background										
+	background: -webkit-linear-gradient(to bottom right, #262018, #0a0a0a); 
+	background: linear-gradient(to bottom right, #262018, #0a0a0a);                	
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -101,19 +103,29 @@ export const SignInFormCustom = styled.div`
 	}
 `;
 
-export const Title = styled.h1`
+export const Title = styled.h1`			//heading text
 	font-weight: bold;
 	padding-bottom: 20px;
+	color: #fff;
+	font-size:35px;
 	margin: 0;
 `;
 
-export const Input = styled.input`
-	background-color: #eee;
+export const Input = styled.input`  //input
+	background-color: #333333;
 	border: none;
 	padding: 12px 15px;
 	margin: 8px 0;
 	width: 100%;
+	transition: all 0.5s ease;
+	
+	&:focus{
+		background-color: #fff;
+	}
+
+
 `;
+// :
 
 export const Email = styled.input`
 	background-color: #eee;
@@ -144,8 +156,8 @@ export const Select = styled.select`
 
 export const Button = styled.button`
 	border-radius: 20px;
-	border: 1px solid #ff4b2b;
-	background-color: #ff4b2b;
+	border: 1px solid #9d7643;
+	background-color: #9d7643;
 	color: #ffffff;
 	font-size: 12px;
 	font-weight: bold;
@@ -167,7 +179,7 @@ export const GhostButton = styled(Button)`
 `;
 
 export const Anchor = styled.a`
-	color: #333;
+	color: #ffffff;					//forgot color white
 	font-size: 14px;
 	text-decoration: none;
 	margin: 15px 0;
@@ -196,9 +208,9 @@ export const OverlayContainer = styled.div`
 `;
 
 export const Overlay = styled.div`
-	background: #ff416c;
-	background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c);
-	background: linear-gradient(to right, #ff4b2b, #ff416c);
+	background: #9d7643;
+	background: -webkit-linear-gradient(to bottom right, #eb9b36, #54350d); //golden color background
+	background: linear-gradient(to bottom right, #eb9b36, #54350d);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
