@@ -73,7 +73,7 @@ const textVariants = {
       ease: "easeInOut",
     },
   },
- 
+
 };
 
 const pathVariants = {
@@ -92,7 +92,7 @@ const pathVariants = {
   },
 };
 
-const Loader = () => {
+const Loader = ({ animate }) => {
   return (
     <Container
       initial={{
@@ -108,15 +108,15 @@ const Loader = () => {
       }}
     >
 
-     {/* <img src = {logo} alt="Incredia"/> */}
+      {/* <img src = {logo} alt="Incredia"/> */}
 
-          <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-      width="2480.000000pt" height="997.000000pt" viewBox="0 0 2480.000000 997.000000"
-      preserveAspectRatio="xMidYMid meet">
+      <svg className={animate ? "animate-pulse transition ease-in-out  " : " "} version="1.0" xmlns="http://www.w3.org/2000/svg"
+        width="2480.000000pt" height="997.000000pt" viewBox="0 0 2480.000000 997.000000"
+        preserveAspectRatio="xMidYMid meet">
 
-      <g transform="translate(0.000000,997.000000) scale(0.100000,-0.100000)"
-      fill="#000000" stroke="none">
-      <motion.path variants={pathVariants}
+        <g transform="translate(0.000000,997.000000) scale(0.100000,-0.100000)"
+          fill="#000000" stroke="none">
+          <motion.path variants={pathVariants}
             initial="hidden"
             animate="visible"
             d="M5075 8704 c-22 -2 -92 -9 -155 -15 -177 -16 -376 -53 -590 -108
@@ -140,7 +140,7 @@ const Loader = () => {
       122 426 319 968 454 1248 181 374 317 560 490 672 64 42 166 81 210 81 32 0
       50 17 50 45 0 39 -221 191 -415 285 -218 105 -532 191 -866 236 -108 14 -655
       28 -754 18z"/>
-      <motion.path variants={pathVariants}
+          <motion.path variants={pathVariants}
             initial="hidden"
             animate="visible"
             d="M17441 8643 c-5 -10 -25 -76 -46 -148 -20 -71 -70 -238 -110 -370
@@ -186,13 +186,13 @@ const Loader = () => {
       -271 -7 -46 -18 -58 -118 -128 -87 -61 -162 -95 -226 -103 -64 -7 -95 11 -124
       75 -19 41 -21 64 -21 182 2 222 48 442 159 754 95 267 287 667 406 841 105
       155 234 286 324 326 40 19 170 27 178 12z"/>
-      <motion.path variants={pathVariants}
+          <motion.path variants={pathVariants}
             initial="hidden"
             animate="visible"
             d="M14710 8404 c-143 -21 -223 -58 -320 -150 -227 -215 -223 -573 9
       -800 109 -106 218 -148 381 -148 157 0 268 46 382 157 173 168 218 427 112
       646 -37 76 -160 199 -240 239 -93 47 -227 70 -324 56z"/>
-      <motion.path variants={pathVariants}
+          <motion.path variants={pathVariants}
             initial="hidden"
             animate="visible"
             d="M12721 6474 c-194 -129 -355 -233 -356 -232 -2 2 21 77 51 168 29 91
@@ -226,7 +226,7 @@ const Loader = () => {
       444 86 214 103 378 228 590 451 113 118 141 162 102 157 -8 -1 -47 -13 -86
       -27 -247 -86 -432 -30 -524 158 -54 110 -63 171 -56 351 4 88 9 179 12 203 5
       36 4 42 -12 41 -11 0 -178 -106 -373 -235z"/>
-      <motion.path variants={pathVariants}
+          <motion.path variants={pathVariants}
             initial="hidden"
             animate="visible"
             d="M5033 3220 c-8 -19 -23 -56 -33 -82 -66 -163 -283 -560 -412 -752
@@ -291,38 +291,38 @@ const Loader = () => {
       -30z m-7786 -466 c35 -35 7 -84 -48 -84 -39 0 -56 15 -56 50 0 14 5 31 12 38
       17 17 74 15 92 -4z m4250 0 c35 -35 7 -84 -48 -84 -39 0 -56 15 -56 50 0 14 5
       31 12 38 17 17 74 15 92 -4z"/>
-      <motion.path variants={pathVariants}
+          <motion.path variants={pathVariants}
             initial="hidden"
             animate="visible"
             d="M8870 2801 c-73 -23 -128 -71 -154 -133 -23 -53 -21 -150 4 -197 42
       -84 152 -143 232 -126 116 25 188 113 188 230 0 122 -81 214 -200 229 -25 3
       -56 1 -70 -3z"/>
-      <motion.path variants={pathVariants}
+          <motion.path variants={pathVariants}
             initial="hidden"
             animate="visible"
             d="M10391 2623 l-41 -83 80 0 80 0 -33 68 c-19 37 -36 74 -39 82 -3 9
       -22 -19 -47 -67z"/>
-      <motion.path variants={pathVariants}
+          <motion.path variants={pathVariants}
             initial="hidden"
             animate="visible"
             d="M13300 2705 l0 -95 60 0 c100 0 150 32 150 95 0 63 -50 95 -150 95
       l-60 0 0 -95z"/>
-      <motion.path variants={pathVariants}
+          <motion.path variants={pathVariants}
             initial="hidden"
             animate="visible"
             d="M14641 2623 l-41 -83 80 0 80 0 -33 68 c-19 37 -36 74 -39 82 -3 9
       -22 -19 -47 -67z"/>
-      <motion.path variants={pathVariants}
+          <motion.path variants={pathVariants}
             initial="hidden"
             animate="visible"
             d="M17090 2575 l0 -228 93 7 c124 8 171 32 209 105 38 72 38 146 2 219
       -40 81 -90 107 -225 118 l-79 7 0 -228z"/>
-      <motion.path variants={pathVariants}
+          <motion.path variants={pathVariants}
             initial="hidden"
             animate="visible"
             d="M18531 2623 l-41 -83 80 0 80 0 -33 68 c-19 37 -36 74 -39 82 -3 9
       -22 -19 -47 -67z"/>
-      </g>
+        </g>
       </svg>
 
       {/* <svg
