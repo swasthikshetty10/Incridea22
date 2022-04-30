@@ -33,6 +33,7 @@ import { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router';
 import { AuthContext } from '../../Context/AuthContext';
+import { useContext } from 'react'
 
 
 
@@ -44,7 +45,7 @@ function Register() {
     const { email } = useParams();
     const [loading, setLoading] = useState(true);
     const navigate = useNavigate()
-    const user = AuthContext()
+    const user = useContext(AuthContext)
     useEffect(() => {
         if (user) {
             navigate("/profile")
@@ -52,7 +53,7 @@ function Register() {
     }, [])
     const HandleSubmit = (value) => {
         const data = { email, ...value }
-        axios.post('http://localhost:8080/auth/register', data).then( //register user
+        axios.post('http://143.110.253.237:8080/auth/register', data).then( //register user
             async (res) => {
                 console.log(data);
                 alert('login success') //TODO: for now
@@ -72,7 +73,7 @@ function Register() {
 
     useEffect(() => {
         setLoading(true)
-        axios.post(`http://localhost:8080/auth/verifyEmail`, { //Check if email verified and paid and not in participants
+        axios.post(`http://143.110.253.237:8080/auth/verifyEmail`, { //Check if email verified and paid and not in participants
             email
         }).then((res => {
             setLoading(false)

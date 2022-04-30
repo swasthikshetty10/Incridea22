@@ -6,7 +6,7 @@ import logo from "../Images/logo.png";
 function Navbar({ tab, sticky }) {
   const [click, setClick] = useState(false);
   const [offset, setOffset] = useState(0);
-  
+
   useEffect(() => {
     const scrollFn = () => {
       setOffset(window.pageYOffset)
@@ -40,11 +40,11 @@ function Navbar({ tab, sticky }) {
             <img src={logo} className="mx-3 h-9 md:h-16" alt="Incridea Logo" />
           </Link>
           <Link
-                  to="/register"
-                  className={`block md:hidden border-2 border-[#9d7643] p-2 text-sm font-nav font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633] md:border-0 md:hover:text-white text-[#9d7643]`}
-                >
-                  Login/Register
-                </Link>
+            to="/register"
+            className={`block md:hidden border-2 border-[#9d7643] p-2 text-sm font-nav font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633] md:border-0 md:hover:text-white text-[#9d7643]`}
+          >
+            Login/Register
+          </Link>
           <div className="flex md:hidden">
             <button
               data-collapse-toggle="mobile-menu-4"
@@ -148,7 +148,7 @@ function Navbar({ tab, sticky }) {
               </li>
               <li>
                 <Link
-                  to="/register"
+                  to="/login"
                   className={`hidden md:block border-2 border-[#9d7643] py-2 pr-4 pl-3 text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633] md:border-0 md:hover:text-white text-[#9d7643]`}
                 >
                   Login/Register

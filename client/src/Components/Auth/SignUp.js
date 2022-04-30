@@ -44,7 +44,7 @@ const SignUp = ({ signIn }) => {
   }
   const getOTP = async (values) => {
     try {
-      await axios.post('http://localhost:8080/auth/generateOtp', {
+      await axios.post('http://143.110.253.237:8080/auth/generateOtp', {
         email: values.mail,
         collegeName: values.college
       });
@@ -65,7 +65,7 @@ const SignUp = ({ signIn }) => {
 
   const validateOTP = async (values) => {
     try {
-      await axios.post('http://localhost:8080/auth/verifyOtp', {
+      await axios.post('http://143.110.253.237:8080/auth/verifyOtp', {
         email: values.mail,
         OTP: values.otp,
       });

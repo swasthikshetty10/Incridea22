@@ -12,7 +12,7 @@ function Payment(props) {
 		props.clearMsg()
 		setLoading(true)
 		try {
-			const response = await axios.post('http://localhost:8080/payments/createOrder', {
+			const response = await axios.post('http://143.110.253.237:8080/payments/createOrder', {
 				email: props.email
 			})
 			const { data } = response
@@ -27,7 +27,7 @@ function Payment(props) {
 				"handler": async function (response) {
 					//TODO: EVERYTHING IN COMMENTS
 					//TODO: USE TIMEOUTS WITH AXIOS --> can client change??
-					const res = await axios.post('http://localhost:8080/auth/verifyPayment', {
+					const res = await axios.post('http://143.110.253.237:8080/auth/verifyPayment', {
 						email: props.email,
 						payment_id: response.razorpay_payment_id,
 						order_id: response.razorpay_order_id,

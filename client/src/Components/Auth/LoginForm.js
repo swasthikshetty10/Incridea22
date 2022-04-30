@@ -14,11 +14,12 @@ import {
 	Title,
 } from './StyledComponentsLogin';
 import { AuthContext } from '../../Context/AuthContext';
+import { useContext } from 'react'
 import { useNavigate } from 'react-router-dom';
 
 const LoginForm = () => {
 	const [signIn, toggle] = useState(true);
-	const user = AuthContext();
+	const user = useContext(AuthContext)
 	const navigate = useNavigate()
 	useEffect(() => {
 		if (user) {

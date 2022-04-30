@@ -12,6 +12,7 @@ import './styles.css';
 import InputField from './InputField';
 import { loginUser } from '../../firebaseConfig';
 import { AuthContext } from '../../Context/AuthContext';
+import { useContext } from 'react'
 import { AiOutlineLoading3Quarters } from 'react-icons/ai'
 const SignIn = ({ signIn }) => {
 	let initialValues = {
@@ -20,7 +21,7 @@ const SignIn = ({ signIn }) => {
 	};
 	const [loading, setLoading] = useState(false);
 	const successSpan = useRef()
-	const user = AuthContext()
+	const user = useContext(AuthContext)
 	const validate = Yup.object().shape({
 		mail: Yup.string().email().required('Email is required'),
 
