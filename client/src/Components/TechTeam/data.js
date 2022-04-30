@@ -32,8 +32,8 @@ export const persons = [
   {
     name: "Numan Naeem",
     role: "UI Design",
-    img: "/techteam/bharath.jpg", 
-    mob: "#",
+    img: "/techteam/numan.jpeg", 
+    mob: "8606521714",
     github: "https://github.com/numannaeem",
     linkedin: "https://www.linkedin.com/in/numanhere",  
     insta: "https://instagram.com/num4n_?igshid=YmMyMTA2M2Y="
