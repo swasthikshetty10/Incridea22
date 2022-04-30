@@ -1,23 +1,23 @@
 export const persons = [
   {
     name: "RITHESH BEKAL",
-    role: "CORDINATOR",
+    role: "COORDINATOR",
     img: "/team/Rithesh.png", email:"rithesh13bekal@gmail.com",   mob: "9620004763",
   },
   {
     name: "RAMSHRAVAN RAI",
-    role: "CO-CORDINATOR",
+    role: "CO-COORDINATOR",
     img: "/team/RAM.png", email:"ramshravan222@gmail.com",   mob: "8660305851",
   },
   {
     name: "SHRIVIDYA",
-    role: "CO-CORDINATOR",
+    role: "CO-COORDINATOR",
     img: "/team/Srividya.png", email:"shrividya2k@gmail.com",   mob: "9663312695",
   },
   {
     name: "VIJETH ULLAL",
     role: "CULTURAL CORDINATOR",
-    img:"/team/", email:"vijethula1402@gmail.com",   mob: "9480565835",
+    img:"/team/Vijeth.png", email:"vijethula1402@gmail.com",   mob: "9480565835",
   },
   {
     name: "VINAY SAMANTRI",
@@ -79,7 +79,7 @@ export const persons = [
   {
     name: "ADITYA BHAT",
     role: "HEAD OF JURY COMMITTEE",
-    img:"/team/", email:"madibhat@gmail.com",   mob: "9611309109",
+    img:"/team/ADB.png", email:"madibhat@gmail.com",   mob: "9611309109",
   },
   {
     name: "NIHAL SHETTY",
@@ -90,7 +90,7 @@ export const persons = [
   {
     name: "SHREESHA SHETTY",
     role: "HEAD OF RE",
-    img:"/team/", email:"Shreesha12129@gmail.com",   mob: "9686596283",
+    img:"/team/Shreesha.png", email:"Shreesha12129@gmail.com",   mob: "9686596283",
   },
   {
     name: "ANUP RAI",
@@ -100,6 +100,17 @@ export const persons = [
   {
     name: "RAHUL BHAT",
     role: "HEAD OF TECHNICAL COMMITTEE",
-    img:"/team/", email:"rahulbhat0201@gmail.com",   mob: "8951838121",
-  }
+    img:"/team/Rahul.png", email:"rahulbhat0201@gmail.com",   mob: "8951838121",
+  },
+  {
+    name: "PRAVEEN DEVADIGA",
+    role: "",
+    img:"/team/praveen.png", email:"rithesh13bekal@gmail.com",   mob: "9663094655",
+  },
+  {
+    name: "PREM",
+    role: "",
+    img:"/team/Prem.png", email:"rithesh13bekal@gmail.com",   mob: "9663094655",
+  },
+
 ];

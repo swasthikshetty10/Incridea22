@@ -657,156 +657,16 @@ export const eventData = [
 
     {
         "name": "Lazzerena",
-        "round": "1",
-        "day": "1",
         "Time": "11:00 am",
         "venue": "NC 14",
         "branch": "ECE",
         "image": "/events/EC/LAZZRENA.png",
         "smallDesc": "Lazzerena is a tag game which allows amateur video game lovers to experience war zone scena rio in real life.  ",
         "fullDesc": "It is played with guns which emit infrared beams. Infrared sensitive sensors which are integ rat ed on jackets are worn by each player. The game will comprise of two teams and each team will t ry to knockout the opponent by firing on their respect ive sensors.",
-        // "roundDetails": {
-        //     "round 1": "The Mind Fizz - Teams will be given a set of questions related to movies(Bollywood/ Hollywood /Sandalwood).Based on the scores, the top teams will qualify for the next round.",
-        //     "round 2": "Pictoword - A combination of pictures that form the movie name/ song name will be displayed on the screen.The participants must guess the word from the pictures they see on the screen into one word.Teams guessing the maximum number of movies qua lify for the next round.",
-        //     "round 3": "Sun Sa a thiya!A Bollywood song or a famous dialogue is played to all the participants and they have to guess the movie. Teams guessing the maximum number of movies will qualify for the final round.",
-        //     "round 4": "(Final Round): Battle of the charade-Teams will be given movie titles(Bollywood / Hollywood) that must be presente d to their partnersin a chained manner.The team that has the highest score appears as the winner."
-
-        // },
 
         "rules": ["The game will consist of at  most 2 teams of 4 members each.",
             "Participants can be in the game until the opponent team is defeated.",
             "Each participant's entry fee will be Rs.5O and can participant any number of times."
-
-
-
-        ],
-
-        // "judgingCriteria": ["Concept and content", "Execution of the movie", "Scripting, editing, direction, and acting"],
-        "contactDetails": [
-            {
-                "name": "K Pavithra Achar",
-                "phoneNumber": "7892238837",
-                "emailID": "pavithraachar39@gmail.com"
-            },
-            {
-                "name": "Varun Taliparambe Vitel ",
-                "phoneNumber": "7619240912",
-                "emailID": "varuntv80@gmail.com"
-            }
-
-        ]
-
-    },
-
-    {
-        "name": "Lazzerena",
-        "round": "2",
-        "day": "2",
-        "Time": "9:00 am",
-        "venue": "NC 14",
-        "branch": "ECE",
-        "image": "/events/EC/LAZZRENA.png",
-        "smallDesc": "Lazzerena is a tag game which allows amateur video game lovers to experience war zone scena rio in real life.  ",
-        "fullDesc": "It is played with guns which emit infrared beams. Infrared sensitive sensors which are integ rat ed on jackets are worn by each player. The game will comprise of two teams and each team will t ry to knockout the opponent by firing on their respect ive sensors.",
-        // "roundDetails": {
-        //     "round 1": "The Mind Fizz - Teams will be given a set of questions related to movies(Bollywood/ Hollywood /Sandalwood).Based on the scores, the top teams will qualify for the next round.",
-        //     "round 2": "Pictoword - A combination of pictures that form the movie name/ song name will be displayed on the screen.The participants must guess the word from the pictures they see on the screen into one word.Teams guessing the maximum number of movies qua lify for the next round.",
-        //     "round 3": "Sun Sa a thiya!A Bollywood song or a famous dialogue is played to all the participants and they have to guess the movie. Teams guessing the maximum number of movies will qualify for the final round.",
-        //     "round 4": "(Final Round): Battle of the charade-Teams will be given movie titles(Bollywood / Hollywood) that must be presente d to their partnersin a chained manner.The team that has the highest score appears as the winner."
-
-        // },
-
-        "rules": ["The game will consist of at  most 2 teams of 4 members each.",
-            "Participants can be in the game until the opponent team is defeated.",
-            "Each participant's entry fee will be Rs.5O and can participant any number of times."
-
-
-
-        ],
-
-        // "judgingCriteria": ["Concept and content", "Execution of the movie", "Scripting, editing, direction, and acting"],
-        "contactDetails": [
-            {
-                "name": "K Pavithra Achar",
-                "phoneNumber": "7892238837",
-                "emailID": "pavithraachar39@gmail.com"
-            },
-            {
-                "name": "Varun Taliparambe Vitel ",
-                "phoneNumber": "7619240912",
-                "emailID": "varuntv80@gmail.com"
-            }
-
-        ]
-
-    },
-
-    {
-        "name": "Lazzerena",
-        "round": "3",
-        "day": "3",
-        "Time": "9:00 am",
-        "venue": "NC 14",
-        "branch": "ECE",
-        "image": "/events/EC/LAZZRENA.png",
-        "smallDesc": "Lazzerena is a tag game which allows amateur video game lovers to experience war zone scena rio in real life.  ",
-        "fullDesc": "It is played with guns which emit infrared beams. Infrared sensitive sensors which are integ rat ed on jackets are worn by each player. The game will comprise of two teams and each team will t ry to knockout the opponent by firing on their respect ive sensors.",
-        // "roundDetails": {
-        //     "round 1": "The Mind Fizz - Teams will be given a set of questions related to movies(Bollywood/ Hollywood /Sandalwood).Based on the scores, the top teams will qualify for the next round.",
-        //     "round 2": "Pictoword - A combination of pictures that form the movie name/ song name will be displayed on the screen.The participants must guess the word from the pictures they see on the screen into one word.Teams guessing the maximum number of movies qua lify for the next round.",
-        //     "round 3": "Sun Sa a thiya!A Bollywood song or a famous dialogue is played to all the participants and they have to guess the movie. Teams guessing the maximum number of movies will qualify for the final round.",
-        //     "round 4": "(Final Round): Battle of the charade-Teams will be given movie titles(Bollywood / Hollywood) that must be presente d to their partnersin a chained manner.The team that has the highest score appears as the winner."
-
-        // },
-
-        "rules": ["The game will consist of at  most 2 teams of 4 members each.",
-            "Participants can be in the game until the opponent team is defeated.",
-            "Each participant's entry fee will be Rs.5O and can participant any number of times."
-
-
-
-        ],
-
-        // "judgingCriteria": ["Concept and content", "Execution of the movie", "Scripting, editing, direction, and acting"],
-        "contactDetails": [
-            {
-                "name": "K Pavithra Achar",
-                "phoneNumber": "7892238837",
-                "emailID": "pavithraachar39@gmail.com"
-            },
-            {
-                "name": "Varun Taliparambe Vitel ",
-                "phoneNumber": "7619240912",
-                "emailID": "varuntv80@gmail.com"
-            }
-
-        ]
-
-    },
-
-    {
-        "name": "Lazzerena",
-        "round": "4",
-        "day": "4",
-        "Time": "9:00 am",
-        "venue": "NC 14",
-        "branch": "ECE",
-        "image": "/events/EC/LAZZRENA.png",
-        "smallDesc": "Lazzerena is a tag game which allows amateur video game lovers to experience war zone scena rio in real life.  ",
-        "fullDesc": "It is played with guns which emit infrared beams. Infrared sensitive sensors which are integ rat ed on jackets are worn by each player. The game will comprise of two teams and each team will t ry to knockout the opponent by firing on their respect ive sensors.",
-        // "roundDetails": {
-        //     "round 1": "The Mind Fizz - Teams will be given a set of questions related to movies(Bollywood/ Hollywood /Sandalwood).Based on the scores, the top teams will qualify for the next round.",
-        //     "round 2": "Pictoword - A combination of pictures that form the movie name/ song name will be displayed on the screen.The participants must guess the word from the pictures they see on the screen into one word.Teams guessing the maximum number of movies qua lify for the next round.",
-        //     "round 3": "Sun Sa a thiya!A Bollywood song or a famous dialogue is played to all the participants and they have to guess the movie. Teams guessing the maximum number of movies will qualify for the final round.",
-        //     "round 4": "(Final Round): Battle of the charade-Teams will be given movie titles(Bollywood / Hollywood) that must be presente d to their partnersin a chained manner.The team that has the highest score appears as the winner."
-
-        // },
-
-        "rules": ["The game will consist of at  most 2 teams of 4 members each.",
-            "Participants can be in the game until the opponent team is defeated.",
-            "Each participant's entry fee will be Rs.5O and can participant any number of times."
-
-
 
         ],
 
@@ -836,13 +696,7 @@ export const eventData = [
         "image": "/events/Mech/Madads.png",
         "smallDesc": "A rostrum where creativity meets madness, a chance to make an advertisement hilarious or sensitive. ",
         "fullDesc": "Mad Ads is a test of your creativity and ad sense.",
-        // "roundDetails": {
-        //     "round 1": "The Mind Fizz - Teams will be given a set of questions related to movies(Bollywood/ Hollywood /Sandalwood).Based on the scores, the top teams will qualify for the next round.",
-        //     "round 2": "Pictoword - A combination of pictures that form the movie name/ song name will be displayed on the screen.The participants must guess the word from the pictures they see on the screen into one word.Teams guessing the maximum number of movies qua lify for the next round.",
-        //     "round 3": "Sun Sa a thiya!A Bollywood song or a famous dialogue is played to all the participants and they have to guess the movie. Teams guessing the maximum number of movies will qualify for the final round.",
-        //     "round 4": "(Final Round): Battle of the charade-Teams will be given movie titles(Bollywood / Hollywood) that must be presente d to their partnersin a chained manner.The team that has the highest score appears as the winner."
 
-        // },
 
         "rules": ["All participants will have to come prepared and present an advertisement for a product/ service of their choice",
             "The d urat ion of the advertisement is 5 + 2 minutes",
@@ -904,15 +758,6 @@ export const eventData = [
             "Quizmaster's decision will be considered final and binding",
             "Registrations will be on - spot"
         ],
-
-        // "judgingCriteria": ["Ability to attract audience attention",
-        //     "Concept of ad",
-        //     "Teamwork",
-        //     "Creativity",
-        //     "Originality",
-        //     "Humour",
-        //     "Management of time"],
-
         "contactDetails": [
             {
                 "name": "Rola n Gomes",
@@ -933,7 +778,7 @@ export const eventData = [
         "name": "MELASQlJIZ",
         "round": "2",
         "day": "4",
-        "Time": "12:00 am",
+        "Time": "12:00 pm",
         "venue": "Shambhavi",
         "branch": "MECH",
         "image": "/events/Mech/Madads.png",
@@ -952,14 +797,6 @@ export const eventData = [
             "Quizmaster's d ecision will be considered final and binding",
             "Registrations will be on - spot"
         ],
-
-        // "judgingCriteria": ["Ability to attract audience attention",
-        //     "Concept of ad",
-        //     "Teamwork",
-        //     "Creativity",
-        //     "Originality",
-        //     "Humour",
-        //     "Management of time"],
 
         "contactDetails": [
             {
@@ -980,7 +817,6 @@ export const eventData = [
 
     {
         "name": "MISSION IMPOSSIBLE",
-        "round": "1",
         "day": "3",
         "Time": "9:00 am",
         "venue": "LH 202 - 208",
@@ -1013,109 +849,6 @@ export const eventData = [
 
         "judgingCriteria": ["The judging criter ia for the round s will be mentioned during the event",
             "The decision of the jud g es is final and irrevocable."
-        ],
-        "contactDetails": [
-            {
-                "name": "Omar Khateeb",
-                "phoneNumber": "+ 910 8169597",
-                "emailID": "omarkhateeb007@gmail.com "
-            },
-            {
-                "name": "Shishir Ballal",
-                "phoneNumber": "9483647355",
-                "emailID": "shishirballal2017@gmail.com "
-            }
-
-        ]
-
-    },
-    {
-        "name": "MISSION IMPOSSIBLE",
-        "round": "2",
-        "day": "3",
-        "Time": "9:00 am",
-        "venue": "LH 202 -208",
-        "branch": "MECH",
-        "image": "/events/Mech/mission.jpeg",
-        "smallDesc": "A mega event, an alter-ego of a treasure hunt where you need to use your brains, wit, and wisdom. ",
-        "fullDesc": "We bring  to  you-  MISSION IMPOSSIBLE b eca use the t reasure is not easy to FIND.sn't life a collection of weird quizzes with no answers  to  half  the questions?",
-        "roundDetails": {
-
-            "round 1": ["Preliminary round which involves puzzle solving and logical thinking will be conducted and the top  25% of  teams will proceed to  the next round"],
-            "round 2": ["A game that involvesthe use of your analytic al and crypt ic skills will be held, wherein the top 8 teams will qualify for the finale."],
-            "round 3": ["The final round is a t rea sure hunt where team has to solve a set of clues which will lead them to the final treasure."]
-        },
-
-        "rules": ["The clues are to be found in a particular order.",
-            "Skipping any clue will lead to disqualification",
-            "No team would be leaving the college premises in searc h of clues",
-            "The teams and their clues will be colour coordinated",
-            "If any item is found to be displaced or damaged while looking for the clues, the team will be held responsible for it",
-            "Every team will be following a different path leading to the final destination",
-            "In case a team requires a hint to solve the clue, they will have to solve an additional task to obtain it",
-            "The level of difficult y of the task will increase with the number of times the team asks for a hint.",
-            "Each team hasan allowance to ask for a maximum of 4 hint",
-            "Four memb ers make a team",
-            "All four members should represent the same college",
-            "On- spot registra tions permitted",
-            "There is no branch restriction",
-
-        ],
-
-        "judgingCriteria": ["The judging criter ia for the round s will be mentioned during the event",
-            "The decision of the jud g es is final and irrevocable."
-        ],
-        "contactDetails": [
-            {
-                "name": "Omar Khateeb",
-                "phoneNumber": "+ 910 8169597",
-                "emailID": "omarkhateeb007@gmail.com "
-            },
-            {
-                "name": "Shishir Ballal",
-                "phoneNumber": "9483647355",
-                "emailID": "shishirballal2017@gmail.com "
-            }
-
-        ]
-
-    },
-
-    {
-        "name": "MISSION IMPOSSIBLE",
-        "round": "3",
-        "day": "3",
-        "Time": "9:00 am",
-        "venue": "Infront Co-Op Store",
-        "branch": "MECH",
-        "image": "/events/MECH/mission.jpeg",
-        "smallDesc": "A mega event, an alter-ego of a treasure hunt where you need to use your brains, wit, and wisdom. ",
-        "fullDesc": "We bring  to  you-  MISSION IMPOSSIBLE b eca use the t reasure is not easy to FIND.sn't life a collection of weird quizzes with no answers  to  half  the questions?",
-        "roundDetails": {
-
-            "round 1": ["Preliminary round which involves puzzle solving and logical thinking will be conducted and the top  25% of  teams will proceed to  the next round"],
-            "round 2": ["A game that involvesthe use of your analytic al and crypt ic skills will be held, wherein the top 8 teams will qualify for the finale."],
-            "round 3": ["The final round is a t rea sure hunt where team has to solve a set of clues which will lead them to the final treasure."]
-        },
-
-        "rules": ["The clues are to be found in a particular order.",
-            "Skipping any clue will lead to disqualification",
-            "No team would be leaving the college premises in searc h of clues",
-            "The teams and their clues will be colour coordinated",
-            "If any item is found to be displaced or damaged while looking for the clues, the team will be held responsible for it",
-            "Every team will be following a different path leading to the final destination",
-            "In case a team requires a hint to solve the clue, they will have to solve an additional task to obtain it",
-            "The level of difficult y of the task will increase with the number of times the team asks for a hint.",
-            "Each team hasan allowance to ask for a maximum of 4 hint",
-            "Four memb ers make a team",
-            "All four members should represent the same college",
-            "On- spot registra tions permitted",
-            "There is no branch restriction",
-
-        ],
-
-        "judgingCriteria": ["The judging criter ia for the round s will be mentioned during the event",
-            "The decision of the judges is final and irrevocable."
         ],
         "contactDetails": [
             {
@@ -1187,158 +920,7 @@ export const eventData = [
 
     {
         "name": "PAINT AND PIXEL",
-        "day": "1",
         "Time": "11:00 am",
-        "venue": "LH 006",
-        "branch": "ISE",
-        "image": "/events/IS/paintandpixel.jpg",
-        "smallDesc": "A painting or photo exhibition is traditionally a space in which art meets an audience.",
-        "fullDesc": " Paint and pixel is an event where we provide a platform for the artists and photographers of our college to showcase their talent.Art completes what nature cannot bring to a finish and a camera is the save button for the mind's eye. Attendees will be able to view the exhibits on displa y. If the artist is willing to sell his / her work, we provide a medium to do so. The exhibits will be on display on all four days of Incridea.",
-        // "roundDetails": {
-        //     "round 1": "Each participant must perform individually. G enera l/ entertainment quiz",
-        //     "round 2": "The final round will be a mock press",
-        // },
-
-        // "rules": ["On-spot or pre- registrations can be done",
-        //     "Candidates should be present at the venue on time",
-        //     "Each particip ant will be given 10 minutes to prepare for their respective characters",
-        //     "The p art icipant has to make an introduction about their given personality",
-        //     "After the introduction, the participants will be asked questions by the judges posed as journalist s.",
-        //     "The other participants and the audience are also allowed to question the participants",
-        //     "The participants can choose the category but the personalities in the categories will be disclosed by a draw at the time of the competition",
-        //     "The participants are expected to answer as the personalit y given",
-        //     "Any kind of vulgarity or misbehavior shall not be entertained.",
-        //     "If observed, the participant will be disqualified",
-        //     "The event encourages the active participation of the audience",
-        //     "The judges' decision will be final",
-        //     "Organizers shall have all rights to make any changes in the rounds being conducted",
-
-        // ],
-
-        // "judgingCriteria": ["Subject knowledge",
-        //     "Communication skills",
-        //     "Body language",
-        //     "Sponta neity",
-        // ],
-        "contactDetails": [
-            {
-                "name": "Shraddha JR",
-                "phoneNumber": "8762367095",
-                "emailID": "shraddha2jr@gmail.com"
-            },
-            {
-                "name": "Vishal R Naik",
-                "phoneNumber": "7337862103",
-                "emailID": "vishalrn425@gmail.com",
-            }
-
-        ]
-
-    },
-    {
-        "name": "PAINT AND PIXEL",
-        "day": "2",
-        "Time": "9:00 am",
-        "venue": "LH 006",
-        "branch": "ISE",
-        "image": "/events/IS/paintandpixel.jpg",
-        "smallDesc": "A painting or photo exhibition is traditionally a space in which art meets an audience.",
-        "fullDesc": " Paint and pixel is an event where we provide a platform for the artists and photographers of our college to showcase their talent.Art completes what nature cannot bring to a finish and a camera is the save button for the mind's eye. Attendees will be able to view the exhibits on displa y. If the artist is willing to sell his / her work, we provide a medium to do so. The exhibits will be on display on all four days of Incridea.",
-        // "roundDetails": {
-        //     "round 1": "Each participant must perform individually. G enera l/ entertainment quiz",
-        //     "round 2": "The final round will be a mock press",
-        // },
-
-        // "rules": ["On-spot or pre- registrations can be done",
-        //     "Candidates should be present at the venue on time",
-        //     "Each particip ant will be given 10 minutes to prepare for their respective characters",
-        //     "The p art icipant has to make an introduction about their given personality",
-        //     "After the introduction, the participants will be asked questions by the judges posed as journalist s.",
-        //     "The other participants and the audience are also allowed to question the participants",
-        //     "The participants can choose the category but the personalities in the categories will be disclosed by a draw at the time of the competition",
-        //     "The participants are expected to answer as the personalit y given",
-        //     "Any kind of vulgarity or misbehavior shall not be entertained.",
-        //     "If observed, the participant will be disqualified",
-        //     "The event encourages the active participation of the audience",
-        //     "The judges' decision will be final",
-        //     "Organizers shall have all rights to make any changes in the rounds being conducted",
-
-        // ],
-
-        // "judgingCriteria": ["Subject knowledge",
-        //     "Communication skills",
-        //     "Body language",
-        //     "Sponta neity",
-        // ],
-        "contactDetails": [
-            {
-                "name": "Shraddha JR",
-                "phoneNumber": "8762367095",
-                "emailID": "shraddha2jr@gmail.com"
-            },
-            {
-                "name": "Vishal R Naik",
-                "phoneNumber": "7337862103",
-                "emailID": "vishalrn425@gmail.com",
-            }
-
-        ]
-
-    },
-    {
-        "name": "PAINT AND PIXEL",
-        "day": "3",
-        "Time": "9:00 am",
-        "venue": "LH 006",
-        "branch": "ISE",
-        "image": "/events/IS/paintandpixel.jpg",
-        "smallDesc": "A painting or photo exhibition is traditionally a space in which art meets an audience.",
-        "fullDesc": " Paint and pixel is an event where we provide a platform for the artists and photographers of our college to showcase their talent.Art completes what nature cannot bring to a finish and a camera is the save button for the mind's eye. Attendees will be able to view the exhibits on displa y. If the artist is willing to sell his / her work, we provide a medium to do so. The exhibits will be on display on all four days of Incridea.",
-        // "roundDetails": {
-        //     "round 1": "Each participant must perform individually. G enera l/ entertainment quiz",
-        //     "round 2": "The final round will be a mock press",
-        // },
-
-        // "rules": ["On-spot or pre- registrations can be done",
-        //     "Candidates should be present at the venue on time",
-        //     "Each particip ant will be given 10 minutes to prepare for their respective characters",
-        //     "The p art icipant has to make an introduction about their given personality",
-        //     "After the introduction, the participants will be asked questions by the judges posed as journalist s.",
-        //     "The other participants and the audience are also allowed to question the participants",
-        //     "The participants can choose the category but the personalities in the categories will be disclosed by a draw at the time of the competition",
-        //     "The participants are expected to answer as the personalit y given",
-        //     "Any kind of vulgarity or misbehavior shall not be entertained.",
-        //     "If observed, the participant will be disqualified",
-        //     "The event encourages the active participation of the audience",
-        //     "The judges' decision will be final",
-        //     "Organizers shall have all rights to make any changes in the rounds being conducted",
-
-        // ],
-
-        // "judgingCriteria": ["Subject knowledge",
-        //     "Communication skills",
-        //     "Body language",
-        //     "Sponta neity",
-        // ],
-        "contactDetails": [
-            {
-                "name": "Shraddha JR",
-                "phoneNumber": "8762367095",
-                "emailID": "shraddha2jr@gmail.com"
-            },
-            {
-                "name": "Vishal R Naik",
-                "phoneNumber": "7337862103",
-                "emailID": "vishalrn425@gmail.com",
-            }
-
-        ]
-
-    },
-    {
-        "name": "PAINT AND PIXEL",
-        "day": "4",
-        "Time": "9:00 am",
         "venue": "LH 006",
         "branch": "ISE",
         "image": "/events/IS/paintandpixel.jpg",
@@ -1362,54 +944,6 @@ export const eventData = [
 
     {
         "name": "PANCHATANTRAM",
-        "round": "1",
-        "day": "3",
-        "Time": "11:00 am",
-        "venue": "NC 21, 22",
-        "branch": "EEE",
-        "image": "/events/EE/PANCHATANTRAM.png",
-        "smallDesc": "Do you master the art of playing with perceptions or bringing your imagination to life? ",
-        "fullDesc": " The success of a presenta tion is judged not by the knowledge one conveys, but by what the audience receives. Panchatantram is a platform where you get to enthrall the world with your presenta t ion skills.",
-        "roundDetails": {
-            "round1":
-                ["This round is a pen and paper test which consists of 30 questions relate d to top ics like problem- solving, logical reasoning, general knowledge and verbal abilities to be answered in 30 minutes.The top 10 teams to clear round 1 will be selected for round 2."],
-            "round2": ["This round is also a pen and paper test which consists of 20 questions that involve monito ring skills and visual clues to be answered in 20 minutes.The top 4 teams to clear round 2 will advance to round 3."],
-            "round3": ["This rou nd is all about chart preparation.The main task employs the participant's professional skills and grasping power. The time duration is 60 minutes."]
-        },
-
-        "rules": ["A team consists of 2 members.Any number of teams from a college can register for the event",
-            "Use of t he internet or any kind of reading materials/ text books is strictly prohibited",
-            "Only students from the same college can form a team",
-            "Any individua l cannot be a member of more than oneteam",
-            "On - spot registrations are allowed",
-            "Materials like stationery items will be provided",
-            "The d ecision of the judges will be final"
-
-        ],
-
-        "judgingCriteria": ["The select ion of teams for the final round will be based on the cutoff marks set by the judges",
-            "In the final round, the team with the maximum points will be announced as the winner",
-            "Marks for the hints will be deducted from the final score",
-        ],
-
-        "contactDetails": [
-            {
-                "name": " Vijesh V Anchan",
-                "phoneNumber": "7625020322",
-                "emailID": "vijeshanchan21@gmail.com"
-            },
-            {
-                "name": "Dhanush VD",
-                "phoneNumber": "9449788548",
-                "emailID": "dhanushvd77@gmail.com",
-            }
-
-        ]
-
-    },
-    {
-        "name": "PANCHATANTRAM",
-        "round": "2",
         "day": "3",
         "Time": "11:00 am",
         "venue": "NC 21, 22",
@@ -1484,11 +1018,6 @@ export const eventData = [
 
         ],
 
-        // "judgingCriteria": ["The select ion of teams for the final round will be based on the cutoff marks set by the judges",
-        //     "In the final round, the team with the maximum points will be announced as the winner",
-        //     "Marks for the hints will be deducted from the final score",
-        // ],
-
         "contactDetails": [
             {
                 "name": "Anjani Prabhu",
@@ -1556,54 +1085,8 @@ export const eventData = [
         ]
 
     },
-
-
     {
         "name": "PROVE US WRONG",
-        "round": "1",
-        "day": "2",
-        "Time": "12 :00 pm",
-        "venue": "Sowparnika",
-        "branch": "CIVIL",
-        "image": "/events/CV/PROVEUSWRONG.jpg",
-        "smallDesc": "I love argument, I love debate. I don't expect anyone just to sit there and agree with me, that's not their job - Margaret Tha tcher",
-        "fullDesc": "Do you agree with her? Then come and let your opinions speak louder than your voice in Prove Us Wrong. Armed with vocabulary and craft, stage awaits you motor mouths to set it all on fire.",
-        "roundDetails": {
-            "round 1": ["Prelims- English aptitude and General knowledge questionnaire will be used for qualifications into the next round"],
-
-            "round 2 ": ["Mains - Topics will be given 5 minutes prior to  the round.One team speaks for  the to pic while the other team speaks a ga inst(3 minutes each + 1 minute for conclusion)"],
-
-        },
-
-        "rules": ["A team should have a minimum of 1 and at most 2 members.",
-            "The judges will evaluate each team and award marks to each team respectively.",
-            "Reg ist rations can be done either prior to the event or on the spot.",
-            "Any number of teams can participate from a college.",
-        ],
-
-        "judgingCriteria": ["Participants will be judged based on their organization, clarity, reasoning, research, and speaking skills.",
-        ],
-        "contactDetails": [
-            {
-                "name": "Sujay Naik",
-                "phoneNumber": "8660563859",
-                "emailID": "sujaylnaik@gmail.com"
-            },
-            {
-                "name": "Rahil Baig",
-                "phoneNumber": "9380371159",
-                "emailID": "rahilandharoon@gmail.com",
-            }
-
-
-
-        ]
-
-    },
-
-    {
-        "name": "PROVE US WRONG",
-        "round": "2",
         "day": "2",
         "Time": "12 :00 pm",
         "venue": "Sowparnika",
@@ -1646,7 +1129,6 @@ export const eventData = [
 
     {
         "name": "RANGOLI",
-        "round": "1",
         "day": "2",
         "Time": "9:00 am",
         "venue": "LC 01",
@@ -1654,12 +1136,6 @@ export const eventData = [
         "image": "/events/BT/Rangoli.png",
         "smallDesc": "Think your designs have what it takes to enthrall and stand out among countless others?",
         "fullDesc": "Patterns and design are an integra l part of our culture. Think your designs have what it takes to enthrall and stand out among countless others? Then this competition is for you!",
-        // "roundDetails": {
-        //     "round 1": "Prelims- English aptitude and General knowledge questionnaire will be used for qualifications into the next round",
-
-        //     "round 2 ": "Mains - Topics will be given 5 minutes prior to  the round.One team speaks for  the to pic while the other team speaks a ga inst(3 minutes each + 1 minute for conclusion)",
-
-        // },
 
         "rules": [
 
@@ -1681,13 +1157,6 @@ export const eventData = [
             "The decision of the judges is final and irrevocable.",
 
         ],
-
-
-
-
-
-
-
 
         "contactDetails": [
             {
@@ -1866,7 +1335,7 @@ export const eventData = [
         "name": "ROADIES",
         "round": "2",
         "day": "1",
-        "Time": "11:30 am",
+        "Time": "2:30 am",
         "venue": "LH 500",
         "branch": "ISE",
         "image": "/events/IS/Roadies.jpg",
@@ -1893,10 +1362,6 @@ export const eventData = [
 
 
         ],
-
-        // "judgingCriteria": [
-        //     "Time based and perfection of the song will be noted to awarded with a score of 10 points each."
-        // ],
 
         "contactDetails": [
             {
@@ -2055,10 +1520,6 @@ export const eventData = [
 
 
         ],
-
-        // "judgingCriteria": [
-        //     "Time based and perfection of the song will be noted to awarded with a score of 10 points each."
-        // ],
 
         "contactDetails": [
             {
@@ -2302,70 +1763,11 @@ export const eventData = [
 
     },
 
-
     {
         "name": "SHERLOCKED",
-        "round": "2",
+        "round": "2 & 3",
         "day": "2",
-        "Time": "9:00 pm",
-        "venue": "NC 34, 35 & LD LAB",
-        "branch": "CSE",
-        "image": "/events/CS/Sherlocked.png",
-        "smallDesc": "Do you see the world around you in vivid colours? Does every ordinary occurrence play out differently in your imagination? ",
-        "fullDesc": "Don your trench coats and magnifying glasses. Work your brain to its full potential as you journey through all the facts and info rma t ion and emerge victoriously. An event to portray how erudite and witty you are to read between the lines. ",
-        "roundDetails": {
-            "Round 1: ":
-                ["The East Wind is imminent The east wind is coming to get you and only the clever survive.Includes a set of mystery cases, puzzles, and simple questions on aptitude and general knowledge.Top 8 teams shall be shortlisted for the next round."],
-            "Round 2: ":
-                ["Be on the lookout, will one lead to another!? The participants will have to perform a set of tasks and go in search of clues that will take them a step closer to solving the murder mystery Top 4 teams will advance to the final roundThe Beginning is the End!"],
-            "Round 3: ":
-                ["The Murder Mystery!If you've made it this far, don't you think you can make it till the end!?The final quest is on! Ignorance of obvious things can cost you your final output! Are you a keen observer? If so, then go ahead and solve this final round.Let's meet at the decrypted stateWhat is it that youthink you possess to unra vel the mystery? Crack the cryptic and provide justice because that's what a detective does"],
-
-        },
-
-        "rules": [
-            "Only students pursuing an engineering degree are allowed to participate.",
-            "Two members in a team.",
-            "Team members must be from the same colleg e.",
-            "The teams must adhere to the spirit of healthy competition.",
-            "Use of calcula to rs and mobile phones isn't allowed unless specified for the Final round.",
-            "The decision of the judges and  organizers is final and irrevocable.",
-
-
-
-
-        ],
-
-        "judgingCriteria": [
-            "Round 1: Top 8 teams with the highest scores will advance to the next round.",
-            "Round 2: The first 4 teams to complete all the tasks will advance to the next round to solve the murder mystery.",
-
-
-        ],
-
-        "contactDetails": [
-            {
-                "name": "Manish R Bekal",
-                "phoneNumber": "9448858803",
-                "emailID": "bekalmanish@gmail.com"
-            },
-            {
-                "name": "Mohith",
-                "phoneNumber": "7019899149",
-                "emailID": "mohith20025@gmail.com",
-            }
-
-
-
-        ]
-
-    },
-
-    {
-        "name": "SHERLOCKED",
-        "round": "3",
-        "day": "2",
-        "Time": "9:00 pm",
+        "Time": "9:00 am",
         "venue": "NC 34, 35 & LD LAB",
         "branch": "CSE",
         "image": "/events/CS/Sherlocked.png",
@@ -2422,7 +1824,7 @@ export const eventData = [
         "name": "SHUTTER UP",
         "round": "1",
         "day": "2",
-        "Time": "9:00 pm",
+        "Time": "9:00 am",
         "venue": "NC 11,12",
         "branch": "ECE",
         "image": "/events/EC/SHUTTERUP.png",
@@ -2483,9 +1885,9 @@ export const eventData = [
 
     {
         "name": "SHUTTER UP",
-        "round": "2",
+        "round": "2 & 3",
         "day": "3",
-        "Time": "9:00 pm",
+        "Time": "9:00 am",
         "venue": "LH 005",
         "branch": "ECE",
         "image": "/events/EC/SHUTTERUP.png",
@@ -2494,69 +1896,6 @@ export const eventData = [
         "roundDetails": {
             "Round 1:":
                 ["The preliminary round will test the participants' skill in photography wherein the participants have to click pictures related to the given topic."],
-            "Round 2:":
-                ["The second round is a picture Treasure Hunt.The part icipants have to click pictures once they crack the clue.The first five teams to finish with better pictures will proceed to the next round."],
-            "Round 3:":
-                ["This is the final round and participants' will be given a theme. Each team should click pictures and build a story based on the given theme."],
-
-        },
-
-        "rules": [
-            "Any number of teams per college is allowed, each team can comprise of 2 or 3 members.",
-            "On spot event registrations before the commencement of  the  first round is permitted.",
-            "College ID and PIO are compulsory.",
-            "Any camera can be used.Mobile cameras also can be used.Soft copy of the clicked pictures must be submitted.",
-            "Topic will be announced on the spot.Pictures must be clicked strictly within the campus.",
-            "Original photos have to be submitted.Processing or usage of software filters is not allowed, if found otherwise it will result in direct disqualification.",
-            "Part icipants should submit pictures within the time limit provided.Downloaded pictures, using interne t or any other form of malpractice is strictly banned and will result in disqualification.",
-            "All	the	participants	must	strictly	adhere	to	COVID - 19	regulations throughout the event.",
-
-
-
-
-
-        ],
-
-        "judgingCriteria": [
-            "There will be only one winner.",
-            "Judges' and organizers' decision is final.",
-            "Quality of the picture.",
-            "Creativity.",
-            "The story behind the picture as explained by the participant.",
-            "Each picture is evaluated out of 10.",
-        ],
-
-        "contactDetails": [
-            {
-                "name": "Manish R Amulya Ashok Shetty ",
-                "phoneNumber": "8310174679",
-                "emailID": "amulyashetty445@gmail.com"
-            },
-            {
-                "name": "Nidhi Subhash Poojary ",
-                "phoneNumber": "8746825772",
-                "emailID": "nidhisp.200@gmail.com",
-            }
-
-
-
-        ]
-
-    },
-
-    {
-        "name": "SHUTTER UP",
-        "round": "3",
-        "day": "3",
-        "Time": "9:00 pm",
-        "venue": "LH 005",
-        "branch": "ECE",
-        "image": "/events/EC/SHUTTERUP.png",
-        "smallDesc": "Gear up, focus in and click on!",
-        "fullDesc": "You can look at a picture for a week and never think of it for a second.You can  also look at a picture for a second and think of it all your life.Shutter up is an event for all photo enthusiasts to show the world a story that cannot be put into words.",
-        "roundDetails": {
-            "Round 1:":
-                ["The p reliminary round will test the participants' skill in photography wherein the participants have to click pictures related to the given topic."],
             "Round 2:":
                 ["The second round is a picture Treasure Hunt.The part icipants have to click pictures once they crack the clue.The first five teams to finish with better pictures will proceed to the next round."],
             "Round 3:":
@@ -2657,9 +1996,6 @@ export const eventData = [
         ]
 
     },
-
-
-
 
     {
         "name": "TALENT HOUSE X",
@@ -2817,12 +2153,6 @@ export const eventData = [
 
         ],
 
-        // "judgingCriteria": [
-        //     "There will be a winner and a runner up.",
-        //     "Judges' and organizers' decision is final.",
-
-        // ],
-
 
         "contactDetails": [
             {
@@ -2853,11 +2183,6 @@ export const eventData = [
         "image": "/events/BT/VocalTwist.png",
         "smallDesc": "Can you mesmerize those who listen to you? ",
         "fullDesc": "Do you have what it takes to move the hearts of the masses with your voice? Then it is time to bring out your inner Nightingale.",
-        // "roundDetails": {
-        //     "Round 1": "Figure it out- 15 - 20 questions comprising brain teasers, guess the missing letter, find the words, etc., will be asked.The time given for solving it is 20 minutes.",
-        //     "Round 2": "Take a guess- Part icipants will be shown pictures of eminent personalities and  will be asked to figure out their contributio n or vice versa.Along with this, song tunes or voices of the personalities will be played and participants have to guess which song or which celebrity it is and similar questions.",
-
-        // },
 
         "rules": [
             "It is a solo event.",
@@ -2906,11 +2231,6 @@ export const eventData = [
         "image": "/events/BT/VocalTwist.png",
         "smallDesc": "Can you mesmerize those who listen to you? ",
         "fullDesc": "Do you have what it takes to move the hearts of the masses with your voice? Then it is time to bring out your inner Nightingale.",
-        // "roundDetails": {
-        //     "Round 1": "Figure it out- 15 - 20 questions comprising brain teasers, guess the missing letter, find the words, etc., will be asked.The time given for solving it is 20 minutes.",
-        //     "Round 2": "Take a guess- Part icipants will be shown pictures of eminent personalities and  will be asked to figure out their contributio n or vice versa.Along with this, song tunes or voices of the personalities will be played and participants have to guess which song or which celebrity it is and similar questions.",
-
-        // },
 
         "rules": [
             "It is a solo event.",
@@ -3189,7 +2509,7 @@ export const eventData = [
     {
         "name": "PERPLEX",
         "round": "3",
-        "day": "3",
+        "day": "4",
         "Time": "10:00 am",
         "venue": "LH 212 & BIOKINETICS Lab",
         "branch": "BTE",
@@ -3243,12 +2563,8 @@ export const eventData = [
         ]
 
     },
-
-
-
     {
         "name": "CAPTURE THE FLAG",
-        "round": "1",
         "day": "1",
         "Time": "11:00 am",
         "venue": "CSL 01,02",
@@ -3276,72 +2592,6 @@ export const eventData = [
         "judgingCriteria": [
             "The number of flags submitted and their correctness in the shortest period of time",
         ],
-
-
-
-
-
-
-
-
-
-
-        "contactDetails": [
-            {
-                "name": "Abdeali",
-                "phoneNumber": "9945208204",
-                "emailID": "abdeali.manga lorewala@g ma il.com"
-            },
-            {
-                "name": "Numan",
-                "phoneNumber": "8606521714",
-                "emailID": "numa n.na e em @out look.com",
-            }
-
-
-
-        ]
-
-    },
-
-    {
-        "name": "CAPTURE THE FLAG",
-        "round": "2",
-        "day": "1",
-        "Time": "11:00 am",
-        "venue": "CSL 01,02",
-        "branch": "CSE",
-        "image": "/events/CS/CTF.jpg",
-        "smallDesc": "Show off your hacking skills and flex your problem solving skills",
-        "fullDesc": "Capture the Flag is the platform to show off your hacking skills and flex your problem solving skills through a series of problems in the Cryptography, Steno graphy, Binary Exploitation, Web Exploita tion, Forensics, Reverse Engineer ing, Programming,  Packet  Analysis and  some  Miscellaneous cate gories.",
-        "roundDetails": {
-            "Round 1": [" Jeopardy-style CTF: A couple of questions (tasks) in range of categories: Cryptography, Stenography, Binary Exploita tion, Web Exploita tion, Forensics, Reverse Engineering, Programming, Packet Analysis, Miscellaneous will be asked.Teams with the most points will move forward to Round 2. Attacking the other teams will lead to direct disqualification."],
-            "Round 2": ["-"],
-
-        },
-
-        "rules": [
-            "Teams of 1 - 2 memb ers.",
-            "It's strictly prohibited to perform any kind of Denial of Service Attack (DoS/ DDoS) against the servers or the competitio n's infrastructure.",
-            "DO NOT use Brute Force on the flag submission syst em because the flags cannot be guessed.",
-            "DO NOT t ry to exchange flags or write - ups during the competition.",
-            "DO NOT share recent discoveries related to challenges publicly on IRC channels WhatsApp, Facebook or any other social net works / messa g ing opp, nor in any other way with the contestants o f ot her teams.",
-            "It is recommended to use your own system/ laptop.",
-            "You are free to use any software that is open source / free or written by you.",
-            "The judging is done automatically through software and will be based on points.If your team and another team is tied, then the decision will be made based on the lowest total time.",
-        ],
-
-        "judgingCriteria": [
-            "The number of flags submitted and their correctness in the shortest period of time",
-        ],
-
-
-
-
-
-
-
-
 
 
         "contactDetails": [
@@ -3438,7 +2688,7 @@ export const eventData = [
 
     {
         "name": "TECHTAINMENT",
-        "round": "2",
+        "round": "2 & 3",
         "day": "2",
         "Time": "12:30 am",
         "venue": "LH502, CSL05",
@@ -3509,81 +2759,7 @@ export const eventData = [
     },
 
     {
-        "name": "TECHTAINMENT",
-        "round": "3",
-        "day": "2",
-        "Time": "12:30 am",
-        "venue": "LH502, CSL05",
-        "branch": "CSE",
-        "image": "/events/CS/techtainment.png",
-        "smallDesc": "All you need is some technical knowledge, swift responses, and a great companion!",
-        "fullDesc": "Techtainment is an event that will keepyou on your toes while storming your technical cap abilities. ",
-        "roundDetails": {
-            "Round 1": ["An aptitude test will be conducted",
-                "The questions will be based on basic mental skills and simple technical questions",
-                "The time allotted for the questionnaire will be 25 minutes",
-                "The top 20 teams will be selected to go to round 2",
-            ],
-            "Round 2": ["Suck it up",
-                "1. The First player will be given two bowls, one with Gems and one empty.",
-                "2. When the timer starts, the first player must suck a Gems with the straw to stick to the end and transfer it to the other bowl.",
-                "3. Once the Gems are transferred, the player will find a code snippet at the bottom of the bowl.This code snippet has to be given to the second player and asked to solve and give the output.",
-                "4. Top 15 teams move to the next task.",
-                "Word - Play: Each Team will be given a technical crossword based on different coding languages which they need to solve in the given time.",
-                "Whichever team finds the most words will be declared the winner.Topl0 teams will move to the next round.",
-            ],
-            "Round 3(Final Round)": [
-                "Jack of all trades:",
-                "Each team will be given a programming language code snippet",
-                "They will be given one minute time to write down that keyword in different programming languages.",
-                "At the end of one minute, the team with the highest number of legit keywords will win the round.",
-                "The top 5 teams will move to the final task.",
-                "Dining Philosophers- The team will be given to execute a piece of code.",
-                "At regular intervals of time, they will be given an obstacle to complete, after which the team members have to switch places.",
-                "The top 3 teams to get the correct output in the minimum time will be declared winners ac cording ly.",
-
-            ],
-
-
-        },
-
-        "rules": [
-            "A team of 2 members is compulsory.Solo participation is not allowed.",
-            "Any kind of foul play by any team will lead to disqualifica tion",
-            "Use of any electronic gadgets is not allowed.",
-            "Teams found hampering the progress of other teams in any manner will be disqualified",
-            "Outsourced information is not allowed",
-            "If there are any conflicts, then the decision of the organizerswill be final",
-        ],
-
-        "judgingCriteria": [
-            "The number of flags submitted and their correctness in the shortest period of time",
-        ],
-
-
-
-        "contactDetails": [
-            {
-
-                "name": "Vibha KP",
-                "phoneNumber": "9606333055",
-                "emailID": "vibhaprasanna@g ma il.co m"
-            },
-            {
-                "name": "Vinal Fernandes",
-                "phoneNumber": "9591123669",
-                "emailID": "vinolferna ndes20 @g ma il.co m",
-            }
-
-
-
-        ]
-
-    },
-
-    {
         "name": "WEB PIRACY",
-        "round": "1",
         "day": "3",
         "Time": "10:00 am",
         "venue": "CSL03, 04",
@@ -3653,142 +2829,6 @@ export const eventData = [
 
     },
 
-    {
-        "name": "WEB PIRACY",
-        "round": "2",
-        "day": "3",
-        "Time": "10:00 am",
-        "venue": "CSL03, 04",
-        "branch": "CSE",
-        "image": "/events/CS/WebPiracy.jpg",
-        "smallDesc": " Ever looked at a corporate website and t houg ht \"I could have done that\".Well, here's your chance to prove that in our all- new web piracy web competition.",
-        "fullDesc": " Ever looked at a corporate website and t houg ht \"I could have done that\".Well, here's your chance to prove that in our all- new web piracy web competition.",
-        "roundDetails": {
-            "Round 1": ["E - Talaash(Tech Hunt):Participants need to solve the given puzzle and find the file name in which the code is present whose output leads to the qualification ticket.The first 20 teams to find the ticket will be qua lified for the next round."
-
-            ],
-            "Round 2": ["Clone the page:A static web page will be displa yed.Part icip ants need to recreate it within the given time limit of 90 minutes.",
-            ],
-            "Round 3(Final Round)": [
-                "Jack of all trades:",
-                "Each team will be given a programming language code snippet",
-                "They will be given one minute time to write down that keyword in different programming languages.",
-                "At the end of one minute, the team with the highest number of legit keywords will win the round.",
-                "The top 5 teams will move to the final task.",
-                "Dining Philosophers- The team will be given to execute a piece of code.",
-                "At regular intervals of time, they will be given an obstacle to complete, after which the team members have to switch places.",
-                "The top 3 teams to get the correct output in the minimum time will be declared winners ac cording ly.",
-
-            ],
-
-
-        },
-
-        "rules": [
-            "It is a t wo - round event.",
-            "Part icipation will be in a team of two.",
-            "Any number of teams per college is allowed.",
-            "Teams can be formed inter - college.",
-
-        ],
-
-        "judgingCriteria": [
-            "The participants' submission is graded based on how closely it resembles the original webpage.",
-            "To determine the winners in the event of a tie, the time taken for sub mission will be considere d.",
-            "The judges' decision will be final and irrevocable.",
-            "If in case the cloning is same then the fastest/ most creative one will be chosen",
-
-        ],
-
-        "contactDetails": [
-            {
-
-
-
-
-
-
-
-                "name": "Sinchana A Shetty",
-                "phoneNumber": "8971 8 43624",
-                "emailID": "sinchushiriyara@g ma il.co m"
-            },
-            {
-                "name": "Prevail Dsouza ",
-                "phoneNumber": "9741743084",
-                "emailID": "dsouzaprevail @g ma il.com",
-            }
-
-
-
-        ]
-
-    },
-
-    {
-        "name": "WEB PIRACY",
-        "round": "3",
-        "day": "3",
-        "Time": "10:00 am",
-        "venue": "CSL03, 04",
-        "branch": "CSE",
-        "image": "/events/CS/WebPiracy.jpg",
-        "smallDesc": " Ever looked at a corporate website and t houg ht \"I could have done that\".Well, here's your chance to prove that in our all- new web piracy web competition.",
-        "fullDesc": " Ever looked at a corporate website and t houg ht \"I could have done that\".Well, here's your chance to prove that in our all- new web piracy web competition.",
-        "roundDetails": {
-            "Round 1": ["E - Talaash(Tech Hunt):Participants need to solve the given puzzle and find the file name in which the code is present whose output leads to the qualification ticket.The first 20 teams to find the ticket will be qua lified for the next round."
-
-            ],
-            "Round 2": ["Clone the page:A static web page will be displa yed.Part icip ants need to recreate it within the given time limit of 90 minutes.",
-            ],
-            "Round 3(Final Round)": [
-                "Jack of all trades:",
-                "Each team will be given a programming language code snippet",
-                "They will be given one minute time to write down that keyword in different programming languages.",
-                "At the end of one minute, the team with the highest number of legit keywords will win the round.",
-                "The top 5 teams will move to the final task.",
-                "Dining Philosophers- The team will be given to execute a piece of code.",
-                "At regular intervals of time, they will be given an obstacle to complete, after which the team members have to switch places.",
-                "The top 3 teams to get the correct output in the minimum time will be declared winners ac cording ly.",
-
-            ],
-
-
-        },
-
-        "rules": [
-            "It is a t wo - round event.",
-            "Part icipation will be in a team of two.",
-            "Any number of teams per college is allowed.",
-            "Teams can be formed inter - college.",
-
-        ],
-
-        "judgingCriteria": [
-            "The participants' submission is graded based on how closely it resembles the original webpage.",
-            "To determine the winners in the event of a tie, the time taken for sub mission will be considere d.",
-            "The judges' decision will be final and irrevocable.",
-            "If in case the cloning is same then the fastest/ most creative one will be chosen",
-
-        ],
-
-        "contactDetails": [
-            {
-                "name": "Sinchana A Shetty",
-                "phoneNumber": "8971 8 43624",
-                "emailID": "sinchushiriyara@g ma il.co m"
-            },
-            {
-                "name": "Prevail Dsouza ",
-                "phoneNumber": "9741743084",
-                "emailID": "dsouzaprevail @g ma il.com",
-            }
-
-
-
-        ]
-
-    },
 
     {
         "name": "BOB THE BUILDER",
@@ -3848,7 +2888,7 @@ export const eventData = [
 
     {
         "name": "BOB THE BUILDER",
-        "round": "2",
+        "round": "2 & 3",
         "day": "3",
         "Time": "9:00 am",
         "venue": "NC 15 & CT Lab",
@@ -3901,69 +2941,12 @@ export const eventData = [
         ]
 
     },
-
-    {
-        "name": "BOB THE BUILDER",
-        "round": "3",
-        "day": "3",
-        "Time": "9:00 am",
-        "venue": "NC 15 & CT Lab",
-        "branch": "CIVIL",
-        "image": "/events/CV/BOB THE BUILDER.png",
-        "smallDesc": " A step to test your skills of past by constructing your creativity in present. Here's a chal leng e to live your childhood again, ask yourself Can you fix it? We present to you BOB THE BUILDER.",
-        "fullDesc": "Each team consist of 3 members. Consists of three rounds .All required materials will be provided.",
-        "roundDetails": {
-
-            "Round 1": ["Preliminary Round -25 aptitude questions will be given. Time allotted is 20 minutes"],
-            "Round 2": ["Eliminator Round- Model a staircase using ice - cream sticks for minimum height.Aesthet ics and timing will be the judging criteria.Top 7 teams will qualify for the final round."],
-            "Round 3": [
-                "Finals- Miniature bricks, ice - cream sticks, cardboard and clay will be provided. Participants have to make a model of a house using these materials. The plans for these houses will be provided."],
-
-
-        },
-
-        "rules": [
-            "Each team consists of at most 3 members",
-            "The evaluation will be done after the prelims",
-            "Top 30 teams will be selected for the eliminator round",
-            "Top 7 teams will be selected for the final round",
-            "Usage of materials other than those provided is prohibited",
-
-
-        ],
-
-        "judgingCriteria": [
-            "The decision of the judges is final and irrevocable",
-            "Elimination round evaluation will be based upon minimum wastage, time, aesthetics, finishing.",
-            "Evaluation in the final round will be based on the aesthetic appearance, presentation time, quality of work and minimum wastage.",
-
-
-        ],
-
-        "contactDetails": [
-            {
-                "name": "Sinchana J Suvarna",
-                "phoneNumber": "8762866341",
-                "emailID": "suvarnasincha na12@g ma il.com"
-            },
-            {
-                "name": "Sowjanya M ",
-                "phoneNumber": "7619211945",
-                "emailID": "sowja nya mukesh0S @g mail.com",
-            }
-
-
-
-        ]
-
-    },
-
 
     {
         "name": "BRIDGE IT",
-        "round": "2",
-        "day": "3",
-        "Time": "1:30 pm",
+        "round": "1",
+        "day": "2",
+        "Time": "12pm",
         "venue": "NC 11,12",
         "branch": "CIVIL",
         "image": "/events/CV/BridgeIt.jpg",
@@ -4019,7 +3002,7 @@ export const eventData = [
     },
     {
         "name": "BRIDGE IT",
-        "round": "3",
+        "round": "2 & 3",
         "day": "3",
         "Time": "1:30 pm",
         "venue": "NC 11,12",
@@ -4079,7 +3062,6 @@ export const eventData = [
 
     {
         "name": "INTELLECTIUM",
-        "round": "1",
         "day": "1",
         "Time": "12:00 pm",
         "venue": "Sowparnika",
@@ -4135,7 +3117,6 @@ export const eventData = [
 
     {
         "name": "ROBORACE",
-        "round": "1",
         "day": "2",
         "Time": "9:00 am",
         "venue": "Infront of NC Block, Survery Lab",
@@ -4181,14 +3162,6 @@ export const eventData = [
 
         ],
 
-        // "judgingCriteria": [
-        //     "Evaluations will be done soon after the prelims",
-        //     "Final round evaluation is based on height, length, aesthetic view and Loading factor.",
-        //     "The decision of the judges is final and irrevocable.",
-
-
-        // ],
-
         "contactDetails": [
             {
                 "name": "Shraval Suvarna V",
@@ -4206,81 +3179,6 @@ export const eventData = [
         ]
 
     },
-
-    {
-        "name": "ROBORACE",
-        "round": "2",
-        "day": "3",
-        "Time": "9:00 am",
-        "venue": "Beside Sadananda",
-        "branch": "ECE",
-        "image": "/events/EC/ROBORACE.png",
-        "smallDesc": "Come let your rob ots do the running and your skills do the talking in the Robe Race this lncridea.",
-        "fullDesc": "Come let your rob ots do the running and your skills do the talking in the Robe Race this lncridea.",
-        "roundDetails": {
-
-            "Round 1": ["A race bot will have to travel in a terrain with obstacles like humps, elevation and the bot to cross the finish line the quickest will be qualified to the next round. If a bot topples or goes out of the track, then it needs to start over from the previous checkp oint."],
-            "Round 2": [": A bot will face several difficu lt te rrains and will have to perform few tasks, and based on the time taken to cross the finish line performing all the tasks, the winner will be declared"],
-
-
-        },
-
-        "rules": [
-            "ROBOT Soec:ltlcatlons",
-            "The robot's dimensions should not exceed 30cm X 25cm X 25cm (lxbxh).",
-            "The weight of the bot should not exceed 3kgs.However, a tolerance of 5 % is acceptable.",
-            "The robot can be powered on board or off the board.",
-            "The p otent ia l difference between any two electrical points on the robot must not exceed more than 24 volts t hroug hout the run.",
-            "The coordinators will not be responsible for any kind of electromagnetic interference in wireless communication.",
-
-            "On ly students from the same colleg e can form a team.",
-            "You must present your college ID and PIO while registering.",
-            "An individual cannot be a member of more than one team.",
-            "A robot cannot be shared by two or more teams.",
-            "The robots cannot be construct ed out of ready- made kits available in the market.",
-            "The robot should follow the specificationsprovided.Any deviation from the mentioned specifications will lead to disqualifications.",
-
-            "No p ra c t ic e r u n will be allowed on the main track.",
-            "Both wired and wirelessbots are allowed.",
-            "The team to complete the whole track in the least a mo unt of t im e will be the winner.",
-            "The structure of the robot must not be changed during the competition.",
-            "If the robot falls off of any obstacle or is immobile, it will be placed b ack at the previous checkpoint crossed with a penalty.",
-            "Pulling the robot with connected wires on track will lead to disqualification.",
-            "The robot should not be disassembled unt il the results are declared.",
-            "The time measured by the organizers will be final.",
-            "Team limit: 4 memb ers",
-            "The final decision lie s in the hands of the coordinator.Coordinator reservesthe right to chang e the rounds and the rules on the da y of the event.",
-            "If the participant misbeha ves or does not obey the rulesand re gula tion of the event the coordinators have the right to disqualify the part icipants.",
-
-
-        ],
-
-        // "judgingCriteria": [
-        //     "Evaluations will be done soon after the prelims",
-        //     "Final round evaluation is based on height, length, aesthetic view and Loading factor.",
-        //     "The decision of the judges is final and irrevocable.",
-
-
-        // ],
-
-        "contactDetails": [
-            {
-                "name": "Shraval Suvarna V",
-                "phoneNumber": "+ 91 9353871952",
-                "emailID": "4nm19me089@nm amit.in"
-            },
-            {
-                "name": "U Sanjay Rao",
-                "phoneNumber": "+ 918660 937566",
-                "emailID": " 4nm19me101 @nma mit.in",
-            }
-
-
-
-        ]
-
-    },
-
     {
         "name": "WIRED!",
         "round": "1",
@@ -4322,9 +3220,6 @@ export const eventData = [
         "contactDetails": [
             {
 
-
-
-
                 "name": "Preetham GS",
                 "phoneNumber": "9481306259",
                 "emailID": "shettigarpreetham15@gmail.com"
@@ -4343,7 +3238,7 @@ export const eventData = [
 
     {
         "name": "WIRED!",
-        "round": "2",
+        "round": "2 & 3",
         "day": "3",
         "Time": "9:30 am",
         "venue": "Project Lab 1 & DSD Lab",
@@ -4400,68 +3295,6 @@ export const eventData = [
         ]
 
     },
-
-    {
-        "name": "WIRED!",
-        "round": "3",
-        "day": "3",
-        "Time": "9:30 am",
-        "venue": "Project Lab 1 & DSD Lab",
-        "branch": "ECE",
-        "image": "/events/EC/WIRED.png",
-        "smallDesc": "Are you an electronics geek? Do you want to test your circuit building skills and be a winner? ",
-        "fullDesc": "Wired! is the place you should be. Come, show us what you've got.",
-        "roundDetails": {
-
-            "Round 1": ["The Prelims-A pen - paper test consisting of aptitude and technical questions.There will be 30 questions to be solved in a time interval of 30mins.The top 10 highest scoring teams will qualify for the next round."],
-            "Round 2": ["Circuit Fix-In this round, selected teams will be given with the circuits and Verilog codes.The teams have to analyze and debug the same to get the right output.The teams that complete round 2 can proceed with the 3rd round."],
-            "Round 3": [": Optimum- The teams will be given with a problem statement on Opamp circuit that needs to be designed and simulated using LT spice in the simplest way possible.The team which gets the optimal solution within the earliest possible time will be the winner.", "Round 2 & 3 will be carried out consecutively with total time duration of 3 hours"]
-
-        },
-
-        "rules": [
-            "This is a team event with each team consisting of 2 - 3 members.",
-            "All the teammates are required to be present for further rounds.",
-            "Use of internet or any kind of external reading materials/ textbooks will be strictly prohibited.",
-            "Use of calculator is allowed.",
-            "College ID and PIO are compulsory.",
-            "Organizers will contact the teams selected for higher rounds.",
-            "Participants are expected to abide by the basic ethical norms and requirements of the event.",
-
-
-        ],
-
-        "judgingCriteria": [
-            "Part icip ants will be judged based on the rounds by the orga nizers.",
-            "Judging criteria varies in each round.",
-            "In case of any complications the lecturer incharge would intervene to judge the qualifier round.",
-
-
-        ],
-
-        "contactDetails": [
-            {
-
-
-
-
-                "name": "Preetham GS",
-                "phoneNumber": "9481306259",
-                "emailID": "shettigarpreetham15@gmail.com"
-            },
-            {
-                "name": "Judith Dsouza ",
-                "phoneNumber": "9148960370",
-                "emailID": "dszjdy357@gm ail.c om",
-            }
-
-
-
-        ]
-
-    },
-
-
 
     {
         "name": "BURN AND RUN",
@@ -4585,7 +3418,7 @@ export const eventData = [
 
     {
         "name": "ELECTRICUIT IT!",
-        "round": "1",
+        "round": "1 & 2",
         "day": "2",
         "Time": "9:00 am",
         "venue": "NC22",
@@ -4595,7 +3428,7 @@ export const eventData = [
         "fullDesc": "Are you the reputed regulator for the fluctuations in circuit- related problems in your friends' gang? If yes, then come to Electricuit It!",
         "roundDetails": {
 
-            "Round 1": ["This round is about a crossword puzzle on Elec tronic s. The top 10 teams to solve it within 25 minute s will be selec ted for t he next round."],
+            "Round 1": ["This round is about a crossword puzzle on Electronics. The top 10 teams to solve it within 25 minute s will be selec ted for t he next round."],
             "Round 2": ["This round is a paper and pen test where the teams will be given 5 faulty circuit s. They have to rectify the mistakes in the circuit to get the relevant output within 15 minutes."],
             "Round 3": ["This round consists of circuit designing. The components will be provided to the participants who must design a circuit for the given problem using only the components provided. The tota l time duration is 90 minutes."]
         },
@@ -4639,61 +3472,6 @@ export const eventData = [
 
     },
 
-    {
-        "name": "ELECTRICUIT IT!",
-        "round": "2",
-        "day": "2",
-        "Time": "9:00 am",
-        "venue": "NC22",
-        "branch": "EE",
-        "image": "/events/EE/ELECTRICUITIT.png",
-        "smallDesc": "Are you the reputed regulator for the fluctuations in circuit- related problems in your friends' gang? If yes, then come to Electricuit It!",
-        "fullDesc": "Are you the reputed regulator for the fluctuations in circuit- related problems in your friends' gang? If yes, then come to Electricuit It!",
-        "roundDetails": {
-
-            "Round 1": ["This round is about a crossword puzzle on Elec tronic s. The top 10 teams to solve it within 25 minute s will be selec ted for t he next round."],
-            "Round 2": ["This round is a paper and pen test where the teams will be given 5 faulty circuit s. They have to rectify the mistakes in the circuit to get the relevant output within 15 minutes."],
-            "Round 3": ["This round consists of circuit designing. The components will be provided to the participants who must design a circuit for the given problem using only the components provided. The tota l time duration is 90 minutes."]
-        },
-
-        "rules": [
-            "A team can consist of 3 members. 40 teams can participate in the event",
-            "The use of the internet or any kind of reading materials / textbooks is strictly prohibited",
-            "Only students from the same college can form a team",
-            "An individual cannot be a member of more than one team",
-            "On - spot registrations are allowed only if global registration has less than 40 teams",
-            "Materials required for the event will be provided except for the stationery",
-            "The decision of the judges will be final",
-            "Topics to be known are Digital Electronic Circuits(Logic Design), Analog Electronic Circuits, and Linear Integrated Circuits",
-
-
-
-
-        ],
-
-        "judgingCriteria": [
-            "The select ion of teams for the final round will be based on the team to correct the maximum number of faulty circuits in ro und 2",
-            "In the final round, the team with the expected output of the circuit scores ma ximum p oints and will be announced as the winner of the event",
-
-        ],
-
-        "contactDetails": [
-            {
-                "name": "Royston Alva",
-                "phoneNumber": "9481919294",
-                "emailID": "roys tonalva0@g ma il.com"
-            },
-            {
-                "name": "M Nikhil Beliraya",
-                "phoneNumber": "7676617365",
-                "emailID": "ni khilbeliraya7 @g ma il.com",
-            }
-
-
-
-        ]
-
-    },
 
     {
         "name": "ELECTRICUIT IT!",
@@ -4750,7 +3528,6 @@ export const eventData = [
         ]
 
     },
-
 
     {
         "name": "CODE STUDIO",
@@ -4900,80 +3677,7 @@ export const eventData = [
 
     {
         "name": "CODE STUDIO",
-        "round": "3",
-        "day": "3",
-        "Time": "9:00 am",
-        "venue": "ISL 01 ,02, 03",
-        "branch": "ISE",
-        "image": "/events/IS/CodeStudio.jpg",
-        "smallDesc": "Are you a coding wizard? Or a person who loves to code? If yes, then Code Studio is a perfect platform for you",
-        "fullDesc": ". Consisting of four rounds in total, each round is going to be bigger and better. Grab this opportunity and test your coding skills with Code St ud io.",
-        "roundDetails": {
-
-            "Round 1": [
-                "Preliminary Round- A maximum of 100 teams are allowed.",
-                "Teams will be given a set of programming MCQs that they must answer.",
-                "The top 40 teams scoring the highest will qualify for the next round.",
-                "Rules:30 MCQs should be solved within 30 minutes.",
-                "The use of cell phones or any other electronic gadgets is prohibited.",
-                "Communication with any other teams is not a llowed.",
-                "There will be tie- b reaker questions, which will be evaluated in case of a tie.",
-            ],
-
-            "Round 2": [" Blind Coding - A simple program is given to each team.",
-                "The monitor is turned off and the participants should code the program.",
-                "The top 15 teams solving the given program with minimum time and errors are qualified for round 3.",
-                "Rules:Rough sheets will not be provided to the p articipants.They should remember the code and type."],
-
-            "Round 3": [" Finding Bugs- The teams ore provided with the program or snapshots of it, which contains bugs or error messages.",
-                "Teams must debug the program and obtain the desired output.",
-                "The top 7 teams with the highest number of questions debugged and outputs obtained will qualify.",
-                "Rules: The use of cell phones or any other electronic device is not permitted.",
-                "A maximum of 1hour is given to each team."],
-
-            "Round 4": [" Betting On Your Code -Each team will be provided with certain points, and at a time one question will be displayed to all the teams",
-                "Each team should bid for all the questions with the respective points.",
-                "The team that solves the question first will be rewarded with all the points bet by that team and also the points bet by other teams for the same question.The team to finish second will get 50% of what the first team gets and the remaining teams will get 10 % of what the first team gets if they solve the question within the given time.",
-                "The teams that have 0 points or are unable to bid further are eliminated and the team with the highest points will be declared the winner.",
-                "Rules:A minimum of 25 % of their points should be bet by each team for every question.",
-                "Teams can bet up to a thresho ld point and cannot change once they bet on one question."],
-        },
-
-        "rules": [
-            "Maximum of 2 members in a tea m.",
-            "Any number of teams from a college is allowed.",
-            "The participants can register by contacting any of the organizers.",
-            "Spot registration is available until it exceeds the maximum threshold(100 teams).",
-
-        ],
-
-        "judgingCriteria": [
-            "Top performers in the part icular round will qualify for the next round.",
-            "In the final round, the team with the maximum points will be announced as the winner.",
-
-        ],
-
-        "contactDetails": [
-            {
-                "name": "Royston Alva",
-                "phoneNumber": "9481919294",
-                "emailID": "roys tonalva0@g ma il.com"
-            },
-            {
-                "name": "M Nikhil Beliraya",
-                "phoneNumber": "7676617365",
-                "emailID": "ni khilbeliraya7 @g ma il.com",
-            }
-
-
-
-        ]
-
-    },
-
-    {
-        "name": "CODE STUDIO",
-        "round": "4",
+        "round": "3 & 4",
         "day": "3",
         "Time": "9:00 am",
         "venue": "ISL 01 ,02, 03",
@@ -5210,7 +3914,7 @@ export const eventData = [
         "name": "WEBBED",
         "round": "3",
         "day": "3",
-        "Time": "2:30 pm",
+        "Time": "2 pm",
         "venue": "CSL 05, 06",
         "branch": "ISE",
         "image": "/events/IS/WEBBED.jpg",
@@ -5290,8 +3994,8 @@ export const eventData = [
     {
         "name": "WEBBED",
         "round": "4",
-        "day": "3",
-        "Time": "2:30 pm",
+        "day": "4",
+        "Time": "10 am",
         "venue": "CSL 05, 06",
         "branch": "ISE",
         "image": "/events/IS/WEBBED.jpg",
@@ -5371,7 +4075,6 @@ export const eventData = [
 
     {
         "name": "ENGINE OVERHAUL",
-        "round": "1",
         "day": "1",
         "Time": "11:30 am",
         "venue": "LH 202, 203, 204 & Automotive Lab",
@@ -5425,65 +4128,9 @@ export const eventData = [
 
     },
 
-    {
-        "name": "ENGINE OVERHAUL",
-        "round": "2",
-        "day": "1",
-        "Time": "11:30 am",
-        "venue": "LH 202, 203, 204 & Automotive Lab",
-        "branch": "MECH",
-        "image": "/events/Mech/engineoverhaulin.png",
-        "smallDesc": "Do you think you can bring life to the heart of the vehicle? This is a great opportunity for all the motor- heads ou t there to get your engine know- how tested.",
-        "fullDesc": "A team should consist of 2-3 members who are of the same college An individual should be a member of only one team .All the required tools for overhaul will be provided",
-        "roundDetails": {
-
-            "Round 1": [
-                "Involves a written test that will test your knowledge of automobiles",
-            ],
-
-            "Round 2": [
-                "Id ent ifying the p arts of the engine and explaining their function",],
-
-            "Round 3": ["Involves fixing an already overhauled engine. A video will be shown on how to fix the already overhauled engine. The participants have to carefully observe and assemble it according to the instructions. The teams will have to assemble the  engine with the  smallest number of errors in the lea st a moun t of time"],
-
-        },
-        // "rules": [
-        //     "Round 1: The teams with the highest scores in prelims(quiz) will be qualified for round 2.",
-        //     "Round 2: It is based on how much and how well the team has been able to replicate the given template.Here judges will be comparing the websites of different teams.",
-        //     "Round 3: This judgment is fully based on the innovative and  creative ideas of a team.Another criterion that adds up here is the additional features or animations on the webpage which fetches extra points.",
-
-
-        // ],
-
-        "judgingCriteria": [
-            "Round1: Top 15 teams will proceed to the second round",
-            "Round 2: Participants must correctly identify the engine parts and mention their functions, based on which they will be scored.The top 6 teams will proceed to the final round",
-            "Round 3: For the final round, the number of errors(each error will cause a reduction in p oints) and the time utilized will be taken into consideration to declare the final winners.",
-
-        ],
-
-        "contactDetails": [
-            {
-
-                "name": "SameerG",
-                "phoneNumber": "7892386974",
-                "emailID": "sameergp01@g ma il.co m "
-            },
-            {
-                "name": "Harsh H Kotian ",
-                "phoneNumber": "8050259026",
-                "emailID": "harshkotian1204 @g ma il.com ",
-            }
-
-
-
-        ]
-
-    },
-
+   
     {
         "name": "ROBOSOCCER",
-        //"round": "2",
         "day": "2",
         "Time": "9:00 am",
         "venue": "Infront of NC Block, Survery Lab",
@@ -5589,7 +4236,6 @@ export const eventData = [
 
     },
 
-    //go
 
     {
         "name": "COUTURE",
@@ -5601,18 +4247,6 @@ export const eventData = [
         "image": "/events/CORE/Couture.png",
         "smallDesc": ". Couture is the platform to showcase unseen, unforgettable and ultimate spectacle of all things fashion. ",
         "fullDesc": "Fashion is a unique platform of art to express and impress. Couture is the platform to showcase unseen, unforgettable and ultimate spectacle of all things fashion. So gather your team, work around a theme and strut down the runway.",
-        // "roundDetails": {
-
-        //     "Round 1": [
-        //         "Involves a written test that will test your knowledge of automobiles",
-        //     ],
-
-        //     "Round 2": [
-        //         "Id ent ifying the p arts of the engine and explaining their function",],
-
-        //     "Round 3": ["Involves fixing an already overhauled engine. A video will be shown on how to fix the already overhauled engine. The participants have to carefully observe and assemble it according to the instructions. The teams will have to assemble the  engine with the  smallest number of errors in the lea st a moun t of time"],
-
-        // },
         "rules": [
             "Team s may p a rt icip a te on invita tion through mail only",
             "The event consists of two rounds",
@@ -5634,12 +4268,6 @@ export const eventData = [
 
         ],
 
-        // "judgingCriteria": [
-        //     "Round1: Top 15 teams will proceed to the second round",
-        //     "Round 2: Participants must correctly identify the engine parts and mention their functions, based on which they will be scored.The top 6 teams will proceed to the final round",
-        //     "Round 3: For the final round, the number of errors(each error will cause a reduction in p oints) and the time utilized will be taken into consideration to declare the final winners.",
-
-        // ],
 
         "contactDetails": [
             {
@@ -5703,12 +4331,7 @@ export const eventData = [
 
         ],
 
-        // "judgingCriteria": [
-        //     "Round1: Top 15 teams will proceed to the second round",
-        //     "Round 2: Participants must correctly identify the engine parts and mention their functions, based on which they will be scored.The top 6 teams will proceed to the final round",
-        //     "Round 3: For the final round, the number of errors(each error will cause a reduction in p oints) and the time utilized will be taken into consideration to declare the final winners.",
 
-        // ],
 
         "contactDetails": [
             {
@@ -5736,7 +4359,6 @@ export const eventData = [
 
     {
         "name": "NAVARASA",
-        //"round": "2",
         "day": "3",
         "Time": "12:30 am",
         "venue": "SAMBHRAM",
@@ -5744,18 +4366,7 @@ export const eventData = [
         "image": "/events/CORE/navarasa.png",
         "smallDesc": "A drama competition open to teams from all universities. Through this, we wish to  provide a platform for all budding playwrights, t heatre artists, and art patrons to entertain theatre lovers.",
         "fullDesc": "Sanskrit  literature has a  profound saying  which goes, \"Kavyeshu  Natakam Ra mya m\" : Dra ma is the finest form of poet ry. 'Drama' is a metaphorical amalgamation of visual, auditory, material, and nuances of character.",
-        // "roundDetails": {
 
-        //     "Round 1": [
-        //         "Involves a written test that will test your knowledge of automobiles",
-        //     ],
-
-        //     "Round 2": [
-        //         "Id ent ifying the p arts of the engine and explaining their function",],
-
-        //     "Round 3": ["Involves fixing an already overhauled engine. A video will be shown on how to fix the already overhauled engine. The participants have to carefully observe and assemble it according to the instructions. The teams will have to assemble the  engine with the  smallest number of errors in the lea st a moun t of time"],
-
-        // },
         "rules": [
             "Round 1 - Online Scre ening Ro und :",
             "The video should be a 3 - 5 minutes sample of the performance, and it can be from any portion of the performance.",
@@ -5776,13 +4387,6 @@ export const eventData = [
 
 
         ],
-
-        // "judgingCriteria": [
-        //     "Round1: Top 15 teams will proceed to the second round",
-        //     "Round 2: Participants must correctly identify the engine parts and mention their functions, based on which they will be scored.The top 6 teams will proceed to the final round",
-        //     "Round 3: For the final round, the number of errors(each error will cause a reduction in p oints) and the time utilized will be taken into consideration to declare the final winners.",
-
-        // ],
 
         "contactDetails": [
             {
@@ -5807,7 +4411,6 @@ export const eventData = [
 
     {
         "name": "ROBOWARS",
-        //"round": "2",
         "day": "4",
         "Time": "9:00 am",
         "venue": "Infront of NC Block, Survey Lab",
@@ -5873,13 +4476,6 @@ export const eventData = [
             "Wireless radio controllers shouldn't interfere with opponents transmitter",
             "The decisions made by the Judge panel will be final.",
         ],
-
-        // "judgingCriteria": [
-        //     "Round1: Top 15 teams will proceed to the second round",
-        //     "Round 2: Participants must correctly identify the engine parts and mention their functions, based on which they will be scored.The top 6 teams will proceed to the final round",
-        //     "Round 3: For the final round, the number of errors(each error will cause a reduction in p oints) and the time utilized will be taken into consideration to declare the final winners.",
-
-        // ],
 
         "contactDetails": [
             {
@@ -6062,7 +4658,6 @@ export const eventData = [
             ],
 
             "Round 2": [
-
                 "Participants have to perform a solo routine on stage",
                 "Time duration: 3 + 1 minutes",
                 "Soundtrack must be submitted to the organizers in a pen drive prior to the event",
@@ -6148,7 +4743,7 @@ export const eventData = [
             "Round 3": [
                 "Final Round: Two part icipants will be called on the stage simultaneously.Songs will be played impromptu for which the participants are expected to face - off",
                 "The first part icipant has to stop at the buzzer.The second participant has to start dancing immediately to the same song.",
-                "There will be three such throw -downs.",
+                "There will be three such throw-downs.",
             ],
 
 
@@ -6189,6 +4784,69 @@ export const eventData = [
 
     },
 
+    {
+        "name": "AUTO EXPO",
+        "day": "4",
+        "Time": "9am",
+        "venue": "Sadananda Ground",
+        "branch": "CORE",
+        "image": "/events/CORE/AutoExpo.png",
+        "smallDesc": "Incridea with Yamuna Asha City proudly brings to you Auto Expo 2022: A showcase of the country's most exclusive automobiles.This May 15th we have the biggest line up of automobiles ranging from luxury cars to sports vehicles and much, much more. So all the petrol heads in the house, it's time to get turbocharged because what you're going to witness in this year's Auto Expo, is just out of the world!",
+        "fullDesc": "Incridea with Yamuna Asha City proudly brings to you Auto Expo 2022: A showcase of the country's most exclusive automobiles.This May 15th we have the biggest line up of automobiles ranging from luxury cars to sports vehicles and much, much more. So all the petrol heads in the house, it's time to get turbocharged because what you're going to witness in this year's Auto Expo, is just out of the world!",
+
+        "contactDetails": [
+            {
+                "name": "Ramshravan Rai",
+                "phoneNumber": "+918660305851",
+                "emailID": "ramshravan222@gmail.com"
+            },
+
+
+
+        ]
+
+    },
+
+    {
+        "name": "BATTLE OF BANDS",
+        "day": "3",
+        "Time": "5.30pm",
+        "venue": "Sadananda",
+        "branch": "CORE",
+        "image": "/events/CORE/BoB.jpg",
+        "smallDesc": "A golden opportunity awaits all the tremendous bands in Karnataka to win the ultimate showdown - BATTLE OF THE BANDS.",
+        "fullDesc": "A golden opportunity awaits all the tremendous bands in Karnataka to win the ultimate showdown - BATTLE OF THE BANDS.",
+        "rules" : [
+            "The Bands will be selected for the competition based on the videos provided.",
+	        "A Band can have a maximum of 10 members on stage with minimum of 1 drummer and 1 guitarist.",
+	        "Genres like Rock, Meta l and Fusion are p referred. However, there is no restriction for other genres.",
+	        "Each team is allotted 5 minutes for sound- check and 15 minutes for the performance.",
+	        "Exceeding the 20 minutes will earn drastic negative points",
+	        "Judgment criterion is based on Musical quality, Technical Merit, Band synchronization, Stage Presence and overall performance.",
+	        "Bonus marks are awarded for original composition, musical complexity and theme integration.",
+             "Organizers hold the right to disqualify any band at their discretion without prior notice.",
+	"Decision of the organizers in any circumstances will be final.",
+	"Any vulgarity will lead to disqualific ation.",
+	"Results of this event won't be considered for Winner and Runners Tro phy of the fest.",
+	"Last day to submit entries will be 10th May 2022",
+	"In case of any technical fault, timersshall be reset, and the p articipant will be allowed to perform from the beginning."
+    ],
+        "contactDetails": [
+            {
+                "name": "Vijeth Ullal",
+                "phoneNumber": "+919480565835",
+                "emailID": "vijethullal1402@gmail.com"
+            },
+            {
+                "name": "Sakshith Varambally",
+                "phoneNumber": "+918748971471",
+                "emailID": "sakshith2l@gmail.com"
+            },
+
+
+        ]
+
+    },
 
 ]
 
