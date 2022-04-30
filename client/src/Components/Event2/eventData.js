@@ -43,7 +43,8 @@ export const eventData = [
                 "name": "Sinchana J Suvarna",
                 "phoneNumber": "+918762866341",
                 "emailID": "suvarnasinchana12@gmail.com",
-
+            },
+            {
                 "name": "Ananya Bhat",
                 "phoneNumber": "+918762178003",
                 "emailID": "ananyabhat3009@gmail.com",
@@ -106,7 +107,8 @@ export const eventData = [
                 "name": "Leeshan Dsouza",
                 "phoneNumber": "+ 919019533135",
                 "emailID": "leeshandsouza@gmail.com",
-
+            },
+            {
                 "name": "Pangala Varun Nayak",
                 "phoneNumber": "+ 918073319391",
                 "emailID": "varunrunrunrun@gmail.com",
@@ -157,12 +159,12 @@ export const eventData = [
 
                 "name": " Moghe Sudheesh Rao",
                 "phoneNumber": "+919902145643",
-
+                
             },
             {
                 "name": "Pranava Moodithaya P",
                 "phoneNumber": "+917975060473",
-
+                
             }
 
 
@@ -578,21 +580,21 @@ export const eventData = [
         "image": "/events/CORE/BoB.jpg",
         "smallDesc": "A golden opportunity awaits all the tremendous bands in Karnataka to win the ultimate showdown - BATTLE OF THE BANDS.",
         "fullDesc": "A golden opportunity awaits all the tremendous bands in Karnataka to win the ultimate showdown - BATTLE OF THE BANDS.",
-        "rules": [
+        "rules" : [
             "The Bands will be selected for the competition based on the videos provided.",
-            "A Band can have a maximum of 10 members on stage with minimum of 1 drummer and 1 guitarist.",
-            "Genres like Rock, Meta l and Fusion are p referred. However, there is no restriction for other genres.",
-            "Each team is allotted 5 minutes for sound- check and 15 minutes for the performance.",
-            "Exceeding the 20 minutes will earn drastic negative points",
-            "Judgment criterion is based on Musical quality, Technical Merit, Band synchronization, Stage Presence and overall performance.",
-            "Bonus marks are awarded for original composition, musical complexity and theme integration.",
-            "Organizers hold the right to disqualify any band at their discretion without prior notice.",
-            "Decision of the organizers in any circumstances will be final.",
-            "Any vulgarity will lead to disqualific ation.",
-            "Results of this event won't be considered for Winner and Runners Tro phy of the fest.",
-            "Last day to submit entries will be 10th May 2022",
-            "In case of any technical fault, timersshall be reset, and the p articipant will be allowed to perform from the beginning."
-        ],
+	        "A Band can have a maximum of 10 members on stage with minimum of 1 drummer and 1 guitarist.",
+	        "Genres like Rock, Meta l and Fusion are p referred. However, there is no restriction for other genres.",
+	        "Each team is allotted 5 minutes for sound- check and 15 minutes for the performance.",
+	        "Exceeding the 20 minutes will earn drastic negative points",
+	        "Judgment criterion is based on Musical quality, Technical Merit, Band synchronization, Stage Presence and overall performance.",
+	        "Bonus marks are awarded for original composition, musical complexity and theme integration.",
+             "Organizers hold the right to disqualify any band at their discretion without prior notice.",
+	"Decision of the organizers in any circumstances will be final.",
+	"Any vulgarity will lead to disqualific ation.",
+	"Results of this event won't be considered for Winner and Runners Tro phy of the fest.",
+	"Last day to submit entries will be 10th May 2022",
+	"In case of any technical fault, timersshall be reset, and the p articipant will be allowed to perform from the beginning."
+    ],
         "contactDetails": [
             {
                 "name": "Vijeth Ullal",
@@ -609,7 +611,7 @@ export const eventData = [
         ]
 
     },
-    {
+    {   
         "name": "BETTER BE LETTER",
         "round": "1 & 2",
         "day": "1",
@@ -753,36 +755,7 @@ export const eventData = [
 
         ]
 
-    },
-    {
-        "name": "DIGITAL ART",
-        "day": "3",
-        "Time": "10:30 am",
-        "venue": "RGIS lab",
-        "image": "/events/CV/art.jpg",
-        "branch": "CIVIL",
-        "smallDesc": "In a world obsessed with the digital and NFTS, can you think on your feet and create art that burns itself into our minds as well our screens?",
-        "fullDesc": "In a world obsessed with the digital and NFTS, can you think on your feet and create art that burns itself into our minds as well our screens? Here's Digital Art Competition for you.Only solo participant. Participants will have to get their own devices (laptops, trackpad, etc). Time duration is 1 hour 30 minutes.",
-        "roundDetails": {
-            "round1": ["Given a topic illustrate it digitally within the time limit.", "Time duration is 1 hour 30 minutes."]
-        },
-        "rules": ["This event is for solo participants only.", "Only digital illustration art is allowed. Any form of image manipulation is strictly not allowed in this contest.", "Participants are required to bring their own equipment (laptops,digi-pads,tablets etc.)", "The decision of the judges is final and binding.", "Time duration of the event is 90 minutes.", "The topic for the competition will be informed on the spot."],
-        "judgingCriteria": ["Relevance to the theme", "Originality/Creativity", "Technical Execution and Creativity.", "Unity of composition and Elements"],
-        "contactDetails": [
-            {
-                "name": "Suhan S Nayak",
-                "phoneNumber": "6362599814",
-                "emailID": "suhansnayak7@gmail.com"
-            },
-            {
-                "name": "Thushara AS",
-                "phoneNumber": "6362135300",
-                "emailID": "asthushara@gmail.com"
-            }
-
-        ]
-
-    },
+    }, 
     {
         "name": "DESAFIO",
         "round": "2 & 3",
@@ -804,6 +777,34 @@ export const eventData = [
                 "name": "Sinan Mohamed",
                 "phoneNumber": "8792281367 ",
                 "emailID": "mohdmmedsinanll@gmail.com"
+            }
+
+        ]
+
+    },  {
+        "name": "DIGITAL ART",
+        "day": "3",
+        "Time": "10:30 am",
+        "venue": "RGIS lab",
+        "branch": "CIVIL",
+        "image": "/events/cv/digital.jpg",
+        "smallDesc": "In a world obsessed with the digital and NFTS, can you think on your feet and create art that burns itself into our minds as well our screens?",
+        "fullDesc": "In a world obsessed with the digital and NFTS, can you think on your feet and create art that burns itself into our minds as well our screens? Here's Digital Art Competition for you.Only solo participant. Participants will have to get their own devices (laptops, trackpad, etc). Time duration is 1 hour 30 minutes.",
+        "roundDetails": {
+            "round1": ["Given a topic illustrate it digitally within the time limit.", "Time duration is 1 hour 30 minutes."]
+        },
+        "rules": ["This event is for solo participants only.", "Only digital illustration art is allowed. Any form of image manipulation is strictly not allowed in this contest.", "Participants are required to bring their own equipment (laptops,digi-pads,tablets etc.)", "The decision of the judges is final and binding.", "Time duration of the event is 90 minutes.", "The topic for the competition will be informed on the spot."],
+        "judgingCriteria": ["Relevance to the theme", "Originality/Creativity", "Technical Execution and Creativity.", "Unity of composition and Elements"],
+        "contactDetails": [
+            {
+                "name": "Suhan S Nayak",
+                "phoneNumber": "6362599814",
+                "emailID": "suhansnayak7@gmail.com"
+            },
+            {
+                "name": "Thushara AS",
+                "phoneNumber": "6362135300",
+                "emailID": "asthushara@gmail.com"
             }
 
         ]
@@ -4375,7 +4376,7 @@ export const eventData = [
                 "A quiz based on web development will be used to filter teams by the points secured, quiz will be mainly based on HTML, CSS & javascript",
                 "Number of questions 30",
                 "The qualified teams will enter round 2(time limit: 25mins)",
-                ,
+                
             ],
 
             "Round 2": [
@@ -4456,7 +4457,7 @@ export const eventData = [
                 "A quiz based on web development will be used to filter teams by the points secured, quiz will be mainly based on HTML, CSS & javascript",
                 "Number of questions 30",
                 "The qualified teams will enter round 2(time limit: 25mins)",
-                ,
+                
             ],
 
             "Round 2": [
@@ -4536,7 +4537,7 @@ export const eventData = [
                 "A quiz based on web development will be used to filter teams by the points secured, quiz will be mainly based on HTML, CSS & javascript",
                 "Number of questions 30",
                 "The qualified teams will enter round 2(time limit: 25mins)",
-                ,
+                
             ],
 
             "Round 2": [
@@ -4617,7 +4618,7 @@ export const eventData = [
                 "A quiz based on web development will be used to filter teams by the points secured, quiz will be mainly based on HTML, CSS & javascript",
                 "Number of questions 30",
                 "The qualified teams will enter round 2(time limit: 25mins)",
-                ,
+                
             ],
 
             "Round 2": [
@@ -4737,7 +4738,7 @@ export const eventData = [
 
     },
 
-
+   
     {
         "name": "ROBOSOCCER",
         "day": "2",
@@ -4846,10 +4847,9 @@ export const eventData = [
     },
 
 
-
+   
 
 ]
-
 
 
 
