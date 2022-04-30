@@ -18,6 +18,7 @@ import TechTeam from "./Components/TechTeam"
 import { useEffect } from "react";
 import { useLocation } from "react-router";
 import Loader from "./Components/Gallery2/components/Loader";
+import Privacy from "./Components/Privacy";
 
 const ScrollToTop = (props) => {
   const location = useLocation();
@@ -49,6 +50,7 @@ function App() {
             <Route exact path="/team" element={<Team />} />
             <Route exact path="/pronite" element={<Pronite />} />
             <Route exact path="/TechTeam" element={<TechTeam />} />
+            <Route exact path="/privacy" element={<Privacy />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
           <Footer />
