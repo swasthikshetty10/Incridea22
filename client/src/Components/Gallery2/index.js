@@ -5,18 +5,12 @@ import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import { useEffect, useRef, useState } from "react";
 import 'locomotive-scroll/dist/locomotive-scroll.css'
 import "./assets/css/css_for_fonts.css"
-
 import Home from "./sections/Home";
 import { AnimatePresence } from "framer-motion";
-// import About from "./sections/About";
 import IncrediaPhotos from "./sections/IncrediaPhotos";
 import ScrollTriggerProxy from './components/ScrollTriggerProxy';
-// import Banner from "./sections/Banner";
-// import NewArrival from "./sections/NewArrival";
 import Footer from '../Footer';
 import Loader from "./components/Loader";
-// import Buttons from "./sections/Buttons";
-import Navbar from "../Navbar";
 import Topbutton from "../Topbutton";
 
 function Gallery2() {

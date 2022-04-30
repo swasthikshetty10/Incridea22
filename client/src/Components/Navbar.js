@@ -10,7 +10,6 @@ function Navbar({ tab, sticky }) {
     window.onscroll = () => {
       setOffset(window.pageYOffset)
     }
-    console.log(offset)
   }, [])
   const handleHamburger = () => {
     if (click === 0) {

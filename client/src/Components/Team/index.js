@@ -1,15 +1,13 @@
 import Member from "./Member";
 import { persons } from "./data";
-import src from "../../Images/team/p1.png";
 import Navbar from "../Navbar";
 import About from "./About";
-import { Fade, Zoom, Slide } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 
 const Team = () => {
   return (
     <>
-      {/* // <div className="w-4/5 m-auto mt-16"> */}
       <Navbar tab="team" />
       <About />
 

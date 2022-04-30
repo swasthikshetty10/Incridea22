@@ -1,6 +1,6 @@
 
 import React, { useState } from "react";
-import { Routes, Route, Red, Navigate } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Event2 from "./Components/Event2";
 import Gallery from "./Components/Gallery2";
 import Home from "./Components/Home";

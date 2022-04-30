@@ -1,4 +1,3 @@
-import { FaInstagram } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsTelephoneOutbound } from "react-icons/bs";
 import { Fade } from "react-awesome-reveal";
@@ -22,7 +21,6 @@ const Member = ({ name, role, src, mob, email }) => {
               {role}
             </h3>
             <div className="flex justify-center gap-3 mb-2">
-              {/* <FaInstagram className="text-white cursor cursor-pointer   transition ease-in-out hover:-translate-x-1 hover:text-lg hover:-translate-y-1 " /> */}
               <a href={`mailto:${email}` }>
               <HiOutlineMail className=" cursor-pointer text-[#9d7643] hover:text-white  transition-all  ease-out text-2xl hover:text-3xl   " />
               </a>

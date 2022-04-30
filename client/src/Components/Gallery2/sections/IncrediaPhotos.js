@@ -201,7 +201,7 @@ const IncrediaPhotos = ({id, elementnumber=1, title}) => {
       // ScrollTrigger.getAll().forEach(t => t.refresh());
   
     };
-  }, []);
+  }, [elementnumber]);
 
   return (
     <Section ref={ref} id={id}>

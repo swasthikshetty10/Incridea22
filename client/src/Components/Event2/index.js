@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import Navbar from "../Navbar";
 import EventsCard from "./EventsCard";
 import TabsSimple from "./TabsSimple";
-import { data } from "./data";
 import FilterBar from "./FilterBar";
 import { eventData } from "./eventData"
 
@@ -11,7 +10,7 @@ function Event2() {
   const [branch, setBranch] = useState("ALL");
   const [day, setDay] = useState("0");
   const [query, setQuery] = useState("");
-  const [elements, setElements] = useState(data);
+  const [elements, setElements] = useState(eventData);
 
   useEffect(() => {
     //filter code

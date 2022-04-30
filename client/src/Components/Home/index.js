@@ -13,12 +13,9 @@ import { Link } from "react-router-dom";
 function Home() {
   const [rotation, setRotation] = useState("rotate-0")
   const [second, secSecond] = useState(0)
-  const [offset, setOffset] = useState(0);
+  
   useEffect(() => {
     const rot = `${(second * 6) % 360}deg`
-    window.onscroll = () => {
-      setOffset(window.pageYOffset)
-    }
     setRotation(rot)
   }, [second])
   return (
