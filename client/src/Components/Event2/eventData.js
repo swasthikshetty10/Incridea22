@@ -1,5 +1,615 @@
 export const eventData = [
     {
+        "name": "COUTURE",
+
+        "day": "2",
+        "Time": "4:00 pm",
+        "venue": "Sadananda",
+        "branch": "CORE",
+        "image": "/events/CORE/Couture.png",
+        "smallDesc": "Couture is the platform to showcase unseen, unforgettable and ultimate spectacle of all things fashion. ",
+        "fullDesc": "Fashion is a unique platform of art to express and impress. Couture is the platform to showcase unseen, unforgettable and ultimate spectacle of all things fashion. So gather your team, work around a theme and strut down the runway.",
+        "rules": [
+            "Teams may participate on invitation through mail only",
+            "The event consists of two rounds",
+            "First round requires the team lead to mail portfolios of all the models. Selection for round 2 will be based on the portfolios submitted",
+            "Final round is where teams selected from the portfolio round walk the ramp for Couture'22",
+            "A duration of 10 minutes will be allotted purely for the performance, and an additio nal 5 minutes will be allowed for setting the stage",
+            "Online registration is mandatory for the teams that qualify for the last round.",
+            "Vulgarity in any form will lead to disqualification",
+            "Use of water, fire or any kind of fireworks(party poppers) will lead to immediate disqualification",
+            "No gender restriction on team constitution",
+            "Performance should be based on any theme of the team's choice",
+            "Any deviation from a fashion- related choreography will lead to a deduction in score",
+            "Judgment will be based on coordination, music, confidence, gesture,",
+            "creativit y, garments and accessories",
+            "Judges' decision is final",
+            "Any violation with respect to the campus rules could lead to disqualification",
+            "Any sort of intoxication in the campus or the green room will lead to disqualification",
+            "Team Limit: 16 models + 7 supporting crew",
+
+        ],
+
+
+        "contactDetails": [
+            {
+
+
+                "name": "Sayyaf Ahamed",
+                "phoneNumber": "+919880948808",
+                "emailID": "sayyafahamed9@gmail.com"
+            },
+            {
+                "name": "Sinchana J Suvarna",
+                "phoneNumber": "+918762866341",
+                "emailID": "suvarnasinchana12@gmail.com",
+
+                "name": "Ananya Bhat",
+                "phoneNumber": "+918762178003",
+                "emailID": "ananyabhat3009@gmail.com",
+            }
+
+
+
+        ]
+
+    },
+
+
+    {
+        "name": "HOGATHON",
+
+        "day": "4",
+        "Time": "11:30 am",
+        "venue": "SAC OAT",
+        "branch": "CORE",
+        "image": "/events/CORE/Hogathon.png",
+        "smallDesc": "Are you a big-time foodie, a glutton who loves to eat it all in one go?",
+        "fullDesc": " For all the food - lovers with appetites bigger than their tummies, it's time to put your bellies and taste buds to test. lncridea'22 presents- Hogathon. A mega food eating competition to hog it all as fast as you can, let's see \"How Big Your Appetite is?\"",
+        "roundDetails": {
+
+            "Round": [
+                "The event consists of 3 rounds.",
+                "Contestants who finish eating the given food in the least amount of time will proceed to the next round.",
+                "Only individual participation is permitted.",
+
+            ],
+
+        },
+        "rules": [
+            "Each participant will have to finish the given food items within the time limit",
+            "The participant must finish one item completely before starting the next",
+            "Any item that is not completely eaten will not be considered",
+            "Any item eaten after the allotted time will not be considered",
+            "Judging is based on maximum amount of food eaten in the minimum time possible",
+            "The decision taken by the judge is final.",
+            "",
+            "Participants contest individually",
+            "Participants have to pay a registration fee (not included in global registration)",
+            "Participants must possess the PIO as wel l as t he ir respective college ID",
+
+
+
+
+        ],
+
+
+
+        "contactDetails": [
+            {
+
+                "name": "Deekshitha Shetty",
+                "phoneNumber": "+ 919686693372",
+                "emailID": "shettydeekshitha15@gmail.com"
+            },
+            {
+                "name": "Leeshan Dsouza",
+                "phoneNumber": "+ 919019533135",
+                "emailID": "leeshandsouza@gmail.com",
+
+                "name": "Pangala Varun Nayak",
+                "phoneNumber": "+ 918073319391",
+                "emailID": "varunrunrunrun@gmail.com",
+            }
+
+
+
+        ]
+
+    },
+
+
+    {
+        "name": "NAVARASA",
+        "day": "3",
+        "Time": "12:30 am",
+        "venue": "SAMBHRAM",
+        "branch": "CORE",
+        "image": "/events/CORE/navarasa.png",
+        "smallDesc": "A drama competition open to teams from all universities. Through this, we wish to  provide a platform for all budding playwrights, t heatre artists, and art patrons to entertain theatre lovers.",
+        "fullDesc": "Sanskrit  literature has a  profound saying  which goes, \"Kavyeshu  Natakam Ra mya m\" : Dra ma is the finest form of poet ry. 'Drama' is a metaphorical amalgamation of visual, auditory, material, and nuances of character.",
+
+        "rules": [
+            "Round 1 - Online Scre ening Ro und :",
+            "The video should be a 3 - 5 minutes sample of the performance, and it can be from any portion of the performance.",
+            "Reco rd your performance and upload it on your Google Drive.Link of which is to be shared with us over email at navarasa.incridea@g ma il.com under the subject \"Navarasa Online Screening Sub mission\".",
+            "Editing, cuts, and pre - recorded videos are not allowed.",
+            "Submission Deadline: Before 25th April 2022, S PM.",
+            "A maximum of 9 teams will be selec te d from the Online Screening round and will proceed to the final round.",
+            "Note: All the rules of the Fino / Round ore also applied toOnline Screening Round.",
+            "Round 2 - Final Round:",
+            "Each team will be allotted a total time of 15 minutes. 10 + 2 minutes for the stage performance and extra 3 minutes will be given for stage set up.",
+            "Each team will comprise 9 + 6 members.A maximum of 9 ac tors can be present on stage and a maximum of 6 members can be part of the stage supp ort team(i.e., musicians, stage setup team, etc.)",
+            "A performa nce could be done in any of these languages - Kannada, Hindi, Tulu, and English.",
+            "Two Mies each will be provided for stage performers and the background team.",
+            "Targeting a specific Religion, Politica l Party, Personalit y, and use of foul language will lead to direct disqualification.",
+            "Originalit y in scripting should be given utmost priority.The implication of the theme is based on your creative perception.",
+            "No apt use of theme or omission of the theme from the performance will result in a deduction in score or direct disqua lifica t ion.",
+            "Judge's d ecision will be considered supreme and final.",
+
+
+        ],
+
+        "contactDetails": [
+            {
+
+
+
+                "name": " Moghe Sudheesh Rao",
+                "phoneNumber": "+919902145643",
+                
+            },
+            {
+                "name": "Pranava Moodithaya P",
+                "phoneNumber": "+917975060473",
+                
+            }
+
+
+
+        ]
+
+    },
+
+    {
+        "name": "ROBOWARS",
+        "day": "4",
+        "Time": "9:00 am",
+        "venue": "Infront of NC Block, Survey Lab",
+        "branch": "CORE",
+        "image": "/events/CORE/robowars.png",
+        "smallDesc": "Are you passionate about Bots? Or you just like to watch things get crushed? ",
+        "fullDesc": "War does not determine who is right, only who is left.Are you passionate about Bots? Or you just like to watch things get crushed?The path to glory passes through the alley of destruc t ion, let ha l combats, violent bots, and flying blades! Merge your technical know- how with the ferocious gladiator in you! Make your bot fight for the ultimate glory or land up in the junkyard! Fight smart, be patient and pray; for Robo - Wars just got crazier in its new avatar!",
+        "eventDetails": {
+
+            "event": [
+                "The event will consist of one-on-one matches between the teams. Thereafter, the winning team proceeds to the next round and losing team will be eliminated from the competition. The process continues until a single team captures the winner's title.",
+            ],
+
+
+        },
+
+        "designcriteria": ["Dimensions of the bot: 60cm x 60 cmx 60 cm (5% to lera nc e on each dimension)",
+            "Weight: 45kg(10 % tolerance)",
+            "Attac k mechanisms are not allowed.However, ONLY lift ing mechanisms are allowed",
+            "Communication: Wired or wireless(Techniques found to be interfering with the opponent's communication will result in DISQUALIFICATION)",
+            "Battery potential: 36 V(Maximu m) Explosive batteries are NOT allowe d",
+            "Lego kits, readymade kits, car bases, and development boards are not permitted.",
+            "Readymade gearboxes are permitted.",
+        ],
+        "rules": [
+            "The aim of every match is to d emolish and immobilize the other bot completely",
+            "Every match will consist of 2 rounds of 3 minutes each and each subsequent round will have a time gap of 1minute.",
+            "Maximum time - out of 4 minutes is allowed for the whole match",
+            "If, after the completion of both the rounds, no bot is able to demolishor immobilize the other bot, the winnerwill be selec ted after evaluating the points and damage incurred to both the bots.",
+            "Any change in the rules by the judge shall be intimidated to the teams in the event arena",
+            "The competition will be played on a knock- out basis.",
+            "The bot will be inspected for safet y before the event begins.If found to be unsafe for the participants / spectators, it will be discarded",
+            "The organizers reserve the right to change any or all of the rules as they deem fit.Changes in rules, if any, will be highlighted",
+            "Violation of any of the rules will result in immed iate disqua lifica t ion",
+            "The maximum time limit for the clash of combatants inside the arena is10 minutes",
+            "A bot will be declared immobile(out) if it cannot exhibit a linear motion of at least one inch within 20 seconds.A bot with one side of its drive train disabled will not be counted out if it can demonstrate some degree of controlled movement",
+            "Teams that arenot ready when called for battle will be considered to have declared a walkover and will receive no points",
+            "The bot ca nnot be split into two sub - unit s.Two distinct parts connected by a flexible cable will be considered separate units",
+            "Damaging the arena will lead to negative points depending on the degree of damage.",
+            "A bot  should not violate the specified design criteria",
+            "Team s should follow safety rules.Failing to do so will cause direct disqualification",
+            "In all cases, the judges' decision will be final and binding",
+            "Points will be based on PIN, RAM, and  TOPPLE.Weightage of points will be informed on the day of the event",
+            "External contestants should preferably register a priori.Spot registrations are also permitted.",
+
+
+
+        ],
+
+        "teamregulations": [
+            "Member limit in a team:",
+            "Min: 2members Max: 6 members",
+            "Only students from the same college can form a team",
+            "Only Students currently pursuing Undergradua te engineering d egree are allowed",
+            "Multiple number of teams from same college are allowed",
+            "You must present your college ID and PIO while registering",
+            "An individual cannot be a member of more than one team",
+            "A rob ot cannot be shared by two or more teams",
+            "The rob ot should follow the sp ec ifica tions provided.Any d eviation from the mentioned specificationswill lead to Direct disqualifications",
+            "Both wired and wirelessbots are allowed",
+            "Struc tu ral Integ rit y of the bot should be maintained.Changes to structure between matches are not allowed.",
+            "Bots with wired controls should have dedicated person to hold the wires and prevent it from entangling",
+            "Wireless radio controllers shouldn't interfere with opponents transmitter",
+            "The decisions made by the Judge panel will be final.",
+        ],
+
+        "contactDetails": [
+            {
+                "name": "Anush Laila",
+                "phoneNumber": "+917795927285",
+                "emailID": "anush.laila.22@gmail.com "
+            },
+            {
+                "name": "AN Harsha",
+                "phoneNumber": "+ 919481372482",
+                "emailID": "harsha.athlur@gmail.com ",
+            }
+
+
+
+        ]
+
+    },
+
+    {
+        "name": "STOMP THAT",
+        //"round": "2",
+        "day": "2",
+        "Time": "9:00 am",
+        "venue": "SADANANDA",
+        "branch": "CORE",
+        "image": "/events/CORE/StompThat.png",
+        "smallDesc": "a chance for all the amazing groups out there to showcase their group's skills, choreography, and sync.",
+        "fullDesc": "There is nothing more calming than watching a fluid choreography of people dancing in unison.This is a chance for all the amazing groups out there to showcase their group's skills, choreography, and sync. So get your groups ready to stomp that stage with uniqueness and talent!",
+        "eventDetails": {
+
+            "event": [
+                "Eastern Group Dance: Contemporary, Freestyle, Bollywood, Classical, Folk, Broadway Jazz, all Ballroom Styles.",
+                "Western Group Dance: Hip - Hop, B - Boying, Locking - Popping - Breaking, Whacking",
+            ],
+
+
+        },
+
+
+        "rules": [
+            "Team Constitution: 6 - 25 members",
+            "It is mandatory for every member of the group to have a valid college ID and PID",
+            "It is important to pre- register by calling any of the organizer's numbers listed below. Mention to the organizer your style and category while pre-registering",
+            "The participants must be ready at the venue at least 45 minutes prior to the commencement of the event",
+            "The music must be submitted to the organizers in a USB drive 30 minutes before the event.",
+            "The time duration for the performance will be 5 + 3(performance + stage setup)",
+            "Any kind of vulgarity will lead to immediate elimination.",
+            "The use of fire, powder, flowers and water is strictly prohibited.",
+
+
+
+        ],
+
+
+
+        "judgingCriteria": [
+            "WESTERN: Chore o gra p h y, coordination, expressions, co stume, creativity, originality and overall impact.",
+            "EASTERN: Choreography, coordination, expressions, incorp orat ion of the theme, creativity, costume, and overall impact.",
+            "The decision of the judges is final and irrevocable",
+            "First and Second prizes will be separately awarded to Eastern and Western Style",
+
+        ],
+
+        "contactDetails": [
+            {
+                "name": "Aradhana Nambiar",
+                "phoneNumber": "+ 919148275419",
+                "emailID": "andanambiar3@gmail.com "
+            },
+            {
+                "name": "Jnana Aithal",
+                "phoneNumber": "+ 919731521417",
+                "emailID": "jnanaaithal12@gmail.com",
+            }
+
+
+
+        ]
+
+    },
+
+    {
+        "name": "VIBE",
+        "round": "1",
+        "venue": "Online",
+        "branch": "CORE",
+        "image": "/events/CORE/vibe.png",
+        "smallDesc": "The battleground is set, the lights are lit,andit's time for all you dancers to fire up the dancetloor with your moves to the unpredictable tunes.",
+        "fullDesc": "Come join the battle of dance and ignite your dancing flame! Vibe hai toh hype hai",
+        "roundDetails": {
+
+            "Round 1": [
+                "Online Eliminations:",
+                "Participants have to submit a video of their solo performance of any western dance form",
+                "Time limit: 1 - 2 minutes",
+                "Participants will not be judged on the basis of their costume",
+                "The video must be recorded from a static camera.Videos having moving cameras are strictly not allowed",
+                "The video should not be edited in any way.Use of any kind of special effects is strictly prohibited and will lead to direct disqualification",
+                "Deadline for submission: 5th of May 2022, 11: 59 pm",
+                "Mail your entries along with your Name, University Registration Number, Contact Number, and College Name at incridea.nmamit@g mail.c om",
+                "Selecte d contestants will be contacted via e - mail on or before May 10, 2022",
+
+            ],
+
+            "Round 2": [
+
+                "Participants have to perform a solo routine on stage",
+                "Time duration: 3 + 1 minutes",
+                "Soundtrack must be submitted to the organizers in a pen drive prior to the event",
+                "Selecte d contestants will move on to the Final Round.",
+            ],
+
+            "Round 3": [
+                "Final Round: Two part icipants will be called on the stage simultaneously.Songs will be played impromptu for which the participants are expected to face - off",
+                "The first part icipant has to stop at the buzzer.The second participant has to start dancing immediately to the same song.",
+                "There will be three such throw -downs.",
+            ],
+
+
+        },
+
+        "rules": [
+            "Judges' decision will be final",
+            "Any form of vulgarity will lead to immediate disqualific ation",
+            "The use of fire, powder, water or animals is strictly prohibited",
+
+
+        ],
+
+        "judgingCriteria": [
+            "Prelimina ry Rounds: Choreography, expressions, stage presence and the overall impact will be considered",
+            "Final Round: Entertainment factor, spontaneity, and  creativity will be considered",
+
+
+        ],
+
+        "contactDetails": [
+            {
+
+
+                "name": "Riwa Angel Dsouza",
+                "phoneNumber": "+919380709458",
+                "emailID": "riwazacker@gmail.com"
+            },
+            {
+                "name": "Manas M Rai",
+                "phoneNumber": "+ 917975310793",
+                "emailID": "manasrai9611@gmail.com",
+            }
+
+
+
+        ]
+
+    },
+    {
+        "name": "VIBE",
+        "round": "2",
+        "day": "2",
+        "Time": "2:00 pm",
+        "venue": "SAC OAT",
+        "branch": "CORE",
+        "image": "/events/CORE/vibe.png",
+        "smallDesc": "The battleground is set, the lights are lit,and it's time for all you dancers to fire up the dance floor with your moves to the unpredictable tunes.",
+        "fullDesc": "Come join the battle of dance and ignite your dancing flame! Vibe hai toh hype hai",
+        "roundDetails": {
+
+            "Round 1": [
+                "Online Eliminations:",
+                "Participants have to submit a video of their solo performance of any western dance form",
+                "Time limit: 1 - 2 minutes",
+                "Participants will not be judged on the basis of their costume",
+                "The video must be recorded from a static camera.Videos having moving cameras are strictly not allowed",
+                "The video should not be edited in any way.Use of any kind of special effects is strictly prohibited and will lead to direct disqualification",
+                "Deadline for submission: 5th of May 2022, 11: 59 pm",
+                "Mail your entries along with your Name, University Registration Number, Contact Number, and College Name at incridea.nmamit@g mail.c om",
+                "Selecte d contestants will be contacted via e - mail on or before May 10, 2022",
+
+            ],
+
+            "Round 2": [
+                "Participants have to perform a solo routine on stage",
+                "Time duration: 3 + 1 minutes",
+                "Soundtrack must be submitted to the organizers in a pen drive prior to the event",
+                "Selecte d contestants will move on to the Final Round.",
+            ],
+
+            "Round 3": [
+                "Final Round: Two part icipants will be called on the stage simultaneously.Songs will be played impromptu for which the participants are expected to face - off",
+                "The first part icipant has to stop at the buzzer.The second participant has to start dancing immediately to the same song.",
+                "There will be three such throw -downs.",
+            ],
+
+
+        },
+
+        "rules": [
+            "Judges' decision will be final",
+            "Any form of vulgarity will lead to immediate disqualific ation",
+            "The use of fire, powder, water or animals is strictly prohibited",
+
+
+        ],
+
+        "judgingCriteria": [
+            "Prelimina ry Rounds: Choreography, expressions, stage presence and the overall impact will be considered",
+            "Final Round: Entertainment factor, spontaneity, and  creativity will be considered",
+
+
+        ],
+
+        "contactDetails": [
+            {
+
+
+                "name": "Riwa Ange l Dsouza",
+                "phoneNumber": "+919380709458",
+                "emailID": "riwazacker@gmail.com"
+            },
+            {
+                "name": "Manas M Rai",
+                "phoneNumber": "+917975310793",
+                "emailID": "manasrai9611@gmail.com",
+            }
+
+
+
+        ]
+
+    },
+    {
+        "name": "VIBE",
+        "round": "3",
+        "day": "3",
+        "Time": "2:00 pm",
+        "venue": "SAC OAT",
+        "branch": "CORE",
+        "image": "/events/CORE/vibe.png",
+        "smallDesc": "The battleground is set, the lights are lit,andit's time for all you dancers to fire up the dancetloor with your moves to the unpredictable tunes.",
+        "fullDesc": "Come join the battle of dance and ignite your dancing flame! Vibe hai toh hype hai",
+        "roundDetails": {
+
+            "Round 1": [
+                "Online Eliminations:",
+                "Participants have to submit a video of their solo performance of any western dance form",
+                "Time limit: 1 - 2 minutes",
+                "Participants will not be judged on the basis of their costume",
+                "The video must be recorded from a static camera.Videos having moving cameras are strictly not allowed",
+                "The video should not be edited in any way.Use of any kind of special effects is strictly prohibited and will lead to direct disqualification",
+                "Deadline for submission: 5th of May 2022, 11: 59 pm",
+                "Mail your entries along with your Name, University Registration Number, Contact Number, and College Name at incridea.nmamit@g mail.c om",
+                "Selecte d contestants will be contacted via e - mail on or before May 10, 2022",
+
+            ],
+
+            "Round 2": [
+
+                "Participants have to perform a solo routine on stage",
+                "Time duration: 3 + 1 minutes",
+                "Soundtrack must be submitted to the organizers in a pen drive prior to the event",
+                "Selecte d contestants will move on to the Final Round.",
+            ],
+
+            "Round 3": [
+                "Final Round: Two part icipants will be called on the stage simultaneously.Songs will be played impromptu for which the participants are expected to face - off",
+                "The first part icipant has to stop at the buzzer.The second participant has to start dancing immediately to the same song.",
+                "There will be three such throw-downs.",
+            ],
+
+
+        },
+
+        "rules": [
+            "Judges' decision will be final",
+            "Any form of vulgarity will lead to immediate disqualific ation",
+            "The use of fire, powder, water or animals is strictly prohibited",
+
+
+        ],
+
+        "judgingCriteria": [
+            "Preliminary Rounds: Choreography, expressions, stage presence and the overall impact will be considered",
+            "Final Round: Entertainment factor, spontaneity, and  creativity will be considered",
+
+
+        ],
+
+        "contactDetails": [
+            {
+
+
+                "name": "Riwa Ange l Dsouza",
+                "phoneNumber": "+919380709458",
+                "emailID": "riwa zacker@g ma il.co m"
+            },
+            {
+                "name": "Manas M Roi",
+                "phoneNumber": "+ 917975310793",
+                "emailID": "ma na srai9611 @g mail.c om",
+            }
+
+
+
+        ]
+
+    },
+
+    {
+        "name": "AUTO EXPO",
+        "day": "4",
+        "Time": "9am",
+        "venue": "Sadananda Ground",
+        "branch": "CORE",
+        "image": "/events/CORE/AutoExpo.png",
+        "smallDesc": "Incridea with Yamuna Asha City proudly brings to you Auto Expo 2022: A showcase of the country's most exclusive automobiles.This May 15th we have the biggest line up of automobiles ranging from luxury cars to sports vehicles and much, much more. So all the petrol heads in the house, it's time to get turbocharged because what you're going to witness in this year's Auto Expo, is just out of the world!",
+        "fullDesc": "Incridea with Yamuna Asha City proudly brings to you Auto Expo 2022: A showcase of the country's most exclusive automobiles.This May 15th we have the biggest line up of automobiles ranging from luxury cars to sports vehicles and much, much more. So all the petrol heads in the house, it's time to get turbocharged because what you're going to witness in this year's Auto Expo, is just out of the world!",
+
+        "contactDetails": [
+            {
+                "name": "Ramshravan Rai",
+                "phoneNumber": "+918660305851",
+                "emailID": "ramshravan222@gmail.com"
+            },
+
+
+
+        ]
+
+    },
+
+    {
+        "name": "BATTLE OF BANDS",
+        "day": "3",
+        "Time": "5.30pm",
+        "venue": "Sadananda",
+        "branch": "CORE",
+        "image": "/events/CORE/BoB.jpg",
+        "smallDesc": "A golden opportunity awaits all the tremendous bands in Karnataka to win the ultimate showdown - BATTLE OF THE BANDS.",
+        "fullDesc": "A golden opportunity awaits all the tremendous bands in Karnataka to win the ultimate showdown - BATTLE OF THE BANDS.",
+        "rules" : [
+            "The Bands will be selected for the competition based on the videos provided.",
+	        "A Band can have a maximum of 10 members on stage with minimum of 1 drummer and 1 guitarist.",
+	        "Genres like Rock, Meta l and Fusion are p referred. However, there is no restriction for other genres.",
+	        "Each team is allotted 5 minutes for sound- check and 15 minutes for the performance.",
+	        "Exceeding the 20 minutes will earn drastic negative points",
+	        "Judgment criterion is based on Musical quality, Technical Merit, Band synchronization, Stage Presence and overall performance.",
+	        "Bonus marks are awarded for original composition, musical complexity and theme integration.",
+             "Organizers hold the right to disqualify any band at their discretion without prior notice.",
+	"Decision of the organizers in any circumstances will be final.",
+	"Any vulgarity will lead to disqualific ation.",
+	"Results of this event won't be considered for Winner and Runners Tro phy of the fest.",
+	"Last day to submit entries will be 10th May 2022",
+	"In case of any technical fault, timersshall be reset, and the p articipant will be allowed to perform from the beginning."
+    ],
+        "contactDetails": [
+            {
+                "name": "Vijeth Ullal",
+                "phoneNumber": "+919480565835",
+                "emailID": "vijethullal1402@gmail.com"
+            },
+            {
+                "name": "Sakshith Varambally",
+                "phoneNumber": "+918748971471",
+                "emailID": "sakshith2l@gmail.com"
+            },
+
+
+        ]
+
+    },
+    {   
         "name": "BETTER BE LETTER",
         "round": "1 & 2",
         "day": "1",
@@ -383,8 +993,6 @@ export const eventData = [
 
     },
 
-
-    // work
     {
         "name": "KALAKAAR",
         "round": "1",
@@ -760,7 +1368,7 @@ export const eventData = [
         ],
         "contactDetails": [
             {
-                "name": "Rola n Gomes",
+                "name": "Rolan Gomes",
                 "phoneNumber": "+ 919019536394",
                 "emailID": "rolangomes19@gmail.com"
             },
@@ -800,7 +1408,7 @@ export const eventData = [
 
         "contactDetails": [
             {
-                "name": "Rola n Gomes",
+                "name": "Rolan Gomes",
                 "phoneNumber": "+ 919019536394",
                 "emailID": "rolangomes19@gmail.com"
             },
@@ -4237,616 +4845,7 @@ export const eventData = [
     },
 
 
-    {
-        "name": "COUTURE",
-
-        "day": "2",
-        "Time": "4:00 pm",
-        "venue": "Sadananda",
-        "branch": "CORE",
-        "image": "/events/CORE/Couture.png",
-        "smallDesc": ". Couture is the platform to showcase unseen, unforgettable and ultimate spectacle of all things fashion. ",
-        "fullDesc": "Fashion is a unique platform of art to express and impress. Couture is the platform to showcase unseen, unforgettable and ultimate spectacle of all things fashion. So gather your team, work around a theme and strut down the runway.",
-        "rules": [
-            "Team s may p a rt icip a te on invita tion through mail only",
-            "The event consists of two rounds",
-            "First round requires the team lead to mail portfolios of all the models.Select ion for round 2 will be based on the portfolios submitted",
-            "Final round is where teams selected from the portfolio round walk the ramp for Couture'22",
-            "A duration of 10 minutes will be allotted purely for the performance, and an additio nal 5 minutes will be allowed for setting the stage",
-            "Online registration is mandatory for the teams that qualify for the last round.",
-            "Vulgarit y in any form will lead to disqualification",
-            "Use of water, fire or any kind of fireworks(party poppers) will lead to immediate disqualification",
-            "No gender restriction on team constitution",
-            "Performance should be based on any theme of the team's choice",
-            "Any deviation from a fashion- related choreography will lead to a deduction in score",
-            "Judgment will be based on coordination, music, confidence, gesture,",
-            "creativit y, garments and accessories",
-            "Judges' decision is final",
-            "Any violation with respect to the campus rules could lead to disqualification",
-            "Any sort of intoxication in the campus or the green room will lead to disqualification",
-            "Team Limit: 16 models + 7 supporting crew",
-
-        ],
-
-
-        "contactDetails": [
-            {
-
-
-                "name": "Sayyaf Ahamed",
-                "phoneNumber": "+ 919880948808",
-                "emailID": "sayya fa ha me d9@g ma il.co m"
-            },
-            {
-                "name": "Sinchana J Suvarna",
-                "phoneNumber": "+ 918762866341",
-                "emailID": "suvarna sinchana12 @gma il.c om",
-
-                "name": "Ananya Bhat",
-                "phoneNumber": "+ 918762178003",
-                "emailID": "a nanya b ha t 30 09@g mai l.com",
-            }
-
-
-
-        ]
-
-    },
-
-
-    {
-        "name": "HOGATHON",
-
-        "day": "4",
-        "Time": "11:30 am",
-        "venue": "SAC OAT",
-        "branch": "CORE",
-        "image": "/events/CORE/Hogathon.png",
-        "smallDesc": "Are you a big-time foodie, a glutton who loves to eat it all in one go?",
-        "fullDesc": " For all the food - lovers with appetites bigger than their tummies, it's time to put your bellies and taste buds to test. lncridea'22 presents- Hogathon. A mega food eating competition to hog it all as fast as you can, let's see \"How Big Your Appetite is?\"",
-        "roundDetails": {
-
-            "Round": [
-                "The event consists of 3 rounds.",
-                "Contestants who finish eating the given food in the least amount of time will proceed to the next round.",
-                "Only individual participation is permitted.",
-
-            ],
-
-        },
-        "rules": [
-            "Each participant will have to finish the given food items within the time limit",
-            "The participant must finish one item completely before starting the next",
-            "Any item that is not completely eaten will not be considered",
-            "Any item eaten after the allotted time will not be considered",
-            "Judging is based on maximum amount of food eaten in the minimum time possible",
-            "The decision taken by the judge is final.",
-            "",
-            "Participants contest individually",
-            "Participants have to pay a registration fee (not included in global registration)",
-            "Participants must possess the PIO as wel l as t he ir respective college ID",
-
-
-
-
-        ],
-
-
-
-        "contactDetails": [
-            {
-
-                "name": "Deekshitha Shetty",
-                "phoneNumber": "+ 919686693372",
-                "emailID": "shett yd eekshit ha 15@g mail.c om"
-            },
-            {
-                "name": "Leeshan Dsouza",
-                "phoneNumber": "+ 919019533135",
-                "emailID": "leesha nd souza @g mail.c om",
-
-                "name": "Pangala Varun Nayak",
-                "phoneNumber": "+ 918073319391",
-                "emailID": "va runru nrunrun @g mai l.com",
-            }
-
-
-
-        ]
-
-    },
-
-
-    {
-        "name": "NAVARASA",
-        "day": "3",
-        "Time": "12:30 am",
-        "venue": "SAMBHRAM",
-        "branch": "CORE",
-        "image": "/events/CORE/navarasa.png",
-        "smallDesc": "A drama competition open to teams from all universities. Through this, we wish to  provide a platform for all budding playwrights, t heatre artists, and art patrons to entertain theatre lovers.",
-        "fullDesc": "Sanskrit  literature has a  profound saying  which goes, \"Kavyeshu  Natakam Ra mya m\" : Dra ma is the finest form of poet ry. 'Drama' is a metaphorical amalgamation of visual, auditory, material, and nuances of character.",
-
-        "rules": [
-            "Round 1 - Online Scre ening Ro und :",
-            "The video should be a 3 - 5 minutes sample of the performance, and it can be from any portion of the performance.",
-            "Reco rd your performance and upload it on your Google Drive.Link of which is to be shared with us over email at navarasa.incridea@g ma il.com under the subject \"Navarasa Online Screening Sub mission\".",
-            "Editing, cuts, and pre - recorded videos are not allowed.",
-            "Submission Deadline: Before 25th April 2022, S PM.",
-            "A maximum of 9 teams will be selec te d from the Online Screening round and will proceed to the final round.",
-            "Note: All the rules of the Fino / Round ore also applied toOnline Screening Round.",
-            "Round 2 - Final Round:",
-            "Each team will be allotted a total time of 15 minutes. 10 + 2 minutes for the stage performance and extra 3 minutes will be given for stage set up.",
-            "Each team will comprise 9 + 6 members.A maximum of 9 ac tors can be present on stage and a maximum of 6 members can be part of the stage supp ort team(i.e., musicians, stage setup team, etc.)",
-            "A performa nce could be done in any of these languages - Kannada, Hindi, Tulu, and English.",
-            "Two Mies each will be provided for stage performers and the background team.",
-            "Targeting a specific Religion, Politica l Party, Personalit y, and use of foul language will lead to direct disqualification.",
-            "Originalit y in scripting should be given utmost priority.The implication of the theme is based on your creative perception.",
-            "No apt use of theme or omission of the theme from the performance will result in a deduction in score or direct disqua lifica t ion.",
-            "Judge's d ecision will be considered supreme and final.",
-
-
-        ],
-
-        "contactDetails": [
-            {
-
-
-
-                "name": " Moghe Sudheesh Rao",
-                "phoneNumber": "+ 91990 2145643",
-                //"emailID": "sameergp01@g ma il.co m "
-            },
-            {
-                "name": "Pranava Mooditha ya P",
-                "phoneNumber": "+ 917975060473",
-                // "emailID": "harshkotian1204 @g ma il.com ",
-            }
-
-
-
-        ]
-
-    },
-
-    {
-        "name": "ROBOWARS",
-        "day": "4",
-        "Time": "9:00 am",
-        "venue": "Infront of NC Block, Survey Lab",
-        "branch": "CORE",
-        "image": "/events/CORE/robowars.png",
-        "smallDesc": "Are you passionate about Bots? Or you just like to watch things get crushed? ",
-        "fullDesc": "War does not determine who is right, only who is left.Are you passionate about Bots? Or you just like to watch things get crushed?The path to glory passes through the alley of destruc t ion, let ha l combats, violent bots, and flying blades! Merge your technical know- how with the ferocious gladiator in you! Make your bot fight for the ultimate glory or land up in the junkyard! Fight smart, be patient and pray; for Robo - Wars just got crazier in its new avatar!",
-        "eventDetails": {
-
-            "event": [
-                "The event will consist of one-on-one matches between the teams. Thereafter, the winning team proceeds to the next round and losing team will be eliminated from the competition. The process continues until a single team captures the winner's title.",
-            ],
-
-
-        },
-
-        "designcriteria": ["Dimensions of the bot: 60cm x 60 cmx 60 cm (5% to lera nc e on each dimension)",
-            "Weight: 45kg(10 % tolerance)",
-            "Attac k mechanisms are not allowed.However, ONLY lift ing mechanisms are allowed",
-            "Communication: Wired or wireless(Techniques found to be interfering with the opponent's communication will result in DISQUALIFICATION)",
-            "Battery potential: 36 V(Maximu m) Explosive batteries are NOT allowe d",
-            "Lego kits, readymade kits, car bases, and development boards are not permitted.",
-            "Readymade gearboxes are permitted.",
-        ],
-        "rules": [
-            "The aim of every match is to d emolish and immobilize the other bot completely",
-            "Every match will consist of 2 rounds of 3 minutes each and each subsequent round will have a time gap of 1minute.",
-            "Maximum time - out of 4 minutes is allowed for the whole match",
-            "If, after the completion of both the rounds, no bot is able to demolishor immobilize the other bot, the winnerwill be selec ted after evaluating the points and damage incurred to both the bots.",
-            "Any change in the rules by the judge shall be intimidated to the teams in the event arena",
-            "The competition will be played on a knock- out basis.",
-            "The bot will be inspected for safet y before the event begins.If found to be unsafe for the participants / spectators, it will be discarded",
-            "The organizers reserve the right to change any or all of the rules as they deem fit.Changes in rules, if any, will be highlighted",
-            "Violation of any of the rules will result in immed iate disqua lifica t ion",
-            "The maximum time limit for the clash of combatants inside the arena is10 minutes",
-            "A bot will be declared immobile(out) if it cannot exhibit a linear motion of at least one inch within 20 seconds.A bot with one side of its drive train disabled will not be counted out if it can demonstrate some degree of controlled movement",
-            "Teams that arenot ready when called for battle will be considered to have declared a walkover and will receive no points",
-            "The bot ca nnot be split into two sub - unit s.Two distinct parts connected by a flexible cable will be considered separate units",
-            "Damaging the arena will lead to negative points depending on the degree of damage.",
-            "A bot  should not violate the specified design criteria",
-            "Team s should follow safety rules.Failing to do so will cause direct disqualification",
-            "In all cases, the judges' decision will be final and binding",
-            "Points will be based on PIN, RAM, and  TOPPLE.Weightage of points will be informed on the day of the event",
-            "External contestants should preferably register a priori.Spot registrations are also permitted.",
-
-
-
-        ],
-
-        "teamregulations": [
-            "Member limit in a team:",
-            "Min: 2members Max: 6 members",
-            "Only students from the same college can form a team",
-            "Only Students currently pursuing Undergradua te engineering d egree are allowed",
-            "Multiple number of teams from same college are allowed",
-            "You must present your college ID and PIO while registering",
-            "An individual cannot be a member of more than one team",
-            "A rob ot cannot be shared by two or more teams",
-            "The rob ot should follow the sp ec ifica tions provided.Any d eviation from the mentioned specificationswill lead to Direct disqualifications",
-            "Both wired and wirelessbots are allowed",
-            "Struc tu ral Integ rit y of the bot should be maintained.Changes to structure between matches are not allowed.",
-            "Bots with wired controls should have dedicated person to hold the wires and prevent it from entangling",
-            "Wireless radio controllers shouldn't interfere with opponents transmitter",
-            "The decisions made by the Judge panel will be final.",
-        ],
-
-        "contactDetails": [
-            {
-                "name": "Anush Laila",
-                "phoneNumber": "+ 917795927285",
-                "emailID": "a nu sh.laila.22@g ma il.com "
-            },
-            {
-                "name": "AN Harsha",
-                "phoneNumber": "+ 91 9481372482",
-                "emailID": "ha rsha.a th lur @gm ail.c om ",
-            }
-
-
-
-        ]
-
-    },
-
-    {
-        "name": "STOMP THAT",
-        //"round": "2",
-        "day": "2",
-        "Time": "9:00 am",
-        "venue": "SADANANDA",
-        "branch": "CORE",
-        "image": "/events/CORE/StompThat.png",
-        "smallDesc": "a chance for all the amazing groups out there to showcase their group's skills, choreography, and sync.",
-        "fullDesc": "There is nothing more calming than watching a fluid choreography of people dancing in unison.This is a chance for all the amazing groups out there to showcase their group's skills, choreography, and sync. So get your groups ready to stomp that stage with uniqueness and talent!",
-        "eventDetails": {
-
-            "event": [
-                "Eastern Group Dance: Contemporary, Freestyle, Bollywood, Classical, Folk, Broadway Jazz, all Ballroom Styles.",
-                "Western Group Dance: Hip - Hop, B - Boying, Locking - Popping - Breaking, Whacking",
-            ],
-
-
-        },
-
-
-        "rules": [
-            "Team Constitution: 6 - 25 members",
-            "It is mandatory for every member of the group to have a valid college ID and PID",
-            "It is important to pre- register by calling any of the organizer's numbers listed below. Mention to the organizer your style and category while pre-registering",
-            "The participants must be ready at the venue at least 45 minutes prior to the commencement of the event",
-            "The music must be submitted to the organizers in a USB drive 30 minutes before the event.",
-            "The time duration for the performance will be 5 + 3(performance + stage setup)",
-            "Any kind of vulgarity will lead to immediate elimination.",
-            "The use of fire, powder, flowers and water is strictly prohibited.",
-
-
-
-        ],
-
-
-
-        "judgingCriteria": [
-            "WESTERN: Chore o gra p h y, coordination, expressions, co stume, creativity, originality and overall impact.",
-            "EASTERN: Choreography, coordination, expressions, incorp orat ion of the theme, creativity, costume, and overall impact.",
-            "The decision of the judges is final and irrevocable",
-            "First and Second prizes will be separately awarded to Eastern and Western Style",
-
-        ],
-
-        "contactDetails": [
-            {
-                "name": "Aradhana Nambiar",
-                "phoneNumber": "+ 919148275419",
-                "emailID": "a nda namb ia r3@g ma  il.co m "
-            },
-            {
-                "name": "Jnana Aithal",
-                "phoneNumber": "+ 919731521417",
-                "emailID": "jna na ait ha l12 @g mail.c om",
-            }
-
-
-
-        ]
-
-    },
-
-    {
-        "name": "VIBE",
-        "round": "1",
-        "venue": "Online",
-        "branch": "CORE",
-        "image": "/events/CORE/vibe.png",
-        "smallDesc": "The battleground is set, the lights are lit,andit's time for all you dancers to fire up the dancetloor with your moves to the unpredictable tunes.",
-        "fullDesc": "Come join the battle of dance and ignite your dancing flame! Vibe hai toh hype hai",
-        "roundDetails": {
-
-            "Round 1": [
-                "Online Eliminations:",
-                "Participants have to submit a video of their solo performance of any western dance form",
-                "Time limit: 1 - 2 minutes",
-                "Participants will not be judged on the basis of their costume",
-                "The video must be recorded from a static camera.Videos having moving cameras are strictly not allowed",
-                "The video should not be edited in any way.Use of any kind of special effects is strictly prohibited and will lead to direct disqualification",
-                "Deadline for submission: 5th of May 2022, 11: 59 pm",
-                "Mail your entries along with your Name, University Registration Number, Contact Number, and College Name at incridea.nmamit@g mail.c om",
-                "Selecte d contestants will be contacted via e - mail on or before May 10, 2022",
-
-            ],
-
-            "Round 2": [
-
-                "Participants have to perform a solo routine on stage",
-                "Time duration: 3 + 1 minutes",
-                "Soundtrack must be submitted to the organizers in a pen drive prior to the event",
-                "Selecte d contestants will move on to the Final Round.",
-            ],
-
-            "Round 3": [
-                "Final Round: Two part icipants will be called on the stage simultaneously.Songs will be played impromptu for which the participants are expected to face - off",
-                "The first part icipant has to stop at the buzzer.The second participant has to start dancing immediately to the same song.",
-                "There will be three such throw -downs.",
-            ],
-
-
-        },
-
-        "rules": [
-            "Judges' decision will be final",
-            "Any form of vulgarity will lead to immediate disqualific ation",
-            "The use of fire, powder, water or animals is strictly prohibited",
-
-
-        ],
-
-        "judgingCriteria": [
-            "Prelimina ry Rounds: Choreography, expressions, stage presence and the overall impact will be considered",
-            "Final Round: Entertainment factor, spontaneity, and  creativity will be considered",
-
-
-        ],
-
-        "contactDetails": [
-            {
-
-
-                "name": "Riwa Ange l Dsouza",
-                "phoneNumber": "+919380709458",
-                "emailID": "riwa zacker@g ma il.co m"
-            },
-            {
-                "name": "Manas M Roi",
-                "phoneNumber": "+ 917975310793",
-                "emailID": "ma na srai9611 @g mail.c om",
-            }
-
-
-
-        ]
-
-    },
-    {
-        "name": "VIBE",
-        "round": "2",
-        "day": "2",
-        "Time": "2:00 pm",
-        "venue": "SAC OAT",
-        "branch": "CORE",
-        "image": "/events/CORE/vibe.png",
-        "smallDesc": "The battleground is set, the lights are lit,andit's time for all you dancers to fire up the dancetloor with your moves to the unpredictable tunes.",
-        "fullDesc": "Come join the battle of dance and ignite your dancing flame! Vibe hai toh hype hai",
-        "roundDetails": {
-
-            "Round 1": [
-                "Online Eliminations:",
-                "Participants have to submit a video of their solo performance of any western dance form",
-                "Time limit: 1 - 2 minutes",
-                "Participants will not be judged on the basis of their costume",
-                "The video must be recorded from a static camera.Videos having moving cameras are strictly not allowed",
-                "The video should not be edited in any way.Use of any kind of special effects is strictly prohibited and will lead to direct disqualification",
-                "Deadline for submission: 5th of May 2022, 11: 59 pm",
-                "Mail your entries along with your Name, University Registration Number, Contact Number, and College Name at incridea.nmamit@g mail.c om",
-                "Selecte d contestants will be contacted via e - mail on or before May 10, 2022",
-
-            ],
-
-            "Round 2": [
-                "Participants have to perform a solo routine on stage",
-                "Time duration: 3 + 1 minutes",
-                "Soundtrack must be submitted to the organizers in a pen drive prior to the event",
-                "Selecte d contestants will move on to the Final Round.",
-            ],
-
-            "Round 3": [
-                "Final Round: Two part icipants will be called on the stage simultaneously.Songs will be played impromptu for which the participants are expected to face - off",
-                "The first part icipant has to stop at the buzzer.The second participant has to start dancing immediately to the same song.",
-                "There will be three such throw -downs.",
-            ],
-
-
-        },
-
-        "rules": [
-            "Judges' decision will be final",
-            "Any form of vulgarity will lead to immediate disqualific ation",
-            "The use of fire, powder, water or animals is strictly prohibited",
-
-
-        ],
-
-        "judgingCriteria": [
-            "Prelimina ry Rounds: Choreography, expressions, stage presence and the overall impact will be considered",
-            "Final Round: Entertainment factor, spontaneity, and  creativity will be considered",
-
-
-        ],
-
-        "contactDetails": [
-            {
-
-
-                "name": "Riwa Ange l Dsouza",
-                "phoneNumber": "+919380709458",
-                "emailID": "riwa zacker@g ma il.co m"
-            },
-            {
-                "name": "Manas M Roi",
-                "phoneNumber": "+ 917975310793",
-                "emailID": "ma na srai9611 @g mail.c om",
-            }
-
-
-
-        ]
-
-    },
-    {
-        "name": "VIBE",
-        "round": "3",
-        "day": "3",
-        "Time": "2:00 pm",
-        "venue": "SAC OAT",
-        "branch": "CORE",
-        "image": "/events/CORE/vibe.png",
-        "smallDesc": "The battleground is set, the lights are lit,andit's time for all you dancers to fire up the dancetloor with your moves to the unpredictable tunes.",
-        "fullDesc": "Come join the battle of dance and ignite your dancing flame! Vibe hai toh hype hai",
-        "roundDetails": {
-
-            "Round 1": [
-                "Online Eliminations:",
-                "Participants have to submit a video of their solo performance of any western dance form",
-                "Time limit: 1 - 2 minutes",
-                "Participants will not be judged on the basis of their costume",
-                "The video must be recorded from a static camera.Videos having moving cameras are strictly not allowed",
-                "The video should not be edited in any way.Use of any kind of special effects is strictly prohibited and will lead to direct disqualification",
-                "Deadline for submission: 5th of May 2022, 11: 59 pm",
-                "Mail your entries along with your Name, University Registration Number, Contact Number, and College Name at incridea.nmamit@g mail.c om",
-                "Selecte d contestants will be contacted via e - mail on or before May 10, 2022",
-
-            ],
-
-            "Round 2": [
-
-                "Participants have to perform a solo routine on stage",
-                "Time duration: 3 + 1 minutes",
-                "Soundtrack must be submitted to the organizers in a pen drive prior to the event",
-                "Selecte d contestants will move on to the Final Round.",
-            ],
-
-            "Round 3": [
-                "Final Round: Two part icipants will be called on the stage simultaneously.Songs will be played impromptu for which the participants are expected to face - off",
-                "The first part icipant has to stop at the buzzer.The second participant has to start dancing immediately to the same song.",
-                "There will be three such throw-downs.",
-            ],
-
-
-        },
-
-        "rules": [
-            "Judges' decision will be final",
-            "Any form of vulgarity will lead to immediate disqualific ation",
-            "The use of fire, powder, water or animals is strictly prohibited",
-
-
-        ],
-
-        "judgingCriteria": [
-            "Preliminary Rounds: Choreography, expressions, stage presence and the overall impact will be considered",
-            "Final Round: Entertainment factor, spontaneity, and  creativity will be considered",
-
-
-        ],
-
-        "contactDetails": [
-            {
-
-
-                "name": "Riwa Ange l Dsouza",
-                "phoneNumber": "+919380709458",
-                "emailID": "riwa zacker@g ma il.co m"
-            },
-            {
-                "name": "Manas M Roi",
-                "phoneNumber": "+ 917975310793",
-                "emailID": "ma na srai9611 @g mail.c om",
-            }
-
-
-
-        ]
-
-    },
-
-    {
-        "name": "AUTO EXPO",
-        "day": "4",
-        "Time": "9am",
-        "venue": "Sadananda Ground",
-        "branch": "CORE",
-        "image": "/events/CORE/AutoExpo.png",
-        "smallDesc": "Incridea with Yamuna Asha City proudly brings to you Auto Expo 2022: A showcase of the country's most exclusive automobiles.This May 15th we have the biggest line up of automobiles ranging from luxury cars to sports vehicles and much, much more. So all the petrol heads in the house, it's time to get turbocharged because what you're going to witness in this year's Auto Expo, is just out of the world!",
-        "fullDesc": "Incridea with Yamuna Asha City proudly brings to you Auto Expo 2022: A showcase of the country's most exclusive automobiles.This May 15th we have the biggest line up of automobiles ranging from luxury cars to sports vehicles and much, much more. So all the petrol heads in the house, it's time to get turbocharged because what you're going to witness in this year's Auto Expo, is just out of the world!",
-
-        "contactDetails": [
-            {
-                "name": "Ramshravan Rai",
-                "phoneNumber": "+918660305851",
-                "emailID": "ramshravan222@gmail.com"
-            },
-
-
-
-        ]
-
-    },
-
-    {
-        "name": "BATTLE OF BANDS",
-        "day": "3",
-        "Time": "5.30pm",
-        "venue": "Sadananda",
-        "branch": "CORE",
-        "image": "/events/CORE/BoB.jpg",
-        "smallDesc": "A golden opportunity awaits all the tremendous bands in Karnataka to win the ultimate showdown - BATTLE OF THE BANDS.",
-        "fullDesc": "A golden opportunity awaits all the tremendous bands in Karnataka to win the ultimate showdown - BATTLE OF THE BANDS.",
-        "rules" : [
-            "The Bands will be selected for the competition based on the videos provided.",
-	        "A Band can have a maximum of 10 members on stage with minimum of 1 drummer and 1 guitarist.",
-	        "Genres like Rock, Meta l and Fusion are p referred. However, there is no restriction for other genres.",
-	        "Each team is allotted 5 minutes for sound- check and 15 minutes for the performance.",
-	        "Exceeding the 20 minutes will earn drastic negative points",
-	        "Judgment criterion is based on Musical quality, Technical Merit, Band synchronization, Stage Presence and overall performance.",
-	        "Bonus marks are awarded for original composition, musical complexity and theme integration.",
-             "Organizers hold the right to disqualify any band at their discretion without prior notice.",
-	"Decision of the organizers in any circumstances will be final.",
-	"Any vulgarity will lead to disqualific ation.",
-	"Results of this event won't be considered for Winner and Runners Tro phy of the fest.",
-	"Last day to submit entries will be 10th May 2022",
-	"In case of any technical fault, timersshall be reset, and the p articipant will be allowed to perform from the beginning."
-    ],
-        "contactDetails": [
-            {
-                "name": "Vijeth Ullal",
-                "phoneNumber": "+919480565835",
-                "emailID": "vijethullal1402@gmail.com"
-            },
-            {
-                "name": "Sakshith Varambally",
-                "phoneNumber": "+918748971471",
-                "emailID": "sakshith2l@gmail.com"
-            },
-
-
-        ]
-
-    },
+   
 
 ]
 

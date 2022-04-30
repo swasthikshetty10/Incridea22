@@ -35,8 +35,8 @@ function Event2() {
           <h1 className="text-5xl md:text-6xl tracking-widest font-title pt-3 sm:pt-0 text-[#EDEDED]">
             EVENTS
           </h1>
-          <p className="text-[#9d7643]  lg:mb-6 pt-1 pb-3 text-2xl font-body text-center">
-            55 events, 55 places to be
+          <p className="text-[#9d7643]  lg:mb-6 pt-1 pb-3 text-3xl font-body text-center">
+            55 events, 55 places to be.
           </p>
           <FilterBar
             day={day}
