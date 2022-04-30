@@ -89,7 +89,6 @@ function Home() {
         </Slide>
       </div>
       <div direction="up" delay={500}>
-<<<<<<< HEAD
         <div style={{ fontFamily: "CinzelDecorative-Bold" }} className=" p-10 bg-opacity-20 backdrop-blur-lg text-white  bg-gray-900 flex flex-col gap-4 md:gap-10 md:flex-row justify-center text-center items-stretch md:items-center">
             <a href={rulebook} download={'Incridea 22 Rulebook.pdf'} target="_blank" rel="noreferrer" className=" px-4 py-2 md:px-5 md:py-3 inline-flex items-center gap-2 font-bold text-[#9d7643] transition-colors ease-out transition-duration-50 text-xl hover:bg-[#9d7643] hover:text-white border-[#9d7643] border-2 items-center justify-center">
             Download Rulebook <AiOutlineDownload className="text-2xl" />
@@ -97,15 +96,6 @@ function Home() {
             <a href={schedule} download={"Incridea 22 Schedule.xlsx"} target="_blank" rel="noreferrer" className=" px-3 py-2 md:px-5 md:py-3 inline-flex items-center gap-2 font-bold text-[#9d7643] transition-colors ease-in transition-duration-50 text-xl hover:bg-[#9d7643] hover:text-white border-[#9d7643] border-2 items-center justify-center">
               Download Schedule <AiOutlineDownload className="text-2xl" />
             </a>
-=======
-        <div style={{ fontFamily: "CinzelDecorative-Bold" }} className=" p-10 bg-opacity-20 backdrop-blur-lg text-white  bg-gray-900 flex flex-col-reverse gap-10 md:flex-row-reverse justify-center items-center">
-          <a href={rulebook} download={'Incridea 22 Rulebook.pdf'} target="_blank" rel="noreferrer" className="px-5 py-3 inline-flex items-center gap-2 font-bold text-[#9d7643] transition-colors ease-out transition-duration-50 text-xl hover:bg-[#9d7643] hover:text-white border-[#9d7643] border-2">
-            Download Rulebook <AiOutlineDownload className="text-2xl" />
-          </a>
-          <a href={schedule} download={"Incridea 22 Schedule.xlsx"} target="_blank" rel="noreferrer" className="px-5 py-3 inline-flex items-center gap-2 font-bold text-[#9d7643] transition-colors ease-in transition-duration-50 text-xl hover:bg-[#9d7643] hover:text-white border-[#9d7643] border-2">
-            Download Schedule <AiOutlineDownload className="text-2xl" />
-          </a>
->>>>>>> 1043fb8af642b0d379fbe344c4329cc84e855f29
           {/* <div className="">
             <h2 className="font-semibold text-3xl" style={{ fontFamily: "CinzelDecorative-Bold" }}>
               Be Part of Incridea's Events
