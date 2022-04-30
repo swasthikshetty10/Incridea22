@@ -85,7 +85,7 @@ function Home() {
         </Slide>
       </div>
       <div direction="up" delay={500}>
-        <div className=" w-full p-10 bg-opacity-20 backdrop-blur-lg text-white  bg-gray-900 flex flex-col-reverse gap-10 md:flex-row justify-evenly">
+        <div className="text-center w-full p-10 bg-opacity-20 backdrop-blur-lg text-white  bg-gray-900 flex flex-col-reverse gap-10 md:flex-row items-center justify-center md:justify-evenly">
           <div className="">
             <Link to="/events">
               <a href="#" className="px-5 py-3 font-bold text-lg hover:bg-white hover:text-black bg-[#cd9b58]" style={{ fontFamily: "CinzelDecorative-Bold" }}>Know more</a>
