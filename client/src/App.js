@@ -24,6 +24,8 @@ import ForgotPass from './Components/Auth/ForgotPass';
 import OtpFiled from './Components/Auth/OtpFiled';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import UserInput from './Components/Auth/UserInput';
+import Privacy from "./Components/Privacy";
+
 const ScrollToTop = (props) => {
   const location = useLocation();
   useEffect(() => {
@@ -59,6 +61,7 @@ function App() {
             <Route path='/forgot' element={<ForgotPass />} />
             <Route exact path='/otp' element={<OtpFiled />} />
             <Route exact path='/register/:email' element={<Register />} />
+            <Route exact path="/privacy" element={<Privacy />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
           <Footer />
