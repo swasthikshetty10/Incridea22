@@ -4,7 +4,7 @@ function Privacy() {
     return (
         <div className='text-white p-14' >
 
-            <h2>Privacy Notice</h2>
+            <h2 className='text-6xl pb-4 text-center ' >Privacy Notice</h2>
             <p>This privacy notice discloses the privacy practices for https://www.incridea.in and all its subdomains
                 (htttps://registration.incridea.in). This privacy notice applies solely to information collected by this website. It
                 will notify you of the following:<br />
