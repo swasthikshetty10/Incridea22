@@ -60,7 +60,7 @@ export const persons = [
   {
     name: "Sonika Shetty",
     role: "Front-End Development",
-    img: "/techteam/hacker.jpg", 
+    img: "/techteam/sonika.jpeg", 
     mob: "#",
     github: "https://github.com/Rubix64",
     linkedin: "https://www.linkedin.com/in/sonika-shetty-522691212",  
