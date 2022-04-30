@@ -1,7 +1,5 @@
 import React from 'react'
 import { useState } from 'react';
-import vibe from '../../Images/Vibe.png'
-import navarasa from '../../Images/navrasa.png'
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { BsFillCalendar3RangeFill, BsFillArrowRightCircleFill } from "react-icons/bs";
 import { FaBuilding } from "react-icons/fa";
@@ -11,7 +9,6 @@ import { IoIosArrowBack } from "react-icons/io";
 import { BiTimeFive } from "react-icons/bi";
 import { HiUserGroup } from "react-icons/hi";
 import { Zoom } from "react-awesome-reveal"
-import src from '../../Images/navrasa.png'
 
 
 function Modal({ data, img, closeModal }) {
