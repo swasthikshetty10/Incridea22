@@ -759,7 +759,7 @@ export const eventData = [
         "day": "3",
         "Time": "10:30 am",
         "venue": "RGIS lab",
-        "image": "/events/cv/art.jpg",
+        "image": "/events/CV/art.jpg",
         "branch": "CIVIL",
         "smallDesc": "In a world obsessed with the digital and NFTS, can you think on your feet and create art that burns itself into our minds as well our screens?",
         "fullDesc": "In a world obsessed with the digital and NFTS, can you think on your feet and create art that burns itself into our minds as well our screens? Here's Digital Art Competition for you.Only solo participant. Participants will have to get their own devices (laptops, trackpad, etc). Time duration is 1 hour 30 minutes.",
