@@ -1,5 +1,5 @@
 
-import React from "react";
+import React, { useState } from "react";
 import { Routes, Route, Red, Navigate } from "react-router-dom";
 import Event2 from "./Components/Event2";
 import Gallery from "./Components/Gallery2";
@@ -17,6 +17,7 @@ import TechTeam from "./Components/TechTeam"
 // ScrollToTop.jsx
 import { useEffect } from "react";
 import { useLocation } from "react-router";
+import Loader from "./Components/Gallery2/components/Loader";
 
 const ScrollToTop = (props) => {
   const location = useLocation();
@@ -24,11 +25,18 @@ const ScrollToTop = (props) => {
     window.scrollTo(0, 0);
   }, [location]);
 
+
   return <>{props.children}</>
 };
 function App() {
-
-  return (
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 2500);
+    return () => {
+      clearTimeout(timer);
+    };
+  }, []);
+  return (loading ? <Loader animate={true} /> : (
     <ChakraProvider>
       <div className="App">
         <ScrollToTop>
@@ -47,7 +55,7 @@ function App() {
         </ScrollToTop>
       </div>
     </ChakraProvider>
-  );
+  ));
 
 }
 
