@@ -80,7 +80,7 @@ function Home() {
         <Slide direction="up">
           <div className="flex mt-[4rem] justify-center text-center items-center py-5" style={{ fontFamily: "CinzelDecorative-Bold" }}>
             <div className=" flex flex-col items-center justify-center pt-20 -mt-36 md:m-0 ">
-              <h2 className="text-3xl sm:text-4xl lg:text-6xl m-3 text-[#9d7643] p-2 sm:p-3 lg:p-4 bg-opacity-30 backdrop-blur-lg rounded-md bg-gray-900">Going live in</h2>
+              <h2 className="text-3xl sm:text-4xl lg:text-6xl m-3 text-[#9d7643] p-2 sm:p-3 lg:p-4 bg-opacity-30 backdrop-blur-lg rounded-md bg-gray-1000">countdown has begun</h2>
               <Counter setSecond={secSecond} />
             </div>
           </div>
