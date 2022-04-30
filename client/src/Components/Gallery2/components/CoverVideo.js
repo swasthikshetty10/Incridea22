@@ -8,12 +8,10 @@ const VideoContainer = styled.section`
   width: 100%;
   height: 100vh;
   position: relative;
-
   video {
     width: 100%;
     height: 100vh;
     object-fit: cover;
-
     @media (max-width: 48em) {
       object-position: center 10%;
     }
@@ -29,7 +27,6 @@ const DarkOverlay = styled.div`
   left: 0;
   right: 0;
   z-index: 1;
-
   background-color: ${(props) => `rgba(${props.theme.bodyRgba},0.6)`};
 `;
 const Title = styled(motion.div)`
@@ -39,34 +36,29 @@ const Title = styled(motion.div)`
   left: 0;
   right: 0;
   z-index: 5;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: ${(props) => props.theme.text};
-
   div {
     display: flex;
     flex-direction: row;
   }
-
   h1 {
-    font-family: Playfair;
+    font-family: CinzelDecorative-Bold;
  
-    font-size: 6.5vw;
+    font-size: 8vw;
     margin:-15px auto;
     letter-spacing:2px;
-    // text-shadow: 1px 1px 1px ${(props) => props.theme.body};
-
+    text-shadow: 1px 1px 1px ${(props) => props.theme.body};
     @media (max-width: 50em) {
       font-size: 12vw;
       margin:0px auto;
     }
-
   }
   h2 {
-    font-family: Poppins-Light;
+    font-family: 'Ms Madi', cursive;
     font-size: 30px;
     text-shadow: 1px 1px 1px ${(props) => props.theme.body};
     font-weight: bolder;
@@ -74,7 +66,6 @@ const Title = styled(motion.div)`
     text-transform: capitalize;
     letter-spacing: 3px;
     margin-top:15px;
-
     @media (max-width: 50em) {
       font-size: 22.5px;
       margin-top: 15px;
@@ -110,7 +101,7 @@ const CoverVideo = () => {
     <VideoContainer>
       <DarkOverlay />
       <Title variants={container} initial="hidden" animate="show">
-        <div style={{"fontFamily":"Playfair"}} >
+        <div style={{"fontFamily":"CinzelDecorative-Regular"}}>
           <motion.h1
             variants={item}
             data-scroll
@@ -182,12 +173,14 @@ const CoverVideo = () => {
             data-scroll-delay="0.10"
             data-scroll-speed="4"
           >
-            f&nbsp;
+            f
           </motion.h1>
+          </div>
+          <div>
           <motion.h1
             variants={item}
             data-scroll
-            data-scroll-delay="0.10"
+            data-scroll-delay="0.095"
             data-scroll-speed="4"
           >
             I
@@ -250,6 +243,7 @@ const CoverVideo = () => {
           </motion.h1>
         </div>
         <motion.h2
+          style={{"fontFamily": "Playfair"}}
           variants={item}
           data-scroll
           data-scroll-delay="0.055"

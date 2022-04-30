@@ -49,7 +49,7 @@ function Home() {
                 <a target="blank" className="  text-[#cd9b58] hover:text-white transition-colors ease-out text-base" href="https://nmamit.nitte.edu.in/"> NMAM Institute of Technology</a>, Nitte.
               </p>
               <div className="select-none bg-white border-0 hover:bg-opacity-100  bg-opacity-10 text-white px-6 py-2 w-fit font-body  text-center " >
-                Registrations begin May Day, 9AM
+                Registrations begin May Day, 5PM
               </div>
             </div>
           </Slide>
@@ -81,9 +81,9 @@ function Home() {
         <Slide direction="up">
           <div className="flex mt-[4rem] justify-center text-center items-center py-5" style={{ fontFamily: "CinzelDecorative-Bold" }}>
             <div className=" flex flex-col items-center justify-center pt-20 -mt-36 md:m-0 ">
-              <h2 className=" inline-flex gap-3 text-3xl sm:text-4xl lg:text-6xl m-3 text-[#9d7643] p-2 sm:p-3 lg:p-4 bg-opacity-30 backdrop-blur-lg tracking-wide rounded-md bg-gray-1000">Take-off in</h2>
+              <h2 className="inline-flex gap-3 text-3xl sm:text-4xl lg:text-5xl m-3 text-[#9d7643] p-2 sm:p-3 lg:p-4 bg-opacity-30 backdrop-blur-lg tracking-wide rounded-md bg-gray-1000 font-light">The Countdown Has Begun</h2>
               <Counter setSecond={secSecond} />
-              <h2 className="p-1 text-md md:text-xl mt-5 text-gray-400  bg-opacity-30 backdrop-blur-lg rounded-md bg-gray-1000">...while you're here, check out our <Link to="/events" className="text-[#cd9b58] hover:text-gray-100 transition-colors ease-out ">events</Link>!</h2>
+              <h2 className="p-1 text-md md:text-xl mt-5 text-gray-400  bg-opacity-30 backdrop-blur-lg rounded-md bg-gray-1000">...and while you're here, check out our <Link to="/events" className="text-[#cd9b58] hover:text-gray-100 transition-colors ease-out ">events</Link>!</h2>
             </div>
           </div>
         </Slide>
