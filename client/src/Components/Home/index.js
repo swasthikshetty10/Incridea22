@@ -4,6 +4,7 @@ import higher from "../../Images/home/higher.png"
 import avatar from "../../Images/home/avatar.png"
 import Counter from "./Counter";
 import { Slide, Fade } from 'react-awesome-reveal'
+import {AiOutlineDownload} from 'react-icons/ai'
 // import cloud from './cloud1.png'
 import chakra from './chakra.png'
 import { Link } from "react-router-dom";
@@ -60,7 +61,7 @@ function Home() {
           <img className="custom-animation md:h-full w-96 sm:w-full top-0 right-0  translate-x-12  h-64 sm: md:translate-x-72 lg:translate-x-96 md:scale-80" src={cloud} alt="" />
         </Slide> */}
 
-          <div className="h-20 overflow-hidden w-[125%] hidden border-t border-[#9d7643]/50 md:block absolute -bottom-10 -rotate-3">
+          <div className="h-20 overflow-hidden w-[125%] hidden border-[#9d7643]/100 border-t-2 md:block absolute -bottom-10 -rotate-3">
             <div className="  p-10 w-full bg-gradient-to-b  bg-black   to-"></div>
           </div>
         </div>
@@ -85,17 +86,18 @@ function Home() {
         </Slide>
       </div>
       <div direction="up" delay={500}>
-        <div className=" w-full p-10 bg-opacity-20 backdrop-blur-lg text-white  bg-gray-900 flex flex-col-reverse gap-10 md:flex-row justify-evenly">
-          <div className="">
-            <Link to="/events">
-              <a href="#" className="px-5 py-3 font-bold text-lg hover:bg-white hover:text-black bg-[#cd9b58]" style={{ fontFamily: "CinzelDecorative-Bold" }}>Know more</a>
+        <div style={{ fontFamily: "CinzelDecorative-Bold" }} className=" p-10 bg-opacity-20 backdrop-blur-lg text-white  bg-gray-900 flex flex-col-reverse gap-10 md:flex-row-reverse justify-center items-center">
+            <Link to="/events" className="px-5 py-3 inline-flex items-center gap-2 font-bold text-[#9d7643] transition-colors ease-out transition-duration-50 text-xl hover:bg-[#9d7643] hover:text-white border-[#9d7643] border-2">
+            Download Rulebook <AiOutlineDownload className="text-2xl" />
             </Link>
-          </div>
-          <div className="">
+            <Link to="/events" className="px-5 py-3 inline-flex items-center gap-2 font-bold text-[#9d7643] transition-colors ease-in transition-duration-50 text-xl hover:bg-[#9d7643] hover:text-white border-[#9d7643] border-2">
+              Download Schedule <AiOutlineDownload className="text-2xl" />
+            </Link>
+          {/* <div className="">
             <h2 className="font-semibold text-3xl" style={{ fontFamily: "CinzelDecorative-Bold" }}>
-              Be Part of Incredia's Events
+              Be Part of Incridea's Events
             </h2>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
