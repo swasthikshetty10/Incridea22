@@ -1,6 +1,6 @@
 
 import React, { useState } from "react";
-import { Routes, Route, Red, Navigate } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Event2 from "./Components/Event2";
 import Gallery from "./Components/Gallery2";
 import Home from "./Components/Home";
@@ -19,7 +19,11 @@ import TechTeam from "./Components/TechTeam"
 import { useEffect } from "react";
 import { useLocation } from "react-router";
 import Loader from "./Components/Gallery2/components/Loader";
-
+import LoginForm from "./Components/Auth/LoginForm"
+import ForgotPass from './Components/Auth/ForgotPass';
+import OtpFiled from './Components/Auth/OtpFiled';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import UserInput from './Components/Auth/UserInput';
 const ScrollToTop = (props) => {
   const location = useLocation();
   useEffect(() => {
