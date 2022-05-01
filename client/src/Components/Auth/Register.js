@@ -25,10 +25,6 @@ import { useContext } from 'react'
 import { auth } from '../../firebaseConfig'
 import Loader from '../Gallery2/components/Loader';
 
-
-
-
-
 function Register() {
     const { email } = useParams();
     const [loading, setLoading] = useState(true);
