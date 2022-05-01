@@ -17,7 +17,7 @@ function Payment(props) {
 			})
 			const { data } = response
 			const options = {
-				"key": "rzp_test_5e8G9YqQhDdr9I", // Change during production or use document.domain
+				"key": "rzp_test_bynOTu5GLqYyx5", // Change during production or use document.domain
 				"amount": data.amount.toString(),
 				"currency": data.currency,
 				"name": "Incridea Registration", //Change this stuff
