@@ -46,7 +46,7 @@ function Home() {
                 <a target="blank" className="  text-[#cd9b58] hover:text-white transition-colors ease-out text-base" href="https://nmamit.nitte.edu.in/"> NMAM Institute of Technology</a>, Nitte.
               </p>
               <div className="select-none bg-white border-0 hover:bg-opacity-100  bg-opacity-10 text-white px-6 py-2 w-fit font-body  text-center " >
-                Registrations begin May Day, 12PM
+                Registrations begin May Day, 5PM
               </div>
             </div>
           </Slide>
