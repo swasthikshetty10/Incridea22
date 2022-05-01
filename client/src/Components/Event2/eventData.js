@@ -673,13 +673,13 @@ export const eventData = [
         "smallDesc": "Come entice the audience and enable them to feel closer to the Almighty, in the soothing Bhajan competition.",
         "fullDesc": "'I'll be singing hymns to the rafters, be praising his goodness so loud they're going to have to turn down the volume in Heaven, God loves to hear you. sing, so sing.' Come entice the audience and enable them to feel closer to the Almighty, in the soothing Bhajan competition.",
 
-        "rules": [" Every team must consist of 5 to 8 members A Bhajan can be sung with or without Indian musical instruments", 
-        "A person can participate only in one team, if found participating in more than one team, it will lead to the disqualification of both the teams", 
-        "The duration must be 10 to 15 minutes",
-        "A maximum of five microphones will be provided to each team", 
-        "An additional 5 minutes will be given for the stage setup", 
-        "The teams must be ready at the venue 5 minutes before the allotted time. Delays won't be entertained ", 
-        "Bhajans can be of any Indian language", "Participants must possess the PID card as well as their respective college ID"],
+        "rules": [" Every team must consist of 5 to 8 members A Bhajan can be sung with or without Indian musical instruments",
+            "A person can participate only in one team, if found participating in more than one team, it will lead to the disqualification of both the teams",
+            "The duration must be 10 to 15 minutes",
+            "A maximum of five microphones will be provided to each team",
+            "An additional 5 minutes will be given for the stage setup",
+            "The teams must be ready at the venue 5 minutes before the allotted time. Delays won't be entertained ",
+            "Bhajans can be of any Indian language", "Participants must possess the PID card as well as their respective college ID"],
         "judgingCriteria": ["The judgment is based on the quality of singing (sur, raag, and tal), involvement and synchronization (with other singers and instruments used), selection of Bhajans, dress code, creativity, and overall performances", "The decision of the judges will be final.",],
         "contactDetails": [
             {
@@ -960,7 +960,7 @@ export const eventData = [
     },
     {
         "name": "JAM",
-        "round":"1 & 2",
+        "round": "1 & 2",
         "day": "4",
         "Time": "11 am",
         "venue": "Phalguni",
@@ -1097,9 +1097,9 @@ export const eventData = [
             "round 4": ["(Final Round): Battle of the charade-Teams will be given movie titles(Bollywood / Hollywood) that must be presented to their partners in a chained manner.The team that has the highest score appears as the winner."]
 
         },
-        "rules": ["The use of cell phones or any other electronic devices is not permitted", 
-        "No communication with the other teams will be entertained",
-            "The person acting is not allowed to verbally communicate with the team members", 
+        "rules": ["The use of cell phones or any other electronic devices is not permitted",
+            "No communication with the other teams will be entertained",
+            "The person acting is not allowed to verbally communicate with the team members",
             "Sounds like/ rhyming, phonetics, codes, and cross - referencing are prohibited",
             "Round 1 will comprise 40 questions to be solved in 60 minutes(Pen and Paper)",
             "Registration must be done in a group",
@@ -1551,7 +1551,7 @@ export const eventData = [
 
     {
         "name": "PANCHATANTRAM",
-        "round":"1,2 & 3",
+        "round": "1,2 & 3",
         "day": "3",
         "Time": "11:00 am",
         "venue": "NC 21, 22",
@@ -2555,14 +2555,14 @@ export const eventData = [
         "fullDesc": "For all the bike enthusiasts, we present to you the SLOW BIKE RACE. It's your road. Others can ride it with you, not for you. For all the bike enthusiasts, we present to you- the Slow Bike Race, where for once, coming last is in your favour.",
         "roundDetails": {
             "Round 1": ["Participants have to ride the motorcycle on a plain track, and those reaching the finish line at the last will be selected for the next round"],
-            "Round 2": ["The shortlisted participants are required  to  overcome obstacles to reach the finish line.The last one to do so wins."],
+            "Round 2": ["The shortlisted participants are required to overcome obstacles to reach the finish line.The last one to do so wins."],
 
         },
 
         "rules": [
             "Participants are required to get their own bikes",
-            "Entry fee of Rs.SO",
-            "Part icipants should be wearing their helmets",
+            "Entry fee of Rs.5O",
+            "Participants should be wearing their helmets",
             "Participants are not allowed to touch their feet to the ground",
             "Registrations can be done either prior to the event or on the spot",
             "College ID and PIO are mandatory",
@@ -2577,7 +2577,6 @@ export const eventData = [
 
         "contactDetails": [
             {
-
                 "name": "Dheeraj Rao",
                 "phoneNumber": "9740669371",
                 "emailID": "dheerajraobail29@gmail.com"
@@ -2599,40 +2598,38 @@ export const eventData = [
         "round": "1",
         "day": "1",
         "Time": "12:30 pm",
-        "venue": "SAMBRAHM",
+        "venue": "SAMBHRAM",
         "branch": "ECE",
         "image": "/events/EC/THX.jpg",
         "smallDesc": "Talent is a one-of-a-kind skill that sets you apart from the rest of the pack. Everyone is born with it, but not everyone recognises it. ",
-        "fullDesc": "Talent House Xis a forum for amateur artists to display their talents in a variety of genres, including singing, dance, comedy, novelty acts and more. So, if you've discovered the X factor in you, then this is the right platform to show case your hidden 'X' quotient on stage and wow the crowd!",
+        "fullDesc": "Talent House X is a forum for amateur artists to display their talents in a variety of genres, including singing, dance, comedy, novelty acts and more. So, if you've discovered the X factor in you, then this is the right platform to show case your hidden 'X' quotient on stage and wow the crowd!",
         "roundDetails": {
             "Round 1"
                 :
-                ["Curta in Raiser- Participants can only perform in the category of talent mentioned during the registration.Based on the scores allo tted by judges, the shortlisted participants will move to Round 2."],
+                ["Curta in Raiser- Participants can only perform in the category of talent mentioned during the registration. Based on the scores allotted by judges, the shortlisted participants will move to Round 2."],
             "Round 2":
-                ["The Showdown- Part icipants selected for this round must perform in the same category as mentioned during the registration.This will be the final round."]
+                ["The Showdown- Participants selected for this round must perform in the same category as mentioned during the registration.This will be the final round."]
 
         },
 
         "rules": [
-            "Any number of entries per college is allowed.Each participant must be globally registered.",
-            "Participation can be individual or as a group.No gender restrictions on team constit u tio n.",
-            "Part icipants are allowed to showcase their talent once.Once participated, they will not be allowed a second appearance.",
-            "Only the 'stated ' talent at the time of registration is allowed in any of the subsequent rounds.Otherwise, it remains in the right s of the organizers to call for direct elimination, unless it is clarified.",
-            "Part icipants are not allowed to introduce themselves before their performance.",
+            "Any number of entries per college is allowed. Each participant must be globally registered.",
+            "Participation can be individual or as a group. No gender restrictions on team constitution.",
+            "Part icipants are allowed to showcase their talent once. Once participated, they will not be allowed a second appearance.",
+            "Only the 'stated' talent at the time of registration is allowed in any of the subsequent rounds. Otherwise, it remains in the right s of the organizers to call for direct elimination, unless it is clarified.",
+            "Participants are not allowed to introduce themselves before their performance.",
             "Participants must be present an hour before the commencement of the event and submit song or other media file if any in pen drive only.",
-            "Part icipants must inform the organizers if they are taking part in any other event during the time allotted for Ta lent House X.",
+            "Participants must inform the organizers if they are taking part in any other event during the time allotted for Talent House X.",
             "Vulgarity will not be entertained as an element of entertainment and will result in direct elimination.",
-            "Props can	be	used  as  per	the	participant's requirements. ",
-            "A  strict prohibition on the use of fire, water, oil, colors or smoke.",
-            "Part icipants will be given 4 minutes to complete  their performance.",
+            "Props can be used as per the participant's requirements. ",
+            "A strict prohibition on the use of fire, water, oil, colors or smoke.",
+            "Participants will be given 4 minutes to complete  their performance.",
             "An extra minute is allotted for necessary stage arrangements and clearance.",
             "Performances exceeding the given time limit will result in disqualification.",
-            "Part icipants are responsible for the cleanliness of the stage after the performance.",
-            "Exte rnal p art icipants are advised to register before the event  although spot registrations are accepted.",
+            "Participants are responsible for the cleanliness of the stage after the performance.",
+            "External participants are advised to register before the event although spot registrations are accepted.",
             "Internal participants should register before the event.",
             "All the part icipants must strictly adhere to COVID- 19 regulations throughout the event.",
-
-
 
         ],
 
@@ -2671,35 +2668,34 @@ export const eventData = [
         "branch": "ECE",
         "image": "/events/EC/THX.jpg",
         "smallDesc": "Talent is a one-of-a-kind skill that sets you apart from the rest of the pack. Everyone is born with it, but not everyone recognises it. ",
-        "fullDesc": "Talent House Xis a forum for amateur artists to display their talents in a variety of genres, including singing, dance, comedy, novelty acts and more. So, if you've discovered the X factor in you, then this is the right platform to show case your hidden 'X' quotient on stage and wow the crowd!",
+        "fullDesc": "Talent House X is a forum for amateur artists to display their talents in a variety of genres, including singing, dance, comedy, novelty acts and more. So, if you've discovered the X factor in you, then this is the right platform to show case your hidden 'X' quotient on stage and wow the crowd!",
         "roundDetails": {
-            "Round 1":
-                ["Curta in Raiser- Participants can only perform in the category of talent mentioned during the registration.Based on the scores allo tted by judges, the shortlisted participants will move to Round 2."],
+            "Round 1"
+                :
+                ["Curta in Raiser- Participants can only perform in the category of talent mentioned during the registration. Based on the scores allotted by judges, the shortlisted participants will move to Round 2."],
             "Round 2":
-                ["The Showdown- Part icipants selected for this round must perform in the same category as mentioned during the registration.This will be the final round."]
+                ["The Showdown- Participants selected for this round must perform in the same category as mentioned during the registration.This will be the final round."]
 
         },
 
         "rules": [
-            "Any number of entries per college is allowed.Each participant must be globally registered.",
-            "Participation can be individual or as a group.No gender restrictions on team constit u tio n.",
-            "Part icipants are allowed to showcase their talent once.Once participated, they will not be allowed a second appearance.",
-            "Only the 'stated ' talent at the time of registration is allowed in any of the subsequent rounds.Otherwise, it remains in the right s of the organizers to call for direct elimination, unless it is clarified.",
-            "Part icipants are not allowed to introduce themselves before their performance.",
+            "Any number of entries per college is allowed. Each participant must be globally registered.",
+            "Participation can be individual or as a group. No gender restrictions on team constitution.",
+            "Part icipants are allowed to showcase their talent once. Once participated, they will not be allowed a second appearance.",
+            "Only the 'stated' talent at the time of registration is allowed in any of the subsequent rounds. Otherwise, it remains in the right s of the organizers to call for direct elimination, unless it is clarified.",
+            "Participants are not allowed to introduce themselves before their performance.",
             "Participants must be present an hour before the commencement of the event and submit song or other media file if any in pen drive only.",
-            "Part icipants must inform the organizers if they are taking part in any other event during the time allotted for Ta lent House X.",
+            "Participants must inform the organizers if they are taking part in any other event during the time allotted for Talent House X.",
             "Vulgarity will not be entertained as an element of entertainment and will result in direct elimination.",
-            "Props can	be	used  as  per	the	participant's requirements. ",
-            "A  strict prohibition on the use of fire, water, oil, colors or smoke.",
-            "Part icipants will be given 4 minutes to complete  their performance.",
+            "Props can be used  as  per the participant's requirements. ",
+            "A strict prohibition on the use of fire, water, oil, colors or smoke.",
+            "Participants will be given 4 minutes to complete  their performance.",
             "An extra minute is allotted for necessary stage arrangements and clearance.",
             "Performances exceeding the given time limit will result in disqualification.",
             "Participants are responsible for the cleanliness of the stage after the performance.",
-            "Exte rnal p art icipants are advised to register before the event  although spot registrations are accepted.",
+            "External participants are advised to register before the event although spot registrations are accepted.",
             "Internal participants should register before the event.",
             "All the part icipants must strictly adhere to COVID- 19 regulations throughout the event.",
-
-
 
         ],
 
@@ -2711,8 +2707,6 @@ export const eventData = [
 
         "contactDetails": [
             {
-
-
                 "name": " Meghana H Pai",
                 "phoneNumber": "918197665483",
                 "emailID": "mpai97@gmail.com"
@@ -2736,11 +2730,11 @@ export const eventData = [
         "venue": "LH 212 & BIOINFORMATICS Lab",
         "branch": "BTE",
         "image": "/events/BT/ThinkingCap.png",
-        "smallDesc": "Not every thing is about you kids, make way for your lecturers to show their unseen skills this lncridea!",
-        "fullDesc": "Not every thing is about you kids, make way for your lecturers to show their unseen skills this lncridea!",
+        "smallDesc": "Not every thing is about you kids, make way for your lecturers to show their unseen skills this Incridea!",
+        "fullDesc": "Not every thing is about you kids, make way for your lecturers to show their unseen skills this Incridea!",
         "roundDetails": {
             "Round 1": ["Figure it out- 15 - 20 questions comprising brain teasers, guess the missing letter, find the words, etc., will be asked.The time given for solving it is 20 minutes."],
-            "Round 2": ["Take a guess- Part icipants will be shown pictures of eminent personalities and  will be asked to figure out their contributio n or vice versa.Along with this, song tunes or voices of the personalities will be played and participants have to guess which song or which celebrity it is and similar questions."],
+            "Round 2": ["Take a guess- Participants will be shown pictures of eminent personalities and  will be asked to figure out their contributio n or vice versa.Along with this, song tunes or voices of the personalities will be played and participants have to guess which song or which celebrity it is and similar questions."],
 
         },
 
@@ -2753,9 +2747,7 @@ export const eventData = [
 
         "contactDetails": [
             {
-
-
-                "name": " Anja li Rao Kalbavi",
+                "name": " Anjali Rao Kalbavi",
                 "phoneNumber": "+ 919148965455",
                 "emailID": "kalanjali25@gmail.com"
             },
@@ -2772,20 +2764,20 @@ export const eventData = [
     },
 
     {
-        "name": "VOCAL TWIST (western)",
+        "name": "VOCAL TWIST (Western)",
         "day": "3",
         "Time": "10:00 am",
         "venue": "Phalguni",
         "branch": "BTE",
         "image": "/events/BT/VocalTwist.png",
-        "smallDesc": "Can you mesmerize those who listen to you? ",
+        "smallDesc": "Can you mesmerize those who listen to you?",
         "fullDesc": "Do you have what it takes to move the hearts of the masses with your voice? Then it is time to bring out your inner Nightingale.",
 
         "rules": [
             "It is a solo event.",
             "The time limit is 4 minutes.",
             "There will be only one round, where participants can sing a song belonging to either the eastern or western category.",
-            "One person can accompany the participant for karaoke or instrumen t(Participants are requested to carry their own instruments)",
+            "One person can accompany the participant for karaoke or instrument(Participants are requested to carry their own instruments)",
             "The accompanist must be from the same college as the participant.",
             "The judges' decision is final.",
             "Participants can register on spot.",
@@ -2793,7 +2785,7 @@ export const eventData = [
         ],
 
         "judgingCriteria": [
-            "Vocal qualit y and modulation",
+            "Vocal quality and modulation",
             "Expression",
             "Stage impression",
             "Over - all impact",
@@ -2820,20 +2812,20 @@ export const eventData = [
     },
 
     {
-        "name": "VOCAL TWIST (eastern)",
+        "name": "VOCAL TWIST (Eastern)",
         "day": "3",
         "Time": "10:00 am",
         "venue": "Shambhavi",
         "branch": "BTE",
         "image": "/events/BT/VocalTwist.png",
-        "smallDesc": "Can you mesmerize those who listen to you? ",
+        "smallDesc": "Can you mesmerize those who listen to you?",
         "fullDesc": "Do you have what it takes to move the hearts of the masses with your voice? Then it is time to bring out your inner Nightingale.",
 
         "rules": [
             "It is a solo event.",
             "The time limit is 4 minutes.",
             "There will be only one round, where participants can sing a song belonging to either the eastern or western category.",
-            "One person can accompany the participant for karaoke or instrumen t(Participants are requested to carry their own instruments)",
+            "One person can accompany the participant for karaoke or instrument(Participants are requested to carry their own instruments)",
             "The accompanist must be from the same college as the participant.",
             "The judges' decision is final.",
             "Participants can register on spot.",
@@ -2841,11 +2833,10 @@ export const eventData = [
         ],
 
         "judgingCriteria": [
-            "Vocal qualit y and modulation",
+            "Vocal quality and modulation",
             "Expression",
             "Stage impression",
             "Over - all impact",
-
         ],
 
 
@@ -2875,12 +2866,12 @@ export const eventData = [
         "venue": "LH 210, 211",
         "branch": "BTE",
         "image": "/events/BT/EscapeRoom.jpg",
-        "smallDesc": ". Get  trapped in the room, decode whodunit and escape!",
-        "fullDesc": "The escape room is an event that unleashes the detective in you. With a few technical skills and a keen sense of  observation, you have to escape from the grasp of your kidnapper. Your basic chemistry and biology knowledge and your stamina will be the key to helping solve the  mystery. ",
+        "smallDesc": "Get trapped in the room, decode whodunit and escape!",
+        "fullDesc": "The escape room is an event that unleashes the detective in you. With a few technical skills and a keen sense of observation, you have to escape from the grasp of your kidnapper. Your basic chemistry and biology knowledge and your stamina will be the key to helping solve the mystery. ",
         "roundDetails": {
-            "Round 1": [" Questions related to basic chemistry and biology will be asked with a few brain teasers and p uzzles. 30 minutes will be given to complete the questionnaire.The top 10 teams will be selected based on the highest scores."],
-            "Round 2": ["  This round will be a scavenger hunt where the teams will be gathering clues and protocols for the final round.Only 3 teams that can gather all the clues will be allowed to proceed to the final round"],
-            "Round 3": [" The teams have to solve puzzles and p erform certain basic chemistry experiments to solve the mystery and escape from the room."],
+            "Round 1": ["Questions related to basic chemistry and biology will be asked with a few brain teasers and puzzles. 30 minutes will be given to complete the questionnaire. The top 10 teams will be selected based on the highest scores."],
+            "Round 2": ["This round will be a scavenger hunt where the teams will be gathering clues and protocols for the final round. Only 3 teams that can gather all the clues will be allowed to proceed to the final round"],
+            "Round 3": ["The teams have to solve puzzles and perform certain basic chemistry experiments to solve the mystery and escape from the room."],
 
         },
 
@@ -2896,7 +2887,7 @@ export const eventData = [
             "The protocols must be collected in an orderly fashion.",
             "The team should have all the protocols to proceed to the final round.",
             "Round 3:",
-            "The qualified teams should perform a few simple experiments and  solve puzzles to unlock the room.",
+            "The qualified teams should perform a few simple experiments and solve puzzles to unlock the room.",
 
 
         ],
@@ -2904,7 +2895,7 @@ export const eventData = [
         "judgingCriteria": [
             "The first team to escape the room will be the winner.",
             "The runner - up will be decided as the game proceeds.",
-            "The orga nizers' decision will be final.",
+            "The organizers' decision will be final.",
 
 
         ],
@@ -2913,12 +2904,12 @@ export const eventData = [
             {
                 "name": "Sharadhvi Patel",
                 "phoneNumber": "+ 918762115687",
-                "emailID": "shara dh vipatel07@g ma il.co m"
+                "emailID": "sharadhvipatel07@gmail.com"
             },
             {
                 "name": "Sindhur RG ",
                 "phoneNumber": "+919482239300",
-                "emailID": "sindhurg2000 @g ma il.com",
+                "emailID": "sindhurg2000@gmail.com",
             }
 
 
@@ -2929,18 +2920,18 @@ export const eventData = [
 
     {
         "name": "ESCAPE ROOM",
-        "round": "2",
+        "round": "2 & 3",
         "day": "2",
         "Time": "9:00 am",
-        "venue": "LH 210, 211",
+        "venue": "Round 2: LH 210, Round 3: Biochemistry Lab",
         "branch": "BTE",
         "image": "/events/BT/EscapeRoom.jpg",
-        "smallDesc": ". Get  trapped in the room, decode whodunit and escape!",
-        "fullDesc": "The escape room is an event that unleashes the detective in you. With a few technical skills and a keen sense of  observation, you have to escape from the grasp of your kidnapper. Your basic chemistry and biology knowledge and your stamina will be the key to helping solve the  mystery. ",
+        "smallDesc": "Get trapped in the room, decode whodunit and escape!",
+        "fullDesc": "The escape room is an event that unleashes the detective in you. With a few technical skills and a keen sense of observation, you have to escape from the grasp of your kidnapper. Your basic chemistry and biology knowledge and your stamina will be the key to helping solve the mystery. ",
         "roundDetails": {
-            "Round 1": [" Questions related to basic chemistry and biology will be asked with a few brain teasers and p uzzles. 30 minutes will be given to complete the questionnaire.The top 10 teams will be selected based on the highest scores."],
-            "Round 2": ["  This round will be a scavenger hunt where the teams will be gathering clues and protocols for the final round.Only 3 teams that can gather all the clues will be allowed to proceed to the final round"],
-            "Round 3": [" The teams have to solve puzzles and p erform certain basic chemistry experiments to solve the mystery and escape from the room."],
+            "Round 1": ["Questions related to basic chemistry and biology will be asked with a few brain teasers and puzzles. 30 minutes will be given to complete the questionnaire. The top 10 teams will be selected based on the highest scores."],
+            "Round 2": ["This round will be a scavenger hunt where the teams will be gathering clues and protocols for the final round. Only 3 teams that can gather all the clues will be allowed to proceed to the final round"],
+            "Round 3": ["The teams have to solve puzzles and perform certain basic chemistry experiments to solve the mystery and escape from the room."],
 
         },
 
@@ -2956,7 +2947,7 @@ export const eventData = [
             "The protocols must be collected in an orderly fashion.",
             "The team should have all the protocols to proceed to the final round.",
             "Round 3:",
-            "The qualified teams should perform a few simple experiments and  solve puzzles to unlock the room.",
+            "The qualified teams should perform a few simple experiments and solve puzzles to unlock the room.",
 
 
         ],
@@ -2964,7 +2955,7 @@ export const eventData = [
         "judgingCriteria": [
             "The first team to escape the room will be the winner.",
             "The runner - up will be decided as the game proceeds.",
-            "The orga nizers' decision will be final.",
+            "The organizers' decision will be final.",
 
 
         ],
@@ -2973,18 +2964,17 @@ export const eventData = [
             {
                 "name": "Sharadhvi Patel",
                 "phoneNumber": "+ 918762115687",
-                "emailID": "shara dh vipatel07@g ma il.co m"
+                "emailID": "sharadhvipatel07@gmail.com"
             },
             {
                 "name": "Sindhur RG ",
                 "phoneNumber": "+919482239300",
-                "emailID": "sindhurg2000 @g ma il.com",
+                "emailID": "sindhurg2000@gmail.com",
             }
 
 
 
         ]
-
     },
 
     {
@@ -2995,12 +2985,12 @@ export const eventData = [
         "venue": "LH 212 & BIOKINETICS Lab",
         "branch": "BTE",
         "image": "/events/BT/Perplex.jpg",
-        "smallDesc": "Do you know a little more Biology than \"Mitochondria is the powerhouse of the cell\" and a little more Chemistry than \"a mole is equal to 6.022* 10\"23 a toms \"?",
-        "fullDesc": "Perplex awaits you.Come push your knowledge, task handling cap abilities, and time management skills to the limit",
+        "smallDesc": "Do you know a little more Biology than \"Mitochondria is the powerhouse of the cell\" and a little more Chemistry than \"a mole is equal to 6.022* 10\"^23 atoms \"?",
+        "fullDesc": "Perplex awaits you. Come push your knowledge, task handling cap abilities, and time management skills to the limit",
         "roundDetails": {
-            "Round 1": [" Quiz comprising of questions related to chemistry and biology. The top 8 teams will be selected for the next round"],
+            "Round 1": ["Quiz comprising of questions related to chemistry and biology. The top 8 teams will be selected for the next round"],
             "Round 2": ["Small tasks related to basic lab instruments. Based on the accuracy and performance of the task, three teams shall proceed to the final round"],
-            "Round 3": [": A time-based round. Teams will be given a set of experiments to be completed at the earliest. The team which completes all the given experiments first shall be the winner"],
+            "Round 3": ["A time-based round. Teams will be given a set of experiments to be completed at the earliest. The team which completes all the given experiments first shall be the winner"],
 
         },
 
@@ -3017,12 +3007,10 @@ export const eventData = [
 
         "judgingCriteria": [
             "Each round will have its own judging criteria.",
-            "The top 8 teams scoring the highest marks in round 1will proceed to round 2.",
+            "The top 8 teams scoring the highest marks in round 1 will proceed to round 2.",
             "In the 2nd round, the top 3 teams will be selected based on the handling of the equipment and the accuracy of the results.",
             "In the 3rd round, judgment will be based on the time and accuracy of the result.",
             "Judges decision is final",
-
-
 
         ],
 
@@ -3031,12 +3019,12 @@ export const eventData = [
             {
                 "name": "Athira",
                 "phoneNumber": "+ 918073826704",
-                "emailID": "a thiran901@gm ail.c om"
+                "emailID": "athiran901@gmail.com"
             },
             {
                 "name": "Akshatha Pai",
                 "phoneNumber": "+ 918754543319",
-                "emailID": "Akshat hap ai01 @g mai l.com",
+                "emailID": "Akshathapai01@gmail.com",
             }
 
 
@@ -3053,12 +3041,12 @@ export const eventData = [
         "venue": "LH 212 & BIOKINETICS Lab",
         "branch": "BTE",
         "image": "/events/BT/Perplex.jpg",
-        "smallDesc": "Do you know a little more Biology than \"Mitochondria is the powerhouse of the cell\" and a little more Chemistry than \"a mole is equal to 6.022* 10\"23 a toms \"?",
-        "fullDesc": "Perplex awaits you.Come push your knowledge, task handling cap abilities, and time management skills to the limit",
+        "smallDesc": "Do you know a little more Biology than \"Mitochondria is the powerhouse of the cell\" and a little more Chemistry than \"a mole is equal to 6.022* 10\"^23 atoms \"?",
+        "fullDesc": "Perplex awaits you. Come push your knowledge, task handling cap abilities, and time management skills to the limit",
         "roundDetails": {
-            "Round 1": [" Quiz comprising of questions related to chemistry and biology. The top 8 teams will be selected for the next round"],
+            "Round 1": ["Quiz comprising of questions related to chemistry and biology. The top 8 teams will be selected for the next round"],
             "Round 2": ["Small tasks related to basic lab instruments. Based on the accuracy and performance of the task, three teams shall proceed to the final round"],
-            "Round 3": [": A time-based round. Teams will be given a set of experiments to be completed at the earliest. The team which completes all the given experiments first shall be the winner"],
+            "Round 3": ["A time-based round. Teams will be given a set of experiments to be completed at the earliest. The team which completes all the given experiments first shall be the winner"],
 
         },
 
@@ -3075,7 +3063,7 @@ export const eventData = [
 
         "judgingCriteria": [
             "Each round will have its own judging criteria.",
-            "The top 8 teams scoring the highest marks in round 1will proceed to round 2.",
+            "The top 8 teams scoring the highest marks in round 1 will proceed to round 2.",
             "In the 2nd round, the top 3 teams will be selected based on the handling of the equipment and the accuracy of the results.",
             "In the 3rd round, judgment will be based on the time and accuracy of the result.",
             "Judges decision is final",
@@ -3089,12 +3077,12 @@ export const eventData = [
             {
                 "name": "Athira",
                 "phoneNumber": "+ 918073826704",
-                "emailID": "a thiran901@gm ail.c om"
+                "emailID": "athiran901@gmail.com"
             },
             {
                 "name": "Akshatha Pai",
                 "phoneNumber": "+ 918754543319",
-                "emailID": "Akshat hap ai01 @g mai l.com",
+                "emailID": "Akshathapai01@gmail.com",
             }
 
 
@@ -3111,12 +3099,12 @@ export const eventData = [
         "venue": "LH 212 & BIOKINETICS Lab",
         "branch": "BTE",
         "image": "/events/BT/Perplex.jpg",
-        "smallDesc": "Do you know a little more Biology than \"Mitochondria is the powerhouse of the cell\" and a little more Chemistry than \"a mole is equal to 6.022* 10\"23 a toms \"?",
-        "fullDesc": "Perplex awaits you.Come push your knowledge, task handling cap abilities, and time management skills to the limit",
+        "smallDesc": "Do you know a little more Biology than \"Mitochondria is the powerhouse of the cell\" and a little more Chemistry than \"a mole is equal to 6.022* 10\"^23 atoms \"?",
+        "fullDesc": "Perplex awaits you. Come push your knowledge, task handling cap abilities, and time management skills to the limit",
         "roundDetails": {
-            "Round 1": [" Quiz comprising of questions related to chemistry and biology. The top 8 teams will be selected for the next round"],
+            "Round 1": ["Quiz comprising of questions related to chemistry and biology. The top 8 teams will be selected for the next round"],
             "Round 2": ["Small tasks related to basic lab instruments. Based on the accuracy and performance of the task, three teams shall proceed to the final round"],
-            "Round 3": [": A time-based round. Teams will be given a set of experiments to be completed at the earliest. The team which completes all the given experiments first shall be the winner"],
+            "Round 3": ["A time-based round. Teams will be given a set of experiments to be completed at the earliest. The team which completes all the given experiments first shall be the winner"],
 
         },
 
@@ -3127,18 +3115,14 @@ export const eventData = [
             "Participants should carry all the stationery items for the 1st round",
             "Materials and procedures for all the experiments will be provided",
             "Lab equipment should be handled with care",
-
-
         ],
 
         "judgingCriteria": [
             "Each round will have its own judging criteria.",
-            "The top 8 teams scoring the highest marks in round 1will proceed to round 2.",
+            "The top 8 teams scoring the highest marks in round 1 will proceed to round 2.",
             "In the 2nd round, the top 3 teams will be selected based on the handling of the equipment and the accuracy of the results.",
             "In the 3rd round, judgment will be based on the time and accuracy of the result.",
             "Judges decision is final",
-
-
 
         ],
 
@@ -3147,17 +3131,18 @@ export const eventData = [
             {
                 "name": "Athira",
                 "phoneNumber": "+ 918073826704",
-                "emailID": "a thiran901@gm ail.c om"
+                "emailID": "athiran901@gmail.com"
             },
             {
                 "name": "Akshatha Pai",
                 "phoneNumber": "+ 918754543319",
-                "emailID": "Akshat hap ai01 @g mai l.com",
+                "emailID": "Akshathapai01@gmail.com",
             }
 
 
 
         ]
+
 
     },
     {
@@ -3168,20 +3153,20 @@ export const eventData = [
         "branch": "CSE",
         "image": "/events/CS/CTF.jpg",
         "smallDesc": "Show off your hacking skills and flex your problem solving skills",
-        "fullDesc": "Capture the Flag is the platform to show off your hacking skills and flex your problem solving skills through a series of problems in the Cryptography, Steno graphy, Binary Exploitation, Web Exploita tion, Forensics, Reverse Engineer ing, Programming,  Packet  Analysis and  some  Miscellaneous cate gories.",
+        "fullDesc": "Capture the Flag is the platform to show off your hacking skills and flex your problem solving skills through a series of problems in the Cryptography, Stenography, Binary Exploitation, Web Exploitation, Forensics, Reverse Engineering, Programming, Packet Analysis and some Miscellaneous categories.",
         "roundDetails": {
-            "Round 1": [" Jeopardy-style CTF: A couple of questions (tasks) in range of categories: Cryptography, Stenography, Binary Exploita tion, Web Exploita tion, Forensics, Reverse Engineering, Programming, Packet Analysis, Miscellaneous will be asked.Teams with the most points will move forward to Round 2. Attacking the other teams will lead to direct disqualification."],
+            "Round 1": [" Jeopardy-style CTF: A couple of questions (tasks) in range of categories: Cryptography, Stenography, Binary Exploitation, Web Exploitation, Forensics, Reverse Engineering, Programming, Packet Analysis, Miscellaneous will be asked. Teams with the most points will move forward to Round 2. Attacking the other teams will lead to direct disqualification."],
             "Round 2": ["-"],
 
         },
 
         "rules": [
-            "Teams of 1 - 2 memb ers.",
-            "It's strictly prohibited to perform any kind of Denial of Service Attack (DoS/ DDoS) against the servers or the competitio n's infrastructure.",
-            "DO NOT use Brute Force on the flag submission syst em because the flags cannot be guessed.",
-            "DO NOT t ry to exchange flags or write - ups during the competition.",
-            "DO NOT share recent discoveries related to challenges publicly on IRC channels WhatsApp, Facebook or any other social net works / messa g ing opp, nor in any other way with the contestants o f ot her teams.",
-            "It is recommended to use your own system/ laptop.",
+            "Teams of 1 - 2 members.",
+            "It's strictly prohibited to perform any kind of Denial of Service Attack (DoS/ DDoS) against the servers or the competition's infrastructure.",
+            "DO NOT use Brute Force on the flag submission system because the flags cannot be guessed.",
+            "DO NOT try to exchange flags or write - ups during the competition.",
+            "DO NOT share recent discoveries related to challenges publicly on IRC channels WhatsApp, Facebook or any other social networks / messaging app, nor in any other way with the contestants of other teams.",
+            "It is recommended to use your own system/laptop.",
             "You are free to use any software that is open source / free or written by you.",
             "The judging is done automatically through software and will be based on points.If your team and another team is tied, then the decision will be made based on the lowest total time.",
         ],
@@ -3195,12 +3180,12 @@ export const eventData = [
             {
                 "name": "Abdeali",
                 "phoneNumber": "9945208204",
-                "emailID": "abdeali.manga lorewala@g ma il.com"
+                "emailID": "abdeali.mangalorewala@gmail.com"
             },
             {
                 "name": "Numan",
                 "phoneNumber": "8606521714",
-                "emailID": "numa n.na e em @out look.com",
+                "emailID": "numan.naeem@outlook.com",
             }
 
 
@@ -3218,18 +3203,18 @@ export const eventData = [
         "branch": "CSE",
         "image": "/events/CS/techtainment.png",
         "smallDesc": "All you need is some technical knowledge, swift responses, and a great companion!",
-        "fullDesc": "Techtainment is an event that will keepyou on your toes while storming your technical cap abilities. ",
+        "fullDesc": "Techtainment is an event that will keep you on your toes while storming your technical cap abilities. ",
         "roundDetails": {
             "Round 1": ["An aptitude test will be conducted",
                 "The questions will be based on basic mental skills and simple technical questions",
                 "The time allotted for the questionnaire will be 25 minutes",
                 "The top 20 teams will be selected to go to round 2",
             ],
-            "Round 2": ["Suck it up",
-                "1. The First player will be given two bowls, one with Gems and one empty.",
-                "2. When the timer starts, the first player must suck a Gems with the straw to stick to the end and transfer it to the other bowl.",
-                "3. Once the Gems are transferred, the player will find a code snippet at the bottom of the bowl.This code snippet has to be given to the second player and asked to solve and give the output.",
-                "4. Top 15 teams move to the next task.",
+            "Round 2": ["Suck it up-",
+                "The First player will be given two bowls, one with Gems and one empty.",
+                "When the timer starts, the first player must suck a Gems with the straw to stick to the end and transfer it to the other bowl.",
+                "Once the Gems are transferred, the player will find a code snippet at the bottom of the bowl. This code snippet has to be given to the second player and asked to solve and give the output.",
+                "Top 15 teams move to the next task.",
                 "Word - Play: Each Team will be given a technical crossword based on different coding languages which they need to solve in the given time.",
                 "Whichever team finds the most words will be declared the winner.Topl0 teams will move to the next round.",
             ],
@@ -3241,7 +3226,7 @@ export const eventData = [
                 "The top 5 teams will move to the final task.",
                 "Dining Philosophers- The team will be given to execute a piece of code.",
                 "At regular intervals of time, they will be given an obstacle to complete, after which the team members have to switch places.",
-                "The top 3 teams to get the correct output in the minimum time will be declared winners ac cording ly.",
+                "The top 3 teams to get the correct output in the minimum time will be declared winners accordingly.",
 
             ],
 
@@ -3250,18 +3235,16 @@ export const eventData = [
 
         "rules": [
             "A team of 2 members is compulsory.Solo participation is not allowed.",
-            "Any kind of foul play by any team will lead to disqualifica tion",
+            "Any kind of foul play by any team will lead to disqualification",
             "Use of any electronic gadgets is not allowed.",
             "Teams found hampering the progress of other teams in any manner will be disqualified",
             "Outsourced information is not allowed",
-            "If there are any conflicts, then the decision of the organizerswill be final",
+            "If there are any conflicts, then the decision of the organizers will be final",
         ],
 
-        "judgingCriteria": [
-            "The number of flags submitted and their correctness in the shortest period of time",
-        ],
-
-
+        // "judgingCriteria": [
+        //     "The number of flags submitted and their correctness in the shortest period of time",
+        // ],
 
 
         "contactDetails": [
@@ -3269,12 +3252,12 @@ export const eventData = [
 
                 "name": "Vibha KP",
                 "phoneNumber": "9606333055",
-                "emailID": "vibhaprasanna@g ma il.co m"
+                "emailID": "vibhaprasanna@gmail.com"
             },
             {
                 "name": "Vinal Fernandes",
                 "phoneNumber": "9591123669",
-                "emailID": "vinolfernandes20 @g ma il.co m",
+                "emailID": "vinolfernandes20@gmail.com",
             }
 
 
@@ -3287,23 +3270,23 @@ export const eventData = [
         "name": "TECHTAINMENT",
         "round": "2 & 3",
         "day": "2",
-        "Time": "12:30 am",
-        "venue": "LH502, CSL05",
+        "Time": "12:30 pm",
+        "venue": "LH 502, CSL 05",
         "branch": "CSE",
         "image": "/events/CS/techtainment.png",
         "smallDesc": "All you need is some technical knowledge, swift responses, and a great companion!",
-        "fullDesc": "Techtainment is an event that will keepyou on your toes while storming your technical cap abilities. ",
+        "fullDesc": "Techtainment is an event that will keep you on your toes while storming your technical cap abilities. ",
         "roundDetails": {
             "Round 1": ["An aptitude test will be conducted",
                 "The questions will be based on basic mental skills and simple technical questions",
                 "The time allotted for the questionnaire will be 25 minutes",
                 "The top 20 teams will be selected to go to round 2",
             ],
-            "Round 2": ["Suck it up",
-                "1. The First player will be given two bowls, one with Gems and one empty.",
-                "2. When the timer starts, the first player must suck a Gems with the straw to stick to the end and transfer it to the other bowl.",
-                "3. Once the Gems are transferred, the player will find a code snippet at the bottom of the bowl.This code snippet has to be given to the second player and asked to solve and give the output.",
-                "4. Top 15 teams move to the next task.",
+            "Round 2": ["Suck it up-",
+                "The First player will be given two bowls, one with Gems and one empty.",
+                "When the timer starts, the first player must suck a Gems with the straw to stick to the end and transfer it to the other bowl.",
+                "Once the Gems are transferred, the player will find a code snippet at the bottom of the bowl. This code snippet has to be given to the second player and asked to solve and give the output.",
+                "Top 15 teams move to the next task.",
                 "Word - Play: Each Team will be given a technical crossword based on different coding languages which they need to solve in the given time.",
                 "Whichever team finds the most words will be declared the winner.Topl0 teams will move to the next round.",
             ],
@@ -3315,7 +3298,7 @@ export const eventData = [
                 "The top 5 teams will move to the final task.",
                 "Dining Philosophers- The team will be given to execute a piece of code.",
                 "At regular intervals of time, they will be given an obstacle to complete, after which the team members have to switch places.",
-                "The top 3 teams to get the correct output in the minimum time will be declared winners ac cording ly.",
+                "The top 3 teams to get the correct output in the minimum time will be declared winners accordingly.",
 
             ],
 
@@ -3324,16 +3307,16 @@ export const eventData = [
 
         "rules": [
             "A team of 2 members is compulsory.Solo participation is not allowed.",
-            "Any kind of foul play by any team will lead to disqualifica tion",
+            "Any kind of foul play by any team will lead to disqualification",
             "Use of any electronic gadgets is not allowed.",
             "Teams found hampering the progress of other teams in any manner will be disqualified",
             "Outsourced information is not allowed",
-            "If there are any conflicts, then the decision of the organizerswill be final",
+            "If there are any conflicts, then the decision of the organizers will be final",
         ],
 
-        "judgingCriteria": [
-            "The number of flags submitted and their correctness in the shortest period of time",
-        ],
+        // "judgingCriteria": [
+        //     "The number of flags submitted and their correctness in the shortest period of time",
+        // ],
 
 
         "contactDetails": [
@@ -3341,13 +3324,14 @@ export const eventData = [
 
                 "name": "Vibha KP",
                 "phoneNumber": "9606333055",
-                "emailID": "vibhaprasanna@g ma il.co m"
+                "emailID": "vibhaprasanna@gmail.com"
             },
             {
                 "name": "Vinal Fernandes",
                 "phoneNumber": "9591123669",
-                "emailID": "vinolferna ndes20 @g ma il.co m",
+                "emailID": "vinolfernandes20@gmail.com",
             }
+
 
 
 
@@ -3359,35 +3343,24 @@ export const eventData = [
         "name": "WEB PIRACY",
         "day": "3",
         "Time": "10:00 am",
-        "venue": "CSL03, 04",
+        "venue": "CSL 03, 04",
         "branch": "CSE",
         "image": "/events/CS/WebPiracy.jpg",
-        "smallDesc": " Ever looked at a corporate website and t houg ht \"I could have done that\".Well, here's your chance to prove that in our all- new web piracy web competition.",
-        "fullDesc": " Ever looked at a corporate website and t houg ht \"I could have done that\".Well, here's your chance to prove that in our all- new web piracy web competition.",
+        "smallDesc": " Ever looked at a corporate website and thought \"I could have done that\". Well, here's your chance to prove that in our all- new web piracy web competition.",
+        "fullDesc": " Ever looked at a corporate website and thought \"I could have done that\". Well, here's your chance to prove that in our all- new web piracy web competition.",
         "roundDetails": {
-            "Round 1": ["E - Talaash(Tech Hunt):Participants need to solve the given puzzle and find the file name in which the code is present whose output leads to the qualification ticket.The first 20 teams to find the ticket will be qua lified for the next round."
+            "Round 1": ["E - Talaash(Tech Hunt) : Participants need to solve the given puzzle and find the file name in which the code is present whose output leads to the qualification ticket. The first 20 teams to find the ticket will be qualified for the next round."
 
             ],
-            "Round 2": ["Clone the page:A static web page will be displa yed.Part icip ants need to recreate it within the given time limit of 90 minutes.",
-            ],
-            "Round 3(Final Round)": [
-                "Jack of all trades:",
-                "Each team will be given a programming language code snippet",
-                "They will be given one minute time to write down that keyword in different programming languages.",
-                "At the end of one minute, the team with the highest number of legit keywords will win the round.",
-                "The top 5 teams will move to the final task.",
-                "Dining Philosophers- The team will be given to execute a piece of code.",
-                "At regular intervals of time, they will be given an obstacle to complete, after which the team members have to switch places.",
-                "The top 3 teams to get the correct output in the minimum time will be declared winners ac cording ly.",
-
+            "Round 2": ["Clone the page : A static web page will be displayed. Participants need to recreate it within the given time limit of 90 minutes.",
             ],
 
 
         },
 
         "rules": [
-            "It is a t wo - round event.",
-            "Part icipation will be in a team of two.",
+            "It is a two - round event.",
+            "Participation will be in a team of two.",
             "Any number of teams per college is allowed.",
             "Teams can be formed inter - college.",
 
@@ -3395,7 +3368,7 @@ export const eventData = [
 
         "judgingCriteria": [
             "The participants' submission is graded based on how closely it resembles the original webpage.",
-            "To determine the winners in the event of a tie, the time taken for sub mission will be considere d.",
+            "To determine the winners in the event of a tie, the time taken for submission will be considered.",
             "The judges' decision will be final and irrevocable.",
             "If in case the cloning is same then the fastest/ most creative one will be chosen",
 
@@ -3403,21 +3376,14 @@ export const eventData = [
 
         "contactDetails": [
             {
-
-
-
-
-
-
-
                 "name": "Sinchana A Shetty",
-                "phoneNumber": "8971 8 43624",
-                "emailID": "sinchushiriyara@g ma il.co m"
+                "phoneNumber": "8971843624",
+                "emailID": "sinchushiriyara@gmail.com"
             },
             {
                 "name": "Prevail Dsouza ",
                 "phoneNumber": "9741743084",
-                "emailID": "dsouzaprevail @g ma il.com",
+                "emailID": "dsouzaprevail@gmail.com",
             }
 
 
