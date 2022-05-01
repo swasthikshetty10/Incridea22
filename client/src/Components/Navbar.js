@@ -81,12 +81,12 @@ function Navbar({ tab, sticky }) {
             </button>
           </div>
           <div
-            className="justify-between items-center w-full md:flex md:w-auto hidden  md:order-1"
+            className="justify-between  items-center w-full md:flex md:w-auto hidden  md:order-1"
             id="mobile-menu-4"
           >
             <ul
               style={{ fontFamily: "CinzelDecorative-Bold" }}
-              className="flex items-center flex-col mt-0 md:flex-row md:space-x-8 md:text-sm  md:font-medium"
+              className="flex pt-4 items-center flex-col mt-0 md:flex-row md:space-x-8 md:text-sm  md:font-medium"
             >
               <li>
                 <Link
@@ -145,7 +145,7 @@ function Navbar({ tab, sticky }) {
                   about us
                 </Link>
               </li>
-              <li style={{fontFamily: 'Cinzel'}}>
+              <li style={{ fontFamily: 'Cinzel' }}>
                 {!(user && tab === "profile") ? <Link
                   to={user ? "/profile" : "/login"}
                   className={`hidden md:block border-2 border-igold py-2 pr-4 pl-3 text-xl font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633]  md:hover:text-white text-igold`}

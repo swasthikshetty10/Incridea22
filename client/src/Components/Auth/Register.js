@@ -73,8 +73,6 @@ function Register() {
         })
 
     }, [])
-
-
     const initialValues = {
         name: '',
         phNo: '',
@@ -115,7 +113,7 @@ function Register() {
                         return (
                             <ForgotContainer>
                                 <Form className='formBox'>
-                                    <Title className=''>Enter Your Details Carefully</Title>
+                                    <Title className='font-title'>Enter Your Details Carefully</Title>
                                     <InputField placeholder='Name' name='name' type='text' />
                                     <InputField
                                         name='phNo'
