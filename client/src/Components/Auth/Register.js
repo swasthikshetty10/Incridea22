@@ -31,7 +31,6 @@ function Register() {
 
     useEffect(() => {
         if (user) {
-            console.log(user)
             navigate("/profile")
         }
     }, [user])
@@ -40,18 +39,14 @@ function Register() {
         setReq(true)
         axios.post('https://peaceful-river-11730.herokuapp.com/auth/register/', data).then( //register user
             async (res) => {
-                console.log(data);
                 try {
-                    console.log()
                     const userCred = await signInWithEmailAndPassword(auth, email, data.password)
-                    console.log(userCred.user);
                     navigate('/profile')
                 } catch (e) {
                     throw new Error(e)
                 }
             }
         ).catch((res) => {
-            console.log(data);
             alert(res) //TODO: alert for now
         })
     }
@@ -60,14 +55,12 @@ function Register() {
         setLoading(true)
         axios.post(`https://peaceful-river-11730.herokuapp.com/auth/verifyEmail`, { //Check if email verified and paid and not in participants
             email
-        }).then((res => {
+        }).then(res => {
             setLoading(false)
-
-        })).catch(res => {
+        }).catch(res => {
             navigate("/login")
             setLoading(false)
         })
-
     }, [])
     const initialValues = {
         name: '',

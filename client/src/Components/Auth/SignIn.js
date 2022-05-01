@@ -36,7 +36,6 @@ const SignIn = ({ signIn }) => {
 			initialValues={initialValues}
 			validationSchema={validate}
 			onSubmit={async (values) => {
-				console.log(values);
 				setLoading(true)
 				try {
 					const res = await loginUser(values.mail, values.password)

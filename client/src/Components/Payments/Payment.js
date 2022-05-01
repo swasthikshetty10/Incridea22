@@ -38,7 +38,6 @@ function Payment(props) {
 					if (callBackData) {
 						navigate(`/register/${props.email}`)
 					} else {
-						console.log('payment failed')
 					}
 					//OR use try catch??
 				},
@@ -54,7 +53,6 @@ function Payment(props) {
 			paymentObject.open()
 
 		} catch (e) {
-			console.log(e);
 			props.successSpan.current.innerHTML = `<p class="font-semibold text-red-600">${e.response.data || e || "Error"}</p>`
 		}
 		setLoading(false)

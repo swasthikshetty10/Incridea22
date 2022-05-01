@@ -2,11 +2,16 @@ import React from "react";
 import { FaInstagram, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import logo from "../Images/logo.png";
+import { useLocation } from 'react-router-dom'
+
 function Footer() {
 
+  const location = useLocation()
+
   return (
-    <>
-      <footer className="p-4 gap-2 z-100 bg-black flex flex-col md:flex-row flex-wrap  justify-center items-center md:justify-between md:p-6">
+    location.pathname === '/login' ? <></> :   
+     <>
+      <footer className={"p-4 gap-2 z-100 bg-black flex flex-col md:flex-row flex-wrap  justify-center items-center md:justify-between md:p-6"}>
         <div>
           <img className="h-12" src={logo} alt="logo" />
         </div>

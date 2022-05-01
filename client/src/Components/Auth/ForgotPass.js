@@ -37,7 +37,7 @@ const ForgotPass = () => {
 		>
 			{(formik) => {
 				return (
-					<ForgotContainer>
+					<ForgotContainer style={{overflowX:'hidden'}} className='overflow-x-hidden'>
 						<Form className='formBox'>
 							<Title>Forgot Password</Title>
 							<InputField name='mail' type='text' placeholder='Email' />

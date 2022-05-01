@@ -24,18 +24,14 @@ function Details() {
         });
     }, [user]);
 
-    console.log("profile");
     const [participant, setParticipant] = useState({});
-    console.log(participant);
     useEffect(() => {
 
         getUserInfo(user.uid)
             .then((participant) => {
-                console.log(participant);
                 setParticipant(participant);
             })
             .catch((e) => {
-                console.log(e);
             });
     }, [participant.id]);
 
@@ -49,6 +45,8 @@ function Details() {
             });
     };
 
+    
+
     return (
         <>
             <div className="flex overflow-hidden  flex-col justify-center  py-8 bg-gray-900/30 ">
@@ -56,7 +54,7 @@ function Details() {
 
                     <div className=" text-white font-body flex flex-col  justify-between text-left px-2 py-4 leading-normal">
                         <div className=' text-center py-3 gap-x-2 ' >
-                            <h2 className='tracking-wide pb-1 md:pb-2 text-4xl md:text-5xl capitalize font-bold' >{participant.name}</h2>
+                            <h2 className='tracking-wide pb-1 md:pb-2 text-4xl md:text-5xl capitalize font-bold' >Welcome, {participant.name}</h2>
                             <p>{participant.collegeName}</p>
                         </div>
                         <div className='space-y-2 text-center pb-3' >
@@ -76,6 +74,7 @@ function Details() {
 
 
                 </div>
+
                 <div className="flex justify-center pb-10 gap-x-5 ">
 
                     <button type="button" className=" text-lg  font-semibold  text-igold transition ease-in-out transition-duration-100  bg-[#000000] hover:bg-igold backdrop-grayscale hover:text-white border-igold border-2   rounded-none  px-3 py-2.5 text-center w-fit  my-2" onClick={() => {

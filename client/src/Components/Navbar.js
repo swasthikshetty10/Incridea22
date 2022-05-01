@@ -6,7 +6,7 @@ import Logout from "./Auth/Logout";
 
 
 
-function Navbar({ tab, sticky }) {
+function Navbar({ tab, notsticky }) {
   const [click, setClick] = useState(false);
   const [offset, setOffset] = useState(0);
   useEffect(() => {
@@ -29,7 +29,7 @@ function Navbar({ tab, sticky }) {
   };
   return (
     <>
-      <nav className={`  sticky top-0 bg-[#000] z-[500] ${offset > 100 ? "py-2" : "py-6"} transform ease-linear duration-300 tracking-wider px-1 md:px-4 font-nav  min-w-fit  `}>
+      <nav className={`${!notsticky ?"sticky" : ""}   top-0 bg-[#000] z-[500] ${offset > 100 ? "py-2" : "py-6"} transform ease-linear duration-300 tracking-wider px-1 md:px-4 font-nav  min-w-fit  `}>
         <div className="container text-center flex flex-wrap justify-between items-center content-center mx-auto">
           <Link to="/" className="flex items-center">
             <img src={logo} className="mx-3 h-9 md:h-16" alt="Incridea Logo" />

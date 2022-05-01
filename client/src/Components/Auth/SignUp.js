@@ -1,6 +1,5 @@
 import React, { useState, useRef } from 'react';
 import { Formik, Form } from 'formik';
-import * as Yup from 'yup';
 import axios from 'axios';
 import {
   Button,
@@ -44,7 +43,6 @@ const SignUp = ({ signIn }) => {
   }
   const getOTP = async (values) => {
     try {
-      console.log(values)
       await axios.post('https://peaceful-river-11730.herokuapp.com/auth/generateOtp', {
         email: values.mail,
         collegeName: values.college
@@ -54,10 +52,10 @@ const SignUp = ({ signIn }) => {
       setEmailSent(true);
 
     } catch (error) {
-      console.log(error);
       if (error.response.status === 300) {
         navigate(`/register/${values.mail}`)
       }
+      throw error
     }
     setVals(values);
   };
@@ -71,6 +69,7 @@ const SignUp = ({ signIn }) => {
       successSpan.current.innerHTML = `<p class="font-semibold text-green-600">${"Email Verified"}</p>`
       setOtpVerified(true)
     } catch (error) {
+      throw error
     }
   };
 

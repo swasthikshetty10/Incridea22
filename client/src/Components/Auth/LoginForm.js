@@ -22,14 +22,13 @@ const LoginForm = () => {
 	const user = useContext(AuthContext)
 	const navigate = useNavigate()
 	useEffect(() => {
-		console.log(user)
 		if (user) {
 			navigate("/profile")
 		}
 	}, [user])
 	return (
 		<>
-			<Navbar />
+			<Navbar notsticky={true} />
 			<div className='loginForm overflow-x-hidden'>
 				<Container className='loginForm'>
 					<SignUp signIn={signIn} />
@@ -39,7 +38,7 @@ const LoginForm = () => {
 							<LeftOverlayPanel signingIn={signIn}>
 								<Title className='font-title'>Welcome Back Traveller!</Title>
 								<Paragraph>
-									Hop on in, the journey still awaits!
+									Hop on in, the journey awaits!
 								</Paragraph>
 								<GhostButton type='button' onClick={() => toggle(true)}>
 									Sign In

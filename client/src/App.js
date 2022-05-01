@@ -32,7 +32,6 @@ const ScrollToTop = (props) => {
   return <>{props.children}</>
 };
 function App() {
-  console.log(auth.currentUser)
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     const timer = setTimeout(() => setLoading(false), 2500);
