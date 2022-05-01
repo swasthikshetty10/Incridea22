@@ -101,7 +101,7 @@ const CoverVideo = () => {
     <VideoContainer>
       <DarkOverlay />
       <Title variants={container} initial="hidden" animate="show">
-        <div style={{"fontFamily":"CinzelDecorative-Regular"}}>
+        <div style={{ "fontFamily": "CinzelDecorative-Regular" }}>
           <motion.h1
             variants={item}
             data-scroll
@@ -116,7 +116,7 @@ const CoverVideo = () => {
             data-scroll-delay="0.16"
             data-scroll-speed="4"
           >
-           h
+            h
           </motion.h1>
           <motion.h1
             variants={item}
@@ -124,7 +124,7 @@ const CoverVideo = () => {
             data-scroll-delay="0.13"
             data-scroll-speed="4"
           >
-            e&nbsp;    
+            e&nbsp;
           </motion.h1>
           <motion.h1
             variants={item}
@@ -158,7 +158,7 @@ const CoverVideo = () => {
           >
             l&nbsp;
           </motion.h1>
-          
+
           <motion.h1
             variants={item}
             data-scroll
@@ -175,8 +175,8 @@ const CoverVideo = () => {
           >
             f
           </motion.h1>
-          </div>
-          <div>
+        </div>
+        <div>
           <motion.h1
             variants={item}
             data-scroll
@@ -243,12 +243,12 @@ const CoverVideo = () => {
           </motion.h1>
         </div>
         <motion.h2
-          style={{"fontFamily": "Playfair"}}
+          style={{ "fontFamily": "Playfair" }}
           variants={item}
           data-scroll
           data-scroll-delay="0.055"
           data-scroll-speed="2"
-          className={"text-[#9d7643]"}
+          className={"text-igold"}
         >
           Incridea over the years
         </motion.h2>

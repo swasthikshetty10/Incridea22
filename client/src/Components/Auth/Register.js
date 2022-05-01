@@ -55,7 +55,7 @@ function Register() {
     }, [user])
     const HandleSubmit = (value) => {
         const data = { email, ...value }
-        axios.post('http://143.110.253.237:8080/auth/register', data).then( //register user
+        axios.post('https://peaceful-river-11730.herokuapp.com/auth/register', data).then( //register user
             async (res) => {
                 console.log(data);
                 alert('login success') //TODO: for now
@@ -76,7 +76,7 @@ function Register() {
 
     useEffect(() => {
         setLoading(true)
-        axios.post(`http://143.110.253.237:8080/auth/verifyEmail`, { //Check if email verified and paid and not in participants
+        axios.post(`https://peaceful-river-11730.herokuapp.com/auth/verifyEmail`, { //Check if email verified and paid and not in participants
             email
         }).then((res => {
             setLoading(false)

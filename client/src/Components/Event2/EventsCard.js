@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import Modal from '../Event2/Modal';
 import { Fade } from "react-awesome-reveal";
@@ -7,10 +7,21 @@ function EventsCard({ name, src, desc, time, venue, day, branch, round, data }) 
 
     const [openModal, setModal] = useState(false);
 
+    useEffect(() => {
+        const handleEscapePress = (e) => {
+            if (e.key === 'Escape') {
+                setModal(false)
+            }
+        }
+        window.addEventListener('keydown', handleEscapePress)
+
+        return () => window.removeEventListener('keydown', handleEscapePress)
+    }, [])
+
     return (
         <>
             <Fade>
-                <div className="relative flex  flex-col mx-0 justify-center rounded-2xl shadow-md hover:shadow-lg  cursor-pointer transition-all ease-out  hover:-translate-y-1 hover:scale-103 duration-300    "  >
+                <div onClick={() => { setModal(true) }} className="relative flex  flex-col mx-0 justify-center rounded-2xl shadow-md hover:shadow-lg  cursor-pointer transition-all ease-out  hover:-translate-y-1 hover:scale-103 duration-300    "  >
                     <div className="relative flex  flex-col mx-0 justify-center rounded-2xl shadow-md hover:shadow-lg  cursor-pointer transition-all ease-out  hover:-translate-y-1 hover:scale-105 duration-300    " >
                         <div className="mx-auto flex w-60 h-72 flex-col pb-8 justify-start bg-[#1d1d1d]/50  rounded-none shadow-xl  ">
                             <img className="aspect-video rounded-t-none object-cover object-center" alt={name} src={src} />
@@ -18,7 +29,7 @@ function EventsCard({ name, src, desc, time, venue, day, branch, round, data }) 
                                 <div className='text-center pb-1'>
                                     <h1 className={`${name.length > 15 ? name.length > 20 ? "text-lg" : "text-xl" : "text-2xl "} text-center font-medium text-gray-100 `}>{name}</h1>
                                     <div className='text-center  text-sm text-gray-500'>
-                                        {round && `round ${round}`}
+                                        {round && `Round ${round}`}
                                     </div>
                                 </div>
 
@@ -31,8 +42,8 @@ function EventsCard({ name, src, desc, time, venue, day, branch, round, data }) 
                                                 : 'text-md'}`}>{venue}</span>
                                         </div>
                                         <div className='flex justify-center text-sm '>
-                                            <span className='inline-flex overflow-wrap  pr-2'>{day ? `1${parseInt(day) + 1}/05/2022` : "All day"}</span> <span className='font-extrabold text-[#9d7643]'>|</span>
-                                            <span className='inline-flex overflow-wrap  pl-2'> {time ? time : "NA"}</span>
+                                            <span className='inline-flex overflow-wrap  pr-2'>{day ? `1${parseInt(day) + 1}/05/2022` : "All day"}</span> <span className='font-extrabold text-igold'>|</span>
+                                            <span className='inline-flex overflow-wrap uppercase  pl-2'> {time?.replace('.', ":") || "NA"}</span>
                                         </div>
                                     </div>
 
@@ -45,7 +56,7 @@ function EventsCard({ name, src, desc, time, venue, day, branch, round, data }) 
 
                         </div>
                         <div className=' flex justify-center'>
-                            <button type="button" className="absolute bottom-[-1.75rem] font-semibold  text-[#9d7643] transition ease-in-out transition-duration-100  bg-[#000000] hover:bg-[#9d7643] backdrop-grayscale hover:text-white border-[#9d7643] border-2   rounded-none text-sm px-5 py-2.5 text-center w-fit m-auto   my-2" onClick={() => { setModal(true) }}  >Know More <BsFillArrowRightCircleFill className='inline mx-1' /> </button>
+                            <button type="button" className="absolute bottom-[-1.75rem] font-semibold  text-igold transition ease-in-out transition-duration-100  bg-[#000000] hover:bg-igold backdrop-grayscale hover:text-white border-igold border-2   rounded-none text-sm px-5 py-2.5 text-center w-fit m-auto   my-2" onClick={() => { setModal(true) }}  >Know More <BsFillArrowRightCircleFill className='inline mx-1' /> </button>
                         </div>
 
                     </div>

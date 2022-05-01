@@ -23,13 +23,13 @@ function Footer() {
             href="https://instagram.com/incridea"
             className="place-items-center text-white text-xl"
           >
-            <FaInstagram className="h-8 hover:text-[#9d7643]" />
+            <FaInstagram className="h-8 hover:text-igold" />
           </a>
           <a
             href="https://www.youtube.com/channel/UCjvGyATGpvX5dsfIUwEOt1g"
             className="place-items-center text-white  text-xl "
           >
-            <FaYoutube className="h-8 hover:text-[#9d7643]" />
+            <FaYoutube className="h-8 hover:text-igold" />
           </a>
         </div>
         {/* <ul className="flex flex-wrap  items-center mt-3 justify-center text-sm text-gray-500 dark:text-gray-400 sm:mt-0">

@@ -4,13 +4,11 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import "./index.css";
-import Footer from "./Components/Footer";
 
 ReactDOM.render(
   <BrowserRouter>
     <React.StrictMode>
       <App />
-      {/* <Footer /> */}
     </React.StrictMode>
   </BrowserRouter>,
   document.getElementById("root")
