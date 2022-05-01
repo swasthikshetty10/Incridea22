@@ -24,6 +24,9 @@ import UserInput from './Components/Auth/UserInput';
 import { AuthProvider } from './Context/AuthContext'
 import { auth } from "./firebaseConfig";
 import Profile from "./Components/Profile"
+
+
+
 const ScrollToTop = (props) => {
   const location = useLocation();
   useEffect(() => {
@@ -60,12 +63,6 @@ function App() {
               <Route exact path='/register/:email' element={<Register />} />
               <Route path="*" element={<Navigate to="/" replace />} />
               <Route exact path='/profile' element={<Profile />} />
-
-
-
-              
-
-
             </Routes>
             <Footer />
           </ScrollToTop>

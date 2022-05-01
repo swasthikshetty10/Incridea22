@@ -55,7 +55,7 @@ function Details() {
 
     return (
         <>
-            <div className="flex overflow-hidden py-4 flex-col justify-center  p-0 bg-gray-900/30 ">
+            <div className="flex overflow-hidden  flex-col justify-center  py-8 bg-gray-900/30 ">
                 <div className="flex flex-col-reverse items-center justify-evenly  px-4 py-8 md:flex-row  w-[90vw] md:w-[70vw] m-auto ">
 
                     <div className=" text-white font-body flex flex-col  justify-between text-left px-2 py-4 leading-normal">
@@ -80,7 +80,7 @@ function Details() {
 
 
                 </div>
-                <div className="flex justify-center gap-x-5 ">
+                <div className="flex justify-center pb-10 gap-x-5 ">
 
                     <button type="button" className=" text-lg  font-semibold  text-[#9d7643] transition ease-in-out transition-duration-100  bg-[#000000] hover:bg-[#9d7643] backdrop-grayscale hover:text-white border-[#9d7643] border-2   rounded-none  px-3 py-2.5 text-center w-fit  my-2" onClick={() => {
                         handleClick(
