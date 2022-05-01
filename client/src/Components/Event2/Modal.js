@@ -1,9 +1,6 @@
 import React from 'react'
-import { useState } from 'react';
-import "bootstrap-icons/font/bootstrap-icons.css";
-import { BsFillCalendar3RangeFill, BsFillArrowRightCircleFill } from "react-icons/bs";
+import { BsFillCalendar3RangeFill, } from "react-icons/bs";
 import { FaBuilding } from "react-icons/fa";
-// import { ImCross } from "react-icons/im";
 import { GoLocation } from "react-icons/go";
 import { IoIosArrowBack } from "react-icons/io";
 import { BiTimeFive } from "react-icons/bi";

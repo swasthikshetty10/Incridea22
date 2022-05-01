@@ -64,8 +64,7 @@ function App() {
 
 
 
-              {/* temporary route */}
-              <Route exact path="/details" element={<Details />} />
+              
 
 
             </Routes>
