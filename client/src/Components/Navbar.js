@@ -34,15 +34,15 @@ function Navbar({ tab, sticky }) {
           <Link to="/" className="flex items-center">
             <img src={logo} className="mx-3 h-9 md:h-16" alt="Incridea Logo" />
           </Link>
-          <div className="flex md:hidden">
+          <div className="flex md:hidden" style={{fontFamily: 'Cinzel'}}>
             {!(user && tab === "profile") ? <Link
 
               to={user ? "/profile" : "/login"}
-              className={`block md:hidden border-2 border-igold p-2 text-sm font-nav font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633] md:border-0 md:hover:text-white text-igold`}
+              className={`block md:hidden border-2 border-igold p-2 text-sm font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633] md:border-0 md:hover:text-white text-igold`}
             >
               {user ? "Profile" : "Login/Register"}
             </Link> : <Logout
-              className={`block md:hidden border-2 border-igold p-2 text-sm font-nav font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633] md:border-0 md:hover:text-white text-igold`}
+              className={`block md:hidden border-2 border-igold p-2 text-sm font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633] md:border-0 md:hover:text-white text-igold`}
 
             />}
             <button

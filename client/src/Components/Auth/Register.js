@@ -103,8 +103,8 @@ function Register() {
             <Loader fixed="fixed  " animate={true} />
         </> :
             <Container className='pb-36 lg:pb-5 font-body loginForm'>
-                <div className='bg-black text-center p-6 md:p-10 text-white w-full'>
-                    <h1 className="py-3 font-semibold text-2xl font-title ">Hello {email} <br></br> One Last Step To Take Off!</h1>
+                <div className='bg-igold text-center p-6 md:p-10 text-white w-full'>
+                    <h1 className="py-3 font-semibold text-2xl font-title "><span className='text-3xl mb-1'>Hello {email}</span> <br></br> One Last Step To Take Off!</h1>
                 </div>
                 <Formik
                     initialValues={initialValues}
@@ -115,7 +115,7 @@ function Register() {
                         return (
                             <ForgotContainer>
                                 <Form className='formBox'>
-                                    <Title className=''>Enter Your Details Carefully</Title>
+                                    <Title className='font-title'>Enter Your Details Carefully</Title>
                                     <InputField placeholder='Name' name='name' type='text' />
                                     <InputField
                                         name='phNo'
@@ -124,7 +124,7 @@ function Register() {
                                     />
 
 
-                                    <InputField name='usn' type='tel' placeholder='USN' />
+                                    <InputField name='usn' type='tel' placeholder='University Student Number' />
                                     <InputField
                                         name='password'
                                         type='password'
@@ -134,8 +134,9 @@ function Register() {
                                         name='confirmPassword'
                                         type='password'
                                         placeholder='Confirm Password'
+                                        className='mb-2'
                                     />
-                                    <Button className={`inline-flex gap-3 ${loading ? "bg-opacity-50" : ""}`} disabled={req} type='submit'>
+                                    <Button className={`inline-flex gap-3 mt-2 ${loading ? "bg-opacity-50" : ""}`} disabled={req} type='submit'>
                                         {req ? <> <AiOutlineLoading3Quarters className=" animate-spin text-lg " /> <span className=''>Registering...</span></> : 'Register'}
                                     </Button>
                                     {/* TODO: Add loading animation */}
