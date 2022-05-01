@@ -177,7 +177,7 @@ export const eventData = [
 
         },
 
-        "designcriteria": ["Dimensions of the bot: 60cm x 60 cmx 60 cm (5% tolerance on each dimension)",
+        "botSpecifications": ["Dimensions of the bot: 60cm x 60 cmx 60 cm (5% tolerance on each dimension)",
             "Weight: 45kg(10 % tolerance)",
             "Attack mechanisms are not allowed. However, ONLY lifting mechanisms are allowed",
             "Communication: Wired or wireless(Techniques found to be interfering with the opponent's communication will result in DISQUALIFICATION)",
@@ -208,10 +208,8 @@ export const eventData = [
 
         ],
 
-        "teamregulations": [
-            "Member limit in a team:",
-            "Min: 2 members",
-            "Max: 6 members",
+        "teamRegulations": [
+            "Teams of 2-6 members",
             "Only students from the same college can form a team",
             "Only Students currently pursuing Undergradua te engineering degree are allowed",
             "Multiple number of teams from same college are allowed",
@@ -3686,13 +3684,7 @@ export const eventData = [
         },
 
         "rules": [
-            "ROBOT Specification:",
-            "The robot's dimensions should not exceed 30cm X 25cm X 25cm (lxbxh).",
-            "The weight of the bot should not exceed 3kgs .However, a tolerance of 5 % is acceptable.",
-            "The robot can be powered on board or off the board.",
-            "The potential difference between any two electrical points on the robot must not exceed more than 24 volts throughout the run.",
             "The coordinators will not be responsible for any kind of electromagnetic interference in wireless communication.",
-
             "Only students from the same college can form a team.",
             "You must present your college ID and PIO while registering.",
             "An individual cannot be a member of more than one team.",
@@ -3711,6 +3703,13 @@ export const eventData = [
             "Team limit: 4 members",
             "The final decision lies in the hands of the coordinator. Coordinator reserves the right to change the rounds and the rules on the day of the event.",
             "If the participant misbehaves or does not obey the rules and regulation of the event the coordinators have the right to disqualify the participants.",
+        ],
+
+        "botSpecifications" : [
+            "The robot's dimensions should not exceed 30cm X 25cm X 25cm (lxbxh).",
+            "The weight of the bot should not exceed 3kgs .However, a tolerance of 5 % is acceptable.",
+            "The robot can be powered on board or off the board.",
+            "The potential difference between any two electrical points on the robot must not exceed more than 24 volts throughout the run.",
         ],
 
         "contactDetails": [
@@ -4598,24 +4597,29 @@ export const eventData = [
             "In case of a draw, an extra time of two minutes will be given",
         ],
 
-        "botspecifications": ["Bots can be wired or wireless",
+        "botSpecifications": ["Bots can be wired or wireless",
             "Wireless bots should have a minimum range of 12 feet",
             "Wires must be sufficient enough to reach all corners of the arena",
             "The p otent ia l difference between any two electrical points on the robot must not exceed more than 12 volts throughout the run"],
 
-        "botdimensions:": [
+        "botDimensions:": [
             "Length <= 30 cm",
             "Breadth <= 30 cm",
             "Height <= 30 cm(5 % to leranc e al lo wed on length, breadth and height)",
             "Weight: 5 kg(Tolerance of 10 %)"],
 
-        "arenaspecifications": [
+        "arenaSpecifications": [
             "Arena Dimensions are 8 feet by 4 feet",
             "The arena will have walled boundaries",
             "The ball used in the game will be a tennis ball"],
 
 
-        "details": [
+        "rules": [
+            "Maximum of 4 members and minimum of 2 members per team",
+            "Members of the team must belong to the same institut ion.",
+            "Students from different colleges cannot form a team",
+            "A maximum of 3 t eams are allowed from each college(does not apply to home college)",
+            "The students must carry valid student ID cards of their college which they will be required to produce at the time of registration",
             "The soccer bot can only transform to its size at the begin ning.",
             "It cannot divide later into multiple parts",
             "Once the weight of the bot is finalized no mo difica tions in the weight will be allowed",
@@ -4649,16 +4653,6 @@ export const eventData = [
 
 
         ],
-        "rules": [
-            "Maximum of 4 members and minimum of 2 members per team",
-            "Members of the team must belong to the same institut ion.",
-            "Students from different colleges cannot form a team",
-            "A maximum of 3 t eams are allowed from each college(does not apply to home college)",
-            "The students must carry valid student ID cards of their college which they will be required to produce at the time of registration",
-
-
-        ],
-
         "judgingCriteria": [
             "For each goal scored by a team, 4 points will be awarded",
             "If the bot damages the arena, the ball, or the opponent bot(major damage), 2 points will be deducted",

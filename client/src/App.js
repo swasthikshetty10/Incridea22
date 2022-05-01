@@ -10,7 +10,6 @@ import Team from "./Components/Team/index";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
-import { ChakraProvider } from '@chakra-ui/react';
 import Footer from './Components/Footer';
 import Pronite from "./Components/Pronite";
 import TechTeam from "./Components/TechTeam"
@@ -38,7 +37,6 @@ function App() {
     };
   }, []);
   return (loading ? <Loader animate={true} /> : (
-    <ChakraProvider>
       <div className="App">
         <ScrollToTop>
 
@@ -56,7 +54,6 @@ function App() {
           <Footer />
         </ScrollToTop>
       </div>
-    </ChakraProvider>
   ));
 
 }

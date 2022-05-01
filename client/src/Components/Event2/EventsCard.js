@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import Modal from '../Event2/Modal';
 import { Fade } from "react-awesome-reveal";
@@ -6,6 +6,17 @@ import { Fade } from "react-awesome-reveal";
 function EventsCard({ name, src, desc, time, venue, day, branch, round, data }) {
 
     const [openModal, setModal] = useState(false);
+
+    useEffect(() => {
+        const handleEscapePress = (e) => {
+          if (e.key === 'Escape') {
+            setModal(false)
+          }
+        }
+        window.addEventListener('keydown', handleEscapePress)
+
+        return () => window.removeEventListener('keydown', handleEscapePress)
+      }, [])
 
     return (
         <>

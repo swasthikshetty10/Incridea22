@@ -24,6 +24,8 @@ function Event2() {
     );
   }, [query, day, branch]);
 
+
+
   // const Cell = ({ toggle, name, height, description, css, maximized }) => <></>;
 
   return (

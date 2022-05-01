@@ -6,7 +6,6 @@ import Counter from "./Counter";
 import { Slide, Fade } from 'react-awesome-reveal'
 import { AiOutlineDownload } from 'react-icons/ai'
 import schedule from '../../Assets/schedule.xlsx'
-import rulebook from '../../Assets/rulebook.pdf'
 // import cloud from './cloud1.png'
 import chakra from './chakra.png'
 import { Link } from "react-router-dom";
@@ -87,7 +86,7 @@ function Home() {
       </div>
       <div direction="up" delay={500}>
         <div style={{ fontFamily: "CinzelDecorative-Bold" }} className=" p-10 bg-opacity-20 backdrop-blur-lg text-white  bg-gray-900 flex flex-col gap-4 md:gap-10 md:flex-row justify-center text-center items-stretch md:items-center">
-            <a href={rulebook} download={'Incridea 22 Rulebook.pdf'} target="_blank" rel="noreferrer" className=" px-4 py-2 md:px-5 md:py-3 inline-flex items-center gap-2 font-bold text-[#9d7643] transition-colors ease-out transition-duration-50 text-xl hover:bg-[#9d7643] hover:text-white border-[#9d7643] border-2 items-center justify-center">
+            <a href={"https://drive.google.com/file/d/1LE77p-mbwct-fWMzIKQuIzg2_6jF4NZh/view?usp=sharing"} download={'Incridea 22 Rulebook.pdf'} target="_blank" rel="noreferrer" className=" px-4 py-2 md:px-5 md:py-3 inline-flex items-center gap-2 font-bold text-[#9d7643] transition-colors ease-out transition-duration-50 text-xl hover:bg-[#9d7643] hover:text-white border-[#9d7643] border-2 items-center justify-center">
             Download Rulebook <AiOutlineDownload className="text-2xl" />
             </a>
             <a href={schedule} download={"Incridea 22 Schedule.xlsx"} target="_blank" rel="noreferrer" className=" px-3 py-2 md:px-5 md:py-3 inline-flex items-center gap-2 font-bold text-[#9d7643] transition-colors ease-in transition-duration-50 text-xl hover:bg-[#9d7643] hover:text-white border-[#9d7643] border-2 items-center justify-center">
