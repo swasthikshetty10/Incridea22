@@ -63,7 +63,7 @@ const pathVariants = {
   },
 };
 
-const Loader = ({ animate }) => {
+const Loader = ({ animate, fixed }) => {
   return (
     <Container
       initial={{
@@ -81,7 +81,7 @@ const Loader = ({ animate }) => {
 
       {/* <img src = {logo} alt="Incredia"/> */}
 
-      <svg className={animate ? "animate-pulse transition ease-in-out  " : " "} version="1.0" xmlns="http://www.w3.org/2000/svg"
+      <svg className={animate ? "animate-pulse transition ease-in-out  " + fixed : " "} version="1.0" xmlns="http://www.w3.org/2000/svg"
         width="2480.000000pt" height="997.000000pt" viewBox="0 0 2480.000000 997.000000"
         preserveAspectRatio="xMidYMid meet">
 

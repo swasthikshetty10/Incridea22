@@ -18,7 +18,7 @@ const InputField = ({ placeholder, ...props }) => {
 			<ErrorMessage
 				component='div'
 				name={field.name}
-				className='invalid-feedback'
+				className='text-red-500 invalid-feedback'
 			/>
 		</>
 	);

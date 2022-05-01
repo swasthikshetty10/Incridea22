@@ -146,13 +146,10 @@ const SignUp = ({ signIn }) => {
                   {!otpVerified && valid && (
                     <div className=''>
                       <InputField onChange={(e) => {
-                        let c = e.target.value[e.target.value.length - 1]
-                        if(!e.target.value)
-                        formik.setFieldValue('otp', '');
-                        if (e.target.value.length > 6 ||  !(c >= '0' && c <= '9'))
+                        if (e.target.value.length > 6)
                           return;
                         formik.setFieldValue('otp', e.target.value);
-                      }} name='otp' className='text-center' placeholder='OTP' />
+                      }} name='otp' type='tel' className='text-center' placeholder='OTP' />
                       <Button onClick={clearMsg} className={` inline-flex items-center justify-center gap-3  ${loading ? "opacity-90" : "opacity-100"}`} disabled={loading}>
                         {loading ? <> <AiOutlineLoading3Quarters className=" animate-spin text-lg " /> <span className=''>Verifying...</span></> : 'Verify'}
                       </Button>
@@ -163,12 +160,12 @@ const SignUp = ({ signIn }) => {
                   <span className="text-center mt-2" ref={successSpan}></span>
                   {
                     valid && !otpVerified && <>
-                      <p>Having trouble? <button onClick={() => {
+                      <p className='text-white '>Having trouble? <button onClick={() => {
                         clearMsg()
                         SetValid(false); setEmailSent(false)
                         clearMsg();
 
-                      }} className='inline underline text-blue-800'>Resend OTP</button></p>
+                      }} className='inline underline text-igold'>Resend OTP</button></p>
 
                     </>
                   }
