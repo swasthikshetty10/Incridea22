@@ -22,7 +22,7 @@ function Payment(props) {
 				"currency": data.currency,
 				"name": "Incridea Registration", //Change this stuff
 				"description": "Test Transaction",
-				"image": "https://www.nme.com/wp-content/uploads/2021/07/RickAstley2021.jpg",
+				"image": "https://incridea.in/static/media/logo.a7730a296d5fdd7a7cdd.png",
 				"order_id": data.id,
 				"handler": async function (response) {
 					//TODO: EVERYTHING IN COMMENTS

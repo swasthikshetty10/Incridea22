@@ -2,15 +2,11 @@ import React, { useEffect } from 'react'
 import { useParams } from "react-router";
 import { Formik, Form } from 'formik';
 import * as Yup from 'yup';
-import { Container } from './StyledComponentsLogin';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { AiOutlineLoading3Quarters } from 'react-icons/ai';
 
 import {
     Button,
-    Div,
-    ForgotContainer,
-    Title,
 } from './StyledComponentsLogin';
 
 
