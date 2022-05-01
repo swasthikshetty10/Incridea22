@@ -48,7 +48,7 @@ export const persons = [
     insta: "https://instagram.com/dhanish_s_suvarna"
   },
   {
-    name: "Thanmay Das",
+    name: "Thanmay M Das",
     role: "Front-End Development",
     img: "/techteam/tanmay.jpeg",
     mob: "8431439127",

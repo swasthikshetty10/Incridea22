@@ -17,11 +17,11 @@ function Payment(props) {
 			})
 			const { data } = response
 			const options = {
-				"key": "rzp_test_bynOTu5GLqYyx5", // Change during production or use document.domain
+				"key": "rzp_live_oC59fGEg79wjse", // Change during production or use document.domain
 				"amount": data.amount.toString(),
 				"currency": data.currency,
 				"name": "Incridea Registration", //Change this stuff
-				"description": "Test Transaction",
+				"description": "Incridea 2022 Participant Registration",
 				"image": "https://incridea.in/static/media/logo.a7730a296d5fdd7a7cdd.png",
 				"order_id": data.id,
 				"handler": async function (response) {
@@ -45,7 +45,7 @@ function Payment(props) {
 					"email": `${props.email}`,
 				},
 				"theme": {
-					"color": "#3399cc"
+					"color": "#9d7643"
 				}
 			};
 

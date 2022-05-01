@@ -18,7 +18,7 @@ function Profile() {
   return (
     <div className="overflow-x-hidden" >
       <Navbar tab="profile" />
-      <div className="text-lg mb-0 lg:w-screen w-[100vw] bg-[#000]  flex flex-col items-center justify-center">
+      <div className="text-lg mb-0 lg:w-screen w-[100vw] bg-[#000] flex flex-col items-center justify-center">
       <Details user={user}/>
       </div>
     </div>

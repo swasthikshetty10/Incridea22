@@ -41,7 +41,7 @@ const ForgotPass = () => {
 				return (
 					<ForgotContainer style={{overflowX:'hidden'}} className='overflow-x-hidden'>
 						<Form className='formBox'>
-							<Title>Forgot Password</Title>
+							<Title className='font-title'>Forgot Password</Title>
 							<InputField name='mail' type='text' placeholder='Email' />
 							{res.text && <p className={`text-${res.color}`}>{res.text}</p>}
 							<Button className='inline-flex gap-2 my-2' type='submit'>

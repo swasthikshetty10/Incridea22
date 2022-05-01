@@ -104,13 +104,13 @@ export const persons = [
   },
   {
     name: "PRAVEEN DEVADIGA",
-    role: "",
+    role: "ADVISER",
     img: "/team/Praveen.png", email: "rithesh13bekal@gmail.com", mob: "9663094655",
   },
   {
     name: "PREM DEVADIGA",
-    role: "",
-    img: "/team/Prem.png", email: "rithesh13bekal@gmail.com", mob: "9663094655",
+    role: "ADVISER",
+    img: "/team/Prem.png", email: "rithesh13bekal@gmail.com", mob: "8197883206",
   },
 
 ];

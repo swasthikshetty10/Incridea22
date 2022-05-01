@@ -108,7 +108,7 @@ function Register() {
                                     />
 
 
-                                    <InputField name='usn' type='tel' placeholder='University Student Number' />
+                                    <InputField name='usn' type='text' placeholder='University Student Number' />
                                     <InputField
                                         name='password'
                                         type='password'

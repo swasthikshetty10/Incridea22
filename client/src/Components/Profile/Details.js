@@ -11,22 +11,22 @@ function Details({user}) {
 
     const [src, setSrc] = useState("");
 
-    useEffect(() => {
-        QRCode.toDataURL(participant.pId).then((data) => {
-            setSrc(data);
-        });
-    }, [user]);
-
 
     const [participant, setParticipant] = useState({});
     useEffect(() => {
-        getUserInfo(user.uid)
-            .then((participant) => {
-                setParticipant(participant);
-            })
-            .catch((e) => {
-            });
-    }, [participant.id]);
+        if(user) {
+
+            getUserInfo(user.uid)
+                .then((participant) => {
+                    setParticipant(participant);
+                    QRCode.toDataURL(participant.pId + '').then((data) => {
+                        setSrc(data);
+                    });
+                })
+                .catch((e) => {
+                });
+        }
+    }, [participant.id, user]);
 
     const handleClick = (url, filename) => {
         axios
