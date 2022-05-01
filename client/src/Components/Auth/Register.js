@@ -3,7 +3,6 @@ import { useParams } from "react-router";
 import { Formik, Form } from 'formik';
 import * as Yup from 'yup';
 import { Container } from './StyledComponentsLogin';
-import { exportAuth } from '../../firebaseConfig';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { AiOutlineLoading3Quarters } from 'react-icons/ai';
 
