@@ -667,13 +667,13 @@ export const eventData = [
         "name": "BHAJAN",
         "day": "2",
         "Time": "9:30 am",
-        "venue": "Temple ",
+        "venue": "Temple",
         "branch": "EEE",
         "image": "/events/EE/BHAJAN.png",
         "smallDesc": "Come entice the audience and enable them to feel closer to the Almighty, in the soothing Bhajan competition.",
         "fullDesc": "'I'll be singing hymns to the rafters, be praising his goodness so loud they're going to have to turn down the volume in Heaven, God loves to hear you. sing, so sing.' Come entice the audience and enable them to feel closer to the Almighty, in the soothing Bhajan competition.",
 
-        "rules": [" Every team must consist of 5 to 8 members A Bhajan can be sung with or without Indian musical instruments",
+        "rules": ["Every team must consist of 5 to 8 members. A Bhajan can be sung with or without Indian musical instruments",
             "A person can participate only in one team, if found participating in more than one team, it will lead to the disqualification of both the teams",
             "The duration must be 10 to 15 minutes",
             "A maximum of five microphones will be provided to each team",
@@ -706,7 +706,7 @@ export const eventData = [
         "smallDesc": "'The artist sees what other catch only a glimpse of', said the great Da Vinci. Come, bring your strokes alive on the canvas to create a masterpiece!",
         "fullDesc": "In this single round event, participants will be given a topic on the spot. Pencil sketch and painting are to be submitted to the organizers within the given time.",
 
-        "rules": ["Any number of entries from a college are permitted", " Solo entries only", "Topics will be gives on-spot", "Participants must get their own materials", "Sheets will be provided by the organizers", "Oil, water or poster colours (only for paintings) are permitted", "The decision of the judges is final and irrevocable"],
+        "rules": ["Any number of entries from a college are permitted", " Solo entries only", "Topics will be given on-spot", "Participants must get their own materials", "Sheets will be provided by the organizers", "Oil, water or poster colours (only for paintings) are permitted", "The decision of the judges is final and irrevocable"],
         "judgingCriteria": ["Creativity", "Skills and overall presentation", "Implementation of the topic"],
         "contactDetails": [
             {
@@ -732,13 +732,13 @@ export const eventData = [
         "branch": "ISE",
         "image": "/events/IS/DESAFIO.jpeg",
         "smallDesc": "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? ",
-        "fullDesc": "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? Desafio is an event which checks your FITNESS level by having various rounds.The tasks would not be mentioned precisely as it would be best if kept a surprise",
+        "fullDesc": "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? Desafio is an event which checks your FITNESS level by having various rounds. The tasks would not be mentioned precisely as it would be best if kept a surprise",
         "roundDetails": {
-            "round1": ["This is an mass elimination round depending on the registrations and we will have mass elimination considering their fitness levels. If there are less registrations, then the Round 1 will not be conducted."],
-            "round2": ["This round is to shortlist contestants to the FINAL SHOWDOWN.", "Groups of 4 will be made randomly which will be done by the organizers.", "The participants who played good enough will be selected. They are judges individually.", " It is purely based on the physical task which should be performed the given time. within the given time", "Task will be given to each one of the team member, The first one should complete his/her task and pass it on to the second member and it goes same till the final 4th member of the team.", "Number of groups depends on the registrations."],
+            "round1": ["This is a mass elimination round depending on the registrations and we will have mass elimination considering their fitness levels. If there are less registrations, then the Round 1 will not be conducted."],
+            "round2": ["This round is to shortlist contestants to the FINAL SHOWDOWN.", "Groups of 4 will be made randomly which will be done by the organizers.", "The participants who played good enough will be selected. They are judges individually.", " It is purely based on the physical task which should be performed within the given time", "Task will be given to each one of the team member, The first one should complete his/her task and pass it on to the second member and it goes same till the final 4th member of the team.", "Number of groups depends on the registrations."],
             "round3": ["The final round will be an intense fitness course which will decide who the WINNER is.", "8-10 contestants will be selected to the finals. Each of them will do the same course.", "It is Purely based on an intense task which should be performed within the given time also with a good form.", "The Participant who successfully completes the course with minimum time will be the WINNER."]
         },
-        "rules": [" All materials for the different rounds will be given by the organizers.", "No usage of cell phones or any other electronic devices until told otherwise.", "The decision taken by the judges and the organizers is final."],
+        "rules": ["All materials for the different rounds will be given by the organizers.", "No usage of cell phones or any other electronic devices until told otherwise.", "The decision taken by the judges and the organizers is final."],
         "contactDetails": [
             {
                 "name": "Sinan Mohamed",
