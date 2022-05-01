@@ -85,6 +85,7 @@ export const eventData = [
 
 
 
+
         "contactDetails": [
             {
                 "name": "Deekshitha Shetty",
@@ -117,7 +118,7 @@ export const eventData = [
         "branch": "CORE",
         "image": "/events/CORE/navarasa.png",
         "smallDesc": "A drama competition open to teams from all universities. Through this, we wish to provide a platform for all budding playwrights, theatre artists, and art patrons to entertain theatre lovers.",
-        "fullDesc": "Sanskrit  literature has a profound saying which goes, \"Kavyeshu  Natakam Ramyam\" : Drama is the finest form of poetry. 'Drama' is a metaphorical amalgamation of visual, auditory, material, and nuances of character.",
+        "fullDesc": "Sanskrit literature has a profound saying which goes, \"Kavyeshu Natakam Ramyam\" : Drama is the finest form of poetry. 'Drama' is a metaphorical amalgamation of visual, auditory, material, and nuances of character.",
 
         "rules": [
             "Round 1 - Online Screening Round :",
@@ -166,7 +167,7 @@ export const eventData = [
         "branch": "CORE",
         "image": "/events/CORE/robowars.png",
         "smallDesc": "Are you passionate about Bots? Or you just like to watch things get crushed? ",
-        "fullDesc": "War does not determine who is right, only who is left.The path to glory passes through the alley of destruction, let hall combats, violent bots, and flying blades! Merge your technical know- how with the ferocious gladiator in you! Make your bot fight for the ultimate glory or land up in the junkyard! Fight smart, be patient and pray; for Robo - Wars just got crazier in its new avatar!",
+        "fullDesc": "War does not determine who is right, only who is left. The path to glory passes through the alley of destruction, let hall combats, violent bots, and flying blades! Merge your technical know- how with the ferocious gladiator in you! Make your bot fight for the ultimate glory or land up in the junkyard! Fight smart, be patient and pray; for Robo - Wars just got crazier in its new avatar!",
         "eventDetails": {
 
             "event": [
@@ -197,7 +198,7 @@ export const eventData = [
             "The maximum time limit for the clash of combatants inside the arena is 10 minutes",
             "A bot will be declared immobile(out) if it cannot exhibit a linear motion of at least one inch within 20 seconds.A bot with one side of its drive train disabled will not be counted out if it can demonstrate some degree of controlled movement",
             "Teams that arenot ready when called for battle will be considered to have declared a walkover and will receive no points",
-            "The bot cannot be split into two sub - units.Two distinct parts connected by a flexible cable will be considered separate units",
+            "The bot cannot be split into two sub - units. Two distinct parts connected by a flexible cable will be considered separate units",
             "Damaging the arena will lead to negative points depending on the degree of damage.",
             "A bot should not violate the specified design criteria",
             "Teams should follow safety rules. Failing to do so will cause direct disqualification",
@@ -245,7 +246,7 @@ export const eventData = [
 
     {
         "name": "STOMP THAT",
-      
+
         "day": "2",
         "Time": "9:00 am",
         "venue": "SADANANDA",
@@ -310,7 +311,7 @@ export const eventData = [
         "venue": "Online",
         "branch": "CORE",
         "image": "/events/CORE/vibe.png",
-        "smallDesc": "The battleground is set, the lights are lit,and it's time for all you dancers to fire up the dance floor with your moves to the unpredictable tunes.",
+        "smallDesc": "The battleground is set, the lights are lit, and it's time for all you dancers to fire up the dance floor with your moves to the unpredictable tunes.",
         "fullDesc": "Come join the battle of dance and ignite your dancing flame! Vibe hai toh hype hai",
         "roundDetails": {
 
@@ -386,7 +387,7 @@ export const eventData = [
         "venue": "SAC OAT",
         "branch": "CORE",
         "image": "/events/CORE/vibe.png",
-        "smallDesc": "The battleground is set, the lights are lit,and it's time for all you dancers to fire up the dance floor with your moves to the unpredictable tunes.",
+        "smallDesc": "The battleground is set, the lights are lit, and it's time for all you dancers to fire up the dance floor with your moves to the unpredictable tunes.",
         "fullDesc": "Come join the battle of dance and ignite your dancing flame! Vibe hai toh hype hai",
         "roundDetails": {
 
@@ -425,7 +426,7 @@ export const eventData = [
 
         "rules": [
             "Judges' decision will be final",
-            "Any form of vulgarity will lead to immediate disqualific ation",
+            "Any form of vulgarity will lead to immediate disqualification",
             "The use of fire, powder, water or animals is strictly prohibited",
 
         ],
@@ -448,8 +449,6 @@ export const eventData = [
                 "phoneNumber": "+ 917975310793",
                 "emailID": "manasrai9611@gmail.com",
             }
-
-
 
         ]
 
@@ -538,12 +537,12 @@ export const eventData = [
     {
         "name": "AUTO EXPO",
         "day": "4",
-        "Time": "9am",
+        "Time": "9:00 am",
         "venue": "Sadananda Ground",
         "branch": "CORE",
         "image": "/events/CORE/AutoExpo.png",
-        "smallDesc": "Incridea with Yamuna Asha City proudly brings to you Auto Expo 2022: A showcase of the country's most exclusive automobiles.This May 15th we have the biggest line up of automobiles ranging from luxury cars to sports vehicles and much, much more. So all the petrol heads in the house, it's time to get turbocharged because what you're going to witness in this year's Auto Expo, is just out of the world!",
-        "fullDesc": "Incridea with Yamuna Asha City proudly brings to you Auto Expo 2022: A showcase of the country's most exclusive automobiles.This May 15th we have the biggest line up of automobiles ranging from luxury cars to sports vehicles and much, much more. So all the petrol heads in the house, it's time to get turbocharged because what you're going to witness in this year's Auto Expo, is just out of the world!",
+        "smallDesc": "Incridea with Yamuna Asha City proudly brings to you Auto Expo 2022: A showcase of the country's most exclusive automobiles. This May 15th we have the biggest line up of automobiles ranging from luxury cars to sports vehicles and much, much more. So all the petrol heads in the house, it's time to get turbocharged because what you're going to witness in this year's Auto Expo, is just out of the world!",
+        "fullDesc": "Incridea with Yamuna Asha City proudly brings to you Auto Expo 2022: A showcase of the country's most exclusive automobiles. This May 15th we have the biggest line up of automobiles ranging from luxury cars to sports vehicles and much, much more. So all the petrol heads in the house, it's time to get turbocharged because what you're going to witness in this year's Auto Expo, is just out of the world!",
 
         "contactDetails": [
             {
@@ -562,7 +561,7 @@ export const eventData = [
         "name": "BATTLE OF BANDS",
         "day": "3",
         "Time": "5.30pm",
-        "venue": "Sadananda",
+        "venue": "SADANANDA",
         "branch": "CORE",
         "image": "/events/CORE/BoB.jpg",
         "smallDesc": "A golden opportunity awaits all the tremendous bands in Karnataka to win the ultimate showdown - BATTLE OF THE BANDS.",
@@ -570,18 +569,19 @@ export const eventData = [
         "rules": [
             "The Bands will be selected for the competition based on the videos provided.",
             "A Band can have a maximum of 10 members on stage with minimum of 1 drummer and 1 guitarist.",
-            "Genres like Rock, Meta l and Fusion are p referred. However, there is no restriction for other genres.",
-            "Each team is allotted 5 minutes for sound- check and 15 minutes for the performance.",
+            "Genres like Rock, Metal and Fusion are preferred. However, there is no restriction for other genres.",
+            "Each team is allotted 5 minutes for sound-check and 15 minutes for the performance.",
             "Exceeding the 20 minutes will earn drastic negative points",
             "Judgment criterion is based on Musical quality, Technical Merit, Band synchronization, Stage Presence and overall performance.",
             "Bonus marks are awarded for original composition, musical complexity and theme integration.",
             "Organizers hold the right to disqualify any band at their discretion without prior notice.",
             "Decision of the organizers in any circumstances will be final.",
-            "Any vulgarity will lead to disqualific ation.",
-            "Results of this event won't be considered for Winner and Runners Tro phy of the fest.",
+            "Any vulgarity will lead to disqualification.",
+            "Results of this event won't be considered for Winner and Runners Trophy of the fest.",
             "Last day to submit entries will be 10th May 2022",
-            "In case of any technical fault, timersshall be reset, and the p articipant will be allowed to perform from the beginning."
+            "In case of any technical fault, timer shall be reset, and the participant will be allowed to perform from the beginning."
         ],
+
         "contactDetails": [
             {
                 "name": "Vijeth Ullal",
@@ -602,15 +602,15 @@ export const eventData = [
         "name": "BETTER BE LETTER",
         "round": "1 & 2",
         "day": "1",
-        "Time": "11 am",
+        "Time": "11:00 am",
         "venue": "NC21",
         "branch": "BTE",
         "image": "/events/BT/BetterBeLetter.png",
         "smallDesc": "If you want to improve your grammar skills then it's time to ditch all the books and podcasts and play some word games instead.",
         "fullDesc": "If you want to improve your grammar skills then it's time to ditch all the books and podcasts and play some word games instead.",
         "roundDetails": {
-            "round1": ["Aptitude round A quiz to clear for qualification to the next successive round."],
-            "round2": ["A fun game for a player to have their partners guess the word on the player's card without using that word."],
+            "round1": ["Aptitude round - A quiz to clear for qualification to the next successive round."],
+            "round2": ["Taboo round - A fun game for a player to have their partners guess the word on the player's card without using that word."],
             "round3": ["Spell bee"]
         },
 
@@ -636,14 +636,14 @@ export const eventData = [
         "round": "3",
         "day": "2",
         "Time": "9:30 am",
-        "venue": "Phalguni ",
+        "venue": "PHALGUNI",
         "branch": "BTE",
         "image": "/events/BT/BetterBeLetter.png",
         "smallDesc": "If you want to improve your grammar skills then it's time to ditch all the books and podcasts and play some word games instead.",
         "fullDesc": "If you want to improve your grammar skills then it's time to ditch all the books and podcasts and play some word games instead.",
         "roundDetails": {
-            "round1": ["Aptitude round A quiz to clear for qualification to the next successive round."],
-            "round2": ["A fun game for a player to have their partners guess the word on the player's card without using that word."],
+            "round1": ["Aptitude round - A quiz to clear for qualification to the next successive round."],
+            "round2": ["Taboo round - A fun game for a player to have their partners guess the word on the player's card without using that word."],
             "round3": [" Spell bee"]
         },
         "rules": ["The event consists of 3 rounds", "Each team must comprise 2 members", "Using mobiles or any other gadget is not allowed"],
@@ -673,7 +673,13 @@ export const eventData = [
         "smallDesc": "Come entice the audience and enable them to feel closer to the Almighty, in the soothing Bhajan competition.",
         "fullDesc": "'I'll be singing hymns to the rafters, be praising his goodness so loud they're going to have to turn down the volume in Heaven, God loves to hear you. sing, so sing.' Come entice the audience and enable them to feel closer to the Almighty, in the soothing Bhajan competition.",
 
-        "rules": [" Every team must consist of 5 to 8 members A Bhajan can be sung with or without Indian musical instruments", "A person can participate only in one team, if found participating in more than one team, it will lead to the disqualification of both the teams", "The duration must be 10 to 15 minutes • A maximum of five microphones will be provided to each team", " An additional 5 minutes will be given for the stage setup", "The teams must be ready at the venue 5 minutes before the allotted time. Delays won't be entertained ", "Bhajans can be of any Indian language", "Participants must possess the PID card as well as their respective college ID"],
+        "rules": [" Every team must consist of 5 to 8 members A Bhajan can be sung with or without Indian musical instruments", 
+        "A person can participate only in one team, if found participating in more than one team, it will lead to the disqualification of both the teams", 
+        "The duration must be 10 to 15 minutes",
+        "A maximum of five microphones will be provided to each team", 
+        "An additional 5 minutes will be given for the stage setup", 
+        "The teams must be ready at the venue 5 minutes before the allotted time. Delays won't be entertained ", 
+        "Bhajans can be of any Indian language", "Participants must possess the PID card as well as their respective college ID"],
         "judgingCriteria": ["The judgment is based on the quality of singing (sur, raag, and tal), involvement and synchronization (with other singers and instruments used), selection of Bhajans, dress code, creativity, and overall performances", "The decision of the judges will be final.",],
         "contactDetails": [
             {
@@ -693,14 +699,14 @@ export const eventData = [
     {
         "name": "DA VINCI",
         "day": "2",
-        "Time": "10 am",
-        "venue": " NC 23 ",
+        "Time": "10:00 am",
+        "venue": "NC 23 ",
         "branch": "CIVIL",
         "image": "/events/CV/DAVINCI.png",
         "smallDesc": "'The artist sees what other catch only a glimpse of', said the great Da Vinci. Come, bring your strokes alive on the canvas to create a masterpiece!",
         "fullDesc": "In this single round event, participants will be given a topic on the spot. Pencil sketch and painting are to be submitted to the organizers within the given time.",
 
-        "rules": ["Any number of entries from a college are permitted", " Solo entries only", " Topics will be gives on-spot", "Participants must get their own materials", "Sheets will be provided by the organizers", "Oil, water or poster colours (only for paintings) are permitted", "The decision of the judges is final and irrevocable"],
+        "rules": ["Any number of entries from a college are permitted", " Solo entries only", "Topics will be gives on-spot", "Participants must get their own materials", "Sheets will be provided by the organizers", "Oil, water or poster colours (only for paintings) are permitted", "The decision of the judges is final and irrevocable"],
         "judgingCriteria": ["Creativity", "Skills and overall presentation", "Implementation of the topic"],
         "contactDetails": [
             {
@@ -721,7 +727,7 @@ export const eventData = [
         "name": "DESAFIO",
         "round": "1",
         "day": "2",
-        "Time": "9 am",
+        "Time": "9:00 am",
         "venue": "Sadananda ground",
         "branch": "ISE",
         "image": "/events/IS/DESAFIO.jpeg",
@@ -729,7 +735,7 @@ export const eventData = [
         "fullDesc": "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? Desafio is an event which checks your FITNESS level by having various rounds.The tasks would not be mentioned precisely as it would be best if kept a surprise",
         "roundDetails": {
             "round1": ["This is an mass elimination round depending on the registrations and we will have mass elimination considering their fitness levels. If there are less registrations, then the Round 1 will not be conducted."],
-            "round2": ["This round is to shortlist contestants to the FINAL SHOWDOWN.", "Groups of 4 will be made randomly which will be done by the organizers.", "The participants who played good enough will be selected. They are judges individually.", " It is Purely based on the physical task which should be performed the given time. within the given time", "Task will be given to each one of the team member, The first one should complete his/her task and pass it on to the second member and it goes same till the final 4th member of the team.", "Number of groups depends on the registrations."],
+            "round2": ["This round is to shortlist contestants to the FINAL SHOWDOWN.", "Groups of 4 will be made randomly which will be done by the organizers.", "The participants who played good enough will be selected. They are judges individually.", " It is purely based on the physical task which should be performed the given time. within the given time", "Task will be given to each one of the team member, The first one should complete his/her task and pass it on to the second member and it goes same till the final 4th member of the team.", "Number of groups depends on the registrations."],
             "round3": ["The final round will be an intense fitness course which will decide who the WINNER is.", "8-10 contestants will be selected to the finals. Each of them will do the same course.", "It is Purely based on an intense task which should be performed within the given time also with a good form.", "The Participant who successfully completes the course with minimum time will be the WINNER."]
         },
         "rules": [" All materials for the different rounds will be given by the organizers.", "No usage of cell phones or any other electronic devices until told otherwise.", "The decision taken by the judges and the organizers is final."],
@@ -747,7 +753,7 @@ export const eventData = [
         "name": "DESAFIO",
         "round": "2 & 3",
         "day": "3",
-        "Time": "9 am",
+        "Time": "9:00am",
         "venue": "Sadananda ground",
         "branch": "ISE",
         "image": "/events/IS/DESAFIO.jpeg",
@@ -755,7 +761,7 @@ export const eventData = [
         "fullDesc": "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? Desafio is an event which checks your FITNESS level by having various rounds.The tasks would not be mentioned precisely as it would be best if kept a surprise",
         "roundDetails": {
             "round1": ["This is an mass elimination round depending on the registrations and we will have mass elimination considering their fitness levels.", "If there are less registrations, then the Round 1 will not be conducted."],
-            "round2": ["This round is to shortlist contestants to the FINAL SHOWDOWN.", "Groups of 4 will be made randomly which will be done by the organizers.", "The participants who played good enough will be selected. They are judges individually.", " It is Purely based on the physical task which should be performed the given time. within the given time", "Task will be given to each one of the team member, The first one should complete his/her task and pass it on to the second member and it goes same till the final 4th member of the team.", "Number of groups depends on the registrations."],
+            "round2": ["This round is to shortlist contestants to the FINAL SHOWDOWN.", "Groups of 4 will be made randomly which will be done by the organizers.", "The participants who played good enough will be selected. They are judges individually.", " It is purely based on the physical task which should be performed the given time. within the given time", "Task will be given to each one of the team member, The first one should complete his/her task and pass it on to the second member and it goes same till the final 4th member of the team.", "Number of groups depends on the registrations."],
             "round3": ["The final round will be an intense fitness course which will decide who the WINNER is.", "8-10 contestants will be selected to the finals. Each of them will do the same course.", "It is Purely based on an intense task which should be performed within the given time also with a good form.", "The Participant who successfully completes the course with minimum time will be the WINNER."]
         },
         "rules": [" All materials for the different rounds will be given by the organizers.", "No usage of cell phones or any other electronic devices until told otherwise.", "The decision taken by the judges and the organizers is final."],
