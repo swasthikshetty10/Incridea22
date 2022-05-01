@@ -55,7 +55,7 @@ function Register() {
     }, [user])
     const HandleSubmit = (value) => {
         const data = { email, ...value }
-        axios.post('https://peaceful-river-11730.herokuapp.com/auth/register', data).then( //register user
+        axios.post('https://peaceful-river-11730.herokuapp.com/auth/register/', data).then( //register user
             async (res) => {
                 console.log(data);
                 alert('login success') //TODO: for now
