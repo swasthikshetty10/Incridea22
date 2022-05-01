@@ -28,6 +28,8 @@ const LoginForm = () => {
 		}
 	}, [user])
 	return (
+		<>
+		<Navbar/>
 		<div className='loginForm'>
 			<Container className='loginForm'>
 				<SignUp signIn={signIn} />
@@ -56,6 +58,8 @@ const LoginForm = () => {
 				</OverlayContainer>
 			</Container>
 		</div>
+		</>
+
 	);
 };
 
