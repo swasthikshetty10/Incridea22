@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Navbar from "../Navbar";
 import higher from "../../Images/home/higher.png"
 import avatar from "../../Images/home/avatar.png"
@@ -9,10 +9,11 @@ import schedule from '../../Assets/schedule.xlsx'
 // import cloud from './cloud1.png'
 import chakra from './chakra.png'
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../Context/AuthContext";
 function Home() {
   const [rotation, setRotation] = useState("rotate-0")
   const [second, secSecond] = useState(0)
-
+  const user = useContext(AuthContext)
   useEffect(() => {
     const rot = `${(second * 6) % 360}deg`
     setRotation(rot)
@@ -24,7 +25,7 @@ function Home() {
         <Fade duration={1500}>
           <Navbar tab="home" sticky={true} />
         </Fade>
-        <div className=" overflow-hidden  relative  flex py-6 items-center justify-center flex-col-reverse md:flex-row tracking-wide" style={{ fontFamily: "CinzelDecorative-Bold" }}>
+        <div className=" overflow-hidden  relative  flex py-12 items-center justify-center flex-col-reverse md:flex-row tracking-wide" style={{ fontFamily: "CinzelDecorative-Bold" }}>
           {/* Fog divs */}
           <div id="foglayer_01" className="fog">
             <div className="image01"></div>
@@ -39,14 +40,16 @@ function Home() {
             <div className="image02"></div>
           </div>
           <Slide direction="left" duration={1000}>
-            <div className="flex gap-3 p-[3rem] flex-col" >
+            <div className="flex gap-3 px-5 md:px-12 flex-col" >
               <img src={higher} className=" " alt="" />
               <p className="text-gray-100 font-body text-lg  text-justify" >An amalgamation of all forms of technical, literary and cultural activities. Incridea is a celebration of fervour and talent. It is the national level techno-cultural fest of
                 <a target="blank" className="  text-[#cd9b58] hover:text-white transition-colors ease-out text-base" href="https://nmamit.nitte.edu.in/"> NMAM Institute of Technology</a>, Nitte.
               </p>
-              <div className="select-none bg-white border-0 hover:bg-opacity-100  bg-opacity-10 text-white px-6 py-2 w-fit font-body  text-center " >
-                Registrations begin May Day, 5PM
-              </div>
+              <Link to="/login">
+                <div className="select-none bg-white border-0 text-white transition ease-in duration-100 hover:bg-white/25  text-wh  ite bg-opacity-10 hover:text-white. px-6 py-2 w-fit font-body  text-center " >
+                  {user === null ? "Registrations Open Now." : `Hey ${user.name} `}
+                </div>
+              </Link>
             </div>
           </Slide>
           <Slide duration={1000} direction="right" >

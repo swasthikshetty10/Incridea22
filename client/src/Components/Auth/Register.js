@@ -32,6 +32,8 @@ import Loader from '../Gallery2/components/Loader';
 function Register() {
     const { email } = useParams();
     const [loading, setLoading] = useState(true);
+    const [req, setReq] = useState(false);
+
     const navigate = useNavigate()
     const user = useContext(AuthContext)
 
@@ -43,10 +45,10 @@ function Register() {
     }, [user])
     const HandleSubmit = (value) => {
         const data = { email, ...value }
+        setReq(true)
         axios.post('https://peaceful-river-11730.herokuapp.com/auth/register/', data).then( //register user
             async (res) => {
                 console.log(data);
-                alert('login success') //TODO: for now
                 try {
                     console.log()
                     const userCred = await signInWithEmailAndPassword(auth, email, data.password)
@@ -102,12 +104,11 @@ function Register() {
     });
     return (
         loading ? <>
-            <Loader animate={true} />
+            <Loader fixed="fixed  " animate={true} />
         </> :
-            <Container className='loginForm'>
+            <Container className='pb-36 lg:pb-5 font-body loginForm'>
                 <div className='bg-black text-center p-6 md:p-10 text-white w-full'>
-                    <h1 className="py-3 font-semibold text-2xl">Hello {email} <br></br> One Last Step!</h1>
-                    <p>Please Enter the details below to register</p>
+                    <h1 className="py-3 font-semibold text-2xl ">Hello {email} <br></br> One Last Step To Take Off!</h1>
                 </div>
                 <Formik
                     initialValues={initialValues}
@@ -118,15 +119,15 @@ function Register() {
                         return (
                             <ForgotContainer>
                                 <Form className='formBox'>
-                                    <Title>Enter Your Details Carefully</Title>
+                                    <Title className=''>Enter Your Details Carefully</Title>
                                     <InputField placeholder='Name' name='name' type='text' />
                                     <InputField
                                         name='phNo'
                                         type='text'
                                         placeholder='Mobile Number'
                                     />
-                                    <Div>
-                                    </Div>
+
+
                                     <InputField name='usn' type='tel' placeholder='USN' />
                                     <InputField
                                         name='password'
@@ -138,8 +139,8 @@ function Register() {
                                         type='password'
                                         placeholder='Confirm Password'
                                     />
-                                    <Button className={`inline-flex gap-3 ${loading ? "bg-opacity-50" : ""}`} disabled={loading} type='submit'>
-                                        {loading ? <> <AiOutlineLoading3Quarters className=" animate-spin text-lg " /> <span className=''>Registering...</span></> : 'Register'}
+                                    <Button className={`inline-flex gap-3 ${loading ? "bg-opacity-50" : ""}`} disabled={req} type='submit'>
+                                        {req ? <> <AiOutlineLoading3Quarters className=" animate-spin text-lg " /> <span className=''>Registering...</span></> : 'Register'}
                                     </Button>
                                     {/* TODO: Add loading animation */}
                                 </Form>
