@@ -19,7 +19,7 @@ const SponsorDetails = [
   },
   {
     name: "Paramvah Studios",
-    
+
     description: `Paramvah Studios aims to be a world class production house creating memorable films & characters using latest technologies & best creative talents. We are a production house, engaged in creating movie content and Paramvah Studios is more than just a name for us.`,
     image: paramvah,
     url: "https://www.paramvah.com/",
@@ -59,21 +59,21 @@ const Sponsor = () => {
           >
             SPONSORS
           </h1>
-          <p className="text-[#9d7643]  lg:mb-6 pt-1 pb-3 text-3xl font-body text-center">
+          <p className="text-igold  lg:mb-6 pt-1 pb-3 text-3xl font-body text-center">
             Big names backing an extraordinary fest.
           </p>
           <div className="gap-5 ">
-          <Fade duration={1000} delay={100} >
+            <Fade duration={1000} delay={100} >
 
-            {SponsorDetails.map((sponorDetail , i) => (
-              <EventsCard
-                rev = {i%2}
-                ImageSrc={sponorDetail.image}
-                SponsorTitle={sponorDetail.name}
-                SponsorDesc={sponorDetail.description}
-                SponsorWebsiteLink={sponorDetail.url}
-              />
-            ))}
+              {SponsorDetails.map((sponorDetail, i) => (
+                <EventsCard
+                  rev={i % 2}
+                  ImageSrc={sponorDetail.image}
+                  SponsorTitle={sponorDetail.name}
+                  SponsorDesc={sponorDetail.description}
+                  SponsorWebsiteLink={sponorDetail.url}
+                />
+              ))}
             </Fade>
           </div>
         </div>

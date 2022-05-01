@@ -38,11 +38,11 @@ function Navbar({ tab, sticky }) {
             {!(user && tab === "profile") ? <Link
 
               to={user ? "/profile" : "/login"}
-              className={`block md:hidden border-2 border-[#9d7643] p-2 text-sm font-nav font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633] md:border-0 md:hover:text-white text-[#9d7643]`}
+              className={`block md:hidden border-2 border-igold p-2 text-sm font-nav font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633] md:border-0 md:hover:text-white text-igold`}
             >
               {user ? "Profile" : "Login/Register"}
             </Link> : <Logout
-              className={`block md:hidden border-2 border-[#9d7643] p-2 text-sm font-nav font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633] md:border-0 md:hover:text-white text-[#9d7643]`}
+              className={`block md:hidden border-2 border-igold p-2 text-sm font-nav font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633] md:border-0 md:hover:text-white text-igold`}
 
             />}
             <button
@@ -91,7 +91,7 @@ function Navbar({ tab, sticky }) {
               <li>
                 <Link
                   to="/"
-                  className={`block py-2 pr-4 pl-3  border-none  text-xl  font-nav font-bold hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${tab === "home" ? "text-[#9d7643]" : "text-[#EDEDED]"
+                  className={`block py-2 pr-4 pl-3 bg-transparent active:text-white focus:text-white border-none  text-xl  font-nav font-bold hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-igold md:p-0 ${tab === "home" ? "text-igold" : "text-[#EDEDED]"
                     } `}
                   aria-current="page"
                 >
@@ -101,7 +101,7 @@ function Navbar({ tab, sticky }) {
               <li>
                 <Link
                   to="/events"
-                  className={`block py-2 pr-4 pl-3  border-none text-xl font-nav  font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${tab === "events" ? "text-[#9d7643]" : "text-[#EDEDED]"
+                  className={`block py-2 pr-4 pl-3 bg-transparent border-none text-xl font-nav  font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-igold md:p-0 ${tab === "events" ? "text-igold" : "text-[#EDEDED]"
                     } `}
                 >
                   events
@@ -110,7 +110,7 @@ function Navbar({ tab, sticky }) {
               <li>
                 <Link
                   to="/pronite"
-                  className={`block py-2 pr-4 pl-3   text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${tab === "pronite" ? "text-[#9d7643]" : "text-[#EDEDED]"
+                  className={`block py-2 pr-4 pl-3 bg-transparent  text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-igold md:p-0 ${tab === "pronite" ? "text-igold" : "text-[#EDEDED]"
                     } `}
                 >
                   pronites
@@ -119,7 +119,7 @@ function Navbar({ tab, sticky }) {
               <li>
                 <Link
                   to="/gallery"
-                  className={`block py-2 pr-4 pl-3   text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${tab === "gallery" ? "text-[#9d7643]" : "text-[#EDEDED]"
+                  className={`block py-2 pr-4 pl-3 bg-transparent  text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-igold md:p-0 ${tab === "gallery" ? "text-igold" : "text-[#EDEDED]"
                     } `}
                 >
                   gallery
@@ -129,7 +129,7 @@ function Navbar({ tab, sticky }) {
               <li>
                 <Link
                   to="/sponsors"
-                  className={`block py-2 pr-4 pl-3   text-xl  font-nav font-bold hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${tab === "sponsors" ? "text-[#9d7643]" : "text-[#EDEDED]"
+                  className={`block py-2 pr-4 pl-3 bg-transparent  text-xl  font-nav font-bold hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-igold md:p-0 ${tab === "sponsors" ? "text-igold" : "text-[#EDEDED]"
                     } `}
                 >
                   sponsors
@@ -139,7 +139,7 @@ function Navbar({ tab, sticky }) {
               <li>
                 <Link
                   to="/team"
-                  className={`block py-2 pr-4 pl-3   text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${tab === "team" ? "text-[#9d7643]" : "text-[#EDEDED]"
+                  className={`block py-2 pr-4 pl-3 bg-transparent text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-igold md:p-0 ${tab === "team" ? "text-igold" : "text-[#EDEDED]"
                     } `}
                 >
                   about us
@@ -148,11 +148,11 @@ function Navbar({ tab, sticky }) {
               <li>
                 {!(user && tab === "profile") ? <Link
                   to={user ? "/profile" : "/login"}
-                  className={`hidden md:block border-2 border-[#9d7643] py-2 pr-4 pl-3 text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633] md:border-0 md:hover:text-white text-[#9d7643]`}
+                  className={`hidden md:block border-2 border-igold py-2 pr-4 pl-3 text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633] md:border-0 md:hover:text-white text-igold`}
                 >
                   {user ? "Profile" : "Login/Register"}
                 </Link> : <Logout
-                  className={`hidden md:block border-2 border-[#9d7643] py-2 pr-4 pl-3 text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633] md:border-0 md:hover:text-white text-[#9d7643]`}
+                  className={`hidden md:block border-2 border-igold py-2 pr-4 pl-3 text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633] md:border-0 md:hover:text-white text-igold`}
                 />}
               </li>
             </ul>

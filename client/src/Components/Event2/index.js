@@ -10,7 +10,7 @@ function Event2() {
   const [branch, setBranch] = useState("ALL");
   const [day, setDay] = useState("0");
   const [query, setQuery] = useState("");
-const [elements, setElements] = useState({});
+  const [elements, setElements] = useState(eventData);
 
   useEffect(() => {
     //filter code
@@ -24,6 +24,8 @@ const [elements, setElements] = useState({});
     );
   }, [query, day, branch]);
 
+
+
   // const Cell = ({ toggle, name, height, description, css, maximized }) => <></>;
 
   return (
@@ -34,7 +36,7 @@ const [elements, setElements] = useState({});
           <h1 className="text-5xl md:text-6xl tracking-widest font-title pt-3 sm:pt-0 text-[#EDEDED]">
             EVENTS
           </h1>
-          <p className="text-[#9d7643]  lg:mb-6 pt-1 pb-3 text-3xl font-body text-center">
+          <p className="text-igold  lg:mb-6 pt-1 pb-3 text-3xl font-body text-center">
             55 events, 55 places to be.
           </p>
           <FilterBar
@@ -66,10 +68,10 @@ const [elements, setElements] = useState({});
                 />
               );
             })}
-          </div>:  <>
-              <h3 className="text-[#9d7643] mt-6 pt-1  text-3xl font-body text-center">No events found!</h3>
-              <p className="text-gray-500  lg:mb-6 pt-1 pb-3 text-lg font-body text-center">Try changing up the filters?</p>
-            </>}
+          </div> : <>
+            <h3 className="text-igold mt-6 pt-1  text-3xl font-body text-center">No events found!</h3>
+            <p className="text-gray-500  lg:mb-6 pt-1 pb-3 text-lg font-body text-center">Try changing up the filters?</p>
+          </>}
 
 
         </div>

@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import logo from '../assets/Svgs/Incridea-Stroke-Font.svg';
 
 const Container = styled(motion.div)`
   position: absolute;
@@ -47,34 +46,6 @@ const Container = styled(motion.div)`
     }
   }
 `;
-
-const Text = styled(motion.span)`
-font-family:CinzelDecorative-Bold;
-  font-size: 50px;
-  letter-spacing: 2px;
-  color: ${(props) => props.theme.text};
-  padding-top: 0.5rem;
-
-  @media (max-width: 48em) {
-    font-size: ${(props) => props.theme.fontlg};
-  }
-`;
-
-const textVariants = {
-  hidden: {
-    opacity: 0,
-  },
-  visible: {
-    opacity: 1,
-
-    transition: {
-      duration: 1,
-      yoyo: Infinity, // repeats infinite times
-      ease: "easeInOut",
-    },
-  },
-
-};
 
 const pathVariants = {
   hidden: {
