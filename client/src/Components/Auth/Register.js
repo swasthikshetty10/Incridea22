@@ -73,8 +73,6 @@ function Register() {
         })
 
     }, [])
-
-
     const initialValues = {
         name: '',
         phNo: '',

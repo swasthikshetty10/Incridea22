@@ -65,9 +65,9 @@ function Home() {
         </div>
 
       </div>
-      <div className="relative select-none overflow-hidden pt-36 pb-56">
+      <div className="relative select-none overflow-hidden pt-26 md:pt-36 pb-56">
         <div className="transform ease-linear absolute w-full flex  justify-between ">
-          <div className=" shrink-0 -ml-[305px] md:-ml-[395px]  " >
+          <div className=" shrink-0 py-52 md:py-0 md:mt-0 -ml-[305px] md:-ml-[395px]  " >
             <img style={{ transform: `rotate(-${rotation})` }} className={`transform ease-linear duration-50 h-[30rem] md:h-[40rem] w-auto`} src={chakra} alt="" />
           </div>
           <div className="shrink-0 -mr-[395px] hidden md:block -mt-[95px]">
@@ -84,7 +84,7 @@ function Home() {
           </div>
         </Slide>
       </div>
-      <div direction="up" delay={500}>
+      <>
         <div style={{ fontFamily: "CinzelDecorative-Bold" }} className=" p-10 bg-opacity-20 backdrop-blur-lg text-white  bg-gray-900 flex flex-col gap-4 md:gap-10 md:flex-row justify-center text-center items-stretch md:items-center">
           <a href={"https://drive.google.com/file/d/1LE77p-mbwct-fWMzIKQuIzg2_6jF4NZh/view?usp=sharing"} download={'Incridea 22 Rulebook.pdf'} target="_blank" rel="noreferrer" className=" px-4 py-2 md:px-5 md:py-3 inline-flex items-center gap-2 font-bold text-igold transition-colors ease-out transition-duration-50 text-xl hover:bg-igold hover:text-white border-igold border-2 items-center justify-center">
             Download Rulebook <AiOutlineDownload className="text-2xl" />
@@ -98,7 +98,7 @@ function Home() {
             </h2>
           </div> */}
         </div>
-      </div>
+      </>
       <div>
 
       </div>
