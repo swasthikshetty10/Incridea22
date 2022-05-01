@@ -1605,22 +1605,22 @@ export const eventData = [
         "branch": "ISE",
         "image": "/events/IS/Pratibimbh.jpg",
         "smallDesc": "Grab a person and a paintbrush and head on over to this face painting competition!",
-        "fullDesc": " In this age of filters and  lenses where augmented reality has made changing our looks as simple as tapp ing a button, Pra thibimb ta kes a step back to the drawing board. ",
+        "fullDesc": " In this age of filters and lenses where augmented reality has made changing our looks as simple as tapping a button, Prathibimb takes a step back to the drawing board. ",
         "roundDetails": {
             "round1":
                 ["Paint the face of your fellow teammates in 1 hr 30 min based on your creativity. The top teams with the best paintings will be selected for the second round. "],
             "round2": ["The qualified teams for round 2 will paint their fellow teammate based on the provided theme in 1.5 hours. The top teams with the best face painting will be announced as winners."],
         },
 
-        "rules": ["Any number of ent ries per college",
+        "rules": ["Any number of entries per college",
             "The team must have 2 members from the same college where only one has to paint.",
             "Participants should bring their own materials",
-            "Brush, sponge, and glitt er are allowed",
-            "Airbrushing and att achmen ts of any kind are not allowed",
-            "Particip ants should not refer to any materials",
+            "Brush, sponge, and glitter are allowed",
+            "Airbrushing and attachments of any kind are not allowed",
+            "Participants should not refer to any materials",
             "Participants must possess the PIO card as well as their respective college ID",
             "The decision of the judges will be final",
-            "Judgment will be based on creativit y, content, display, and overall presentation.",
+            "Judgment will be based on creativity, content, display, and overall presentation.",
             "Once the competition starts, participants are not allowed to go out for any reasons.",
 
 
@@ -1652,28 +1652,28 @@ export const eventData = [
         "branch": "ISE",
         "image": "/events/IS/Pratibimbh.jpg",
         "smallDesc": "Grab a person and a paintbrush and head on over to this face painting competition!",
-        "fullDesc": " In this age of filters and  lenses where augmented reality has made changing our looks as simple as tapp ing a button, Pra thibimb ta kes a step back to the drawing board. ",
+        "fullDesc": " In this age of filters and lenses where augmented reality has made changing our looks as simple as tapping a button, Prathibimb takes a step back to the drawing board. ",
         "roundDetails": {
             "round1":
-                ["Paint the face of your fellow teammates in 1 hr 30 min based on your creativity. The top teams with the best paintings will be selected for the second round. "],
+                ["Paint the face of your fellow teammates in 1 hr 30 min based on your creativity. The top teams with the best paintings will be selected for the second round."],
             "round2": ["The qualified teams for round 2 will paint their fellow teammate based on the provided theme in 1.5 hours. The top teams with the best face painting will be announced as winners."],
         },
 
         "rules": ["Any number of ent ries per college",
             "The team must have 2 members from the same college where only one has to paint.",
             "Participants should bring their own materials",
-            "Brush, sponge, and glitt er are allowed",
-            "Airbrushing and att achmen ts of any kind are not allowed",
-            "Particip ants should not refer to any materials",
+            "Brush, sponge, and glitter are allowed",
+            "Airbrushing and attachmen ts of any kind are not allowed",
+            "Participants should not refer to any materials",
             "Participants must possess the PIO card as well as their respective college ID",
             "The decision of the judges will be final",
-            "Judgment will be based on creativit y, content, display, and overall presentation.",
+            "Judgment will be based on creativity, content, display, and overall presentation.",
             "Once the competition starts, participants are not allowed to go out for any reasons.",
 
 
         ],
 
-        "judgingCriteria": ["Based on creativit y, content, display, and overall presentation.",
+        "judgingCriteria": ["Based on creativity, content, display, and overall presentation.",
         ],
 
         "contactDetails": [
@@ -1705,13 +1705,13 @@ export const eventData = [
         "roundDetails": {
             "round 1": ["Prelims- English aptitude and General knowledge questionnaire will be used for qualifications into the next round"],
 
-            "round 2 ": ["Mains - Topics will be given 5 minutes prior to  the round.One team speaks for  the to pic while the other team speaks a ga inst(3 minutes each + 1 minute for conclusion)"],
+            "round 2 ": ["Mains - Topics will be given 5 minutes prior to  the round.One team speaks for the to pic while the other team speaks against(3 minutes each + 1 minute for conclusion)"],
 
         },
 
         "rules": ["A team should have a minimum of 1 and at most 2 members.",
             "The judges will evaluate each team and award marks to each team respectively.",
-            "Reg ist rations can be done either prior to the event or on the spot.",
+            "Registrations can be done either prior to the event or on the spot.",
             "Any number of teams can participate from a college.",
         ],
 
@@ -1743,17 +1743,17 @@ export const eventData = [
         "branch": "BTE",
         "image": "/events/BT/Rangoli.jpg",
         "smallDesc": "Think your designs have what it takes to enthrall and stand out among countless others?",
-        "fullDesc": "Patterns and design are an integra l part of our culture. Think your designs have what it takes to enthrall and stand out among countless others? Then this competition is for you!",
+        "fullDesc": "Patterns and design are an integral part of our culture. Think your designs have what it takes to enthrall and stand out among countless others? Then this competition is for you!",
 
         "rules": [
 
             "Each team can have a maximum of 3 members.",
             "The size of the rangoli should be 4x4 ft.",
-            "The rango li should be drawn freehand.",
+            "The rangoli should be drawn freehand.",
             "The topic will be provided on the spot.",
             "A maximum of 2 teams per college can participate.",
             "Teams will be responsible for the arrangement of the material required to prepare Rang oli.",
-            "Only the powder can be used to make the Rang oli.Stones, grains, or flower petals are not permitted.",
+            "Only the powder can be used to make the Rangoli. Stones, grains, or flower petals are not permitted.",
 
         ],
 
@@ -1761,7 +1761,7 @@ export const eventData = [
             "Neatness.",
             "Relevance to the topic.",
             "Color combination.",
-            "Uniqueness & crea tivity.",
+            "Uniqueness & creativity.",
             "The decision of the judges is final and irrevocable.",
 
         ],
@@ -1789,16 +1789,16 @@ export const eventData = [
         "round": "Preliminary",
         "day": "2",
         "Time": "9:30 am",
-        "venue": "LC 504",
+        "venue": "LC 504, 506",
         "branch": "CSE",
         "image": "/events/CS/RIFFOFF.jpg",
-        "smallDesc": "A sequence of vocals thrumming to a beat, a chain of songs, and  you're in for a melodious treat. ",
-        "fullDesc": "Presenting to you Riff- Off - an Antaksha ri with a twist. Come sing along because those who wish to sing always find a song.",
+        "smallDesc": "A sequence of vocals thrumming to a beat, a chain of songs, and you're in for a melodious treat. ",
+        "fullDesc": "Presenting to you Riff-Off - an Antakshari with a twist. Come sing along because those who wish to sing always find a song.",
         "roundDetails": {
-            "Preliminary round": ["30 questions will be given with options.The maximum time allotted is 40minutes.The top 8 teams will be select ed for the next rounds."],
-            "Round 1": [" English - Vinglish - In t his round, the team has to guess the Bollywood song from its hilarious English tra nslation.This is a buzzer round.The one to answer first, get the points."],
-            "Round 2": [" Anthra - Mukhda - In this round, the team has to sing the song in vocals as asked by the judges.Mukhda is the initial line of the song and Anthra is the second stanza of the song."],
-            "Round 3": [" Guess the movie name from the dialogue played.Each team will be played a different dialogue and they will gain points only if they answer correctly."],
+            "Preliminary round": ["30 questions will be given with options. The maximum time allotted is 40 minutes .The top 8 teams will be selected for the next rounds."],
+            "Round 1": [" English - Vinglish - In this round, the team has to guess the Bollywood song from its hilarious English translation.This is a buzzer round.The one to answer first, get the points."],
+            "Round 2": [" Anthra - Mukhda - In this round, the team has to sing the song in vocals as asked by the judges. Mukhda is the initial line of the song and Anthra is the second stanza of the song."],
+            "Round 3": [" Guess the movie name from the dialogue played. Each team will be played a different dialogue and they will gain points only if they answer correctly."],
             "Round 4": [" Prop round - The participants have to sing a song having the word of prop displayed on the screen."],
             "Round 5": [" A video of a song and audio of another song in reverse will be played simultaneously.Guess the movie name of these songs.The game will be played in the form of a buzzer round, and in case of ambiguity, the judges' decision will be final."]
 
@@ -1810,7 +1810,7 @@ export const eventData = [
             "All songs will be in Hindi.",
             "Specific rules will be announced before the event.",
             "The total duration of the event will be three hours.",
-            "The Jud ge's decision will be final.",
+            "The Judge's decision will be final.",
 
         ],
 
@@ -1838,20 +1838,20 @@ export const eventData = [
     {
         "name": "RIFF OFF",
         "round": "Finals",
-        "day": "2",
+        "day": "3",
         "Time": "9:00 am",
         "venue": "Sambhram",
         "branch": "CSE",
         "image": "/events/CS/RIFFOFF.jpg",
-        "smallDesc": "A sequence of vocals thrumming to a beat, a chain of songs, and  you're in for a melodious treat. ",
-        "fullDesc": "Presenting to you Riff- Off - an Antaksha ri with a twist. Come sing along because those who wish to sing always find a song.",
+        "smallDesc": "A sequence of vocals thrumming to a beat, a chain of songs, and you're in for a melodious treat. ",
+        "fullDesc": "Presenting to you Riff-Off - an Antakshari with a twist. Come sing along because those who wish to sing always find a song.",
         "roundDetails": {
-            "Preliminary round": ["30 questions will be given with options.The maximum time allotted is 40minutes.The top 8 teams will be select ed for the next rounds."],
-            "Round 1": [" English - Vinglish - In t his round, the team has to guess the Bollywood song from its hilarious English tra nslation.This is a buzzer round.The one to answer first, get the points."],
-            "Round 2": [" Anthra - Mukhda - In this round, the team has to sing the song in vocals as asked by the judges.Mukhda is the initial line of the song and Anthra is the second stanza of the song."],
-            "Round 3": [" Guess the movie name from the dialogue played.Each team will be played a different dialogue and they will gain points only if they answer correctly."],
+            "Preliminary round": ["30 questions will be given with options. The maximum time allotted is 40 minutes .The top 8 teams will be selected for the next rounds."],
+            "Round 1": [" English - Vinglish - In this round, the team has to guess the Bollywood song from its hilarious English translation.This is a buzzer round.The one to answer first, get the points."],
+            "Round 2": [" Anthra - Mukhda - In this round, the team has to sing the song in vocals as asked by the judges. Mukhda is the initial line of the song and Anthra is the second stanza of the song."],
+            "Round 3": [" Guess the movie name from the dialogue played. Each team will be played a different dialogue and they will gain points only if they answer correctly."],
             "Round 4": [" Prop round - The participants have to sing a song having the word of prop displayed on the screen."],
-            "Round 5": [" A video of a song and audio of another song in reverse will be played simultaneously.Guess the movie name of these songs.The game will be played in the form of a buzzer round, and in case of ambiguity, the judges' decision will be final."],
+            "Round 5": [" A video of a song and audio of another song in reverse will be played simultaneously.Guess the movie name of these songs.The game will be played in the form of a buzzer round, and in case of ambiguity, the judges' decision will be final."]
 
         },
 
@@ -1861,7 +1861,7 @@ export const eventData = [
             "All songs will be in Hindi.",
             "Specific rules will be announced before the event.",
             "The total duration of the event will be three hours.",
-            "The Jud ge's decision will be final.",
+            "The Judge's decision will be final.",
 
         ],
 
@@ -1894,26 +1894,26 @@ export const eventData = [
         "venue": "LH 500, 502, 503",
         "branch": "ISE",
         "image": "/events/IS/Roadies.jpg",
-        "smallDesc": "Are you ready to get the best out of yourself as an ind ividual and as a team member? Do you think you have what it takes to be the ultimate ROADIE? ",
-        "fullDesc": "An event that sees your p otent ia l as an indiv idual as well as a group member having various rounds as mentioned below. The tasks would not be mentioned precisely as it would be best if kept a surprise.",
+        "smallDesc": "Are you ready to get the best out of yourself as an individual and as a team member? Do you think you have what it takes to be the ultimate ROADIE? ",
+        "fullDesc": "An event that sees your potential as an individual as well as a group member having various rounds as mentioned below. The tasks would not be mentioned precisely as it would be best if kept a surprise.",
         "roundDetails": {
             "ROUND 1":
                 ["This is an aptitude round and we will have mass elimination considering the marks."],
 
             "ROUND 2":
-                ["This round is a group discussion round where the participants will be tested on their communicative skills. The particip ants with the top scores will be considered for the next round."],
+                ["This round is a group discussion round where the participants will be tested on their communicative skills. The participants with the top scores will be considered for the next round."],
 
             "ROUND 3":
-                ["Round 3 has two sub round s. The first round is purely based on the physical task which should be performed within the given time. Groups of 4 will be randomly made by the organizers.The team that finishes first and the participants who played well enough from the remaining teams will be selected.The second round is based on the mental abilit y where the participants have to unlock the lock within the given time. Here, two participants will compete with each other, and the winners from each round along with the participants who played their cards well will be selected."],
+                ["Round 3 has two sub rounds. The first round is purely based on the physical task which should be performed within the given time. Groups of 4 will be randomly made by the organizers.The team that finishes first and the participants who played well enough from the remaining teams will be selected.The second round is based on the mental ability where the participants have to unlock the lock within the given time. Here, two participants will compete with each other, and the winners from each round along with the participants who played their cards well will be selected."],
             "ROUND4":
-                ["The final round will be the stress interview which will decide who the winneris. The p art icip ants will be givena form where they need to answer a set of questions and the inte rview will be based on these questions."],
+                ["The final round will be the stress interview which will decide who the winner is. The participants will be given a form where they need to answer a set of questions and the interview will be based on these questions."],
 
         },
 
         "rules": [
             "All materials for the different rounds will be given by the organizers.",
             "No usage of cell phones or any other electronic devices until told otherwise.",
-            "The decis ion taken by the judges and the organizers is final.",
+            "The decision taken by the judges and the organizers is final.",
 
 
         ],
@@ -1943,30 +1943,30 @@ export const eventData = [
         "name": "ROADIES",
         "round": "2",
         "day": "1",
-        "Time": "2:30 am",
+        "Time": "2:30 pm",
         "venue": "LH 500",
         "branch": "ISE",
         "image": "/events/IS/Roadies.jpg",
-        "smallDesc": "Are you ready to get the best out of yourself as an ind ividual and as a team member? Do you think you have what it takes to be the ultimate ROADIE? ",
-        "fullDesc": "An event that sees your p otent ia l as an indiv idual as well as a group member having various rounds as mentioned below. The tasks would not be mentioned precisely as it would be best if kept a surprise.",
+        "smallDesc": "Are you ready to get the best out of yourself as an individual and as a team member? Do you think you have what it takes to be the ultimate ROADIE? ",
+        "fullDesc": "An event that sees your potential as an individual as well as a group member having various rounds as mentioned below. The tasks would not be mentioned precisely as it would be best if kept a surprise.",
         "roundDetails": {
             "ROUND 1":
                 ["This is an aptitude round and we will have mass elimination considering the marks."],
 
             "ROUND 2":
-                ["This round is a group discussion round where the participants will be tested on their communicative skills. The particip ants with the top scores will be considered for the next round."],
+                ["This round is a group discussion round where the participants will be tested on their communicative skills. The participants with the top scores will be considered for the next round."],
 
             "ROUND 3":
-                ["Round 3 has two sub round s. The first round is purely based on the physical task which should be performed within the given time. Groups of 4 will be randomly made by the organizers.The team that finishes first and the participants who played well enough from the remaining teams will be selected.The second round is based on the mental abilit y where the participants have to unlock the lock within the given time. Here, two participants will compete with each other, and the winners from each round along with the participants who played their cards well will be selected."],
+                ["Round 3 has two sub rounds. The first round is purely based on the physical task which should be performed within the given time. Groups of 4 will be randomly made by the organizers.The team that finishes first and the participants who played well enough from the remaining teams will be selected.The second round is based on the mental ability where the participants have to unlock the lock within the given time. Here, two participants will compete with each other, and the winners from each round along with the participants who played their cards well will be selected."],
             "ROUND4":
-                ["The final round will be the stress interview which will decide who the winneris. The p art icip ants will be givena form where they need to answer a set of questions and the inte rview will be based on these questions."],
+                ["The final round will be the stress interview which will decide who the winner is. The participants will be given a form where they need to answer a set of questions and the interview will be based on these questions."],
 
         },
 
         "rules": [
             "All materials for the different rounds will be given by the organizers.",
             "No usage of cell phones or any other electronic devices until told otherwise.",
-            "The decis ion taken by the judges and the organizers is final.",
+            "The decision taken by the judges and the organizers is final.",
 
 
         ],
@@ -1993,34 +1993,33 @@ export const eventData = [
         "name": "ROADIES",
         "round": "3.1",
         "day": "2",
-        "Time": "1:00 am",
+        "Time": "1:00 pm",
         "venue": "SADANANDA GROUND",
         "branch": "ISE",
         "image": "/events/IS/Roadies.jpg",
-        "smallDesc": "Are you ready to get the best out of yourself as an ind ividual and as a team member? Do you think you have what it takes to be the ultimate ROADIE? ",
-        "fullDesc": "An event that sees your p otent ia l as an indiv idual as well as a group member having various rounds as mentioned below. The tasks would not be mentioned precisely as it would be best if kept a surprise.",
+        "smallDesc": "Are you ready to get the best out of yourself as an individual and as a team member? Do you think you have what it takes to be the ultimate ROADIE? ",
+        "fullDesc": "An event that sees your potential as an individual as well as a group member having various rounds as mentioned below. The tasks would not be mentioned precisely as it would be best if kept a surprise.",
         "roundDetails": {
             "ROUND 1":
                 ["This is an aptitude round and we will have mass elimination considering the marks."],
 
             "ROUND 2":
-                ["This round is a group discussion round where the participants will be tested on their communicative skills. The particip ants with the top scores will be considered for the next round."],
+                ["This round is a group discussion round where the participants will be tested on their communicative skills. The participants with the top scores will be considered for the next round."],
 
             "ROUND 3":
-                ["Round 3 has two sub round s. The first round is purely based on the physical task which should be performed within the given time. Groups of 4 will be randomly made by the organizers.The team that finishes first and the participants who played well enough from the remaining teams will be selected.The second round is based on the mental abilit y where the participants have to unlock the lock within the given time. Here, two participants will compete with each other, and the winners from each round along with the participants who played their cards well will be selected."],
+                ["Round 3 has two sub rounds. The first round is purely based on the physical task which should be performed within the given time. Groups of 4 will be randomly made by the organizers.The team that finishes first and the participants who played well enough from the remaining teams will be selected.The second round is based on the mental ability where the participants have to unlock the lock within the given time. Here, two participants will compete with each other, and the winners from each round along with the participants who played their cards well will be selected."],
             "ROUND4":
-                ["The final round will be the stress interview which will decide who the winneris. The p art icip ants will be givena form where they need to answer a set of questions and the inte rview will be based on these questions."],
+                ["The final round will be the stress interview which will decide who the winner is. The participants will be given a form where they need to answer a set of questions and the interview will be based on these questions."],
 
         },
 
         "rules": [
             "All materials for the different rounds will be given by the organizers.",
             "No usage of cell phones or any other electronic devices until told otherwise.",
-            "The decis ion taken by the judges and the organizers is final.",
+            "The decision taken by the judges and the organizers is final.",
 
 
         ],
-
         // "judgingCriteria": [
         //     "Time based and perfection of the song will be noted to awarded with a score of 10 points each."
         // ],
@@ -2051,26 +2050,26 @@ export const eventData = [
         "venue": "IN FRONT OF NC BLOCK",
         "branch": "ISE",
         "image": "/events/IS/Roadies.jpg",
-        "smallDesc": "Are you ready to get the best out of yourself as an ind ividual and as a team member? Do you think you have what it takes to be the ultimate ROADIE? ",
-        "fullDesc": "An event that sees your p otent ia l as an indiv idual as well as a group member having various rounds as mentioned below. The tasks would not be mentioned precisely as it would be best if kept a surprise.",
+        "smallDesc": "Are you ready to get the best out of yourself as an individual and as a team member? Do you think you have what it takes to be the ultimate ROADIE? ",
+        "fullDesc": "An event that sees your potential as an individual as well as a group member having various rounds as mentioned below. The tasks would not be mentioned precisely as it would be best if kept a surprise.",
         "roundDetails": {
             "ROUND 1":
                 ["This is an aptitude round and we will have mass elimination considering the marks."],
 
             "ROUND 2":
-                ["This round is a group discussion round where the participants will be tested on their communicative skills. The particip ants with the top scores will be considered for the next round."],
+                ["This round is a group discussion round where the participants will be tested on their communicative skills. The participants with the top scores will be considered for the next round."],
 
             "ROUND 3":
-                ["Round 3 has two sub round s. The first round is purely based on the physical task which should be performed within the given time. Groups of 4 will be randomly made by the organizers.The team that finishes first and the participants who played well enough from the remaining teams will be selected.The second round is based on the mental abilit y where the participants have to unlock the lock within the given time. Here, two participants will compete with each other, and the winners from each round along with the participants who played their cards well will be selected."],
+                ["Round 3 has two sub rounds. The first round is purely based on the physical task which should be performed within the given time. Groups of 4 will be randomly made by the organizers.The team that finishes first and the participants who played well enough from the remaining teams will be selected.The second round is based on the mental ability where the participants have to unlock the lock within the given time. Here, two participants will compete with each other, and the winners from each round along with the participants who played their cards well will be selected."],
             "ROUND4":
-                ["The final round will be the stress interview which will decide who the winneris. The p art icip ants will be givena form where they need to answer a set of questions and the inte rview will be based on these questions."],
+                ["The final round will be the stress interview which will decide who the winner is. The participants will be given a form where they need to answer a set of questions and the interview will be based on these questions."],
 
         },
 
         "rules": [
             "All materials for the different rounds will be given by the organizers.",
             "No usage of cell phones or any other electronic devices until told otherwise.",
-            "The decis ion taken by the judges and the organizers is final.",
+            "The decision taken by the judges and the organizers is final.",
 
 
         ],
@@ -2101,30 +2100,30 @@ export const eventData = [
         "name": "ROADIES",
         "round": "4",
         "day": "4",
-        "Time": "12:00 am",
+        "Time": "12:00 pm",
         "venue": "SAMBHRAM",
         "branch": "ISE",
         "image": "/events/IS/Roadies.jpg",
-        "smallDesc": "Are you ready to get the best out of yourself as an ind ividual and as a team member? Do you think you have what it takes to be the ultimate ROADIE? ",
-        "fullDesc": "An event that sees your p otent ia l as an indiv idual as well as a group member having various rounds as mentioned below. The tasks would not be mentioned precisely as it would be best if kept a surprise.",
+        "smallDesc": "Are you ready to get the best out of yourself as an individual and as a team member? Do you think you have what it takes to be the ultimate ROADIE? ",
+        "fullDesc": "An event that sees your potential as an individual as well as a group member having various rounds as mentioned below. The tasks would not be mentioned precisely as it would be best if kept a surprise.",
         "roundDetails": {
             "ROUND 1":
                 ["This is an aptitude round and we will have mass elimination considering the marks."],
 
             "ROUND 2":
-                ["This round is a group discussion round where the participants will be tested on their communicative skills. The particip ants with the top scores will be considered for the next round."],
+                ["This round is a group discussion round where the participants will be tested on their communicative skills. The participants with the top scores will be considered for the next round."],
 
             "ROUND 3":
-                ["Round 3 has two sub round s. The first round is purely based on the physical task which should be performed within the given time. Groups of 4 will be randomly made by the organizers.The team that finishes first and the participants who played well enough from the remaining teams will be selected.The second round is based on the mental abilit y where the participants have to unlock the lock within the given time. Here, two participants will compete with each other, and the winners from each round along with the participants who played their cards well will be selected."],
+                ["Round 3 has two sub rounds. The first round is purely based on the physical task which should be performed within the given time. Groups of 4 will be randomly made by the organizers.The team that finishes first and the participants who played well enough from the remaining teams will be selected.The second round is based on the mental ability where the participants have to unlock the lock within the given time. Here, two participants will compete with each other, and the winners from each round along with the participants who played their cards well will be selected."],
             "ROUND4":
-                ["The final round will be the stress interview which will decide who the winneris. The p art icip ants will be givena form where they need to answer a set of questions and the inte rview will be based on these questions."],
+                ["The final round will be the stress interview which will decide who the winner is. The participants will be given a form where they need to answer a set of questions and the interview will be based on these questions."],
 
         },
 
         "rules": [
             "All materials for the different rounds will be given by the organizers.",
             "No usage of cell phones or any other electronic devices until told otherwise.",
-            "The decis ion taken by the judges and the organizers is final.",
+            "The decision taken by the judges and the organizers is final.",
 
 
         ],
@@ -2156,19 +2155,19 @@ export const eventData = [
         "branch": "ECE",
         "image": "/events/EC/SHARKTANK.jpg",
         "smallDesc": "Do you see the world around you in vivid colours? Does every ordinary occurrence play out differently in your imagination? ",
-        "fullDesc": "If you found yourself saying yes, then we've got the perfect event for you! Sha rk tank will tingle your senses and kick your creativity into ge ar.",
+        "fullDesc": "If you found yourself saying yes, then we've got the perfect event for you! Shark tank will tingle your senses and kick your creativity into gear.",
         "roundDetails": {
             "Round 1: ":
                 ["A written test based on logos and taglines. The time limit to solve is 30 minutes.Top 70 teams will qualify to the next round."],
             "Round 2:":
-                ["The qualified te am s will have to create an advertisement video of a particular technical product and present it.The time limit for the video is 7.5 to 2 minutes.A period of 1day will be given to prepare the video.There is no restriction on the number of actors in the video.Time limit to present is 5 minutes."],
+                ["The qualified teams will have to create an advertisement video of a particular technical product and present it.The time limit for the video is 7.5 to 2 minutes.A period of 1 day will be given to prepare the video.There is no restriction on the number of actors in the video.Time limit to present is 5 minutes."],
 
         },
 
         "rules": [
             "Work alone or in a team and utilize your advertising knowledge to leave your audience mesmerized.",
             "Teams can include a maximum of 3 members.",
-            "Plagiarized content found in any video will lead to immediate disqualifica tion.",
+            "Plagiarized content found in any video will lead to immediate disqualification.",
             "Decision of the judges will be final in all regards.",
 
 
@@ -2177,8 +2176,8 @@ export const eventData = [
 
         "judgingCriteria": [
             "Target market and problem solving capability",
-            "Creativity & uniquenessin the  idea proposed",
-            "Time limit(2 min video presenta t ion + S min onstage presentation)",
+            "Creativity & uniqueness in the idea proposed",
+            "Time limit(2 min video presentation + 5 min onstage presentation)",
             "Soft skills & presentation",
             "Knowledge about the topic",
 
@@ -2192,7 +2191,7 @@ export const eventData = [
             },
             {
                 "name": "Nidish Rao",
-                "phoneNumber": "6362 468 208",
+                "phoneNumber": "6362468208",
                 "emailID": "nidishnrao@gmail.com",
             }
 
@@ -2211,19 +2210,19 @@ export const eventData = [
         "branch": "ECE",
         "image": "/events/EC/SHARKTANK.jpg",
         "smallDesc": "Do you see the world around you in vivid colours? Does every ordinary occurrence play out differently in your imagination? ",
-        "fullDesc": "If you found yourself saying yes, then we've got the perfect event for you! Sha rk tank will tingle your senses and kick your creativity into ge ar.",
+        "fullDesc": "If you found yourself saying yes, then we've got the perfect event for you! Shark tank will tingle your senses and kick your creativity into gear.",
         "roundDetails": {
             "Round 1: ":
                 ["A written test based on logos and taglines. The time limit to solve is 30 minutes.Top 70 teams will qualify to the next round."],
             "Round 2:":
-                ["The qua lified te am s will have to create an advertisement video of a particular technical product and present it.The time limit for the video is 7.5 to 2 minutes.A period of 1day will be given to prepare the video.There is no restriction on the number of actors in the video.Time limit to present is 5 minutes."],
+                ["The qualified teams will have to create an advertisement video of a particular technical product and present it.The time limit for the video is 7.5 to 2 minutes.A period of 1 day will be given to prepare the video.There is no restriction on the number of actors in the video.Time limit to present is 5 minutes."],
 
         },
 
         "rules": [
             "Work alone or in a team and utilize your advertising knowledge to leave your audience mesmerized.",
             "Teams can include a maximum of 3 members.",
-            "Plagiarized content found in any video will lead to immediate disqualifica tion.",
+            "Plagiarized content found in any video will lead to immediate disqualification.",
             "Decision of the judges will be final in all regards.",
 
 
@@ -2232,8 +2231,8 @@ export const eventData = [
 
         "judgingCriteria": [
             "Target market and problem solving capability",
-            "Creativity & uniquenessin the  idea proposed",
-            "Time limit(2 min video presenta t ion + S min onstage presentation)",
+            "Creativity & uniqueness in the idea proposed",
+            "Time limit(2 min video presentation + 5 min onstage presentation)",
             "Soft skills & presentation",
             "Knowledge about the topic",
 
@@ -2247,7 +2246,7 @@ export const eventData = [
             },
             {
                 "name": "Nidish Rao",
-                "phoneNumber": "6362 468 208",
+                "phoneNumber": "6362468208",
                 "emailID": "nidishnrao@gmail.com",
             }
 
@@ -2267,19 +2266,19 @@ export const eventData = [
         "branch": "ECE",
         "image": "/events/EC/SHARKTANK.jpg",
         "smallDesc": "Do you see the world around you in vivid colours? Does every ordinary occurrence play out differently in your imagination? ",
-        "fullDesc": "If you found yourself saying yes, then we've got the perfect event for you! Sha rk tank will tingle your senses and kick your creativity into ge ar.",
+        "fullDesc": "If you found yourself saying yes, then we've got the perfect event for you! Shark tank will tingle your senses and kick your creativity into gear.",
         "roundDetails": {
             "Round 1: ":
                 ["A written test based on logos and taglines. The time limit to solve is 30 minutes.Top 70 teams will qualify to the next round."],
             "Round 2:":
-                ["The qua lified te am s will have to create an advertisement video of a particular technical product and present it.The time limit for the video is 7.5 to 2 minutes.A period of 1day will be given to prepare the video.There is no restriction on the number of actors in the video.Time limit to present is 5 minutes."],
+                ["The qualified teams will have to create an advertisement video of a particular technical product and present it.The time limit for the video is 7.5 to 2 minutes.A period of 1 day will be given to prepare the video.There is no restriction on the number of actors in the video.Time limit to present is 5 minutes."],
 
         },
 
         "rules": [
             "Work alone or in a team and utilize your advertising knowledge to leave your audience mesmerized.",
             "Teams can include a maximum of 3 members.",
-            "Plagiarized content found in any video will lead to immediate disqualifica tion.",
+            "Plagiarized content found in any video will lead to immediate disqualification.",
             "Decision of the judges will be final in all regards.",
 
 
@@ -2288,8 +2287,8 @@ export const eventData = [
 
         "judgingCriteria": [
             "Target market and problem solving capability",
-            "Creativity & uniquenessin the  idea proposed",
-            "Time limit(2 min video presenta t ion + S min onstage presentation)",
+            "Creativity & uniqueness in the idea proposed",
+            "Time limit(2 min video presentation + 5 min onstage presentation)",
             "Soft skills & presentation",
             "Knowledge about the topic",
 
@@ -2302,14 +2301,15 @@ export const eventData = [
                 "emailID": "akash.h.prabhu.ll@gmail.com"
             },
             {
-                "name": "Nid ish Rao",
-                "phoneNumber": "6362 468 208",
+                "name": "Nidish Rao",
+                "phoneNumber": "6362468208",
                 "emailID": "nidishnrao@gmail.com",
             }
 
 
 
         ]
+
 
     },
 
@@ -2321,25 +2321,25 @@ export const eventData = [
         "venue": "NC 11, 12 ,13 ,15",
         "branch": "CSE",
         "image": "/events/CS/Sherlocked.png",
-        "smallDesc": "Do you see the world around you in vivid colours? Does every ordinary occurrence play out differently in your imagination? ",
-        "fullDesc": "Don your trench coats and magnifying glasses. Work your brain to its full potential as you journey through all the facts and info rma t ion and emerge victoriously. An event to portray how erudite and witty you are to read between the lines. ",
+        "smallDesc": "An event to portray how erudite and witty you are to read between the lines. Do you have what it takes to unlock the SHER-LOCKED?",
+        "fullDesc": "Don your trench coats and magnifying glasses. Work your brain to its full potential as you journey through all the facts and information and emerge victoriously. An event to portray how erudite and witty you are to read between the lines. ",
         "roundDetails": {
             "Round 1: ":
-                ["The East Wind is imminent The east wind is coming to get you and only the clever survive.Includes a set of mystery cases, puzzles, and simple questions on aptitude and general knowledge.Top 8 teams shall be shortlisted for the next round."],
+                ["The East Wind is imminent The east wind is coming to get you and only the clever survive. Includes a set of mystery cases, puzzles, and simple questions on aptitude and general knowledge.Top 8 teams shall be shortlisted for the next round."],
             "Round 2: ":
-                ["Be on the lookout, will one lead to another!? The participants will have to perform a set of tasks and go in search of clues that will take them a step closer to solving the murder mystery Top 4 teams will advance to the final roundThe Beginning is the End!"],
+                ["Be on the lookout, will one lead to another!? The participants will have to perform a set of tasks and go in search of clues that will take them a step closer to solving the murder mystery Top 4 teams will advance to the final round. The Beginning is the End!"],
             "Round 3: ":
-                ["The Murder Mystery!If you've made it this far, don't you think you can make it till the end!?The final quest is on! Ignorance of obvious things can cost you your final output! Are you a keen observer? If so, then go ahead and solve this final round.Let's meet at the decrypted stateWhat is it that youthink you possess to unra vel the mystery? Crack the cryptic and provide justice because that's what a detective does"],
+                ["The Murder Mystery! If you've made it this far, don't you think you can make it till the end!? The final quest is on! Ignorance of obvious things can cost you your final output! Are you a keen observer? If so, then go ahead and solve this final round. Let's meet at the decrypted state. What is it that you think you possess to unravel the mystery? Crack the cryptic and provide justice because that's what a detective does"],
 
         },
 
         "rules": [
             "Only students pursuing an engineering degree are allowed to participate.",
             "Two members in a team.",
-            "Team members must be from the same colleg e.",
+            "Team members must be from the same college.",
             "The teams must adhere to the spirit of healthy competition.",
-            "Use of calcula to rs and mobile phones isn't allowed unless specified for the Final round.",
-            "The decision of the judges and  organizers is final and irrevocable.",
+            "Use of calculators and mobile phones isn't allowed unless specified for the Final round.",
+            "The decision of the judges and organizers is final and irrevocable.",
 
 
 
@@ -2379,27 +2379,25 @@ export const eventData = [
         "venue": "NC 34, 35 & LD LAB",
         "branch": "CSE",
         "image": "/events/CS/Sherlocked.png",
-        "smallDesc": "Do you see the world around you in vivid colours? Does every ordinary occurrence play out differently in your imagination? ",
-        "fullDesc": "Don your trench coats and magnifying glasses. Work your brain to its full potential as you journey through all the facts and info rma t ion and emerge victoriously. An event to portray how erudite and witty you are to read between the lines. ",
+        "smallDesc": "An event to portray how erudite and witty you are to read between the lines. Do you have what it takes to unlock the SHER-LOCKED?",
+        "fullDesc": "Don your trench coats and magnifying glasses. Work your brain to its full potential as you journey through all the facts and information and emerge victoriously. An event to portray how erudite and witty you are to read between the lines. ",
         "roundDetails": {
             "Round 1: ":
-                ["The East Wind is imminent The east wind is coming to get you and only the clever survive.Includes a set of mystery cases, puzzles, and simple questions on aptitude and general knowledge.Top 8 teams shall be shortlisted for the next round."],
+                ["The East Wind is imminent The east wind is coming to get you and only the clever survive. Includes a set of mystery cases, puzzles, and simple questions on aptitude and general knowledge.Top 8 teams shall be shortlisted for the next round."],
             "Round 2: ":
-                ["Be on the lookout, will one lead to another!? The participants will have to perform a set of tasks and go in search of clues that will take them a step closer to solving the murder mystery Top 4 teams will advance to the final roundThe Beginning is the End!"],
+                ["Be on the lookout, will one lead to another!? The participants will have to perform a set of tasks and go in search of clues that will take them a step closer to solving the murder mystery Top 4 teams will advance to the final round. The Beginning is the End!"],
             "Round 3: ":
-                ["The Murder Mystery!If you've made it this far, don't you think you can make it till the end!?The final quest is on! Ignorance of obvious things can cost you your final output! Are you a keen observer? If so, then go ahead and solve this final round.Let's meet at the decrypted stateWhat is it that youthink you possess to unra vel the mystery? Crack the cryptic and provide justice because that's what a detective does"],
+                ["The Murder Mystery! If you've made it this far, don't you think you can make it till the end!? The final quest is on! Ignorance of obvious things can cost you your final output! Are you a keen observer? If so, then go ahead and solve this final round. Let's meet at the decrypted state. What is it that you think you possess to unravel the mystery? Crack the cryptic and provide justice because that's what a detective does"],
 
         },
 
         "rules": [
             "Only students pursuing an engineering degree are allowed to participate.",
             "Two members in a team.",
-            "Team members must be from the same colleg e.",
+            "Team members must be from the same college.",
             "The teams must adhere to the spirit of healthy competition.",
-            "Use of calcula to rs and mobile phones isn't allowed unless specified for the Final round.",
-            "The decision of the judges and  organizers is final and irrevocable.",
-
-
+            "Use of calculators and mobile phones isn't allowed unless specified for the Final round.",
+            "The decision of the judges and organizers is final and irrevocable.",
 
 
         ],
@@ -2410,7 +2408,6 @@ export const eventData = [
 
 
         ],
-
         "contactDetails": [
             {
                 "name": "Manish R Bekal",
@@ -2437,12 +2434,12 @@ export const eventData = [
         "branch": "ECE",
         "image": "/events/EC/SHUTTERUP.jpg",
         "smallDesc": "Gear up, focus in and click on!",
-        "fullDesc": "You can look at a picture for a week and never think of it for a second.You can  also look at a picture for a second and think of it all your life.Shutter up is an event for all photo enthusiasts to show the world a story that cannot be put into words.",
+        "fullDesc": "You can look at a picture for a week and never think of it for a second. You can also look at a picture for a second and think of it all your life. Shutter up is an event for all photo enthusiasts to show the world a story that cannot be put into words.",
         "roundDetails": {
             "Round 1:":
                 ["The preliminary round will test the participants' skill in photography wherein the participants have to click pictures related to the given topic."],
             "Round 2:":
-                ["The second round is a picture Treasure Hunt.The part icipants have to click pictures once they crack the clue.The first five teams to finish with better pictures will proceed to the next round."],
+                ["The second round is a picture Treasure Hunt.The participants have to click pictures once they crack the clue. The first five teams to finish with better pictures will proceed to the next round."],
             "Round 3:":
                 ["This is the final round and participants' will be given a theme. Each team should click pictures and build a story based on the given theme."],
 
@@ -2450,17 +2447,13 @@ export const eventData = [
 
         "rules": [
             "Any number of teams per college is allowed, each team can comprise of 2 or 3 members.",
-            "On spot event registrations before the commencement of  the  first round is permitted.",
+            "On spot event registrations before the commencement of the  first round is permitted.",
             "College ID and PIO are compulsory.",
-            "Any camera can be used.Mobile cameras also can be used.Soft copy of the clicked pictures must be submitted.",
-            "Topic will be announced on the spot.Pictures must be clicked strictly within the campus.",
-            "Original photos have to be submitted.Processing or usage of software filters is not allowed, if found otherwise it will result in direct disqualification.",
-            "Part icipants should submit pictures within the time limit provided.Downloaded pictures, using interne t or any other form of malpractice is strictly banned and will result in disqualification.",
-            "All	the	participants	must	strictly	adhere	to	COVID - 19	regulations throughout the event.",
-
-
-
-
+            "Any camera can be used. Mobile cameras also can be used.Soft copy of the clicked pictures must be submitted.",
+            "Topic will be announced on the spot. Pictures must be clicked strictly within the campus.",
+            "Original photos have to be submitted. Processing or usage of software filters is not allowed, if found otherwise it will result in direct disqualification.",
+            "Participants should submit pictures within the time limit provided. Downloaded pictures, using internet or any other form of malpractice is strictly banned and will result in disqualification.",
+            "All the participants must strictly	adhere to COVID - 19 regulations throughout the event.",
 
         ],
 
@@ -2500,12 +2493,12 @@ export const eventData = [
         "branch": "ECE",
         "image": "/events/EC/SHUTTERUP.jpg",
         "smallDesc": "Gear up, focus in and click on!",
-        "fullDesc": "You can look at a picture for a week and never think of it for a second.You can  also look at a picture for a second and think of it all your life.Shutter up is an event for all photo enthusiasts to show the world a story that cannot be put into words.",
+        "fullDesc": "You can look at a picture for a week and never think of it for a second. You can also look at a picture for a second and think of it all your life. Shutter up is an event for all photo enthusiasts to show the world a story that cannot be put into words.",
         "roundDetails": {
             "Round 1:":
                 ["The preliminary round will test the participants' skill in photography wherein the participants have to click pictures related to the given topic."],
             "Round 2:":
-                ["The second round is a picture Treasure Hunt.The part icipants have to click pictures once they crack the clue.The first five teams to finish with better pictures will proceed to the next round."],
+                ["The second round is a picture Treasure Hunt.The participants have to click pictures once they crack the clue. The first five teams to finish with better pictures will proceed to the next round."],
             "Round 3:":
                 ["This is the final round and participants' will be given a theme. Each team should click pictures and build a story based on the given theme."],
 
@@ -2513,17 +2506,13 @@ export const eventData = [
 
         "rules": [
             "Any number of teams per college is allowed, each team can comprise of 2 or 3 members.",
-            "On spot event registrations before the commencement of  the  first round is permitted.",
+            "On spot event registrations before the commencement of the  first round is permitted.",
             "College ID and PIO are compulsory.",
-            "Any camera can be used.Mobile cameras also can be used.Soft copy of the clicked pictures must be submitted.",
-            "Topic will be announced on the spot.Pictures must be clicked strictly within the campus.",
-            "Original photos have to be submitted.Processing or usage of software filters is not allowed, if found otherwise it will result in direct disqualification.",
-            "Part icipants should submit pictures within the time limit provided.Downloaded pictures, using interne t or any other form of malpractice is strictly banned and will result in disqualification.",
-            "All	the	participants	must	strictly	adhere	to	COVID - 19	regulations throughout the event.",
-
-
-
-
+            "Any camera can be used. Mobile cameras also can be used. Soft copy of the clicked pictures must be submitted.",
+            "Topic will be announced on the spot. Pictures must be clicked strictly within the campus.",
+            "Original photos have to be submitted. Processing or usage of software filters is not allowed, if found otherwise it will result in direct disqualification.",
+            "Participants should submit pictures within the time limit provided. Downloaded pictures, using internet or any other form of malpractice is strictly banned and will result in disqualification.",
+            "All the participants must strictly	adhere to COVID - 19 regulations throughout the event.",
 
         ],
 
@@ -2562,7 +2551,7 @@ export const eventData = [
         "venue": "SADANANDA GROUND",
         "branch": "CIVIL",
         "image": "/events/CV/SlowBikeRace.jpg",
-        "smallDesc": "Skill in rid ing is not about how fast you can go, but about how steady you are in the trickiest roads. ",
+        "smallDesc": "Skill in riding is not about how fast you can go, but about how steady you are in the trickiest roads. ",
         "fullDesc": "For all the bike enthusiasts, we present to you the SLOW BIKE RACE. It's your road. Others can ride it with you, not for you. For all the bike enthusiasts, we present to you- the Slow Bike Race, where for once, coming last is in your favour.",
         "roundDetails": {
             "Round 1": ["Participants have to ride the motorcycle on a plain track, and those reaching the finish line at the last will be selected for the next round"],
