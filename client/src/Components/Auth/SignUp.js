@@ -133,16 +133,7 @@ const SignUp = ({ signIn }) => {
                     <Button onClick={clearMsg} type='submit' className={`mt-2 inline-flex items-center justify-center gap-3  ${loading ? "opacity-90" : "opacity-100"}`} disabled={loading} >
                       {loading ? <> <AiOutlineLoading3Quarters className=" animate-spin text-lg " /> <span className=''>Sending Email...</span></> : 'Send Verification Email'}
                     </Button>}
-                    {
-                        <div className='mt-8'>
-                          <h3 className='text-xl font-bold text-gray-300'>Important note!</h3>
-                          <ul className='list-disc text-gray-400'>
-                  {isNmamit && <li>Make sure to use your college ID.</li>}
-                  {<li>Refunds will not be entertained.</li>}
-
-                          </ul>
-                        </div>
-                    }
+                    
                   {!otpVerified && valid && (
                     <div className=''>
                       <InputField onChange={(e) => {
@@ -169,8 +160,19 @@ const SignUp = ({ signIn }) => {
 
                     </>
                   }
+                  
                   {otpVerified && <Payment email={formik.values.mail} successSpan={successSpan} clearMsg={clearMsg} className="mt-1" type="button" />}
+                  {
+                        <div className='mt-9 '>
+                          <h3 className='text-xl text-gray-300 mb-1'>PLEASE NOTE!</h3>
+                  
+                          <ul className='list-inside list-disc text-gray-400'>
+                  {isNmamit && <li>You must use your college email ID.</li>}
+                  {<li>We hold no refund policies.</li>}
 
+                          </ul>
+                        </div>
+                    }
                 </SignInFormCustom>
               </SignUpContainer>
             </Form>

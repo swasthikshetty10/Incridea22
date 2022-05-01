@@ -39,16 +39,16 @@ const LoginForm = () => {
 							<LeftOverlayPanel signingIn={signIn}>
 								<Title className='font-title'>Welcome Back Traveller!</Title>
 								<Paragraph>
-									To keep connected with us please login with your personal info
+									Hop on in, the journey still awaits!
 								</Paragraph>
 								<GhostButton type='button' onClick={() => toggle(true)}>
 									Sign In
 								</GhostButton>
 							</LeftOverlayPanel>
 							<RightOverlayPanel signingIn={signIn}>
-								<Title className='font-title'>Hello Traveller, time to gear up!</Title>
+								<Title className='font-title'>Hello traveller, time to gear up!</Title>
 								<Paragraph>
-									Start your journey with us
+									The vast expenses of the sky lie uncovered; start your journey with Incridea now!
 								</Paragraph>
 								<GhostButton type='button' onClick={() => toggle(false)}>
 									Sign Up
