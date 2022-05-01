@@ -102,9 +102,16 @@ function Register() {
         loading ? <>
             <Loader fixed="fixed  " animate={true} />
         </> :
+<<<<<<< HEAD
+            <Container className='loginForm' >
+                <div className='bg-black text-center p-6 md:p-10 text-white w-full'>
+                    <h1 className="py-3 font-semibold text-2xl font-title" style={{fontFamily:'PlayFair'}}>Hello {email} <br></br> One Last Step!</h1>
+                    <p>Please Enter the details below to register</p>
+=======
             <Container className='pb-36 lg:pb-5 font-body loginForm'>
                 <div className='bg-black text-center p-6 md:p-10 text-white w-full'>
                     <h1 className="py-3 font-semibold text-2xl ">Hello {email} <br></br> One Last Step To Take Off!</h1>
+>>>>>>> 4b6484d29a355895ac61dc4dc993b100d408db4b
                 </div>
                 <Formik
                     initialValues={initialValues}

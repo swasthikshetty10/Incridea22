@@ -37,7 +37,7 @@ const LoginForm = () => {
 					<OverlayContainer signingIn={signIn}>
 						<Overlay signingIn={signIn}>
 							<LeftOverlayPanel signingIn={signIn}>
-								<Title>Welcome Back!</Title>
+								<Title className='font-title'>Welcome Back Traveller!</Title>
 								<Paragraph>
 									To keep connected with us please login with your personal info
 								</Paragraph>
@@ -46,9 +46,9 @@ const LoginForm = () => {
 								</GhostButton>
 							</LeftOverlayPanel>
 							<RightOverlayPanel signingIn={signIn}>
-								<Title>Hello, Friend!</Title>
+								<Title className='font-title'>Hello Traveller, time to gear up!</Title>
 								<Paragraph>
-									Enter your personal details and start journey with us
+									Start your journey with us
 								</Paragraph>
 								<GhostButton type='button' onClick={() => toggle(false)}>
 									Sign Up
