@@ -108,7 +108,7 @@ export const persons = [
     img: "/team/Praveen.png", email: "rithesh13bekal@gmail.com", mob: "9663094655",
   },
   {
-    name: "PREM",
+    name: "PREM DEVADIGA",
     role: "",
     img: "/team/Prem.png", email: "rithesh13bekal@gmail.com", mob: "9663094655",
   },
