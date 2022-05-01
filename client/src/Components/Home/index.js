@@ -45,9 +45,9 @@ function Home() {
               <p className="text-gray-100 font-body text-lg  text-justify" >An amalgamation of all forms of technical, literary and cultural activities. Incridea is a celebration of fervour and talent. It is the national level techno-cultural fest of
                 <a target="blank" className="  text-[#cd9b58] hover:text-white transition-colors ease-out text-base" href="https://nmamit.nitte.edu.in/"> NMAM Institute of Technology</a>, Nitte.
               </p>
-              <Link to="/login">
-                <div className="select-none bg-white border-0 text-white transition ease-in duration-100 hover:bg-white/25  text-wh  ite bg-opacity-10 hover:text-white. px-6 py-2 w-fit font-body  text-center " >
-                  {user === null ? "Registrations Open Now." : `Hey ${user.name} `}
+              <Link to={user ? "/events" : "/login"}>
+                <div className="select-none bg-white border-0 text-white cursor-pointer transition ease-in duration-100 hover:bg-white/25  text-wh  ite bg-opacity-10 hover:text-white. px-6 py-2 w-fit font-body  text-center " >
+                  {user === null ? "Registrations Open Now." : `Checkout Events`}
                 </div>
               </Link>
             </div>

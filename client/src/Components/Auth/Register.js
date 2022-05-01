@@ -104,7 +104,7 @@ function Register() {
         </> :
             <Container className='pb-36 lg:pb-5 font-body loginForm'>
                 <div className='bg-black text-center p-6 md:p-10 text-white w-full'>
-                    <h1 className="py-3 font-semibold text-2xl font-title">Hello {email} <br></br> One Last Step To Take Off!</h1>
+                    <h1 className="py-3 font-semibold text-2xl font-title ">Hello {email} <br></br> One Last Step To Take Off!</h1>
                 </div>
                 <Formik
                     initialValues={initialValues}
