@@ -7,7 +7,7 @@ import InputField from './InputField';
 import { sendPasswordResetEmail } from 'firebase/auth';
 import { auth } from '../../firebaseConfig';
 import { AiOutlineLoading3Quarters } from 'react-icons/ai'
-import { useNavigate } from 'react-router-dom';
+
 const ForgotPass = () => {
 	const initialValues = {
 		mail: '',
@@ -17,7 +17,8 @@ const ForgotPass = () => {
 		mail: Yup.string().email().required('Email is required'),
 	});
 	const [loading, setLoading] = useState(false)
-	const navigate = useNavigate()
+
+	const [res, setRes] = useState({})
 	return (
 		<Formik
 			initialValues={initialValues}
@@ -27,11 +28,12 @@ const ForgotPass = () => {
 
 				sendPasswordResetEmail(auth, values.mail).then(() => {
 					setLoading(false)
-					alert(`Check ${values.mail} mail to reset the password`);
-					navigate("/login")
+					setRes({color:'gray-400', text: 'Check your mail to reset the password'})
+
 				}).catch(() => {
-					alert("Some thing went wrong")
-					navigate("/login")
+					setRes({color:'red-500', text: 'Invalid email entered'})
+					setLoading(false)
+
 				})
 			}}
 		>
@@ -41,7 +43,8 @@ const ForgotPass = () => {
 						<Form className='formBox'>
 							<Title>Forgot Password</Title>
 							<InputField name='mail' type='text' placeholder='Email' />
-							<Button className='inline-flex gap-2' type='submit'>
+							{res.text && <p className={`text-${res.color}`}>{res.text}</p>}
+							<Button className='inline-flex gap-2 my-2' type='submit'>
 								{loading ? <> <AiOutlineLoading3Quarters className=" animate-spin text-lg " /> <span className=''>Sending Email..</span></> : 'Reset Password'}
 
 							</Button>

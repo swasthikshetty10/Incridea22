@@ -1,32 +1,25 @@
-import React, { useContext, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { getUserInfo } from "../../firebaseConfig";
 import QRCode from "qrcode";
 import fileDownload from "js-file-download";
 import axios from "axios";
-import { Link, useNavigate } from "react-router-dom";
-import { AuthContext } from "../../Context/AuthContext";
 import { HiOutlineMail, HiUser } from "react-icons/hi"
 import { MdPhoneAndroid } from "react-icons/md"
 import { BsCloudDownload } from "react-icons/bs"
 
-function Details() {
+function Details({user}) {
 
     const [src, setSrc] = useState("");
-    const user = useContext(AuthContext)
-    const navigate = useNavigate();
 
     useEffect(() => {
-        if (user == null) {
-            navigate("/login");
-        }
         QRCode.toDataURL("pid").then((data) => {
             setSrc(data);
         });
     }, [user]);
 
+
     const [participant, setParticipant] = useState({});
     useEffect(() => {
-
         getUserInfo(user.uid)
             .then((participant) => {
                 setParticipant(participant);
