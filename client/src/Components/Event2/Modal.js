@@ -1,5 +1,5 @@
 import React from 'react'
-import { BsFillCalendar3RangeFill, } from "react-icons/bs";
+import { BsFillCalendar3RangeFill } from "react-icons/bs";
 import { FaBuilding } from "react-icons/fa";
 import { GoLocation } from "react-icons/go";
 import { IoIosArrowBack } from "react-icons/io";

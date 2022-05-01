@@ -21,6 +21,9 @@ import UserInput from './Components/Auth/UserInput';
 import { AuthProvider } from './Context/AuthContext'
 import { auth } from "./firebaseConfig";
 import Profile from "./Components/Profile"
+
+
+
 const ScrollToTop = (props) => {
   const location = useLocation();
   useEffect(() => {
