@@ -83,7 +83,7 @@ function Navbar({ tab, sticky }) {
               <li>
                 <Link
                   to="/"
-                  className={`block py-2 pr-4 pl-3  border-none  text-xl  font-nav font-bold hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${tab === "home" ? "text-[#9d7643]" : "text-[#EDEDED]"
+                  className={`block py-2 pr-4 pl-3 bg-transparent active:text-white focus:text-white border-none  text-xl  font-nav font-bold hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${tab === "home" ? "text-[#9d7643]" : "text-[#EDEDED]"
                     } `}
                   aria-current="page"
                 >
@@ -93,7 +93,7 @@ function Navbar({ tab, sticky }) {
               <li>
                 <Link
                   to="/events"
-                  className={`block py-2 pr-4 pl-3  border-none text-xl font-nav  font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${tab === "events" ? "text-[#9d7643]" : "text-[#EDEDED]"
+                  className={`block py-2 pr-4 pl-3 bg-transparent border-none text-xl font-nav  font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${tab === "events" ? "text-[#9d7643]" : "text-[#EDEDED]"
                     } `}
                 >
                   events
@@ -102,7 +102,7 @@ function Navbar({ tab, sticky }) {
               <li>
                 <Link
                   to="/pronite"
-                  className={`block py-2 pr-4 pl-3   text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${tab === "pronite" ? "text-[#9d7643]" : "text-[#EDEDED]"
+                  className={`block py-2 pr-4 pl-3 bg-transparent  text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${tab === "pronite" ? "text-[#9d7643]" : "text-[#EDEDED]"
                     } `}
                 >
                   pronites
@@ -111,7 +111,7 @@ function Navbar({ tab, sticky }) {
               <li>
                 <Link
                   to="/gallery"
-                  className={`block py-2 pr-4 pl-3   text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${tab === "gallery" ? "text-[#9d7643]" : "text-[#EDEDED]"
+                  className={`block py-2 pr-4 pl-3 bg-transparent  text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${tab === "gallery" ? "text-[#9d7643]" : "text-[#EDEDED]"
                     } `}
                 >
                   gallery
@@ -121,7 +121,7 @@ function Navbar({ tab, sticky }) {
               <li>
                 <Link
                   to="/sponsors"
-                  className={`block py-2 pr-4 pl-3   text-xl  font-nav font-bold hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${tab === "sponsors" ? "text-[#9d7643]" : "text-[#EDEDED]"
+                  className={`block py-2 pr-4 pl-3 bg-transparent  text-xl  font-nav font-bold hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${tab === "sponsors" ? "text-[#9d7643]" : "text-[#EDEDED]"
                     } `}
                 >
                   sponsors
@@ -131,7 +131,7 @@ function Navbar({ tab, sticky }) {
               <li>
                 <Link
                   to="/team"
-                  className={`block py-2 pr-4 pl-3   text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${tab === "team" ? "text-[#9d7643]" : "text-[#EDEDED]"
+                  className={`block py-2 pr-4 pl-3 bg-transparent text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#9d7643] md:p-0 ${tab === "team" ? "text-[#9d7643]" : "text-[#EDEDED]"
                     } `}
                 >
                   about us
