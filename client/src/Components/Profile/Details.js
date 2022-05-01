@@ -12,7 +12,7 @@ function Details({user}) {
     const [src, setSrc] = useState("");
 
     useEffect(() => {
-        QRCode.toDataURL("pid").then((data) => {
+        QRCode.toDataURL(participant.pId).then((data) => {
             setSrc(data);
         });
     }, [user]);
