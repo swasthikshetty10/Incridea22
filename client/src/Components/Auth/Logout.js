@@ -7,7 +7,7 @@ function Logout(props) {
     return (
         <button  {...props} onClick={() => {
             signOut(auth);
-        }}>Logout  </button>
+        }}>logout  </button>
     )
 }
 
