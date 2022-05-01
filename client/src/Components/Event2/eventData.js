@@ -143,7 +143,7 @@ export const eventData = [
 
         "contactDetails": [
             {
-                "name": " Moghe Sudheesh Rao",
+                "name": "Moghe Sudheesh Rao",
                 "phoneNumber": "+919902145643",
 
             },
@@ -341,7 +341,7 @@ export const eventData = [
             "Round 3": [
                 "Final Round: Two participants will be called on the stage simultaneously.",
                 "Songs will be played impromptu for which the participants are expected to face - off",
-                "The first part icipant has to stop at the buzzer.The second participant has to start dancing immediately to the same song.",
+                "The first participant has to stop at the buzzer.The second participant has to start dancing immediately to the same song.",
                 "There will be three such throw-downs.",
             ],
 
@@ -3067,10 +3067,7 @@ export const eventData = [
             "In the 2nd round, the top 3 teams will be selected based on the handling of the equipment and the accuracy of the results.",
             "In the 3rd round, judgment will be based on the time and accuracy of the result.",
             "Judges decision is final",
-
-
-
-        ],
+                ],
 
 
         "contactDetails": [
@@ -3397,16 +3394,16 @@ export const eventData = [
         "name": "BOB THE BUILDER",
         "round": "1",
         "day": "2",
-        "Time": "12:00 am",
+        "Time": "12:00 pm",
         "venue": "NC 13",
         "branch": "CIVIL",
         "image": "/events/CV/BOB THE BUILDER.png",
-        "smallDesc": " A step to test your skills of past by constructing your creativity in present. Here's a chal leng e to live your childhood again, ask yourself Can you fix it? We present to you BOB THE BUILDER.",
-        "fullDesc": "Each team consist of 3 members. Consists of three rounds .All required materials will be provided.",
+        "smallDesc": " A step to test your skills of past by constructing your creativity in present. Here's a challenge to live your childhood again, ask yourself Can you fix it? We present to you BOB THE BUILDER.",
+        "fullDesc": "Each team consist of 3 members. Consists of three rounds. All required materials will be provided.",
         "roundDetails": {
 
             "Round 1": ["Preliminary Round -25 aptitude questions will be given. Time allotted is 20 minutes"],
-            "Round 2": ["Eliminator Round- Model a staircase using ice - cream sticks for minimum height.Aesthet ics and timing will be the judging criteria.Top 7 teams will qualify for the final round."],
+            "Round 2": ["Eliminator Round- Model a staircase using ice - cream sticks for minimum height. Aesthetics and timing will be the judging criteria.Top 7 teams will qualify for the final round."],
             "Round 3": [
                 "Finals- Miniature bricks, ice - cream sticks, cardboard and clay will be provided. Participants have to make a model of a house using these materials. The plans for these houses will be provided."],
 
@@ -3435,12 +3432,12 @@ export const eventData = [
             {
                 "name": "Sinchana J Suvarna",
                 "phoneNumber": "8762866341",
-                "emailID": "suvarnasincha na12@g ma il.com"
+                "emailID": "suvarnasinchana12@gmail.com"
             },
             {
                 "name": "Sowjanya M ",
                 "phoneNumber": "7619211945",
-                "emailID": "sowja nya mukesh0S @g mail.com",
+                "emailID": "sowjanyamukesh0S@gmail.com",
             }
 
 
@@ -3457,12 +3454,12 @@ export const eventData = [
         "venue": "NC 15 & CT Lab",
         "branch": "CIVIL",
         "image": "/events/CV/BOB THE BUILDER.png",
-        "smallDesc": " A step to test your skills of past by constructing your creativity in present. Here's a chal leng e to live your childhood again, ask yourself Can you fix it? We present to you BOB THE BUILDER.",
-        "fullDesc": "Each team consist of 3 members. Consists of three rounds .All required materials will be provided.",
+        "smallDesc": " A step to test your skills of past by constructing your creativity in present. Here's a challenge to live your childhood again, ask yourself Can you fix it? We present to you BOB THE BUILDER.",
+        "fullDesc": "Each team consist of 3 members. Consists of three rounds . All required materials will be provided.",
         "roundDetails": {
 
             "Round 1": ["Preliminary Round -25 aptitude questions will be given. Time allotted is 20 minutes"],
-            "Round 2": ["Eliminator Round- Model a staircase using ice - cream sticks for minimum height.Aesthet ics and timing will be the judging criteria.Top 7 teams will qualify for the final round."],
+            "Round 2": ["Eliminator Round- Model a staircase using ice - cream sticks for minimum height. Aesthetics and timing will be the judging criteria.Top 7 teams will qualify for the final round."],
             "Round 3": [
                 "Finals- Miniature bricks, ice - cream sticks, cardboard and clay will be provided. Participants have to make a model of a house using these materials. The plans for these houses will be provided."],
 
@@ -3491,13 +3488,14 @@ export const eventData = [
             {
                 "name": "Sinchana J Suvarna",
                 "phoneNumber": "8762866341",
-                "emailID": "suvarnasincha na12@g ma il.com"
+                "emailID": "suvarnasinchana12@gmail.com"
             },
             {
                 "name": "Sowjanya M ",
                 "phoneNumber": "7619211945",
-                "emailID": "sowja nya mukesh0S @g mail.com",
+                "emailID": "sowjanyamukesh0S@gmail.com",
             }
+
 
 
 
@@ -3509,18 +3507,18 @@ export const eventData = [
         "name": "BRIDGE IT",
         "round": "1",
         "day": "2",
-        "Time": "12pm",
+        "Time": "9am",
         "venue": "NC 11,12",
         "branch": "CIVIL",
         "image": "/events/CV/BridgeIt.jpg",
-        "smallDesc": "\"Efforts and hard work construct the bridge that connects your dream to reality\", If you think  you can  build the lightest bridge with the highest struct ura l efficiency this is the right place to be!",
-        "fullDesc": "Each team consist of 3 members. Consists of three rounds.All required materials will be provided.",
+        "smallDesc": "\"Efforts and hard work construct the bridge that connects your dream to reality\", If you think  you can build the lightest bridge with the highest structural efficiency this is the right place to be!",
+        "fullDesc": "Each team consist of 3 members. Consists of three rounds. All required materials will be provided.",
         "roundDetails": {
 
-            "Round 1": ["Preliminary Round -Each team should consist of 3 members. 25 MCQ questions will be given on the spot. Time allotted is 15 minutes.Top 12 tea ms will qualify for the next round "],
-            "Round 2": ["Puzzle hunt-The participants will be given certain crosswords followed by tasks to perform.Timings will be the main judging criteria.Top 8 teams will qualify for the final round"],
+            "Round 1": ["Preliminary Round -Each team should consist of 3 members. 25 MCQ questions will be given on the spot. Time allotted is 15 minutes.Top 12 teams will qualify for the next round "],
+            "Round 2": ["Puzzle hunt - The participants will be given certain crosswords followed by tasks to perform. Timings will be the main judging criteria.Top 8 teams will qualify for the final round"],
             "Round 3": [
-                "Materials will be provided to the selec ted teams.Minimum height and dimensions will be specified on the spot.Every team is free to construct their own design."],
+                "Materials will be provided to the selected teams. Minimum height and dimensions will be specified on the spot.Every team is free to construct their own design."],
 
 
         },
@@ -3530,18 +3528,14 @@ export const eventData = [
             "Each team consists of at most 3 members",
             "The teams must register prior to the event",
             "Confirming registration on the spot is compulsory",
-            "College ID and PIO are c omp ulsory",
-            "Usage of materials ot he r than those provided is prohibited",
-
-
-
+            "College ID and PIO are compulsory",
+            "Usage of materials other than those provided is prohibited",
         ],
 
         "judgingCriteria": [
             "Evaluations will be done soon after the prelims",
             "Final round evaluation is based on height, length, aesthetic view and Loading factor.",
             "The decision of the judges is final and irrevocable.",
-
 
         ],
 
@@ -3550,12 +3544,12 @@ export const eventData = [
             {
                 "name": "Sayyaf Ahamed",
                 "phoneNumber": "9880948808",
-                "emailID": "sayyafahamed9@gm a il.c om"
+                "emailID": "sayyafahamed9@gmail.com"
             },
             {
                 "name": "Suvarna Sanjana",
                 "phoneNumber": "8104326427",
-                "emailID": "sanjana msuva rna @g mail.c om",
+                "emailID": "sanjanamsuvarna@gmail.com",
             }
 
 
@@ -3571,14 +3565,14 @@ export const eventData = [
         "venue": "NC 11,12",
         "branch": "CIVIL",
         "image": "/events/CV/BridgeIt.jpg",
-        "smallDesc": "\"Efforts and hard work construct the bridge that connects your dream to reality\", If you think  you can  build the lightest bridge with the highest struct ura l efficiency this is the right place to be!",
-        "fullDesc": "Each team consist of 3 members. Consists of three rounds.All required materials will be provided.",
+        "smallDesc": "\"Efforts and hard work construct the bridge that connects your dream to reality\", If you think  you can  build the lightest bridge with the highest structural efficiency this is the right place to be!",
+        "fullDesc": "Each team consist of 3 members. Consists of three rounds. All required materials will be provided.",
         "roundDetails": {
 
-            "Round 1": ["Preliminary Round -Each team should consist of 3 members. 25 MCQ questions will be given on the spot. Time allotted is 15 minutes.Top 12 tea ms will qualify for the next round "],
-            "Round 2": ["Puzzle hunt-The participants will be given certain crosswords followed by tasks to perform.Timings will be the main judging criteria.Top 8 teams will qualify for the final round"],
+            "Round 1": ["Preliminary Round -Each team should consist of 3 members. 25 MCQ questions will be given on the spot. Time allotted is 15 minutes.Top 12 teams will qualify for the next round"],
+            "Round 2": ["Puzzle hunt - The participants will be given certain crosswords followed by tasks to perform. Timings will be the main judging criteria.Top 8 teams will qualify for the final round"],
             "Round 3": [
-                "Materials will be provided to the selec ted teams.Minimum height and dimensions will be specified on the spot.Every team is free to construct their own design."],
+                "Materials will be provided to the selected teams. Minimum height and dimensions will be specified on the spot.Every team is free to construct their own design."],
 
 
         },
@@ -3588,18 +3582,14 @@ export const eventData = [
             "Each team consists of at most 3 members",
             "The teams must register prior to the event",
             "Confirming registration on the spot is compulsory",
-            "College ID and PIO are c omp ulsory",
-            "Usage of materials ot he r than those provided is prohibited",
-
-
-
+            "College ID and PIO are compulsory",
+            "Usage of materials other than those provided is prohibited",
         ],
 
         "judgingCriteria": [
             "Evaluations will be done soon after the prelims",
             "Final round evaluation is based on height, length, aesthetic view and Loading factor.",
             "The decision of the judges is final and irrevocable.",
-
 
         ],
 
@@ -3608,12 +3598,12 @@ export const eventData = [
             {
                 "name": "Sayyaf Ahamed",
                 "phoneNumber": "9880948808",
-                "emailID": "sayyafahamed9@gm a il.c om"
+                "emailID": "sayyafahamed9@gmail.com"
             },
             {
                 "name": "Suvarna Sanjana",
                 "phoneNumber": "8104326427",
-                "emailID": "sanjana msuva rna @g mail.c om",
+                "emailID": "sanjanamsuvarna@gmail.com",
             }
 
 
@@ -3630,21 +3620,21 @@ export const eventData = [
         "venue": "Sowparnika",
         "branch": "CIVIL",
         "image": "/events/CV/INTELLECTIUM.png",
-        "smallDesc": "It's always the sma ll pieces that make the big pictures. Here is a chance to you to solve the puzzles and to bring out the ideas in a paper by using your creative and competitive thinkingskills.",
-        "fullDesc": "\"To expect the unexpected shows thoroughly a modern intellect.\"Do you love writing research papers and presenting them nonchalantly? lnte llect ium is open now!",
+        "smallDesc": "It's always the small pieces that make the big pictures. Here is a chance to you to solve the puzzles and to bring out the ideas in a paper by using your creative and competitive thinking skills.",
+        "fullDesc": "\"To expect the unexpected shows thoroughly a modern intellect.\"Do you love writing research papers and presenting them nonchalantly? lntellectium is open now!",
         "roundDetails": {
 
-            "Round 1": ["It is on event to showcase your presenta t ion skills by writing an original paper on any research topic related to Civil Engineering, Mechanical Engineering, Electrical & Electronics Engineering, Electronics & Communication Engineering, Computer Scienc e, or Information Science Engineering",
-                "The paper presentation should be in the IEEE latex double - columnformat",
-                "The abstract must be mailed to intellect iumevent22@g ma il.com by 3 days prior to the	event.",
+            "Round 1": ["It is on event to showcase your presenta t ion skills by writing an original paper on any research topic related to Civil Engineering, Mechanical Engineering, Electrical & Electronics Engineering, Electronics & Communication Engineering, Computer Science, or Information Science Engineering",
+                "The paper presentation should be in the IEEE latex double - column format",
+                "The abstract must be mailed to intellect iumevent22@gmail.com by 3 days prior to the event.",
                 "An Oral presentation with PowerPoint should be presented for a maximum of 6 minutes",
-                "A Question and Answer session by the jud ges will be held for a duration of 2 minutes"],
+                "A Question and Answer session by the judges will be held for a duration of 2 minutes"],
 
 
         },
 
         "rules": [
-            "Time restrictions should be strictly adhered to.Any extension can lead to deduction of marks",
+            "Time restrictions should be strictly adhered to. Any extension can lead to deduction of marks",
             "Any number of teams can participate from a college",
             "The registered teams are required to have a valid photograph ID of their respective institution along with the PID",
             "The paper presented must be original",
@@ -3654,7 +3644,7 @@ export const eventData = [
 
         "judgingCriteria": [
             "The judgment will be carried out on the basis of presentation skills and creativity on paper",
-            "The rules and reg ulations must be followed, failing which the team will be disqualified",
+            "The rules and regulations must be followed, failing which the team will be disqualified",
             "The decisions taken by the judges stand final.",
 
         ],
@@ -3664,12 +3654,12 @@ export const eventData = [
             {
                 "name": "Deeksha Shetty",
                 "phoneNumber": "8762995667",
-                "emailID": "deeksha shettydota@g ma il.co m"
+                "emailID": "deekshashettydota@gmail.com"
             },
             {
-                "name": "Kausa lya Shetty",
+                "name": "Kausalya Shetty",
                 "phoneNumber": "8105162957",
-                "emailID": "kausalya21shetty @out lo o k.com",
+                "emailID": "kausalya21shetty@outlook.com",
             }
 
 
@@ -3685,56 +3675,54 @@ export const eventData = [
         "venue": "Infront of NC Block, Survery Lab",
         "branch": "ECE",
         "image": "/events/EC/ROBORACE.jpg",
-        "smallDesc": "Come let your rob ots do the running and your skills do the talking in the Robe Race this lncridea.",
-        "fullDesc": "Come let your rob ots do the running and your skills do the talking in the Robe Race this lncridea.",
+        "smallDesc": "Come let your robots do the running and your skills do the talking in the Robo Race this Incridea.",
+        "fullDesc": "Come let your robots do the running and your skills do the talking in the Robo Race this Incridea.",
         "roundDetails": {
 
-            "Round 1": ["A race bot will have to travel in a terrain with obstacles like humps, elevation and the bot to cross the finish line the quickest will be qualified to the next round. If a bot topples or goes out of the track, then it needs to start over from the previous checkp oint."],
-            "Round 2": [": A bot will face several difficu lt te rrains and will have to perform few tasks, and based on the time taken to cross the finish line performing all the tasks, the winner will be declared"],
+            "Round 1": ["A race bot will have to travel in a terrain with obstacles like humps, elevation and the bot to cross the finish line the quickest will be qualified to the next round. If a bot topples or goes out of the track, then it needs to start over from the previous checkpoint."],
+            "Round 2": ["A bot will face several difficult terrains and will have to perform few tasks, and based on the time taken to cross the finish line performing all the tasks, the winner will be declared"],
 
 
         },
 
         "rules": [
-            "ROBOT Soec:ltlcatlons",
+            "ROBOT Specification:",
             "The robot's dimensions should not exceed 30cm X 25cm X 25cm (lxbxh).",
-            "The weight of the bot should not exceed 3kgs.However, a tolerance of 5 % is acceptable.",
+            "The weight of the bot should not exceed 3kgs .However, a tolerance of 5 % is acceptable.",
             "The robot can be powered on board or off the board.",
-            "The p otent ia l difference between any two electrical points on the robot must not exceed more than 24 volts t hroug hout the run.",
+            "The potential difference between any two electrical points on the robot must not exceed more than 24 volts throughout the run.",
             "The coordinators will not be responsible for any kind of electromagnetic interference in wireless communication.",
 
-            "On ly students from the same colleg e can form a team.",
+            "Only students from the same college can form a team.",
             "You must present your college ID and PIO while registering.",
             "An individual cannot be a member of more than one team.",
             "A robot cannot be shared by two or more teams.",
-            "The robots cannot be construct ed out of ready- made kits available in the market.",
-            "The robot should follow the specificationsprovided.Any deviation from the mentioned specifications will lead to disqualifications.",
+            "The robots cannot be constructed out of ready- made kits available in the market.",
+            "The robot should follow the specificationsprovided. Any deviation from the mentioned specifications will lead to disqualifications.",
 
-            "No p ra c t ic e r u n will be allowed on the main track.",
+            "No practice run will be allowed on the main track.",
             "Both wired and wirelessbots are allowed.",
-            "The team to complete the whole track in the least a mo unt of t im e will be the winner.",
+            "The team to complete the whole track in the least amount of time will be the winner.",
             "The structure of the robot must not be changed during the competition.",
-            "If the robot falls off of any obstacle or is immobile, it will be placed b ack at the previous checkpoint crossed with a penalty.",
+            "If the robot falls off of any obstacle or is immobile, it will be placed back at the previous checkpoint crossed with a penalty.",
             "Pulling the robot with connected wires on track will lead to disqualification.",
-            "The robot should not be disassembled unt il the results are declared.",
+            "The robot should not be disassembled until the results are declared.",
             "The time measured by the organizers will be final.",
-            "Team limit: 4 memb ers",
-            "The final decision lie s in the hands of the coordinator.Coordinator reservesthe right to chang e the rounds and the rules on the da y of the event.",
-            "If the participant misbeha ves or does not obey the rulesand re gula tion of the event the coordinators have the right to disqualify the part icipants.",
-
-
+            "Team limit: 4 members",
+            "The final decision lies in the hands of the coordinator. Coordinator reserves the right to change the rounds and the rules on the day of the event.",
+            "If the participant misbehaves or does not obey the rules and regulation of the event the coordinators have the right to disqualify the participants.",
         ],
 
         "contactDetails": [
             {
                 "name": "Shraval Suvarna V",
                 "phoneNumber": "+ 91 9353871952",
-                "emailID": "4nm19me089@nm amit.in"
+                "emailID": "4nm19me089@nmamit.in"
             },
             {
                 "name": "U Sanjay Rao",
                 "phoneNumber": "+ 918660 937566",
-                "emailID": " 4nm19me101 @nma mit.in",
+                "emailID": " 4nm19me101@nmamit.in",
             }
 
 
@@ -3754,9 +3742,10 @@ export const eventData = [
         "fullDesc": "Wired! is the place you should be. Come, show us what you've got.",
         "roundDetails": {
 
-            "Round 1": ["The Prelims-A pen - paper test consisting of aptitude and technical questions.There will be 30 questions to be solved in a time interval of 30mins.The top 10 highest scoring teams will qualify for the next round."],
-            "Round 2": ["Circuit Fix-In this round, selected teams will be given with the circuits and Verilog codes.The teams have to analyze and debug the same to get the right output.The teams that complete round 2 can proceed with the 3rd round."],
-            "Round 3": [": Optimum- The teams will be given with a problem statement on Opamp circuit that needs to be designed and simulated using LT spice in the simplest way possible.The team which gets the optimal solution within the earliest possible time will be the winner.", "Round 2 & 3 will be carried out consecutively with total time duration of 3 hours"]
+            "Round 1": ["The Prelims- A pen - paper test consisting of aptitude and technical questions. There will be 30 questions to be solved in a time interval of 30 mins. The top 10 highest scoring teams will qualify for the next round."],
+            "Round 2": ["Circuit Fix-In this round, selected teams will be given with the circuits and Verilog codes. The teams have to analyze and debug the same to get the right output.The teams that complete round 2 can proceed with the 3rd round."],
+            "Round 3": ["Optimum- The teams will be given with a problem statement on Opamp circuit that needs to be designed and simulated using LT spice in the simplest way possible.The team which gets the optimal solution within the earliest possible time will be the winner.",
+                "Round 2 & 3 will be carried out consecutively with total time duration of 3 hours"]
 
         },
 
@@ -3773,7 +3762,7 @@ export const eventData = [
         ],
 
         "judgingCriteria": [
-            "Part icip ants will be judged based on the rounds by the orga nizers.",
+            "Participants will be judged based on the rounds by the organizers.",
             "Judging criteria varies in each round.",
             "In case of any complications the lecturer incharge would intervene to judge the qualifier round.",
 
@@ -3782,7 +3771,6 @@ export const eventData = [
 
         "contactDetails": [
             {
-
                 "name": "Preetham GS",
                 "phoneNumber": "9481306259",
                 "emailID": "shettigarpreetham15@gmail.com"
@@ -3790,7 +3778,7 @@ export const eventData = [
             {
                 "name": "Judith Dsouza ",
                 "phoneNumber": "9148960370",
-                "emailID": "dszjdy357@gm ail.c om",
+                "emailID": "dszjdy357@gmail.com",
             }
 
 
@@ -3811,9 +3799,10 @@ export const eventData = [
         "fullDesc": "Wired! is the place you should be. Come, show us what you've got.",
         "roundDetails": {
 
-            "Round 1": ["The Prelims-A pen - paper test consisting of aptitude and technical questions.There will be 30 questions to be solved in a time interval of 30mins.The top 10 highest scoring teams will qualify for the next round."],
-            "Round 2": ["Circuit Fix-In this round, selected teams will be given with the circuits and Verilog codes.The teams have to analyze and debug the same to get the right output.The teams that complete round 2 can proceed with the 3rd round."],
-            "Round 3": [": Optimum- The teams will be given with a problem statement on Opamp circuit that needs to be designed and simulated using LT spice in the simplest way possible.The team which gets the optimal solution within the earliest possible time will be the winner.", "Round 2 & 3 will be carried out consecutively with total time duration of 3 hours"]
+            "Round 1": ["The Prelims- A pen - paper test consisting of aptitude and technical questions. There will be 30 questions to be solved in a time interval of 30 mins. The top 10 highest scoring teams will qualify for the next round."],
+            "Round 2": ["Circuit Fix-In this round, selected teams will be given with the circuits and Verilog codes. The teams have to analyze and debug the same to get the right output.The teams that complete round 2 can proceed with the 3rd round."],
+            "Round 3": ["Optimum- The teams will be given with a problem statement on Opamp circuit that needs to be designed and simulated using LT spice in the simplest way possible.The team which gets the optimal solution within the earliest possible time will be the winner.",
+                "Round 2 & 3 will be carried out consecutively with total time duration of 3 hours"]
 
         },
 
@@ -3830,7 +3819,7 @@ export const eventData = [
         ],
 
         "judgingCriteria": [
-            "Part icip ants will be judged based on the rounds by the orga nizers.",
+            "Participants will be judged based on the rounds by the organizers.",
             "Judging criteria varies in each round.",
             "In case of any complications the lecturer incharge would intervene to judge the qualifier round.",
 
@@ -3839,10 +3828,6 @@ export const eventData = [
 
         "contactDetails": [
             {
-
-
-
-
                 "name": "Preetham GS",
                 "phoneNumber": "9481306259",
                 "emailID": "shettigarpreetham15@gmail.com"
@@ -3850,7 +3835,7 @@ export const eventData = [
             {
                 "name": "Judith Dsouza ",
                 "phoneNumber": "9148960370",
-                "emailID": "dszjdy357@gm ail.c om",
+                "emailID": "dszjdy357@gmail.com",
             }
 
 
@@ -3864,38 +3849,36 @@ export const eventData = [
         "round": "1",
         "day": "3",
         "Time": "10:00 am",
-        "venue": "NC24",
-        "branch": "EE",
+        "venue": "NC 24",
+        "branch": "EEE",
         "image": "/events/EE/BURNANDRUN.png",
-        "smallDesc": "Embed yourselvesinto the world of embedded systems. ",
-        "fullDesc": ". If you can stay cool while burning and running programs using microcont rollers and Ard uino, Burn and Run awaits you!",
+        "smallDesc": "Embed yourselves into the world of embedded systems. ",
+        "fullDesc": ". If you can stay cool while burning and running programs using microcont rollers and Arduino, Burn and Run awaits you!",
         "roundDetails": {
 
-            "Round 1": ["35 questions a b out t he microc on t ro lle r will be given to the participants. The time allotted is 45 minutes."],
-            "Round 2": ["A problem question related to Arduino interfacing will be given. Participants are expected to write the code using Arduino IDE and burn the hex file to get the desired output. Three hours are allott ed for this round."],
+            "Round 1": ["35 questions about the microcon troller will be given to the participants. The time allotted is 45 minutes."],
+            "Round 2": ["A problem question related to Arduino interfacing will be given. Participants are expected to write the code using Arduino IDE and burn the hex file to get the desired output. Three hours are allotted for this round."],
         },
 
         "rules": [
             "Team of 2 to 3 members.Any number of teams can participate in the event",
-            "Use of the int ernet or any kind of reading materials / te xtb ooks is strictly prohibited",
+            "Use of the internet or any kind of reading materials / textbooks is strictly prohibited",
             "Only students from the same college can form a team",
-            "An individual cannot be a member of more than oneteam",
+            "An individual cannot be a member of more than one team",
             "The decision of the judges will be final",
-            "Topics to be known are Basic Electrical, Basic Elect ronic s, Basics of Microcontroller, Embedded C programming, and Instrumentation and Measurements",
+            "Topics to be known are Basic Electrical, Basic Electronics, Basics of Microcontroller, Embedded C programming, and Instrumentation and Measurements",
             "Materials required for the event will be  provided except for the stationery",
             "Mobile phones are not allowed",
             "Usage of calculators is permitted",
             "Global registration is mandatory",
 
-
-
         ],
 
         "judgingCriteria": [
-            "In the first round, each question carries one mark.Hence, the maximum marks that canbe obtained by a team are 35",
+            "In the first round, each question carries one mark. Hence, the maximum marks that can be obtained by a team are 35",
             "The top 6 teams will be selected for the final round",
-            "In case of a tie, the t ie- breaker question will be identified and the team which gets the correct answer will be eligible for the final round",
-            "In the finalround, teams are judged based on three criteria - time taken by the team, code size, and output clarity",
+            "In case of a tie, the tie- breaker question will be identified and the team which gets the correct answer will be eligible for the final round",
+            "In the final round, teams are judged based on three criteria - time taken by the team, code size, and output clarity",
 
 
         ],
@@ -3905,12 +3888,12 @@ export const eventData = [
 
                 "name": "Davin Dsouza",
                 "phoneNumber": "7892671649",
-                "emailID": "davindsouza00@g ma il.c om"
+                "emailID": "davindsouza00@gmail.com"
             },
             {
                 "name": "Swaraj S Shetty",
                 "phoneNumber": "9972147513",
-                "emailID": "Swarajshetty2001 @g ma il.c om",
+                "emailID": "Swarajshetty2001@gmail.com",
             }
 
 
@@ -3925,37 +3908,35 @@ export const eventData = [
         "day": "3",
         "Time": "12:30 pm",
         "venue": "NCL31 - LD Lab",
-        "branch": "EE",
+        "branch": "EEE",
         "image": "/events/EE/BURNANDRUN.png",
-        "smallDesc": "Embed yourselvesinto the world of embedded systems. ",
-        "fullDesc": ". If you can stay cool while burning and running programs using microcont rollers and Ard uino, Burn and Run awaits you!",
+        "smallDesc": "Embed yourselves into the world of embedded systems. ",
+        "fullDesc": ". If you can stay cool while burning and running programs using microcont rollers and Arduino, Burn and Run awaits you!",
         "roundDetails": {
 
-            "Round 1": ["35 questions a b out t he microc on t ro lle r will be given to the participants. The time allotted is 45 minutes."],
-            "Round 2": ["A problem question related to Arduino interfacing will be given. Participants are expected to write the code using Arduino IDE and burn the hex file to get the desired output. Three hours are allott ed for this round."],
+            "Round 1": ["35 questions about the microcon troller will be given to the participants. The time allotted is 45 minutes."],
+            "Round 2": ["A problem question related to Arduino interfacing will be given. Participants are expected to write the code using Arduino IDE and burn the hex file to get the desired output. Three hours are allotted for this round."],
         },
 
         "rules": [
             "Team of 2 to 3 members.Any number of teams can participate in the event",
-            "Use of the int ernet or any kind of reading materials / te xtb ooks is strictly prohibited",
+            "Use of the internet or any kind of reading materials / textbooks is strictly prohibited",
             "Only students from the same college can form a team",
-            "An individual cannot be a member of more than oneteam",
+            "An individual cannot be a member of more than one team",
             "The decision of the judges will be final",
-            "Topics to be known are Basic Electrical, Basic Elect ronic s, Basics of Microcontroller, Embedded C programming, and Instrumentation and Measurements",
+            "Topics to be known are Basic Electrical, Basic Electronics, Basics of Microcontroller, Embedded C programming, and Instrumentation and Measurements",
             "Materials required for the event will be  provided except for the stationery",
             "Mobile phones are not allowed",
             "Usage of calculators is permitted",
             "Global registration is mandatory",
 
-
-
         ],
 
         "judgingCriteria": [
-            "In the first round, each question carries one mark.Hence, the maximum marks that canbe obtained by a team are 35",
+            "In the first round, each question carries one mark.Hence, the maximum marks that can be obtained by a team are 35",
             "The top 6 teams will be selected for the final round",
-            "In case of a tie, the t ie- breaker question will be identified and the team which gets the correct answer will be eligible for the final round",
-            "In the finalround, teams are judged based on three criteria - time taken by the team, code size, and output clarity",
+            "In case of a tie, the tie- breaker question will be identified and the team which gets the correct answer will be eligible for the final round",
+            "In the final round, teams are judged based on three criteria - time taken by the team, code size, and output clarity",
 
 
         ],
@@ -3965,18 +3946,17 @@ export const eventData = [
 
                 "name": "Davin Dsouza",
                 "phoneNumber": "7892671649",
-                "emailID": "davindsouza00@g ma il.c om"
+                "emailID": "davindsouza00@gmail.com"
             },
             {
                 "name": "Swaraj S Shetty",
                 "phoneNumber": "9972147513",
-                "emailID": "Swarajshetty2001 @g ma il.c om",
+                "emailID": "Swarajshetty2001@gmail.com",
             }
 
 
 
         ]
-
     },
 
     {
@@ -3984,16 +3964,16 @@ export const eventData = [
         "round": "1 & 2",
         "day": "2",
         "Time": "9:00 am",
-        "venue": "NC22",
-        "branch": "EE",
+        "venue": "NC 22",
+        "branch": "EEE",
         "image": "/events/EE/ELECTRICUITIT.png",
         "smallDesc": "Are you the reputed regulator for the fluctuations in circuit- related problems in your friends' gang? If yes, then come to Electricuit It!",
         "fullDesc": "Are you the reputed regulator for the fluctuations in circuit- related problems in your friends' gang? If yes, then come to Electricuit It!",
         "roundDetails": {
 
-            "Round 1": ["This round is about a crossword puzzle on Electronics. The top 10 teams to solve it within 25 minute s will be selec ted for t he next round."],
-            "Round 2": ["This round is a paper and pen test where the teams will be given 5 faulty circuit s. They have to rectify the mistakes in the circuit to get the relevant output within 15 minutes."],
-            "Round 3": ["This round consists of circuit designing. The components will be provided to the participants who must design a circuit for the given problem using only the components provided. The tota l time duration is 90 minutes."]
+            "Round 1": ["This round is about a crossword puzzle on Electronics. The top 10 teams to solve it within 25 minutes will be selected for the next round."],
+            "Round 2": ["This round is a paper and pen test where the teams will be given 5 faulty circuits. They have to rectify the mistakes in the circuit to get the relevant output within 15 minutes."],
+            "Round 3": ["This round consists of circuit designing. The components will be provided to the participants who must design a circuit for the given problem using only the components provided. The total time duration is 90 minutes."]
         },
 
         "rules": [
@@ -4005,15 +3985,11 @@ export const eventData = [
             "Materials required for the event will be provided except for the stationery",
             "The decision of the judges will be final",
             "Topics to be known are Digital Electronic Circuits(Logic Design), Analog Electronic Circuits, and Linear Integrated Circuits",
-
-
-
-
         ],
 
         "judgingCriteria": [
-            "The select ion of teams for the final round will be based on the team to correct the maximum number of faulty circuits in ro und 2",
-            "In the final round, the team with the expected output of the circuit scores ma ximum p oints and will be announced as the winner of the event",
+            "The selection of teams for the final round will be based on the team to correct the maximum number of faulty circuits in round 2",
+            "In the final round, the team with the expected output of the circuit scores maximum points and will be announced as the winner of the event",
 
         ],
 
@@ -4021,12 +3997,12 @@ export const eventData = [
             {
                 "name": "Royston Alva",
                 "phoneNumber": "9481919294",
-                "emailID": "roys tonalva0@g ma il.com"
+                "emailID": "roystonalva0@gmail.com"
             },
             {
                 "name": "M Nikhil Beliraya",
                 "phoneNumber": "7676617365",
-                "emailID": "ni khilbeliraya7 @g ma il.com",
+                "emailID": "nikhilbeliraya7@gmail.com",
             }
 
 
@@ -4042,15 +4018,15 @@ export const eventData = [
         "day": "2",
         "Time": "1:00 pm",
         "venue": "NCL32 - AEC Lab",
-        "branch": "EE",
+        "branch": "EEE",
         "image": "/events/EE/ELECTRICUITIT.png",
         "smallDesc": "Are you the reputed regulator for the fluctuations in circuit- related problems in your friends' gang? If yes, then come to Electricuit It!",
         "fullDesc": "Are you the reputed regulator for the fluctuations in circuit- related problems in your friends' gang? If yes, then come to Electricuit It!",
         "roundDetails": {
 
-            "Round 1": ["This round is about a crossword puzzle on Elec tronic s. The top 10 teams to solve it within 25 minute s will be selec ted for t he next round."],
-            "Round 2": ["This round is a paper and pen test where the teams will be given 5 faulty circuit s. They have to rectify the mistakes in the circuit to get the relevant output within 15 minutes."],
-            "Round 3": ["This round consists of circuit designing. The components will be provided to the participants who must design a circuit for the given problem using only the components provided. The tota l time duration is 90 minutes."]
+            "Round 1": ["This round is about a crossword puzzle on Electronics. The top 10 teams to solve it within 25 minutes will be selected for the next round."],
+            "Round 2": ["This round is a paper and pen test where the teams will be given 5 faulty circuits. They have to rectify the mistakes in the circuit to get the relevant output within 15 minutes."],
+            "Round 3": ["This round consists of circuit designing. The components will be provided to the participants who must design a circuit for the given problem using only the components provided. The total time duration is 90 minutes."]
         },
 
         "rules": [
@@ -4062,15 +4038,11 @@ export const eventData = [
             "Materials required for the event will be provided except for the stationery",
             "The decision of the judges will be final",
             "Topics to be known are Digital Electronic Circuits(Logic Design), Analog Electronic Circuits, and Linear Integrated Circuits",
-
-
-
-
         ],
 
         "judgingCriteria": [
-            "The select ion of teams for the final round will be based on the team to correct the maximum number of faulty circuits in ro und 2",
-            "In the final round, the team with the expected output of the circuit scores ma ximum p oints and will be announced as the winner of the event",
+            "The selection of teams for the final round will be based on the team to correct the maximum number of faulty circuits in round 2",
+            "In the final round, the team with the expected output of the circuit scores maximum points and will be announced as the winner of the event",
 
         ],
 
@@ -4078,18 +4050,17 @@ export const eventData = [
             {
                 "name": "Royston Alva",
                 "phoneNumber": "9481919294",
-                "emailID": "roys tonalva0@g ma il.com"
+                "emailID": "roystonalva0@gmail.com"
             },
             {
                 "name": "M Nikhil Beliraya",
                 "phoneNumber": "7676617365",
-                "emailID": "ni khilbeliraya7 @g ma il.com",
+                "emailID": "nikhilbeliraya7@gmail.com",
             }
 
 
 
         ]
-
     },
 
     {
@@ -4101,7 +4072,7 @@ export const eventData = [
         "branch": "ISE",
         "image": "/events/IS/CodeStudio.jpg",
         "smallDesc": "Are you a coding wizard? Or a person who loves to code? If yes, then Code Studio is a perfect platform for you",
-        "fullDesc": ". Consisting of four rounds in total, each round is going to be bigger and better. Grab this opportunity and test your coding skills with Code St ud io.",
+        "fullDesc": ". Consisting of four rounds in total, each round is going to be bigger and better. Grab this opportunity and test your coding skills with Code Studio.",
         "roundDetails": {
 
             "Round 1": [
@@ -4110,27 +4081,27 @@ export const eventData = [
                 "The top 40 teams scoring the highest will qualify for the next round.",
                 "Rules:30 MCQs should be solved within 30 minutes.",
                 "The use of cell phones or any other electronic gadgets is prohibited.",
-                "Communication with any other teams is not a llowed.",
-                "There will be tie- b reaker questions, which will be evaluated in case of a tie.",
+                "Communication with any other teams is not allowed.",
+                "There will be tie- breaker questions, which will be evaluated in case of a tie.",
             ],
 
             "Round 2": [" Blind Coding - A simple program is given to each team.",
                 "The monitor is turned off and the participants should code the program.",
                 "The top 15 teams solving the given program with minimum time and errors are qualified for round 3.",
-                "Rules:Rough sheets will not be provided to the p articipants.They should remember the code and type."],
+                "Rules:Rough sheets will not be provided to the participants.They should remember the code and type."],
 
             "Round 3": [" Finding Bugs- The teams ore provided with the program or snapshots of it, which contains bugs or error messages.",
                 "Teams must debug the program and obtain the desired output.",
                 "The top 7 teams with the highest number of questions debugged and outputs obtained will qualify.",
                 "Rules: The use of cell phones or any other electronic device is not permitted.",
-                "A maximum of 1hour is given to each team."],
+                "A maximum of 1 hour is given to each team."],
 
             "Round 4": [" Betting On Your Code -Each team will be provided with certain points, and at a time one question will be displayed to all the teams",
                 "Each team should bid for all the questions with the respective points.",
                 "The team that solves the question first will be rewarded with all the points bet by that team and also the points bet by other teams for the same question.The team to finish second will get 50% of what the first team gets and the remaining teams will get 10 % of what the first team gets if they solve the question within the given time.",
                 "The teams that have 0 points or are unable to bid further are eliminated and the team with the highest points will be declared the winner.",
                 "Rules:A minimum of 25 % of their points should be bet by each team for every question.",
-                "Teams can bet up to a thresho ld point and cannot change once they bet on one question."],
+                "Teams can bet up to a threshold point and cannot change once they bet on one question."],
         },
 
         "rules": [
@@ -4142,7 +4113,7 @@ export const eventData = [
         ],
 
         "judgingCriteria": [
-            "Top performers in the part icular round will qualify for the next round.",
+            "Top performers in the particular round will qualify for the next round.",
             "In the final round, the team with the maximum points will be announced as the winner.",
 
         ],
@@ -4151,12 +4122,12 @@ export const eventData = [
             {
                 "name": "Royston Alva",
                 "phoneNumber": "9481919294",
-                "emailID": "roys tonalva0@g ma il.com"
+                "emailID": "roystonalva0@gmail.com"
             },
             {
                 "name": "M Nikhil Beliraya",
                 "phoneNumber": "7676617365",
-                "emailID": "ni khilbeliraya7 @g ma il.com",
+                "emailID": "nikhilbeliraya7@gmail.com",
             }
 
 
@@ -4174,7 +4145,7 @@ export const eventData = [
         "branch": "ISE",
         "image": "/events/IS/CodeStudio.jpg",
         "smallDesc": "Are you a coding wizard? Or a person who loves to code? If yes, then Code Studio is a perfect platform for you",
-        "fullDesc": ". Consisting of four rounds in total, each round is going to be bigger and better. Grab this opportunity and test your coding skills with Code St ud io.",
+        "fullDesc": ". Consisting of four rounds in total, each round is going to be bigger and better. Grab this opportunity and test your coding skills with Code Studio.",
         "roundDetails": {
 
             "Round 1": [
@@ -4183,27 +4154,27 @@ export const eventData = [
                 "The top 40 teams scoring the highest will qualify for the next round.",
                 "Rules:30 MCQs should be solved within 30 minutes.",
                 "The use of cell phones or any other electronic gadgets is prohibited.",
-                "Communication with any other teams is not a llowed.",
-                "There will be tie- b reaker questions, which will be evaluated in case of a tie.",
+                "Communication with any other teams is not allowed.",
+                "There will be tie- breaker questions, which will be evaluated in case of a tie.",
             ],
 
             "Round 2": [" Blind Coding - A simple program is given to each team.",
                 "The monitor is turned off and the participants should code the program.",
                 "The top 15 teams solving the given program with minimum time and errors are qualified for round 3.",
-                "Rules:Rough sheets will not be provided to the p articipants.They should remember the code and type."],
+                "Rules:Rough sheets will not be provided to the participants.They should remember the code and type."],
 
             "Round 3": [" Finding Bugs- The teams ore provided with the program or snapshots of it, which contains bugs or error messages.",
                 "Teams must debug the program and obtain the desired output.",
                 "The top 7 teams with the highest number of questions debugged and outputs obtained will qualify.",
                 "Rules: The use of cell phones or any other electronic device is not permitted.",
-                "A maximum of 1hour is given to each team."],
+                "A maximum of 1 hour is given to each team."],
 
             "Round 4": [" Betting On Your Code -Each team will be provided with certain points, and at a time one question will be displayed to all the teams",
                 "Each team should bid for all the questions with the respective points.",
                 "The team that solves the question first will be rewarded with all the points bet by that team and also the points bet by other teams for the same question.The team to finish second will get 50% of what the first team gets and the remaining teams will get 10 % of what the first team gets if they solve the question within the given time.",
                 "The teams that have 0 points or are unable to bid further are eliminated and the team with the highest points will be declared the winner.",
                 "Rules:A minimum of 25 % of their points should be bet by each team for every question.",
-                "Teams can bet up to a thresho ld point and cannot change once they bet on one question."],
+                "Teams can bet up to a threshold point and cannot change once they bet on one question."],
         },
 
         "rules": [
@@ -4215,7 +4186,7 @@ export const eventData = [
         ],
 
         "judgingCriteria": [
-            "Top performers in the part icular round will qualify for the next round.",
+            "Top performers in the particular round will qualify for the next round.",
             "In the final round, the team with the maximum points will be announced as the winner.",
 
         ],
@@ -4224,12 +4195,12 @@ export const eventData = [
             {
                 "name": "Royston Alva",
                 "phoneNumber": "9481919294",
-                "emailID": "roys tonalva0@g ma il.com"
+                "emailID": "roystonalva0@gmail.com"
             },
             {
                 "name": "M Nikhil Beliraya",
                 "phoneNumber": "7676617365",
-                "emailID": "ni khilbeliraya7 @g ma il.com",
+                "emailID": "nikhilbeliraya7@gmail.com",
             }
 
 
@@ -4247,7 +4218,7 @@ export const eventData = [
         "branch": "ISE",
         "image": "/events/IS/CodeStudio.jpg",
         "smallDesc": "Are you a coding wizard? Or a person who loves to code? If yes, then Code Studio is a perfect platform for you",
-        "fullDesc": ". Consisting of four rounds in total, each round is going to be bigger and better. Grab this opportunity and test your coding skills with Code St ud io.",
+        "fullDesc": ". Consisting of four rounds in total, each round is going to be bigger and better. Grab this opportunity and test your coding skills with Code Studio.",
         "roundDetails": {
 
             "Round 1": [
@@ -4256,27 +4227,27 @@ export const eventData = [
                 "The top 40 teams scoring the highest will qualify for the next round.",
                 "Rules:30 MCQs should be solved within 30 minutes.",
                 "The use of cell phones or any other electronic gadgets is prohibited.",
-                "Communication with any other teams is not a llowed.",
-                "There will be tie- b reaker questions, which will be evaluated in case of a tie.",
+                "Communication with any other teams is not allowed.",
+                "There will be tie- breaker questions, which will be evaluated in case of a tie.",
             ],
 
             "Round 2": [" Blind Coding - A simple program is given to each team.",
                 "The monitor is turned off and the participants should code the program.",
                 "The top 15 teams solving the given program with minimum time and errors are qualified for round 3.",
-                "Rules:Rough sheets will not be provided to the p articipants.They should remember the code and type."],
+                "Rules:Rough sheets will not be provided to the participants.They should remember the code and type."],
 
             "Round 3": [" Finding Bugs- The teams ore provided with the program or snapshots of it, which contains bugs or error messages.",
                 "Teams must debug the program and obtain the desired output.",
                 "The top 7 teams with the highest number of questions debugged and outputs obtained will qualify.",
                 "Rules: The use of cell phones or any other electronic device is not permitted.",
-                "A maximum of 1hour is given to each team."],
+                "A maximum of 1 hour is given to each team."],
 
             "Round 4": [" Betting On Your Code -Each team will be provided with certain points, and at a time one question will be displayed to all the teams",
                 "Each team should bid for all the questions with the respective points.",
                 "The team that solves the question first will be rewarded with all the points bet by that team and also the points bet by other teams for the same question.The team to finish second will get 50% of what the first team gets and the remaining teams will get 10 % of what the first team gets if they solve the question within the given time.",
                 "The teams that have 0 points or are unable to bid further are eliminated and the team with the highest points will be declared the winner.",
                 "Rules:A minimum of 25 % of their points should be bet by each team for every question.",
-                "Teams can bet up to a thresho ld point and cannot change once they bet on one question."],
+                "Teams can bet up to a threshold point and cannot change once they bet on one question."],
         },
 
         "rules": [
@@ -4288,7 +4259,7 @@ export const eventData = [
         ],
 
         "judgingCriteria": [
-            "Top performers in the part icular round will qualify for the next round.",
+            "Top performers in the particular round will qualify for the next round.",
             "In the final round, the team with the maximum points will be announced as the winner.",
 
         ],
@@ -4297,12 +4268,12 @@ export const eventData = [
             {
                 "name": "Royston Alva",
                 "phoneNumber": "9481919294",
-                "emailID": "roys tonalva0@g ma il.com"
+                "emailID": "roystonalva0@gmail.com"
             },
             {
                 "name": "M Nikhil Beliraya",
                 "phoneNumber": "7676617365",
-                "emailID": "ni khilbeliraya7 @g ma il.com",
+                "emailID": "nikhilbeliraya7@gmail.com",
             }
 
 
@@ -4321,7 +4292,7 @@ export const eventData = [
         "branch": "ISE",
         "image": "/events/IS/WEBBED.jpg",
         "smallDesc": "A perfect opportunity for all the Web development enthusiasts !! Do you have an aptitude for designing and coding? ",
-        "fullDesc": "Building a website is easy, designing one takes skill. A perfect opportunity for all the Web development enthusiasts !! Do you have an aptitude for designing and coding? Then \"Webbed\" is perfectly suited to test your designing and  coding skills. Co nsisting  of three rounds,  put  your  team of t wo to the ultimate test.",
+        "fullDesc": "Building a website is easy, designing one takes skill. A perfect opportunity for all the Web development enthusiasts !! Do you have an aptitude for designing and coding? Then \"Webbed\" is perfectly suited to test your designing and coding skills. Consisting  of three rounds,  put  your team of two to the ultimate test.",
         "roundDetails": {
 
             "Round 1": [
@@ -4343,19 +4314,18 @@ export const eventData = [
                 "In round 3, qualifying teams will be given a THEME, based on which they ore supposed to design a webpage from scratch within the given time frame",
                 "The team developing a webpoge that is closely related to the THEME will be considered",
                 "(time limit: 2 1 / 2 hrs)"],
-
-            "Round 4": [" Betting On Your Code -Each team will be provided with certain points, and at a time one question will be displayed to all the teams",
-                "Each team should bid for all the questions with the respective points.",
-                "The team that solves the question first will be rewarded with all the points bet by that team and also the points bet by other teams for the same question.The team to finish second will get 50% of what the first team gets and the remaining teams will get 10 % of what the first team gets if they solve the question within the given time.",
-                "The teams that have 0 points or are unable to bid further are eliminated and the team with the highest points will be declared the winner.",
-                "Rules:A minimum of 25 % of their points should be bet by each team for every question.",
-                "Teams can bet up to a thresho ld point and cannot change once they bet on one question."],
         },
 
         "rules": [
-            "Round 1: The teams with the highest scores in prelims(quiz) will be qualified for round 2.",
-            "Round 2: It is based on how much and how well the team has been able to replicate the given template.Here judges will be comparing the websites of different teams.",
-            "Round 3: This judgment is fully based on the innovative and  creative ideas of a team.Another criterion that adds up here is the additional features or animations on the webpage which fetches extra points.",
+            "A team can have a maximum of 2 participants.",
+            "Any number of teams from a college is allowed.",
+            "The participants can register by contacting any of the organizers.",
+            "Spot registrations are also available.",
+            "Part icipants cannot bring their laptops, PCs will be allocated from our end.",
+            "Participants are not allowed to use software that supports drag and drop options like Dreamweaver.",
+            "Teams involved in any malpractices will be disqualified immediately.",
+            "Use of a USB drive is strictly prohibited.",
+            "Using programming languages like HTML, CSS, JAVASCRIPT, etc is allowed",
 
 
         ],
@@ -4364,11 +4334,11 @@ export const eventData = [
             "A team can have a maximum of 2 participants.",
             "Any number of teams from a college is allowed.",
             "The participants can register by contacting any of the organizers.",
-            "Spot regist ra t ions are also available.",
-            "Part icipants cannot bring their laptops, PCs will be allocated from our end.",
+            "Spot registrations are also available.",
+            "Participants cannot bring their laptops, PCs will be allocated from our end.",
             "Participants are not allowed to use software that supp orts drag and drop options like Dreamweaver.",
-            "Teams invo lved in any malpractices will be disqualified immediately.",
-            "Use of a USB drive is strictly prohibit ed.",
+            "Teams involved in any malpractices will be disqualified immediately.",
+            "Use of a USB drive is strictly prohibited.",
             "Using programming languages like HTML, CSS, JAVASCRIPT, etc is allowed.",
 
 
@@ -4376,15 +4346,14 @@ export const eventData = [
 
         "contactDetails": [
             {
-
                 "name": "Manasvi",
                 "phoneNumber": "9606343357",
-                "emailID": "manasvima a ni7@g mail.c om"
+                "emailID": "manasvimaani7@gmail.com"
             },
             {
                 "name": "Harsh Hansalia",
                 "phoneNumber": "8970119701",
-                "emailID": "ha nsa liaharsh6 @g ma il.com",
+                "emailID": "hansaliaharsh6@gmail.com",
             }
 
 
@@ -4402,7 +4371,7 @@ export const eventData = [
         "branch": "ISE",
         "image": "/events/IS/WEBBED.jpg",
         "smallDesc": "A perfect opportunity for all the Web development enthusiasts !! Do you have an aptitude for designing and coding? ",
-        "fullDesc": "Building a website is easy, designing one takes skill. A perfect opportunity for all the Web development enthusiasts !! Do you have an aptitude for designing and coding? Then \"Webbed\" is perfectly suited to test your designing and  coding skills. Co nsisting  of three rounds,  put  your  team of t wo to the ultimate test.",
+        "fullDesc": "Building a website is easy, designing one takes skill. A perfect opportunity for all the Web development enthusiasts !! Do you have an aptitude for designing and coding? Then \"Webbed\" is perfectly suited to test your designing and coding skills. Consisting  of three rounds,  put  your team of two to the ultimate test.",
         "roundDetails": {
 
             "Round 1": [
@@ -4424,19 +4393,18 @@ export const eventData = [
                 "In round 3, qualifying teams will be given a THEME, based on which they ore supposed to design a webpage from scratch within the given time frame",
                 "The team developing a webpoge that is closely related to the THEME will be considered",
                 "(time limit: 2 1 / 2 hrs)"],
-
-            "Round 4": [" Betting On Your Code -Each team will be provided with certain points, and at a time one question will be displayed to all the teams",
-                "Each team should bid for all the questions with the respective points.",
-                "The team that solves the question first will be rewarded with all the points bet by that team and also the points bet by other teams for the same question.The team to finish second will get 50% of what the first team gets and the remaining teams will get 10 % of what the first team gets if they solve the question within the given time.",
-                "The teams that have 0 points or are unable to bid further are eliminated and the team with the highest points will be declared the winner.",
-                "Rules:A minimum of 25 % of their points should be bet by each team for every question.",
-                "Teams can bet up to a thresho ld point and cannot change once they bet on one question."],
         },
 
         "rules": [
-            "Round 1: The teams with the highest scores in prelims(quiz) will be qualified for round 2.",
-            "Round 2: It is based on how much and how well the team has been able to replicate the given template.Here judges will be comparing the websites of different teams.",
-            "Round 3: This judgment is fully based on the innovative and  creative ideas of a team.Another criterion that adds up here is the additional features or animations on the webpage which fetches extra points.",
+            "A team can have a maximum of 2 participants.",
+            "Any number of teams from a college is allowed.",
+            "The participants can register by contacting any of the organizers.",
+            "Spot registrations are also available.",
+            "Part icipants cannot bring their laptops, PCs will be allocated from our end.",
+            "Participants are not allowed to use software that supports drag and drop options like Dreamweaver.",
+            "Teams involved in any malpractices will be disqualified immediately.",
+            "Use of a USB drive is strictly prohibited.",
+            "Using programming languages like HTML, CSS, JAVASCRIPT, etc is allowed",
 
 
         ],
@@ -4445,11 +4413,11 @@ export const eventData = [
             "A team can have a maximum of 2 participants.",
             "Any number of teams from a college is allowed.",
             "The participants can register by contacting any of the organizers.",
-            "Spot regist ra t ions are also available.",
-            "Part icipants cannot bring their laptops, PCs will be allocated from our end.",
+            "Spot registrations are also available.",
+            "Participants cannot bring their laptops, PCs will be allocated from our end.",
             "Participants are not allowed to use software that supp orts drag and drop options like Dreamweaver.",
-            "Teams invo lved in any malpractices will be disqualified immediately.",
-            "Use of a USB drive is strictly prohibit ed.",
+            "Teams involved in any malpractices will be disqualified immediately.",
+            "Use of a USB drive is strictly prohibited.",
             "Using programming languages like HTML, CSS, JAVASCRIPT, etc is allowed.",
 
 
@@ -4460,29 +4428,30 @@ export const eventData = [
 
                 "name": "Manasvi",
                 "phoneNumber": "9606343357",
-                "emailID": "manasvima a ni7@g mail.c om"
+                "emailID": "manasvimaani7@gmail.com"
             },
             {
                 "name": "Harsh Hansalia",
                 "phoneNumber": "8970119701",
-                "emailID": "ha nsa liaharsh6 @g ma il.com",
+                "emailID": "hansaliaharsh6@gmail.com",
             }
 
 
 
         ]
 
+
     },
     {
         "name": "WEBBED",
-        "round": "3",
+        "round": "3 & 4",
         "day": "3",
         "Time": "2 pm",
         "venue": "CSL 05, 06",
         "branch": "ISE",
         "image": "/events/IS/WEBBED.jpg",
         "smallDesc": "A perfect opportunity for all the Web development enthusiasts !! Do you have an aptitude for designing and coding? ",
-        "fullDesc": "Building a website is easy, designing one takes skill. A perfect opportunity for all the Web development enthusiasts !! Do you have an aptitude for designing and coding? Then \"Webbed\" is perfectly suited to test your designing and  coding skills. Co nsisting  of three rounds,  put  your  team of t wo to the ultimate test.",
+        "fullDesc": "Building a website is easy, designing one takes skill. A perfect opportunity for all the Web development enthusiasts !! Do you have an aptitude for designing and coding? Then \"Webbed\" is perfectly suited to test your designing and coding skills. Consisting  of three rounds,  put  your team of two to the ultimate test.",
         "roundDetails": {
 
             "Round 1": [
@@ -4504,19 +4473,18 @@ export const eventData = [
                 "In round 3, qualifying teams will be given a THEME, based on which they ore supposed to design a webpage from scratch within the given time frame",
                 "The team developing a webpoge that is closely related to the THEME will be considered",
                 "(time limit: 2 1 / 2 hrs)"],
-
-            "Round 4": [" Betting On Your Code -Each team will be provided with certain points, and at a time one question will be displayed to all the teams",
-                "Each team should bid for all the questions with the respective points.",
-                "The team that solves the question first will be rewarded with all the points bet by that team and also the points bet by other teams for the same question.The team to finish second will get 50% of what the first team gets and the remaining teams will get 10 % of what the first team gets if they solve the question within the given time.",
-                "The teams that have 0 points or are unable to bid further are eliminated and the team with the highest points will be declared the winner.",
-                "Rules:A minimum of 25 % of their points should be bet by each team for every question.",
-                "Teams can bet up to a thresho ld point and cannot change once they bet on one question."],
         },
 
         "rules": [
-            "Round 1: The teams with the highest scores in prelims(quiz) will be qualified for round 2.",
-            "Round 2: It is based on how much and how well the team has been able to replicate the given template.Here judges will be comparing the websites of different teams.",
-            "Round 3: This judgment is fully based on the innovative and  creative ideas of a team.Another criterion that adds up here is the additional features or animations on the webpage which fetches extra points.",
+            "A team can have a maximum of 2 participants.",
+            "Any number of teams from a college is allowed.",
+            "The participants can register by contacting any of the organizers.",
+            "Spot registrations are also available.",
+            "Part icipants cannot bring their laptops, PCs will be allocated from our end.",
+            "Participants are not allowed to use software that supports drag and drop options like Dreamweaver.",
+            "Teams involved in any malpractices will be disqualified immediately.",
+            "Use of a USB drive is strictly prohibited.",
+            "Using programming languages like HTML, CSS, JAVASCRIPT, etc is allowed",
 
 
         ],
@@ -4525,11 +4493,11 @@ export const eventData = [
             "A team can have a maximum of 2 participants.",
             "Any number of teams from a college is allowed.",
             "The participants can register by contacting any of the organizers.",
-            "Spot regist ra t ions are also available.",
-            "Part icipants cannot bring their laptops, PCs will be allocated from our end.",
+            "Spot registrations are also available.",
+            "Participants cannot bring their laptops, PCs will be allocated from our end.",
             "Participants are not allowed to use software that supp orts drag and drop options like Dreamweaver.",
-            "Teams invo lved in any malpractices will be disqualified immediately.",
-            "Use of a USB drive is strictly prohibit ed.",
+            "Teams involved in any malpractices will be disqualified immediately.",
+            "Use of a USB drive is strictly prohibited.",
             "Using programming languages like HTML, CSS, JAVASCRIPT, etc is allowed.",
 
 
@@ -4540,12 +4508,12 @@ export const eventData = [
 
                 "name": "Manasvi",
                 "phoneNumber": "9606343357",
-                "emailID": "manasvima a ni7@g mail.c om"
+                "emailID": "manasvimaani7@gmail.com"
             },
             {
                 "name": "Harsh Hansalia",
                 "phoneNumber": "8970119701",
-                "emailID": "ha nsa liaharsh6 @g ma il.com",
+                "emailID": "hansaliaharsh6@gmail.com",
             }
 
 
@@ -4554,87 +4522,7 @@ export const eventData = [
 
     },
 
-    {
-        "name": "WEBBED",
-        "round": "4",
-        "day": "4",
-        "Time": "10 am",
-        "venue": "CSL 05, 06",
-        "branch": "ISE",
-        "image": "/events/IS/WEBBED.jpg",
-        "smallDesc": "A perfect opportunity for all the Web development enthusiasts !! Do you have an aptitude for designing and coding? ",
-        "fullDesc": "Building a website is easy, designing one takes skill. A perfect opportunity for all the Web development enthusiasts !! Do you have an aptitude for designing and coding? Then \"Webbed\" is perfectly suited to test your designing and  coding skills. Co nsisting  of three rounds,  put  your  team of t wo to the ultimate test.",
-        "roundDetails": {
-
-            "Round 1": [
-                "Preliminary Round or Aptitude Round",
-                "A quiz based on web development will be used to filter teams by the points secured, quiz will be mainly based on HTML, CSS & javascript",
-                "Number of questions 30",
-                "The qualified teams will enter round 2(time limit: 25mins)",
-
-            ],
-
-            "Round 2": [
-                "CLONING",
-                "We don't always have the ideas to build upon, thus t he second best thing is CLONING",
-                "In round 2, the teams are asked to create a webpage that replicates the given template It becomes the duty of the participating team to translate the given template accurately into frontend code",
-                "Scores will be awarded based on the extent to which they have replicated the template within the given time frame.The teams with the highest score will be qualified for the final round",
-                "(time limit: 2hrs)",],
-
-            "Round 3": ["THEME BASED ROUND",
-                "In round 3, qualifying teams will be given a THEME, based on which they ore supposed to design a webpage from scratch within the given time frame",
-                "The team developing a webpoge that is closely related to the THEME will be considered",
-                "(time limit: 2 1 / 2 hrs)"],
-
-            "Round 4": [" Betting On Your Code -Each team will be provided with certain points, and at a time one question will be displayed to all the teams",
-                "Each team should bid for all the questions with the respective points.",
-                "The team that solves the question first will be rewarded with all the points bet by that team and also the points bet by other teams for the same question.The team to finish second will get 50% of what the first team gets and the remaining teams will get 10 % of what the first team gets if they solve the question within the given time.",
-                "The teams that have 0 points or are unable to bid further are eliminated and the team with the highest points will be declared the winner.",
-                "Rules:A minimum of 25 % of their points should be bet by each team for every question.",
-                "Teams can bet up to a thresho ld point and cannot change once they bet on one question."],
-        },
-
-        "rules": [
-            "Round 1: The teams with the highest scores in prelims(quiz) will be qualified for round 2.",
-            "Round 2: It is based on how much and how well the team has been able to replicate the given template.Here judges will be comparing the websites of different teams.",
-            "Round 3: This judgment is fully based on the innovative and  creative ideas of a team.Another criterion that adds up here is the additional features or animations on the webpage which fetches extra points.",
-
-
-        ],
-
-        "judgingCriteria": [
-            "A team can have a maximum of 2 participants.",
-            "Any number of teams from a college is allowed.",
-            "The participants can register by contacting any of the organizers.",
-            "Spot regist ra t ions are also available.",
-            "Part icipants cannot bring their laptops, PCs will be allocated from our end.",
-            "Participants are not allowed to use software that supp orts drag and drop options like Dreamweaver.",
-            "Teams invo lved in any malpractices will be disqualified immediately.",
-            "Use of a USB drive is strictly prohibit ed.",
-            "Using programming languages like HTML, CSS, JAVASCRIPT, etc is allowed.",
-
-
-        ],
-
-        "contactDetails": [
-            {
-
-                "name": "Manasvi",
-                "phoneNumber": "9606343357",
-                "emailID": "manasvima a ni7@g mail.c om"
-            },
-            {
-                "name": "Harsh Hansalia",
-                "phoneNumber": "8970119701",
-                "emailID": "ha nsa liaharsh6 @g ma il.com",
-            }
-
-
-
-        ]
-
-    },
-
+   
 
     {
         "name": "ENGINE OVERHAUL",
@@ -4643,8 +4531,8 @@ export const eventData = [
         "venue": "LH 202, 203, 204 & Automotive Lab",
         "branch": "MECH",
         "image": "/events/Mech/engineoverhaulin.jpg",
-        "smallDesc": "Do you think you can bring life to the heart of the vehicle? This is a great opportunity for all the motor- heads ou t there to get your engine know- how tested.",
-        "fullDesc": "A team should consist of 2-3 members who are of the same college An individual should be a member of only one team .All the required tools for overhaul will be provided",
+        "smallDesc": "Do you think you can bring life to the heart of the vehicle? This is a great opportunity for all the motor- heads out there to get your engine know-how tested.",
+        "fullDesc": "A team should consist of 2-3 members who are of the same college. An individual should be a member of only one team .All the required tools for overhaul will be provided",
         "roundDetails": {
 
             "Round 1": [
@@ -4652,9 +4540,9 @@ export const eventData = [
             ],
 
             "Round 2": [
-                "Id ent ifying the p arts of the engine and explaining their function",],
+                "Identifying the parts of the engine and explaining their function",],
 
-            "Round 3": ["Involves fixing an already overhauled engine. A video will be shown on how to fix the already overhauled engine. The participants have to carefully observe and assemble it according to the instructions. The teams will have to assemble the  engine with the  smallest number of errors in the lea st a moun t of time"],
+            "Round 3": ["Involves fixing an already overhauled engine. A video will be shown on how to fix the already overhauled engine. The participants have to carefully observe and assemble it according to the instructions. The teams will have to assemble the engine with the smallest number of errors in the least amount of time"],
 
         },
         // "rules": [
@@ -4668,7 +4556,7 @@ export const eventData = [
         "judgingCriteria": [
             "Round1: Top 15 teams will proceed to the second round",
             "Round 2: Participants must correctly identify the engine parts and mention their functions, based on which they will be scored.The top 6 teams will proceed to the final round",
-            "Round 3: For the final round, the number of errors(each error will cause a reduction in p oints) and the time utilized will be taken into consideration to declare the final winners.",
+            "Round 3: For the final round, the number of errors(each error will cause a reduction in points) and the time utilized will be taken into consideration to declare the final winners.",
 
         ],
 
@@ -4677,12 +4565,12 @@ export const eventData = [
 
                 "name": "SameerG",
                 "phoneNumber": "7892386974",
-                "emailID": "sameergp01@g ma il.co m "
+                "emailID": "sameergp01@gmail.com "
             },
             {
                 "name": "Harsh H Kotian ",
                 "phoneNumber": "8050259026",
-                "emailID": "harshkotian1204 @g ma il.com ",
+                "emailID": "harshkotian1204@gmail.com",
             }
 
 
@@ -4785,22 +4673,17 @@ export const eventData = [
 
                 "name": "Yajnesh J Sanil",
                 "phoneNumber": "7892415068",
-                "emailID": "ya jneshjsani 113@g mai l.com "
+                "emailID": "yajneshjsani113@gmail.com "
             },
             {
                 "name": "Walsh William Lewis",
                 "phoneNumber": "9108227035",
-                "emailID": "wa lshlewis1234 @g mai l.co m ",
+                "emailID": "walshlewis1234@gmail.com ",
             }
-
-
 
         ]
 
     },
-
-
-
 
 ]
 
