@@ -1,6 +1,5 @@
 import Member from "./Member";
 import { persons } from "./data";
-// import src from "../../Images/team/p1.png";
 import Navbar from "../Navbar";
 import { Fade, Zoom, Slide } from "react-awesome-reveal";
 

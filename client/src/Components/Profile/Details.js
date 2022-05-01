@@ -3,15 +3,13 @@ import { getUserInfo } from "../../firebaseConfig";
 import QRCode from "qrcode";
 import fileDownload from "js-file-download";
 import axios from "axios";
-import Navbar from "../Navbar"
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Context/AuthContext";
-import { HiOutlineMail } from "react-icons/hi"
+import { HiOutlineMail, HiUser  } from "react-icons/hi"
 import { MdPhoneAndroid } from "react-icons/md"
 import { BsCloudDownload } from "react-icons/bs"
 
 
-import Logout from "../Auth/Logout";
 
 
 
@@ -57,26 +55,26 @@ function Details() {
 
     return (
         <>
-            <div className="flex flex-col py-0 w-fit m-auto">
-                <div className="flex flex-col-reverse items-center bg-black px-4 py-8 md:flex-row  w-[90vw] md:w-[70vw] m-auto ">
+            <div className="flex overflow-hidden py-4 flex-col justify-center  p-0 bg-gray-900/30 ">
+                <div className="flex flex-col-reverse items-center justify-evenly  px-4 py-8 md:flex-row  w-[90vw] md:w-[70vw] m-auto ">
 
                     <div className=" text-white font-body flex flex-col  justify-between text-left px-2 py-4 leading-normal">
                         <div className=' text-center py-3 gap-x-2 ' >
-                            <h2 className='font-title pb-1 md:pb-2 text-4xl md:text-5xl font-bold' >{participant.name}</h2>
+                            <h2 className='tracking-wide pb-1 md:pb-2 text-4xl md:text-5xl font-bold' >{participant.name}</h2>
                             <p>{participant.collegeName}</p>
                         </div>
                         <div className='space-y-2 text-center pb-3' >
                             <div className='text-xl border-2 rounded-none p-2 font-bold text-[#9d7643] text-center my-3' >PID : {participant.pId}</div>
                             <div className='text-2xl font-bold ' > Participant Info : </div>
                             <div className='text-md ' > <HiOutlineMail className='inline mx-0 ' /> {participant.email}</div>
-                            <div className='text-lg' > <HiOutlineMail className='inline mx-1' /> {participant.usn}     </div>
+                            <div className='text-lg' > <HiUser className='inline mx-1' /> {participant.usn}     </div>
                             <div className='text-lg' > <MdPhoneAndroid className='inline mx-1' /> {participant.phNo}    </div>
                         </div>
 
                     </div>
 
-                    <div className='w-fit m-auto text-white' >
-                        <img src={src} className="w-[60vw] md:w-[18vw] m-auto pt-4 pb-2  " alt="QR code" />
+                    <div className='w-fit   text-white' >
+                        <img src={src} className="w-[60vw] sm:w-[30vw] md:w-[18vw] m-auto pt-4 pb-2  " alt="QR code" />
                         <h3 className='text-center text-3xl ' >{participant.pId}</h3>
                     </div>
 
