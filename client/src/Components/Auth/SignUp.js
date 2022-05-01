@@ -32,12 +32,12 @@ const SignUp = ({ signIn }) => {
     college: colleges[0]
   };
 
-  const validate = Yup.object().shape({
-    mail:
-      amt === 150
-        ? Yup.string().required('Email is required')
-        : Yup.string().email().required('Email is required'),
-  });
+  // const validate = Yup.object().shape({
+  //   mail:
+  //     amt === 150
+  //       ? Yup.string().required('Email is required')
+  //       : Yup.string().email().required('Email is required'),
+  // });
 
   const clearMsg = () => {
     successSpan.current.innerHTML = `<p class="font-semibold text-green-600"></p>`
@@ -77,7 +77,7 @@ const SignUp = ({ signIn }) => {
   return (
     <Formik
       initialValues={initialValues}
-      validationSchema={validate}
+      // validationSchema={validate}
       onSubmit={async (values) => {
         setLoading(true)
         if (isNmamit && !values.mail.includes(`@nmamit.in`)) {
@@ -101,21 +101,16 @@ const SignUp = ({ signIn }) => {
             <Form>
               <SignUpContainer signingIn={signIn}>
                 <SignInFormCustom>
-                  <Title>Register</Title>
+                  <Title className='font-title'>Register</Title>
                   <Select
                     className='group bg-[#333] text-[#eee]'
                     disabled={valid}
-                    onChange={() => {
-                      const domain = document.getElementById('domain');
-                      const selected = document.getElementById('selected');
-                      const values = JSON.parse(selected.value);
-                      formik.setFieldValue('college', values.name);
-                      if (!values.isNitte) {
-                        domain.innerHTML = '';
+                    onChange={(e) => {
+                      formik.setFieldValue('college', e.target.value);
+                      if (e.target.value !== "NMAM INSTITUTE OF TECHNOLOGY") {
                         SetAmt(250);
                         setNmamit(false);
                       } else {
-                        domain.innerHTML = '@nmamit.in';
                         setNmamit(true);
                         SetAmt(150);
                       }
@@ -125,29 +120,39 @@ const SignUp = ({ signIn }) => {
                   >
                     {
                       colleges.map(college => ([
-                        <option key={college} value={`{ "name": "${college}", "isNitte": ${college === "NMAM INSTITUTE OF TECHNOLOGY"} }`}>{college}</option>
+                        <option key={college} value={college}>{college}</option>
                       ]))
                     }
                   </Select>
                   <Div className='group bg-[#333] text-[#eee]'>
-                    <InputField className='  focus:outline-none focus:border-0' disabled={valid} name='mail' type='text' placeholder='Email' />
-                    <p id='domain'>@nmamit.in</p>
+                    <InputField className='  focus:outline-none focus:border-0' disabled={valid} name='mail' type='text' placeholder={isNmamit ? 'USN': 'Email'} />
+                    {isNmamit && <p>@nmamit.in</p>}
                   </Div>
                   {!emailSent &&
 
-
                     <Button onClick={clearMsg} type='submit' className={`mt-2 inline-flex items-center justify-center gap-3  ${loading ? "opacity-90" : "opacity-100"}`} disabled={loading} >
                       {loading ? <> <AiOutlineLoading3Quarters className=" animate-spin text-lg " /> <span className=''>Sending Email...</span></> : 'Send Verification Email'}
-
-
                     </Button>}
+                    {
+                        <div className='mt-8'>
+                          <h3 className='text-xl font-bold text-gray-300'>Important note!</h3>
+                          <ul className='list-disc text-gray-400'>
+                  {isNmamit && <li>Make sure to use your college ID.</li>}
+                  {<li>Refunds will not be entertained.</li>}
+
+                          </ul>
+                        </div>
+                    }
                   {!otpVerified && valid && (
                     <div className=''>
                       <InputField onChange={(e) => {
-                        if (e.target.value.length > 6)
+                        let c = e.target.value[e.target.value.length - 1]
+                        if(!e.target.value)
+                        formik.setFieldValue('otp', '');
+                        if (e.target.value.length > 6 ||  !(c >= '0' && c <= '9'))
                           return;
                         formik.setFieldValue('otp', e.target.value);
-                      }} name='otp' type='number' className='text-center' placeholder='OTP' />
+                      }} name='otp' className='text-center' placeholder='OTP' />
                       <Button onClick={clearMsg} className={` inline-flex items-center justify-center gap-3  ${loading ? "opacity-90" : "opacity-100"}`} disabled={loading}>
                         {loading ? <> <AiOutlineLoading3Quarters className=" animate-spin text-lg " /> <span className=''>Verifying...</span></> : 'Verify'}
                       </Button>
