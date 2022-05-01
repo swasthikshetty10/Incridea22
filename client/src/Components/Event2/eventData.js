@@ -112,7 +112,7 @@ export const eventData = [
     {
         "name": "NAVARASA",
         "day": "3",
-        "Time": "12:30 am",
+        "Time": "12:30 pm",
         "venue": "SAMBHRAM",
         "branch": "CORE",
         "image": "/events/CORE/navarasa.png",
@@ -120,7 +120,7 @@ export const eventData = [
         "fullDesc": "Sanskrit  literature has a  profound saying  which goes, \"Kavyeshu  Natakam Ra mya m\" : Dra ma is the finest form of poet ry. 'Drama' is a metaphorical amalgamation of visual, auditory, material, and nuances of character.",
 
         "rules": [
-            "Round 1 - Online Scre ening Ro und :",
+            "Round 1 - Online Screening Round :",
             "The video should be a 3 - 5 minutes sample of the performance, and it can be from any portion of the performance.",
             "Reco rd your performance and upload it on your Google Drive.Link of which is to be shared with us over email at navarasa.incridea@g ma il.com under the subject \"Navarasa Online Screening Sub mission\".",
             "Editing, cuts, and pre - recorded videos are not allowed.",
