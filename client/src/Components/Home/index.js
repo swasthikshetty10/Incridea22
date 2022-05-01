@@ -24,7 +24,7 @@ function Home() {
         <Fade duration={1500}>
           <Navbar tab="home" sticky={true} />
         </Fade>
-        <div className=" overflow-hidden  relative  flex py-5 items-center justify-center flex-col-reverse md:flex-row tracking-wide" style={{ fontFamily: "CinzelDecorative-Bold" }}>
+        <div className=" overflow-hidden  relative  flex py-6 items-center justify-center flex-col-reverse md:flex-row tracking-wide" style={{ fontFamily: "CinzelDecorative-Bold" }}>
           {/* Fog divs */}
           <div id="foglayer_01" className="fog">
             <div className="image01"></div>
@@ -39,7 +39,7 @@ function Home() {
             <div className="image02"></div>
           </div>
           <Slide direction="left" duration={1000}>
-            <div className="flex gap-3 px-5 flex-col" >
+            <div className="flex gap-3 p-[3rem] flex-col" >
               <img src={higher} className=" " alt="" />
               <p className="text-gray-100 font-body text-lg  text-justify" >An amalgamation of all forms of technical, literary and cultural activities. Incridea is a celebration of fervour and talent. It is the national level techno-cultural fest of
                 <a target="blank" className="  text-[#cd9b58] hover:text-white transition-colors ease-out text-base" href="https://nmamit.nitte.edu.in/"> NMAM Institute of Technology</a>, Nitte.

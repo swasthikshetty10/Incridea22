@@ -145,14 +145,14 @@ function Navbar({ tab, sticky }) {
                   about us
                 </Link>
               </li>
-              <li>
+              <li style={{fontFamily: 'Cinzel'}}>
                 {!(user && tab === "profile") ? <Link
                   to={user ? "/profile" : "/login"}
-                  className={`hidden md:block border-2 border-igold py-2 pr-4 pl-3 text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633] md:border-0 md:hover:text-white text-igold`}
+                  className={`hidden md:block border-2 border-igold py-2 pr-4 pl-3 text-xl font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633]  md:hover:text-white text-igold`}
                 >
                   {user ? "Profile" : "Login/Register"}
                 </Link> : <Logout
-                  className={`hidden md:block border-2 border-igold py-2 pr-4 pl-3 text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633] md:border-0 md:hover:text-white text-igold`}
+                  className={`hidden md:block border-2 border-igold py-2 pr-4 pl-3 text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633]  md:hover:text-white text-igold`}
                 />}
               </li>
             </ul>
