@@ -37,13 +37,16 @@ const SignIn = ({ signIn }) => {
 			onSubmit={async (values) => {
 				console.log(values);
 				setLoading(true)
-
-				const res = await loginUser(values.mail, values.password)
-				console.log(res)
-				if (res === null) {
+				try {
+					const res = await loginUser(values.mail, values.password)
+					if (res === null) {
+						successSpan.current.innerHTML = `<p class="font-semibold text-red-500">Invalid Email or Password</p>`
+					}
+					setLoading(false)
+				} catch {
 					successSpan.current.innerHTML = `<p class="font-semibold text-red-500">Invalid Email or Password</p>`
+					setLoading(false)
 				}
-				setLoading(false)
 			}}
 		>
 			{(formik) => {

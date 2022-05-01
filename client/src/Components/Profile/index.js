@@ -14,6 +14,7 @@ import { BsDownload } from "react-icons/bs";
 import { BiArrowBack } from "react-icons/bi";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Context/AuthContext";
+import Logout from "../Auth/Logout";
 
 // const firebaseConfig = {
 //   apiKey: "AIzaSyChSXTSYZm0-EqrOhVbnP9FNopgEifCqu4",
@@ -26,22 +27,23 @@ import { AuthContext } from "../../Context/AuthContext";
 
 function Profile() {
   const [src, setSrc] = useState("");
-
-  useEffect(() => {
-    QRCode.toDataURL("pid").then((data) => {
-      setSrc(data);
-    });
-  });
-
-  console.log("profile");
-  const [participant, setParticipant] = useState({});
-  console.log(participant);
   const user = useContext(AuthContext)
   const navigate = useNavigate();
+
   useEffect(() => {
     if (user == null) {
       navigate("/login");
     }
+    QRCode.toDataURL("pid").then((data) => {
+      setSrc(data);
+    });
+  }, [user]);
+
+  console.log("profile");
+  const [participant, setParticipant] = useState({});
+  console.log(participant);
+  useEffect(() => {
+
     getUserInfo(user.uid)
       .then((participant) => {
         console.log(participant);
@@ -139,6 +141,7 @@ function Profile() {
             >
               RULEBOOK <BsDownload className="ml-2 mt-1" />
             </button>
+            <Logout />
           </div>
         </div>
       </div>
