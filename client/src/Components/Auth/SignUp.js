@@ -44,7 +44,8 @@ const SignUp = ({ signIn }) => {
   }
   const getOTP = async (values) => {
     try {
-      await axios.post('http://143.110.253.237:8080/auth/generateOtp', {
+      console.log(values)
+      await axios.post('http://143.110.253.237/auth/generateOtp', {
         email: values.mail,
         collegeName: values.college
       });
@@ -57,23 +58,19 @@ const SignUp = ({ signIn }) => {
       if (error.response.status === 300) {
         navigate(`/register/${values.mail}`)
       }
-      successSpan.current.innerHTML = `<p class="font-semibold text-red-600">${error.response.data}</p>`
-
     }
     setVals(values);
   };
 
   const validateOTP = async (values) => {
     try {
-      await axios.post('http://143.110.253.237:8080/auth/verifyOtp', {
+      await axios.post('http://143.110.253.237/auth/verifyOtp', {
         email: values.mail,
         OTP: values.otp,
       });
       successSpan.current.innerHTML = `<p class="font-semibold text-green-600">${"Email Verified"}</p>`
       setOtpVerified(true)
     } catch (error) {
-      console.log(error);
-      successSpan.current.innerHTML = `<p class="font-semibold text-red-600">${error.response.data}</p>`//NOTE:
     }
   };
 
@@ -86,10 +83,14 @@ const SignUp = ({ signIn }) => {
         if (isNmamit && !values.mail.includes(`@nmamit.in`)) {
           values.mail = `${values.mail}@nmamit.in`;
         }
-        if (!emailSent) {
-          await getOTP(values);
-        } else {
-          await validateOTP(values);
+        try {
+          if (!emailSent) {
+            await getOTP(values);
+          } else {
+            await validateOTP(values);
+          }
+        } catch (error) {
+          successSpan.current.innerHTML = `<p class="font-semibold text-red-600">${error.response.data}</p>`//NOTE:
         }
         setLoading(false)
       }}
@@ -102,6 +103,7 @@ const SignUp = ({ signIn }) => {
                 <SignInFormCustom>
                   <Title>Register</Title>
                   <Select
+                    className='group bg-[#333] text-[#eee]'
                     disabled={valid}
                     onChange={() => {
                       const domain = document.getElementById('domain');
@@ -127,14 +129,14 @@ const SignUp = ({ signIn }) => {
                       ]))
                     }
                   </Select>
-                  <Div>
-                    <InputField disabled={valid} name='mail' type='text' placeholder='Email' />
+                  <Div className='group bg-[#333] text-[#eee]'>
+                    <InputField className='  focus:outline-none focus:border-0' disabled={valid} name='mail' type='text' placeholder='Email' />
                     <p id='domain'>@nmamit.in</p>
                   </Div>
                   {!emailSent &&
 
 
-                    <Button onClick={clearMsg} type='submit' className={` inline-flex items-center justify-center gap-3  ${loading ? "opacity-90" : "opacity-100"}`} disabled={loading} >
+                    <Button onClick={clearMsg} type='submit' className={`mt-2 inline-flex items-center justify-center gap-3  ${loading ? "opacity-90" : "opacity-100"}`} disabled={loading} >
                       {loading ? <> <AiOutlineLoading3Quarters className=" animate-spin text-lg " /> <span className=''>Sending Email...</span></> : 'Send Verification Email'}
 
 

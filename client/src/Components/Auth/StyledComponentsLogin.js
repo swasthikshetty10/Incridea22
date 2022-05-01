@@ -39,13 +39,13 @@ export const SignUpContainer = styled.div`
 		height: 50vh;
 		top: 0;
 		${(props) =>
-			props.signingIn !== true
-				? `
+		props.signingIn !== true
+			? `
   transform: translateY(0);
 	opacity: 1;
 	z-index: 5;
 	`
-				: null}
+			: null}
 	}
 `;
 
@@ -65,7 +65,7 @@ export const SignInContainer = styled.div`
 		height: 50vh;
 		top: 50%;
 		${(props) =>
-			props.signingIn !== true ? `transform: translateY(100%);` : null}
+		props.signingIn !== true ? `transform: translateY(100%);` : null}
 	}
 `;
 
@@ -128,7 +128,16 @@ export const Input = styled.input`  //input
 
 `;
 // :
+export const Input2 = styled.input`  //input
+	background-color: #333333;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+	transition: all 0.5s ease;
+	color: #fff;
 
+`;
 export const Email = styled.input`
 	background-color: #eee;
 	border: none;
@@ -138,7 +147,6 @@ export const Email = styled.input`
 `;
 
 export const Div = styled.div`
-	background-color: #eee;
 	border: none;
 	padding: 0px 48px 0px 0px;
 	margin: 8px 0;
@@ -148,8 +156,7 @@ export const Div = styled.div`
 	align-items: center;
 `;
 
-export const Select = styled.select`			// dropdown 
-	background-color: #eee;  		
+export const Select = styled.select`			// dropdown  		
 	border: none;
 	padding: 12px 15px;
 	margin: 8px 0;
@@ -157,7 +164,6 @@ export const Select = styled.select`			// dropdown
 `;
 
 export const Button = styled.button`
-	border-radius: 20px;
 	border: 1px solid #9d7643;
 	background-color: #9d7643;
 	color: #ffffff;
@@ -166,12 +172,15 @@ export const Button = styled.button`
 	padding: 12px 45px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	transition: transform 80ms ease-in;
+	transition: transform 100ms ease-in-out;
 	&:active {
 		transform: scale(0.95);
 	}
 	&:focus {
 		outline: none;
+	}
+	&:hover{
+		background-color : rgba(0,0,0,0);
 	}
 `;
 
@@ -205,7 +214,7 @@ export const OverlayContainer = styled.div`
 		left: 0;
 		bottom: 50%;
 		${(props) =>
-			props.signingIn !== true ? `transform: translateY(100%);` : null}
+		props.signingIn !== true ? `transform: translateY(100%);` : null}
 	}
 `;
 
@@ -233,7 +242,7 @@ export const Overlay = styled.div`
 		bottom: -100%;
 		transform: translateY(-50%);
 		${(props) =>
-			props.signingIn !== true ? `transform: translateY(-100%);` : null}
+		props.signingIn !== true ? `transform: translateY(-100%);` : null}
 	}
 `;
 
@@ -266,7 +275,7 @@ export const LeftOverlayPanel = styled(OverlayPanel)`
 		top: 50%;
 		transform: translateY(20%);
 		${(props) =>
-			props.signingIn !== true ? `transform: translateY(0);` : null}
+		props.signingIn !== true ? `transform: translateY(0);` : null}
 	}
 `;
 
@@ -280,7 +289,7 @@ export const RightOverlayPanel = styled(OverlayPanel)`
 		bottom: 0;
 		transform: translateY(0);
 		${(props) =>
-			props.signingIn !== true ? `transform: translateY(-20%);` : null}
+		props.signingIn !== true ? `transform: translateY(-20%);` : null}
 	}
 `;
 export const Paragraph = styled.p`
