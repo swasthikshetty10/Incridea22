@@ -130,7 +130,7 @@ function Register() {
                         return (
                             <ForgotContainer>
                                 <Form className='formBox'>
-                                    <Title>Enter Your Details Carefully </Title>
+                                    <Title>Enter Your Details Carefully</Title>
                                     <InputField placeholder='Name' name='name' type='text' />
                                     <InputField
                                         name='phNo'
@@ -150,7 +150,9 @@ function Register() {
                                         type='password'
                                         placeholder='Confirm Password'
                                     />
-                                    <Button type='submit'>Sign Up</Button>
+                                    <Button className={`inline-flex gap-3 ${loading ? "bg-opacity-50" : ""}`} disabled={loading} type='submit'>
+                                        {loading ? <> <AiOutlineLoading3Quarters className=" animate-spin text-lg " /> <span className=''>Registering...</span></> : 'Register'}
+                                    </Button>
                                     {/* TODO: Add loading animation */}
                                 </Form>
                             </ForgotContainer>
