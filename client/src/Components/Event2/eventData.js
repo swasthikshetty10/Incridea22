@@ -119,6 +119,19 @@ export const eventData = [
         "image": "/events/CORE/navarasa.png",
         "smallDesc": "A drama competition open to teams from all universities. Through this, we wish to provide a platform for all budding playwrights, theatre artists, and art patrons to entertain theatre lovers.",
         "fullDesc": "Sanskrit literature has a profound saying which goes, \"Kavyeshu Natakam Ramyam\" : Drama is the finest form of poetry. 'Drama' is a metaphorical amalgamation of visual, auditory, material, and nuances of character.",
+        "roundDetails": {
+            "Round 1 - Online Screening Round" : [
+                "The video should be a 3-5 minutes sample of the performance, and it can be from any portion of the performance.",
+                "Record your performance and upload it on your Google Drive. Link of which is to be shared with us over email at navarasa.incridea@gmail.com under the subject \"Navarasa Online Screening Sub mission\".",
+                "Editing, cuts, and pre-recorded videos are not allowed.",
+                "Submission Deadline: Before 25th April 2022, 5 PM.",
+                "A maximum of 9 teams will be selected from the Online Screening round and will proceed to the final round.",
+                "Note: All the rules of the Final Round are also applied to Online Screening Round.",
+            ], 
+            "Round 2 - Final Round" : [
+
+            ]
+        },
 
         "rules": [
             "Round 1 - Online Screening Round:",
@@ -1782,6 +1795,681 @@ export const eventData = [
 
     },
 
+    {
+        "name": "RESPAWN",
+        "venue":"CS Labs",
+        "day": "1",
+        "Time":"11:00 AM", 
+        "branch":"CSE",
+        "image":"/events/CS/respawn.jpg",
+        "smallDesc":"Respawn welcomes you to battle it out in the game of your choice!",
+        "fullDesc":"What does it take to get your heart racing, your blood flowing, your breath speeding? Is it the clink of a headshot? The whoosh of the ball hitting the goal? Or the vroom of your opponents' engines as you leave them in your rearview mirrors? No matter what, we've got just the right place for you to test your mettle. Respawn welcomes you to battle it out in the game of your choice and show 'em what legends are made of!",
+        "games": [
+            {
+                "name": "FIFA",
+                "rules": [
+                    "Players who use a Controller, Joystick, Gaming Mouse, etc. can bring their own, else the joystick will be provided with an extra charge (Rs.20/-)",
+                    "In case of a tie during the allotted time in the preliminary rounds, most shots on target will be considered to decide the winner."
+                ],
+                "rounds" : {
+                    "Preliminary Round" : [
+                        "Knockout rounds where the winner advances to the next round",
+                        "Half time duration: 5 minutes"
+                    ],
+                    "Knockout Rounds" : [
+                        "The top 8 players will contest in another knockout round until they converge to the finals.",
+                        "Half time duration: 6 minutes"
+                    ],
+                    "Finals" : [
+                        "Half time duration: 10 minutes.",
+                        "The winner and runner-up will be decided.",
+                        "Tie in the finals will result in extra time, followed by penalties."
+                    ]
+
+                },
+                "registrationDetails" : [
+                    "Rs.80/ - per participant",
+                    "Any number of participants from a college are allowed"
+                ]
+            },
+            {
+                "name": "CS:GO",
+                "rules": [
+                    "Each team must consist of 5 players",
+                    "All the teams must choose a captain. This person will be solely responsible for communication with the admins/judges during the tournament",
+                    "A player cannot play for more than one team in the tournament",
+                    "There are knockout rounds where the top 4 winning teams will advance to the next round",
+                    "The top 4 teams as per preliminary rounds will contest in a knockout round till they converge on the winner and runner-up team",
+                    "Standard ESL CS:GO rules will be followed throughout the tournament and the organizers' decision will be the final decision"
+                ],
+                "registrationDetails" : [
+                    "Rs 400/- per team"
+                ]
+            },
+            {
+                "name": "VALORANT",
+                "rules": [
+                    "Each team must consist of 5 players",
+                    "All the teams must choose a captain. This person will be solely responsible for communication with the admins/judges during the tournament",
+                    "A player cannot play for more than one team in the tournament",
+                    "There are knockout rounds where the top 4 winning teams will advance to the next round",
+                    "The top 4 teams as per preliminary rounds will contest in a knockout round till they converge on the winner and runner-up team",
+                    "Standard VCT rules will be followed throughout the tournament and the organizers' decision will be the final decision"
+                ],
+                "registrationDetails" : [
+                    "Rs 400/- per team"
+                ]
+            },
+            {
+                "name": "NFS MOST WANTED",
+                "rules": [
+                    "Players who use a Controller, Joystick, Gaming Mouse, etc. can bring their own, else the joystick will be provided with an extra charge (Rs.20/-)",
+                    "In case of a tie during the allotted time in the preliminary rounds, most shots on target will be considered to decide the winner.",
+                    "In case of any disputes, the organizing team's decision will be FINAL"
+                ],
+                "rounds" : {
+                    "First Round" : [
+                        "This is a time trial for all the registered contestants.",
+                        "The top 16 will advance to the next round."
+                    ],
+                    "Second Round" : [
+                        "This round is a knockout (circuit) racing between 4 contestants.",
+                        "Winner of each race proceeds to next round."
+                    ],
+                    "Third Round" : [
+                        "This round is drag racing between 2 contestants.",
+                        "Winner of each race proceed to next round."
+                    ],
+                    "Final Round" : [
+                        "This round is a sprint race between 2 contestants.",
+                        "The winner and runner-up will be decided."
+                    ]
+
+                },
+                "registrationDetails" : [
+                    "Rs.80/- per participant",
+                    "Any number of participants from a college are allowed"
+                ]
+            },
+            {
+                "name": "E-FOOTBALL PES 2020",
+                "rules": [
+                    "Participants cannot include FEATURED players in their squad",
+                    "Participants must get their own Cell phone",
+                    "Usage of any patches and cheats will lead to disqualification",
+                    "Squad with HIGHEST TEAM STRENGTH will have an exciting prize (No Featured Players included)",
+                    "In case of any disputes, the organizing team's decision will be FINAL"
+                ],
+                "rounds" : {
+                    "Preliminary Rounds" : [
+                        "Knockout round where the winner advances to the next round. (Matches will be held according to the team strength)",
+                    	"Half time duration: 4 minutes.",
+                    	"Participants will be Divided Based on Team Strength only in this Round.",
+                    	"RE-ENTRY AVAILABLE (On ly once)",
+                    	"Winners of the first round will contest again each other until they reach the next round.",
+                    	"Half time duration: 5 minutes.",
+                    	"Players can play with squads of any team strength (Matches will be conducted against a random team strength)",
+                        "In case of a tie, winners will be decided in penalty shootouts (No extra time will be provided)."
+                    ],
+                    "Final Round" : [
+                        "Half time duration: 7 minutes.",
+                        "The winner and runner-up will be decided.",
+                        "Tie in KNOCKOUT rounds will have extra time followed by penalties"
+                    ]
+                },
+                "registrationDetails" : [
+                    "Rs.80/ - per participant",
+                    "Any number of participants from a college are allowed"
+                ]
+            },
+            {
+                "name":"LUDO",
+                "rules": [
+                    "A fun and luck-based game!",
+	                "The Player will roll the dice and play his colored pawns accordingly",
+	                "2-4 player game will be played, where the winner moves on",
+	                "All games are knockout"
+                ],
+                "registrationDetails" : [
+                    "Rs.80/- per participant",
+                ]
+            },
+            {
+                "name":"BGMI",
+                "rules": [
+                    "Each team's roster must contain a maximum of 4 players. Three to four people can register.",
+	                "No using of triggers or gaming consoles, using of finger sleeves is allowed.",
+	                "Using iPads/Emulators is not allowed. If a team wants to report a cheat, record the death replay from in-game.",
+	                "Matches will be played in the advance room.",
+	                "The number of finishes will be awarded 1point each. Position points will be based on the BGIS points table.",
+	                "Total points for the team will be position points + the number of finishes.",
+	                "If found teaming up or using any modification of the BATTLEGROUNDS MOBILE INDIA game client by any player,the team will be disqualified from the tournament.",
+	                "The number of finishes will be given priorit y if there is a points tiebreaker between the teams.",
+	                "In the first round, Classic Erangel will be played. The top four teams with the highest number of points will move on to the next round. Similarly, the top four teams will continue to move on to the next round till the finals.",
+	                "In the final, two matches will be played and the winner will be decided based on the number of points earned.",
+	                "In the unlikely event of a server crash, the game will be restarted",
+	                "The decision of the admins/judges is final in all matters"
+                ],
+                "registrationDetails" : [
+                    "Rs.400/-",
+                ]
+            },
+            {
+                "name": "CODM",
+                "rules": [
+                    "Maps - Firing range, Stand off, Nuketown, Summit.",
+                    "All guns, scorestreaks, and perks are allowed.",
+                    "No emulators and iPad are allowed.",
+                    "Usage of VPN is prohibited, if found, the team will be disqualified.",
+                    "No internet facility will be provided.",
+                    "In case of any disputes, Organizer's decision will be FINAL"
+                ],
+                "rounds" : {
+                    "Preliminary Rounds" : [
+                        "The preliminary round will be TOM.",
+                        "As per iterations, the top 4 teams will be selected"
+                    ],
+                    "Semi-Finals and Finals" : [
+                        "There will be 3 rounds in the following order: Hardpoint, Domination, and SnD."
+                    ]
+                },
+                "registrationDetails" : [
+                    "Rs.250/- per team",
+                    "Max 5+1 in a team"
+                ]
+            },
+            {
+                "name": "2 PLAYER GAMES",
+                "rules": [
+                    "5 games will be played, out of which the best of 5 is selected",
+                    "Games are Ping Pong, Hand Slap, Money Grabber, The Last Sashimi, Pull the rope",
+                    "Only one hand is used, and the other is kept back.",
+                    "Get your own phones.",
+                    
+                ],
+                "rounds" : {
+                    "Preliminary Rounds" : [
+                        "The knockout stage where the winner advances to the next round"
+                    ],
+                    "Semi-Finals and Finals" : [
+                        "The top 8 players will contest in another knockout round until they converge to the finals. The winner and runner up will be decided"
+                    ]
+                },
+                "registrationDetails" : [
+                    "Rs. 80/- per participant",
+                    "Any number of participants from a college are allowed."
+                ]
+            },
+        ],
+        "rules": [
+            "Any damage caused to the device/accessories will be accountable to the person using the device",
+	        "Any kind of misuse of the device will result in strict consequences",
+            "In case of disqualification/players not showing up for games during the assigned time, no refund shall be given",
+	        "The organizers' decision is final!"
+        ],
+        "contactDetails": [
+            {
+                "name": "Chetan Acharya P V",
+                "phoneNumber": "+91 9108126455",
+                "emailID": "chetanpv7@gmail.com"
+            },
+            {
+                "name":"Naman K V",
+                "phoneNumber":"+91 9845104385",
+                "emailID":"kvnaman2000@gmail.com"
+            }
+        ]   
+    },
+    {
+        "name": "RESPAWN",
+        "venue":"CS Labs",
+        "day": "2",
+        "Time":"9:00 AM",
+        "branch":"CSE",
+        "image":"/events/CS/respawn.jpg",
+        "smallDesc":"Respawn welcomes you to battle it out in the game of your choice!",
+        "fullDesc":"What does it take to get your heart racing, your blood flowing, your breath speeding? Is it the clink of a headshot? The whoosh of the ball hitting the goal? Or the vroom of your opponents' engines as you leave them in your rearview mirrors? No matter what, we've got just the right place for you to test your mettle. Respawn welcomes you to battle it out in the game of your choice and show 'em what legends are made of!",
+        "games": [
+            {
+                "name": "FIFA",
+                "rules": [
+                    "Players who use a Controller, Joystick, Gaming Mouse, etc. can bring their own, else the joystick will be provided with an extra charge (Rs.20/-)",
+                    "In case of a tie during the allotted time in the preliminary rounds, most shots on target will be considered to decide the winner."
+                ],
+                "rounds" : {
+                    "Preliminary Round" : [
+                        "Knockout rounds where the winner advances to the next round",
+                        "Half time duration: 5 minutes"
+                    ],
+                    "Knockout Rounds" : [
+                        "The top 8 players will contest in another knockout round until they converge to the finals.",
+                        "Half time duration: 6 minutes"
+                    ],
+                    "Finals" : [
+                        "Half time duration: 10 minutes.",
+                        "The winner and runner-up will be decided.",
+                        "Tie in the finals will result in extra time, followed by penalties."
+                    ]
+
+                },
+                "registrationDetails" : [
+                    "Rs.80/ - per participant",
+                    "Any number of participants from a college are allowed"
+                ]
+            },
+            {
+                "name": "CS:GO",
+                "rules": [
+                    "Each team must consist of 5 players",
+                    "All the teams must choose a captain. This person will be solely responsible for communication with the admins/judges during the tournament",
+                    "A player cannot play for more than one team in the tournament",
+                    "There are knockout rounds where the top 4 winning teams will advance to the next round",
+                    "The top 4 teams as per preliminary rounds will contest in a knockout round till they converge on the winner and runner-up team",
+                    "Standard ESL CS:GO rules will be followed throughout the tournament and the organizers' decision will be the final decision"
+                ],
+                "registrationDetails" : [
+                    "Rs 400/- per team"
+                ]
+            },
+            {
+                "name": "VALORANT",
+                "rules": [
+                    "Each team must consist of 5 players",
+                    "All the teams must choose a captain. This person will be solely responsible for communication with the admins/judges during the tournament",
+                    "A player cannot play for more than one team in the tournament",
+                    "There are knockout rounds where the top 4 winning teams will advance to the next round",
+                    "The top 4 teams as per preliminary rounds will contest in a knockout round till they converge on the winner and runner-up team",
+                    "Standard VCT rules will be followed throughout the tournament and the organizers' decision will be the final decision"
+                ],
+                "registrationDetails" : [
+                    "Rs 400/- per team"
+                ]
+            },
+            {
+                "name": "NFS MOST WANTED",
+                "rules": [
+                    "Players who use a Controller, Joystick, Gaming Mouse, etc. can bring their own, else the joystick will be provided with an extra charge (Rs.20/-)",
+                    "In case of a tie during the allotted time in the preliminary rounds, most shots on target will be considered to decide the winner.",
+                    "In case of any disputes, the organizing team's decision will be FINAL"
+                ],
+                "rounds" : {
+                    "First Round" : [
+                        "This is a time trial for all the registered contestants.",
+                        "The top 16 will advance to the next round."
+                    ],
+                    "Second Round" : [
+                        "This round is a knockout (circuit) racing between 4 contestants.",
+                        "Winner of each race proceeds to next round."
+                    ],
+                    "Third Round" : [
+                        "This round is drag racing between 2 contestants.",
+                        "Winner of each race proceed to next round."
+                    ],
+                    "Final Round" : [
+                        "This round is a sprint race between 2 contestants.",
+                        "The winner and runner-up will be decided."
+                    ]
+
+                },
+                "registrationDetails" : [
+                    "Rs.80/- per participant",
+                    "Any number of participants from a college are allowed"
+                ]
+            },
+            {
+                "name": "E-FOOTBALL PES 2020",
+                "rules": [
+                    "Participants cannot include FEATURED players in their squad",
+                    "Participants must get their own Cell phone",
+                    "Usage of any patches and cheats will lead to disqualification",
+                    "Squad with HIGHEST TEAM STRENGTH will have an exciting prize (No Featured Players included)",
+                    "In case of any disputes, the organizing team's decision will be FINAL"
+                ],
+                "rounds" : {
+                    "Preliminary Rounds" : [
+                        "Knockout round where the winner advances to the next round. (Matches will be held according to the team strength)",
+                    	"Half time duration: 4 minutes.",
+                    	"Participants will be Divided Based on Team Strength only in this Round.",
+                    	"RE-ENTRY AVAILABLE (On ly once)",
+                    	"Winners of the first round will contest again each other until they reach the next round.",
+                    	"Half time duration: 5 minutes.",
+                    	"Players can play with squads of any team strength (Matches will be conducted against a random team strength)",
+                        "In case of a tie, winners will be decided in penalty shootouts (No extra time will be provided)."
+                    ],
+                    "Final Round" : [
+                        "Half time duration: 7 minutes.",
+                        "The winner and runner-up will be decided.",
+                        "Tie in KNOCKOUT rounds will have extra time followed by penalties"
+                    ]
+                },
+                "registrationDetails" : [
+                    "Rs.80/ - per participant",
+                    "Any number of participants from a college are allowed"
+                ]
+            },
+            {
+                "name":"LUDO",
+                "rules": [
+                    "A fun and luck-based game!",
+	                "The Player will roll the dice and play his colored pawns accordingly",
+	                "2-4 player game will be played, where the winner moves on",
+	                "All games are knockout"
+                ],
+                "registrationDetails" : [
+                    "Rs.80/- per participant",
+                ]
+            },
+            {
+                "name":"BGMI",
+                "rules": [
+                    "Each team's roster must contain a maximum of 4 players. Three to four people can register.",
+	                "No using of triggers or gaming consoles, using of finger sleeves is allowed.",
+	                "Using iPads/Emulators is not allowed. If a team wants to report a cheat, record the death replay from in-game.",
+	                "Matches will be played in the advance room.",
+	                "The number of finishes will be awarded 1point each. Position points will be based on the BGIS points table.",
+	                "Total points for the team will be position points + the number of finishes.",
+	                "If found teaming up or using any modification of the BATTLEGROUNDS MOBILE INDIA game client by any player,the team will be disqualified from the tournament.",
+	                "The number of finishes will be given priorit y if there is a points tiebreaker between the teams.",
+	                "In the first round, Classic Erangel will be played. The top four teams with the highest number of points will move on to the next round. Similarly, the top four teams will continue to move on to the next round till the finals.",
+	                "In the final, two matches will be played and the winner will be decided based on the number of points earned.",
+	                "In the unlikely event of a server crash, the game will be restarted",
+	                "The decision of the admins/judges is final in all matters"
+                ],
+                "registrationDetails" : [
+                    "Rs.400/-",
+                ]
+            },
+            {
+                "name": "CODM",
+                "rules": [
+                    "Maps - Firing range, Stand off, Nuketown, Summit.",
+                    "All guns, scorestreaks, and perks are allowed.",
+                    "No emulators and iPad are allowed.",
+                    "Usage of VPN is prohibited, if found, the team will be disqualified.",
+                    "No internet facility will be provided.",
+                    "In case of any disputes, Organizer's decision will be FINAL"
+                ],
+                "rounds" : {
+                    "Preliminary Rounds" : [
+                        "The preliminary round will be TOM.",
+                        "As per iterations, the top 4 teams will be selected"
+                    ],
+                    "Semi-Finals and Finals" : [
+                        "There will be 3 rounds in the following order: Hardpoint, Domination, and SnD."
+                    ]
+                },
+                "registrationDetails" : [
+                    "Rs.250/- per team",
+                    "Max 5+1 in a team"
+                ]
+            },
+            {
+                "name": "2 PLAYER GAMES",
+                "rules": [
+                    "5 games will be played, out of which the best of 5 is selected",
+                    "Games are Ping Pong, Hand Slap, Money Grabber, The Last Sashimi, Pull the rope",
+                    "Only one hand is used, and the other is kept back.",
+                    "Get your own phones.",
+                    
+                ],
+                "rounds" : {
+                    "Preliminary Rounds" : [
+                        "The knockout stage where the winner advances to the next round"
+                    ],
+                    "Semi-Finals and Finals" : [
+                        "The top 8 players will contest in another knockout round until they converge to the finals. The winner and runner up will be decided"
+                    ]
+                },
+                "registrationDetails" : [
+                    "Rs. 80/- per participant",
+                    "Any number of participants from a college are allowed."
+                ]
+            },
+        ],
+        "rules": [
+            "Any damage caused to the device/accessories will be accountable to the person using the device",
+	        "Any kind of misuse of the device will result in strict consequences",
+            "In case of disqualification/players not showing up for games during the assigned time, no refund shall be given",
+	        "The organizers' decision is final!"
+        ],
+        "contactDetails": [
+            {
+                "name": "Chetan Acharya P V",
+                "phoneNumber": "+91 9108126455",
+                "emailID": "chetanpv7@gmail.com"
+            },
+            {
+                "name":"Naman K V",
+                "phoneNumber":"+91 9845104385",
+                "emailID":"kvnaman2000@gmail.com"
+            }
+        ]   
+    },
+    {
+        "name": "RESPAWN",
+        "venue":"CS Labs",
+        "day": "3",
+        "Time":"9:00 AM",
+        "branch":"CSE",
+        "image":"/events/CS/respawn.jpg",
+        "smallDesc":"Respawn welcomes you to battle it out in the game of your choice!",
+        "fullDesc":"What does it take to get your heart racing, your blood flowing, your breath speeding? Is it the clink of a headshot? The whoosh of the ball hitting the goal? Or the vroom of your opponents' engines as you leave them in your rearview mirrors? No matter what, we've got just the right place for you to test your mettle. Respawn welcomes you to battle it out in the game of your choice and show 'em what legends are made of!",
+        "games": [
+            {
+                "name": "FIFA",
+                "rules": [
+                    "Players who use a Controller, Joystick, Gaming Mouse, etc. can bring their own, else the joystick will be provided with an extra charge (Rs.20/-)",
+                    "In case of a tie during the allotted time in the preliminary rounds, most shots on target will be considered to decide the winner."
+                ],
+                "rounds" : {
+                    "Preliminary Round" : [
+                        "Knockout rounds where the winner advances to the next round",
+                        "Half time duration: 5 minutes"
+                    ],
+                    "Knockout Rounds" : [
+                        "The top 8 players will contest in another knockout round until they converge to the finals.",
+                        "Half time duration: 6 minutes"
+                    ],
+                    "Finals" : [
+                        "Half time duration: 10 minutes.",
+                        "The winner and runner-up will be decided.",
+                        "Tie in the finals will result in extra time, followed by penalties."
+                    ]
+
+                },
+                "registrationDetails" : [
+                    "Rs.80/ - per participant",
+                    "Any number of participants from a college are allowed"
+                ]
+            },
+            {
+                "name": "CS:GO",
+                "rules": [
+                    "Each team must consist of 5 players",
+                    "All the teams must choose a captain. This person will be solely responsible for communication with the admins/judges during the tournament",
+                    "A player cannot play for more than one team in the tournament",
+                    "There are knockout rounds where the top 4 winning teams will advance to the next round",
+                    "The top 4 teams as per preliminary rounds will contest in a knockout round till they converge on the winner and runner-up team",
+                    "Standard ESL CS:GO rules will be followed throughout the tournament and the organizers' decision will be the final decision"
+                ],
+                "registrationDetails" : [
+                    "Rs 400/- per team"
+                ]
+            },
+            {
+                "name": "VALORANT",
+                "rules": [
+                    "Each team must consist of 5 players",
+                    "All the teams must choose a captain. This person will be solely responsible for communication with the admins/judges during the tournament",
+                    "A player cannot play for more than one team in the tournament",
+                    "There are knockout rounds where the top 4 winning teams will advance to the next round",
+                    "The top 4 teams as per preliminary rounds will contest in a knockout round till they converge on the winner and runner-up team",
+                    "Standard VCT rules will be followed throughout the tournament and the organizers' decision will be the final decision"
+                ],
+                "registrationDetails" : [
+                    "Rs 400/- per team"
+                ]
+            },
+            {
+                "name": "NFS MOST WANTED",
+                "rules": [
+                    "Players who use a Controller, Joystick, Gaming Mouse, etc. can bring their own, else the joystick will be provided with an extra charge (Rs.20/-)",
+                    "In case of a tie during the allotted time in the preliminary rounds, most shots on target will be considered to decide the winner.",
+                    "In case of any disputes, the organizing team's decision will be FINAL"
+                ],
+                "rounds" : {
+                    "First Round" : [
+                        "This is a time trial for all the registered contestants.",
+                        "The top 16 will advance to the next round."
+                    ],
+                    "Second Round" : [
+                        "This round is a knockout (circuit) racing between 4 contestants.",
+                        "Winner of each race proceeds to next round."
+                    ],
+                    "Third Round" : [
+                        "This round is drag racing between 2 contestants.",
+                        "Winner of each race proceed to next round."
+                    ],
+                    "Final Round" : [
+                        "This round is a sprint race between 2 contestants.",
+                        "The winner and runner-up will be decided."
+                    ]
+
+                },
+                "registrationDetails" : [
+                    "Rs.80/- per participant",
+                    "Any number of participants from a college are allowed"
+                ]
+            },
+            {
+                "name": "E-FOOTBALL PES 2020",
+                "rules": [
+                    "Participants cannot include FEATURED players in their squad",
+                    "Participants must get their own Cell phone",
+                    "Usage of any patches and cheats will lead to disqualification",
+                    "Squad with HIGHEST TEAM STRENGTH will have an exciting prize (No Featured Players included)",
+                    "In case of any disputes, the organizing team's decision will be FINAL"
+                ],
+                "rounds" : {
+                    "Preliminary Rounds" : [
+                        "Knockout round where the winner advances to the next round. (Matches will be held according to the team strength)",
+                    	"Half time duration: 4 minutes.",
+                    	"Participants will be Divided Based on Team Strength only in this Round.",
+                    	"RE-ENTRY AVAILABLE (On ly once)",
+                    	"Winners of the first round will contest again each other until they reach the next round.",
+                    	"Half time duration: 5 minutes.",
+                    	"Players can play with squads of any team strength (Matches will be conducted against a random team strength)",
+                        "In case of a tie, winners will be decided in penalty shootouts (No extra time will be provided)."
+                    ],
+                    "Final Round" : [
+                        "Half time duration: 7 minutes.",
+                        "The winner and runner-up will be decided.",
+                        "Tie in KNOCKOUT rounds will have extra time followed by penalties"
+                    ]
+                },
+                "registrationDetails" : [
+                    "Rs.80/ - per participant",
+                    "Any number of participants from a college are allowed"
+                ]
+            },
+            {
+                "name":"LUDO",
+                "rules": [
+                    "A fun and luck-based game!",
+	                "The Player will roll the dice and play his colored pawns accordingly",
+	                "2-4 player game will be played, where the winner moves on",
+	                "All games are knockout"
+                ],
+                "registrationDetails" : [
+                    "Rs.80/- per participant",
+                ]
+            },
+            {
+                "name":"BGMI",
+                "rules": [
+                    "Each team's roster must contain a maximum of 4 players. Three to four people can register.",
+	                "No using of triggers or gaming consoles, using of finger sleeves is allowed.",
+	                "Using iPads/Emulators is not allowed. If a team wants to report a cheat, record the death replay from in-game.",
+	                "Matches will be played in the advance room.",
+	                "The number of finishes will be awarded 1point each. Position points will be based on the BGIS points table.",
+	                "Total points for the team will be position points + the number of finishes.",
+	                "If found teaming up or using any modification of the BATTLEGROUNDS MOBILE INDIA game client by any player,the team will be disqualified from the tournament.",
+	                "The number of finishes will be given priorit y if there is a points tiebreaker between the teams.",
+	                "In the first round, Classic Erangel will be played. The top four teams with the highest number of points will move on to the next round. Similarly, the top four teams will continue to move on to the next round till the finals.",
+	                "In the final, two matches will be played and the winner will be decided based on the number of points earned.",
+	                "In the unlikely event of a server crash, the game will be restarted",
+	                "The decision of the admins/judges is final in all matters"
+                ],
+                "registrationDetails" : [
+                    "Rs.400/-",
+                ]
+            },
+            {
+                "name": "CODM",
+                "rules": [
+                    "Maps - Firing range, Stand off, Nuketown, Summit.",
+                    "All guns, scorestreaks, and perks are allowed.",
+                    "No emulators and iPad are allowed.",
+                    "Usage of VPN is prohibited, if found, the team will be disqualified.",
+                    "No internet facility will be provided.",
+                    "In case of any disputes, Organizer's decision will be FINAL"
+                ],
+                "rounds" : {
+                    "Preliminary Rounds" : [
+                        "The preliminary round will be TOM.",
+                        "As per iterations, the top 4 teams will be selected"
+                    ],
+                    "Semi-Finals and Finals" : [
+                        "There will be 3 rounds in the following order: Hardpoint, Domination, and SnD."
+                    ]
+                },
+                "registrationDetails" : [
+                    "Rs.250/- per team",
+                    "Max 5+1 in a team"
+                ]
+            },
+            {
+                "name": "2 PLAYER GAMES",
+                "rules": [
+                    "5 games will be played, out of which the best of 5 is selected",
+                    "Games are Ping Pong, Hand Slap, Money Grabber, The Last Sashimi, Pull the rope",
+                    "Only one hand is used, and the other is kept back.",
+                    "Get your own phones.",
+                    
+                ],
+                "rounds" : {
+                    "Preliminary Rounds" : [
+                        "The knockout stage where the winner advances to the next round"
+                    ],
+                    "Semi-Finals and Finals" : [
+                        "The top 8 players will contest in another knockout round until they converge to the finals. The winner and runner up will be decided"
+                    ]
+                },
+                "registrationDetails" : [
+                    "Rs. 80/- per participant",
+                    "Any number of participants from a college are allowed."
+                ]
+            },
+        ],
+        "rules": [
+            "Any damage caused to the device/accessories will be accountable to the person using the device",
+	        "Any kind of misuse of the device will result in strict consequences",
+            "In case of disqualification/players not showing up for games during the assigned time, no refund shall be given",
+	        "The organizers' decision is final!"
+        ],
+        "contactDetails": [
+            {
+                "name": "Chetan Acharya P V",
+                "phoneNumber": "+91 9108126455",
+                "emailID": "chetanpv7@gmail.com"
+            },
+            {
+                "name":"Naman K V",
+                "phoneNumber":"+91 9845104385",
+                "emailID":"kvnaman2000@gmail.com"
+            }
+        ]   
+    },
     {
         "name": "RIFF OFF",
         "round": "Preliminary",
@@ -4641,21 +5329,21 @@ export const eventData = [
             "For participation, each team should have their own bot of specified dimensions Ready- made kits are not allowed.A team is not permitted to compete with more than onebot during one match",
             "Only 2 members of each team may be present at a time in the arena",
             "If the bot is wired, one member will be the controller of the bot and the other will hold the wire",
-            "The structure of the robot should not change during the competition(E.g.If you have a wedge at the front, you can't convert it into a claw or vice versa)",
+            "The structure of the robot should not change during the competition (E.g. If you have a wedge at the front, you can't convert it into a claw or vice versa)",
             "The coordinators will not be responsible for any kind of electromagnetic interference in the wireless communication",
             "One member of the team must be present near the arena or the room provided at any given time",
             "Teams must be ready before the mentioned time.",
             "A warning will be given after every 2 mins of calling the team, on the third call the team will be disqualified",
             "The bot should not be disassembled until the result s are declared",
             "If a foul is committed, and a goal occurs before the play is restarted for the foul, the goal is not counted",
-            "Pulling the bot with connected wires on the arena will lead to disqualifica tion",
-            "All the decisions taken by the organizing team will be deemed final, and no further changes will be encouraged.They will hold full authority to change any of the above rules as per the circumstances",
+            "Pulling the bot with connected wires on the arena will lead to disqualification",
+            "All the decisions taken by the organizing team will be deemed final, and no further changes will be encouraged. They will hold full authority to change any of the above rules as per the circumstances",
 
 
         ],
         "judgingCriteria": [
             "For each goal scored by a team, 4 points will be awarded",
-            "If the bot damages the arena, the ball, or the opponent bot(major damage), 2 points will be deducted",
+            "If the bot damages the arena, the ball, or the opponent bot (major damage), 2 points will be deducted",
             "Two points will be deducted for the bot which is responsib le for hitting the ball out of the arena",
             "A warning will be given for not following the rules after which 2 points will be deducted for every warning",
             "The winner shall be declared based on the points scored",

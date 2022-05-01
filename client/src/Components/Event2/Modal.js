@@ -33,7 +33,7 @@ function Modal({ data, img, closeModal }) {
                         {/* <!-- Modal body --> */}
                         <div className="overflow-y-scroll sm:overflow-y-auto  h-[80vh] sm:h-auto p-1 sm:flex sm:flex-col md:flex md:flex-row lg:flex lg:flex-row xl:flex xl:flex-row">
 
-                            <div className="p-3 flex flex-col justify-around space-y-3 sm:min-w-max">
+                            <div className="p-3 flex flex-col justify-between space-y-3 sm:min-w-max">
                                 <img src={img} alt={""} class=" block sm:w-32 md:w-48 lg:w-60" />
                                 <div>
 
@@ -58,7 +58,7 @@ function Modal({ data, img, closeModal }) {
                                     </div>
                                 </div>
                             </div>
-                            <div className="p-3  space-y-6  sm:overflow-y-scroll  sm:h-[75vh]">
+                            <div className="p-3 pt-0  space-y-6  sm:overflow-y-scroll  sm:h-[75vh]">
                                 <div className="">
 
                                     <h1 className="text-gray-100/100 text-4xl font-bold py-3">Description</h1>
@@ -81,6 +81,47 @@ function Modal({ data, img, closeModal }) {
                                         </p>
 
                                     </div>
+                                }
+                                {
+                                    data.games && <>
+                                        <h1 className="text-gray-100/100 text-4xl pt-3 font-bold ">Games</h1>
+                                        {
+                                            data.games.map((game, idx) => (
+                                                <div key={idx}>
+                                                    <h2 className="text-gray-100/100 text-3xl font-bold ">{game.name}</h2>
+                                                    {
+                                                        game.rules && 
+                                                        <>
+                                                            <h3 className=" text-gray-100/100 text-2xl font-semibold pt-3 pb-1">Rules</h3>
+                                                            <ol className='list-decimal list-inside text-base leading-relaxed text-gray-100'>
+                                                                {game.rules?.map((rule,i) => <li key={i}>{rule}</li>)}
+                                                            </ol>
+                                                        </>
+                                                    }
+                                                   {game.rounds && <>
+                                                    <h3 className="text-gray-100/100 text-2xl font-semibold pt-3 pb-1">Rounds</h3>
+                                                        {game.rounds && Object.keys(game.rounds)?.map((key, index) =>
+                                                       {   
+                                                           return <div key={index}>
+                                                                <h2 className="text-gray-100 text-xl font-light pt-2  " >{key}</h2>
+                                                                    <ol className="py-1 text-base leading-relaxed text-gray-100 list-decimal list-inside">
+                                                                        {game.rounds[key].map((val, i) => {
+                                                                            return <li>{val}</li>
+                                                                        })}
+                                                                    </ol>
+                                                            </div>
+                                                        }
+                                                    )}</>}
+                                                    {game.registrationDetails && <>
+                                                        <h3 className=" text-gray-100/100 text-2xl font-semibold pt-3 pb-1">Registration Details</h3>
+                                                        <ol className='list-decimal list-inside text-base leading-relaxed text-gray-100'>
+                                                            {game.registrationDetails?.map((detail,i) => <li key={i}>{detail}</li>)}
+                                                        </ol>
+                                                    </>}
+                                                </div>
+                                            ))
+                                        }
+                                    </>
                                 }
                                 {
                                     data.designCriteria && <div className="">
@@ -112,21 +153,21 @@ function Modal({ data, img, closeModal }) {
 
                                     </div>
                                 }
-                                        {
-                                            data.teamRegulations && <div className="">
-                                                <h1 className="text-gray-100/100 text-4xl font-bold py-3">Team Regulations</h1>
-                                                <p className="  text-base leading-relaxed text-gray-100 ">
-                                                    <ol className=" list-decimal list-inside">
-                                                        {
-                                                            data.teamRegulations.map((value, index) =>
-                                                                <li key={index}>{value}</li>
-                                                            )
-                                                        }
-                                                    </ol>
-                                                </p>
-        
-                                            </div>
-                                        }
+                                {
+                                    data.teamRegulations && <div className="">
+                                        <h1 className="text-gray-100/100 text-4xl font-bold py-3">Team Regulations</h1>
+                                        <p className="  text-base leading-relaxed text-gray-100 ">
+                                            <ol className=" list-decimal list-inside">
+                                                {
+                                                    data.teamRegulations.map((value, index) =>
+                                                        <li key={index}>{value}</li>
+                                                    )
+                                                }
+                                            </ol>
+                                        </p>
+
+                                    </div>
+                                }
                                 {
                                     data.botDimensions && <div className="">
                                         <h1 className="text-gray-100/100 text-4xl font-bold py-3">Bot Dimensions</h1>
