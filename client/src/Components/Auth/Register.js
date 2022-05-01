@@ -81,9 +81,6 @@ function Register() {
         confirmPassword: '',
     };
     const validate = Yup.object().shape({
-        name: Yup.string()
-            .max(15, 'Must be 15 characters or less')
-            .required('Required'),
         phNo: Yup.string()
             .min(10, 'Must be 10 digits')
             .max(10, 'Must be 10 digits')
@@ -100,7 +97,7 @@ function Register() {
         loading ? <>
             <Loader fixed="fixed  " animate={true} />
         </> :
-            <Container className='pb-36 lg:pb-5 font-body loginForm'>
+            <div className='bg-black h-[100%] lg:pb-5 justify-center items-center  min-h-[95vh]  font-body'>
                 <div className='bg-igold text-center p-6 md:p-10 text-white w-full'>
                     <h1 className="py-3 font-semibold text-2xl font-title "><span className='text-3xl mb-1'>Hello {email}</span> <br></br> One Last Step To Take Off!</h1>
                 </div>
@@ -111,9 +108,9 @@ function Register() {
                 >
                     {(formik) => {
                         return (
-                            <ForgotContainer>
+                            <div className='flex justify-center items-center'>
                                 <Form className='formBox'>
-                                    <Title className='font-title'>Enter Your Details Carefully</Title>
+                                    <div className='font-title'>Enter Your Details Carefully</div>
                                     <InputField placeholder='Name' name='name' type='text' />
                                     <InputField
                                         name='phNo'
@@ -139,12 +136,12 @@ function Register() {
                                     </Button>
                                     {/* TODO: Add loading animation */}
                                 </Form>
-                            </ForgotContainer>
+                            </div>
                         );
                     }}
                 </Formik>
 
-            </Container>
+            </div>
     );
 };
 

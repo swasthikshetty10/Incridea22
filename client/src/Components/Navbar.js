@@ -81,17 +81,17 @@ function Navbar({ tab, sticky }) {
             </button>
           </div>
           <div
-            className="justify-between  items-center w-full md:flex md:w-auto hidden  md:order-1"
+            className="justify-stretch  items-center w-full md:flex md:w-auto hidden  md:order-1"
             id="mobile-menu-4"
           >
             <ul
               style={{ fontFamily: "CinzelDecorative-Bold" }}
-              className="flex pt-4 items-center flex-col mt-0 md:flex-row md:space-x-8 md:text-sm  md:font-medium"
+              className="flex pt-4 items-stretch md:items-center flex-col mt-0 md:flex-row md:space-x-8 md:text-sm  md:font-medium"
             >
               <li>
                 <Link
                   to="/"
-                  className={`block py-2 pr-4 pl-3 bg-transparent active:text-white focus:text-white border-none  text-xl  font-nav font-bold hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-igold md:p-0 ${tab === "home" ? "text-igold" : "text-[#EDEDED]"
+                  className={`block py-2 pr-4 pl-3 bg-transparent active:text-white focus:text-white border-none  text-xl  font-nav font-bold md:hover:bg-transparent md:border-0 md:hover:text-igold md:p-0 ${tab === "home" ? "text-igold" : "text-[#EDEDED]"
                     } `}
                   aria-current="page"
                 >
@@ -101,7 +101,7 @@ function Navbar({ tab, sticky }) {
               <li>
                 <Link
                   to="/events"
-                  className={`block py-2 pr-4 pl-3 bg-transparent border-none text-xl font-nav  font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-igold md:p-0 ${tab === "events" ? "text-igold" : "text-[#EDEDED]"
+                  className={`block py-2 pr-4 pl-3 bg-transparent border-none text-xl font-nav  font-bold  md:hover:bg-transparent md:border-0 md:hover:text-igold md:p-0 ${tab === "events" ? "text-igold" : "text-[#EDEDED]"
                     } `}
                 >
                   events
@@ -110,7 +110,7 @@ function Navbar({ tab, sticky }) {
               <li>
                 <Link
                   to="/pronite"
-                  className={`block py-2 pr-4 pl-3 bg-transparent  text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-igold md:p-0 ${tab === "pronite" ? "text-igold" : "text-[#EDEDED]"
+                  className={`block py-2 pr-4 pl-3 bg-transparent  text-xl font-nav font-bold  md:hover:bg-transparent md:border-0 md:hover:text-igold md:p-0 ${tab === "pronite" ? "text-igold" : "text-[#EDEDED]"
                     } `}
                 >
                   pronites
@@ -119,7 +119,7 @@ function Navbar({ tab, sticky }) {
               <li>
                 <Link
                   to="/gallery"
-                  className={`block py-2 pr-4 pl-3 bg-transparent  text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-igold md:p-0 ${tab === "gallery" ? "text-igold" : "text-[#EDEDED]"
+                  className={`block py-2 pr-4 pl-3 bg-transparent  text-xl font-nav font-bold  md:hover:bg-transparent md:border-0 md:hover:text-igold md:p-0 ${tab === "gallery" ? "text-igold" : "text-[#EDEDED]"
                     } `}
                 >
                   gallery
@@ -129,7 +129,7 @@ function Navbar({ tab, sticky }) {
               <li>
                 <Link
                   to="/sponsors"
-                  className={`block py-2 pr-4 pl-3 bg-transparent  text-xl  font-nav font-bold hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-igold md:p-0 ${tab === "sponsors" ? "text-igold" : "text-[#EDEDED]"
+                  className={`block py-2 pr-4 pl-3 bg-transparent  text-xl  font-nav font-bold md:hover:bg-transparent md:border-0 md:hover:text-igold md:p-0 ${tab === "sponsors" ? "text-igold" : "text-[#EDEDED]"
                     } `}
                 >
                   sponsors
@@ -139,7 +139,7 @@ function Navbar({ tab, sticky }) {
               <li>
                 <Link
                   to="/team"
-                  className={`block py-2 pr-4 pl-3 bg-transparent text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-igold md:p-0 ${tab === "team" ? "text-igold" : "text-[#EDEDED]"
+                  className={`block py-2 pr-4 pl-3 bg-transparent text-xl font-nav font-bold  md:hover:bg-transparent md:border-0 md:hover:text-igold md:p-0 ${tab === "team" ? "text-igold" : "text-[#EDEDED]"
                     } `}
                 >
                   about us
@@ -148,11 +148,11 @@ function Navbar({ tab, sticky }) {
               <li style={{ fontFamily: 'Cinzel' }}>
                 {!(user && tab === "profile") ? <Link
                   to={user ? "/profile" : "/login"}
-                  className={`hidden md:block border-2 border-igold py-2 pr-4 pl-3 text-xl font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633]  md:hover:text-white text-igold`}
+                  className={`hidden md:block border-2 border-igold py-2 pr-4 pl-3 text-xl font-bold  md:hover:bg-[#8d6633]  md:hover:text-white text-igold`}
                 >
                   {user ? "Profile" : "Login/Register"}
                 </Link> : <Logout
-                  className={`hidden md:block border-2 border-igold py-2 pr-4 pl-3 text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633]  md:hover:text-white text-igold`}
+                  className={`hidden md:block border-2 border-igold py-2 pr-4 pl-3 text-xl font-nav font-bold  md:hover:bg-[#8d6633]  md:hover:text-white text-igold`}
                 />}
               </li>
             </ul>
