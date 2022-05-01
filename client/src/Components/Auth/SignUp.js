@@ -151,11 +151,10 @@ const SignUp = ({ signIn }) => {
                   {
                     valid && !otpVerified && <>
                       <p className='text-white '>Having trouble? <button onClick={() => {
-                        clearMsg()
                         SetValid(false); setEmailSent(false)
                         clearMsg();
 
-                      }} className='inline underline text-igold'>Resend OTP</button></p>
+                      }} className='inline underline text-igold'>Resend OTP</button> or <a href="/techteam" className='inline underline text-igold'>Contact the Technical Team </a></p>
 
                     </>
                   }

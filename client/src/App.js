@@ -21,6 +21,7 @@ import UserInput from './Components/Auth/UserInput';
 import { AuthProvider } from './Context/AuthContext'
 import { auth } from "./firebaseConfig";
 import Profile from "./Components/Profile"
+import Privacy from "./Components/Privacy";
 
 
 
@@ -58,6 +59,7 @@ function App() {
             <Route exact path='/register/:email' element={<Register />} />
             <Route path="*" element={<Navigate to="/" replace />} />
             <Route exact path='/profile' element={<Profile />} />
+            <Route exact path='/privacy' element={<Privacy />} />
           </Routes>
           <Footer />
         </ScrollToTop>

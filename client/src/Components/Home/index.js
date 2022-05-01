@@ -6,7 +6,6 @@ import Counter from "./Counter";
 import { Slide, Fade } from 'react-awesome-reveal'
 import { AiOutlineDownload } from 'react-icons/ai'
 import schedule from '../../Assets/schedule.xlsx'
-// import cloud from './cloud1.png'
 import chakra from './chakra.png'
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../Context/AuthContext";
@@ -47,7 +46,7 @@ function Home() {
               </p>
               <Link to={user ? "/events" : "/login"}>
                 <div className="select-none bg-white border-0 text-white cursor-pointer transition ease-in duration-100 hover:bg-white/25  text-wh  ite bg-opacity-10 hover:text-white. px-6 py-2 w-fit font-body  text-center " >
-                  {user === null ? "Registrations Open Now!" : `Checkout Events`}
+                  {user === null ? "Registrations Open Now!" : `Check Out Events!`}
                 </div>
               </Link>
             </div>
