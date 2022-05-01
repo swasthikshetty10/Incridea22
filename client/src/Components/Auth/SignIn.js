@@ -65,7 +65,7 @@ const SignIn = ({ signIn }) => {
 									<span className="text-center mt-2" ref={successSpan}></span>
 
 									<Anchor href='/forgot'>Forgot your password?</Anchor>
-									<Button disabled={loading} type='submit'>
+									<Button className={`inline-flex gap-3 ${loading ? "bg-opacity-50" : ""}`} disabled={loading} type='submit'>
 										{loading ? <> <AiOutlineLoading3Quarters className=" animate-spin text-lg " /> <span className=''>Logging In...</span></> : 'Login'}
 									</Button>
 								</SignInFormCustom>

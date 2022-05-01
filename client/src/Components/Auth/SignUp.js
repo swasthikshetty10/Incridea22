@@ -102,6 +102,7 @@ const SignUp = ({ signIn }) => {
                 <SignInFormCustom>
                   <Title>Register</Title>
                   <Select
+                    className='group bg-[#333] text-[#eee]'
                     disabled={valid}
                     onChange={() => {
                       const domain = document.getElementById('domain');
@@ -127,14 +128,14 @@ const SignUp = ({ signIn }) => {
                       ]))
                     }
                   </Select>
-                  <Div>
-                    <InputField disabled={valid} name='mail' type='text' placeholder='Email' />
+                  <Div className='group bg-[#333] text-[#eee]'>
+                    <InputField className='  focus:outline-none focus:border-0' disabled={valid} name='mail' type='text' placeholder='Email' />
                     <p id='domain'>@nmamit.in</p>
                   </Div>
                   {!emailSent &&
 
 
-                    <Button onClick={clearMsg} type='submit' className={` inline-flex items-center justify-center gap-3  ${loading ? "opacity-90" : "opacity-100"}`} disabled={loading} >
+                    <Button onClick={clearMsg} type='submit' className={`mt-2 inline-flex items-center justify-center gap-3  ${loading ? "opacity-90" : "opacity-100"}`} disabled={loading} >
                       {loading ? <> <AiOutlineLoading3Quarters className=" animate-spin text-lg " /> <span className=''>Sending Email...</span></> : 'Send Verification Email'}
 
 

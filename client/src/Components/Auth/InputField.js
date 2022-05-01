@@ -1,12 +1,12 @@
 import React from 'react';
 import { ErrorMessage, useField } from 'formik';
-import { Input } from './StyledComponentsLogin';
+import { Input2 } from './StyledComponentsLogin';
 
 const InputField = ({ placeholder, ...props }) => {
 	const [field, meta] = useField(props);
 	return (
 		<>
-			<Input
+			<Input2
 				placeholder={placeholder}
 				autocomplete='off'
 				required={true}
