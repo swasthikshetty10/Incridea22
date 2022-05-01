@@ -3,7 +3,6 @@ import { useParams } from "react-router";
 import { Formik, Form } from 'formik';
 import * as Yup from 'yup';
 import { Container } from './StyledComponentsLogin';
-import { exportAuth } from '../../firebaseConfig';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { AiOutlineLoading3Quarters } from 'react-icons/ai';
 
@@ -55,7 +54,7 @@ function Register() {
     }, [user])
     const HandleSubmit = (value) => {
         const data = { email, ...value }
-        axios.post('https://peaceful-river-11730.herokuapp.com/auth/register', data).then( //register user
+        axios.post('https://peaceful-river-11730.herokuapp.com/auth/register/', data).then( //register user
             async (res) => {
                 console.log(data);
                 alert('login success') //TODO: for now
@@ -130,7 +129,7 @@ function Register() {
                         return (
                             <ForgotContainer>
                                 <Form className='formBox'>
-                                    <Title>Enter Your Details Carefully </Title>
+                                    <Title>Enter Your Details Carefully</Title>
                                     <InputField placeholder='Name' name='name' type='text' />
                                     <InputField
                                         name='phNo'
@@ -150,7 +149,9 @@ function Register() {
                                         type='password'
                                         placeholder='Confirm Password'
                                     />
-                                    <Button type='submit'>Sign Up</Button>
+                                    <Button className={`inline-flex gap-3 ${loading ? "bg-opacity-50" : ""}`} disabled={loading} type='submit'>
+                                        {loading ? <> <AiOutlineLoading3Quarters className=" animate-spin text-lg " /> <span className=''>Registering...</span></> : 'Register'}
+                                    </Button>
                                     {/* TODO: Add loading animation */}
                                 </Form>
                             </ForgotContainer>

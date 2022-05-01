@@ -45,7 +45,7 @@ const SignUp = ({ signIn }) => {
   const getOTP = async (values) => {
     try {
       console.log(values)
-      await axios.post('http://143.110.253.237/auth/generateOtp', {
+      await axios.post('https://peaceful-river-11730.herokuapp.com/auth/generateOtp', {
         email: values.mail,
         collegeName: values.college
       });
@@ -64,7 +64,7 @@ const SignUp = ({ signIn }) => {
 
   const validateOTP = async (values) => {
     try {
-      await axios.post('http://143.110.253.237/auth/verifyOtp', {
+      await axios.post('https://peaceful-river-11730.herokuapp.com/auth/verifyOtp', {
         email: values.mail,
         OTP: values.otp,
       });
