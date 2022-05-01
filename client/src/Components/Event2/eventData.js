@@ -639,7 +639,7 @@ export const eventData = [
         "Time": "9:30 am",
         "venue": "Phalguni ",
         "branch": "BTE",
-        "image": "/events/BT/BetterBeLetter.png",
+        "image": "/events/BT/BetterBeLetter.jpg",
         "smallDesc": "If you want to improve your grammar skills then it's time to ditch all the books and podcasts and play some word games instead.",
         "fullDesc": "If you want to improve your grammar skills then it's time to ditch all the books and podcasts and play some word games instead.",
         "roundDetails": {
