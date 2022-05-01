@@ -761,10 +761,10 @@ export const eventData = [
         "fullDesc": "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? Desafio is an event which checks your FITNESS level by having various rounds.The tasks would not be mentioned precisely as it would be best if kept a surprise",
         "roundDetails": {
             "round1": ["This is an mass elimination round depending on the registrations and we will have mass elimination considering their fitness levels.", "If there are less registrations, then the Round 1 will not be conducted."],
-            "round2": ["This round is to shortlist contestants to the FINAL SHOWDOWN.", "Groups of 4 will be made randomly which will be done by the organizers.", "The participants who played good enough will be selected. They are judges individually.", " It is purely based on the physical task which should be performed the given time. within the given time", "Task will be given to each one of the team member, The first one should complete his/her task and pass it on to the second member and it goes same till the final 4th member of the team.", "Number of groups depends on the registrations."],
+            "round2": ["This round is to shortlist contestants to the FINAL SHOWDOWN.", "Groups of 4 will be made randomly which will be done by the organizers.", "The participants who played good enough will be selected. They are judges individually.", "It is purely based on the physical task which should be performed the given time. within the given time", "Task will be given to each one of the team member, The first one should complete his/her task and pass it on to the second member and it goes same till the final 4th member of the team.", "Number of groups depends on the registrations."],
             "round3": ["The final round will be an intense fitness course which will decide who the WINNER is.", "8-10 contestants will be selected to the finals. Each of them will do the same course.", "It is Purely based on an intense task which should be performed within the given time also with a good form.", "The Participant who successfully completes the course with minimum time will be the WINNER."]
         },
-        "rules": [" All materials for the different rounds will be given by the organizers.", "No usage of cell phones or any other electronic devices until told otherwise.", "The decision taken by the judges and the organizers is final."],
+        "rules": ["All materials for the different rounds will be given by the organizers.", "No usage of cell phones or any other electronic devices until told otherwise.", "The decision taken by the judges and the organizers is final."],
         "contactDetails": [
             {
                 "name": "Sinan Mohamed",
@@ -876,7 +876,7 @@ export const eventData = [
         "fullDesc": "Get ready to awaken the Einstein within and unravel the mysteries. If you believe that you are capable of deciphering the given enigma, then here's an event that funds you to get to the bottom of these mysteries.",
         "roundDetails": {
             "round1": ["A pen-paper test consisting of 40 questions -10 each from Money heist, general knowledge, geography, riddles. The top 12-15 teams will qualify for the next round."],
-            "round2": [" Treasure hunt Here the teams will be given 6 clues. Of those, the initial 4 will be different for each team and the remaining 2 will be common for all. The top 4-6 teams will qualify for the final round."],
+            "round2": ["Treasure hunt Here the teams will be given 6 clues. Of those, the initial 4 will be different for each team and the remaining 2 will be common for all. The top 4-6 teams will qualify for the final round."],
             "round3": ["Surprise round"]
         },
         "rules": ["The use of calculators, mobile phones, or any kind of electronic device will result in disqualification", "Round 1 : Time duration: 40 minutes", "Round 2 : Time duration: 2 hours", "Round 3 : Time duration: 2 hours and 15 minutes ", " Only students pursuing engineering degrees are allowed to participate.", "A maximum of 4 members are allowed in a team. ", "All the team members must be from the same college.", "External contestants should register prior. Spot registrations are notentertained.", "Internal contestants are also advised to register prior to the event, although spot registrations are accepted."],
@@ -933,7 +933,7 @@ export const eventData = [
         "venue": "Sambram",
         "branch": "CSE",
         "image": "/events/CS/improv.png",
-        "smallDesc": " Do you have the itch to make a joke out of every possible scenario? If so, come showcase your skills because this event is just right for you!",
+        "smallDesc": "Do you have the itch to make a joke out of every possible scenario? If so, come showcase your skills because this event is just right for you!",
         "fullDesc": "Can you improvise a topic better than we can improvise this description? Are you spontaneous enough to be the wittiest one among them all? Do you have the itch to make a joke out of every possible scenario? If so, come showcase your skills because this event is just right for you!",
         "roundDetails": {
             "round1": ["The point of the game is to hold a conversation using only questions. Players take turns asking questions to each other, and the first person to say a statement is out", "The questions don't have to make sense or logically respond to one another; the trick is just to get another player to fall into the habit of automatically answering a question. Only one person from a team can participate."],
@@ -1249,7 +1249,7 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "Mahima Rashmi",
-                "phoneNumber": "+ 919482809471",
+                "phoneNumber": "+919482809471",
                 "emailID": "mahimarashmi29@gmail.com"
             },
             {
@@ -1329,12 +1329,12 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "Harshith",
-                "phoneNumber": "+ 918867529543",
+                "phoneNumber": "+918867529543",
                 "emailID": "sanilharshith2000@gmail.com"
             },
             {
                 "name": "Vinayak Nayak",
-                "phoneNumber": "918971916288",
+                "phoneNumber": "+918971916288",
                 "emailID": "nvinayak1947@gmail.com"
             }
 
@@ -1368,7 +1368,7 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "Rolan Gomes",
-                "phoneNumber": "+ 919019536394",
+                "phoneNumber": "+919019536394",
                 "emailID": "rolangomes19@gmail.com"
             },
             {
@@ -1408,7 +1408,7 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "Rolan Gomes",
-                "phoneNumber": "+ 919019536394",
+                "phoneNumber": "+919019536394",
                 "emailID": "rolangomes19@gmail.com"
             },
             {
@@ -1460,7 +1460,7 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "Omar Khateeb",
-                "phoneNumber": "+ 9108169597",
+                "phoneNumber": "+9108169597",
                 "emailID": "omarkhateeb007@gmail.com "
             },
             {
@@ -2748,7 +2748,7 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": " Anjali Rao Kalbavi",
-                "phoneNumber": "+ 919148965455",
+                "phoneNumber": "+919148965455",
                 "emailID": "kalanjali25@gmail.com"
             },
             {
@@ -3343,8 +3343,8 @@ export const eventData = [
         "venue": "CSL 03, 04",
         "branch": "CSE",
         "image": "/events/CS/WebPiracy.jpg",
-        "smallDesc": " Ever looked at a corporate website and thought \"I could have done that\". Well, here's your chance to prove that in our all- new web piracy web competition.",
-        "fullDesc": " Ever looked at a corporate website and thought \"I could have done that\". Well, here's your chance to prove that in our all- new web piracy web competition.",
+        "smallDesc": "Ever looked at a corporate website and thought \"I could have done that\". Well, here's your chance to prove that in our all- new web piracy web competition.",
+        "fullDesc": "Ever looked at a corporate website and thought \"I could have done that\". Well, here's your chance to prove that in our all- new web piracy web competition.",
         "roundDetails": {
             "Round 1": ["E - Talaash(Tech Hunt) : Participants need to solve the given puzzle and find the file name in which the code is present whose output leads to the qualification ticket. The first 20 teams to find the ticket will be qualified for the next round."
 
@@ -3398,7 +3398,7 @@ export const eventData = [
         "venue": "NC 13",
         "branch": "CIVIL",
         "image": "/events/CV/BOB THE BUILDER.png",
-        "smallDesc": " A step to test your skills of past by constructing your creativity in present. Here's a challenge to live your childhood again, ask yourself Can you fix it? We present to you BOB THE BUILDER.",
+        "smallDesc": "A step to test your skills of past by constructing your creativity in present. Here's a challenge to live your childhood again, ask yourself Can you fix it? We present to you BOB THE BUILDER.",
         "fullDesc": "Each team consist of 3 members. Consists of three rounds. All required materials will be provided.",
         "roundDetails": {
 
@@ -3454,7 +3454,7 @@ export const eventData = [
         "venue": "NC 15 & CT Lab",
         "branch": "CIVIL",
         "image": "/events/CV/BOB THE BUILDER.png",
-        "smallDesc": " A step to test your skills of past by constructing your creativity in present. Here's a challenge to live your childhood again, ask yourself Can you fix it? We present to you BOB THE BUILDER.",
+        "smallDesc": "A step to test your skills of past by constructing your creativity in present. Here's a challenge to live your childhood again, ask yourself Can you fix it? We present to you BOB THE BUILDER.",
         "fullDesc": "Each team consist of 3 members. Consists of three rounds . All required materials will be provided.",
         "roundDetails": {
 
@@ -4072,7 +4072,7 @@ export const eventData = [
         "branch": "ISE",
         "image": "/events/IS/CodeStudio.jpg",
         "smallDesc": "Are you a coding wizard? Or a person who loves to code? If yes, then Code Studio is a perfect platform for you",
-        "fullDesc": ". Consisting of four rounds in total, each round is going to be bigger and better. Grab this opportunity and test your coding skills with Code Studio.",
+        "fullDesc": "Consisting of four rounds in total, each round is going to be bigger and better. Grab this opportunity and test your coding skills with Code Studio.",
         "roundDetails": {
 
             "Round 1": [
@@ -4145,7 +4145,7 @@ export const eventData = [
         "branch": "ISE",
         "image": "/events/IS/CodeStudio.jpg",
         "smallDesc": "Are you a coding wizard? Or a person who loves to code? If yes, then Code Studio is a perfect platform for you",
-        "fullDesc": ". Consisting of four rounds in total, each round is going to be bigger and better. Grab this opportunity and test your coding skills with Code Studio.",
+        "fullDesc": "Consisting of four rounds in total, each round is going to be bigger and better. Grab this opportunity and test your coding skills with Code Studio.",
         "roundDetails": {
 
             "Round 1": [
@@ -4218,7 +4218,7 @@ export const eventData = [
         "branch": "ISE",
         "image": "/events/IS/CodeStudio.jpg",
         "smallDesc": "Are you a coding wizard? Or a person who loves to code? If yes, then Code Studio is a perfect platform for you",
-        "fullDesc": ". Consisting of four rounds in total, each round is going to be bigger and better. Grab this opportunity and test your coding skills with Code Studio.",
+        "fullDesc": "Consisting of four rounds in total, each round is going to be bigger and better. Grab this opportunity and test your coding skills with Code Studio.",
         "roundDetails": {
 
             "Round 1": [
@@ -4590,7 +4590,7 @@ export const eventData = [
         "smallDesc": "Beckham who? Get those motors smoking; remember the robots from Robowars? Now they play soccer.",
         "fullDesc": "Beckham who? Get those motors smoking; remember the robots from Robowars? Now they play soccer.",
         "roundDetails": ["In the  beginning, a  toss will decide the first hold over the ball.The winner of the toss will get possession of the ball at the center of the arena, whereas the opponent will have to defend the post.",
-            "The match will consist of t wo halves",
+            "The match will consist of two halves",
             "The duration of one half will depend on the type of match as follows:",
             "Initial knockout matches: 2 minutes",
             "Quarter and semi - final: 5 minutes",
@@ -4601,7 +4601,7 @@ export const eventData = [
         "botspecifications": ["Bots can be wired or wireless",
             "Wireless bots should have a minimum range of 12 feet",
             "Wires must be sufficient enough to reach all corners of the arena",
-            "The p otent ia l difference between any two electrical points on the robot must not exceed more than 12 volts throughout the run"],
+            "The potential difference between any two electrical points on the robot must not exceed more than 12 volts throughout the run"],
 
         "botdimensions:": [
             "Length <= 30 cm",
@@ -4618,7 +4618,7 @@ export const eventData = [
         "details": [
             "The soccer bot can only transform to its size at the beginning.",
             "It cannot divide later into multiple parts",
-            "Once the weight of the bot is finalized no mo difica tions in the weight will be allowed",
+            "Once the weight of the bot is finalized no mo difications in the weight will be allowed",
             "The weight of the bot will be checked before starting each match",
             "Each team will be given 2 minutes at the beginning of each half to make any changes or modifications to the bot(modification in weight is not allowed)",
             "In the beginning, the bot must touch or hit the ball within 10 seconds.",
@@ -4628,7 +4628,7 @@ export const eventData = [
             "If the team does not repair the bot within this time, then it will be disqualified",
             "No stalling of any kind is allowed",
             "All the bots must have their own power supply",
-            "Bots will be analyzed by the referee before each match.He will select or reject the bots, taking into consideration the rules and dimension limits",
+            "Bots will be analyzed by the referee before each match. He will select or reject the bots, taking into consideration the rules and dimension limits",
             "The match will be paused in case of any entanglement of wires of both the bots.If the ball is immobile for 10 seconds then the game will be reset and the ball will be declared as the common ball",
             "The ball may not be lifted in the air by the bot",
             "In case only one team is disqualified, the opponent team wins by default",
