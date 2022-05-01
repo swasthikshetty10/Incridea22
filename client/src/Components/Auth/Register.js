@@ -3,7 +3,6 @@ import { useParams } from "react-router";
 import { Formik, Form } from 'formik';
 import * as Yup from 'yup';
 import { Container } from './StyledComponentsLogin';
-import { exportAuth } from '../../firebaseConfig';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { AiOutlineLoading3Quarters } from 'react-icons/ai';
 
@@ -11,18 +10,7 @@ import {
     Button,
     Div,
     ForgotContainer,
-    Select,
-    SignInFormCustom,
-    SignUpContainer,
     Title,
-} from './StyledComponentsLogin';
-import {
-    GhostButton,
-    Overlay,
-    LeftOverlayPanel,
-    OverlayContainer,
-    Paragraph,
-    RightOverlayPanel,
 } from './StyledComponentsLogin';
 
 
@@ -35,7 +23,7 @@ import { useNavigate } from 'react-router';
 import { AuthContext } from '../../Context/AuthContext';
 import { useContext } from 'react'
 import { auth } from '../../firebaseConfig'
-
+import Loader from '../Gallery2/components/Loader';
 
 
 
@@ -114,7 +102,7 @@ function Register() {
     });
     return (
         loading ? <>
-
+            <Loader animate={true} />
         </> :
             <Container className='loginForm'>
                 <div className='bg-black text-center p-6 md:p-10 text-white w-full'>
