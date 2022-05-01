@@ -5,6 +5,7 @@ import { HiOutlineMail, HiUser } from "react-icons/hi"
 import { MdPhoneAndroid } from "react-icons/md"
 import { BsCloudDownload } from "react-icons/bs"
 import schedule from '../../Assets/schedule.xlsx'
+import { nickNames } from './nickNames.js'
 
 function Details({user}) {
 
@@ -35,7 +36,7 @@ function Details({user}) {
 
                     <div className=" text-white font-body flex flex-col  justify-between text-left px-2 py-4 leading-normal">
                         <div className=' text-center py-3 gap-x-2 ' >
-                            <h2 className='tracking-wide pb-1 md:pb-2 text-3xl md:text-4xl capitalize font-bold' >Welcome, {participant.name}</h2>
+                            <h2 className='tracking-wide pb-1 md:pb-2 text-3xl md:text-4xl capitalize font-bold' >Welcome, {nickNames[participant.email.toLowerCase().split('@')[0]] || participant.name}</h2>
                             <p>{participant.collegeName}</p>
                         </div>
                         <div className='space-y-2 text-center pb-3' >
