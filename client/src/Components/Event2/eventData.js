@@ -3795,7 +3795,7 @@ export const eventData = [
         "venue": "Project Lab 1 & DSD Lab",
         "branch": "ECE",
         "image": "/events/EC/WIRED.jpg",
-        "smallDesc": "Are you an electronics geek? Do you want to test your circuit building skills and be a winner? ",
+        "smallDesc": "Are you an electronics geek? Do you want to test your circuit building skills and be a winner?",
         "fullDesc": "Wired! is the place you should be. Come, show us what you've got.",
         "roundDetails": {
 
@@ -4464,7 +4464,7 @@ export const eventData = [
 
             "Round 2": [
                 "CLONING",
-                "We don't always have the ideas to build upon, thus t he second best thing is CLONING",
+                "We don't always have the ideas to build upon, thus the second best thing is CLONING",
                 "In round 2, the teams are asked to create a webpage that replicates the given template It becomes the duty of the participating team to translate the given template accurately into frontend code",
                 "Scores will be awarded based on the extent to which they have replicated the template within the given time frame.The teams with the highest score will be qualified for the final round",
                 "(time limit: 2hrs)",],
@@ -4601,12 +4601,12 @@ export const eventData = [
         "botspecifications": ["Bots can be wired or wireless",
             "Wireless bots should have a minimum range of 12 feet",
             "Wires must be sufficient enough to reach all corners of the arena",
-            "The p otent ia l difference between any two electrical points on the robot must not exceed more than 12 volts throughout the run"],
+            "The potential difference between any two electrical points on the robot must not exceed more than 12 volts throughout the run"],
 
         "botdimensions:": [
             "Length <= 30 cm",
             "Breadth <= 30 cm",
-            "Height <= 30 cm(5 % to leranc e al lo wed on length, breadth and height)",
+            "Height <= 30 cm(5 % tolerance allowed on length, breadth and height)",
             "Weight: 5 kg(Tolerance of 10 %)"],
 
         "arenaspecifications": [
@@ -4632,7 +4632,7 @@ export const eventData = [
             "The match will be paused in case of any entanglement of wires of both the bots.If the ball is immobile for 10 seconds then the game will be reset and the ball will be declared as the common ball",
             "The ball may not be lifted in the air by the bot",
             "In case only one team is disqualified, the opponent team wins by default",
-            "The d ecisionstaken by the referees will be final",
+            "The decisions taken by the referees will be final",
             "In case of any dispute s, the decisions of the referees or event managers will be final",
             "For participation, each team should have their own bot of specified dimensions Ready- made kits are not allowed.A team is not permitted to compete with more than onebot during one match",
             "Only 2 members of each team may be present at a time in the arena",
@@ -4644,8 +4644,8 @@ export const eventData = [
             "A warning will be given after every 2 mins of calling the team, on the third call the team will be disqualified",
             "The bot should not be disassembled until the result s are declared",
             "If a foul is committed, and a goal occurs before the play is restarted for the foul, the goal is not counted",
-            "Pulling the bot with connected wires on the arena will lead to disqualifica tion",
-            "All the decisions taken by the organizing team will be deemed final, and no further changes will be encouraged.They will hold full authority to change any of the above rules as per the circumstances",
+            "Pulling the bot with connected wires on the arena will lead to disqualification",
+            "All the decisions taken by the organizing team will be deemed final, and no further changes will be encouraged. They will hold full authority to change any of the above rules as per the circumstances",
 
 
         ],
@@ -4653,7 +4653,7 @@ export const eventData = [
             "Maximum of 4 members and minimum of 2 members per team",
             "Members of the team must belong to the same institut ion.",
             "Students from different colleges cannot form a team",
-            "A maximum of 3 t eams are allowed from each college(does not apply to home college)",
+            "A maximum of 3 teams are allowed from each college(does not apply to home college)",
             "The students must carry valid student ID cards of their college which they will be required to produce at the time of registration",
 
 
