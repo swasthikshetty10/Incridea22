@@ -14,6 +14,7 @@ import { loginUser } from '../../firebaseConfig';
 import { AuthContext } from '../../Context/AuthContext';
 import { useContext } from 'react'
 import { AiOutlineLoading3Quarters } from 'react-icons/ai'
+import { Link } from 'react-router-dom';
 const SignIn = ({ signIn }) => {
 	let initialValues = {
 		mail: '',
@@ -63,9 +64,10 @@ const SignIn = ({ signIn }) => {
 										placeholder='Password'
 									/>
 									<span className="text-center mt-2" ref={successSpan}></span>
-
-									<Anchor href='/forgot'>Forgot your password?</Anchor>
-									<Button className={`inline-flex gap-3 ${loading ? "bg-opacity-50" : ""}`} disabled={loading} type='submit'>
+									<Link to="/forgot">
+										<a href="#" className='text-white mb-3' >Forgot your password?</a>
+									</Link>
+									<Button className={`inline-flex gap-3 $ mt-2 {loading ? "bg-opacity-50" : ""}`} disabled={loading} type='submit'>
 										{loading ? <> <AiOutlineLoading3Quarters className=" animate-spin text-lg " /> <span className=''>Logging In...</span></> : 'Login'}
 									</Button>
 								</SignInFormCustom>
