@@ -7,7 +7,6 @@ import { Slide, Fade } from 'react-awesome-reveal'
 import { AiOutlineDownload } from 'react-icons/ai'
 import schedule from '../../Assets/schedule.xlsx'
 import rulebook from '../../Assets/rulebook.pdf'
-// import cloud from './cloud1.png'
 import chakra from './chakra.png'
 import { Link } from "react-router-dom";
 function Home() {
@@ -55,13 +54,10 @@ function Home() {
           </Slide>
           <Slide duration={1000} direction="right" >
             <div className="min-w-fit hover:scale-95 hover:translate-y-3 delay-50 duration-500 transform ease-in-out">
-              {/* <img className="absolute top-20 left-5 z-10 md:top-8 md:left-[50rem] md:h-[90vh] " src={circle} alt="" /> */}
               <img className="md:max-w-[50vw]" src={avatar} alt="" />
             </div>
           </Slide>
-          {/* <Slide className="w-full h-full absolute -z-10" direction="left" duration={3500} delay={100}>
-          <img className="custom-animation md:h-full w-96 sm:w-full top-0 right-0  translate-x-12  h-64 sm: md:translate-x-72 lg:translate-x-96 md:scale-80" src={cloud} alt="" />
-        </Slide> */}
+         
 
           <div className="h-20 overflow-hidden w-[125%] hidden border-[#9d7643]/100 border-t-2 md:block absolute -bottom-10 -rotate-3">
             <div className="  p-10 w-full bg-gradient-to-b  bg-black   to-"></div>
