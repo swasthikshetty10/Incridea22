@@ -1,5 +1,5 @@
 import React from 'react'
-import { BsFillCalendar3RangeFill, } from "react-icons/bs";
+import { BsCalendarEvent } from "react-icons/bs";
 import { FaBuilding } from "react-icons/fa";
 import { GoLocation } from "react-icons/go";
 import { IoIosArrowBack } from "react-icons/io";
@@ -36,7 +36,7 @@ function Modal({ data, img, closeModal }) {
                                 <div>
 
                                     <div className=" text-gray-100"> <GoLocation className=" text-[#9d7643] inline mr-2" /> {data.venue}</div>
-                                    <div className=" text-gray-100"> <BsFillCalendar3RangeFill className=" text-[#9d7643] inline mr-2" /> {data.day ? `1${parseInt(data.day) + 1}/05/2022` : "- "}</div>
+                                    <div className=" text-gray-100"> <BsCalendarEvent className=" text-[#9d7643] inline mr-2" /> {data.day ? `1${parseInt(data.day) + 1}/05/2022` : "- "}</div>
                                     <div className=" text-gray-100"> <BiTimeFive className=" text-[#9d7643] inline mr-2" />{data.Time}</div>
                                     <div className=" text-gray-100"> <FaBuilding className=" text-[#9d7643] inline mr-2" /> {data.branch}  </div>
                                     {/* <div className=" text-white"> <BiTimeFive className="inline mr-2" />Team - 5:00PM</div> */}
