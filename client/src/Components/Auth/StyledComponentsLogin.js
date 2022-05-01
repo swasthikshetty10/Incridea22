@@ -118,9 +118,11 @@ export const Input = styled.input`  //input
 	margin: 8px 0;
 	width: 100%;
 	transition: all 0.5s ease;
+	color: #fff;
 	
 	&:focus{
 		background-color: #fff;
+
 	}
 
 
@@ -146,8 +148,8 @@ export const Div = styled.div`
 	align-items: center;
 `;
 
-export const Select = styled.select`
-	background-color: #eee;
+export const Select = styled.select`			// dropdown 
+	background-color: #eee;  		
 	border: none;
 	padding: 12px 15px;
 	margin: 8px 0;
