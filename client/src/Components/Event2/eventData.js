@@ -19,7 +19,7 @@ export const eventData = [
             "Use of water, fire or any kind of fireworks (party poppers) will lead to immediate disqualification",
             "No gender restriction on team constitution",
             "Performance should be based on any theme of the team's choice",
-            "Any deviation from a fashion- related choreography will lead to a deduction in score",
+            "Any deviation from a fashion-related choreography will lead to a deduction in score",
             "Any violation with respect to the campus rules could lead to disqualification",
             "Any sort of intoxication in the campus or the green room will lead to disqualification",
             "Team Limit: 16 models + 7 supporting crew",
@@ -59,7 +59,7 @@ export const eventData = [
         "branch": "CORE",
         "image": "/events/CORE/Hogathon.png",
         "smallDesc": "Are you a big-time foodie, a glutton who loves to eat it all in one go?",
-        "fullDesc": " For all the food - lovers with appetites bigger than their tummies, it's time to put your bellies and taste buds to test. lncridea'22 presents- Hogathon. A mega food eating competition to hog it all as fast as you can, let's see \"How Big Your Appetite is?\"",
+        "fullDesc": "For all the food-lovers with appetites bigger than their tummies, it's time to put your bellies and taste buds to test. lncridea'22 presents- Hogathon. A mega food eating competition to hog it all as fast as you can, let's see \"How Big Your Appetite is?\"",
         "roundDetails": {
 
             "Round": [
@@ -121,16 +121,16 @@ export const eventData = [
         "fullDesc": "Sanskrit literature has a profound saying which goes, \"Kavyeshu Natakam Ramyam\" : Drama is the finest form of poetry. 'Drama' is a metaphorical amalgamation of visual, auditory, material, and nuances of character.",
 
         "rules": [
-            "Round 1 - Online Screening Round :",
-            "The video should be a 3 - 5 minutes sample of the performance, and it can be from any portion of the performance.",
+            "Round 1 - Online Screening Round:",
+            "The video should be a 3-5 minutes sample of the performance, and it can be from any portion of the performance.",
             "Record your performance and upload it on your Google Drive. Link of which is to be shared with us over email at navarasa.incridea@gmail.com under the subject \"Navarasa Online Screening Sub mission\".",
-            "Editing, cuts, and pre - recorded videos are not allowed.",
+            "Editing, cuts, and pre-recorded videos are not allowed.",
             "Submission Deadline: Before 25th April 2022, 5 PM.",
             "A maximum of 9 teams will be selected from the Online Screening round and will proceed to the final round.",
             "Note: All the rules of the Final Round are also applied to Online Screening Round.",
             "Round 2 - Final Round:",
             "Each team will be allotted a total time of 15 minutes. 10 + 2 minutes for the stage performance and extra 3 minutes will be given for stage set up.",
-            "Each team will comprise 9 + 6 members.A maximum of 9 actors can be present on stage and a maximum of 6 members can be part of the stage support team(i.e., musicians, stage setup team, etc.)",
+            "Each team will comprise 9+6 members. A maximum of 9 actors can be present on stage and a maximum of 6 members can be part of the stage support team (i.e., musicians, stage setup team, etc.)",
             "A performance could be done in any of these languages - Kannada, Hindi, Tulu, and English.",
             "Two Mikes each will be provided for stage performers and the background team.",
             "Targeting a specific Religion, Political Party, Personality, and use of foul language will lead to direct disqualification.",
@@ -167,7 +167,7 @@ export const eventData = [
         "branch": "CORE",
         "image": "/events/CORE/robowars.png",
         "smallDesc": "Are you passionate about Bots? Or you just like to watch things get crushed? ",
-        "fullDesc": "War does not determine who is right, only who is left. The path to glory passes through the alley of destruction, let hall combats, violent bots, and flying blades! Merge your technical know- how with the ferocious gladiator in you! Make your bot fight for the ultimate glory or land up in the junkyard! Fight smart, be patient and pray; for Robo - Wars just got crazier in its new avatar!",
+        "fullDesc": "War does not determine who is right, only who is left. The path to glory passes through the alley of destruction, let hall combats, violent bots, and flying blades! Merge your technical know-how with the ferocious gladiator in you! Make your bot fight for the ultimate glory or land up in the junkyard! Fight smart, be patient and pray; for Robo - Wars just got crazier in its new avatar!",
         "eventDetails": {
 
             "event": [
@@ -177,11 +177,11 @@ export const eventData = [
 
         },
 
-        "designcriteria": ["Dimensions of the bot: 60cm x 60 cmx 60 cm (5% tolerance on each dimension)",
+        "designcriteria": ["Dimensions of the bot: 60cm x 60cm x 60 cm (5% tolerance on each dimension)",
             "Weight: 45kg(10 % tolerance)",
             "Attack mechanisms are not allowed. However, ONLY lifting mechanisms are allowed",
-            "Communication: Wired or wireless(Techniques found to be interfering with the opponent's communication will result in DISQUALIFICATION)",
-            "Battery potential: 36 V(Maximum) Explosive batteries are NOT allowed",
+            "Communication: Wired or wireless (Techniques found to be interfering with the opponent's communication will result in DISQUALIFICATION)",
+            "Battery potential: 36V(Maximum), Explosive batteries are NOT allowed",
             "Lego kits, readymade kits, car bases, and development boards are not permitted.",
             "Readymade gearboxes are permitted.",
         ],
@@ -189,22 +189,22 @@ export const eventData = [
             "The aim of every match is to demolish and immobilize the other bot completely",
             "Every match will consist of 2 rounds of 3 minutes each and each subsequent round will have a time gap of 1 minute.",
             "Maximum time - out of 4 minutes is allowed for the whole match",
-            "If, after the completion of both the rounds, no bot is able to demolishor immobilize the other bot, the winner will be selected after evaluating the points and damage incurred to both the bots.",
+            "If, after the completion of both the rounds, no bot is able to demolish or immobilize the other bot, the winner will be selected after evaluating the points and damage incurred to both the bots.",
             "Any change in the rules by the judge shall be intimidated to the teams in the event arena",
-            "The competition will be played on a knock- out basis.",
+            "The competition will be played on a knock-out basis.",
             "The bot will be inspected for safety before the event begins. If found to be unsafe for the participants / spectators, it will be discarded",
             "The organizers reserve the right to change any or all of the rules as they deem fit. Changes in rules, if any, will be highlighted",
             "Violation of any of the rules will result in immediate disqualification",
             "The maximum time limit for the clash of combatants inside the arena is 10 minutes",
-            "A bot will be declared immobile(out) if it cannot exhibit a linear motion of at least one inch within 20 seconds.A bot with one side of its drive train disabled will not be counted out if it can demonstrate some degree of controlled movement",
-            "Teams that arenot ready when called for battle will be considered to have declared a walkover and will receive no points",
-            "The bot cannot be split into two sub - units. Two distinct parts connected by a flexible cable will be considered separate units",
+            "A bot will be declared immobile(out) if it cannot exhibit a linear motion of at least one inch within 20 seconds. A bot with one side of its drive train disabled will not be counted out if it can demonstrate some degree of controlled movement",
+            "Teams that are not ready when called for battle will be considered to have declared a walkover and will receive no points",
+            "The bot cannot be split into two sub-units. Two distinct parts connected by a flexible cable will be considered separate units",
             "Damaging the arena will lead to negative points depending on the degree of damage.",
             "A bot should not violate the specified design criteria",
             "Teams should follow safety rules. Failing to do so will cause direct disqualification",
             "In all cases, the judges' decision will be final and binding",
             "Points will be based on PIN, RAM, and TOPPLE. Weightage of points will be informed on the day of the event",
-            "External contestants should preferably register a priori.Spot registrations are also permitted.",
+            "External contestants should preferably register a priori. Spot registrations are also permitted.",
 
         ],
 
@@ -213,12 +213,12 @@ export const eventData = [
             "Min: 2 members",
             "Max: 6 members",
             "Only students from the same college can form a team",
-            "Only Students currently pursuing Undergradua te engineering degree are allowed",
+            "Only Students currently pursuing Undergraduate engineering degree are allowed",
             "Multiple number of teams from same college are allowed",
             "You must present your college ID and PIO while registering",
             "An individual cannot be a member of more than one team",
-            "A rob ot cannot be shared by two or more teams",
-            "The rob ot should follow the specifica tions provided.Any deviation from the mentioned specifications will lead to Direct disqualifications",
+            "A robot cannot be shared by two or more teams",
+            "The robot should follow the specifications provided. Any deviation from the mentioned specifications will lead to Direct disqualifications",
             "Both wired and wirelessbots are allowed",
             "Structural Integrity of the bot should be maintained. Changes to structure between matches are not allowed.",
             "Bots with wired controls should have dedicated person to hold the wires and prevent it from entangling",
@@ -234,7 +234,7 @@ export const eventData = [
             },
             {
                 "name": "AN Harsha",
-                "phoneNumber": "+ 919481372482",
+                "phoneNumber": "+919481372482",
                 "emailID": "harsha.athlur@gmail.com ",
             }
 
@@ -258,7 +258,7 @@ export const eventData = [
 
             "event": [
                 "Eastern Group Dance: Contemporary, Freestyle, Bollywood, Classical, Folk, Broadway Jazz, all Ballroom Styles.",
-                "Western Group Dance: Hip - Hop, B - Boying, Locking - Popping - Breaking, Whacking",
+                "Western Group Dance: Hip-Hop, B-Boying, Locking-Popping-Breaking, Whacking",
             ],
 
 
@@ -266,12 +266,12 @@ export const eventData = [
 
 
         "rules": [
-            "Team Constitution: 6 - 25 members",
+            "Team Constitution: 6-25 members",
             "It is mandatory for every member of the group to have a valid college ID and PID",
-            "It is important to pre- register by calling any of the organizer's numbers listed below. Mention to the organizer your style and category while pre-registering",
+            "It is important to pre-register by calling any of the organizer's numbers listed below. Mention to the organizer your style and category while pre-registering",
             "The participants must be ready at the venue at least 45 minutes prior to the commencement of the event",
             "The music must be submitted to the organizers in a USB drive 30 minutes before the event.",
-            "The time duration for the performance will be 5 + 3(performance + stage setup)",
+            "The time duration for the performance will be 5+3(performance + stage setup)",
             "Any kind of vulgarity will lead to immediate elimination.",
             "The use of fire, powder, flowers and water is strictly prohibited.",
 
@@ -290,12 +290,12 @@ export const eventData = [
         "contactDetails": [
             {
                 "name": "Aradhana Nambiar",
-                "phoneNumber": "+ 919148275419",
+                "phoneNumber": "+919148275419",
                 "emailID": "andanambiar3@gmail.com "
             },
             {
                 "name": "Jnana Aithal",
-                "phoneNumber": "+ 919731521417",
+                "phoneNumber": "+919731521417",
                 "emailID": "jnanaaithal12@gmail.com",
             }
 
@@ -318,30 +318,30 @@ export const eventData = [
             "Round 1": [
                 "Online Eliminations:",
                 "Participants have to submit a video of their solo performance of any western dance form",
-                "Time limit: 1 - 2 minutes",
+                "Time limit: 1-2 minutes",
                 "Participants will not be judged on the basis of their costume",
                 "The video must be recorded from a static camera.",
                 "Videos having moving cameras are strictly not allowed",
                 "The video should not be edited in any way.",
                 "Use of any kind of special effects is strictly prohibited and will lead to direct disqualification",
-                "Deadline for submission: 5th of May 2022, 11: 59 pm",
+                "Deadline for submission: 5th of May 2022, 11:59 pm",
                 "Mail your entries along with your Name, University Registration Number, Contact Number, and College Name at incridea.nmamit@gmail.com",
-                "Selected contestants will be contacted via e - mail on or before May 10, 2022",
+                "Selected contestants will be contacted via e-mail on or before May 10, 2022",
 
             ],
 
             "Round 2": [
 
                 "Participants have to perform a solo routine on stage",
-                "Time duration: 3 + 1 minutes",
+                "Time duration: 3+1 minutes",
                 "Soundtrack must be submitted to the organizers in a pen drive prior to the event",
                 "Selected contestants will move on to the Final Round.",
             ],
 
             "Round 3": [
                 "Final Round: Two participants will be called on the stage simultaneously.",
-                "Songs will be played impromptu for which the participants are expected to face - off",
-                "The first participant has to stop at the buzzer.The second participant has to start dancing immediately to the same song.",
+                "Songs will be played impromptu for which the participants are expected to face-off",
+                "The first participant has to stop at the buzzer. The second participant has to start dancing immediately to the same song.",
                 "There will be three such throw-downs.",
             ],
 
@@ -350,14 +350,14 @@ export const eventData = [
 
         "rules": [
             "Judges' decision will be final",
-            "Any form of vulgarity will lead to immediate disqualific ation",
+            "Any form of vulgarity will lead to immediate disqualification",
             "The use of fire, powder, water or animals is strictly prohibited",
 
         ],
 
         "judgingCriteria": [
             "Preliminary Rounds: Choreography, expressions, stage presence and the overall impact will be considered",
-            "Final Round: Entertainment factor, spontaneity, and  creativity will be considered",
+            "Final Round: Entertainment-factor, spontaneity, and  creativity will be considered",
 
 
         ],
@@ -370,7 +370,7 @@ export const eventData = [
             },
             {
                 "name": "Manas M Rai",
-                "phoneNumber": "+ 917975310793",
+                "phoneNumber": "+917975310793",
                 "emailID": "manasrai9611@gmail.com",
             }
 
@@ -394,30 +394,30 @@ export const eventData = [
             "Round 1": [
                 "Online Eliminations:",
                 "Participants have to submit a video of their solo performance of any western dance form",
-                "Time limit: 1 - 2 minutes",
+                "Time limit: 1-2 minutes",
                 "Participants will not be judged on the basis of their costume",
                 "The video must be recorded from a static camera.",
                 "Videos having moving cameras are strictly not allowed",
                 "The video should not be edited in any way.",
                 "Use of any kind of special effects is strictly prohibited and will lead to direct disqualification",
-                "Deadline for submission: 5th of May 2022, 11: 59 pm",
+                "Deadline for submission: 5th of May 2022, 11:59 pm",
                 "Mail your entries along with your Name, University Registration Number, Contact Number, and College Name at incridea.nmamit@gmail.com",
-                "Selected contestants will be contacted via e - mail on or before May 10, 2022",
+                "Selected contestants will be contacted via e-mail on or before May 10, 2022",
 
             ],
 
             "Round 2": [
 
                 "Participants have to perform a solo routine on stage",
-                "Time duration: 3 + 1 minutes",
+                "Time duration: 3+1 minutes",
                 "Soundtrack must be submitted to the organizers in a pen drive prior to the event",
                 "Selected contestants will move on to the Final Round.",
             ],
 
             "Round 3": [
                 "Final Round: Two participants will be called on the stage simultaneously.",
-                "Songs will be played impromptu for which the participants are expected to face - off",
-                "The first participant has to stop at the buzzer.The second participant has to start dancing immediately to the same song.",
+                "Songs will be played impromptu for which the participants are expected to face-off",
+                "The first participant has to stop at the buzzer. The second participant has to start dancing immediately to the same song.",
                 "There will be three such throw-downs.",
             ],
 
@@ -433,7 +433,7 @@ export const eventData = [
 
         "judgingCriteria": [
             "Preliminary Rounds: Choreography, expressions, stage presence and the overall impact will be considered",
-            "Final Round: Entertainment factor, spontaneity, and  creativity will be considered",
+            "Final Round: Entertainment-factor, spontaneity, and  creativity will be considered",
 
 
         ],
@@ -446,7 +446,7 @@ export const eventData = [
             },
             {
                 "name": "Manas M Rai",
-                "phoneNumber": "+ 917975310793",
+                "phoneNumber": "+917975310793",
                 "emailID": "manasrai9611@gmail.com",
             }
 
@@ -463,37 +463,37 @@ export const eventData = [
         "venue": "SAC OAT",
         "branch": "CORE",
         "image": "/events/CORE/vibe.png",
-        "smallDesc": "The battleground is set, the lights are lit,andit's time for all you dancers to fire up the dance floor with your moves to the unpredictable tunes.",
+        "smallDesc": "The battleground is set, the lights are lit, and it's time for all you dancers to fire up the dance floor with your moves to the unpredictable tunes.",
         "fullDesc": "Come join the battle of dance and ignite your dancing flame! Vibe hai toh hype hai",
         "roundDetails": {
 
             "Round 1": [
                 "Online Eliminations:",
                 "Participants have to submit a video of their solo performance of any western dance form",
-                "Time limit: 1 - 2 minutes",
+                "Time limit: 1-2 minutes",
                 "Participants will not be judged on the basis of their costume",
                 "The video must be recorded from a static camera.",
                 "Videos having moving cameras are strictly not allowed",
                 "The video should not be edited in any way.",
                 "Use of any kind of special effects is strictly prohibited and will lead to direct disqualification",
-                "Deadline for submission: 5th of May 2022, 11: 59 pm",
+                "Deadline for submission: 5th of May 2022, 11:59 pm",
                 "Mail your entries along with your Name, University Registration Number, Contact Number, and College Name at incridea.nmamit@gmail.com",
-                "Selected contestants will be contacted via e - mail on or before May 10, 2022",
+                "Selected contestants will be contacted via e-mail on or before May 10, 2022",
 
             ],
 
             "Round 2": [
 
                 "Participants have to perform a solo routine on stage",
-                "Time duration: 3 + 1 minutes",
+                "Time duration: 3+1 minutes",
                 "Soundtrack must be submitted to the organizers in a pen drive prior to the event",
-                "Selecte d contestants will move on to the Final Round.",
+                "Selected contestants will move on to the Final Round.",
             ],
 
             "Round 3": [
                 "Final Round: Two participants will be called on the stage simultaneously.",
-                "Songs will be played impromptu for which the participants are expected to face - off",
-                "The first part icipant has to stop at the buzzer.",
+                "Songs will be played impromptu for which the participants are expected to face-off",
+                "The first participant has to stop at the buzzer.",
                 "The second participant has to start dancing immediately to the same song.",
                 "There will be three such throw-downs.",
             ],
@@ -503,7 +503,7 @@ export const eventData = [
 
         "rules": [
             "Judges' decision will be final",
-            "Any form of vulgarity will lead to immediate disqualific ation",
+            "Any form of vulgarity will lead to immediate disqualification",
             "The use of fire, powder, water or animals is strictly prohibited",
 
 
@@ -524,7 +524,7 @@ export const eventData = [
             },
             {
                 "name": "Manas M Roi",
-                "phoneNumber": "+ 917975310793",
+                "phoneNumber": "+917975310793",
                 "emailID": "manasrai9611@gmail.com",
             }
 
@@ -667,13 +667,13 @@ export const eventData = [
         "name": "BHAJAN",
         "day": "2",
         "Time": "9:30 am",
-        "venue": "Temple ",
+        "venue": "Temple",
         "branch": "EEE",
         "image": "/events/EE/BHAJAN.png",
         "smallDesc": "Come entice the audience and enable them to feel closer to the Almighty, in the soothing Bhajan competition.",
         "fullDesc": "'I'll be singing hymns to the rafters, be praising his goodness so loud they're going to have to turn down the volume in Heaven, God loves to hear you. sing, so sing.' Come entice the audience and enable them to feel closer to the Almighty, in the soothing Bhajan competition.",
 
-        "rules": [" Every team must consist of 5 to 8 members A Bhajan can be sung with or without Indian musical instruments",
+        "rules": ["Every team must consist of 5 to 8 members. A Bhajan can be sung with or without Indian musical instruments",
             "A person can participate only in one team, if found participating in more than one team, it will lead to the disqualification of both the teams",
             "The duration must be 10 to 15 minutes",
             "A maximum of five microphones will be provided to each team",
@@ -706,7 +706,7 @@ export const eventData = [
         "smallDesc": "'The artist sees what other catch only a glimpse of', said the great Da Vinci. Come, bring your strokes alive on the canvas to create a masterpiece!",
         "fullDesc": "In this single round event, participants will be given a topic on the spot. Pencil sketch and painting are to be submitted to the organizers within the given time.",
 
-        "rules": ["Any number of entries from a college are permitted", " Solo entries only", "Topics will be gives on-spot", "Participants must get their own materials", "Sheets will be provided by the organizers", "Oil, water or poster colours (only for paintings) are permitted", "The decision of the judges is final and irrevocable"],
+        "rules": ["Any number of entries from a college are permitted", " Solo entries only", "Topics will be given on-spot", "Participants must get their own materials", "Sheets will be provided by the organizers", "Oil, water or poster colours (only for paintings) are permitted", "The decision of the judges is final and irrevocable"],
         "judgingCriteria": ["Creativity", "Skills and overall presentation", "Implementation of the topic"],
         "contactDetails": [
             {
@@ -732,13 +732,13 @@ export const eventData = [
         "branch": "ISE",
         "image": "/events/IS/DESAFIO.jpeg",
         "smallDesc": "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? ",
-        "fullDesc": "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? Desafio is an event which checks your FITNESS level by having various rounds.The tasks would not be mentioned precisely as it would be best if kept a surprise",
+        "fullDesc": "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? Desafio is an event which checks your FITNESS level by having various rounds. The tasks would not be mentioned precisely as it would be best if kept a surprise",
         "roundDetails": {
-            "round1": ["This is an mass elimination round depending on the registrations and we will have mass elimination considering their fitness levels. If there are less registrations, then the Round 1 will not be conducted."],
-            "round2": ["This round is to shortlist contestants to the FINAL SHOWDOWN.", "Groups of 4 will be made randomly which will be done by the organizers.", "The participants who played good enough will be selected. They are judges individually.", " It is purely based on the physical task which should be performed the given time. within the given time", "Task will be given to each one of the team member, The first one should complete his/her task and pass it on to the second member and it goes same till the final 4th member of the team.", "Number of groups depends on the registrations."],
+            "round1": ["This is a mass elimination round depending on the registrations and we will have mass elimination considering their fitness levels. If there are less registrations, then the Round 1 will not be conducted."],
+            "round2": ["This round is to shortlist contestants to the FINAL SHOWDOWN.", "Groups of 4 will be made randomly which will be done by the organizers.", "The participants who played good enough will be selected. They are judges individually.", " It is purely based on the physical task which should be performed within the given time", "Task will be given to each one of the team member, The first one should complete his/her task and pass it on to the second member and it goes same till the final 4th member of the team.", "Number of groups depends on the registrations."],
             "round3": ["The final round will be an intense fitness course which will decide who the WINNER is.", "8-10 contestants will be selected to the finals. Each of them will do the same course.", "It is Purely based on an intense task which should be performed within the given time also with a good form.", "The Participant who successfully completes the course with minimum time will be the WINNER."]
         },
-        "rules": [" All materials for the different rounds will be given by the organizers.", "No usage of cell phones or any other electronic devices until told otherwise.", "The decision taken by the judges and the organizers is final."],
+        "rules": ["All materials for the different rounds will be given by the organizers.", "No usage of cell phones or any other electronic devices until told otherwise.", "The decision taken by the judges and the organizers is final."],
         "contactDetails": [
             {
                 "name": "Sinan Mohamed",
@@ -941,7 +941,7 @@ export const eventData = [
             "round2": ["The scene will be divided in 4 quadrants, and allocate 4 different emotions to each quadrant.", "The scene will be given on spot.", "Players improvise a scene, but need to take on the emotion of the quadrant they are in.", "The players must switch to the emotion mentioned in each quadrant voluntarily, and make the best use of all the 4 emotions to complete the scene.", "The act will be judged based on the efficient use of all emotions and regular movements in the quadrant.", "Top 4 teams will advance to the final round."],
             "round3": ["End Game The moderator randomly picks a scene and the roles will be assigned.", "Additional clauses and props may be placed by the moderator during the performance.", "Scene is judged based on the comic timing and the way scene is executed."]
         },
-        "rules": [" Only students pursuing an engineering degree are allowed to participate.", "The rounds can be performed in English, Hindi, Kannada or Tulu.", "Two members in a team.", "Team members must be from the same collège.", "The teams must adhere to the spirit of healthy competition.", "Any number of teams per college is allowed.", "The decision of the judges and organizers is final and irrevocable. ", "Participants are not allowed to mention the real names of any political entity or religion at any point in their act."],
+        "rules": ["Only students pursuing an engineering degree are allowed to participate.", "The rounds can be performed in English, Hindi, Kannada or Tulu.", "Two members in a team.", "Team members must be from the same collège.", "The teams must adhere to the spirit of healthy competition.", "Any number of teams per college is allowed.", "The decision of the judges and organizers is final and irrevocable. ", "Participants are not allowed to mention the real names of any political entity or religion at any point in their act."],
         "judgingCriteria": ["Round 1: It's an elimination round. (If there are 30+ teams then there will be another elimination round.)", "Round 2: The 8 teams with the highest scores as given by the judge will advance to Round 3. ", "Round 3: The Final round is among the top 4 teams that advance to this round. Performances will be evaluated by the judge."],
         "contactDetails": [
             {
@@ -1605,7 +1605,7 @@ export const eventData = [
         "branch": "ISE",
         "image": "/events/IS/Pratibimbh.jpg",
         "smallDesc": "Grab a person and a paintbrush and head on over to this face painting competition!",
-        "fullDesc": " In this age of filters and lenses where augmented reality has made changing our looks as simple as tapping a button, Prathibimb takes a step back to the drawing board. ",
+        "fullDesc": "In this age of filters and lenses where augmented reality has made changing our looks as simple as tapping a button, Prathibimb takes a step back to the drawing board. ",
         "roundDetails": {
             "round1":
                 ["Paint the face of your fellow teammates in 1 hr 30 min based on your creativity. The top teams with the best paintings will be selected for the second round. "],
@@ -1652,7 +1652,7 @@ export const eventData = [
         "branch": "ISE",
         "image": "/events/IS/Pratibimbh.jpg",
         "smallDesc": "Grab a person and a paintbrush and head on over to this face painting competition!",
-        "fullDesc": " In this age of filters and lenses where augmented reality has made changing our looks as simple as tapping a button, Prathibimb takes a step back to the drawing board. ",
+        "fullDesc": "In this age of filters and lenses where augmented reality has made changing our looks as simple as tapping a button, Prathibimb takes a step back to the drawing board. ",
         "roundDetails": {
             "round1":
                 ["Paint the face of your fellow teammates in 1 hr 30 min based on your creativity. The top teams with the best paintings will be selected for the second round."],
