@@ -16,7 +16,7 @@ import {
 } from './StyledComponentsLogin';
 import { AuthContext } from '../../Context/AuthContext';
 import { useContext } from 'react'
-import { useNavigate } from 'react-router-dom';	
+import { useNavigate } from 'react-router-dom';
 const LoginForm = () => {
 	const [signIn, toggle] = useState(true);
 	const user = useContext(AuthContext)
@@ -28,7 +28,7 @@ const LoginForm = () => {
 		}
 	}, [user])
 	return (
-		<div className='loginForm'>
+		<div className='loginForm overflow-x-hidden'>
 			<Container className='loginForm'>
 				<SignUp signIn={signIn} />
 				<SignIn signIn={signIn} />
