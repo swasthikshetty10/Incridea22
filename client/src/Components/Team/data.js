@@ -16,7 +16,7 @@ export const persons = [
   },
   {
     name: "VIJETH ULLAL",
-    role: "CULTURAL CORDINATOR",
+    role: "CULTURAL COORDINATOR",
     img: "/team/Vijeth.png", email: "vijethula1402@gmail.com", mob: "9480565835",
   },
   {
