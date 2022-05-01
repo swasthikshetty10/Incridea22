@@ -38,12 +38,12 @@ function Modal({ data, img, closeModal }) {
                                 <img src={img} class=" block sm:w-32 md:w-48 lg:w-60" />
                                 <div>
 
-                                    <div className=" text-gray-100"> <GoLocation className="inline mr-2" />Venue - {data.venue}</div>
-                                    <div className=" text-gray-100"> <BsFillCalendar3RangeFill className="inline mr-2" />Event Date - {data.day ? `1${parseInt(data.day) + 1}/05/2022` : "- "}</div>
-                                    <div className=" text-gray-100"> <BiTimeFive className="inline mr-2" />Time - {data.Time}</div>
-                                    <div className=" text-gray-100"> <FaBuilding className="inline mr-2" />Branch - {data.branch}  </div>
+                                    <div className=" text-gray-100"> <GoLocation className=" text-[#9d7643] inline mr-2" /> {data.venue}</div>
+                                    <div className=" text-gray-100"> <BsFillCalendar3RangeFill className=" text-[#9d7643] inline mr-2" /> {data.day ? `1${parseInt(data.day) + 1}/05/2022` : "- "}</div>
+                                    <div className=" text-gray-100"> <BiTimeFive className=" text-[#9d7643] inline mr-2" />{data.Time}</div>
+                                    <div className=" text-gray-100"> <FaBuilding className=" text-[#9d7643] inline mr-2" /> {data.branch}  </div>
                                     {/* <div className=" text-white"> <BiTimeFive className="inline mr-2" />Team - 5:00PM</div> */}
-                                    <div className="pt-3 text-gray-100 text-lg"> <HiUserGroup className="inline mr-2" />Organizer details :
+                                    <div className="pt-3 text-gray-100 text-lg"> <HiUserGroup className=" text-[#9d7643] inline mr-2" />Organizer details :
                                         <br />
                                         {data.contactDetails.map((org, i) =>
                                             <div key={i} className=''>
