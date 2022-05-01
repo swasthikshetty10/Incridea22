@@ -3,7 +3,6 @@ import './styles.css';
 import SignIn from './SignIn';
 import SignUp from './SignUp';
 import { Container } from './StyledComponentsLogin';
-
 import {
 	GhostButton,
 	Overlay,
@@ -15,8 +14,7 @@ import {
 } from './StyledComponentsLogin';
 import { AuthContext } from '../../Context/AuthContext';
 import { useContext } from 'react'
-import { useNavigate } from 'react-router-dom';
-
+import { useNavigate } from 'react-router-dom';	
 const LoginForm = () => {
 	const [signIn, toggle] = useState(true);
 	const user = useContext(AuthContext)
@@ -29,7 +27,6 @@ const LoginForm = () => {
 	}, [user])
 	return (
 		<div className='loginForm'>
-
 			<Container className='loginForm'>
 				<SignUp signIn={signIn} />
 				<SignIn signIn={signIn} />

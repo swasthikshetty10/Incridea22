@@ -1,22 +1,20 @@
 import React, { useState, useEffect, useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../Context/AuthContext";
-import Logout from "./Auth/Logout"
-
 import logo from "../Images/logo.png";
+import Logout from "./Auth/Logout";
+
+
 
 function Navbar({ tab, sticky }) {
   const [click, setClick] = useState(false);
   const [offset, setOffset] = useState(0);
-
   useEffect(() => {
     const scrollFn = () => {
       setOffset(window.pageYOffset)
     }
     window.addEventListener('scroll', scrollFn)
-
-    return () => window.removeEventListener('scroll', scrollFn)
-  }, [])
+  }, [offset])
   const user = useContext(AuthContext)
   const handleHamburger = () => {
     if (click === 0) {
@@ -26,30 +24,27 @@ function Navbar({ tab, sticky }) {
     } else {
       document.getElementById("mobile-menu-4").classList.add("visible");
       document.getElementById("mobile-menu-4").classList.remove("hidden");
-
       setClick(0);
     }
   };
   return (
     <>
-      {/* {... click===0? onClick()=>setClick(1):onClick()=>setClick(0)}  */}
-
-      {/* <nav className="bg-[#000] px-2 sm:px-4 py-6 font-nav" style ={{"fontFamily":"CinzelDecorative-Bold"}} >
-        <div className="container text-center flex flex-wrap justify-between items-center mx-auto"> */}
-
-      <nav className={`sticky top-0 bg-[#000] z-[100] ${offset > 100 ? "py-4" : "py-6"} transform ease-linear duration-300 tracking-wider px-1 md:px-4 font-nav  min-w-fit  `}>
-        <div className={`container text-center flex flex-wrap justify-between items-center content-center mx-auto`}>
+      <nav className={`sticky top-0 bg-[#000] z-[100] ${offset > 100 ? "py-2" : "py-6"} transform ease-linear duration-300 tracking-wider px-1 md:px-4 font-nav  min-w-fit  `}>
+        <div className="container text-center flex flex-wrap justify-between items-center content-center mx-auto">
           <Link to="/" className="flex items-center">
             <img src={logo} className="mx-3 h-9 md:h-16" alt="Incridea Logo" />
           </Link>
-          {tab != "profile" ? <Link
-            to={user ? "/profile" : "/login"}
-            className={`block md:hidden border-2 border-[#9d7643] p-2 text-sm font-nav font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633] md:border-0 md:hover:text-white text-[#9d7643]`}
-          > 
-            {user ? "Profile" : "Login/Register"}
-          </Link> : <Logout className={`block md:hidden border-2 border-[#9d7643] py-2 pr-4 pl-3 text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633] md:border-0 md:hover:text-white text-[#9d7643]`}/>
-          }
           <div className="flex md:hidden">
+            {!(user && tab === "profile") ? <Link
+
+              to={user ? "/profile" : "/login"}
+              className={`block md:hidden border-2 border-[#9d7643] p-2 text-sm font-nav font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633] md:border-0 md:hover:text-white text-[#9d7643]`}
+            >
+              {user ? "Profile" : "Login/Register"}
+            </Link> : <Logout
+              className={`block md:hidden border-2 border-[#9d7643] p-2 text-sm font-nav font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633] md:border-0 md:hover:text-white text-[#9d7643]`}
+
+            />}
             <button
               data-collapse-toggle="mobile-menu-4"
               type="button"
@@ -150,26 +145,19 @@ function Navbar({ tab, sticky }) {
                   about us
                 </Link>
               </li>
-
-              
+              <li>
+                {!(user && tab === "profile") ? <Link
+                  to={user ? "/profile" : "/login"}
+                  className={`hidden md:block border-2 border-[#9d7643] py-2 pr-4 pl-3 text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633] md:border-0 md:hover:text-white text-[#9d7643]`}
+                >
+                  {user ? "Profile" : "Login/Register"}
+                </Link> : <Logout
+                  className={`hidden md:block border-2 border-[#9d7643] py-2 pr-4 pl-3 text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633] md:border-0 md:hover:text-white text-[#9d7643]`}
+                />}
+              </li>
             </ul>
           </div>
-
-          {tab != "profile"?
-                
-                  <Link
-                    to={user ? "/profile" : "/login"}
-                    className={`hidden md:block ${tab === "profile" ? "invisible" : ""} border-2 border-[#9d7643] py-2 pr-4 pl-3 text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633] md:border-0 md:hover:text-white text-[#9d7643]`}
-                  >
-                    {user ? "Profile" : "Login/Register"}
-                  </Link>
-                
-
-                :
-                <Logout className={`hidden md:block  border-2 border-[#9d7643] py-2 pr-4 pl-3 text-xl font-nav font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633] md:border-0 md:hover:text-white text-[#9d7643]`}/>
-              }
         </div>
-
       </nav>
     </>
   );
