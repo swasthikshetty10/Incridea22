@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { Button, Div } from '../Auth/StyledComponentsLogin';
+import React, { useState } from 'react';
+import { Button } from '../Auth/StyledComponentsLogin';
 import axios from 'axios'
 import { AiOutlineLoading3Quarters } from 'react-icons/ai';
 import { useNavigate } from 'react-router-dom';

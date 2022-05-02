@@ -16,9 +16,7 @@ import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { colleges } from "../../colleges";
 import { useNavigate } from "react-router-dom";
 const SignUp = ({ signIn }) => {
-  const [amt, SetAmt] = useState(150);
   const [valid, SetValid] = useState(false);
-  const [vals, setVals] = useState({});
   const [emailSent, setEmailSent] = useState(false);
   const [otpVerified, setOtpVerified] = useState(false);
   const [isNmamit, setNmamit] = useState(true);
@@ -59,7 +57,6 @@ const SignUp = ({ signIn }) => {
       }
       throw error;
     }
-    setVals(values);
   };
 
   const validateOTP = async (values) => {
@@ -114,11 +111,9 @@ const SignUp = ({ signIn }) => {
                     onChange={(e) => {
                       formik.setFieldValue("college", e.target.value);
                       if (e.target.value !== "NMAM INSTITUTE OF TECHNOLOGY") {
-                        SetAmt(250);
                         setNmamit(false);
                       } else {
                         setNmamit(true);
-                        SetAmt(150);
                       }
                     }} //Edited on server
                     id="selected"
@@ -164,7 +159,7 @@ const SignUp = ({ signIn }) => {
                   <p className="text-white p-2">
                     Having trouble signing up?
                     <br />{" "}
-                    <a href={`tel:8861885124`} className="text-igold transition-colors hover:text-gray-200">
+                    <a href={`tel:8861885124`} className="text-igold transition-colors hover:text-white">
                       Call us 24/7
                     </a>
                   </p>
@@ -237,9 +232,9 @@ const SignUp = ({ signIn }) => {
 
                       <ul className="list-inside list-disc text-gray-400">
                         {isNmamit && (
-                          <li>You must use your college email ID.</li>
+                          <li>You MUST use your college email ID.</li>
                         )}
-                        {<li>We hold no refund policies.</li>}
+                        <li>We hold no refund policies.</li>
                       </ul>
                     </div>
                   }

@@ -1,8 +1,7 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useRef, useState } from 'react';
 import { Formik, Form } from 'formik';
 import * as Yup from 'yup';
 import {
-	Anchor,
 	Button,
 	SignInContainer,
 	SignInFormCustom,
@@ -11,8 +10,6 @@ import {
 import './styles.css';
 import InputField from './InputField';
 import { loginUser } from '../../firebaseConfig';
-import { AuthContext } from '../../Context/AuthContext';
-import { useContext } from 'react'
 import { AiOutlineLoading3Quarters } from 'react-icons/ai'
 import { Link } from 'react-router-dom';
 const SignIn = ({ signIn }) => {
@@ -22,7 +19,6 @@ const SignIn = ({ signIn }) => {
 	};
 	const [loading, setLoading] = useState(false);
 	const successSpan = useRef()
-	const user = useContext(AuthContext)
 	const validate = Yup.object().shape({
 		mail: Yup.string().email().required('Email is required'),
 
@@ -63,8 +59,8 @@ const SignIn = ({ signIn }) => {
 										placeholder='Password'
 									/>
 									<span className="text-center mt-2" ref={successSpan}></span>
-									<Link to="/forgot">
-										<a href="#" className='text-white mb-3' >Forgot your password?</a>
+									<Link to="/forgot" className='underline hover:text-igold transition-colors text-white mb-3'>
+										Forgot your password?
 									</Link>
 									<Button className={`inline-flex gap-3 $ mt-2 {loading ? "bg-opacity-50" : ""}`} disabled={loading} type='submit'>
 										{loading ? <> <AiOutlineLoading3Quarters className=" animate-spin text-lg " /> <span className=''>Logging In...</span></> : 'Login'}
