@@ -1,5 +1,5 @@
 export const nickNames = {
-  "4nm18cs094@nmamit.in": "Agent No. 69",
+  "4nm18cs094": "Agent No. 69",
   "4nm18bt066": "Pronite Artist Incridea23",
   "4nm18cv080": "Daddy",
   "4nm18ec003": "Abhi Cheta...",
