@@ -92,13 +92,19 @@ export const persons = [
     email: "shravya7@gmail.com",
     mob: "9482254166",
   },
-
   {
     name: "ROLAN GOMES",
     role: "HEAD OF DIGITAL COMMITTEE",
     img: "/team/rolan_.png",
     email: "rolangomes19@gmail.com",
     mob: "9019536394",
+  },
+  {
+    name: "ANUP RAI",
+    role: "HEAD OF TRANSPORTATION COMMITTEE",
+    img: "/team/Anup.png",
+    email: "anupashokshetty@gmail.com",
+    mob: "9945191271",
   },
   {
     name: "MANAS M RAI",
@@ -128,13 +134,6 @@ export const persons = [
     img: "/team/Shreesha.png",
     email: "Shreesha12129@gmail.com",
     mob: "9686596283",
-  },
-  {
-    name: "ANUP RAI",
-    role: "HEAD OF TRANSPORTATION COMMITTEE",
-    img: "/team/Anup.png",
-    email: "anupashokshetty@gmail.com",
-    mob: "9945191271",
   },
   {
     name: "RAHUL BHAT",
