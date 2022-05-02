@@ -6,7 +6,6 @@ export const persons = [
     email: "rithesh13bekal@gmail.com",
     mob: "9620004763",
   },
-
   {
     name: "RAMSHRAVAN RAI",
     role: "CO-COORDINATOR",
