@@ -164,8 +164,8 @@ const SignUp = ({ signIn }) => {
                   <p className="text-white p-2">
                     Having trouble signing up?
                     <br />{" "}
-                    <a href={`tel:8861885124`} className="text-igold">
-                      Contact us 24/7
+                    <a href={`tel:8861885124`} className="text-igold transition-colors hover:text-gray-200">
+                      Call us 24/7
                     </a>
                   </p>
 
@@ -215,14 +215,7 @@ const SignUp = ({ signIn }) => {
                           className="inline underline text-igold"
                         >
                           Resend OTP
-                        </button>{" "}
-                        or{" "}
-                        <a
-                          href="/techteam"
-                          className="inline underline text-igold"
-                        >
-                          Contact the Technical Team{" "}
-                        </a>
+                        </button>
                       </p>
                     </>
                   )}

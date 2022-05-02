@@ -4,6 +4,9 @@ module.exports = {
     extend: {
       colors: {
         igold: "#9d7643"
+      },
+      animation: {
+        'spin-slow': 'spin 4s linear infinite',
       }
     },
     fontFamily: {
