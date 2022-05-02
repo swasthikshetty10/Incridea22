@@ -109,7 +109,7 @@ export const persons = [
     name: "DEEKSHITHA SHETTY",
     role: "HEAD OF PUBLICITY COMMITTEE",
     img: "/team/Deeks.png",
-    email: "shettydeekshita15@gmail.com",
+    email: "shettydeekshitha15@gmail.com",
     mob: "9686693372",
   },
   {
