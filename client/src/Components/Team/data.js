@@ -6,6 +6,7 @@ export const persons = [
     email: "rithesh13bekal@gmail.com",
     mob: "9620004763",
   },
+
   {
     name: "RAMSHRAVAN RAI",
     role: "CO-COORDINATOR",
@@ -65,7 +66,7 @@ export const persons = [
   },
   {
     name: "WAYNE DSOUZA",
-    role: "HEAD OF SOCIAL MEDIA COMMITTEE",
+    role: "HEAD OF SOCIAL MEDIA & DOCUMENTATION COMMITTEES",
     img: "/team/Wayne.png",
     email: "waynereuben03@gmail.com",
     mob: "8971491645",
