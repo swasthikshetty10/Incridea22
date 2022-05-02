@@ -103,7 +103,7 @@ export const persons = [
     name: "ANUP RAI",
     role: "HEAD OF TRANSPORTATION COMMITTEE",
     img: "/team/Anup.png",
-    email: "anupashokshetty@gmail.com",
+    email: "anuprai2000@gmail.com",
     mob: "9945191271",
   },
   {
