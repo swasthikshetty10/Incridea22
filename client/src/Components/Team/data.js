@@ -56,7 +56,6 @@ export const persons = [
     email: "sushattavar@gmail.com",
     mob: "9886383777",
   },
-
   {
     name: "ARADHANA NAMBIAR",
     role: "HEAD OF PUBLICITY COMMITTEE",
@@ -79,11 +78,19 @@ export const persons = [
     mob: "9902145643",
   },
   {
-    name: "DEEKSHITHA SHETTY",
-    role: "HEAD OF PUBLICITY COMMITTEE",
-    img: "/team/Deeks.png",
-    email: "shettydeekshita15@gmail.com",
-    mob: "9686693372",
+    name: "ADITYA BHAT",
+    role: "HEAD OF JURY COMMITTEE",
+    img: "/team/ADB.png",
+    email: "madibhat@gmail.com",
+    mob: "9611309109",
+  },
+
+  {
+    name: "ROLAN GOMES",
+    role: "HEAD OF DIGITAL COMMITTEE",
+    img: "/team/rolan_.png",
+    email: "rolangomes19@gmail.com",
+    mob: "9019536394",
   },
   {
     name: "SHRAVYA JAIN",
@@ -93,18 +100,18 @@ export const persons = [
     mob: "9482254166",
   },
   {
-    name: "ROLAN GOMES",
-    role: "HEAD OF DIGITAL COMMITTEE",
-    img: "/team/rolan_.png",
-    email: "rolangomes19@gmail.com",
-    mob: "9019536394",
-  },
-  {
     name: "ANUP RAI",
     role: "HEAD OF TRANSPORTATION COMMITTEE",
     img: "/team/Anup.png",
     email: "anuprai2000@gmail.com",
     mob: "9945191271",
+  },
+  {
+    name: "DEEKSHITHA SHETTY",
+    role: "HEAD OF PUBLICITY COMMITTEE",
+    img: "/team/Deeks.png",
+    email: "shettydeekshita15@gmail.com",
+    mob: "9686693372",
   },
   {
     name: "MANAS M RAI",
@@ -113,13 +120,7 @@ export const persons = [
     email: "manasrai9611@gmail.com",
     mob: "9611543935",
   },
-  {
-    name: "ADITYA BHAT",
-    role: "HEAD OF JURY COMMITTEE",
-    img: "/team/ADB.png",
-    email: "madibhat@gmail.com",
-    mob: "9611309109",
-  },
+
   {
     name: "NIHAL SHETTY",
     role: "HEAD OF MEDIA COMMITTEE",
