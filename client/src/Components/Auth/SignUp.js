@@ -89,7 +89,7 @@ const SignUp = ({ signIn }) => {
             await validateOTP(values);
           }
         } catch (error) {
-          successSpan.current.innerHTML = `<p class="font-semibold text-red-600">${error.response.data}</p>`//NOTE:
+          successSpan.current.innerHTML = `<p class="font-semibold text-red-600">${error.response?.data || 'Something went wrong!'}</p>`//NOTE:
         }
         setLoading(false)
       }}
@@ -124,7 +124,7 @@ const SignUp = ({ signIn }) => {
                     }
                   </Select>
                   <Div className='group bg-[#333] text-[#eee]'>
-                    <InputField className='  focus:outline-none focus:border-0' disabled={valid} name='mail' type='text' placeholder={isNmamit ? 'USN': 'Email'} />
+                    <InputField className='  focus:outline-none focus:border-0' disabled={valid} name='mail' type={isNmamit ? 'text' : 'email'} placeholder={isNmamit ? 'USN' : 'Email'} />
                     {isNmamit && <p>@nmamit.in</p>}
                   </Div>
                   {!emailSent &&
@@ -132,7 +132,7 @@ const SignUp = ({ signIn }) => {
                     <Button onClick={clearMsg} type='submit' className={`mt-2 inline-flex items-center justify-center gap-3  ${loading ? "opacity-90" : "opacity-100"}`} disabled={loading} >
                       {loading ? <> <AiOutlineLoading3Quarters className=" animate-spin text-lg " /> <span className=''>Hold on</span></> : 'Send Verification Email'}
                     </Button>}
-                    
+
                   {!otpVerified && valid && (
                     <div className=''>
                       <InputField onChange={(e) => {
@@ -158,19 +158,19 @@ const SignUp = ({ signIn }) => {
 
                     </>
                   }
-                  
+
                   {otpVerified && <Payment email={formik.values.mail} successSpan={successSpan} clearMsg={clearMsg} className="mt-1" type="button" />}
                   {
-                        <div className='mt-9 '>
-                          <h3 className='text-xl text-gray-300 mb-1'>PLEASE NOTE!</h3>
-                  
-                          <ul className='list-inside list-disc text-gray-400'>
-                  {isNmamit && <li>You must use your college email ID.</li>}
-                  {<li>We hold no refund policies.</li>}
+                    <div className='mt-9 '>
+                      <h3 className='text-xl text-gray-300 mb-1'>PLEASE NOTE!</h3>
 
-                          </ul>
-                        </div>
-                    }
+                      <ul className='list-inside list-disc text-gray-400'>
+                        {isNmamit && <li>You must use your college email ID.</li>}
+                        {<li>We hold no refund policies.</li>}
+
+                      </ul>
+                    </div>
+                  }
                 </SignInFormCustom>
               </SignUpContainer>
             </Form>
