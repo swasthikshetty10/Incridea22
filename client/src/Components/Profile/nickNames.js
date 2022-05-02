@@ -15,5 +15,5 @@ export const nickNames = {
   "4nm18me162": "Big Daddy.",
   "4nm18bt056": "Co-Coordi Madam.",
   "4nm18me073": "Smasher !",
-  "4nm18cv097": "Arjunnn.",
+  "4nm18cv097": "Bhabhi :)",
 };
