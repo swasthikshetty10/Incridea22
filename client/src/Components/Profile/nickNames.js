@@ -11,4 +11,5 @@ export const nickNames = {
   "4nm18cs149": "Now let me tell you something",
   "4nm18me121": "Nolan Gomes",
   "4nm18cs144": "Saanaaaa❤️",
+  "4nm18cs128": "Crypto Lord !",
 };
