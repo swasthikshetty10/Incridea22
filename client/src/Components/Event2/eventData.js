@@ -847,7 +847,7 @@ export const eventData = [
   {
     name: "DUET DANCE",
     day: "1",
-    Time: "11:00 pm",
+    Time: "11:00 am",
     venue: "Swarna EDC",
     branch: "CIVIL",
     image: "/events/CV/duetDance.png",
