@@ -163,6 +163,7 @@ let restCollges = [
   "SDIT KENJAR",
   "MANIPAL INSTITUTE OF TECHNOLOGY, MANIPAL",
   "MIT KUNDAPURA, MOODALKATTE",
+  "Shri Dharmasthala Manjunatheshwara College Of Business Management",
 ].sort();
 
 export let colleges = ["NMAM INSTITUTE OF TECHNOLOGY", ...restCollges];
