@@ -1,7 +1,6 @@
 import { signOut } from 'firebase/auth'
 import React from 'react'
 import { auth } from '../../firebaseConfig'
-import {FiLogOut} from 'react-icons/fi'
 
 function Logout(props) {
     return (

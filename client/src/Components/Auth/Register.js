@@ -4,13 +4,9 @@ import { Formik, Form } from 'formik';
 import * as Yup from 'yup';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { AiOutlineLoading3Quarters } from 'react-icons/ai';
-
 import {
     Button,
 } from './StyledComponentsLogin';
-
-
-
 import './styles.css';
 import InputField from './InputField';
 import { useState } from 'react';
@@ -40,7 +36,7 @@ function Register() {
         axios.post('https://peaceful-river-11730.herokuapp.com/auth/register/', data).then( //register user
             async (res) => {
                 try {
-                    const userCred = await signInWithEmailAndPassword(auth, email, data.password)
+                    await signInWithEmailAndPassword(auth, email, data.password)
                     navigate('/profile')
                 } catch (e) {
                     throw new Error(e)
@@ -61,7 +57,7 @@ function Register() {
             navigate("/login")
             setLoading(false)
         })
-    }, [])
+    }, [email])
     const initialValues = {
         name: '',
         phNo: '',
