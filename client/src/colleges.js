@@ -1,5 +1,4 @@
-export const colleges = [
-  "NMAM INSTITUTE OF TECHNOLOGY",
+let restCollges = [
   "ACS COLLEGE OF ENGINEERING, BANGALORE",
   "ADARSHA INSTITUTE OF TECHNOLOGY, BANGALORE",
   "ADHICHUNCHUNAGIRI INSTITUTE OF TECHNOLOGY",
@@ -164,5 +163,6 @@ export const colleges = [
   "SDIT KENJAR",
   "MANIPAL INSTITUTE OF TECHNOLOGY, MANIPAL",
   "MIT KUNDAPURA, MOODALKATTE",
-  "",
-];
+].sort();
+
+export let colleges = ["NMAM INSTITUTE OF TECHNOLOGY", ...restCollges];

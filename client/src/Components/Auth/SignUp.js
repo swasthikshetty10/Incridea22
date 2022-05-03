@@ -14,6 +14,7 @@ import InputField from "./InputField";
 import Payment from "../Payments/Payment";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { colleges } from "../../colleges";
+
 import { useNavigate } from "react-router-dom";
 const SignUp = ({ signIn }) => {
   const [valid, SetValid] = useState(false);
@@ -159,7 +160,10 @@ const SignUp = ({ signIn }) => {
                   <p className="text-white p-2">
                     Having trouble signing up?
                     <br />{" "}
-                    <a href={`tel:8861885124`} className="text-igold transition-colors hover:text-white">
+                    <a
+                      href={`tel:8861885124`}
+                      className="text-igold transition-colors hover:text-white"
+                    >
                       Call us 24/7
                     </a>
                   </p>
