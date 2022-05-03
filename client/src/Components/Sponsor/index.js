@@ -67,6 +67,7 @@ const Sponsor = () => {
 
               {SponsorDetails.map((sponorDetail, i) => (
                 <EventsCard
+                  key={i}
                   rev={i % 2}
                   ImageSrc={sponorDetail.image}
                   SponsorTitle={sponorDetail.name}

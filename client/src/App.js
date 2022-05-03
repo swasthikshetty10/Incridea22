@@ -19,7 +19,6 @@ import ForgotPass from './Components/Auth/ForgotPass';
 import OtpFiled from './Components/Auth/OtpFiled';
 import UserInput from './Components/Auth/UserInput';
 import { AuthProvider } from './Context/AuthContext'
-import { auth } from "./firebaseConfig";
 import Profile from "./Components/Profile"
 import Privacy from "./Components/Privacy";
 
@@ -57,9 +56,9 @@ function App() {
             <Route path='/forgot' element={<ForgotPass />} />
             <Route exact path='/otp' element={<OtpFiled />} />
             <Route exact path='/register/:email' element={<Register />} />
-            <Route path="*" element={<Navigate to="/" replace />} />
             <Route exact path='/profile' element={<Profile />} />
             <Route exact path='/privacy' element={<Privacy />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
           <Footer />
         </ScrollToTop>

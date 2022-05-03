@@ -24,21 +24,21 @@ function Modal({ data, img, closeModal }) {
                                 </h3>
                                 {data.round && <p className='text-sm text-gray-200'>Round {data.round}</p>}
                             </div>
-                            <button type="button" className="text-gray-100 bg-transparent hover:bg-red-200 hover:text-gray-100 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center " data-modal-toggle="extralarge-modal" onClick={() => { closeModal(false) }} >
+                            <button type="button" className="hover:text-white text-gray-200 bg-transparent gap-1 text-md p-1.5 ml-auto inline-flex items-center " data-modal-toggle="extralarge-modal" onClick={() => { closeModal(false) }} >
                                 {/* <ImCross /> */}
-                                <IoIosArrowBack className="inline mr-0" /> Back
+                                <IoIosArrowBack className=" inline" /> Back
                             </button>
                         </div>
                         {/* <!-- Modal body --> */}
                         <div className="overflow-y-scroll sm:overflow-y-auto  h-[80vh] sm:h-auto p-1 sm:flex sm:flex-col md:flex md:flex-row lg:flex lg:flex-row xl:flex xl:flex-row">
 
                             <div className="p-3 flex flex-col justify-between space-y-3 sm:min-w-max">
-                                <img src={img} alt={""} class=" block sm:w-32 md:w-48 lg:w-60" />
+                                <img src={img} alt={""} class=" block sm:w-32 md:w-48 lg:w-72" />
                                 <div>
 
                                     <div className=" text-gray-100"> <GoLocation className=" text-igold inline mr-2" /> {data.venue}</div>
                                     <div className=" text-gray-100"> <BsFillCalendar3RangeFill className=" text-igold inline mr-2" /> {data.day ? `1${parseInt(data.day) + 1}/05/2022` : "- "}</div>
-                                    <div className=" text-gray-100"> <BiTimeFive className=" text-igold inline mr-2" />{data.Time}</div>
+                                    <div className=" text-gray-100"> <BiTimeFive className=" text-igold inline mr-2" /> {data.Time}</div>
                                     <div className=" text-gray-100"> <FaBuilding className=" text-igold inline mr-2" /> {data.branch}  </div>
                                     {/* <div className=" text-white"> <BiTimeFive className="inline mr-2" />Team - 5:00PM</div> */}
                                     <div className="pt-3 text-gray-100 text-lg bold"> <HiUserGroup className="inline mr-2" /><span className='font-bold'>Organizer details</span>
