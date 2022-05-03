@@ -17,29 +17,20 @@ function Payment(props) {
 			})
 			const { data } = response
 			const options = {
-				"key": "rzp_live_oC59fGEg79wjse", // Change during production or use document.domain
+				"key": "rzp_live_oC59fGEg79wjse",
 				"amount": data.amount.toString(),
 				"currency": data.currency,
-				"name": "Incridea Registration", //Change this stuff
+				"name": "Incridea Registration",
 				"description": "Incridea 2022 Participant Registration",
 				"image": "https://incridea.in/static/media/logo.a7730a296d5fdd7a7cdd.png",
 				"order_id": data.id,
-				"handler": async function (response) {
-					//TODO: EVERYTHING IN COMMENTS
-					//TODO: USE TIMEOUTS WITH AXIOS --> can client change??
-					const res = await axios.post('https://peaceful-river-11730.herokuapp.com/auth/verifyPayment', {
-						email: props.email,
-						payment_id: response.razorpay_payment_id,
-						order_id: response.razorpay_order_id,
-						signature: response.razorpay_signature,
-					})
-
-					const callBackData = res.data
-					if (callBackData) {
+				"handler": function (response) {
+					if (response.razorpay_payment_id, response.razorpay_order_id, response.razorpay_signature) {
 						navigate(`/register/${props.email}`)
-					} else {
 					}
-					//OR use try catch??
+					else {
+						throw new Error('Payment Failed')
+					}
 				},
 				"prefill": {
 					"email": `${props.email}`,
