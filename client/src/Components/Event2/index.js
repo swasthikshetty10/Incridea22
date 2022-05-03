@@ -3,8 +3,7 @@ import Navbar from "../Navbar";
 import EventsCard from "./EventsCard";
 import TabsSimple from "./TabsSimple";
 import FilterBar from "./FilterBar";
-import { eventData } from "./eventData"
-
+import { eventData } from "./eventData";
 
 function Event2() {
   const [branch, setBranch] = useState("ALL");
@@ -23,8 +22,6 @@ function Event2() {
       )
     );
   }, [query, day, branch]);
-
-
 
   // const Cell = ({ toggle, name, height, description, css, maximized }) => <></>;
 
@@ -48,32 +45,36 @@ function Event2() {
           {/* <FilterBar {...{ day, setDay, query, setQuery }} /> */}
           <TabsSimple {...{ branch, setBranch }} />
 
-
-
-
-          {elements.length > 0 ? <div className="max-w-screen-xl flex flex-wrap justify-center gap-x-10 gap-y-14 ">
-            {elements.map((value, index) => {
-              return (
-                <EventsCard
-                  key={index}
-                  name={value.name}
-                  src={value.image}
-                  desc={value.fullDesc}
-                  time={value.Time}
-                  venue={value.venue}
-                  day={value.day}
-                  branch={value.branch}
-                  round={value.round ? value.round : null}
-                  data={value}
-                />
-              );
-            })}
-          </div> : <>
-            <h3 className="text-igold mt-6 pt-1  text-3xl font-body text-center">No events found!</h3>
-            <p className="text-gray-500  lg:mb-6 pt-1 pb-3 text-lg font-body text-center">Try changing up the filters?</p>
-          </>}
-
-
+          {elements.length > 0 ? (
+            <div className="max-w-screen-xl flex flex-wrap justify-center gap-x-10 gap-y-14 ">
+              {elements.map((value, index) => {
+                return (
+                  <EventsCard
+                    key={index}
+                    name={value.name}
+                    src={value.image}
+                    desc={value.fullDesc}
+                    time={value.Time}
+                    venue={value.venue}
+                    day={value.day}
+                    branch={value.branch}
+                    sponsor={value.sponsor}
+                    round={value.round ? value.round : null}
+                    data={value}
+                  />
+                );
+              })}
+            </div>
+          ) : (
+            <>
+              <h3 className="text-igold mt-6 pt-1  text-3xl font-body text-center">
+                No events found!
+              </h3>
+              <p className="text-gray-500  lg:mb-6 pt-1 pb-3 text-lg font-body text-center">
+                Try changing up the filters?
+              </p>
+            </>
+          )}
         </div>
       </div>
       {/* <Footer /> */}

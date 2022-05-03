@@ -6,6 +6,7 @@ export const eventData = [
     venue: "SADANANDA",
     branch: "CORE",
     image: "/events/CORE/Couture.png",
+    sponsor: "Lifestyle",
     smallDesc:
       "Couture is the platform to showcase unseen, unforgettable and ultimate spectacle of all things fashion.",
     fullDesc:
@@ -110,6 +111,7 @@ export const eventData = [
     venue: "SAMBHRAM",
     branch: "CORE",
     image: "/events/CORE/navarasa.png",
+    sponsor: "Paramvah Studios",
     smallDesc:
       "A drama competition open to teams from all universities. Through this, we wish to provide a platform for all budding playwrights, theatre artists, and art patrons to entertain theatre lovers.",
     fullDesc:
@@ -164,6 +166,7 @@ export const eventData = [
     venue: "Infront of NC Block, Survey Lab",
     branch: "CORE",
     image: "/events/CORE/robowars.png",
+    sponsor: "Quad X Drones",
     smallDesc:
       "Are you passionate about Bots? Or you just like to watch things get crushed? ",
     fullDesc:
@@ -243,6 +246,7 @@ export const eventData = [
     venue: "SADANANDA",
     branch: "CORE",
     image: "/events/CORE/StompThat.png",
+    sponsor: "Nritya Shakti",
     smallDesc:
       "A chance for all the amazing groups out there to showcase their group's skills, choreography, and sync.",
     fullDesc:
@@ -292,6 +296,7 @@ export const eventData = [
     venue: "Online",
     branch: "CORE",
     image: "/events/CORE/vibe.png",
+    sponsor: "Nritya Shakti",
     smallDesc:
       "The battleground is set, the lights are lit, and it's time for all you dancers to fire up the dance floor with your moves to the unpredictable tunes.",
     fullDesc:
@@ -359,6 +364,7 @@ export const eventData = [
     venue: "SAC OAT",
     branch: "CORE",
     image: "/events/CORE/vibe.png",
+    sponsor: "Nritya Shakti",
     smallDesc:
       "The battleground is set, the lights are lit, and it's time for all you dancers to fire up the dance floor with your moves to the unpredictable tunes.",
     fullDesc:
@@ -426,6 +432,7 @@ export const eventData = [
     venue: "SAC OAT",
     branch: "CORE",
     image: "/events/CORE/vibe.png",
+    sponsor: "Nritya Shakti",
     smallDesc:
       "The battleground is set, the lights are lit, and it's time for all you dancers to fire up the dance floor with your moves to the unpredictable tunes.",
     fullDesc:
@@ -493,6 +500,7 @@ export const eventData = [
     venue: "Sadananda Ground",
     branch: "CORE",
     image: "/events/CORE/AutoExpo.png",
+    sponsor: "Yamuna Asha City",
     smallDesc:
       "Incridea with Yamuna Asha City proudly brings to you Auto Expo 2022: A showcase of the country's most exclusive automobiles. This May 15th we have the biggest line up of automobiles ranging from luxury cars to sports vehicles and much, much more. So all the petrol heads in the house, it's time to get turbocharged because what you're going to witness in this year's Auto Expo, is just out of the world!",
     fullDesc:
@@ -514,6 +522,7 @@ export const eventData = [
     venue: "SADANANDA",
     branch: "CORE",
     image: "/events/CORE/BoB.jpg",
+    sponsor: "Beardo",
     smallDesc:
       "A golden opportunity awaits all the tremendous bands in Karnataka to win the ultimate showdown - BATTLE OF THE BANDS.",
     fullDesc:

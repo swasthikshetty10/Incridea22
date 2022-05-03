@@ -164,6 +164,12 @@ let restCollges = [
   "MANIPAL INSTITUTE OF TECHNOLOGY, MANIPAL",
   "MIT KUNDAPURA, MOODALKATTE",
   "Shri Dharmasthala Manjunatheshwara College Of Business Management",
+  "Nitte Gulabi Shetty Memorial Institute of Pharmaceutical Sciences",
+  "Nitte Usha Institute of Nursing Sciences",
+  "K.S. Hegde Medical Academy ",
+  "AB Shetty Memorial Institute of Dental Sciences",
+  "Nitte Institute of Architecture",
+  "Nitte Institute of Communication",
 ].sort();
 
 export let colleges = ["NMAM INSTITUTE OF TECHNOLOGY", ...restCollges];
