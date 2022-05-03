@@ -14,6 +14,7 @@ function EventsCard({
   round,
   data,
   sponsor,
+  sponsorLink,
 }) {
   const [openModal, setModal] = useState(false);
 
@@ -31,12 +32,7 @@ function EventsCard({
   return (
     <>
       <Fade>
-        <div
-          onClick={() => {
-            setModal(true);
-          }}
-          className="relative flex  flex-col mx-0 justify-center rounded-2xl shadow-md hover:shadow-lg  cursor-pointer transition-all ease-out  hover:-translate-y-1 hover:scale-103 duration-300    "
-        >
+        <div className="relative flex  flex-col mx-0 justify-center rounded-2xl shadow-md hover:shadow-lg  cursor-pointer transition-all ease-out  hover:-translate-y-1 hover:scale-103 duration-300    ">
           <div className="relative flex  flex-col mx-0 justify-center rounded-2xl shadow-md hover:shadow-lg  cursor-pointer transition-all ease-out  hover:-translate-y-1 hover:scale-105 duration-300    ">
             <div className="mx-auto flex w-60 h-80 flex-col pb-8 justify-start bg-[#1d1d1d]/50  rounded-none shadow-xl  ">
               <img
@@ -61,9 +57,18 @@ function EventsCard({
                     {round && `Round ${round}`}
                   </div>
                 </div>
-                <div className="text-center  text-sm text-gray-500 text-igold">
-                  {sponsor && `Sponsored by ${sponsor}`}
-                </div>
+                <a
+                  href={sponsorLink}
+                  target="_blank"
+                  className="text-center  text-sm  text-igold "
+                >
+                  {sponsor && (
+                    <>
+                      <span>sponsored by </span>
+                      <span className="font-bold"> {sponsor} </span>
+                    </>
+                  )}
+                </a>
 
                 <div>
                   <div className={`text-center text-gray-400`}>

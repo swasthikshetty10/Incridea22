@@ -59,6 +59,7 @@ function Event2() {
                     day={value.day}
                     branch={value.branch}
                     sponsor={value.sponsor}
+                    sponsorLink={value.sponsorLink}
                     round={value.round ? value.round : null}
                     data={value}
                   />
