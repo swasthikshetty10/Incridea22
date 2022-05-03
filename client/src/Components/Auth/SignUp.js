@@ -37,7 +37,7 @@ const SignUp = ({ signIn }) => {
   // });
 
   const clearMsg = () => {
-    successSpan.current.innerHTML = `<p class="font-semibold text-green-600"></p>`;
+    successSpan.current.innerHTML = "";
   };
   const getOTP = async (values) => {
     try {
@@ -81,18 +81,19 @@ const SignUp = ({ signIn }) => {
       // validationSchema={validate}
       onSubmit={async (values) => {
         setLoading(true);
-        if (isNmamit && !values.mail.includes(`@nmamit.in`)) {
-          values.mail = `${values.mail}@nmamit.in`;
+        let reqVals = {...values}
+        if (isNmamit && !reqVals.mail.includes(`@nmamit.in`)) {
+          reqVals.mail = `${values.mail}@nmamit.in`;
         }
         try {
           if (!emailSent) {
-            await getOTP(values);
+            await getOTP(reqVals);
           } else {
-            await validateOTP(values);
+            await validateOTP(reqVals);
           }
         } catch (error) {
           successSpan.current.innerHTML = `<p class="font-semibold text-red-600">${
-            error.response?.data || "Something went wrong!"
+            error.response?.data || "Something went wrong :/"
           }</p>`; //NOTE:
         }
         setLoading(false);
@@ -101,7 +102,10 @@ const SignUp = ({ signIn }) => {
       {(formik) => {
         return (
           <div>
-            <Form>
+            <Form onChange={() => {
+              if(successSpan.current.innerHTML !== "")
+                clearMsg()
+            }}>
               <SignUpContainer signingIn={signIn}>
                 <SignInFormCustom>
                   <Title className="font-title">Register</Title>
@@ -227,7 +231,7 @@ const SignUp = ({ signIn }) => {
                   {
                     <div className="mt-9 ">
                       <h3 className="text-xl text-gray-300 mb-1">
-                        PLEASE NOTE!
+                        PLEASE NOTE
                       </h3>
 
                       <ul className="list-inside list-disc text-gray-400">
