@@ -82,10 +82,10 @@ const SignUp = ({ signIn }) => {
       // validationSchema={validate}
       onSubmit={async (values) => {
         setLoading(true);
+        values.mail = values.mail.toLowerCase().replace(/\s+/g, '') //remove whitespaces
         if (isNmamit && !values.mail.includes(`@nmamit.in`)) {
           values.mail = `${values.mail}@nmamit.in`;
         }
-        values.mail = values.mail.toLowerCase()
         try {
           if (!emailSent) {
             await getOTP(values);
