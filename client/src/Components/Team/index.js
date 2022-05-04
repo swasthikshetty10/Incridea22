@@ -28,7 +28,7 @@ const Team = () => {
             })}
           </div>
         </Fade>
-        <Contact/>
+        {/* <Contact/> */}
       </div>
     </>
   );

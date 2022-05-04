@@ -13,6 +13,7 @@ import "./styles.css";
 import InputField from "./InputField";
 import Payment from "../Payments/Payment";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
+import { MdOutlineNotificationImportant } from "react-icons/md";
 import { colleges } from "../../colleges";
 
 import { useNavigate } from "react-router-dom";
@@ -161,14 +162,14 @@ const SignUp = ({ signIn }) => {
                     </Button>
                   )}
 
-                  <p className="text-white p-2">
+                  <p className="text-white text-sm p-2">
                     Having trouble signing up?
                     <br />{" "}
                     <a
                       href={`tel:8861885124`}
                       className="text-igold transition-colors hover:text-white"
                     >
-                      Call us 24/7
+                      call us 24/7
                     </a>
                   </p>
 
@@ -233,16 +234,18 @@ const SignUp = ({ signIn }) => {
                     />
                   )}
                   {
-                    <div className="mt-9 ">
-                      <h3 className="text-xl text-gray-300 mb-1">
-                        PLEASE NOTE
+                    <div className="mt-5 text-left ">
+                      <h3 className="text-md font-bold text-gray-300 mb-1">
+                      <MdOutlineNotificationImportant className="inline text-igold" /> PLEASE NOTE
                       </h3>
 
-                      <ul className="list-inside list-disc text-gray-400">
-                        {isNmamit && (
-                          <li>You MUST use your college email ID.</li>
-                        )}
+                      <ul className="list-inside list-disc text-sm marker:text-igold text-gray-400">
+                        
+                        <li  >NMAMIT students pay ₹ 150/- and get access to all events including pronites.</li>
+                        <li  >Other Engg. institutes and sister institutes of NMAMIT pay ₹ 250/- and get access to all events including pronites. </li>
+                        <li  >Non-Engg. institutes other than sister institutes of NMAMIT pay ₹ 250/- and get access to all CORE events only. Entry into pronites will only be given upon attending atleast one of the CORE events. </li>
                         <li>We hold no refund policies.</li>
+
                       </ul>
                     </div>
                   }
