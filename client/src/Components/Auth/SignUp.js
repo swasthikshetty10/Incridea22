@@ -83,7 +83,7 @@ const SignUp = ({ signIn }) => {
       // validationSchema={validate}
       onSubmit={async (values) => {
         setLoading(true);
-        values.mail = values.mail.toLowerCase().replace(/\s+/g, '') //remove whitespaces
+        values.mail = values.mail.toLowerCase().replace(/\s+/g, ""); //remove whitespaces
         if (isNmamit && !values.mail.includes(`@nmamit.in`)) {
           values.mail = `${values.mail}@nmamit.in`;
         }
@@ -104,10 +104,11 @@ const SignUp = ({ signIn }) => {
       {(formik) => {
         return (
           <div>
-            <Form onChange={() => {
-              if(successSpan.current.innerHTML !== "")
-                clearMsg()
-            }}>
+            <Form
+              onChange={() => {
+                if (successSpan.current.innerHTML !== "") clearMsg();
+              }}
+            >
               <SignUpContainer signingIn={signIn}>
                 <SignInFormCustom>
                   <Title className="font-title">Register</Title>
@@ -236,16 +237,27 @@ const SignUp = ({ signIn }) => {
                   {
                     <div className="mt-5 text-left ">
                       <h3 className="text-md font-bold text-gray-300 mb-1">
-                      <MdOutlineNotificationImportant className="inline text-igold" /> PLEASE NOTE
+                        <MdOutlineNotificationImportant className="inline text-igold" />{" "}
+                        PLEASE NOTE
                       </h3>
 
                       <ul className="list-inside list-disc text-sm marker:text-igold text-gray-400">
-                        
-                        <li  >NMAMIT students pay ₹ 150/- and get access to all events including pronites.</li>
-                        <li  >Other Engg. institutes and sister institutes of NMAMIT pay ₹ 250/- and get access to all events including pronites. </li>
-                        <li  >Non-Engg. institutes other than sister institutes of NMAMIT pay ₹ 250/- and get access to all CORE events only. Entry into pronites will only be given upon attending atleast one of the CORE events. </li>
+                        <li>
+                          NMAMIT students pay ₹ 150/- and get access to all
+                          events including pronites.
+                        </li>
+                        <li>
+                          Other Engg. institutes and sister institutes of NMAMIT
+                          pay ₹ 250/- and get access to all events including
+                          pronites.{" "}
+                        </li>
+                        <li>
+                          Non-Engg. UG institutes other than sister institutes
+                          of NMAMIT pay ₹ 250/- and get access to all CORE
+                          events only. Entry into pronites will only be given
+                          upon attending atleast one of the CORE events.{" "}
+                        </li>
                         <li>We hold no refund policies.</li>
-
                       </ul>
                     </div>
                   }
