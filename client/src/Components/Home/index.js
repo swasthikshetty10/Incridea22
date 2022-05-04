@@ -57,15 +57,13 @@ function Home() {
                 </a>
                 , Nitte.
               </p>
-              {/* <Link to={user ? "/events" : "/login"}> */}
-              {/* add hover:bg-white/25 and cursor-pointer */}
-                <div className="select-none bg-white border-0 text-white transition ease-in duration-100   text-white bg-opacity-10  px-6 py-2 w-fit font-body  text-center ">
-                  {/* {user === null
+              <Link to={user ? "/events" : "/login"}>
+                <div className="select-none bg-white hover:bg-white/25 cursor-pointer border-0 text-white transition ease-in duration-100   text-white bg-opacity-10  px-6 py-2 w-fit font-body  text-center ">
+                  {user === null
                     ? "Registrations Open Now!"
-                    : `Check Out The Events!`} */}
-                    Registrations are temporarily down, check back soon!
+                    : `Check Out The Events!`}
                 </div>
-              {/* </Link> */}
+              </Link>
             </div>
           </Slide>
           <Slide duration={1000} direction="right">

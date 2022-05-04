@@ -18,7 +18,7 @@ import { auth } from '../../firebaseConfig'
 import Loader from '../Gallery2/components/Loader';
 
 function Register() {
-    const { email } = useParams();
+    const email = useParams().email?.toLowerCase();
     const [loading, setLoading] = useState(true);
     const [req, setReq] = useState(false);
 

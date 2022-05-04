@@ -35,7 +35,7 @@ const SignIn = ({ signIn }) => {
 			onSubmit={async (values) => {
 				setLoading(true)
 				try {
-					const res = await loginUser(values.mail, values.password)
+					const res = await loginUser(values.mail.toLowerCase(), values.password)
 					if (res === null) {
 						successSpan.current.innerHTML = `<p class="font-semibold text-red-500">Invalid Email or Password</p>`
 					}

@@ -13,7 +13,7 @@ function Payment(props) {
 		setLoading(true)
 		try {
 			const response = await axios.post('https://peaceful-river-11730.herokuapp.com/payments/createOrder', {
-				email: props.email
+				email: props.email.toLowerCase()
 			})
 			const { data } = response
 			const options = {
@@ -26,14 +26,14 @@ function Payment(props) {
 				"order_id": data.id,
 				"handler": function (response) {
 					if (response.razorpay_payment_id, response.razorpay_order_id, response.razorpay_signature) {
-						navigate(`/register/${props.email}`)
+						navigate(`/register/${props.email.toLowerCase()}`)
 					}
 					else {
 						throw new Error('Payment Failed')
 					}
 				},
 				"prefill": {
-					"email": `${props.email}`,
+					"email": `${props.email.toLowerCase()}`,
 				},
 				"theme": {
 					"color": "#9d7643"
