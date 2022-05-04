@@ -391,3 +391,22 @@ nav a {
     width: 100%;
   }
 }
+
+
+/* Custom Scrollbar */
+
+@media screen and (min-width: 768px) {  
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #252525;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #FFF;
+    background-image:-webkit-linear-gradient(top,hsl(34, 40%, 50%),hsl(34, 40%, 25%))
+  }
+}

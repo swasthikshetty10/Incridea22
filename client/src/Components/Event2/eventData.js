@@ -168,8 +168,8 @@ export const eventData = [
     venue: "Infront of NC Block, Survey Lab",
     branch: "CORE",
     image: "/events/CORE/robowars.png",
-    sponsor: "QuadX Drones",
-    sponsorLink: "www.quadxdrones.com",
+    sponsor: "Quad X Drones",
+    sponsorLink: "https://www.quadxdrones.com",
     smallDesc:
       "Are you passionate about Bots? Or you just like to watch things get crushed? ",
     fullDesc:
@@ -511,7 +511,7 @@ export const eventData = [
     branch: "CORE",
     image: "/events/CORE/AutoExpo.png",
     sponsor: "Yamuna Asha City",
-    sponsorLink: "yamunaashacity.com/",
+    sponsorLink: "https://www.yamunaashacity.com",
 
     smallDesc:
       "Incridea with Yamuna Asha City proudly brings to you Auto Expo 2022: A showcase of the country's most exclusive automobiles. This May 15th we have the biggest line up of automobiles ranging from luxury cars to sports vehicles and much, much more. So all the petrol heads in the house, it's time to get turbocharged because what you're going to witness in this year's Auto Expo, is just out of the world!",
@@ -535,7 +535,7 @@ export const eventData = [
     branch: "CORE",
     image: "/events/CORE/BoB.jpg",
     sponsor: "Beardo",
-    sponsorLink: "www.beardo.in/",
+    sponsorLink: "https://www.beardo.in",
 
     smallDesc:
       "A golden opportunity awaits all the tremendous bands in Karnataka to win the ultimate showdown - BATTLE OF THE BANDS.",

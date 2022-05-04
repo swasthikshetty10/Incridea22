@@ -21,7 +21,6 @@ const SignIn = ({ signIn }) => {
 	const successSpan = useRef()
 	const validate = Yup.object().shape({
 		mail: Yup.string().email().required('Email is required'),
-
 		password: Yup.string()
 			.min(6, 'Password must be at least 6 charaters')
 			.required('Password is required'),
@@ -31,6 +30,8 @@ const SignIn = ({ signIn }) => {
 		<Formik
 			initialValues={initialValues}
 			validationSchema={validate}
+			validateOnBlur={false}
+			validateOnChange={false}
 			onSubmit={async (values) => {
 				setLoading(true)
 				try {
@@ -48,7 +49,11 @@ const SignIn = ({ signIn }) => {
 			{(formik) => {
 				return (
 					<div>
-						<Form>
+						<Form onChange={(e) => {
+							formik.setFieldError(e.target.name, "")
+							if(successSpan.current.innerHTML !== "")
+								successSpan.current.innerHTML = ""
+						}} >
 							<SignInContainer signingIn={signIn}>
 								<SignInFormCustom>
 									<Title className='font-title'>Sign in</Title>
