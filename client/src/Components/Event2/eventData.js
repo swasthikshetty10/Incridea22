@@ -168,7 +168,7 @@ export const eventData = [
     venue: "Infront of NC Block, Survey Lab",
     branch: "CORE",
     image: "/events/CORE/robowars.png",
-    sponsor: "Quad X Drones",
+    sponsor: "QuadX Drones",
     sponsorLink: "www.quadxdrones.com",
     smallDesc:
       "Are you passionate about Bots? Or you just like to watch things get crushed? ",
