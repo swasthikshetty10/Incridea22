@@ -14,6 +14,7 @@ import InputField from "./InputField";
 import Payment from "../Payments/Payment";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { colleges } from "../../colleges";
+
 import { useNavigate } from "react-router-dom";
 const SignUp = ({ signIn }) => {
   const [valid, SetValid] = useState(false);
@@ -53,7 +54,7 @@ const SignUp = ({ signIn }) => {
       setEmailSent(true);
     } catch (error) {
       if (error.response.status === 300) {
-        navigate(`/register/${values.mail}`);
+        navigate(`/register/${values.mail.toLowerCase()}`);
       }
       throw error;
     }
@@ -81,15 +82,15 @@ const SignUp = ({ signIn }) => {
       // validationSchema={validate}
       onSubmit={async (values) => {
         setLoading(true);
-        let reqVals = {...values}
-        if (isNmamit && !reqVals.mail.includes(`@nmamit.in`)) {
-          reqVals.mail = `${values.mail}@nmamit.in`;
+        if (isNmamit && !values.mail.includes(`@nmamit.in`)) {
+          values.mail = `${values.mail}@nmamit.in`;
         }
+        values.mail = values.mail.toLowerCase()
         try {
           if (!emailSent) {
-            await getOTP(reqVals);
+            await getOTP(values);
           } else {
-            await validateOTP(reqVals);
+            await validateOTP(values);
           }
         } catch (error) {
           successSpan.current.innerHTML = `<p class="font-semibold text-red-600">${
@@ -163,7 +164,10 @@ const SignUp = ({ signIn }) => {
                   <p className="text-white p-2">
                     Having trouble signing up?
                     <br />{" "}
-                    <a href={`tel:8861885124`} className="text-igold transition-colors hover:text-white">
+                    <a
+                      href={`tel:8861885124`}
+                      className="text-igold transition-colors hover:text-white"
+                    >
                       Call us 24/7
                     </a>
                   </p>
@@ -221,7 +225,7 @@ const SignUp = ({ signIn }) => {
 
                   {otpVerified && (
                     <Payment
-                      email={formik.values.mail}
+                      email={formik.values.mail.toLowerCase()}
                       successSpan={successSpan}
                       clearMsg={clearMsg}
                       className="mt-1"

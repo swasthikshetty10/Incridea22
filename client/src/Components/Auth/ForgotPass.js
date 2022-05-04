@@ -26,7 +26,7 @@ const ForgotPass = () => {
 			onSubmit={async (values) => {
 				setLoading(true)
 
-				sendPasswordResetEmail(auth, values.mail).then(() => {
+				sendPasswordResetEmail(auth, values.mail.toLowerCase()).then(() => {
 					setLoading(false)
 					setRes({color:'gray-400', text: 'Check your mail to reset the password'})
 
