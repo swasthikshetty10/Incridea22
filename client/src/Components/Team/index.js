@@ -3,7 +3,7 @@ import { persons } from "./data";
 import Navbar from "../Navbar";
 import About from "./About";
 import { Fade } from "react-awesome-reveal";
-
+import Contact from "./Contact";
 
 const Team = () => {
   return (
@@ -28,6 +28,7 @@ const Team = () => {
             })}
           </div>
         </Fade>
+        {/* <Contact/> */}
       </div>
     </>
   );
