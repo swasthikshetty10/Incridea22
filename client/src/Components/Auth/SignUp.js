@@ -82,15 +82,14 @@ const SignUp = ({ signIn }) => {
       // validationSchema={validate}
       onSubmit={async (values) => {
         setLoading(true);
-        let reqVals = {...values}
-        if (isNmamit && !reqVals.mail.includes(`@nmamit.in`)) {
-          reqVals.mail = `${values.mail}@nmamit.in`;
+        if (isNmamit && !values.mail.includes(`@nmamit.in`)) {
+          values.mail = `${values.mail}@nmamit.in`;
         }
         try {
           if (!emailSent) {
-            await getOTP(reqVals);
+            await getOTP(values);
           } else {
-            await validateOTP(reqVals);
+            await validateOTP(values);
           }
         } catch (error) {
           successSpan.current.innerHTML = `<p class="font-semibold text-red-600">${
