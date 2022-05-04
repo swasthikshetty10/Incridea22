@@ -51,12 +51,12 @@ function App() {
             <Route exact path="/team" element={<Team />} />
             <Route exact path="/pronite" element={<Pronite />} />
             <Route exact path="/TechTeam" element={<TechTeam />} />
-            <Route path='/login' element={<LoginForm />} />
-            <Route path='/userinput' element={<UserInput />} />
-            <Route path='/forgot' element={<ForgotPass />} />
-            <Route exact path='/otp' element={<OtpFiled />} />
-            <Route exact path='/register/:email' element={<Register />} />
-            <Route exact path='/profile' element={<Profile />} />
+            {/* <Route path='/login' element={<LoginForm />} /> */}
+            {/* <Route path='/userinput' element={<UserInput />} /> */}
+            {/* <Route path='/forgot' element={<ForgotPass />} /> */}
+            {/* <Route exact path='/otp' element={<OtpFiled />} /> */}
+            {/* <Route exact path='/register/:email' element={<Register />} /> */}
+            {/* <Route exact path='/profile' element={<Profile />} /> */}
             <Route exact path='/privacy' element={<Privacy />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
