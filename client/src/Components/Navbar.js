@@ -10,7 +10,7 @@ function LoginBtn ({ user, tab, isMobile }) {
 
   return (
     <>
-      {/* {!(user && tab === 'profile') ? (
+      {!(user && tab === 'profile') ? (
         <Link
           to={user ? '/profile' : '/login'}
           className={classNames}
@@ -23,7 +23,7 @@ function LoginBtn ({ user, tab, isMobile }) {
         style={{fontFamily: 'Cinzel'}}
           className={classNames}
         />
-      )} */}
+      )}
     </>
   )
 }
