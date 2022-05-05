@@ -158,7 +158,7 @@ const SignUp = ({ signIn }) => {
                           <span className="">Hold on</span>
                         </>
                       ) : (
-                        "Send Verification Email"
+                        "Proceed"
                       )}
                     </Button>
                   )}
