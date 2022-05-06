@@ -35,7 +35,7 @@ const EventsCard = ({
               type="button"
               className="text-white bg-igold  mt-1  font-medium rounded-none text-sm px-5 py-2.5 text-center max-w-fit transition ease-in-out hover:scale-110  hover:-translate-y-1"
             >
-              Go to Website <BsBoxArrowUpRight className="inline mx-2 " />
+              Visit Website <BsBoxArrowUpRight className="inline mx-2 " />
             </button>
           </a>
         </div>
