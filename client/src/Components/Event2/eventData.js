@@ -739,7 +739,7 @@ export const eventData = [
     day: "2",
     Time: "9:00 am",
     venue: "Sadananda ground",
-    branch: "ISE",
+    branch: "CORE",
     image: "/events/IS/DESAFIO.jpeg",
     smallDesc:
       "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? ",
@@ -771,6 +771,11 @@ export const eventData = [
     ],
     contactDetails: [
       {
+        name: "Pavan Aiyappa",
+        phoneNumber: "9611201769",
+        emailID: "pavanaiyappa161139@gmail.com",
+      },
+      {
         name: "Sinan Mohamed",
         phoneNumber: "8792281367 ",
         emailID: "mohdmmedsinanll@gmail.com",
@@ -783,7 +788,7 @@ export const eventData = [
     day: "3",
     Time: "9:00am",
     venue: "Sadananda ground",
-    branch: "ISE",
+    branch: "CORE",
     image: "/events/IS/DESAFIO.jpeg",
     smallDesc:
       "Are you ready to get the best reward for your fitness lifestyle? Do you think you have what it takes to be the ultimate FITNESS FREAK? ",
@@ -815,6 +820,11 @@ export const eventData = [
       "The decision taken by the judges and the organizers is final.",
     ],
     contactDetails: [
+      {
+        name: "Pavan Aiyappa",
+        phoneNumber: "9611201769",
+        emailID: "pavanaiyappa161139@gmail.com",
+      },
       {
         name: "Sinan Mohamed",
         phoneNumber: "8792281367 ",
@@ -4473,7 +4483,7 @@ export const eventData = [
 
   {
     name: "ROBORACE",
-    day: "2",
+    day: "3",
     Time: "9:00 am",
     venue: "Infront of NC Block, Survery Lab",
     branch: "ECE",
