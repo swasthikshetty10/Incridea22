@@ -35,6 +35,7 @@ function Payment(props) {
 				"prefill": {
 					"email": `${props.email.toLowerCase()}`,
 				},
+				"readonly": { 'email': true },
 				"theme": {
 					"color": "#9d7643"
 				}
