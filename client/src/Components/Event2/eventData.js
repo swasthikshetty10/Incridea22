@@ -168,7 +168,7 @@ export const eventData = [
     venue: "Infront of NC Block, Survey Lab",
     branch: "CORE",
     image: "/events/CORE/robowars.png",
-    sponsor: "Quad X Drones",
+    sponsor: "QuadX Drones",
     sponsorLink: "https://www.quadxdrones.com",
     smallDesc:
       "Are you passionate about Bots? Or you just like to watch things get crushed? ",
@@ -927,6 +927,8 @@ export const eventData = [
     venue: "Shambavi, LH 110, LH 112, LH 212",
     branch: "ECE",
     image: "/events/EC/MONEYHEIST.jpg",
+    sponsor:"Rai Hospitality - Madikeri",
+    sponsorLink:"https://raihospitalities.com/",
     smallDesc:
       "If you believe that you are capable of deciphering the given enigma, then here's an event that funds you to get to the bottom of these mysteries! ",
     fullDesc:
@@ -977,6 +979,8 @@ export const eventData = [
     venue: "Swarna EDC",
     branch: "ECE",
     image: "/events/EC/MONEYHEIST.jpg",
+    sponsor:"Rai Hospitality - Madikeri",
+    sponsorLink:"https://raihospitalities.com/",
     smallDesc:
       "If you believe that you are capable of deciphering the given enigma, then here's an event that funds you to get to the bottom of these mysteries! ",
     fullDesc:
@@ -1579,6 +1583,8 @@ export const eventData = [
     venue: "Sambhram",
     branch: "MECH",
     image: "/events/Mech/MelasQuiz.jpg",
+    sponsor:"dlithe",
+    sponsorLink:"https://dlithe.com/",
     smallDesc:
       "Isn't life a collection of weird quizzes with no answers to half  the questions?",
     fullDesc:
@@ -1622,6 +1628,8 @@ export const eventData = [
     venue: "Shambhavi",
     branch: "MECH",
     image: "/events/Mech/MelasQuiz.jpg",
+    sponsor:"dlithe",
+    sponsorLink:"https://dlithe.com/",
     smallDesc:
       "Isn't life a collection of weird quizzes with no answers to half the questions?",
     fullDesc:
@@ -2040,6 +2048,8 @@ export const eventData = [
     Time: "11:00 AM",
     branch: "CSE",
     image: "/events/CS/respawn.jpg",
+    sponsor:"dewdrops dandeli",
+    sponsorLink:"https://dewdropsdandeli.com/",
     smallDesc:
       "Respawn welcomes you to battle it out in the game of your choice!",
     fullDesc:
@@ -2253,6 +2263,8 @@ export const eventData = [
     Time: "9:00 AM",
     branch: "CSE",
     image: "/events/CS/respawn.jpg",
+    sponsor:"dewdrops dandeli",
+    sponsorLink:"https://dewdropsdandeli.com/",
     smallDesc:
       "Respawn welcomes you to battle it out in the game of your choice!",
     fullDesc:
@@ -2466,6 +2478,8 @@ export const eventData = [
     Time: "9:00 AM",
     branch: "CSE",
     image: "/events/CS/respawn.jpg",
+    sponsor:"dewdrops dandeli",
+    sponsorLink:"https://dewdropsdandeli.com/",
     smallDesc:
       "Respawn welcomes you to battle it out in the game of your choice!",
     fullDesc:
@@ -5089,6 +5103,8 @@ export const eventData = [
     venue: "LH 501, 502, 503",
     branch: "ISE",
     image: "/events/IS/WEBBED.jpg",
+    sponsor:"IDP",
+    sponsorLink:"www.idp.com",
     smallDesc:
       "A perfect opportunity for all the Web development enthusiasts !! Do you have an aptitude for designing and coding? ",
     fullDesc:
@@ -5163,6 +5179,8 @@ export const eventData = [
     venue: "LH 01, 02",
     branch: "ISE",
     image: "/events/IS/WEBBED.jpg",
+    sponsor:"IDP",
+    sponsorLink:"www.idp.com",
     smallDesc:
       "A perfect opportunity for all the Web development enthusiasts !! Do you have an aptitude for designing and coding? ",
     fullDesc:
@@ -5236,6 +5254,8 @@ export const eventData = [
     venue: "CSL 05, 06",
     branch: "ISE",
     image: "/events/IS/WEBBED.jpg",
+    sponsor:"IDP",
+    sponsorLink:"www.idp.com",
     smallDesc:
       "A perfect opportunity for all the Web development enthusiasts !! Do you have an aptitude for designing and coding? ",
     fullDesc:

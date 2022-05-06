@@ -7,6 +7,7 @@ const EventsCard = ({
   SponsorTitle,
   SponsorDesc,
   SponsorWebsiteLink,
+  Subtitle,
   rev
 }) => {
   return (
@@ -18,6 +19,9 @@ const EventsCard = ({
         <div className="event__content_wrapper  py-0  mx-auto my-3 sm:py-2 gap-4 px-0 md:px-8">
           <h5 className="event__heading text-3xl font-subheading">
             {SponsorTitle}
+          </h5>
+          <h5 className="text-center  text-md  text-igold font-bold">
+            {Subtitle}
           </h5>
           <p className="event__description text-justify font-body">
             {SponsorDesc}
