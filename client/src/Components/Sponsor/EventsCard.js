@@ -1,6 +1,6 @@
 import React from "react";
 import "./sponsor.css";
-import { BsBoxArrowUpRight } from "react-icons/bs"
+import { BsBoxArrowUpRight } from "react-icons/bs";
 
 const EventsCard = ({
   ImageSrc,
@@ -8,11 +8,15 @@ const EventsCard = ({
   SponsorDesc,
   SponsorWebsiteLink,
   Subtitle,
-  rev
+  rev,
 }) => {
   return (
     <>
-      <div className={`text-center px-3 py-4 md:p-5 h-auto  md:h-[50vh] w-[80vw] m-auto flex flex-col  md:flex-row ${rev ? "flex-col md:flex-row-reverse" : ""} gap-3 justify-center md:justify-evenly items-center text-white py-4 lg:p-8 bg-[#1d1d1d] my-5`}>
+      <div
+        className={`text-center px-3 py-4 md:p-5 h-auto  md:h-[50vh] w-[80vw] m-auto flex flex-col  md:flex-row ${
+          rev ? "flex-col md:flex-row-reverse" : ""
+        } gap-3 justify-center md:justify-evenly items-center text-white py-4 lg:p-8 bg-[#1d1d1d] my-5`}
+      >
         <div className="event__img__wrapper w-full  md:w-[50%] ">
           <img className="event__img  " src={ImageSrc} alt="company logo" />
         </div>
@@ -20,7 +24,7 @@ const EventsCard = ({
           <h5 className="event__heading text-3xl font-subheading">
             {SponsorTitle}
           </h5>
-          <h5 className="text-center  text-md  text-igold font-bold">
+          <h5 className="text-center  text-md  text-igold font-body">
             {Subtitle}
           </h5>
           <p className="event__description text-justify font-body">
@@ -31,7 +35,7 @@ const EventsCard = ({
               type="button"
               className="text-white bg-igold  mt-1  font-medium rounded-none text-sm px-5 py-2.5 text-center max-w-fit transition ease-in-out hover:scale-110  hover:-translate-y-1"
             >
-              Go to Website  <BsBoxArrowUpRight className="inline mx-2 " />
+              Go to Website <BsBoxArrowUpRight className="inline mx-2 " />
             </button>
           </a>
         </div>
