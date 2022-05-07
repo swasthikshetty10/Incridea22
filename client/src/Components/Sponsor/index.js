@@ -7,16 +7,15 @@ import redfm from "../../Images/Sponsor/redfm.png";
 import lifestyle from "../../Images/Sponsor/lifestyle.png";
 import dlithe from "../../Images/Sponsor/dlithe.png";
 import paramvah from "../../Images/Sponsor/paramvah.jpg";
-import Quadx from "../../Images/Sponsor/QuadXdrones.jpg"
-import NrityaShaktii from "../../Images/Sponsor/NrityaShaktii.png"
-import Decathlon from "../../Images/Sponsor/Decathlon-logo.png"
-import Radisson from "../../Images/Sponsor/Radisson.jpg"
-import yamuna from "../../Images/Sponsor/yamuna.png"
-import idp from "../../Images/Sponsor/idp.png"
-import harsha from "../../Images/Sponsor/harsha.png"
-import dew from "../../Images/Sponsor/dew.png"
+import Quadx from "../../Images/Sponsor/QuadXdrones.jpg";
+import NrityaShaktii from "../../Images/Sponsor/NrityaShaktii.png";
+import Decathlon from "../../Images/Sponsor/Decathlon-logo.png";
+import Radisson from "../../Images/Sponsor/Radisson.jpg";
+import yamuna from "../../Images/Sponsor/yamuna.png";
+import idp from "../../Images/Sponsor/idp.png";
+import harsha from "../../Images/Sponsor/harsha.png";
+import dew from "../../Images/Sponsor/dew.png";
 import { Fade } from "react-awesome-reveal";
-
 
 const SponsorDetails = [
   {
@@ -66,8 +65,9 @@ const SponsorDetails = [
   },
   {
     name: "QuadX Drones",
-    subtitle : "Official Event Sponsor for ROBOWARS"
-    description: `Established in 2019, QuadX Drones is India's first and most trusted online store to provide end-to-end drone related services. Whether it be a shoot or a aftersales repair of your bird, QuadX Drones has got it all covered. We offer wide ranges of DJI Drones as well as custom built FPV Kwads to match all your aerial needs. `,
+    subtitle: "Official Event Sponsor for ROBOWARS",
+    description:
+      "Established in 2019, QuadX Drones is India's first and most trusted online store to provide end-to-end drone related services. Whether it be a shoot or a aftersales repair of your bird, QuadX Drones has got it all covered. We offer wide ranges of DJI Drones as well as custom built FPV Kwads to match all your aerial needs. ",
     image: Quadx,
     url: "https://www.quadxdrones.com/",
   },
@@ -96,14 +96,14 @@ const SponsorDetails = [
   },
   {
     name: "Yamuna Asha City",
-    subtitle : "Official Event Sponsor for AUTOEXPO",
+    subtitle: "Official Event Sponsor for AUTOEXPO",
     description: `Yamuna Homes and Design is evolved from micro entity to macro since last 2 decade by providing specialised service in digging tube well and earth moving throughouat Karnataka. Our sister concern Yamuna Drilling Enterprises and Yamuna Earth Movers are the two main pillars created break through specially in digging the earth and moving the earth, former is for water latter is for levelling.`,
     image: yamuna,
     url: "http://www.yamunabuilders.com/",
   },
   {
     name: "IDP",
-    subtitle : "Official Education Partner",
+    subtitle: "Official Education Partner",
     description: `IDP is a global leader in international educational services. We've been in the industry for close to 50 years and know the best practices to help you realise your dream of studying abroad. Our range of services, experienced staff, and foothold in the industry ensures that your international future is bright and rewarding. `,
     image: idp,
     url: "https://www.idp.com/global",
@@ -120,7 +120,6 @@ const SponsorDetails = [
     image: harsha,
     url: "https://www.harshaindia.com/",
   },
-
 ];
 
 const Sponsor = () => {
@@ -139,8 +138,7 @@ const Sponsor = () => {
             Big names backing an extraordinary fest.
           </p>
           <div className="gap-5 ">
-            <Fade duration={1000} delay={100} >
-
+            <Fade duration={1000} delay={100}>
               {SponsorDetails.map((sponorDetail, i) => (
                 <EventsCard
                   key={i}
