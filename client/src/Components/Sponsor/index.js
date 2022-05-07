@@ -15,6 +15,8 @@ import yamuna from "../../Images/Sponsor/yamuna.png";
 import idp from "../../Images/Sponsor/idp.png";
 import harsha from "../../Images/Sponsor/harsha.png";
 import dew from "../../Images/Sponsor/dew.png";
+import beardo from "../../Images/Sponsor/beardo.png";
+import redbull from "../../Images/Sponsor/redbull.png";
 import { Fade } from "react-awesome-reveal";
 
 const SponsorDetails = [
@@ -41,6 +43,22 @@ const SponsorDetails = [
     url: "https://www.paramvah.com/",
   },
   {
+    name: "Beardo",
+    subtitle: "Official Grooming Partner",
+    description:
+      "Beardo's primary focus is to change mens’ grooming game and help them become stylish and sexier than ever. Being a true-blue Beardo at heart, Beardo always brings forth products that men don't merely need but truly deserve.",
+    image: beardo,
+    url: "https://www.beardo.in/",
+  },
+  {
+    name: "Red Bull",
+    subtitle: "Official Beverage Partner",
+    description:
+      "Gives you Wiiings, Vitalizes Body and Mind, Red Bull Energy Drink is appreciated worldwide by top athletes, students, and in highly demanding professions as well as during long drives.",
+    image: redbull,
+    url: "https://www.redbull.com/in-en/energydrink",
+  },
+  {
     name: "Red FM",
     subtitle: "Official Radio Partner",
     description: `RED FM* Network (RED FM + SURYAN FM) through its presence across 64 cities caters to over 40 million listeners. We have been recently rated as India's most admired FM radio station by the ASF. Red FM offers advertisers a number of distinctive opportunities to reach their target audiences using any of our specialized verticals.`,
@@ -56,8 +74,38 @@ const SponsorDetails = [
     url: "https://www.lifestylestores.com/in/en/",
   },
   {
+    name: "Country Inn & Suites by Radisson Manipal",
+    subtitle: "Official Hospitality Partner",
+    description: `Pull off of NH 169A and settle into your spacious room or suite at the Country Inn & Suites by Radisson, Manipal in Udupi. Our hotel's ideal location puts you within walking distance of Manipal University and several of its campuses. Families appreciate being near MIT's beautiful Venugopal Temple and enchanting attractions like End Point gardens and Malpe Beach. Our hotel also offers easy access to NH 66, which links to Goa and Kerala from Manipal - Udupi.`,
+    image: Radisson,
+    url: "https://www.radissonhotels.com/en-us/hotels/country-inn-manipal",
+  },
+  {
+    name: "Decathlon",
+    subtitle: "Official Fitness Partner",
+    description: `Decathlon is a family-owned company, founded in 1976, and inspired by the belief that the best sports products should be accessible to everyone.
+    Ever-evolving and high performance design, the best quality at the lowest possible price, and expert advice that customers of all ages, backgrounds and skill levels can access in-store or online, from anywhere, at any time, is what makes us who we are. And we're pretty proud of that. `,
+    image: Decathlon,
+    url: "https://www.decathlon.in/",
+  },
+  {
+    name: "NRITYA SHAKTI",
+    subtitle: "Official Dance Partner",
+    description: `Nritya Shakti is home to all dancers to explore the best in them no matter what their age and experience is. We believe in providing world class dance education which enables our students to become performers of global standards. We are offering training programs which students can customise as per their interests from 20 different dance styles. We strive to offer a positive environment for dancers to grow and have a great learning experience. `,
+    image: NrityaShaktii,
+    url: "https://www.nrityashakti.com/",
+  },
+
+  {
+    name: "Yamuna Asha City",
+    subtitle: "Official Event Sponsor for AUTOEXPO",
+    description: `Yamuna Homes and Design is evolved from micro entity to macro since last 2 decade by providing specialised service in digging tube well and earth moving throughouat Karnataka. Our sister concern Yamuna Drilling Enterprises and Yamuna Earth Movers are the two main pillars created break through specially in digging the earth and moving the earth, former is for water latter is for levelling.`,
+    image: yamuna,
+    url: "http://www.yamunabuilders.com/",
+  },
+  {
     name: "DLithe",
-    subtitle: "",
+    subtitle: "Official Event Partner for MELAS QUIZ",
     description: `While academics and work provides required knowledge and experience, it is necessary for individuals to bridge gaps in skills. 
       Our vision is to build an agile workforce which is competent in “Domain, Technology and Personality” towards readiness of global industry needs. Upgrade your skill and be competent to work in agile world. Explore your journey with us!`,
     image: dlithe,
@@ -71,45 +119,17 @@ const SponsorDetails = [
     image: Quadx,
     url: "https://www.quadxdrones.com/",
   },
-  {
-    name: "NRITYA SHAKTI",
-    subtitle: "Official Dance Partner",
-    description: `Nritya Shakti is home to all dancers to explore the best in them no matter what their age and experience is. We believe in providing world class dance education which enables our students to become performers of global standards. We are offering training programs which students can customise as per their interests from 20 different dance styles. We strive to offer a positive environment for dancers to grow and have a great learning experience. `,
-    image: NrityaShaktii,
-    url: "https://www.nrityashakti.com/",
-  },
-  {
-    name: "Decathlon",
-    subtitle: "Official Fitness Partner",
-    description: `Decathlon is a family-owned company, founded in 1976, and inspired by the belief that the best sports products should be accessible to everyone.
 
-    Ever-evolving and high performance design, the best quality at the lowest possible price, and expert advice that customers of all ages, backgrounds and skill levels can access in-store or online, from anywhere, at any time, is what makes us who we are. And we're pretty proud of that. `,
-    image: Decathlon,
-    url: "https://www.decathlon.in/",
-  },
-  {
-    name: "Country Inn & Suites by Radisson Manipal",
-    subtitle: "Official Hospitality Partner",
-    description: `Pull off of NH 169A and settle into your spacious room or suite at the Country Inn & Suites by Radisson, Manipal in Udupi. Our hotel's ideal location puts you within walking distance of Manipal University and several of its campuses. Families appreciate being near MIT's beautiful Venugopal Temple and enchanting attractions like End Point gardens and Malpe Beach. Our hotel also offers easy access to NH 66, which links to Goa and Kerala from Manipal - Udupi.`,
-    image: Radisson,
-    url: "https://www.radissonhotels.com/en-us/hotels/country-inn-manipal",
-  },
-  {
-    name: "Yamuna Asha City",
-    subtitle: "Official Event Sponsor for AUTOEXPO",
-    description: `Yamuna Homes and Design is evolved from micro entity to macro since last 2 decade by providing specialised service in digging tube well and earth moving throughouat Karnataka. Our sister concern Yamuna Drilling Enterprises and Yamuna Earth Movers are the two main pillars created break through specially in digging the earth and moving the earth, former is for water latter is for levelling.`,
-    image: yamuna,
-    url: "http://www.yamunabuilders.com/",
-  },
   {
     name: "IDP",
-    subtitle: "Official Education Partner",
+    subtitle: "Official Event Partner for WEBBED",
     description: `IDP is a global leader in international educational services. We've been in the industry for close to 50 years and know the best practices to help you realise your dream of studying abroad. Our range of services, experienced staff, and foothold in the industry ensures that your international future is bright and rewarding. `,
     image: idp,
     url: "https://www.idp.com/global",
   },
   {
     name: "Dew Drops",
+    subtitle: "Official Event Partner for Respawn",
     description: `Dew Drops offer the thrill of your lives into a biodiversity hotspot. Where you can have amphibians, fish birds, mammals, flowering plants, and reptiles as your new companions. Dew Drop offers adventure seekers the experience of a lifetime in a picture-perfect landscape which is set against the powerful Sahyadris. Dandeli is famous for its undulating hillocks, free-flowing Kali river, Acacia forests, and indigenous plantations that spread across more than 2,000 square kilometers. The place is located at an elevation of about 470 meters above sea level. `,
     image: dew,
     url: "https://dewdropsdandeli.com/",
