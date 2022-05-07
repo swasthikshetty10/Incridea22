@@ -55,6 +55,13 @@
   /* other formats include: 'woff2', 'truetype, 'opentype',
                             'embedded-opentype', and 'svg' */
 }
+@font-face {
+  font-family: "CinzelDecorative-Bold";
+  src: local("CinzelDecorative-Bold"),
+    url(./fonts/CinzelDecorative-Bold.ttf) format("truetype");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
 
 .body {
   background: #000;
