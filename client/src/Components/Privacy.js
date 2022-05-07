@@ -1,15 +1,18 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 function Privacy() {
     return (
-        <div className='text-white p-14' >
+        <>
+        <Navbar/>  
 
+        <div className='text-white p-14' >
             <h2 className='text-6xl pb-4 text-center ' >Privacy Notice</h2>
             <p>This privacy notice discloses the privacy practices for https://www.incridea.in and all its subdomains
                 (htttps://registration.incridea.in). This privacy notice applies solely to information collected by this website. It
                 will notify you of the following:<br />
                 1. What personally identifiable information is collected from you through the website, how it is used and with whom
-                it may be shared.<br />
+                     it may be shared.<br />
                 2. What choices are available to you regarding the use of your data.<br />
                 3. The security procedures in place to protect the misuse of your information.<br />
                 4. How you can correct any inaccuracies in the information.<br />
@@ -62,6 +65,8 @@ function Privacy() {
                 7019588527 or via technical.coordinator@incridea.in .</b>
 
         </div>
+        </>
+
     )
 }
 

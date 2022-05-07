@@ -21,7 +21,7 @@ function Footer() {
               Made with ♥ by the Incridea Technical Team
             </Link>
           </p>
-          © Incridea 2022
+          <Link className="text-[#cd9b58] transition-all ease-out delay-75 hover:text-white" to="/privacy" > Privacy policy </Link> |  <Link className="text-[#cd9b58] transition-all ease-out delay-75 hover:text-white" to="/rules" > Rules </Link> | <Link className="text-[#cd9b58] transition-all ease-out delay-75 hover:text-white" to="/" > © Incridea 2022 </Link>
         </div>
         <div className="flex mx-3 gap-4">
           <a
