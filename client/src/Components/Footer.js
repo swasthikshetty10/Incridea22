@@ -2,26 +2,55 @@ import React from "react";
 import { FaInstagram, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import logo from "../Images/logo.png";
-import { useLocation } from 'react-router-dom'
+import { useLocation } from "react-router-dom";
 
 function Footer() {
+  const location = useLocation();
 
-  const location = useLocation()
-
-  return (
-    location.pathname === '/login' ? <></> :   
-     <>
-      <footer className={"p-4 gap-2 z-100 bg-black flex flex-col md:flex-row flex-wrap  justify-center items-center md:justify-between md:p-6"}>
+  return location.pathname === "/login" ? (
+    <></>
+  ) : (
+    <>
+      <footer
+        className={
+          "p-4 gap-2 z-100 bg-black flex flex-col md:flex-row flex-wrap  justify-center items-center md:justify-between md:p-6"
+        }
+      >
         <div>
           <img className="h-12" src={logo} alt="logo" />
         </div>
         <div className="text-sm text-center text-gray-200">
           <p className="mb-1">
-            <Link to="/techteam" className="transition-all ease-out delay-75 text-[#cd9b58] hover:text-white text-base">
-              Made with ♥ by the Incridea Technical Team
+            <Link
+              to="/techteam"
+              className="transition-all ease-out delay-75 text-[#cd9b58] hover:text-white text-base"
+            >
+              Made with ♥ by Technical Team, Incridea
             </Link>
           </p>
-          <Link className="text-[#cd9b58] transition-all ease-out delay-75 hover:text-white" to="/privacy" > Privacy policy </Link> |  <Link className="text-[#cd9b58] transition-all ease-out delay-75 hover:text-white" to="/rules" > Rules </Link> | <Link className="text-[#cd9b58] transition-all ease-out delay-75 hover:text-white" to="/" > © Incridea 2022 </Link>
+          <Link
+            className="text-[#cd9b58] transition-all ease-out delay-75 hover:text-white"
+            to="/privacy"
+          >
+            {" "}
+            Privacy policy{" "}
+          </Link>{" "}
+          |{" "}
+          <Link
+            className="text-[#cd9b58] transition-all ease-out delay-75 hover:text-white"
+            to="/rules"
+          >
+            {" "}
+            Rules{" "}
+          </Link>{" "}
+          |{" "}
+          <Link
+            className="text-[#cd9b58] transition-all ease-out delay-75 hover:text-white"
+            to="/"
+          >
+            {" "}
+            © Incridea 2022{" "}
+          </Link>
         </div>
         <div className="flex mx-3 gap-4">
           <a
