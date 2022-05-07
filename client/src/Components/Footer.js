@@ -41,7 +41,7 @@ function Footer() {
             to="/rules"
           >
             {" "}
-            Rules{" "}
+            Terms & Conditions{" "}
           </Link>{" "}
           |{" "}
           <Link
