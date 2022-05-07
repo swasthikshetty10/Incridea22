@@ -21,6 +21,7 @@ import UserInput from './Components/Auth/UserInput';
 import { AuthProvider } from './Context/AuthContext'
 import Profile from "./Components/Profile"
 import Privacy from "./Components/Privacy";
+import Rules from "./Components/Rules";
 
 
 
@@ -56,6 +57,7 @@ function App() {
             <Route exact path='/register/:email' element={<Register />} />
             <Route exact path='/profile' element={<Profile />} />
             <Route exact path='/privacy' element={<Privacy />} />
+            <Route exact path='/rules' element={<Rules />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
           <Footer />
