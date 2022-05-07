@@ -172,6 +172,7 @@ let restCollges = [
   "Nitte Institute of Communication",
   "Sir M. Visvesvaraya Institute of Technology, Bengaluru",
   "Jawarharlal Nehru National College of Engineering, Shivamogga",
+  "Nitte University Centre for Science Education and Research",
 ].sort();
 
 export let colleges = ["NMAM INSTITUTE OF TECHNOLOGY", ...restCollges];
