@@ -121,6 +121,15 @@ const SponsorDetails = [
   },
 
   {
+    name: "Rao's South Street",
+    subtitle: "Official Event Partner for HOGATHON",
+    description:
+      "Order Food Online from Rao's South Street Lalbagh Lalbagh and see it's menu for Home Delivery in Mangaluru. Fastest delivery | No minimum order",
+    image: "/Sponsor/rao.png",
+    url: "https://www.swiggy.com/restaurants/raos-south-street-lalbagh-mangaluru-505248/",
+  },
+
+  {
     name: "IDP",
     subtitle: "Official Event Partner for WEBBED",
     description: `IDP is a global leader in international educational services. We've been in the industry for close to 50 years and know the best practices to help you realise your dream of studying abroad. Our range of services, experienced staff, and foothold in the industry ensures that your international future is bright and rewarding. `,
@@ -129,7 +138,7 @@ const SponsorDetails = [
   },
   {
     name: "Dew Drops",
-    subtitle: "Official Event Partner for Respawn",
+    subtitle: "Official Event Partner for RESPAWN",
     description: `Dew Drops offer the thrill of your lives into a biodiversity hotspot. Where you can have amphibians, fish birds, mammals, flowering plants, and reptiles as your new companions. Dew Drop offers adventure seekers the experience of a lifetime in a picture-perfect landscape which is set against the powerful Sahyadris. Dandeli is famous for its undulating hillocks, free-flowing Kali river, Acacia forests, and indigenous plantations that spread across more than 2,000 square kilometers. The place is located at an elevation of about 470 meters above sea level. `,
     image: "/Sponsor/dew.png",
     url: "https://dewdropsdandeli.com/",
