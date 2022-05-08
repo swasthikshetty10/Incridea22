@@ -15,13 +15,38 @@ function Footer() {
         <div>
           <img className="h-12" src={logo} alt="logo" />
         </div>
-        <div className="text-sm text-center text-gray-200">
+        <div className="text-sm text-gray-400 text-center">
           <p className="mb-1">
-            <Link to="/techteam" className="transition-all  ease-out delay-75 text-[#cd9b58] hover:text-white text-base">
-              Made with ♥ by the Incridea Technical Team
+            <Link
+              to="/techteam"
+              className="transition-all ease-out delay-75 text-[#cd9b58] hover:tracking-wider text-base"
+            >
+              Made with ♥ by Technical Team, Incridea
             </Link>
           </p>
-          © Incridea 2022
+          <Link
+            className="text-gray-400 transition-all ease-out delay-75 hover:text-gray-100"
+            to="/privacy"
+          >
+            {" "}
+            Privacy policy{" "}
+          </Link>{" "}
+          |{" "}
+          <Link
+            className="text-gray-400 transition-all ease-out delay-75 hover:text-gray-100"
+            to="/rules"
+          >
+            {" "}
+            Terms & Conditions{" "}
+          </Link>{" "}
+          |{" "}
+          <Link
+            className="text-gray-400 transition-all ease-out delay-75 hover:text-gray-100"
+            to="/"
+          >
+            {" "}
+            © Incridea 2022{" "}
+          </Link>
         </div>
         <div className="flex mx-3 gap-4">
           <a

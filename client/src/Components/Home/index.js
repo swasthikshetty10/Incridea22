@@ -122,7 +122,7 @@ function Home() {
       </div>
       <>
         <div
-          style={{ fontFamily: "CinzelDecorative-Bold" }}
+          style={{ fontFamily: "Cinzel" }}
           className=" p-10 bg-opacity-20 backdrop-blur-lg text-white  bg-gray-900 flex flex-col gap-4 md:gap-10 md:flex-row justify-center text-center items-stretch md:items-center"
         >
           <a
