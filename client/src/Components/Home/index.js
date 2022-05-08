@@ -106,8 +106,8 @@ function Home() {
                 The Countdown Has Begun
               </h2>
               <Counter setSecond={secSecond} />
-              <h2 className="p-1 text-md md:text-xl mt-5 text-gray-400  bg-opacity-30 backdrop-blur-lg rounded-md bg-gray-1000">
-                ...and while you're here, check out our{" "}
+              <h2 className="p-1 font-nav text-md md:text-xl mt-5 text-gray-400  bg-opacity-30 backdrop-blur-lg rounded-md bg-gray-1000">
+                ...in the meantime, check out our{" "}
                 <Link
                   to="/events"
                   className="text-[#cd9b58] hover:text-gray-100 transition-colors ease-out "
@@ -122,7 +122,7 @@ function Home() {
       </div>
       <>
         <div
-          style={{ fontFamily: "CinzelDecorative-Bold" }}
+          style={{ fontFamily: "Cinzel" }}
           className=" p-10 bg-opacity-20 backdrop-blur-lg text-white  bg-gray-900 flex flex-col gap-4 md:gap-10 md:flex-row justify-center text-center items-stretch md:items-center"
         >
           <a
