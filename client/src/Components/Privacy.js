@@ -12,10 +12,9 @@ function Privacy() {
         </h5>
         <p>
           This privacy notice discloses the privacy practices for
-          https://www.incridea.in and all its subdomains
-          (htttps://registration.incridea.in). This privacy notice applies
-          solely to information collected by this website. It will notify you of
-          the following:
+          https://www.incridea.in This privacy notice applies solely to
+          information collected by this website. It will notify you of the
+          following:
           <br />
           1. What personally identifiable information is collected from you
           through the website, how it is used and with whom it may be shared.
@@ -103,7 +102,7 @@ function Privacy() {
           any other site that collects personally identifiable information.
         </p>
 
-        <b>
+        <b className="text-igold">
           If you feel that we are not abiding by this privacy policy, you should
           contact us immediately via telephone at +918861885124 or via
           technical.committee.incridea@gmail.com

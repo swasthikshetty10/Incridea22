@@ -57,15 +57,17 @@ function Rules() {
             Proof (Any one) (Aadhaar, Driving license, Voter ID, etc.).
           </li>
         </ul>
-        <p className="pt-10">
+        <p className="pt-10 text-xl text-igold">
+          <b> IMPORTANT </b> <br />
           Any participant found violating the above rules may be immediately
           expelled from the campus. His/her registration from all the events may
           be cancelled and he/she will be penalised appropriately. NMAMIT
           reserves the right to take appropriate legal actions in such cases.
         </p>
+        <h3 className="pt-20 text-3xl font-title">Refund Policy</h3>
         <p className="pt-10 text-xl">
-          We hold no refund policies. Incase of a request, please reach out to
-          the Technical Heads of Incridea
+          Refunds in any particular case can only be initiated upon request.
+          Please reach out to the Technical Heads of Incridea for refunds.
           <li>Bharath M K +918861885124</li>
           <li>Vinay Samantri +917706610521</li>
           <li>Rahul Bhat +918951838121</li>
