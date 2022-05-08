@@ -137,7 +137,9 @@ function Home() {
             Download Rulebook <AiOutlineDownload className="text-2xl" />
           </a>
           <a
-            href={schedule}
+            href={
+              "https://docs.google.com/spreadsheets/d/1Rzo-EXvW5FzXuVyR6JNX3oYrRGVsywGH/edit?usp=sharing&ouid=106154559906458048509&rtpof=true&sd=true"
+            }
             download={"Incridea 22 Schedule.xlsx"}
             target="_blank"
             rel="noreferrer"
