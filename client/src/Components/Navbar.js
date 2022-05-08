@@ -6,7 +6,7 @@ import Logout from './Auth/Logout'
 
 function LoginBtn ({ user, tab, isMobile }) {
 
-  let classNames = `${!isMobile ? 'hidden md:block text-xl' : 'block md:hidden text-sm'} border-2 border-igold p-2 font-bold  hover:bg-gray-50 md:hover:bg-[#8d6633] md:hover:text-white font-nav text-igold`
+  let classNames = `${!isMobile ? 'hidden md:block text-xl' : 'block md:hidden text-sm'} border-2 border-igold p-2 font-bold  hover:bg-gray-50 md:hover:bg-igold md:hover:text-white font-nav text-igold`
 
   return (
     <>
@@ -16,7 +16,7 @@ function LoginBtn ({ user, tab, isMobile }) {
           className={classNames}
           style={{fontFamily: 'Cinzel'}}
         >
-          {user ? 'PROFILE' : 'Login/Register'}
+          {user ? 'PROFILE' : 'LOGIN/REGISTER'}
         </Link>
       ) : (
         <Logout
@@ -54,14 +54,14 @@ function Navbar ({ tab, notsticky }) {
     <>
       <nav
         className={`${!notsticky ? 'sticky' : ''}   top-0 bg-[#000] z-[500] ${
-          offset > 100 ? 'py-2' : 'py-6'
+          offset > 100 ? 'py-2' : 'py-6' 
         } transform ease-linear duration-300 tracking-wider px-1 md:px-4 font-nav  min-w-fit  `}
       >
         <div className='mx-1 md:mx-3 text-center flex flex-wrap justify-between items-center content-center'>
           <Link to='/' className='flex items-center'>
             <img src={logo} className='mx-3 h-9 md:h-16' alt='Incridea Logo' />
           </Link>
-          <div className='flex md:hidden' style={{ fontFamily: 'CinzelDecorative-regular' }}>
+          <div className='flex md:hidden' >
             <LoginBtn user={user} tab={tab} isMobile />
             <button
               data-collapse-toggle='mobile-menu-4'
@@ -103,8 +103,7 @@ function Navbar ({ tab, notsticky }) {
             id='mobile-menu-4'
           >
             <ul
-              style={{ fontFamily: 'CinzelDecorative-Bold' }}
-              className='flex pt-4 items-stretch md:items-center flex-col mt-0 md:flex-row md:space-x-8 md:text-sm  md:font-medium'
+              className='flex pt-4 md:pt-0 items-stretch md:items-center flex-col mt-0 md:flex-row md:space-x-8 md:text-sm  md:font-medium'
             >
               <li>
                 <Link

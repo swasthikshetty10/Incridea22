@@ -7,29 +7,24 @@ import { useLocation } from "react-router-dom";
 function Footer() {
   const location = useLocation();
 
-  return location.pathname === "/login" ? (
-    <></>
-  ) : (
-    <>
-      <footer
-        className={
-          "p-4 gap-2 z-100 bg-black flex flex-col md:flex-row flex-wrap  justify-center items-center md:justify-between md:p-6"
-        }
-      >
+  return (
+    location.pathname === '/login' ? <></> :   
+     <>
+      <footer className={"p-4 font-body gap-2 z-100 bg-black flex flex-col md:flex-row flex-wrap  justify-center items-center md:justify-between md:p-6"}>
         <div>
           <img className="h-12" src={logo} alt="logo" />
         </div>
-        <div className="text-sm text-center text-gray-200">
+        <div className="text-sm text-gray-400 text-center">
           <p className="mb-1">
             <Link
               to="/techteam"
-              className="transition-all ease-out delay-75 text-[#cd9b58] hover:text-white text-base"
+              className="transition-all ease-out delay-75 text-[#cd9b58] hover:tracking-wider text-base"
             >
               Made with ♥ by Technical Team, Incridea
             </Link>
           </p>
           <Link
-            className="text-[#cd9b58] transition-all ease-out delay-75 hover:text-white"
+            className="text-gray-400 transition-all ease-out delay-75 hover:text-gray-100"
             to="/privacy"
           >
             {" "}
@@ -37,7 +32,7 @@ function Footer() {
           </Link>{" "}
           |{" "}
           <Link
-            className="text-[#cd9b58] transition-all ease-out delay-75 hover:text-white"
+            className="text-gray-400 transition-all ease-out delay-75 hover:text-gray-100"
             to="/rules"
           >
             {" "}
@@ -45,7 +40,7 @@ function Footer() {
           </Link>{" "}
           |{" "}
           <Link
-            className="text-[#cd9b58] transition-all ease-out delay-75 hover:text-white"
+            className="text-gray-400 transition-all ease-out delay-75 hover:text-gray-100"
             to="/"
           >
             {" "}
