@@ -2,11 +2,10 @@ import React from "react";
 import { FaInstagram, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import logo from "../Images/logo.png";
-import { useLocation } from 'react-router-dom'
+import { useLocation } from "react-router-dom";
 
 function Footer() {
-
-  const location = useLocation()
+  const location = useLocation();
 
   return (
     location.pathname === '/login' ? <></> :   
