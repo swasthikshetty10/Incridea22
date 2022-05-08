@@ -65,7 +65,7 @@ function Details({user}) {
 
                 </div>
 
-                <div className="flex justify-center pb-10 gap-x-5 ">
+                <div className="font-body flex justify-center pb-10 gap-x-5 ">
                 <a href={"https://drive.google.com/file/d/1LE77p-mbwct-fWMzIKQuIzg2_6jF4NZh/view?usp=sharing"} download={'Incridea 22 Rulebook.pdf'} target="_blank" rel="noreferrer" className=" text-lg  font-semibold  text-igold transition ease-in-out transition-duration-100  bg-[#000000] hover:bg-igold backdrop-grayscale hover:text-white border-igold border-2   rounded-none  px-3 py-2.5 text-center w-fit  my-2">
             Rulebook <BsCloudDownload className='inline ml-3' />
           </a>

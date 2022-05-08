@@ -16,8 +16,6 @@ import { useLocation } from "react-router";
 import Loader from "./Components/Gallery2/components/Loader";
 import LoginForm from "./Components/Auth/LoginForm"
 import ForgotPass from './Components/Auth/ForgotPass';
-import OtpFiled from './Components/Auth/OtpFiled';
-import UserInput from './Components/Auth/UserInput';
 import { AuthProvider } from './Context/AuthContext'
 import Profile from "./Components/Profile"
 import Privacy from "./Components/Privacy";
