@@ -105,8 +105,8 @@ function Privacy() {
 
         <b>
           If you feel that we are not abiding by this privacy policy, you should
-          contact us immediately via telephone at +91 7019588527 or via
-          technical.coordinator@incridea.in .
+          contact us immediately via telephone at +918861885124 or via
+          technical.committee.incridea@gmail.com
         </b>
       </div>
     </>

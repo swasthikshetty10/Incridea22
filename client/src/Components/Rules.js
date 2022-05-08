@@ -63,9 +63,12 @@ function Rules() {
           be cancelled and he/she will be penalised appropriately. NMAMIT
           reserves the right to take appropriate legal actions in such cases.
         </p>
-        <p className="pt-10">
+        <p className="pt-10 text-xl">
           We hold no refund policies. Incase of a request, please reach out to
-          the Technical Team of Incridea.
+          the Technical Heads of Incridea
+          <li>Bharath M K +918861885124</li>
+          <li>Vinay Samantri +917706610521</li>
+          <li>Rahul Bhat +918951838121</li>
         </p>
       </div>
     </>
