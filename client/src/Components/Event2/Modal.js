@@ -11,13 +11,14 @@ import { Zoom } from "react-awesome-reveal"
 function Modal({ data, img, closeModal }) {
 
     return (
-        <Zoom as="div" duration={500} className='flex flex-col h-screen justify-center items-center fixed top-0 right-0 left-0 z-[999] w-full'>
-            <div id="extralarge-modal" tabindex="-1" className=" overflow-y-hidden  md:inset-0  flex items-center justify-center justify-items-center overflow-x-hidden  ">
-                <div className="relative p-4 w-full max-w-7xl h-full md:h-auto backdrop-lg rounded-lg shadow-lg  border-0  " >
+        <div onClick={() => closeModal(false)} className='bg-black bg-opacity-50 h-[100vh] fixed top-0 right-0 left-0 z-[999] w-full'>
+            <Zoom as="div" duration={400} className='flex flex-col h-[100vh] justify-center items-center fixed top-0 right-0 left-0 z-[999] w-full'>
+            <div onClick={(e) => e.stopPropagation()} id="extralarge-modal" tabindex="-1" className=" overflow-y-hidden  md:inset-0  flex items-center justify-center justify-items-center overflow-x-hidden  ">
+                <div className="relative p-4 w-full max-w-7xl h-full md:h-auto backdrop-lg  shadow-lg  border-0  " >
                     {/* <!-- Modal content --> */}
-                    <div className="relative bg-blend-color rounded-lg shadow  bg-clip-padding backdrop-blur  bg-opacity-90 bg-gradient-to-r from-[#232526] to-[#414345] ">
+                    <div className="relative bg-blend-color  shadow  bg-clip-padding backdrop-blur  bg-opacity-90 bg-gradient-to-r from-[#232526] to-[#414345] ">
                         {/* <!-- Modal header --> */}
-                        <div className="flex flex-wrap justify-between items-center p-3 md:p-4  rounded-t border-b dark:border-gray-600">
+                        <div className="flex flex-wrap justify-between items-center p-3 md:p-4   border-b dark:border-gray-600">
                             <div className=''>
                                 <h3 className="text-3xl font-bold  text-gray-100 "  >
                                     {data.name}
@@ -268,6 +269,7 @@ function Modal({ data, img, closeModal }) {
                 </div>
             </div>
         </Zoom>
+        </div>
     )
 }
 
