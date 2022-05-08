@@ -2,7 +2,7 @@ export const eventData = [
   {
     name: "COUTURE",
     day: "2",
-    Time: "4:00 pm",
+    Time: "6:30 pm",
     venue: "SADANANDA",
     branch: "CORE",
     image: "/events/CORE/Couture.png",
@@ -36,14 +36,14 @@ export const eventData = [
 
     contactDetails: [
       {
-        name: "Sayyaf Ahamed",
-        phoneNumber: "+919880948808",
-        emailID: "sayyafahamed9@gmail.com",
+        name: "Sushaan K Attavar",
+        phoneNumber: "+919886383777",
+        emailID: "sushattavar@gmail.com",
       },
       {
-        name: "Sinchana J Suvarna",
-        phoneNumber: "+918762866341",
-        emailID: "suvarnasinchana12@gmail.com",
+        name: "Madhur Shetty",
+        phoneNumber: "+917411287940",
+        emailID: "sushattavar@gmail.com",
       },
       {
         name: "Ananya Bhat",
@@ -496,7 +496,7 @@ export const eventData = [
         emailID: "riwazacker@gmail.com",
       },
       {
-        name: "Manas M Roi",
+        name: "Manas M Rai",
         phoneNumber: "+917975310793",
         emailID: "manasrai9611@gmail.com",
       },
@@ -529,8 +529,8 @@ export const eventData = [
 
   {
     name: "BATTLE OF BANDS",
-    day: "3",
-    Time: "5.30pm",
+    day: "2",
+    Time: "3.30pm",
     venue: "SADANANDA",
     branch: "CORE",
     image: "/events/CORE/BoB.jpg",
@@ -937,8 +937,8 @@ export const eventData = [
     venue: "Shambavi, LH 110, LH 112, LH 212",
     branch: "ECE",
     image: "/events/EC/MONEYHEIST.jpg",
-    sponsor:"Rai Hospitality - Madikeri",
-    sponsorLink:"https://raihospitalities.com/",
+    sponsor: "Rai Hospitality - Madikeri",
+    sponsorLink: "https://raihospitalities.com/",
     smallDesc:
       "If you believe that you are capable of deciphering the given enigma, then here's an event that funds you to get to the bottom of these mysteries! ",
     fullDesc:
@@ -989,8 +989,8 @@ export const eventData = [
     venue: "Swarna EDC",
     branch: "ECE",
     image: "/events/EC/MONEYHEIST.jpg",
-    sponsor:"Rai Hospitality - Madikeri",
-    sponsorLink:"https://raihospitalities.com/",
+    sponsor: "Rai Hospitality - Madikeri",
+    sponsorLink: "https://raihospitalities.com/",
     smallDesc:
       "If you believe that you are capable of deciphering the given enigma, then here's an event that funds you to get to the bottom of these mysteries! ",
     fullDesc:
@@ -1593,8 +1593,8 @@ export const eventData = [
     venue: "Sambhram",
     branch: "MECH",
     image: "/events/Mech/MelasQuiz.jpg",
-    sponsor:"dlithe",
-    sponsorLink:"https://dlithe.com/",
+    sponsor: "dlithe",
+    sponsorLink: "https://dlithe.com/",
     smallDesc:
       "Isn't life a collection of weird quizzes with no answers to half  the questions?",
     fullDesc:
@@ -1638,8 +1638,8 @@ export const eventData = [
     venue: "Shambhavi",
     branch: "MECH",
     image: "/events/Mech/MelasQuiz.jpg",
-    sponsor:"dlithe",
-    sponsorLink:"https://dlithe.com/",
+    sponsor: "dlithe",
+    sponsorLink: "https://dlithe.com/",
     smallDesc:
       "Isn't life a collection of weird quizzes with no answers to half the questions?",
     fullDesc:
@@ -1790,7 +1790,7 @@ export const eventData = [
   {
     name: "PAINT AND PIXEL",
     Time: "11:00 am",
-    venue: "LH 006",
+    venue: "LH 004",
     branch: "ISE",
     image: "/events/IS/paintandpixel.jpg",
     smallDesc:
@@ -2058,8 +2058,8 @@ export const eventData = [
     Time: "11:00 AM",
     branch: "CSE",
     image: "/events/CS/respawn.jpg",
-    sponsor:"dewdrops dandeli",
-    sponsorLink:"https://dewdropsdandeli.com/",
+    sponsor: "dewdrops dandeli",
+    sponsorLink: "https://dewdropsdandeli.com/",
     smallDesc:
       "Respawn welcomes you to battle it out in the game of your choice!",
     fullDesc:
@@ -2273,8 +2273,8 @@ export const eventData = [
     Time: "9:00 AM",
     branch: "CSE",
     image: "/events/CS/respawn.jpg",
-    sponsor:"dewdrops dandeli",
-    sponsorLink:"https://dewdropsdandeli.com/",
+    sponsor: "dewdrops dandeli",
+    sponsorLink: "https://dewdropsdandeli.com/",
     smallDesc:
       "Respawn welcomes you to battle it out in the game of your choice!",
     fullDesc:
@@ -2488,8 +2488,8 @@ export const eventData = [
     Time: "9:00 AM",
     branch: "CSE",
     image: "/events/CS/respawn.jpg",
-    sponsor:"dewdrops dandeli",
-    sponsorLink:"https://dewdropsdandeli.com/",
+    sponsor: "dewdrops dandeli",
+    sponsorLink: "https://dewdropsdandeli.com/",
     smallDesc:
       "Respawn welcomes you to battle it out in the game of your choice!",
     fullDesc:
@@ -2971,8 +2971,8 @@ export const eventData = [
     name: "ROADIES",
     round: "3.2",
     day: "3",
-    Time: "10:00 am",
-    venue: "IN FRONT OF NC BLOCK",
+    Time: "1:00 pm",
+    venue: "Sadananda Ground",
     branch: "ISE",
     image: "/events/IS/Roadies.jpg",
     smallDesc:
@@ -3001,10 +3001,6 @@ export const eventData = [
       "No usage of cell phones or any other electronic devices until told otherwise.",
       "The decision taken by the judges and the organizers is final.",
     ],
-
-    // "judgingCriteria": [
-    //     "Time based and perfection of the song will be noted to awarded with a score of 10 points each."
-    // ],
 
     contactDetails: [
       {
@@ -5113,8 +5109,8 @@ export const eventData = [
     venue: "LH 501, 502, 503",
     branch: "ISE",
     image: "/events/IS/WEBBED.jpg",
-    sponsor:"IDP",
-    sponsorLink:"www.idp.com",
+    sponsor: "IDP",
+    sponsorLink: "www.idp.com",
     smallDesc:
       "A perfect opportunity for all the Web development enthusiasts !! Do you have an aptitude for designing and coding? ",
     fullDesc:
@@ -5189,8 +5185,8 @@ export const eventData = [
     venue: "LH 01, 02",
     branch: "ISE",
     image: "/events/IS/WEBBED.jpg",
-    sponsor:"IDP",
-    sponsorLink:"www.idp.com",
+    sponsor: "IDP",
+    sponsorLink: "www.idp.com",
     smallDesc:
       "A perfect opportunity for all the Web development enthusiasts !! Do you have an aptitude for designing and coding? ",
     fullDesc:
@@ -5264,8 +5260,8 @@ export const eventData = [
     venue: "CSL 05, 06",
     branch: "ISE",
     image: "/events/IS/WEBBED.jpg",
-    sponsor:"IDP",
-    sponsorLink:"www.idp.com",
+    sponsor: "IDP",
+    sponsorLink: "www.idp.com",
     smallDesc:
       "A perfect opportunity for all the Web development enthusiasts !! Do you have an aptitude for designing and coding? ",
     fullDesc:
