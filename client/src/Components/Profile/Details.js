@@ -31,8 +31,8 @@ function Details({user}) {
 
     return (
         <>
-            <div className="flex overflow-hidden  flex-col justify-center  py-8 bg-gray-900/30 ">
-                <div className="flex flex-col-reverse items-center justify-evenly min-h-[55vh] px-4 py-8 md:flex-row  w-[95vw] md:w-[80vw] m-auto ">
+            <div className="flex grow overflow-hidden  flex-col justify-center  py-8 bg-gray-900/30 ">
+                <div className="flex flex-col-reverse items-center justify-evenly px-4 md:flex-row  w-[95vw] md:w-[90vw] m-auto ">
 
                     {src ? <>
                         <div className=" text-white font-body flex flex-col  justify-between text-left px-2 py-4 leading-normal">
@@ -41,7 +41,7 @@ function Details({user}) {
                                 <p>{participant.collegeName}</p>
                             </div>
                             <div className='space-y-2 text-center pb-3' >
-                                <div className='text-xl border-2 rounded-none p-2 font-bold border-igold text-igold text-center my-3' >PID : {participant.pId}</div>
+                                <div className='text-xl border-2 p-2 font-bold border-igold text-igold text-center my-3' >PID : {participant.pId}</div>
                                 <div className='text-2xl font-bold ' > Participant Info: </div>
                                 <div className='text-md ' > <HiOutlineMail className='inline mx-0 ' /> {participant.email}</div>
                                 <div className='text-lg' > <HiUser className='inline mx-1' /> {participant.usn?.toUpperCase()}     </div>
@@ -57,7 +57,7 @@ function Details({user}) {
                             <h3 className='text-center text-2xl ' >{participant.pId}</h3>
                         </div>
                     </> :
-                    <div >
+                    <div className="flex  ">
                     <GiShipWheel className="text-center text-8xl text-igold animate-spin-slow" />
                 </div>
                     }
@@ -65,7 +65,7 @@ function Details({user}) {
 
                 </div>
 
-                <div className="font-body flex justify-center pb-10 gap-x-5 ">
+                <div className="font-body flex justify-center gap-x-5 ">
                 <a href={"https://drive.google.com/file/d/1LE77p-mbwct-fWMzIKQuIzg2_6jF4NZh/view?usp=sharing"} download={'Incridea 22 Rulebook.pdf'} target="_blank" rel="noreferrer" className=" text-lg  font-semibold  text-igold transition ease-in-out transition-duration-100  bg-[#000000] hover:bg-igold backdrop-grayscale hover:text-white border-igold border-2   rounded-none  px-3 py-2.5 text-center w-fit  my-2">
             Rulebook <BsCloudDownload className='inline ml-3' />
           </a>

@@ -1,12 +1,15 @@
+import { signOut } from 'firebase/auth'
 import React, { useState, useEffect, useContext } from 'react'
 import { Link } from 'react-router-dom'
 import { AuthContext } from '../Context/AuthContext'
+import { auth } from '../firebaseConfig'
 import logo from '../Images/logo.png'
 import Logout from './Auth/Logout'
+import LogoutModal from './Auth/LogoutModal'
 
-function LoginBtn ({ user, tab, isMobile }) {
+function LoginBtn ({ user, tab, isMobile, setSignoutModalOpen }) {
 
-  let classNames = `${!isMobile ? 'hidden md:block text-xl' : 'block md:hidden text-sm'} border-2 border-igold p-2 font-bold  hover:bg-gray-50 md:hover:bg-igold md:hover:text-white font-nav text-igold`
+  let classNames = `${!isMobile ? 'hidden md:block text-xl' : 'block md:hidden text-sm'} border-2 border-igold p-2 font-bold  md:hover:bg-igold md:hover:text-white font-nav text-igold`
 
   return (
     <>
@@ -20,8 +23,9 @@ function LoginBtn ({ user, tab, isMobile }) {
         </Link>
       ) : (
         <Logout
-        style={{fontFamily: 'Cinzel'}}
+          style={{fontFamily: 'Cinzel'}}
           className={classNames}
+          onClick={() => setSignoutModalOpen(true)}
         />
       )}
     </>
@@ -31,6 +35,8 @@ function LoginBtn ({ user, tab, isMobile }) {
 function Navbar ({ tab, notsticky }) {
   const [click, setClick] = useState(false)
   const [offset, setOffset] = useState(0)
+  const [signoutModalOpen, setSignoutModalOpen] = useState(false)
+
   useEffect(() => {
     const scrollFn = () => {
       setOffset(window.pageYOffset)
@@ -62,7 +68,7 @@ function Navbar ({ tab, notsticky }) {
             <img src={logo} className='mx-3 h-9 md:h-16' alt='Incridea Logo' />
           </Link>
           <div className='flex md:hidden' >
-            <LoginBtn user={user} tab={tab} isMobile />
+            <LoginBtn setSignoutModalOpen={setSignoutModalOpen} user={user} tab={tab} isMobile />
             <button
               data-collapse-toggle='mobile-menu-4'
               type='button'
@@ -108,7 +114,7 @@ function Navbar ({ tab, notsticky }) {
               <li>
                 <Link
                   to='/'
-                  className={`block py-2 pr-4 pl-3 bg-transparent active:text-white focus:text-white border-none  text-xl  font-nav font-bold md:hover:bg-transparent md:border-0 md:hover:text-igold md:p-0 ${
+                  className={`block py-2 pr-4 pl-3 bg-transparent active:text-white focus:text-white border-none  text-xl  font-nav font-bold md:border-0 hover:text-igold md:p-0 ${
                     tab === 'home' ? 'text-igold' : 'text-[#EDEDED]'
                   } `}
                   aria-current='page'
@@ -119,7 +125,7 @@ function Navbar ({ tab, notsticky }) {
               <li>
                 <Link
                   to='/events'
-                  className={`block py-2 pr-4 pl-3 bg-transparent border-none text-xl font-nav  font-bold  md:hover:bg-transparent md:border-0 md:hover:text-igold md:p-0 ${
+                  className={`block py-2 pr-4 pl-3 bg-transparent border-none text-xl font-nav  font-bold  md:border-0 hover:text-igold md:p-0 ${
                     tab === 'events' ? 'text-igold' : 'text-[#EDEDED]'
                   } `}
                 >
@@ -129,7 +135,7 @@ function Navbar ({ tab, notsticky }) {
               <li>
                 <Link
                   to='/pronite'
-                  className={`block py-2 pr-4 pl-3 bg-transparent  text-xl font-nav font-bold  md:hover:bg-transparent md:border-0 md:hover:text-igold md:p-0 ${
+                  className={`block py-2 pr-4 pl-3 bg-transparent  text-xl font-nav font-bold  md:border-0 hover:text-igold md:p-0 ${
                     tab === 'pronite' ? 'text-igold' : 'text-[#EDEDED]'
                   } `}
                 >
@@ -139,7 +145,7 @@ function Navbar ({ tab, notsticky }) {
               <li>
                 <Link
                   to='/gallery'
-                  className={`block py-2 pr-4 pl-3 bg-transparent  text-xl font-nav font-bold  md:hover:bg-transparent md:border-0 md:hover:text-igold md:p-0 ${
+                  className={`block py-2 pr-4 pl-3 bg-transparent  text-xl font-nav font-bold  md:border-0 hover:text-igold md:p-0 ${
                     tab === 'gallery' ? 'text-igold' : 'text-[#EDEDED]'
                   } `}
                 >
@@ -150,7 +156,7 @@ function Navbar ({ tab, notsticky }) {
               <li>
                 <Link
                   to='/sponsors'
-                  className={`block py-2 pr-4 pl-3 bg-transparent  text-xl  font-nav font-bold md:hover:bg-transparent md:border-0 md:hover:text-igold md:p-0 ${
+                  className={`block py-2 pr-4 pl-3 bg-transparent  text-xl  font-nav font-bold md:border-0 hover:text-igold md:p-0 ${
                     tab === 'sponsors' ? 'text-igold' : 'text-[#EDEDED]'
                   } `}
                 >
@@ -161,7 +167,7 @@ function Navbar ({ tab, notsticky }) {
               <li>
                 <Link
                   to='/team'
-                  className={`block py-2 pr-4 pl-3 bg-transparent text-xl font-nav font-bold  md:hover:bg-transparent md:border-0 md:hover:text-igold md:p-0 ${
+                  className={`block py-2 pr-4 pl-3 bg-transparent text-xl font-nav font-bold  md:border-0 hover:text-igold md:p-0 ${
                     tab === 'team' ? 'text-igold' : 'text-[#EDEDED]'
                   } `}
                 >
@@ -169,12 +175,13 @@ function Navbar ({ tab, notsticky }) {
                 </Link>
               </li>
               <li>
-                <LoginBtn user={user} tab={tab} />
+                <LoginBtn setSignoutModalOpen={setSignoutModalOpen} user={user} tab={tab} />
               </li>
             </ul>
           </div>
         </div>
       </nav>
+      {signoutModalOpen && <LogoutModal closeModal={() => setSignoutModalOpen(false)} signOut={() => signOut(auth)} />}
     </>
   )
 }
