@@ -167,7 +167,7 @@ const SignUp = ({ signIn }) => {
                     Having trouble signing up?
                     <br />{" "}
                     <a
-                      href={`tel:8861885124`}
+                      href={`tel:9620788383`}
                       className="text-igold transition-colors hover:text-white"
                     >
                       call us 24/7
