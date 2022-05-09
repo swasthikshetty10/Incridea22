@@ -5254,7 +5254,7 @@ export const eventData = [
   },
   {
     name: "WEBBED",
-    round: "3 & 4",
+    round: "3",
     day: "3",
     Time: "2 pm",
     venue: "CSL 05, 06",
