@@ -16,10 +16,10 @@ function Profile() {
     }}, [user]);
 
   return (
-    <div className="overflow-x-hidden" >
+    <div className="overflow-x-hidden grow flex flex-col " >
       <Navbar tab="profile" />
-      <div className="text-lg mb-0 lg:w-screen w-[100vw] bg-[#000] flex flex-col items-center justify-center">
-      <Details user={user}/>
+      <div className="text-lg mb-0 lg:w-screen grow w-[100vw] bg-[#000] flex flex-col items-center justify-center">
+        <Details user={user}/>
       </div>
     </div>
   );

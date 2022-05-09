@@ -44,7 +44,7 @@ function Footer() {
             to="/"
           >
             {" "}
-            © Incridea 2022{" "}
+            ©&nbsp;Incridea&nbsp;2022{" "}
           </Link>
         </div>
         <div className="flex mx-3 gap-4">

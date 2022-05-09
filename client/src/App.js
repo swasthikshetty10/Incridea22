@@ -40,7 +40,7 @@ function App() {
   }, []);
   return (loading ? <Loader animate={true} /> : (
     <AuthProvider>
-      <div className="App">
+      <div className="App flex justify-between flex-col min-h-[100vh]">
         <ScrollToTop>
           <Routes>
             <Route exact index path="/" element={<Home />} />

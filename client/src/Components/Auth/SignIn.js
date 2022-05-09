@@ -57,7 +57,7 @@ const SignIn = ({ signIn }) => {
 							<SignInContainer signingIn={signIn}>
 								<SignInFormCustom>
 									<Title className='font-title'>Sign in</Title>
-									<InputField name='mail' type='mail' placeholder='Email' />
+									<InputField name='mail' type='email' placeholder='Email' />
 									<InputField
 										name='password'
 										type='password'

@@ -106,7 +106,7 @@ function Home() {
                 The Countdown Has Begun
               </h2>
               <Counter setSecond={secSecond} />
-              <h2 className="p-1 text-md md:text-xl mt-5 text-gray-400  bg-opacity-30 backdrop-blur-lg rounded-md bg-gray-1000">
+              <h2 style={{fontFamily: 'Cinzel'}} className="p-1 text-md md:text-xl mt-5 text-gray-400  bg-opacity-30 backdrop-blur-lg rounded-md bg-gray-1000">
                 ...in the meantime, check out our{" "}
                 <Link
                   to="/events"
