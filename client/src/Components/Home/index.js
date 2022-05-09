@@ -101,22 +101,7 @@ function Home() {
             className="flex mt-[4rem] justify-center text-center items-center py-5"
             style={{ fontFamily: "CinzelDecorative-Bold" }}
           >
-            <div className=" flex flex-col items-center justify-center pt-20 -mt-36 md:m-0 ">
-              <h2 className="inline-flex gap-3 text-3xl sm:text-4xl lg:text-5xl m-3 text-igold p-2 sm:p-3 lg:p-4 bg-opacity-30 backdrop-blur-lg tracking-wide rounded-md bg-gray-1000 font-light">
-                The Countdown Has Begun
-              </h2>
               <Counter setSecond={secSecond} />
-              <h2 style={{fontFamily: 'Cinzel'}} className="p-1 text-md md:text-xl mt-5 text-gray-400  bg-opacity-30 backdrop-blur-lg rounded-md bg-gray-1000">
-                ...in the meantime, check out our{" "}
-                <Link
-                  to="/events"
-                  className="text-[#cd9b58] hover:text-gray-100 transition-colors ease-out "
-                >
-                  events
-                </Link>
-                !
-              </h2>
-            </div>
           </div>
         </Slide>
       </div>
