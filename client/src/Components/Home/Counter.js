@@ -1,6 +1,7 @@
 import React from 'react';
 import DateTimeDisplay from './DateTimeDisplay';
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 
 const useCountdown = (targetDate) => {
@@ -33,8 +34,9 @@ const getReturnValues = (countDown) => {
 
 const ExpiredNotice = () => {
   return (
-    <div>
-      <span>Incridea is Live!!!</span>
+    <div className='text-5xl text-igold'>
+      <span>Incridea is Live!</span>
+      <p style={{fontFamily:'Cinzel'}}className='mt-3 text-3xl text-gray-400'>#HigherAndHigher</p>
     </div>
   );
 };
@@ -57,12 +59,26 @@ const CountdownTimer = ({ setSecond }) => {
     return <ExpiredNotice />;
   } else {
     return (
-      <ShowCounter
+      <div className=" flex flex-col items-center justify-center pt-20 -mt-36 md:m-0 ">
+              <h2 className="inline-flex gap-3 text-3xl sm:text-4xl lg:text-5xl m-3 text-igold p-2 sm:p-3 lg:p-4 bg-opacity-30 backdrop-blur-lg tracking-wide rounded-md bg-gray-1000 font-light">
+                The Countdown Has Begun
+              </h2>
+              <ShowCounter
         days={days}
         hours={hours}
         minutes={minutes}
-        seconds={seconds}
-      />
+        seconds={seconds} />
+              <h2 style={{fontFamily: 'Cinzel'}} className="p-1 text-md md:text-xl mt-5 text-gray-400  bg-opacity-30 backdrop-blur-lg rounded-md bg-gray-1000">
+                ...in the meantime, check out our{" "}
+                <Link
+                  to="/events"
+                  className="text-[#cd9b58] hover:text-gray-100 transition-colors ease-out "
+                >
+                  events
+                </Link>
+                !
+              </h2>
+            </div>
     );
   }
 };
