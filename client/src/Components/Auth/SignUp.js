@@ -209,8 +209,8 @@ const SignUp = ({ signIn }) => {
                   <span className="text-center mt-2" ref={successSpan}></span>
                   {valid && !otpVerified && (
                     <>
-                      <p className="text-white ">
-                        Having trouble?{" "}
+                      <p className="text-sm text-white ">
+                        Haven't recieved the OTP?{" "}
                         <button
                           onClick={() => {
                             SetValid(false);
@@ -222,6 +222,7 @@ const SignUp = ({ signIn }) => {
                           Resend OTP
                         </button>
                       </p>
+                      <p className="text-gray-300 text-sm font-semibold">Make sure to check your <span className="font-bold">spam</span> and <span className="font-bold">promotions</span> tab</p>
                     </>
                   )}
 
