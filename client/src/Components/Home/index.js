@@ -59,7 +59,7 @@ function Home() {
               <Link to={user ? "/events" : "/login"}>
                 <div className="select-none bg-white hover:bg-white/25 cursor-pointer border-0 text-white transition ease-in duration-100   text-white bg-opacity-10  px-6 py-2 w-fit font-body  text-center ">
                   {user === null
-                    ? "Registrations Closing on 10th May"
+                    ? "Registrations extended till 11th May, 9PM"
                     : `Check Out The Events!`}
                 </div>
               </Link>
@@ -100,7 +100,7 @@ function Home() {
             className="flex mt-[4rem] justify-center text-center items-center py-5"
             style={{ fontFamily: "CinzelDecorative-Bold" }}
           >
-              <Counter setSecond={secSecond} />
+            <Counter setSecond={secSecond} />
           </div>
         </Slide>
       </div>
