@@ -5182,7 +5182,7 @@ export const eventData = [
     round: "2",
     day: "2",
     Time: "9:00 am",
-    venue: "LH 01, 02",
+    venue: "ISL 02, 03",
     branch: "ISE",
     image: "/events/IS/WEBBED.jpg",
     sponsor: "IDP",
