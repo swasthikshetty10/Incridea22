@@ -178,7 +178,8 @@ let restCollges = [
   "Canara Degree College, Mangalore",
   "Bhandarkars' Arts and Science College , Kundapura",
   "NUCSER NITTE",
-  "GOVINDA DASA DEGREE COLLEGE, SURATHKAL"
+  "GOVINDA DASA DEGREE COLLEGE, SURATHKAL",
+  "St. Mary's College, Shirva"
 ].sort();
 
 export let colleges = ["NMAM INSTITUTE OF TECHNOLOGY", ...restCollges];
