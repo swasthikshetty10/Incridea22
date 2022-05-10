@@ -179,6 +179,7 @@ let restCollges = [
   "Bhandarkars' Arts and Science College , Kundapura",
   "NUCSER NITTE",
   "GOVINDA DASA DEGREE COLLEGE, SURATHKAL",
+  "Nitte Institute of Physiotherapy",
   "St. Mary's College, Shirva"
 ].sort();
 
