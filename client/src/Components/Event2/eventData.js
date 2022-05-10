@@ -771,14 +771,14 @@ export const eventData = [
     ],
     contactDetails: [
       {
-        name: "Pavan Aiyappa",
-        phoneNumber: "9611201769",
-        emailID: "pavanaiyappa161139@gmail.com",
-      },
-      {
         name: "Sinan Mohamed",
         phoneNumber: "8792281367 ",
         emailID: "mohdmmedsinanll@gmail.com",
+      },
+      {
+        name: "Pavan Aiyappa",
+        phoneNumber: "9611201769",
+        emailID: "pavanaiyappa161139@gmail.com",
       },
     ],
   },
@@ -821,14 +821,14 @@ export const eventData = [
     ],
     contactDetails: [
       {
-        name: "Pavan Aiyappa",
-        phoneNumber: "9611201769",
-        emailID: "pavanaiyappa161139@gmail.com",
-      },
-      {
         name: "Sinan Mohamed",
         phoneNumber: "8792281367 ",
         emailID: "mohdmmedsinanll@gmail.com",
+      },
+      {
+        name: "Pavan Aiyappa",
+        phoneNumber: "9611201769",
+        emailID: "pavanaiyappa161139@gmail.com",
       },
     ],
   },
