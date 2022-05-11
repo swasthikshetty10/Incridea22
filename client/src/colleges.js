@@ -111,6 +111,7 @@ let restCollges = [
   "SAINT MARRY'S SYRIAN COLLEGE,UDUPI",
   "Sahyadri College of Engineering & Management",
   "SDM Institute of Technology,ujire",
+  "SDM Degree College, Ujire",
   "SHIRDI SAI DEGREE COLLEGE - KARKALA",
   "SHRINIVAS COLLEGE OF ENGINEERING, MUKKA",
   "SIDDAGANGA INSTITUTE OF TECHNOLOGY",
