@@ -771,14 +771,14 @@ export const eventData = [
     ],
     contactDetails: [
       {
-        name: "Pavan Aiyappa",
-        phoneNumber: "9611201769",
-        emailID: "pavanaiyappa161139@gmail.com",
-      },
-      {
         name: "Sinan Mohamed",
         phoneNumber: "8792281367 ",
         emailID: "mohdmmedsinanll@gmail.com",
+      },
+      {
+        name: "Pavan Aiyappa",
+        phoneNumber: "9611201769",
+        emailID: "pavanaiyappa161139@gmail.com",
       },
     ],
   },
@@ -821,14 +821,14 @@ export const eventData = [
     ],
     contactDetails: [
       {
-        name: "Pavan Aiyappa",
-        phoneNumber: "9611201769",
-        emailID: "pavanaiyappa161139@gmail.com",
-      },
-      {
         name: "Sinan Mohamed",
         phoneNumber: "8792281367 ",
         emailID: "mohdmmedsinanll@gmail.com",
+      },
+      {
+        name: "Pavan Aiyappa",
+        phoneNumber: "9611201769",
+        emailID: "pavanaiyappa161139@gmail.com",
       },
     ],
   },
@@ -5182,7 +5182,7 @@ export const eventData = [
     round: "2",
     day: "2",
     Time: "9:00 am",
-    venue: "LH 01, 02",
+    venue: "ISL 02, 03",
     branch: "ISE",
     image: "/events/IS/WEBBED.jpg",
     sponsor: "IDP",
