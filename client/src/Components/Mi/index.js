@@ -21,10 +21,10 @@ const EventsCard = () => {
             </h5>
             {/* <h5 className="text-center  text-md  text-igold font-body"></h5> */}
             <p className="event__description text-justify font-body">
-              They say Impossible is nothing! but is it for real? get ready to
-              pump up your adrenalin and conqure the quest for the limited
-              treasure! <br /> The Mission begines on{" "}
-              <span className="font-bold"> 14th may 9 AM</span> sharp. Dont miss
+              They say Impossible is nothing! But is it for real? Get ready to
+              pump up your adrenaline and conquer the quest for the limited
+              treasure! <br /> The Mission begins on{" "}
+              <span className="font-bold"> 14th May, 9 AM</span> sharp. Don't miss
               out, the ultimate treasure is waiting!
             </p>
             <a
