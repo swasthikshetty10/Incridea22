@@ -183,7 +183,8 @@ let restCollges = [
   "Nitte Institute of Physiotherapy",
   "St. Mary's College, Shirva",
   "Rani Channamma University Belagavi",
-  "Karnataka Ayurvedic Medical College, Mangalore"
+  "Karnataka Ayurvedic Medical College, Mangalore",
+  "N.R.A.M. Aided Polytechnic Nitte",
 ].sort();
 
 export let colleges = ["NMAM INSTITUTE OF TECHNOLOGY", ...restCollges];
