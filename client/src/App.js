@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route, useNavigate , Navigate } from "react-router-dom";
 import Event2 from "./Components/Event2";
 import Gallery from "./Components/Gallery2";
 import Home from "./Components/Home";
@@ -19,7 +19,6 @@ import { AuthProvider } from "./Context/AuthContext";
 import Profile from "./Components/Profile";
 import Privacy from "./Components/Privacy";
 import Rules from "./Components/Rules";
-import Mi from "./Components/Mi";
 
 const ScrollToTop = (props) => {
   const location = useLocation();
@@ -54,10 +53,10 @@ function App() {
             <Route path="/forgot" element={<ForgotPass />} />
             <Route exact path="/register/:email" element={<Register />} />
             <Route exact path="/profile" element={<Profile />} />
-            <Route exact path="/mi" element={<Mi />} />
+            <Route exact path="/mi" element={<Mi/>} />
             <Route exact path="/privacy" element={<Privacy />} />
             <Route exact path="/rules" element={<Rules />} />
-            <Route path="*" element={<Navigate to="/" replace />} />
+            {/* <Route path="*" element={<Navigate to="/" replace />} /> */}
           </Routes>
           <Footer />
         </ScrollToTop>
@@ -67,3 +66,12 @@ function App() {
 }
 
 export default App;
+
+function Mi(){
+  const navigate=useNavigate()
+  useEffect(()=>{
+    navigate("/mi.html")
+    window.location.reload()
+   })
+  return <></>
+}
