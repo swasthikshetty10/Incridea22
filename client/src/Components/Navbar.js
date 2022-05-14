@@ -19,7 +19,7 @@ function LoginBtn ({ user, tab, isMobile, setSignoutModalOpen }) {
           className={classNames}
           style={{fontFamily: 'Cinzel'}}
         >
-          {user ? 'PROFILE' : 'LOGIN/REGISTER'}
+          {user ? 'PROFILE' : 'LOGIN'}
         </Link>
       ) : (
         <Logout

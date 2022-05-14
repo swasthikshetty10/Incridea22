@@ -49,8 +49,8 @@ const LoginForm = () => {
 								<Paragraph>
 									The vast expenses of the sky lie uncovered; start your journey with Incridea now!
 								</Paragraph>
-								<GhostButton type='button' onClick={() => toggle(false)}>
-									Sign Up
+								<GhostButton disabled={true} type='button' onClick={() => toggle(false)}>
+									REGISTRATION CLOSED
 								</GhostButton>
 							</RightOverlayPanel>
 						</Overlay>
