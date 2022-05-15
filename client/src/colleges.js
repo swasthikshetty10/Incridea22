@@ -188,6 +188,7 @@ let restCollges = [
   "Mangalore Marine College and Technology",
   "NIFT, Kannur",
   "Manipal university, Dept. of Commerce ",
+  "CET Trivandrum Engineering College"
   
 ].sort();
 
