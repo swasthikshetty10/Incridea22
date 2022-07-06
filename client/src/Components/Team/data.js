@@ -99,6 +99,13 @@ export const persons = [
     mob: "9482254166",
   },
   {
+    name: "LEELADHAR SHETTY",
+    role: "HEAD OF DISPLAY COMMITTEE",
+    img: "/team/Leelu.png",
+    email: "",
+    mob: "8762599895",
+  },
+  {
     name: "ANUP RAI",
     role: "HEAD OF TRANSPORTATION COMMITTEE",
     img: "/team/Anup.png",
