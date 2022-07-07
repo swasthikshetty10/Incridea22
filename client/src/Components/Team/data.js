@@ -100,7 +100,7 @@ export const persons = [
   },
   {
     name: "LEELADHAR SHETTY",
-    role: "HEAD OF DISPLAY COMMITTEE",
+    role: "HEAD OF SPONSORSHIP COMMITTEE",
     img: "/team/Leelu.png",
     email: "",
     mob: "8762599895",
