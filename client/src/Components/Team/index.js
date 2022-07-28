@@ -13,7 +13,7 @@ const Team = () => {
 
       <div className="bg-[#000] ">
         <h1 className="leading-[2.5rem]  text-5xl text-center md:text-6xl font-title pb-0 text-white sm:ml-4 p-4 sm:p-12 tracking-widest  bg-[#000]">
-          TEAM
+          THE CORE TEAM
         </h1>
         <p className="text-igold lg:mb-6 p-3 text-3xl font-body text-center mb-6">
           Meet the people behind the scenes.
