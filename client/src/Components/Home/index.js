@@ -58,9 +58,7 @@ function Home() {
               </p>
               <Link to={user ? "/events" : "/login"}>
                 <div className="select-none bg-white hover:bg-white/25 cursor-pointer border-0 text-white transition ease-in duration-100   text-white bg-opacity-10  px-6 py-2 w-fit font-body  text-center ">
-                  {user === null
-                    ? "Registrations Close At 3 PM Today!"
-                    : `Check Out The Events!`}
+                    Check Out our Events!
                 </div>
               </Link>
             </div>
