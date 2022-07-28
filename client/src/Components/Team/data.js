@@ -43,7 +43,7 @@ export const persons = [
   },
   {
     name: "BHARATH M KULKARNI",
-    role: "HEAD OF HOSPITALITY, VALEDICTORY & TECHNICAL COMMITTEES",
+    role: "HEAD OF HOSPITALITY & TECHNICAL COMMITTEES",
     img: "/team/Bharat.png",
     email: "bharathmkulkarni@gmail.com",
     mob: "886185124",
@@ -77,6 +77,13 @@ export const persons = [
     mob: "9902145643",
   },
   {
+    name: "ROLAN GOMES",
+    role: "HEAD OF DIGITAL & VALEDICTORY COMMITTEES",
+    img: "/team/rolan_.png",
+    email: "rolangomes19@gmail.com",
+    mob: "9019536394",
+  },
+  {
     name: "ADITYA BHAT",
     role: "HEAD OF JURY COMMITTEE",
     img: "/team/ADB.png",
@@ -84,13 +91,6 @@ export const persons = [
     mob: "9611309109",
   },
 
-  {
-    name: "ROLAN GOMES",
-    role: "HEAD OF DIGITAL COMMITTEE",
-    img: "/team/rolan_.png",
-    email: "rolangomes19@gmail.com",
-    mob: "9019536394",
-  },
   {
     name: "SHRAVYA JAIN",
     role: "HEAD OF RE",
