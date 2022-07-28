@@ -56,7 +56,7 @@ function Home() {
                 </a>
                 , Nitte.
               </p>
-              <Link to={user ? "/events" : "/login"}>
+              <Link to="/events">
                 <div className="select-none bg-white hover:bg-white/25 cursor-pointer border-0 text-white transition ease-in duration-100   text-white bg-opacity-10  px-6 py-2 w-fit font-body  text-center ">
                     Check Out our Events!
                 </div>
