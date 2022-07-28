@@ -23,7 +23,7 @@ function Contact() {
                 </div>
                  <div className='font-body text-xl mt-5 md:mt-0 text-white pb-1.5 text-center md:text-right'>
 
-                    <div className=' font-body text-xl  text-white pb-1.5 ' > <p className=' inline'> <FaPhoneAlt className=' text-igold inline mr-1' /> Phone :</p><a className='text-igold  hover:text-white transition-colors ' href="tel:9620004763"> 9620004763</a></div>
+                    <div className=' font-body text-xl  text-white pb-1.5 ' > <p className=' inline'> <FaPhoneAlt className=' text-igold inline mr-1' /> Phone :</p><a className='text-igold  hover:text-white transition-colors ' href="tel:9611309109"> 9611309109</a></div>
 
                     <div className=' font-body text-xl  text-white pb-1.5 ' > <HiOutlineMail className=' text-igold inline mr-1 ' /> <p className=' inline'>  Email Us :</p>  <a className='text-igold hover:text-white transition-colors ' href="mailto:student.coordinator@nmamit.in"> student.coordinator@nmamit.in </a></div>
 
