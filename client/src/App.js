@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Routes, Route, useNavigate , Navigate } from "react-router-dom";
+import { Routes, Route, useNavigate, Navigate } from "react-router-dom";
 import Event2 from "./Components/Event2";
 import Gallery from "./Components/Gallery2";
 import Home from "./Components/Home";
@@ -48,12 +48,12 @@ function App() {
             <Route exact path="/Sponsors" element={<Sponsor />} />
             <Route exact path="/team" element={<Team />} />
             <Route exact path="/pronite" element={<Pronite />} />
-            <Route exact path="/TechTeam" element={<TechTeam />} />
+            {/* <Route exact path="/TechTeam" element={<TechTeam />} /> NOTE: Remove link comment*/}
             <Route path="/login" element={<LoginForm />} />
             <Route path="/forgot" element={<ForgotPass />} />
             <Route exact path="/register/:email" element={<Register />} />
             <Route exact path="/profile" element={<Profile />} />
-            <Route exact path="/mi" element={<Mi/>} />
+            <Route exact path="/mi" element={<Mi />} />
             <Route exact path="/privacy" element={<Privacy />} />
             <Route exact path="/rules" element={<Rules />} />
             {/* <Route path="*" element={<Navigate to="/" replace />} /> */}
@@ -67,11 +67,11 @@ function App() {
 
 export default App;
 
-function Mi(){
-  const navigate=useNavigate()
-  useEffect(()=>{
+function Mi() {
+  const navigate = useNavigate()
+  useEffect(() => {
     navigate("/mi.html")
     window.location.reload()
-   })
+  })
   return <></>
 }
